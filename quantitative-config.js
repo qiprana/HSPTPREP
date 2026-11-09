@@ -28,6 +28,12 @@ window.HSPT_QUANT_CONFIG = {
   "Mixed Review I — arithmetic and number reasoning",
   "Mixed Review II — algebra, geometry and data"
 ],
+ topicTestSlots:Array.from({length:20},(_,i)=>({
+   session:i+1,
+   topicIndex:i,
+   path:null,
+   format:null
+ })),
  paperSlots:Array.from({length:40},(_,i)=>({
    paperNumber:i+1,
    allocation:i<20?'learning':i<30?'mock':'reserve',
