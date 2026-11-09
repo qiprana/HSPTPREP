@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "paperId": "reading-01",
-  "status": "in-progress",
+  "status": "complete-pilot",
   "durationMinutes": 23,
   "targetQuestions": 62,
   "passages": [
@@ -151,8 +151,803 @@
           "passageId": "R01-P1"
         }
       ]
+    },
+    {
+      "id": "R01-P2",
+      "title": "The Seed Library",
+      "text": "In a small town, volunteers began collecting seeds from vegetables grown in local gardens. Their goal was not simply to store seeds but to preserve varieties that had adapted to the area's short growing season. Each autumn, gardeners dried seeds, labeled them with the plant's name and harvest year, and delivered them to the library.\n\nThe organizers soon learned that seeds cannot remain useful indefinitely. Some varieties lose their ability to sprout after only a few years, especially when exposed to heat or moisture. Volunteers therefore kept seeds in cool, dry containers and tested small samples for germination. If too few seeds sprouted, they planted the remaining seeds and collected a fresh harvest.\n\nThe library also invited residents to borrow seeds in spring. Borrowers agreed to return some seeds from the plants they raised. This arrangement worked best for plants whose seeds were easy to save. For other plants, cross-pollination could produce offspring unlike the parent variety, so volunteers offered extra instructions.\n\nAfter several seasons, the library had become more than a collection of envelopes. Gardeners exchanged advice, students learned how plants reproduce, and neighbors discovered varieties rarely sold in stores. The project showed that preserving agricultural diversity requires both careful storage and active participation.",
+      "questions": [
+        {
+          "id": "R01-C11",
+          "type": "General",
+          "prompt": "What is the central idea of the passage?",
+          "choices": [
+            "Seed libraries depend on both preservation and community participation",
+            "All seeds remain viable for centuries",
+            "Gardeners should avoid unusual vegetables",
+            "Seed libraries are mainly commercial businesses"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: Seed libraries depend on both preservation and community participation. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C12",
+          "type": "Specific",
+          "prompt": "Why were some varieties especially valuable to the town?",
+          "choices": [
+            "They grew only in tropical weather",
+            "They were adapted to a short growing season",
+            "They required no water",
+            "They were imported every spring"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: They were adapted to a short growing season. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C13",
+          "type": "Specific",
+          "prompt": "What information did volunteers place on labels?",
+          "choices": [
+            "The gardener's favorite recipe",
+            "The seed's price",
+            "Plant name and harvest year",
+            "The number of leaves"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Plant name and harvest year. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C14",
+          "type": "Vocabulary",
+          "prompt": "In paragraph 2, 'germination' refers to",
+          "choices": [
+            "seed sprouting",
+            "seed shipping",
+            "plant harvesting",
+            "soil freezing"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: seed sprouting. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C15",
+          "type": "Specific",
+          "prompt": "What did volunteers do when too few seeds sprouted?",
+          "choices": [
+            "Discard every envelope",
+            "Plant remaining seeds to collect new ones",
+            "Raise storage temperatures",
+            "Stop accepting borrowers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: Plant remaining seeds to collect new ones. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C16",
+          "type": "General",
+          "prompt": "Which conclusion is supported by the passage?",
+          "choices": [
+            "All plants can be saved with identical methods",
+            "Cross-pollination is always harmful",
+            "Seed preservation may require growing plants periodically",
+            "Seeds should be kept in warm damp places"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Seed preservation may require growing plants periodically. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C17",
+          "type": "Specific",
+          "prompt": "What were borrowers asked to return?",
+          "choices": [
+            "Some seeds from the plants they grew",
+            "A monthly cash fee",
+            "All of their harvested vegetables",
+            "The original envelopes unopened"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: Some seeds from the plants they grew. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C18",
+          "type": "General",
+          "prompt": "Why does the author mention cross-pollination?",
+          "choices": [
+            "To explain why some borrowers needed special guidance",
+            "To show why plants cannot reproduce",
+            "To argue that all seeds are identical",
+            "To describe how labels were printed"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: To explain why some borrowers needed special guidance. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C19",
+          "type": "General",
+          "prompt": "How is the final paragraph related to the first?",
+          "choices": [
+            "It rejects the library's original purpose",
+            "It shows how the project expanded beyond storage",
+            "It introduces a completely different town",
+            "It lists the costs of the program"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: It shows how the project expanded beyond storage. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        },
+        {
+          "id": "R01-C20",
+          "type": "General",
+          "prompt": "Which tone best describes the passage?",
+          "choices": [
+            "Mocking",
+            "Alarmed",
+            "Informative and appreciative",
+            "Bitter"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Informative and appreciative. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P2"
+        }
+      ]
+    },
+    {
+      "id": "R01-P3",
+      "title": "A Bridge for Wildlife",
+      "text": "A new highway shortened the drive between two mountain towns, but it also divided a forest used by deer, foxes, and other animals. Wildlife frequently crossed the road in search of food or mates. Drivers faced sudden hazards, and many animals were injured. Local officials considered fences, warning signs, and lower speed limits, but none of these measures alone could reconnect the separated habitat.\n\nBiologists proposed a vegetated bridge over the highway. Unlike an ordinary pedestrian bridge, the crossing would be covered with soil, shrubs, and small trees. Fences along the roadway would guide animals toward the bridge rather than letting them enter traffic. The design was expensive, and some residents questioned whether animals would use it.\n\nBefore construction, researchers installed cameras along established animal trails. They recorded which species traveled through the area and at what times. After the bridge opened, cameras showed deer using it regularly. Foxes appeared less often at first but became more frequent as vegetation grew denser.\n\nThe researchers cautioned that photographs alone could not prove every benefit. Traffic volume, seasonal migrations, and changes in nearby development might also affect collision numbers. Still, the crossing offered a promising way to improve safety while allowing wildlife to move through a landscape altered by roads.",
+      "questions": [
+        {
+          "id": "R01-C21",
+          "type": "General",
+          "prompt": "What problem prompted the proposed wildlife bridge?",
+          "choices": [
+            "A river flooded the highway",
+            "The highway divided habitat and caused dangerous crossings",
+            "The towns had no pedestrian paths",
+            "The forest lacked vegetation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: The highway divided habitat and caused dangerous crossings. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C22",
+          "type": "Specific",
+          "prompt": "What covered the proposed crossing?",
+          "choices": [
+            "Glass panels",
+            "Metal tracks",
+            "Soil, shrubs, and small trees",
+            "Painted road markings"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Soil, shrubs, and small trees. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C23",
+          "type": "Specific",
+          "prompt": "What was the purpose of roadside fences?",
+          "choices": [
+            "To direct animals toward the bridge",
+            "To keep people out of both towns",
+            "To block all wildlife movement",
+            "To reduce the bridge's height"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: To direct animals toward the bridge. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C24",
+          "type": "General",
+          "prompt": "Why did some residents question the project?",
+          "choices": [
+            "They doubted animals would use an expensive bridge",
+            "They wanted a larger highway",
+            "They believed deer never crossed roads",
+            "They opposed all scientific monitoring"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: They doubted animals would use an expensive bridge. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C25",
+          "type": "Specific",
+          "prompt": "What did researchers do before construction?",
+          "choices": [
+            "Remove every animal trail",
+            "Install cameras along existing animal trails",
+            "Move the deer to another state",
+            "Close the highway permanently"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: Install cameras along existing animal trails. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C26",
+          "type": "Vocabulary",
+          "prompt": "In paragraph 3, 'denser' most nearly means",
+          "choices": [
+            "more crowded or thick",
+            "more brightly colored",
+            "more expensive",
+            "less natural"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: more crowded or thick. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C27",
+          "type": "Specific",
+          "prompt": "Which animals appeared increasingly often as vegetation grew?",
+          "choices": [
+            "Deer only",
+            "Birds only",
+            "Foxes",
+            "Domestic horses"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Foxes. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C28",
+          "type": "General",
+          "prompt": "Why did researchers avoid claiming that photos proved every benefit?",
+          "choices": [
+            "Other factors might influence collision numbers",
+            "The cameras never recorded wildlife",
+            "The bridge was not yet open",
+            "The forest was completely unchanged"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: Other factors might influence collision numbers. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C29",
+          "type": "General",
+          "prompt": "Which statement is best supported?",
+          "choices": [
+            "A single crossing guarantees zero collisions",
+            "Wildlife crossings can improve connectivity while safety outcomes require evaluation",
+            "Fences are never useful",
+            "Animals always avoid human structures"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: Wildlife crossings can improve connectivity while safety outcomes require evaluation. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        },
+        {
+          "id": "R01-C30",
+          "type": "General",
+          "prompt": "What is the author's primary purpose?",
+          "choices": [
+            "To describe a proposed solution and evidence about its use",
+            "To entertain with an animal fable",
+            "To persuade readers to stop driving",
+            "To list mountain-town restaurants"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: To describe a proposed solution and evidence about its use. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P3"
+        }
+      ]
+    },
+    {
+      "id": "R01-P4",
+      "title": "The Observatory Notebook",
+      "text": "When twelve-year-old Leena joined the school astronomy club, she expected to spend every meeting looking through a telescope. Instead, the club adviser handed her a notebook and asked her to sketch the Moon on three evenings each week. Leena was disappointed. A sketch seemed ordinary compared with seeing distant planets.\n\nDuring the first week, clouds obscured the sky twice. On the third evening, Leena noticed a curved line separating the Moon's bright and dark regions. She drew it carefully and labeled the date. A week later, the line had shifted, revealing craters that had previously been hidden in shadow.\n\nAt the next meeting, the adviser placed everyone's sketches in chronological order. Although several students had drawn the same Moon, their records differed in detail. Some had forgotten dates; others had changed the size of their drawings. Leena's consistent labels made her observations easier to compare.\n\nBy the end of the month, Leena understood why the adviser had insisted on a notebook. The telescope provided exciting views, but the written record allowed the students to recognize patterns. She still loved looking at planets, yet she no longer regarded careful observation as a dull substitute for discovery.",
+      "questions": [
+        {
+          "id": "R01-C31",
+          "type": "General",
+          "prompt": "How does Leena's attitude change?",
+          "choices": [
+            "From enthusiasm for records to dislike of astronomy",
+            "From disappointment about sketching to appreciation of records",
+            "From fear of telescopes to fear of clouds",
+            "From confidence to refusal to observe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: From disappointment about sketching to appreciation of records. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C32",
+          "type": "Specific",
+          "prompt": "What did the adviser first ask Leena to do?",
+          "choices": [
+            "Build a telescope",
+            "Sketch the Moon three evenings each week",
+            "Write about the planets every day",
+            "Photograph a comet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: Sketch the Moon three evenings each week. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C33",
+          "type": "Specific",
+          "prompt": "Why could Leena not observe on two evenings?",
+          "choices": [
+            "She misplaced her notebook",
+            "The telescope broke",
+            "Clouds obscured the sky",
+            "The club canceled meetings"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Clouds obscured the sky. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C34",
+          "type": "Vocabulary",
+          "prompt": "In paragraph 2, 'obscured' most nearly means",
+          "choices": [
+            "hidden from view",
+            "made brighter",
+            "measured carefully",
+            "moved closer"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: hidden from view. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C35",
+          "type": "Specific",
+          "prompt": "What changed between Leena's Moon sketches?",
+          "choices": [
+            "The Moon disappeared forever",
+            "The bright-dark boundary shifted",
+            "The telescope changed color",
+            "All craters became larger"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: The bright-dark boundary shifted. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C36",
+          "type": "General",
+          "prompt": "Why were Leena's sketches easier to compare?",
+          "choices": [
+            "She used consistent dates and labels",
+            "She drew only planets",
+            "She omitted all details",
+            "She used different paper sizes each time"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: She used consistent dates and labels. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C37",
+          "type": "Specific",
+          "prompt": "What did some other students forget?",
+          "choices": [
+            "The Moon's existence",
+            "Their notebooks at home",
+            "Dates on their sketches",
+            "How to use pencils"
+          ],
+          "correctIndex": 2,
+          "explanation": "Evidence: Dates on their sketches. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C38",
+          "type": "General",
+          "prompt": "Which statement best expresses the lesson Leena learned?",
+          "choices": [
+            "Exciting instruments make records unnecessary",
+            "Patterns become easier to notice through consistent observations",
+            "Astronomy can only be learned indoors",
+            "Sketches are always more accurate than photographs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: Patterns become easier to notice through consistent observations. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C39",
+          "type": "General",
+          "prompt": "Which word best describes the adviser's approach?",
+          "choices": [
+            "Patient and methodical",
+            "Careless and impulsive",
+            "Hostile and secretive",
+            "Indifferent and confused"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evidence: Patient and methodical. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        },
+        {
+          "id": "R01-C40",
+          "type": "General",
+          "prompt": "Which title best fits the passage?",
+          "choices": [
+            "The Disappearing Telescope",
+            "A Notebook That Revealed Patterns",
+            "The History of Planet Names",
+            "A School Without Clouds"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evidence: A Notebook That Revealed Patterns. Refer to the passage for the supporting detail.",
+          "passageId": "R01-P4"
+        }
+      ]
     }
   ],
-  "vocabularyQuestions": [],
-  "notes": "Original pilot content. Not a full paper yet: remaining 3 passages and 22 vocabulary questions must be authored and validated. Do not expose as a full-length test."
+  "vocabularyQuestions": [
+    {
+      "id": "R01-V01",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an affront to the guests\"",
+      "phrase": "an affront to the guests",
+      "targetWord": "affront",
+      "choices": [
+        "invitation",
+        "insult",
+        "agreement",
+        "compliment"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"insult\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V02",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an antidote to the poison\"",
+      "phrase": "an antidote to the poison",
+      "targetWord": "antidote",
+      "choices": [
+        "danger",
+        "symptom",
+        "remedy",
+        "delay"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"remedy\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V03",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"assent to the proposal\"",
+      "phrase": "assent to the proposal",
+      "targetWord": "assent",
+      "choices": [
+        "object",
+        "agree",
+        "hesitate",
+        "forget"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"agree\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V04",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"censure the misconduct\"",
+      "phrase": "censure the misconduct",
+      "targetWord": "censure",
+      "choices": [
+        "praise",
+        "conceal",
+        "criticize",
+        "imitate"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"criticize\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V05",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"reach a compromise\"",
+      "phrase": "reach a compromise",
+      "targetWord": "compromise",
+      "choices": [
+        "settlement",
+        "dispute",
+        "victory",
+        "command"
+      ],
+      "correctIndex": 0,
+      "explanation": "In this phrase, the word most nearly means \"settlement\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V06",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a period of concord\"",
+      "phrase": "a period of concord",
+      "targetWord": "concord",
+      "choices": [
+        "confusion",
+        "harmony",
+        "scarcity",
+        "silence"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"harmony\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V07",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"defer the meeting\"",
+      "phrase": "defer the meeting",
+      "targetWord": "defer",
+      "choices": [
+        "attend",
+        "shorten",
+        "postpone",
+        "announce"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"postpone\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V08",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"deplorable conditions\"",
+      "phrase": "deplorable conditions",
+      "targetWord": "deplorable",
+      "choices": [
+        "ordinary",
+        "temporary",
+        "shameful",
+        "favorable"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"shameful\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V09",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"endanger the hikers\"",
+      "phrase": "endanger the hikers",
+      "targetWord": "endanger",
+      "choices": [
+        "guide",
+        "threaten",
+        "rescue",
+        "entertain"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"threaten\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V10",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"enthrall the audience\"",
+      "phrase": "enthrall the audience",
+      "targetWord": "enthrall",
+      "choices": [
+        "confuse",
+        "disappoint",
+        "captivate",
+        "dismiss"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"captivate\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V11",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an illustrious scientist\"",
+      "phrase": "an illustrious scientist",
+      "targetWord": "illustrious",
+      "choices": [
+        "unknown",
+        "distinguished",
+        "inexperienced",
+        "ordinary"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"distinguished\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V12",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"latitude in choosing a topic\"",
+      "phrase": "latitude in choosing a topic",
+      "targetWord": "latitude",
+      "choices": [
+        "precision",
+        "distance",
+        "freedom",
+        "urgency"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"freedom\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V13",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a succinct explanation\"",
+      "phrase": "a succinct explanation",
+      "targetWord": "succinct",
+      "choices": [
+        "lengthy",
+        "uncertain",
+        "concise",
+        "forceful"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"concise\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V14",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"with the utmost care\"",
+      "phrase": "with the utmost care",
+      "targetWord": "utmost",
+      "choices": [
+        "least",
+        "greatest",
+        "usual",
+        "sudden"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"greatest\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V15",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"validate the results\"",
+      "phrase": "validate the results",
+      "targetWord": "validate",
+      "choices": [
+        "ignore",
+        "reverse",
+        "confirm",
+        "invent"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"confirm\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V16",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a vital resource\"",
+      "phrase": "a vital resource",
+      "targetWord": "vital",
+      "choices": [
+        "optional",
+        "scarce",
+        "essential",
+        "costly"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"essential\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V17",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a voracious reader\"",
+      "phrase": "a voracious reader",
+      "targetWord": "voracious",
+      "choices": [
+        "eager",
+        "careless",
+        "silent",
+        "reluctant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In this phrase, the word most nearly means \"eager\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V18",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an affront to her dignity\"",
+      "phrase": "an affront to her dignity",
+      "targetWord": "affront",
+      "choices": [
+        "reward",
+        "offense",
+        "remedy",
+        "honor"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"offense\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V19",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"defer a decision\"",
+      "phrase": "defer a decision",
+      "targetWord": "defer",
+      "choices": [
+        "approve",
+        "delay",
+        "cancel",
+        "explain"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"delay\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V20",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"succinct instructions\"",
+      "phrase": "succinct instructions",
+      "targetWord": "succinct",
+      "choices": [
+        "confusing",
+        "brief",
+        "unnecessary",
+        "strict"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"brief\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V21",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an illustrious career\"",
+      "phrase": "an illustrious career",
+      "targetWord": "illustrious",
+      "choices": [
+        "brief",
+        "renowned",
+        "secret",
+        "ordinary"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"renowned\".",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R01-V22",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a voracious appetite\"",
+      "phrase": "a voracious appetite",
+      "targetWord": "voracious",
+      "choices": [
+        "moderate",
+        "ravenous",
+        "delicate",
+        "selective"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"ravenous\".",
+      "vocabularyDay": 1
+    }
+  ],
+  "notes": "Original 62-question pilot; vocabulary revisits all 17 Day-1 words, five in additional contexts. Editorial review recommended before production.",
+  "totalQuestions": 62
 }
