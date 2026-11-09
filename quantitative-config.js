@@ -1,8 +1,7 @@
-/* Quantitative learning plan. Map paper slots to actual uploaded files once present.
-   The HSPTPREP main branch did not contain an output/ directory when this file was authored.
-   Do not mark a paper available without a readable source file. */
+/* Quantitative learning plan: 40 source papers checked in at
+   forty-tests/test-NN/questions.json. Individual topic tests remain placeholders. */
 window.HSPT_QUANT_CONFIG = {
- version:1,
+ version:2,
  standardMinutes:30,
  practiceMinutes:28,
  questionsPerPaper:52,
@@ -37,7 +36,7 @@ window.HSPT_QUANT_CONFIG = {
  paperSlots:Array.from({length:40},(_,i)=>({
    paperNumber:i+1,
    allocation:i<20?'learning':i<30?'mock':'reserve',
-   path:null,
-   format:null
+   path:'forty-tests/test-'+String(i+1).padStart(2,'0')+'/questions.json',
+   format:'json'
  }))
 };

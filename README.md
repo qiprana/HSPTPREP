@@ -20,48 +20,27 @@ A GitHub Pages-friendly HSPT study site. No logins, frameworks or paid APIs.
 - Short concept questions are untimed; timed subject questions prioritize unseen items from the available bank and record distinct question coverage separately from repeat attempts. The optional 60-question Verbal exam is available with a **14-minute** timer.
 - The 98-question starter bank is intentionally marked as sample practice. Complete section-size question sets and actual section coverage depend on additional bank uploads.
 
-## Quantitative: 20 sessions, 40 papers (allocation prepared)
+## Quantitative: 20 learning sessions and 40 complete paper files
 
-The Quantitative module uses the 18 study topics supplied in the screenshot, plus two mixed-review sessions. Each of the 20 Quantitative learning sessions is assigned one **52-question paper** with a **28-minute timer**.
+All 40 Quantitative papers are now stored in `forty-tests/test-NN/questions.json`, accompanied by HTML, metadata and validation reports. The collection manifest is at `forty-tests/manifest.json`; it lists **2,080 questions** total. Every paper has **52 questions** and the practice interface uses a **28-minute countdown** (two minutes below the provided 30-minute standard).
 
 | Paper numbers | Allocation | Status |
 | --- | --- | --- |
-| 1–20 | Quantitative learning sessions 1–20 within Days 1–50 | Slots created |
-| 21–30 | Quantitative portion of mock days 51–60, one per day | Reserved |
-| 31–40 | Future reinforcement, retakes, and targeted review | Reserved |
+| 1–20 | Quantitative learning sessions 1–20 during Days 1–50 | Connected, playable |
+| 21–30 | Quantitative portion of mock days 51–60, one per day | Connected; launch from mock-day panel |
+| 31–40 | Future reinforcement, retakes and targeted review | Connected, available as reserve |
 
-The topic-specific tests are shown as **awaiting upload**. Their question counts and formats will be finalized after source files arrive.
+The 18 supplied Quantitative topics and two mixed-review sessions are displayed in the Quantitative learning curriculum. **Individual topic tests have not been uploaded yet** and remain placeholders.
 
-**Important:** The connected GitHub repository `qiprana/HSPTPREP` currently has **no `output/` directory or 40-paper files on `main`** (checked at setup time). No papers were imported or marked available. When the files are pushed to this repository, update `quantitative-config.js` with the exact relative paths. The browser cannot enumerate a folder in a GitHub Pages site on its own.
+The JSON runner reads the original source schema: `questions` (52 items), `question_id`, `prompt`, `options` with A–D keys, `correct_option`, `explanation`, optional `stimulus` and geometry SVG diagrams in `media.svg`. It preserves these diagrams, renders comparison quantities, tracks individual question attempts, scores and retakes, and stores progress locally in the browser.
 
-### Interactive paper file format
-
-The optional online paper runner accepts JSON with **exactly 52 unique questions**, each containing a unique ID, a prompt, four distinct choice strings, a correct answer matching a choice, and an optional explanation:
-
-```json
-{
-  "paperNumber": 1,
-  "questions": [
-    {
-      "id": "q1",
-      "prompt": "Example question prompt",
-      "choices": ["Choice A", "Choice B", "Choice C", "Choice D"],
-      "answer": "Choice A",
-      "explanation": "Explain the reasoning."
-    }
-  ]
-}
-```
-
-The example shows the **format** only; an actual file requires 52 questions. Set the paper entry's `path` to a relative file such as `output/quant-paper-01.json` and `format` to `json`. PDF papers can instead be linked using `format: 'pdf'`; they open as documents rather than auto-graded interactive tests. A PDF needs a converted question bank with answers for scoring and detailed progress tracking.
-
-For fully interactive paper attempts, correct answers, question-attempt counts, topic review marks, and timer-based scores are stored locally in the same browser. Previously saved learning progress remains in place. Paper completion credit requires an entire 52-question learning paper attempted and at least 70% correct; paper retakes are allowed.
+Each Quantitative paper is a separate complete section. Days 51–60 still include a **30-question, five-section diagnostic preview**, because full Reading, Mathematics, Language and Verbal mock-paper banks are not yet complete. The matching 52-question Quantitative paper (#21–30) can be launched separately on each mock day. Do not present the diagnostic as a complete five-section HSPT exam.
 
 ## Mock-exam readiness
 
 - Days 51–60 currently offer **30-question five-section diagnostic previews** (six original starter questions per subject), with a 30-minute countdown, review explanations, and scores tracked separately.
 - These are **not yet complete official-format mock papers**. The starter bank of 98 questions cannot provide 10 distinct full HSPT papers. Expand the bank with user-supplied material before enabling the complete paper format.
-- Planned Quantitative coverage will use the user's three forthcoming categories; current quantitative questions are only preliminary samples.
+- Quantitative has 40 complete online papers. Topic-specific tests remain pending; other subjects still need their full mock-paper banks.
 - Marking study sessions complete is separate from taking a test. Completed days require all daily words marked covered and the two selected subject sessions finished; the optional 60-question Verbal daily/cumulative challenges remain available and retakable.
 
 ## Deploy
