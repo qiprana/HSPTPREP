@@ -483,6 +483,7 @@ function renderExam(){
  $('examControls').classList.toggle('hidden',pending);
  $('examBody').classList.toggle('hidden',pending);
  $('examExternalResources').classList.toggle('hidden',pending);
+ $('readingPilotLink').classList.toggle('hidden',examSection!=='reading');
  if(!pending){$('quantPaperRunner').classList.add('hidden');if(typeof stopQuantPaperTimer==='function')stopQuantPaperTimer();}
  $('examSectionPicker').innerHTML='';
  renderExamIntro();
