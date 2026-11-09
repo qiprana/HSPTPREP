@@ -1,0 +1,27 @@
+name: Validate Subject Navigation and Overview
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'reading-skills.html'
+      - 'reading-day1.html'
+      - 'language.html'
+      - 'tests/validate-subject-navigation.js'
+      - '.github/workflows/validate-navigation.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'reading-skills.html'
+      - 'reading-day1.html'
+      - 'language.html'
+      - 'tests/validate-subject-navigation.js'
+jobs:
+  check-navigation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify overview and subject routes
+        run: node tests/validate-subject-navigation.js
