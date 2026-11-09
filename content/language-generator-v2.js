@@ -123,7 +123,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
         skill="Paragraph unity";text="Consider a paragraph about "+a.topic+": (1) "+claim+" (2) "+detail+" (3) "+unrelated+" (4) "+outcome+" Which numbered sentence should be removed?";
         options=["Sentence 3","Sentence 1","Sentence 2","Sentence 4"];explain="Sentence 3 shifts to an unrelated subject and breaks paragraph unity.";break;
       case 3:
-        skill="Titles";text=A paragraph explains the topic of the "+a.topic+" using this evidence: "+detail+" Which title best fits?";
+        skill="Titles";text="A paragraph explains the topic of the "+a.topic+" using this evidence: "+detail+" Which title best fits?";
         options=[a.title,"A Complete History of Everything","The Story of "+b.topic,"An Unrelated Adventure"];explain="The strongest title accurately describes the central topic at an appropriate level of specificity.";break;
       case 4:
         skill="Organization";text="In explaining a process for the "+a.topic+", which action should come FIRST?";
