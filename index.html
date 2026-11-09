@@ -528,7 +528,7 @@ function renderSubjectResources(){
   completed=Object.entries(progress).filter(([key,value])=>Number(key)>=1&&Number(key)<=20&&(reading?value&&typeof value.score==='number':value&&value.practice)).length;
   if(language){const spells=JSON.parse(localStorage.getItem('hspt-language-spelling-v1')||'{}');mastered=Object.values(spells).filter(v=>v&&v.correct>=2).length;}
  }catch(e){}
- const statText=reading?['20 guided passages','100 comprehension questions','1 full test pilot · 62 questions / 23 min']:['20 learning sessions','200 spelling words','20 full tests · 60 questions / 25 min'];
+ const statText=reading?['20 guided passages','100 comprehension questions','1 full test pilot · 62 questions / 23 min']:['20 learning sessions','317 spelling words','20 full tests · 60 questions / 25 min'];
  const stats=statText.map(t=>'<span class="pill">'+safe(t)+'</span>').join('');
  const buttons=Array.from({length:20},(_,i)=>{const d=i+1;return '<button type="button" class="subject-day '+(d===day?'active':'')+'" data-resource-day="'+d+'" aria-pressed="'+(d===day)+'" aria-label="'+subject+' Day '+d+'">Day '+d+'</button>';}).join('');
  const lessonUrl=reading?'./reading-skills.html?day='+day:'./language.html?day='+day;
@@ -536,8 +536,8 @@ function renderSubjectResources(){
  const practiceInfo=reading?'Read the Day '+day+' passage, answer five multiple-choice comprehension questions, review the passage and see your score.':'Review the Day '+day+' lesson, work on grammar and usage, and learn ten spelling words using pronunciation and recall drills.';
  const paperTitle=reading?'Reading · Day 1 pilot':'Language · Day '+day+' full test';
  const paperInfo=reading?'The only available 62-question Reading paper is Day 1 (23 minutes). The other 19 distinct full papers have not been published yet.':'A separate 60-question paper for Day '+day+': 30 usage/mechanics, 10 spelling and 20 composition, with a 25-minute timer, scoring and answer explanations.';
- const note=reading?'Reading progress: '+completed+' of 20 guided days completed. Full-paper coverage remains a Day 1 pilot.':'Language progress: '+completed+' of 20 practice sessions completed; '+mastered+' of 200 spelling words mastered. Distinct papers are linked for Days 1–20.';
- host.innerHTML='<div class="subject-study-head"><div><div class="kicker">'+(reading?'READING':'LANGUAGE')+' · LEARN, PRACTICE, TEST</div><h2>Choose a day. Practice the skill. Try a timed paper.</h2><p class="muted">'+(reading?'Each of the 20 days now has a separate passage and comprehension practice set.':'20 Language sessions, each with a distinct practice set and 60-question timed paper, plus 200 spelling words.')+'</p></div><span class="pill teal">Day '+day+' selected</span></div>'+
+ const note=reading?'Reading progress: '+completed+' of 20 guided days completed. Full-paper coverage remains a Day 1 pilot.':'Language progress: '+completed+' of 20 practice sessions completed; '+mastered+' of 317 spelling words mastered. Distinct papers are linked for Days 1–20.';
+ host.innerHTML='<div class="subject-study-head"><div><div class="kicker">'+(reading?'READING':'LANGUAGE')+' · LEARN, PRACTICE, TEST</div><h2>Choose a day. Practice the skill. Try a timed paper.</h2><p class="muted">'+(reading?'Each of the 20 days now has a separate passage and comprehension practice set.':'20 Language sessions, each with a distinct practice set and 60-question timed paper, plus 317 spelling words.')+'</p></div><span class="pill teal">Day '+day+' selected</span></div>'+
  '<div class="subject-study-stats">'+stats+'</div>'+
  '<div class="subject-day-heading"><h3>Select a learning session</h3><span class="small muted">Day '+day+' of 20</span></div>'+
  '<div class="subject-day-grid" aria-label="Choose a '+subject+' learning day">'+buttons+'</div>'+
