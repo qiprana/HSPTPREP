@@ -1,0 +1,946 @@
+{
+  "schema_version": "hspt.quant.collection/1",
+  "collection_id": "HSPT-QS-40",
+  "test_count": 40,
+  "question_count": 2080,
+  "difficulty_counts": {
+    "2": 624,
+    "3": 1456
+  },
+  "tests": [
+    {
+      "test_id": "HSPT-QS-40-T01",
+      "test_number": 1,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-01/questions.json",
+        "sqlite": "test-01/questions.db",
+        "html": "test-01/questions.html",
+        "metadata": "test-01/metadata.json",
+        "validation": "test-01/validation.json"
+      },
+      "checksums": {
+        "test-01/questions.json": "2fe987e8cab9a4c40e38da18d42fca39a5445c1ec246ca0bef8827bb63b3a57a",
+        "test-01/questions.db": "dbaf4e1ebaa61ee08da8629c8171f3aaeb5b8d927e53f70f2c2a5f92cb8d4a11",
+        "test-01/questions.html": "dff2b20c5c13be0ac7dbff2f2e01594bccc48e727d47d0e58b3dedfcdf20aef5",
+        "test-01/metadata.json": "3e56bfbd0b7ec765dd95947d55961dd331fce8a5c0ec2fc11f8d171137e2fcb0",
+        "test-01/validation.json": "19ca1e7b1796245824a0fab1953895244bdc4b81f33c26a3bbac639b8bb451e5"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T02",
+      "test_number": 2,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-02/questions.json",
+        "sqlite": "test-02/questions.db",
+        "html": "test-02/questions.html",
+        "metadata": "test-02/metadata.json",
+        "validation": "test-02/validation.json"
+      },
+      "checksums": {
+        "test-02/questions.json": "5973ee705352efb6c02d1f11523d6491414f1e11fadbead180a2a624493a6403",
+        "test-02/questions.db": "860f4c96ce12fa290f6155cac636f13a1f4b6389a7c0403774d2d569cc34638b",
+        "test-02/questions.html": "255afcb423acd0048ee9db255c0ea0ffc766d94b93b04fe463e6422a151e1dba",
+        "test-02/metadata.json": "ac2eae5eb7f23d120f67d94ca793f94d66762320e5074d890c39d04dc1e74756",
+        "test-02/validation.json": "0fc2a3c3ff52b6d3a3b52a101743465729e6078f98edc9c319eba3f085c20ec0"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T03",
+      "test_number": 3,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-03/questions.json",
+        "sqlite": "test-03/questions.db",
+        "html": "test-03/questions.html",
+        "metadata": "test-03/metadata.json",
+        "validation": "test-03/validation.json"
+      },
+      "checksums": {
+        "test-03/questions.json": "779d94c7d434f8fa5ad5ddd5f91f7dfe647515cbbf937bd3971f03ce60074130",
+        "test-03/questions.db": "0b1f07d6addb4c252e6ea6f5d1370afc6e4e4af451ab68da6040e69d5dc9ecd6",
+        "test-03/questions.html": "ab1beb5a70e7c850bdeebf9eddf95fddc6f1cd2c6e0af2618cd08a93bbc522bb",
+        "test-03/metadata.json": "b5a871f40f8fa595402ee9e0ac7826badfe20f23e621ad26b039e3f0ee43f859",
+        "test-03/validation.json": "6d49b24c9e73fd85f9306f0edba9a93221b7838e5a43e2a9a3edc90faeeb1efd"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T04",
+      "test_number": 4,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-04/questions.json",
+        "sqlite": "test-04/questions.db",
+        "html": "test-04/questions.html",
+        "metadata": "test-04/metadata.json",
+        "validation": "test-04/validation.json"
+      },
+      "checksums": {
+        "test-04/questions.json": "1b8729f6276b9ad420fd24c433333b56922c73c026559aad494a26ca773a85fb",
+        "test-04/questions.db": "2b636bfdefa7e044f7d83ef4fa22aaa342d8158a879e924a47abcd77d4d7fc3a",
+        "test-04/questions.html": "02c893d6cf1fc417bc1705e010f1b9de2998bab951eaff7c877ed7ea986de704",
+        "test-04/metadata.json": "f144e7d968bead859cd0ce53d085c16f9d891317e0a411f818d5b20606389750",
+        "test-04/validation.json": "5058d58ef4aa4f886a068e192f411437ae2ee5a0cbfe88450c87b0203802e8fb"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T05",
+      "test_number": 5,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-05/questions.json",
+        "sqlite": "test-05/questions.db",
+        "html": "test-05/questions.html",
+        "metadata": "test-05/metadata.json",
+        "validation": "test-05/validation.json"
+      },
+      "checksums": {
+        "test-05/questions.json": "12d9a9ba295133fcb8882379933bc15af0fd6a62b3c5e26e370bdfda6a045472",
+        "test-05/questions.db": "cca8c0bd22777bf4e17d50f1596b59e91c7f42218a27af4b2674918df8d389b7",
+        "test-05/questions.html": "aee1921b38257c9fe2d3245b3b7e6216bb8e071a7524f2f12800694b3a2620b8",
+        "test-05/metadata.json": "c8fc0f5c563f9aa4eb62c47b5b77d8e3fe31a90ed6b7fc20d00ebc0c97bc53cc",
+        "test-05/validation.json": "0fc0f7e3ce4b5f48c884e85158af469165a30a158aaede135a0b820eb9c74a21"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T06",
+      "test_number": 6,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-06/questions.json",
+        "sqlite": "test-06/questions.db",
+        "html": "test-06/questions.html",
+        "metadata": "test-06/metadata.json",
+        "validation": "test-06/validation.json"
+      },
+      "checksums": {
+        "test-06/questions.json": "0e8aee296e4f48d61d046010a1ddc41e72b1d1a8b5a217d9967638a18474b957",
+        "test-06/questions.db": "6b54ccb90215bbcdf53b6e65e92870cbd7fe2454af59cb10743f87a06215b253",
+        "test-06/questions.html": "9ba36189675058d11a6c51bd76ae87c9f0b112c29b217bfa8bacd9a3627b56d0",
+        "test-06/metadata.json": "4e0c6ddd23b4b423ebd9822b8ffb6c741b0b2bce7e2feeeb233621bf57132bb9",
+        "test-06/validation.json": "b2f677997418c070be56061c5cb30324eefbf87a67c654760df02f6f3b85a08a"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T07",
+      "test_number": 7,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-07/questions.json",
+        "sqlite": "test-07/questions.db",
+        "html": "test-07/questions.html",
+        "metadata": "test-07/metadata.json",
+        "validation": "test-07/validation.json"
+      },
+      "checksums": {
+        "test-07/questions.json": "da9f1babdc2beca44d2a754b7b1cc8c3a8944d59bc77661261c8ca6bb63cdf21",
+        "test-07/questions.db": "905478e7ef6e43eb5f567cb35c3900c6008040661a7dc2db39ba0c8284dd5ba1",
+        "test-07/questions.html": "42a73452d89480ed0afabd87e1ad16cd91851f60c0852cd0092008c955dc9139",
+        "test-07/metadata.json": "a6cae74f843560e1aab93777a4e4fb86c2c8f62d2b8bea28a9c83c150b093796",
+        "test-07/validation.json": "f16a5b24aa58b58c1fb4acd54a648f699578bf854e285d2ae595f5a9c3885f76"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T08",
+      "test_number": 8,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-08/questions.json",
+        "sqlite": "test-08/questions.db",
+        "html": "test-08/questions.html",
+        "metadata": "test-08/metadata.json",
+        "validation": "test-08/validation.json"
+      },
+      "checksums": {
+        "test-08/questions.json": "558f7a2a195b915af603bc366e1da46e5d685b3120c110a7da40c88c2c968d6d",
+        "test-08/questions.db": "734f6e74ecccfa9690ee1d2732d95f19d6ead9efb93c88d516a201e2b83fab47",
+        "test-08/questions.html": "448da978c0a2aef4ab220547c8131687043a515f6665913d47ccd48fcc5452df",
+        "test-08/metadata.json": "46613c2783f3058e9ec5ab14cf1d8d304fce3f4bade913f3aaa0622ae1f09a89",
+        "test-08/validation.json": "d4dd49d45b81f8e214d0cd7a039b65e78eeabe604fb6f4d8907620021c99c2bf"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T09",
+      "test_number": 9,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-09/questions.json",
+        "sqlite": "test-09/questions.db",
+        "html": "test-09/questions.html",
+        "metadata": "test-09/metadata.json",
+        "validation": "test-09/validation.json"
+      },
+      "checksums": {
+        "test-09/questions.json": "0c8b28c0acc2db045f7ddedfe03b941139e1ce4c30fc0edcbf5f14ac31dce3d1",
+        "test-09/questions.db": "438ea94db8e80247744ef04fcf2dc9a2a9d05010d7caec7e72efb037bb866fdb",
+        "test-09/questions.html": "6d1005091fecbb336f3e0a793ddff8b947ed090566cd6dc9ff9e60a1b0f515b7",
+        "test-09/metadata.json": "1bd23ec54534a57bad97ff61f4cec188ee2ad5c3490c9b5ac395cc7a67c2ed19",
+        "test-09/validation.json": "c23c737260e36bf9f0a9d04aeb7943eade8b34382017049212c8b6e2466a0710"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T10",
+      "test_number": 10,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-10/questions.json",
+        "sqlite": "test-10/questions.db",
+        "html": "test-10/questions.html",
+        "metadata": "test-10/metadata.json",
+        "validation": "test-10/validation.json"
+      },
+      "checksums": {
+        "test-10/questions.json": "c70dcb5fed46c5b415f1e2b6d5f0aaf8cfbbe33fccc9baf6b5a6e00b98a30bec",
+        "test-10/questions.db": "5e954edbb90650cfea50296430d9019ea251614b530f10517acd4f618e5231d3",
+        "test-10/questions.html": "d8330666da12524043decb2ffa97851eccf0116d5e3e2a09f670a1cbf17af623",
+        "test-10/metadata.json": "f4a78d2764c8642939f47caf49e89f20f1a0e2a73a39e38bd6e98dceffe711cc",
+        "test-10/validation.json": "3d36934ce73ccb1a4736ea3bef04c72dad3501ba96ce785d595ef280fca66718"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T11",
+      "test_number": 11,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-11/questions.json",
+        "sqlite": "test-11/questions.db",
+        "html": "test-11/questions.html",
+        "metadata": "test-11/metadata.json",
+        "validation": "test-11/validation.json"
+      },
+      "checksums": {
+        "test-11/questions.json": "b0120e638c4c1327eb6abb1907defaac7355f27f23f79af4ffa1d306dbc1870c",
+        "test-11/questions.db": "077cd51631fbf947eac76c0f8df4ac084e451289a2cdfcaa9dd6a3ac0620dac7",
+        "test-11/questions.html": "64eb2c24842c62aeb44e95e3d2cbb8a8c79fea9521e52a7d20c924d925f5408e",
+        "test-11/metadata.json": "757907e2773af9c0832baa1ae157fb762440bbb72b46563b52226a27d8fa5449",
+        "test-11/validation.json": "815d0525f468fe461e30062695b8e6c2d0a25f148b746d80550d6dda59f069be"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T12",
+      "test_number": 12,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-12/questions.json",
+        "sqlite": "test-12/questions.db",
+        "html": "test-12/questions.html",
+        "metadata": "test-12/metadata.json",
+        "validation": "test-12/validation.json"
+      },
+      "checksums": {
+        "test-12/questions.json": "b62e034c07d5a0e4d5cacdf7f5648bd7a240cdeebf6816431405ff3a0a545127",
+        "test-12/questions.db": "b4f8c7981277bafd219e6d692b9e3439cd795176304f3b103a9a5356811fcd7d",
+        "test-12/questions.html": "41290f33ee377952a7de8f49a9942513ef994d2e5f39767325cbbe93b988d75e",
+        "test-12/metadata.json": "b0839f12dbc891f992af9dfd90a821e156142c2ef92e1b0ad98f078c0b627189",
+        "test-12/validation.json": "b83cde477e7a16195a281f83f70140a3e9f074d8a6bd6bcd2d4a7ca7d7151f17"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T13",
+      "test_number": 13,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-13/questions.json",
+        "sqlite": "test-13/questions.db",
+        "html": "test-13/questions.html",
+        "metadata": "test-13/metadata.json",
+        "validation": "test-13/validation.json"
+      },
+      "checksums": {
+        "test-13/questions.json": "cd6b99e0372659e180fbe5eb2ce0a3ec763cef37c0fad9db2864b5de043008c0",
+        "test-13/questions.db": "d55d4c8dfe0b68ad371446fd312f8fb35b8011435f298b7d461587083d61d1a8",
+        "test-13/questions.html": "8679a25d7d4fc96125924b2f837bddeeab76a6c3a38ae600641ec0fc0460103d",
+        "test-13/metadata.json": "b0b3ad799c24621f42a060abdb6343a8bfdad23f5b05a0c450ef820f534c8cbe",
+        "test-13/validation.json": "46950b4e7b8c5d21d195c0aac9ef371cff9af25b819a6435071c35cdcbe9092c"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T14",
+      "test_number": 14,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-14/questions.json",
+        "sqlite": "test-14/questions.db",
+        "html": "test-14/questions.html",
+        "metadata": "test-14/metadata.json",
+        "validation": "test-14/validation.json"
+      },
+      "checksums": {
+        "test-14/questions.json": "4c83652fee39c7ffbd9394c512d7f4fbb8107438fdd859f459c835b99e3aa4e0",
+        "test-14/questions.db": "55cef86006ba233ed6e533d5fd2a012b39a487991163c8e37a9c19abe090525a",
+        "test-14/questions.html": "6e3c4187756fa57fea1af26b9af988c06b890b1eac29d7ae3548e3ea9e5ed39d",
+        "test-14/metadata.json": "10d7bb872f5fdcc1ab2b26331d6528d0b1b7460b332e40f2d1667cf7212eef1f",
+        "test-14/validation.json": "765c57e3a61a530dd82aa274cc3e43c2192136cae2659a92eb2cf9294f30a8d4"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T15",
+      "test_number": 15,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-15/questions.json",
+        "sqlite": "test-15/questions.db",
+        "html": "test-15/questions.html",
+        "metadata": "test-15/metadata.json",
+        "validation": "test-15/validation.json"
+      },
+      "checksums": {
+        "test-15/questions.json": "916db90c8b87ed19ba15a9f57eb8d39e393e56c7e8840973ced2b4bdc59d0a2d",
+        "test-15/questions.db": "7c4f9f233baea978164006b4c52e3728cbb80fcc662223feb63599e82e02fe54",
+        "test-15/questions.html": "90101ebf7b20791d2a0b01d305d9ec588d7f67cbb86c3e99e7325138b4c70875",
+        "test-15/metadata.json": "b3812ab46fc1649a1bfff8d705d6fec3290c2db4b1a17718fd1fe5eaff5fa37b",
+        "test-15/validation.json": "1924468f6fb6f77db91d1b20b9c19102fec86ee0233043089e5cbfcb0965d484"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T16",
+      "test_number": 16,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-16/questions.json",
+        "sqlite": "test-16/questions.db",
+        "html": "test-16/questions.html",
+        "metadata": "test-16/metadata.json",
+        "validation": "test-16/validation.json"
+      },
+      "checksums": {
+        "test-16/questions.json": "8f6ca5f10106da47a4daad831aa4c75eff3037c07928c6523cd9c5a651fdc6a6",
+        "test-16/questions.db": "5ecf22378a94054dd179ebd2c07bc6ea654195c46f4c37b020af017b6df794c8",
+        "test-16/questions.html": "adc6027e47492b518011753a485009ff280cc109b970c15bc2754dfe93711b06",
+        "test-16/metadata.json": "3e281b2c14bb07c223e710a083202ec8d9d30833e10ed15f51de912cfe81ae37",
+        "test-16/validation.json": "5c553f6ffbd3836f980e0294777633c2121628f43c551ca10a31f3ce53594ef9"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T17",
+      "test_number": 17,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-17/questions.json",
+        "sqlite": "test-17/questions.db",
+        "html": "test-17/questions.html",
+        "metadata": "test-17/metadata.json",
+        "validation": "test-17/validation.json"
+      },
+      "checksums": {
+        "test-17/questions.json": "3f8ce225edaf00737e88095896c8ba227e5795e36db63b47966888913b8ef971",
+        "test-17/questions.db": "933cd04f174cf858dec60e74e071244f1871fb5764ddf1f11cee869e354278ac",
+        "test-17/questions.html": "46f2f6197150e5639d1dc4f969596ab489c67989576d3f4c182012e05bdd6142",
+        "test-17/metadata.json": "0d810e6cad664ac7b60e2f400fe51d1f945b79042eaf20cf3ee2f502dc2c7844",
+        "test-17/validation.json": "1db54d4f0c1d48003293015a8fdbda737ed45e4791fbb6eb9456b8ad36311e4e"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T18",
+      "test_number": 18,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-18/questions.json",
+        "sqlite": "test-18/questions.db",
+        "html": "test-18/questions.html",
+        "metadata": "test-18/metadata.json",
+        "validation": "test-18/validation.json"
+      },
+      "checksums": {
+        "test-18/questions.json": "f51bb2287ff759a17ef3426cc3931d0c13a441a0fd42e6526591482582f04c67",
+        "test-18/questions.db": "589c1e6c689376eac178558a717fd704a9cc3702d60149eb131956edd20bb015",
+        "test-18/questions.html": "360272bc69501cffbb227d2af51226ff494f2e413c1dcdee5f99ec0e47440ee8",
+        "test-18/metadata.json": "042976706a487125a914ee35d78b9017af43219a768f25bd8a8f0cee118d6850",
+        "test-18/validation.json": "bf08db03ca32eb51e9c21a145f803724234e121b597a9dd93a95279167f7ad2d"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T19",
+      "test_number": 19,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-19/questions.json",
+        "sqlite": "test-19/questions.db",
+        "html": "test-19/questions.html",
+        "metadata": "test-19/metadata.json",
+        "validation": "test-19/validation.json"
+      },
+      "checksums": {
+        "test-19/questions.json": "903d85e5963a2bbd92d624f044ddb07abe84c4a80462b68dbb858ccab2169821",
+        "test-19/questions.db": "c50d70268303896c5928ac8e7270d81757786c392bcd6b0d9034b27140cde2ec",
+        "test-19/questions.html": "559ff016e1bfb9c0a006c63a0b8b88dec715342299e525c47be3da148402ffea",
+        "test-19/metadata.json": "3cfd78f92a70e6c4fff2171b2ea3d8d7038fabb4111c4106ce93e9c4d8eb3d4d",
+        "test-19/validation.json": "5bf983648cf43197cb6b0442fe04ac1ec732ba29a475a93a20f49be07fef180f"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T20",
+      "test_number": 20,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-20/questions.json",
+        "sqlite": "test-20/questions.db",
+        "html": "test-20/questions.html",
+        "metadata": "test-20/metadata.json",
+        "validation": "test-20/validation.json"
+      },
+      "checksums": {
+        "test-20/questions.json": "9b5c9a9c367bde6ae8e3b28937aea2d91ec75a61580e4f51cd4f4ef5413df94b",
+        "test-20/questions.db": "2329d984d3e892c368b1ecbf02ac0f48d6730302fadf1c710affbfea7b996a7d",
+        "test-20/questions.html": "4c1f654353b87c394f7e68c52b2c47d5997d6f9c5fe9e20b48cf426123e19007",
+        "test-20/metadata.json": "a9a408ed7cffadef5a08545ea90d500ad3f6139be5e6c537ce6a309a59972263",
+        "test-20/validation.json": "caa39ef14fb5795c5053e8207860911365b49a296ea725ecc343051974e7373f"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T21",
+      "test_number": 21,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-21/questions.json",
+        "sqlite": "test-21/questions.db",
+        "html": "test-21/questions.html",
+        "metadata": "test-21/metadata.json",
+        "validation": "test-21/validation.json"
+      },
+      "checksums": {
+        "test-21/questions.json": "214e431c0c008c4b30c12a0448d8d9bc798d46537cdac0a42d193906b8514eb3",
+        "test-21/questions.db": "12ecc42a95c3023315710bafc35c1f6c1c31407ed57024d8909079e2a32ad26a",
+        "test-21/questions.html": "47e731102b3257831e0276e3b9c9e49753b9a5abbac472aa8ba463babf86e9c3",
+        "test-21/metadata.json": "05a7dc621035fe8c7f25b56aadd40fb409d7aa97955ba077e3b7c615cadfe33a",
+        "test-21/validation.json": "4fbb9988f22a527b4f6705a26df82c8f0446d883f9ad9592fbba53487382a9a4"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T22",
+      "test_number": 22,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-22/questions.json",
+        "sqlite": "test-22/questions.db",
+        "html": "test-22/questions.html",
+        "metadata": "test-22/metadata.json",
+        "validation": "test-22/validation.json"
+      },
+      "checksums": {
+        "test-22/questions.json": "ed13e39b51f90b65e06f4b13bc9e16363e0a3920ddfb5f99164d2ea4c43a5690",
+        "test-22/questions.db": "880b736c7b7556a45572df3012b7c6c15e87b4248742822412dbdae4518cce47",
+        "test-22/questions.html": "0baeca5cd419c52c29413f03c1d154576c64d4b7d2589dc998b63d80b91742a9",
+        "test-22/metadata.json": "9ebdb9f44ba48c42b21316c6a4ee60458f776a1113275b3109d0bc04c81dff26",
+        "test-22/validation.json": "fa91819ff071a045987ee35259b88a1510c38992365ff1361a4328e52a2e6790"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T23",
+      "test_number": 23,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-23/questions.json",
+        "sqlite": "test-23/questions.db",
+        "html": "test-23/questions.html",
+        "metadata": "test-23/metadata.json",
+        "validation": "test-23/validation.json"
+      },
+      "checksums": {
+        "test-23/questions.json": "5635f645f9eedf55147870ee3168ed99ce65a8abd4c452b9ccd81d37bc4436a2",
+        "test-23/questions.db": "e73c0cc621b46a2f2f85a158f65a8ecfeadee5e48c714b32a654c62d43ce3818",
+        "test-23/questions.html": "328cfe2153418401d04be7fa6c79f3aa2087a054569a45900b960b2d762065ab",
+        "test-23/metadata.json": "04474f5665b5a6eae326ae3d30489406d4e857da48488ff700c81cb93b3a8f65",
+        "test-23/validation.json": "3182d3b9eb7ce0c6c88dfa5830f585b50ae07529c65a969fde7e9b0fc405f541"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T24",
+      "test_number": 24,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-24/questions.json",
+        "sqlite": "test-24/questions.db",
+        "html": "test-24/questions.html",
+        "metadata": "test-24/metadata.json",
+        "validation": "test-24/validation.json"
+      },
+      "checksums": {
+        "test-24/questions.json": "5c68526202c5e2cb724aca265298ab82caea990815c01d02501babe504b6408e",
+        "test-24/questions.db": "ae6c0ee923d38d956f62b1dc8979687e84a8318a9d9ebf70fcfb56a826f47291",
+        "test-24/questions.html": "96bc59981d61d6b35202ad2a5ce36ef0899224a9fbcb5888dcf3588a93283366",
+        "test-24/metadata.json": "5e47762588fbf710a75d21337e0255345a4dbfbc8cbf1e6d7d37138047bc1605",
+        "test-24/validation.json": "b694ee356e00923f9ea3e15cbb1ac837bd248417b055bf5db454d6894856bfd3"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T25",
+      "test_number": 25,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-25/questions.json",
+        "sqlite": "test-25/questions.db",
+        "html": "test-25/questions.html",
+        "metadata": "test-25/metadata.json",
+        "validation": "test-25/validation.json"
+      },
+      "checksums": {
+        "test-25/questions.json": "a79075ee7735d113b521d7749374dd799d45a93841749281bfa3cdbbc87772fa",
+        "test-25/questions.db": "bdf34a22b25185926404dd870f82c26ba1503c1f4997d69727bfd7393d0da3c8",
+        "test-25/questions.html": "caf350954468f71029f4f5a2b5e39c6819293096cc93337c3ab4e8b9f45fe481",
+        "test-25/metadata.json": "69aa9dce4a432384f8683e2346e3e72b4bfb53c463812c6ea44aabe531bb804b",
+        "test-25/validation.json": "8688413bcadd852b33aed2737cff6c701efceec98817b589675cd5ea28d14bdb"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T26",
+      "test_number": 26,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-26/questions.json",
+        "sqlite": "test-26/questions.db",
+        "html": "test-26/questions.html",
+        "metadata": "test-26/metadata.json",
+        "validation": "test-26/validation.json"
+      },
+      "checksums": {
+        "test-26/questions.json": "1fb4ee1e125c088e23f25aeb57bbbf99791b76f7051c2c46a5e16b3e6c6e36b3",
+        "test-26/questions.db": "2a071c537ff34e969d4b7e817e6e9ad3f3ca3a50a14e2152dd3280ecc8e7678b",
+        "test-26/questions.html": "4096852309184cb7bebef67e63f1f36a51951b767e529586edc1185de211bd8e",
+        "test-26/metadata.json": "767bde4a763766a313b653a197659ba2fca8c313f74437c70afe2ad44dd20324",
+        "test-26/validation.json": "1d7adb9699df735357387ca95da2b6088cbf578ef7ad824d614ac4cb80dcf676"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T27",
+      "test_number": 27,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-27/questions.json",
+        "sqlite": "test-27/questions.db",
+        "html": "test-27/questions.html",
+        "metadata": "test-27/metadata.json",
+        "validation": "test-27/validation.json"
+      },
+      "checksums": {
+        "test-27/questions.json": "ceaf70ec22e00908f6f52f9cf28d67b56466bca7bfe2ee0758747d931fc80cf5",
+        "test-27/questions.db": "71deb2b6b64478a926fec5da6292be2eea9b86c3dcec8d506a9492feb7f5472f",
+        "test-27/questions.html": "c096b375a36ddd06d8a84306a61ace080af5dbd7465c0a0a51a7914e0c54e89f",
+        "test-27/metadata.json": "b1751f95867ac02c9cffa07462810d5e68c221cc90eba1dbb62b53a3737ffa3c",
+        "test-27/validation.json": "4174cd124cd2d9d92ff4c48bae95bff17442e74cc3d2bc0411aaa9d63f34e8ea"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T28",
+      "test_number": 28,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-28/questions.json",
+        "sqlite": "test-28/questions.db",
+        "html": "test-28/questions.html",
+        "metadata": "test-28/metadata.json",
+        "validation": "test-28/validation.json"
+      },
+      "checksums": {
+        "test-28/questions.json": "3d419ddc3370ef595a96bec509c9e736435fad905d34386fd17871c9d1fc4975",
+        "test-28/questions.db": "64b22fb88fdaa0f14cb7efc039af1188212111d310c665a8695244d258573521",
+        "test-28/questions.html": "94e7a353ed80f4d110c3c4e1aecd7949c7e0178028a3c2e6603762e2241d1948",
+        "test-28/metadata.json": "b5c68d57a74fee150dc54d17f2798abde91c648667bf580cd3b9515697b0d8d8",
+        "test-28/validation.json": "f3e1fee5fc97115425703aa1367c274e3f1d006ff72c07bce797c3f94ac6345b"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T29",
+      "test_number": 29,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-29/questions.json",
+        "sqlite": "test-29/questions.db",
+        "html": "test-29/questions.html",
+        "metadata": "test-29/metadata.json",
+        "validation": "test-29/validation.json"
+      },
+      "checksums": {
+        "test-29/questions.json": "1fff2b39011f8b8e2977cad90fff5effc6fcaef10d604c2fea8b6ceed734ec0b",
+        "test-29/questions.db": "d5b5787cf1d10e8eba0b2fbdc439b7e2d9d44a27852b9775dcf0efccdd5fae7d",
+        "test-29/questions.html": "506037575d970d682b30f800a36bff87897cd849781e85d9f2cf1ec6070803cd",
+        "test-29/metadata.json": "c066eb4ce3e6626845626e4e3516114023276907427e227b72d91a4cca95b703",
+        "test-29/validation.json": "d4a3c124977ab8a206f6f808eaa88d0b769d1820f51606450518d1277d41802d"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T30",
+      "test_number": 30,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-30/questions.json",
+        "sqlite": "test-30/questions.db",
+        "html": "test-30/questions.html",
+        "metadata": "test-30/metadata.json",
+        "validation": "test-30/validation.json"
+      },
+      "checksums": {
+        "test-30/questions.json": "abe11f5fc4eb6886333f815cfe09cd6a5e2e037a72ed653e4b07539a6d6b12c1",
+        "test-30/questions.db": "9aad5648debf85f106be5cde956af7757c4742a019e1be44673f625672aa0273",
+        "test-30/questions.html": "3805cec5d85159d8e24c5d1b15490b87a946b7cd073440e3abb7e60bda15c529",
+        "test-30/metadata.json": "f7b25ff2f556ed32f42670841370b665ae26fd26acefac958917fe8b3bdb7a72",
+        "test-30/validation.json": "d56517d4107c27052a9199c29ea83e888d9efed027af5741551aca48a8cc1a0b"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T31",
+      "test_number": 31,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-31/questions.json",
+        "sqlite": "test-31/questions.db",
+        "html": "test-31/questions.html",
+        "metadata": "test-31/metadata.json",
+        "validation": "test-31/validation.json"
+      },
+      "checksums": {
+        "test-31/questions.json": "c734b3b2963cfaae3bf9489a35d0a90da526949c639cd64716c25a979bb55e03",
+        "test-31/questions.db": "f02a289abaaf2e453371a11056e1c989e6dbc35215ecf1a6180ce01f4a587f6c",
+        "test-31/questions.html": "91044b4f1e60bda18a76df4b43156716457656f6ce0c576e0ab8d71225da2ea4",
+        "test-31/metadata.json": "8d6688ddc7edb072da09ae76f5bb037fde250ce51310515400ee40bf164ca31f",
+        "test-31/validation.json": "35d935b5ac1fe35cd524bf8c755ea48b9bd9940b06f77e1aa6d8e7d7ceebeecf"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T32",
+      "test_number": 32,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-32/questions.json",
+        "sqlite": "test-32/questions.db",
+        "html": "test-32/questions.html",
+        "metadata": "test-32/metadata.json",
+        "validation": "test-32/validation.json"
+      },
+      "checksums": {
+        "test-32/questions.json": "0dc2499a36f850988623b7de160afecf7b48ef54467910e36ca94b9ad48b456a",
+        "test-32/questions.db": "576060f0323aa24a2af6887b5b192b53c22a480a45c4714295d4366dc00976b4",
+        "test-32/questions.html": "dd9e774599115225f2304a8b3c2ce1d7484e9f12ac9335fab2f62f728625a487",
+        "test-32/metadata.json": "07e5506b428163120490c854fd8c9e1e8577e8ba109e4ae4e65d62661f6d86b9",
+        "test-32/validation.json": "1229970e0bc0d001035b96959a46a4cafeeb5e03b9fc6ae3131d3f904e269e1d"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T33",
+      "test_number": 33,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-33/questions.json",
+        "sqlite": "test-33/questions.db",
+        "html": "test-33/questions.html",
+        "metadata": "test-33/metadata.json",
+        "validation": "test-33/validation.json"
+      },
+      "checksums": {
+        "test-33/questions.json": "4511950308c348dd6d38a29f01aa54b6c29b8b6f6fc2d2e1c7b2b02e6621a5f3",
+        "test-33/questions.db": "1bca0b104436a74865b4afac767e813b9ce5c5009dec90523b3ac0c2be529438",
+        "test-33/questions.html": "9ced9c87b57d2d4f3157136188358e68d6dbf06dd63f3f8ef131af7f031ec610",
+        "test-33/metadata.json": "15031e5972287af56f664897136411a203e982d7ea64bb84284adfdf37a0493c",
+        "test-33/validation.json": "e100f147e3d83a8c90b0e3e54d42ff71a493e05c3cb609cb5c15bbaabda58bcb"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T34",
+      "test_number": 34,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-34/questions.json",
+        "sqlite": "test-34/questions.db",
+        "html": "test-34/questions.html",
+        "metadata": "test-34/metadata.json",
+        "validation": "test-34/validation.json"
+      },
+      "checksums": {
+        "test-34/questions.json": "9cafefc2146660be503b62bb391778e41cc85f5867e8379305160bb605170691",
+        "test-34/questions.db": "ef9cd743e4857dc663108cec4631ef1fba0c4e5658691d739c8ddaf0ce79b277",
+        "test-34/questions.html": "05d8db92861eab56110e1fc8b81ca97fd77366572f061f61e0d39653ca8ff64c",
+        "test-34/metadata.json": "012383eb34638739df937fcadc6636d2eb1e17896ee0395694fac7faa1650b1b",
+        "test-34/validation.json": "a511675c9690ecee08fbcc4f268239f1619feb6d869a7516f303e8bd831d45a0"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T35",
+      "test_number": 35,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-35/questions.json",
+        "sqlite": "test-35/questions.db",
+        "html": "test-35/questions.html",
+        "metadata": "test-35/metadata.json",
+        "validation": "test-35/validation.json"
+      },
+      "checksums": {
+        "test-35/questions.json": "e988e3c37060b26d92050a9a38db7d5d8b01f8a336d51f5e6b9f721487e7c169",
+        "test-35/questions.db": "7b02731566762149a30fde72f13c72c7f0a27a94a0c9af04c8c1eaf21840aa03",
+        "test-35/questions.html": "41a5ab596299894ddd526b91c1510cdcfe44548f1ea069f53a3598d0628550ea",
+        "test-35/metadata.json": "c5c215e2129da2aac8ac3ff8f827ea8e36fb852840c4fe0fde5ca44cebf7d35d",
+        "test-35/validation.json": "b305a3e80f4e2507616a8a8ff093d660831d771c158f66d38986d6104db8f1f9"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T36",
+      "test_number": 36,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-36/questions.json",
+        "sqlite": "test-36/questions.db",
+        "html": "test-36/questions.html",
+        "metadata": "test-36/metadata.json",
+        "validation": "test-36/validation.json"
+      },
+      "checksums": {
+        "test-36/questions.json": "90cdd7ae014d25ef8449df919ca1f7e2460ec60fda2c11295e09207eb917047e",
+        "test-36/questions.db": "d485aa49f94f0dfb36c7a963099dd95ea02baeebc2da46e042f3aa7b5c3b7396",
+        "test-36/questions.html": "8730ab81d61d3977ffe604b97a311255dad207115c0f4f0c12a7d1a74988f578",
+        "test-36/metadata.json": "8095d13f59422e98438dd8885141b639c38d88a484bc4b9a600e7b3ad206e60e",
+        "test-36/validation.json": "a7f8fe6328f44d176fa35d8e1823ebd05c451cb2b18c6161c43f76308aa58c6b"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T37",
+      "test_number": 37,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-37/questions.json",
+        "sqlite": "test-37/questions.db",
+        "html": "test-37/questions.html",
+        "metadata": "test-37/metadata.json",
+        "validation": "test-37/validation.json"
+      },
+      "checksums": {
+        "test-37/questions.json": "53e35949c68b80d2aad5fa1cd3b1c07f5332ef423e49eeaf63f0a477ba892ff9",
+        "test-37/questions.db": "243b95a0758c7b96506ced82739df377b30c37f0400b26aece3e8b6b60363cf5",
+        "test-37/questions.html": "2b8f64a8bcd7988bd981b8618a4672f2c1426b76873d2a8e286f2bdb48f48216",
+        "test-37/metadata.json": "5d3dd9181e5bb9fffc76d534ad3d18bd59fee3ee23d401ffa9673acdd41db292",
+        "test-37/validation.json": "193c6cd5ecb7fadb4405d9d7642c4bd87803016af5843292c2b1748804fc6fe5"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T38",
+      "test_number": 38,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-38/questions.json",
+        "sqlite": "test-38/questions.db",
+        "html": "test-38/questions.html",
+        "metadata": "test-38/metadata.json",
+        "validation": "test-38/validation.json"
+      },
+      "checksums": {
+        "test-38/questions.json": "6d77af42ad672741c2c39be9278d257eafcb0597c18f82645624c3067a7cd8c4",
+        "test-38/questions.db": "2b0cdf82ed9266a71d42a7d39d81f66f16c5749711aee2876dcf826f8aa7eb0a",
+        "test-38/questions.html": "fbce076b1024f01e57577804ec430495462c2003c531d1ba8a815a4cac10c1e5",
+        "test-38/metadata.json": "6556adfde685571e96df962d2fa2c1d8cb864bfe0394ade7d4abd0a7c50a7dc2",
+        "test-38/validation.json": "cea6b7cd4dfb5df65512faa846d4bf75522b0e747047e7133a3af0c899dfc9b7"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T39",
+      "test_number": 39,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-39/questions.json",
+        "sqlite": "test-39/questions.db",
+        "html": "test-39/questions.html",
+        "metadata": "test-39/metadata.json",
+        "validation": "test-39/validation.json"
+      },
+      "checksums": {
+        "test-39/questions.json": "1830250baec751afd6fd7ccc21660e98784279445cec67b8ee290edca6ac6cc2",
+        "test-39/questions.db": "ee2acd1ef79436b12000d7071430f5c3e2285230a94cfea6cdba037adeaddadb",
+        "test-39/questions.html": "a1d8b12025889577c4f72794827b03f90ccf5a4e514a11339c935b4b6ab33b54",
+        "test-39/metadata.json": "41aad18f352cbb98f7a532ff9004959bc18f860cb87f0c0c4b6ec07feb6ab587",
+        "test-39/validation.json": "82687f58331c5d081c97cc3aebb5b92d23fb38f597986f458d9060170c5e0986"
+      }
+    },
+    {
+      "test_id": "HSPT-QS-40-T40",
+      "test_number": 40,
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-40/questions.json",
+        "sqlite": "test-40/questions.db",
+        "html": "test-40/questions.html",
+        "metadata": "test-40/metadata.json",
+        "validation": "test-40/validation.json"
+      },
+      "checksums": {
+        "test-40/questions.json": "284b851f129879117c434eb878d7039a0160fc66aeddc089d976f46b00bd992d",
+        "test-40/questions.db": "dcd7e6ccaa404d37f2770e700a997ddaebaa9d33606fbf5758bcdc60e09c7e39",
+        "test-40/questions.html": "e930e3ea1cd26f5e58995808b3a8b05df138fcc2c31fef998d5133843c9f09a1",
+        "test-40/metadata.json": "7aef7857a731aaee41fb4fa01c620c6c68cb46d2748c9f4087d0ca88708525c9",
+        "test-40/validation.json": "306c83734db91af098a433b4e3b5620b967532bf9eacd42ed894c7c4b4442e25"
+      }
+    }
+  ],
+  "root_checksums": {
+    "build-config.json": "1b06cef9fd2dfd8e299bc52a841d1acf6301c47c4050ecdb230e2627db47590a",
+    "capacity.json": "a161d9c95b2f17604968f4eb01662be59d54b716e818af0d8e8b2c69c02d3f46",
+    "validation.json": "d8baeb32661b706f86d4ab81f60d02fe0990bfbf02e67eda2f0f1885678b049f",
+    "fingerprints.json": "f9df46dcaa822653a04c3ebf5a6c7656c0390ef4aee529e20e8a51ae4df99ffb",
+    "integration.md": "f03f7ed7c5a69a405767dbddda2bdf98bed8f3db5e3a29ab7b4a8c42d4de2305",
+    "index.html": "13a4499f682d1e343cf37084b074ccf7bac164216c891e3986505a0d9d1e18d8"
+  },
+  "source_sha256": {
+    "calibrated.py": "4217d5e0d2483467e25eddf0b5f6c85906619eeecd4f8dce10b23eddadd9222c",
+    "collection.py": "80e4fe223462da5badec50c4e2f903871816c07ffd0f718e1135c70e77ed02c7",
+    "collection_audit.py": "5ab765c2c95cf7a8020f73f04e3e465505bf25da4fda71fd0eb0a7cc5e87e09a"
+  },
+  "uniqueness_policy": "Normalized mathematical tasks and visible stimuli; IDs, answer ordering, difficulty labels and cosmetic rewrites do not establish uniqueness."
+}

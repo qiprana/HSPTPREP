@@ -1,0 +1,464 @@
+{
+  "schema_version": "hspt.quant.collection/1",
+  "collection_id": "HSPT-QS-40",
+  "test_id": "HSPT-QS-40-T39",
+  "test_number": 39,
+  "title": "HSPT Quantitative Skills — Test 39",
+  "question_count": 52,
+  "time_limit_minutes": 30,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 20,
+    "Computation": 11,
+    "Sequence": 21
+  },
+  "topics": [
+    "Addition / Subtraction",
+    "Angles in a triangle",
+    "Comparing objects",
+    "Distributive property",
+    "Distributive property with variables",
+    "Evaluating equations with variables",
+    "Exponents & scientific notation",
+    "Fraction comparisons",
+    "Graphs and charts",
+    "Measurements",
+    "Multiplication / Division",
+    "Operations involving decimals",
+    "Operations involving fractions",
+    "Right angles",
+    "Roman numerals",
+    "Slope of a line",
+    "Sum of angles",
+    "Transversal and vertical angles"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-40-T39-Q061",
+      "number": 61,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "53fcfc3e1c4da9751b20f8c8b337aa0b5ac9ae49f5998566f04a94608d268327"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q062",
+      "number": 62,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e8510699a81e66e0b6b3c98d8ae5743750b28aef4435d13aea72a939b2faec6b"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q063",
+      "number": 63,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "19728624c45ad9cf909aa6b9102697375a20e5af57a4aff293b8e8163ce10f6c"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q064",
+      "number": 64,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "9cb9361767da1cf7b0dd0b1c7b254d3318f82813ad90a02d7eefec7336efa87c"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q065",
+      "number": 65,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ea878af6f04ca6732877b6a8942e888aa0caa704b6bc789cf47334445b07e6f1"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q066",
+      "number": 66,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2d1bf554b9fe85d8446937bd793e82bbf84ba18404f74f2a525c9658dc05eafc"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q067",
+      "number": 67,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "9e01f9cb62c6c0d7ccd4528d7dcee3a7e92d44c1207c6b036edb48ab13e88667"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q068",
+      "number": 68,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "cd246040dbbdf7df045b028f77f7e255759e94fdd6f0f75d51c2c2c3fdc30b88"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q069",
+      "number": 69,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "6d2620f840e7e55134342182a830abe12753f8f0f7deb0c20e661e7691e709f1"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q070",
+      "number": 70,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8381b42e3bba681b810b0a468b9c7be65c974a12c96d737a16039c3f2bcc87e7"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q071",
+      "number": 71,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "449fbc066e7816cde4604fb64fbdf389865d1dfebb8da2a088615f865647114a"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q072",
+      "number": 72,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9093ffbcc9923569773a2264b5c335f7ac99eccd753c7b76cee26cc09e1ea77d"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q073",
+      "number": 73,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "459e3536cbda2e2f9aca563327d325e427f5478c5ffd5957362640d00d3ec1f8"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q074",
+      "number": 74,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "a7931f34a24a2c50974a919f45da36db60c2c8446f87f53ab778be324982b719"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q075",
+      "number": 75,
+      "topic": "Roman numerals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "56cab6e9d3eeeb0c82098f61d9e957c3e4bfd9db036169d5fbe92e96d245282b"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q076",
+      "number": 76,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "fcc47418f5ff73828306247400eee41740fcb394c943801df8c523087dc4b1c7"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q077",
+      "number": 77,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "11a677677f28fae1f690c74f9041ef3978376ec7aafaaf0b71fedd771ea3d93a"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q078",
+      "number": 78,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "6e0fb12933b2a3a524f427de18a6c31b33f63b8311126ff5a87a0c487745f4bb"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q079",
+      "number": 79,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9c75dad89d4b105b620567fc430d2477366b98115a521a93c55e8a3f0273ca56"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q080",
+      "number": 80,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "058d9b86b9c1a6d2f135bcdca128934366ec65cd292bb2ab709c106f55f44bed"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q081",
+      "number": 81,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "3308825b0377ea7ce98d1e301a58b0c0f5e33d5a88a343b09140a1bbdc995c98"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q082",
+      "number": 82,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "18bd42389894888116910a7d00e9f2e685bb13cf66ca7e77fd7db2cb36a74038"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q083",
+      "number": 83,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "6e7610efdb14c04a4476d40b9d3fe36b3e01b9f5a02317836dc4d45420809ae7"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q084",
+      "number": 84,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "4e2d3354712fdc40be6d2c8f9345390b8acec1ee5df538c52aadff3ce352db59"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q085",
+      "number": 85,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "79c07f99078014ccb73a6f930e0dbc5a9b5aaf80731ffccbde6ca06703abbab6"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q086",
+      "number": 86,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "c32c840ee22d73b4812e58193d1cf52b3f4b5aa04e35814733de1800702fdfbe"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q087",
+      "number": 87,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "e6b2fcbd67f5142da6cd45cda9987c9c60a1636260803edfe5e17528419c16ad"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q088",
+      "number": 88,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "41831b70ba2bc0cdbc9b71183fe5e3a14c0c3123671f651e2f4ded99734bd9cd"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q089",
+      "number": 89,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "5dfd195664aad4904cd424b58363423d2bb68b85f469c97addda26c5a4ed9c99"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q090",
+      "number": 90,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c6e290cbf86ba8fd8bd7235dec9aefaf365f4ece42b889e86354ac2381bef428"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q091",
+      "number": 91,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "3577aa1398a6cebe88f676063140e4a72568501ff102bcb55b0dba10b9443b66"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q092",
+      "number": 92,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7f36a57b718e7df0334615d5d16a8c381da191b00c3f7ab5aae72bf71ae62964"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q093",
+      "number": 93,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "e8b221c5c817c002667afe6d82e05eed78871fcb39f2ab983c9aa1b122fd233d"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q094",
+      "number": 94,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b5058db47d4fd74a08807624f5538435de19a41bc449efc011bd1f3e6732871e"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q095",
+      "number": 95,
+      "topic": "Graphs and charts",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "6955b5cc0959b3648c2a353da957abbe2284277fbf321ce19f8a6f13f2b84ed9"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q096",
+      "number": 96,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "77e1929b5da6ee75c1cbab6e1374690b5025a56d6056e2e3bd68f65229ab7950"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q097",
+      "number": 97,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ab04112d4a66238073690c45668fe8ec6a84c6b3438f7058d0ac58de7e6ac05c"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q098",
+      "number": 98,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c77f30eea6ac8598823db62ed9d3117e8e959c4c83c387c9b16ddfbb0f655636"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q099",
+      "number": 99,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c1cb046fcbd0d9e377de943f8a6690054605caf92cb9035e6835233c6df25dc8"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q100",
+      "number": 100,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "78b53783eb05e285acac53b61b627591c2a7f754a18e54a779fc58c2420d4ca3"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q101",
+      "number": 101,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "92bd6d82728c406d12bdd8ccb1b82a78d6e5e62e62f9c4a6b6f7851eac730dec"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q102",
+      "number": 102,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "9296307fd068d7d41dcc4b9ef6c6fde09692af3cf32d549f477e0b510088ab69"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q103",
+      "number": 103,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2b0c695e9731a707828673284a88c9bd3d05bd9384a46bec80193c773505d357"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q104",
+      "number": 104,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2568c0bdf5d4c2ad73c0577e8302eef5b15b558d0666eb76a495a59dbfa6b705"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q105",
+      "number": 105,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "f9ee84cf788af3c8cb446ee5827c3c3038858e9ebdee887afeaa60ab8fd2d170"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q106",
+      "number": 106,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "efc9567b3d6e57a37ee8e2b5c299418a67254a3556abdd6210616a2d326a5979"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q107",
+      "number": 107,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "383491784387dceb13fada42d81ba0a45f321d3b8bfa915af6c45a0c051efeb3"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q108",
+      "number": 108,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2574e25754c92bb0f283fe9900d9c58c9d7bc630b3028465e7cd4f1cbc76f5f9"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q109",
+      "number": 109,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c4026a7857395cc2f1178072efb13c00ad10e6a351612f8c198f95e8083a99e0"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q110",
+      "number": 110,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "79fec54035f850958e3077956b2e7183d2bd0eddcb419e06204c655d9a1cff91"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q111",
+      "number": 111,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1a45aa724bb96aebf46f04aeb76bd7a06f4ea535c7501aa82f69847fd931d1c0"
+    },
+    {
+      "question_id": "HSPT-QS-40-T39-Q112",
+      "number": 112,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c8d906a8ce176af2312874e0b171dc389203c0ae21f2248c46729b38b6d88dd8"
+    }
+  ]
+}

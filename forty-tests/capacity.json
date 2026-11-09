@@ -1,0 +1,727 @@
+{
+  "schema_version": "hspt.quant.collection/1",
+  "status": "pass",
+  "basis": "Observed unique capacity with at least 25% reserve or three extra items per planned family; complete collection uniqueness remains independently checked.",
+  "families": [
+    {
+      "archetype": "Comparison",
+      "topic": "Addition / Subtraction",
+      "difficulty": 2,
+      "modality": null,
+      "required": 18,
+      "sampled_unique": 23,
+      "attempts": 23
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Addition / Subtraction",
+      "difficulty": 3,
+      "modality": null,
+      "required": 27,
+      "sampled_unique": 34,
+      "attempts": 34
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Angles in a triangle",
+      "difficulty": 2,
+      "modality": null,
+      "required": 16,
+      "sampled_unique": 20,
+      "attempts": 20
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Angles in a triangle",
+      "difficulty": 3,
+      "modality": null,
+      "required": 28,
+      "sampled_unique": 35,
+      "attempts": 35
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Comparing objects",
+      "difficulty": 2,
+      "modality": null,
+      "required": 15,
+      "sampled_unique": 19,
+      "attempts": 19
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Comparing objects",
+      "difficulty": 3,
+      "modality": null,
+      "required": 29,
+      "sampled_unique": 37,
+      "attempts": 37
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Distributive property with variables",
+      "difficulty": 2,
+      "modality": null,
+      "required": 13,
+      "sampled_unique": 17,
+      "attempts": 17
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Distributive property with variables",
+      "difficulty": 3,
+      "modality": null,
+      "required": 32,
+      "sampled_unique": 40,
+      "attempts": 40
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Distributive property",
+      "difficulty": 2,
+      "modality": null,
+      "required": 17,
+      "sampled_unique": 22,
+      "attempts": 22
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Distributive property",
+      "difficulty": 3,
+      "modality": null,
+      "required": 28,
+      "sampled_unique": 35,
+      "attempts": 35
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Evaluating equations with variables",
+      "difficulty": 2,
+      "modality": null,
+      "required": 16,
+      "sampled_unique": 20,
+      "attempts": 20
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Evaluating equations with variables",
+      "difficulty": 3,
+      "modality": null,
+      "required": 28,
+      "sampled_unique": 35,
+      "attempts": 35
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Exponents & scientific notation",
+      "difficulty": 2,
+      "modality": null,
+      "required": 18,
+      "sampled_unique": 23,
+      "attempts": 23
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Exponents & scientific notation",
+      "difficulty": 3,
+      "modality": null,
+      "required": 27,
+      "sampled_unique": 34,
+      "attempts": 34
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Fraction comparisons",
+      "difficulty": 2,
+      "modality": null,
+      "required": 17,
+      "sampled_unique": 22,
+      "attempts": 22
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Fraction comparisons",
+      "difficulty": 3,
+      "modality": null,
+      "required": 28,
+      "sampled_unique": 35,
+      "attempts": 35
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Graphs and charts",
+      "difficulty": 2,
+      "modality": null,
+      "required": 17,
+      "sampled_unique": 22,
+      "attempts": 22
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Graphs and charts",
+      "difficulty": 3,
+      "modality": null,
+      "required": 27,
+      "sampled_unique": 34,
+      "attempts": 34
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Measurements",
+      "difficulty": 2,
+      "modality": null,
+      "required": 14,
+      "sampled_unique": 18,
+      "attempts": 18
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Measurements",
+      "difficulty": 3,
+      "modality": null,
+      "required": 30,
+      "sampled_unique": 38,
+      "attempts": 38
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Multiplication / Division",
+      "difficulty": 2,
+      "modality": null,
+      "required": 14,
+      "sampled_unique": 18,
+      "attempts": 18
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Multiplication / Division",
+      "difficulty": 3,
+      "modality": null,
+      "required": 31,
+      "sampled_unique": 39,
+      "attempts": 39
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Operations involving decimals",
+      "difficulty": 2,
+      "modality": null,
+      "required": 14,
+      "sampled_unique": 18,
+      "attempts": 18
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Operations involving decimals",
+      "difficulty": 3,
+      "modality": null,
+      "required": 31,
+      "sampled_unique": 39,
+      "attempts": 39
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Operations involving fractions",
+      "difficulty": 2,
+      "modality": null,
+      "required": 13,
+      "sampled_unique": 17,
+      "attempts": 17
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Operations involving fractions",
+      "difficulty": 3,
+      "modality": null,
+      "required": 32,
+      "sampled_unique": 40,
+      "attempts": 40
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Right angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 14,
+      "sampled_unique": 18,
+      "attempts": 18
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Right angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 30,
+      "sampled_unique": 38,
+      "attempts": 38
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Roman numerals",
+      "difficulty": 2,
+      "modality": null,
+      "required": 15,
+      "sampled_unique": 19,
+      "attempts": 19
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Roman numerals",
+      "difficulty": 3,
+      "modality": null,
+      "required": 29,
+      "sampled_unique": 37,
+      "attempts": 37
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Slope of a line",
+      "difficulty": 2,
+      "modality": null,
+      "required": 13,
+      "sampled_unique": 17,
+      "attempts": 17
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Slope of a line",
+      "difficulty": 3,
+      "modality": null,
+      "required": 31,
+      "sampled_unique": 39,
+      "attempts": 39
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Sum of angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 15,
+      "sampled_unique": 19,
+      "attempts": 19
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Sum of angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 29,
+      "sampled_unique": 37,
+      "attempts": 37
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Transversal and vertical angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 18,
+      "sampled_unique": 23,
+      "attempts": 23
+    },
+    {
+      "archetype": "Comparison",
+      "topic": "Transversal and vertical angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 26,
+      "sampled_unique": 33,
+      "attempts": 33
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Addition / Subtraction",
+      "difficulty": 2,
+      "modality": null,
+      "required": 8,
+      "sampled_unique": 11,
+      "attempts": 11
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Addition / Subtraction",
+      "difficulty": 3,
+      "modality": null,
+      "required": 22,
+      "sampled_unique": 28,
+      "attempts": 28
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Angles in a triangle",
+      "difficulty": 2,
+      "modality": null,
+      "required": 7,
+      "sampled_unique": 10,
+      "attempts": 10
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Angles in a triangle",
+      "difficulty": 3,
+      "modality": null,
+      "required": 22,
+      "sampled_unique": 28,
+      "attempts": 28
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Distributive property with variables",
+      "difficulty": 2,
+      "modality": null,
+      "required": 5,
+      "sampled_unique": 8,
+      "attempts": 8
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Distributive property with variables",
+      "difficulty": 3,
+      "modality": null,
+      "required": 24,
+      "sampled_unique": 30,
+      "attempts": 30
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Distributive property",
+      "difficulty": 2,
+      "modality": null,
+      "required": 10,
+      "sampled_unique": 13,
+      "attempts": 13
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Distributive property",
+      "difficulty": 3,
+      "modality": null,
+      "required": 20,
+      "sampled_unique": 25,
+      "attempts": 25
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Evaluating equations with variables",
+      "difficulty": 2,
+      "modality": null,
+      "required": 10,
+      "sampled_unique": 13,
+      "attempts": 14
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Evaluating equations with variables",
+      "difficulty": 3,
+      "modality": null,
+      "required": 19,
+      "sampled_unique": 24,
+      "attempts": 24
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Graphs and charts",
+      "difficulty": 2,
+      "modality": null,
+      "required": 3,
+      "sampled_unique": 6,
+      "attempts": 6
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Graphs and charts",
+      "difficulty": 3,
+      "modality": null,
+      "required": 26,
+      "sampled_unique": 33,
+      "attempts": 33
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Measurements",
+      "difficulty": 2,
+      "modality": null,
+      "required": 11,
+      "sampled_unique": 14,
+      "attempts": 16
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Measurements",
+      "difficulty": 3,
+      "modality": null,
+      "required": 18,
+      "sampled_unique": 23,
+      "attempts": 23
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Multiplication / Division",
+      "difficulty": 2,
+      "modality": null,
+      "required": 11,
+      "sampled_unique": 14,
+      "attempts": 14
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Multiplication / Division",
+      "difficulty": 3,
+      "modality": null,
+      "required": 19,
+      "sampled_unique": 24,
+      "attempts": 24
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Operations involving decimals",
+      "difficulty": 2,
+      "modality": null,
+      "required": 9,
+      "sampled_unique": 12,
+      "attempts": 12
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Operations involving decimals",
+      "difficulty": 3,
+      "modality": null,
+      "required": 21,
+      "sampled_unique": 27,
+      "attempts": 27
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Operations involving fractions",
+      "difficulty": 2,
+      "modality": null,
+      "required": 4,
+      "sampled_unique": 7,
+      "attempts": 7
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Operations involving fractions",
+      "difficulty": 3,
+      "modality": null,
+      "required": 26,
+      "sampled_unique": 33,
+      "attempts": 33
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Right angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 4,
+      "sampled_unique": 7,
+      "attempts": 7
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Right angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 25,
+      "sampled_unique": 32,
+      "attempts": 33
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Roman numerals",
+      "difficulty": 2,
+      "modality": null,
+      "required": 8,
+      "sampled_unique": 11,
+      "attempts": 11
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Roman numerals",
+      "difficulty": 3,
+      "modality": null,
+      "required": 21,
+      "sampled_unique": 27,
+      "attempts": 27
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Slope of a line",
+      "difficulty": 2,
+      "modality": null,
+      "required": 8,
+      "sampled_unique": 11,
+      "attempts": 12
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Slope of a line",
+      "difficulty": 3,
+      "modality": null,
+      "required": 21,
+      "sampled_unique": 27,
+      "attempts": 27
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Sum of angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 5,
+      "sampled_unique": 8,
+      "attempts": 8
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Sum of angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 24,
+      "sampled_unique": 30,
+      "attempts": 30
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Transversal and vertical angles",
+      "difficulty": 2,
+      "modality": null,
+      "required": 11,
+      "sampled_unique": 14,
+      "attempts": 14
+    },
+    {
+      "archetype": "Computation",
+      "topic": "Transversal and vertical angles",
+      "difficulty": 3,
+      "modality": null,
+      "required": 18,
+      "sampled_unique": 23,
+      "attempts": 23
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 2,
+      "modality": "Alphanumeric",
+      "required": 31,
+      "sampled_unique": 39,
+      "attempts": 39
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 2,
+      "modality": "Letters Only",
+      "required": 13,
+      "sampled_unique": 17,
+      "attempts": 17
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 2,
+      "modality": "Numbers Only",
+      "required": 45,
+      "sampled_unique": 57,
+      "attempts": 58
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 3,
+      "modality": "Alphanumeric",
+      "required": 89,
+      "sampled_unique": 112,
+      "attempts": 112
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 3,
+      "modality": "Letters Only",
+      "required": 27,
+      "sampled_unique": 34,
+      "attempts": 34
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Addition / Subtraction",
+      "difficulty": 3,
+      "modality": "Numbers Only",
+      "required": 115,
+      "sampled_unique": 144,
+      "attempts": 144
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Exponents & scientific notation",
+      "difficulty": 2,
+      "modality": "Numbers Only",
+      "required": 41,
+      "sampled_unique": 52,
+      "attempts": 71
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Exponents & scientific notation",
+      "difficulty": 3,
+      "modality": "Numbers Only",
+      "required": 119,
+      "sampled_unique": 149,
+      "attempts": 174
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Multiplication / Division",
+      "difficulty": 2,
+      "modality": "Numbers Only",
+      "required": 44,
+      "sampled_unique": 55,
+      "attempts": 68
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Multiplication / Division",
+      "difficulty": 3,
+      "modality": "Numbers Only",
+      "required": 116,
+      "sampled_unique": 145,
+      "attempts": 152
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Operations involving decimals",
+      "difficulty": 2,
+      "modality": "Numbers Only",
+      "required": 46,
+      "sampled_unique": 58,
+      "attempts": 59
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Operations involving decimals",
+      "difficulty": 3,
+      "modality": "Numbers Only",
+      "required": 114,
+      "sampled_unique": 143,
+      "attempts": 143
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Roman numerals",
+      "difficulty": 2,
+      "modality": "Roman Numerals",
+      "required": 13,
+      "sampled_unique": 17,
+      "attempts": 17
+    },
+    {
+      "archetype": "Sequence",
+      "topic": "Roman numerals",
+      "difficulty": 3,
+      "modality": "Roman Numerals",
+      "required": 27,
+      "sampled_unique": 34,
+      "attempts": 34
+    }
+  ]
+}

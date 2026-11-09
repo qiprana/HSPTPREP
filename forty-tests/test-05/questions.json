@@ -1,0 +1,5188 @@
+{
+  "schema_version": "hspt.quant.collection/1",
+  "collection_id": "HSPT-QS-40",
+  "exam_id": "HSPT-QS-40-T05",
+  "title": "HSPT Quantitative Skills — Test 05",
+  "time_limit_minutes": 30,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "questions": [
+    {
+      "question_id": "HSPT-QS-40-T05-Q061",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Angles in a triangle",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Two interior angles of a triangle are 47° and 33°. Find the third interior angle.",
+        "B": "Two interior angles of a triangle are 66° and 61°. Find the third interior angle.",
+        "C": "Two interior angles of a triangle are 70° and 50°. Find the third interior angle."
+      },
+      "computed_values": {
+        "A": "100",
+        "B": "53",
+        "C": "60",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Angles in a triangle",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "sub",
+                  180,
+                  47
+                ],
+                33
+              ],
+              "variables": {},
+              "context": "Two interior angles of a triangle are 47° and 33°. Find the third interior angle.",
+              "diagram": {
+                "kind": "triangle",
+                "angles": [
+                  47,
+                  33
+                ]
+              }
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "sub",
+                  180,
+                  66
+                ],
+                61
+              ],
+              "variables": {},
+              "context": "Two interior angles of a triangle are 66° and 61°. Find the third interior angle.",
+              "diagram": {
+                "kind": "triangle",
+                "angles": [
+                  66,
+                  61
+                ]
+              }
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "sub",
+                  180,
+                  70
+                ],
+                50
+              ],
+              "variables": {},
+              "context": "Two interior angles of a triangle are 70° and 50°. Find the third interior angle.",
+              "diagram": {
+                "kind": "triangle",
+                "angles": [
+                  70,
+                  50
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(B) is equal to (C) and less than (A)",
+        "C": "(C) is greater than (A) and (A) is greater than (B)",
+        "D": "(B) is greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "C": "Trap: Misorders (C), (A), and (B) under time pressure.",
+        "D": "Trap: Reverses relational comparison between (B) and (A)."
+      },
+      "explanation": "(A): ((180 − 47) − 33) = 100; (B): ((180 − 66) − 61) = 53; (C): ((180 − 70) − 50) = 60. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='140' y='20' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Triangle (not to scale)</text><polygon points='40,130 240,130 130,34' fill='#eff6ff' stroke='#1d4ed8' stroke-width='2.2'/><text x='68' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>47°</text><text x='194' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>33°</text><text x='130' y='62' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='140' y='20' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Triangle (not to scale)</text><polygon points='40,130 240,130 130,34' fill='#eff6ff' stroke='#1d4ed8' stroke-width='2.2'/><text x='68' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>66°</text><text x='194' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>61°</text><text x='130' y='62' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='140' y='20' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Triangle (not to scale)</text><polygon points='40,130 240,130 130,34' fill='#eff6ff' stroke='#1d4ed8' stroke-width='2.2'/><text x='68' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>70°</text><text x='194' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>50°</text><text x='130' y='62' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg></svg>",
+        "alt_text": "Quantity A: Triangle (not to scale) with base angles 47 degrees and 33 degrees, and apex angle x°.; Quantity B: Triangle (not to scale) with base angles 66 degrees and 61 degrees, and apex angle x°.; Quantity C: Triangle (not to scale) with base angles 70 degrees and 50 degrees, and apex angle x°."
+      },
+      "question_number": 61
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q062",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: (((-23 − 9) + (12 + 9)) − 4)",
+      "stimulus": "Evaluate the following expression. Expression: (((-23 − 9) + (12 + 9)) − 4)",
+      "computed_values": {
+        "result": "-15",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "add",
+                  [
+                    "sub",
+                    -23,
+                    9
+                  ],
+                  [
+                    "add",
+                    12,
+                    9
+                  ]
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "add",
+              [
+                "sub",
+                -23,
+                9
+              ],
+              [
+                "add",
+                12,
+                9
+              ]
+            ],
+            "C": [
+              "sub",
+              4,
+              [
+                "add",
+                [
+                  "sub",
+                  -23,
+                  9
+                ],
+                [
+                  "add",
+                  12,
+                  9
+                ]
+              ]
+            ],
+            "D": [
+              "add",
+              [
+                "add",
+                [
+                  "sub",
+                  -23,
+                  9
+                ],
+                [
+                  "add",
+                  12,
+                  9
+                ]
+              ],
+              4
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "-15",
+        "B": "-11",
+        "C": "15",
+        "D": "-7"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Reverses operands in sub.",
+        "D": "Trap: Replaces sub with add."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((-23 − 9) + (12 + 9)) − 4) = -15.",
+      "question_number": 62
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q063",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((16 + 7) − 6)",
+        "B": "Evaluate the following expression. Expression: ((11 + 8) − 5)",
+        "C": "Evaluate the following expression. Expression: ((15 + 4) − 15)"
+      },
+      "computed_values": {
+        "A": "17",
+        "B": "14",
+        "C": "4",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Addition / Subtraction",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "add",
+                  16,
+                  7
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "add",
+                  11,
+                  8
+                ],
+                5
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "add",
+                  15,
+                  4
+                ],
+                15
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(A) is greater than (B) and (B) is greater than (C)",
+        "C": "(C) = 2(A)",
+        "D": "(B) + (C) = (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "D": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): ((16 + 7) − 6) = 17; (B): ((11 + 8) − 5) = 14; (C): ((15 + 4) − 15) = 4. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 63
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q064",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Sum of angles",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Angles around a point include 31°, 54° and 27°. The two remaining angles are in the ratio 2:1. Find the smaller remaining angle.",
+      "stimulus": "Angles around a point include 31°, 54° and 27°. The two remaining angles are in the ratio 2:1. Find the smaller remaining angle.",
+      "computed_values": {
+        "result": "248/3",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Sum of angles",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  360,
+                  [
+                    "add",
+                    [
+                      "add",
+                      31,
+                      54
+                    ],
+                    27
+                  ]
+                ],
+                [
+                  "add",
+                  2,
+                  1
+                ]
+              ],
+              "variables": {},
+              "context": "Angles around a point include 31°, 54° and 27°. The two remaining angles are in the ratio 2:1. Find the smaller remaining angle.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Angles around a point",
+                "labels": [
+                  "Angles around a point include 31°, 54° and 27°. The two remaining angles are in the ratio 2:1. Find the smaller remaining angle."
+                ]
+              }
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "sub",
+              [
+                "sub",
+                360,
+                [
+                  "add",
+                  [
+                    "add",
+                    31,
+                    54
+                  ],
+                  27
+                ]
+              ],
+              [
+                "add",
+                2,
+                1
+              ]
+            ],
+            "B": [
+              "mul",
+              [
+                "sub",
+                360,
+                [
+                  "add",
+                  [
+                    "add",
+                    31,
+                    54
+                  ],
+                  27
+                ]
+              ],
+              [
+                "add",
+                2,
+                1
+              ]
+            ],
+            "C": [
+              "div",
+              [
+                "add",
+                2,
+                1
+              ],
+              [
+                "sub",
+                360,
+                [
+                  "add",
+                  [
+                    "add",
+                    31,
+                    54
+                  ],
+                  27
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "245",
+        "B": "744",
+        "C": "3/248",
+        "D": "248/3"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with sub.",
+        "B": "Trap: Replaces div with mul.",
+        "C": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((360 − ((31 + 54) + 27)) ÷ (2 + 1)) = 248/3.",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Angles around a point</text><path d=\"M195 61 L230 30 M195 61 L260 60 M195 61 L215 90 M195 61 L145 88 M195 61 L145 34\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Angles around a point include 31°, 54° and 27°.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">The two remaining angles are in the ratio 2:1.</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">Find the smaller remaining angle.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg>",
+        "alt_text": "Angles around a point: Angles around a point include 31°, 54° and 27°. The two remaining angles are in the ratio 2:1. Find the smaller remaining angle."
+      },
+      "question_number": 64
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q065",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Roman numerals",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers. Expression: (((LXXV × VI) − (VIII + X)) ÷ IV)",
+        "B": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers. Expression: (((XXXIX × III) − (XXII + XI)) ÷ V)",
+        "C": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers. Expression: (((XXXVII × VII) − (XXV + VIII)) ÷ VIII)"
+      },
+      "computed_values": {
+        "A": "108",
+        "B": "84/5",
+        "C": "113/4",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Roman numerals",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "roman",
+                      75
+                    ],
+                    [
+                      "roman",
+                      6
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "roman",
+                      8
+                    ],
+                    [
+                      "roman",
+                      10
+                    ]
+                  ]
+                ],
+                [
+                  "roman",
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "roman",
+                      39
+                    ],
+                    [
+                      "roman",
+                      3
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "roman",
+                      22
+                    ],
+                    [
+                      "roman",
+                      11
+                    ]
+                  ]
+                ],
+                [
+                  "roman",
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "roman",
+                      37
+                    ],
+                    [
+                      "roman",
+                      7
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "roman",
+                      25
+                    ],
+                    [
+                      "roman",
+                      8
+                    ]
+                  ]
+                ],
+                [
+                  "roman",
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Convert the Roman numerals, then evaluate. Give the answer in ordinary numbers.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(A) is equal to (B) and less than (C)",
+        "C": "(C) is less than (B)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "B": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "C": "Trap: Reverses relational inequality between (C) and (B)."
+      },
+      "explanation": "(A): (((LXXV × VI) − (VIII + X)) ÷ IV) = 108; (B): (((XXXIX × III) − (XXII + XI)) ÷ V) = 84/5; (C): (((XXXVII × VII) − (XXV + VIII)) ÷ VIII) = 113/4. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 65
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q066",
+      "archetype": "Sequence",
+      "sub_type": "Interleaved (Dual Series)",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 3.4, 5.0, 5.0, 5.8, 7.4, 7.0, 10.6, 8.6, ?",
+      "stimulus": [
+        "3.4",
+        "5.0",
+        "5.0",
+        "5.8",
+        "7.4",
+        "7.0",
+        "10.6",
+        "8.6"
+      ],
+      "computed_values": {
+        "next_term": "14.6",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Operations involving decimals",
+          "level": 3,
+          "parameters": {
+            "a": 34,
+            "b": 12,
+            "c": 4,
+            "d": 50,
+            "e": 6,
+            "f": 2,
+            "denom": 10,
+            "modality": "Numbers Only",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "14.6",
+        "B": "8.6",
+        "C": "10.6",
+        "D": "6.6"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 34 + 12n + 4n²; even = 50 + 6n + 2n². Divide the numeric expressions by 10. The next term is 14.6.",
+      "modality": "Numbers Only",
+      "question_number": 66
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q067",
+      "archetype": "Sequence",
+      "sub_type": "Interleaved (Dual Series)",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 0.4, 4.8, 1.7, 6.0, 4.2, 8.0, 7.9, 10.8, ?",
+      "stimulus": [
+        "0.4",
+        "4.8",
+        "1.7",
+        "6.0",
+        "4.2",
+        "8.0",
+        "7.9",
+        "10.8"
+      ],
+      "computed_values": {
+        "next_term": "12.8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Operations involving decimals",
+          "level": 3,
+          "parameters": {
+            "a": 4,
+            "b": 7,
+            "c": 6,
+            "d": 48,
+            "e": 8,
+            "f": 4,
+            "denom": 10,
+            "modality": "Numbers Only",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "12.8",
+        "B": "10.8",
+        "C": "7.9",
+        "D": "13.7"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 4 + 7n + 6n²; even = 48 + 8n + 4n². Divide the numeric expressions by 10. The next term is 12.8.",
+      "modality": "Numbers Only",
+      "question_number": 67
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q068",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Sum of angles",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Angles around a point include 35°, 48° and 48°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle.",
+        "B": "Angles around a point include 55°, 36° and 27°. The two remaining angles are in the ratio 4:1. Find the smaller remaining angle.",
+        "C": "Angles around a point include 27°, 60° and 44°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle."
+      },
+      "computed_values": {
+        "A": "229/8",
+        "B": "242/5",
+        "C": "229/8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Sum of angles",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  360,
+                  [
+                    "add",
+                    [
+                      "add",
+                      35,
+                      48
+                    ],
+                    48
+                  ]
+                ],
+                [
+                  "add",
+                  7,
+                  1
+                ]
+              ],
+              "variables": {},
+              "context": "Angles around a point include 35°, 48° and 48°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Angles around a point",
+                "labels": [
+                  "Angles around a point include 35°, 48° and 48°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle."
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  360,
+                  [
+                    "add",
+                    [
+                      "add",
+                      55,
+                      36
+                    ],
+                    27
+                  ]
+                ],
+                [
+                  "add",
+                  4,
+                  1
+                ]
+              ],
+              "variables": {},
+              "context": "Angles around a point include 55°, 36° and 27°. The two remaining angles are in the ratio 4:1. Find the smaller remaining angle.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Angles around a point",
+                "labels": [
+                  "Angles around a point include 55°, 36° and 27°. The two remaining angles are in the ratio 4:1. Find the smaller remaining angle."
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  360,
+                  [
+                    "add",
+                    [
+                      "add",
+                      27,
+                      60
+                    ],
+                    44
+                  ]
+                ],
+                [
+                  "add",
+                  7,
+                  1
+                ]
+              ],
+              "variables": {},
+              "context": "Angles around a point include 27°, 60° and 44°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Angles around a point",
+                "labels": [
+                  "Angles around a point include 27°, 60° and 44°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (C) and less than (B)",
+        "B": "(B) + (C) = (A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(A) is equal to (B) and greater than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Conflates (A) and (B) as equal or misorders (C)."
+      },
+      "explanation": "(A): ((360 − ((35 + 48) + 48)) ÷ (7 + 1)) = 229/8; (B): ((360 − ((55 + 36) + 27)) ÷ (4 + 1)) = 242/5; (C): ((360 − ((27 + 60) + 44)) ÷ (7 + 1)) = 229/8. Therefore (A) is equal to (C) and less than (B).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Angles around a point</text><path d=\"M195 61 L230 30 M195 61 L260 60 M195 61 L215 90 M195 61 L145 88 M195 61 L145 34\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Angles around a point include 35°, 48° and 48°.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">The two remaining angles are in the ratio 7:1.</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">Find the smaller remaining angle.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Angles around a point</text><path d=\"M195 61 L230 30 M195 61 L260 60 M195 61 L215 90 M195 61 L145 88 M195 61 L145 34\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Angles around a point include 55°, 36° and 27°.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">The two remaining angles are in the ratio 4:1.</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">Find the smaller remaining angle.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Angles around a point</text><path d=\"M195 61 L230 30 M195 61 L260 60 M195 61 L215 90 M195 61 L145 88 M195 61 L145 34\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Angles around a point include 27°, 60° and 44°.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">The two remaining angles are in the ratio 7:1.</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">Find the smaller remaining angle.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg></svg>",
+        "alt_text": "Quantity A: Angles around a point: Angles around a point include 35°, 48° and 48°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle.; Quantity B: Angles around a point: Angles around a point include 55°, 36° and 27°. The two remaining angles are in the ratio 4:1. Find the smaller remaining angle.; Quantity C: Angles around a point: Angles around a point include 27°, 60° and 44°. The two remaining angles are in the ratio 7:1. Find the smaller remaining angle."
+      },
+      "question_number": 68
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q069",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((4/2) + (16/8)) − ((2/3) × 2)) ÷ (8/3))",
+        "B": "Evaluate the following expression. Expression: ((((17/12) + (12/6)) − ((3/13) × 3)) ÷ (6/4))",
+        "C": "Evaluate the following expression. Expression: ((((17/8) + (9/2)) − ((8/9) × 8)) ÷ (2/9))"
+      },
+      "computed_values": {
+        "A": "1",
+        "B": "425/234",
+        "C": "-35/16",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      4,
+                      2
+                    ],
+                    [
+                      "rat",
+                      16,
+                      8
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      3
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      17,
+                      12
+                    ],
+                    [
+                      "rat",
+                      12,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      3,
+                      13
+                    ],
+                    3
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      17,
+                      8
+                    ],
+                    [
+                      "rat",
+                      9,
+                      2
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      8,
+                      9
+                    ],
+                    8
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "C": "Trap: Misorders (C) and (B) when ranking all three quantities."
+      },
+      "explanation": "(A): ((((4/2) + (16/8)) − ((2/3) × 2)) ÷ (8/3)) = 1; (B): ((((17/12) + (12/6)) − ((3/13) × 3)) ÷ (6/4)) = 425/234; (C): ((((17/8) + (9/2)) − ((8/9) × 8)) ÷ (2/9)) = -35/16. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 69
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q070",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((23/4) − (6/4)) + (10/5)) ÷ (1 − (4/14)))",
+        "B": "Evaluate the following expression. Expression: ((((14/3) − (10/6)) + (7/4)) ÷ (1 − (6/13)))",
+        "C": "Evaluate the following expression. Expression: ((((7/7) − (8/9)) + (9/8)) ÷ (1 − (9/18)))"
+      },
+      "computed_values": {
+        "A": "35/4",
+        "B": "247/28",
+        "C": "89/36",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      23,
+                      4
+                    ],
+                    [
+                      "rat",
+                      6,
+                      4
+                    ]
+                  ],
+                  [
+                    "rat",
+                    10,
+                    5
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    4,
+                    14
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      14,
+                      3
+                    ],
+                    [
+                      "rat",
+                      10,
+                      6
+                    ]
+                  ],
+                  [
+                    "rat",
+                    7,
+                    4
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    6,
+                    13
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      7,
+                      7
+                    ],
+                    [
+                      "rat",
+                      8,
+                      9
+                    ]
+                  ],
+                  [
+                    "rat",
+                    9,
+                    8
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    9,
+                    18
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is less than (C)",
+        "B": "(A) + (C) = (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational inequality between (B) and (C).",
+        "B": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "D": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): ((((23/4) − (6/4)) + (10/5)) ÷ (1 − (4/14))) = 35/4; (B): ((((14/3) − (10/6)) + (7/4)) ÷ (1 − (6/13))) = 247/28; (C): ((((7/7) − (8/9)) + (9/8)) ÷ (1 − (9/18))) = 89/36. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 70
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q071",
+      "archetype": "Sequence",
+      "sub_type": "Second-Order Difference",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 25, 41, 69, 109, 161, ?",
+      "stimulus": [
+        "25",
+        "41",
+        "69",
+        "109",
+        "161"
+      ],
+      "computed_values": {
+        "next_term": "225",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 2,
+          "parameters": {
+            "a": 25,
+            "b": 10,
+            "c": 6,
+            "d": 40,
+            "e": 10,
+            "f": 5,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "213",
+        "B": "225",
+        "C": "109",
+        "D": "161"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "With term index n starting at 0, the numeric term is 25 + 10n + 6n²; first differences increase by 12. The next term is 225.",
+      "modality": "Numbers Only",
+      "question_number": 71
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q072",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((1.1 × 0.5) − (0.03 + 0.05)) ÷ 0.6)",
+        "B": "Evaluate the following expression. Expression: (((2.0 × 0.8) − (0.10 + 0.09)) ÷ 0.6)",
+        "C": "Evaluate the following expression. Expression: (((0.5 × 0.9) − (0.11 + 0.05)) ÷ 0.4)"
+      },
+      "computed_values": {
+        "A": "47/60",
+        "B": "47/20",
+        "C": "29/40",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving decimals",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "dec",
+                      "1.1"
+                    ],
+                    [
+                      "dec",
+                      "0.5"
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "dec",
+                      "0.03"
+                    ],
+                    [
+                      "dec",
+                      "0.05"
+                    ]
+                  ]
+                ],
+                [
+                  "dec",
+                  "0.6"
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "dec",
+                      "2.0"
+                    ],
+                    [
+                      "dec",
+                      "0.8"
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "dec",
+                      "0.10"
+                    ],
+                    [
+                      "dec",
+                      "0.09"
+                    ]
+                  ]
+                ],
+                [
+                  "dec",
+                  "0.6"
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "dec",
+                      "0.5"
+                    ],
+                    [
+                      "dec",
+                      "0.9"
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "dec",
+                      "0.11"
+                    ],
+                    [
+                      "dec",
+                      "0.05"
+                    ]
+                  ]
+                ],
+                [
+                  "dec",
+                  "0.4"
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "C": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "D": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): (((1.1 × 0.5) − (0.03 + 0.05)) ÷ 0.6) = 47/60; (B): (((2.0 × 0.8) − (0.10 + 0.09)) ÷ 0.6) = 47/20; (C): (((0.5 × 0.9) − (0.11 + 0.05)) ÷ 0.4) = 29/40. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 72
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q073",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Distributive property with variables",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "For x = -9, y = 8, use distribution and substitution to evaluate the expression. Expression: ((7 × (x − 6)) − (5 × (y + 2)))",
+        "B": "For x = -8, y = 4, use distribution and substitution to evaluate the expression. Expression: ((9 × (x − 6)) − (14 × (y + 3)))",
+        "C": "For x = -3, y = 9, use distribution and substitution to evaluate the expression. Expression: ((21 × (x − 7)) − (13 × (y + 2)))"
+      },
+      "computed_values": {
+        "A": "-155",
+        "B": "-224",
+        "C": "-353",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property with variables",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  7,
+                  [
+                    "sub",
+                    [
+                      "var",
+                      "x"
+                    ],
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  5,
+                  [
+                    "add",
+                    [
+                      "var",
+                      "y"
+                    ],
+                    2
+                  ]
+                ]
+              ],
+              "variables": {
+                "x": -9,
+                "y": 8
+              },
+              "context": "For x = -9, y = 8, use distribution and substitution to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  9,
+                  [
+                    "sub",
+                    [
+                      "var",
+                      "x"
+                    ],
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  14,
+                  [
+                    "add",
+                    [
+                      "var",
+                      "y"
+                    ],
+                    3
+                  ]
+                ]
+              ],
+              "variables": {
+                "x": -8,
+                "y": 4
+              },
+              "context": "For x = -8, y = 4, use distribution and substitution to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "sub",
+                    [
+                      "var",
+                      "x"
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "mul",
+                  13,
+                  [
+                    "add",
+                    [
+                      "var",
+                      "y"
+                    ],
+                    2
+                  ]
+                ]
+              ],
+              "variables": {
+                "x": -3,
+                "y": 9
+              },
+              "context": "For x = -3, y = 9, use distribution and substitution to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(B) is greater than (A)",
+        "C": "(B) + (C) = (A)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses relational comparison between (B) and (A).",
+        "C": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "D": "Trap: Misorders (C), (A), and (B) under time pressure."
+      },
+      "explanation": "(A): ((7 × (x − 6)) − (5 × (y + 2))) = -155; (B): ((9 × (x − 6)) − (14 × (y + 3))) = -224; (C): ((21 × (x − 7)) − (13 × (y + 2))) = -353. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 73
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q074",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Right angles",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A right angle is partitioned into 13°, 14°, and x°. Find 11/9 of x.",
+        "B": "A right angle is partitioned into 27°, 20°, and x°. Find 12/5 of x.",
+        "C": "A right angle is partitioned into 21°, 8°, and x°. Find 12/7 of x."
+      },
+      "computed_values": {
+        "A": "77",
+        "B": "516/5",
+        "C": "732/7",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Right angles",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  [
+                    "sub",
+                    90,
+                    [
+                      "add",
+                      13,
+                      14
+                    ]
+                  ],
+                  11
+                ],
+                9
+              ],
+              "variables": {},
+              "context": "A right angle is partitioned into 13°, 14°, and x°. Find 11/9 of x.",
+              "diagram": {
+                "kind": "right",
+                "given": 27,
+                "parts": [
+                  13,
+                  14
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  [
+                    "sub",
+                    90,
+                    [
+                      "add",
+                      27,
+                      20
+                    ]
+                  ],
+                  12
+                ],
+                5
+              ],
+              "variables": {},
+              "context": "A right angle is partitioned into 27°, 20°, and x°. Find 12/5 of x.",
+              "diagram": {
+                "kind": "right",
+                "given": 47,
+                "parts": [
+                  27,
+                  20
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  [
+                    "sub",
+                    90,
+                    [
+                      "add",
+                      21,
+                      8
+                    ]
+                  ],
+                  12
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "A right angle is partitioned into 21°, 8°, and x°. Find 12/7 of x.",
+              "diagram": {
+                "kind": "right",
+                "given": 29,
+                "parts": [
+                  21,
+                  8
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(B) is equal to (C) and greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): (((90 − (13 + 14)) × 11) ÷ 9) = 77; (B): (((90 − (27 + 20)) × 12) ÷ 5) = 516/5; (C): (((90 − (21 + 8)) × 12) ÷ 7) = 732/7. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 240 150\"><rect x='0' y='0' width='240' height='150' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='55' y1='122' x2='55' y2='24' stroke='#1e293b' stroke-width='2.4'/><line x1='55' y1='122' x2='195' y2='122' stroke='#1e293b' stroke-width='2.4'/><rect x='55' y='106' width='16' height='16' fill='none' stroke='#64748b' stroke-width='1.5'/><line x1='55' y1='122' x2='165' y2='45' stroke='#2563eb' stroke-width='2.2'/><text x='115' y='112' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>(13 + 14)°</text><text x='74' y='72' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 240 150\"><rect x='0' y='0' width='240' height='150' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='55' y1='122' x2='55' y2='24' stroke='#1e293b' stroke-width='2.4'/><line x1='55' y1='122' x2='195' y2='122' stroke='#1e293b' stroke-width='2.4'/><rect x='55' y='106' width='16' height='16' fill='none' stroke='#64748b' stroke-width='1.5'/><line x1='55' y1='122' x2='165' y2='45' stroke='#2563eb' stroke-width='2.2'/><text x='115' y='112' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>(27 + 20)°</text><text x='74' y='72' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 240 150\"><rect x='0' y='0' width='240' height='150' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='55' y1='122' x2='55' y2='24' stroke='#1e293b' stroke-width='2.4'/><line x1='55' y1='122' x2='195' y2='122' stroke='#1e293b' stroke-width='2.4'/><rect x='55' y='106' width='16' height='16' fill='none' stroke='#64748b' stroke-width='1.5'/><line x1='55' y1='122' x2='165' y2='45' stroke='#2563eb' stroke-width='2.2'/><text x='115' y='112' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>(21 + 8)°</text><text x='74' y='72' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg></svg>",
+        "alt_text": "Quantity A: Right angle (90 degrees) split into (13 + 14) degrees and x°.; Quantity B: Right angle (90 degrees) split into (27 + 20) degrees and x°.; Quantity C: Right angle (90 degrees) split into (21 + 8) degrees and x°."
+      },
+      "question_number": 74
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q075",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Graphs and charts",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Using the chart values, find (B + C − D) ÷ (A − D).",
+        "B": "Using the chart values, find (B + C − D) ÷ (A − D).",
+        "C": "Using the chart values, find (B + C − D) ÷ (A − D)."
+      },
+      "computed_values": {
+        "A": "90/47",
+        "B": "61/62",
+        "C": "69/35",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Graphs and charts",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    60,
+                    37
+                  ],
+                  7
+                ],
+                [
+                  "sub",
+                  54,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Using the chart values, find (B + C − D) ÷ (A − D).",
+              "diagram": {
+                "kind": "chart",
+                "values": {
+                  "A": 54,
+                  "B": 60,
+                  "C": 37,
+                  "D": 7
+                }
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    30,
+                    35
+                  ],
+                  4
+                ],
+                [
+                  "sub",
+                  66,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Using the chart values, find (B + C − D) ÷ (A − D).",
+              "diagram": {
+                "kind": "chart",
+                "values": {
+                  "A": 66,
+                  "B": 30,
+                  "C": 35,
+                  "D": 4
+                }
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    35,
+                    41
+                  ],
+                  7
+                ],
+                [
+                  "sub",
+                  42,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Using the chart values, find (B + C − D) ÷ (A − D).",
+              "diagram": {
+                "kind": "chart",
+                "values": {
+                  "A": 42,
+                  "B": 35,
+                  "C": 41,
+                  "D": 7
+                }
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (B) and (A).",
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "C": "Trap: Reverses strict ascending order (C) > (B) > (A)."
+      },
+      "explanation": "(A): (((60 + 37) − 7) ÷ (54 − 7)) = 90/47; (B): (((30 + 35) − 4) ÷ (66 − 4)) = 61/62; (C): (((35 + 41) − 7) ÷ (42 − 7)) = 69/35. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 340 152\"><rect x='0' y='0' width='340' height='152' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='170' y='19' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Recorded counts</text><line x1='44' y1='28' x2='44' y2='122' stroke='#475569' stroke-width='1.6'/><line x1='44' y1='122' x2='320' y2='122' stroke='#475569' stroke-width='1.6'/><rect x='63.7' y='44.6' width='41.6' height='77.4' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='84.5' y='39.6' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>54</text><text x='84.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>A</text><rect x='128.7' y='36.0' width='41.6' height='86.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='149.5' y='31.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>60</text><text x='149.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>B</text><rect x='193.7' y='69.0' width='41.6' height='53.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='214.5' y='64.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>37</text><text x='214.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>C</text><rect x='258.7' y='112.0' width='41.6' height='10.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='279.5' y='107.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>7</text><text x='279.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>D</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 340 152\"><rect x='0' y='0' width='340' height='152' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='170' y='19' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Recorded counts</text><line x1='44' y1='28' x2='44' y2='122' stroke='#475569' stroke-width='1.6'/><line x1='44' y1='122' x2='320' y2='122' stroke='#475569' stroke-width='1.6'/><rect x='63.7' y='36.0' width='41.6' height='86.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='84.5' y='31.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>66</text><text x='84.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>A</text><rect x='128.7' y='82.9' width='41.6' height='39.1' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='149.5' y='77.9' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>30</text><text x='149.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>B</text><rect x='193.7' y='76.4' width='41.6' height='45.6' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='214.5' y='71.4' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>35</text><text x='214.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>C</text><rect x='258.7' y='116.8' width='41.6' height='5.2' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='279.5' y='111.8' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>4</text><text x='279.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>D</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 340 152\"><rect x='0' y='0' width='340' height='152' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='170' y='19' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Recorded counts</text><line x1='44' y1='28' x2='44' y2='122' stroke='#475569' stroke-width='1.6'/><line x1='44' y1='122' x2='320' y2='122' stroke='#475569' stroke-width='1.6'/><rect x='63.7' y='36.0' width='41.6' height='86.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='84.5' y='31.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>42</text><text x='84.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>A</text><rect x='128.7' y='50.3' width='41.6' height='71.7' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='149.5' y='45.3' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>35</text><text x='149.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>B</text><rect x='193.7' y='38.0' width='41.6' height='84.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='214.5' y='33.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>41</text><text x='214.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>C</text><rect x='258.7' y='107.7' width='41.6' height='14.3' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='279.5' y='102.7' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>7</text><text x='279.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>D</text></svg></svg>",
+        "alt_text": "Quantity A: Bar chart 'Recorded counts': A=54, B=60, C=37, D=7.; Quantity B: Bar chart 'Recorded counts': A=66, B=30, C=35, D=4.; Quantity C: Bar chart 'Recorded counts': A=42, B=35, C=41, D=7."
+      },
+      "question_number": 75
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q076",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: ((((13/5) + (12/5)) − ((3/6) × 3)) ÷ (5/4))",
+      "stimulus": "Evaluate the following expression. Expression: ((((13/5) + (12/5)) − ((3/6) × 3)) ÷ (5/4))",
+      "computed_values": {
+        "result": "14/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      13,
+                      5
+                    ],
+                    [
+                      "rat",
+                      12,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      3,
+                      6
+                    ],
+                    3
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "div",
+              [
+                "rat",
+                5,
+                4
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    13,
+                    5
+                  ],
+                  [
+                    "rat",
+                    12,
+                    5
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    3,
+                    6
+                  ],
+                  3
+                ]
+              ]
+            ],
+            "B": [
+              "mul",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    13,
+                    5
+                  ],
+                  [
+                    "rat",
+                    12,
+                    5
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    3,
+                    6
+                  ],
+                  3
+                ]
+              ],
+              [
+                "rat",
+                5,
+                4
+              ]
+            ],
+            "D": [
+              "sub",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    13,
+                    5
+                  ],
+                  [
+                    "rat",
+                    12,
+                    5
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    3,
+                    6
+                  ],
+                  3
+                ]
+              ],
+              [
+                "rat",
+                5,
+                4
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "5/14",
+        "B": "35/8",
+        "C": "14/5",
+        "D": "9/4"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses operands in div.",
+        "B": "Trap: Replaces div with mul.",
+        "D": "Trap: Replaces div with sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((((13/5) + (12/5)) − ((3/6) × 3)) ÷ (5/4)) = 14/5.",
+      "question_number": 76
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q077",
+      "archetype": "Sequence",
+      "sub_type": "Second-Order Difference",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 1.6, 3.1, 6.0, 10.3, 16.0, ?",
+      "stimulus": [
+        "1.6",
+        "3.1",
+        "6.0",
+        "10.3",
+        "16.0"
+      ],
+      "computed_values": {
+        "next_term": "23.1",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Operations involving decimals",
+          "level": 2,
+          "parameters": {
+            "a": 16,
+            "b": 8,
+            "c": 7,
+            "d": 73,
+            "e": 13,
+            "f": 2,
+            "denom": 10,
+            "modality": "Numbers Only",
+            "pattern": "quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "23.1",
+        "B": "10.3",
+        "C": "21.7",
+        "D": "16.0"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses the last visible step.",
+        "C": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "With term index n starting at 0, the numeric term is 16 + 8n + 7n²; first differences increase by 14. Divide the numeric expressions by 10. The next term is 23.1.",
+      "modality": "Numbers Only",
+      "question_number": 77
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q078",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Use the distributive property to evaluate the expression. Expression: ((16 × 7) + (16 × 5))",
+      "stimulus": "Use the distributive property to evaluate the expression. Expression: ((16 × 7) + (16 × 5))",
+      "computed_values": {
+        "result": "192",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  16,
+                  7
+                ],
+                [
+                  "mul",
+                  16,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              16,
+              7
+            ],
+            "C": [
+              "sub",
+              [
+                "mul",
+                16,
+                7
+              ],
+              [
+                "mul",
+                16,
+                5
+              ]
+            ],
+            "D": [
+              "mul",
+              16,
+              5
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "112",
+        "B": "192",
+        "C": "32",
+        "D": "80"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Replaces add with sub.",
+        "D": "Trap: Stops at the right intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((16 × 7) + (16 × 5)) = 192.",
+      "question_number": 78
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q079",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Graphs and charts",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Using the chart values, find (B + C − D) ÷ (A − D).",
+      "stimulus": "Using the chart values, find (B + C − D) ÷ (A − D).",
+      "computed_values": {
+        "result": "41/44",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Graphs and charts",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    15,
+                    30
+                  ],
+                  4
+                ],
+                [
+                  "sub",
+                  48,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Using the chart values, find (B + C − D) ÷ (A − D).",
+              "diagram": {
+                "kind": "chart",
+                "values": {
+                  "A": 48,
+                  "B": 15,
+                  "C": 30,
+                  "D": 4
+                }
+              }
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "sub",
+              [
+                "sub",
+                [
+                  "add",
+                  15,
+                  30
+                ],
+                4
+              ],
+              [
+                "sub",
+                48,
+                4
+              ]
+            ],
+            "C": [
+              "mul",
+              [
+                "sub",
+                [
+                  "add",
+                  15,
+                  30
+                ],
+                4
+              ],
+              [
+                "sub",
+                48,
+                4
+              ]
+            ],
+            "D": [
+              "div",
+              [
+                "sub",
+                48,
+                4
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  15,
+                  30
+                ],
+                4
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "41/44",
+        "B": "-3",
+        "C": "1804",
+        "D": "44/41"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Replaces div with sub.",
+        "C": "Trap: Replaces div with mul.",
+        "D": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((15 + 30) − 4) ÷ (48 − 4)) = 41/44.",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 340 152' width='100%' height='152'><rect x='0' y='0' width='340' height='152' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='170' y='19' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Recorded counts</text><line x1='44' y1='28' x2='44' y2='122' stroke='#475569' stroke-width='1.6'/><line x1='44' y1='122' x2='320' y2='122' stroke='#475569' stroke-width='1.6'/><rect x='63.7' y='36.0' width='41.6' height='86.0' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='84.5' y='31.0' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>48</text><text x='84.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>A</text><rect x='128.7' y='95.1' width='41.6' height='26.9' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='149.5' y='90.1' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>15</text><text x='149.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>B</text><rect x='193.7' y='68.2' width='41.6' height='53.8' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='214.5' y='63.2' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>30</text><text x='214.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>C</text><rect x='258.7' y='114.8' width='41.6' height='7.2' rx='3' fill='#3b82f6' stroke='#1d4ed8' stroke-width='1.2'/><text x='279.5' y='109.8' text-anchor='middle' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>4</text><text x='279.5' y='138' text-anchor='middle' font-family='sans-serif' font-size='11' fill='#334155'>D</text></svg>",
+        "alt_text": "Bar chart 'Recorded counts': A=48, B=15, C=30, D=4."
+      },
+      "question_number": 79
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q080",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 104, 171, 268, 401, 576, 799, 1076, 1413, ?",
+      "stimulus": [
+        "104",
+        "171",
+        "268",
+        "401",
+        "576",
+        "799",
+        "1076",
+        "1413"
+      ],
+      "computed_values": {
+        "next_term": "1816",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 16,
+            "b": 4,
+            "c": 6,
+            "d": 64,
+            "e": 8,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "1413",
+        "B": "1076",
+        "C": "1816",
+        "D": "1750"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "For consecutive n starting at 4, use n³ + 6n + 16. The next term is 1816.",
+      "modality": "Numbers Only",
+      "question_number": 80
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q081",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 7, 24, 42, 129, 252, 759, ?",
+      "stimulus": [
+        "7",
+        "24",
+        "42",
+        "129",
+        "252",
+        "759"
+      ],
+      "computed_values": {
+        "next_term": "1512",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 7,
+            "b": 3,
+            "c": 3,
+            "d": 50,
+            "e": 2,
+            "f": 6,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "759",
+        "B": "1512",
+        "C": "252",
+        "D": "1266"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Alternate these rules: multiply by 3 then add 3; multiply by 2 then subtract 6. The next term is 1512.",
+      "modality": "Numbers Only",
+      "question_number": 81
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q082",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((4 × 2) ÷ 7)",
+        "B": "Evaluate the following expression. Expression: ((11 × 2) ÷ 6)",
+        "C": "Evaluate the following expression. Expression: ((13 × 9) ÷ 16)"
+      },
+      "computed_values": {
+        "A": "8/7",
+        "B": "11/3",
+        "C": "117/16",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  4,
+                  2
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  11,
+                  2
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  13,
+                  9
+                ],
+                16
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) + (C) = (B)",
+        "B": "(A), (B), and (C) are equal",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(A) is greater than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "B": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Reverses relational comparison between (A) and (B)."
+      },
+      "explanation": "(A): ((4 × 2) ÷ 7) = 8/7; (B): ((11 × 2) ÷ 6) = 11/3; (C): ((13 × 9) ÷ 16) = 117/16. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 82
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q083",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Evaluating equations with variables",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "For x = -7, y = 9, Evaluate the following expression. Expression: ((11 × (x ^ 2)) + ((y − 3) ÷ 17))",
+      "stimulus": "For x = -7, y = 9, Evaluate the following expression. Expression: ((11 × (x ^ 2)) + ((y − 3) ÷ 17))",
+      "computed_values": {
+        "result": "9169/17",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Evaluating equations with variables",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  11,
+                  [
+                    "pow",
+                    [
+                      "var",
+                      "x"
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "div",
+                  [
+                    "sub",
+                    [
+                      "var",
+                      "y"
+                    ],
+                    3
+                  ],
+                  17
+                ]
+              ],
+              "variables": {
+                "x": -7,
+                "y": 9
+              },
+              "context": "For x = -7, y = 9, Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "sub",
+              [
+                "mul",
+                11,
+                [
+                  "pow",
+                  [
+                    "var",
+                    "x"
+                  ],
+                  2
+                ]
+              ],
+              [
+                "div",
+                [
+                  "sub",
+                  [
+                    "var",
+                    "y"
+                  ],
+                  3
+                ],
+                17
+              ]
+            ],
+            "B": [
+              "mul",
+              11,
+              [
+                "pow",
+                [
+                  "var",
+                  "x"
+                ],
+                2
+              ]
+            ],
+            "C": [
+              "div",
+              [
+                "sub",
+                [
+                  "var",
+                  "y"
+                ],
+                3
+              ],
+              17
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "9157/17",
+        "B": "539",
+        "C": "6/17",
+        "D": "9169/17"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces add with sub.",
+        "B": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Stops at the right intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((11 × (x ^ 2)) + ((y − 3) ÷ 17)) = 9169/17.",
+      "question_number": 83
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q084",
+      "archetype": "Sequence",
+      "sub_type": "Roman Numeral Mixed/Pure",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Roman numerals",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: XXVIII, LXXVIII, XXXVII, XCV, LX, CXX, XCVII, CLIII, ?",
+      "stimulus": [
+        "XXVIII",
+        "LXXVIII",
+        "XXXVII",
+        "XCV",
+        "LX",
+        "CXX",
+        "XCVII",
+        "CLIII"
+      ],
+      "computed_values": {
+        "next_term": "CXLVIII",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Roman numerals",
+          "level": 3,
+          "parameters": {
+            "a": 28,
+            "b": 2,
+            "c": 7,
+            "d": 78,
+            "e": 13,
+            "f": 4,
+            "denom": 1,
+            "modality": "Roman Numerals",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "CLIII",
+        "B": "CCIX",
+        "C": "CXLVIII",
+        "D": "XCVII"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 28 + 2n + 7n²; even = 78 + 13n + 4n². Decode the Roman numerals before applying the numeric rules, then encode the answer. The next term is CXLVIII.",
+      "modality": "Roman Numerals",
+      "question_number": 84
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q085",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 20 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 5 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "732",
+        "B": "192",
+        "C": "384",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    20,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 20 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    5,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 5 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    10,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(A) is equal to (C) and greater than (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(A) is equal to (C) and less than (B)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "C": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "D": "Trap: Assumes (A) = (C) < (B) without verifying each quantity."
+      },
+      "explanation": "(A): (((20 × 3) + 1) × 12) = 732; (B): (((5 × 3) + 1) × 12) = 192; (C): (((10 × 3) + 2) × 12) = 384. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 85
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q086",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Slope of a line",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Line P joins (-3, -1) and (5, 2). Line Q joins (-3, 2) and (1, -1). Find (slope of P − slope of Q) ÷ (7/10).",
+        "B": "Line P joins (-3, -2) and (6, 4). Line Q joins (-3, 1) and (1, -2). Find (slope of P − slope of Q) ÷ (8/11).",
+        "C": "Line P joins (-2, -2) and (4, 4). Line Q joins (-2, 4) and (1, -1). Find (slope of P − slope of Q) ÷ (9/6)."
+      },
+      "computed_values": {
+        "A": "45/28",
+        "B": "187/96",
+        "C": "16/9",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Slope of a line",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      2,
+                      -1
+                    ],
+                    [
+                      "sub",
+                      5,
+                      -3
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -1,
+                      2
+                    ],
+                    [
+                      "sub",
+                      1,
+                      -3
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-3, -1) and (5, 2). Line Q joins (-3, 2) and (1, -1). Find (slope of P − slope of Q) ÷ (7/10).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -3,
+                    -1
+                  ],
+                  [
+                    5,
+                    2
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -3,
+                    2
+                  ],
+                  [
+                    1,
+                    -1
+                  ]
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      4,
+                      -2
+                    ],
+                    [
+                      "sub",
+                      6,
+                      -3
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -2,
+                      1
+                    ],
+                    [
+                      "sub",
+                      1,
+                      -3
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-3, -2) and (6, 4). Line Q joins (-3, 1) and (1, -2). Find (slope of P − slope of Q) ÷ (8/11).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -3,
+                    -2
+                  ],
+                  [
+                    6,
+                    4
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -3,
+                    1
+                  ],
+                  [
+                    1,
+                    -2
+                  ]
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      4,
+                      -2
+                    ],
+                    [
+                      "sub",
+                      4,
+                      -2
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -1,
+                      4
+                    ],
+                    [
+                      "sub",
+                      1,
+                      -2
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-2, -2) and (4, 4). Line Q joins (-2, 4) and (1, -1). Find (slope of P − slope of Q) ÷ (9/6).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -2,
+                    -2
+                  ],
+                  [
+                    4,
+                    4
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -2,
+                    4
+                  ],
+                  [
+                    1,
+                    -1
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(B) + (C) = (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "C": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "D": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): ((((2 − -1) ÷ (5 − -3)) − ((-1 − 2) ÷ (1 − -3))) ÷ (7/10)) = 45/28; (B): ((((4 − -2) ÷ (6 − -3)) − ((-2 − 1) ÷ (1 − -3))) ÷ (8/11)) = 187/96; (C): ((((4 − -2) ÷ (4 − -2)) − ((-1 − 4) ÷ (1 − -2))) ÷ (9/6)) = 16/9. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='64.5' y1='118.5' x2='132.5' y2='93.0' stroke='#2563eb' stroke-width='2.4'/><circle cx='64.5' cy='118.5' r='3.5' fill='#1d4ed8'/><circle cx='132.5' cy='93.0' r='3.5' fill='#1d4ed8'/><text x='138.5' y='89.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-3, -1)->(5, 2)</text><line x1='64.5' y1='93.0' x2='98.5' y2='118.5' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='64.5' cy='93.0' r='3.5' fill='#dc2626'/><circle cx='98.5' cy='118.5' r='3.5' fill='#dc2626'/><text x='104.5' y='130.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-3, 2)->(1, -1)</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='64.5' y1='127.0' x2='141.0' y2='76.0' stroke='#2563eb' stroke-width='2.4'/><circle cx='64.5' cy='127.0' r='3.5' fill='#1d4ed8'/><circle cx='141.0' cy='76.0' r='3.5' fill='#1d4ed8'/><text x='147.0' y='72.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-3, -2)->(6, 4)</text><line x1='64.5' y1='101.5' x2='98.5' y2='127.0' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='64.5' cy='101.5' r='3.5' fill='#dc2626'/><circle cx='98.5' cy='127.0' r='3.5' fill='#dc2626'/><text x='104.5' y='139.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-3, 1)->(1, -2)</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='73.0' y1='127.0' x2='124.0' y2='76.0' stroke='#2563eb' stroke-width='2.4'/><circle cx='73.0' cy='127.0' r='3.5' fill='#1d4ed8'/><circle cx='124.0' cy='76.0' r='3.5' fill='#1d4ed8'/><text x='130.0' y='72.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-2, -2)->(4, 4)</text><line x1='73.0' y1='76.0' x2='98.5' y2='118.5' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='73.0' cy='76.0' r='3.5' fill='#dc2626'/><circle cx='98.5' cy='118.5' r='3.5' fill='#dc2626'/><text x='104.5' y='130.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-2, 4)->(1, -1)</text></svg></svg>",
+        "alt_text": "Quantity A: Coordinate grid plotting P through (-3, -1) and (5, 2).; Quantity B: Coordinate grid plotting P through (-3, -2) and (6, 4).; Quantity C: Coordinate grid plotting P through (-2, -2) and (4, 4)."
+      },
+      "question_number": 86
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q087",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate the following expression. Expression: ((1.1 − 0.04) × 6)",
+      "stimulus": "Evaluate the following expression. Expression: ((1.1 − 0.04) × 6)",
+      "computed_values": {
+        "result": "159/25",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving decimals",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "sub",
+                  [
+                    "dec",
+                    "1.1"
+                  ],
+                  [
+                    "dec",
+                    "0.04"
+                  ]
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "add",
+              [
+                "sub",
+                [
+                  "dec",
+                  "1.1"
+                ],
+                [
+                  "dec",
+                  "0.04"
+                ]
+              ],
+              6
+            ],
+            "C": [
+              "div",
+              [
+                "sub",
+                [
+                  "dec",
+                  "1.1"
+                ],
+                [
+                  "dec",
+                  "0.04"
+                ]
+              ],
+              6
+            ],
+            "D": [
+              "sub",
+              [
+                "dec",
+                "1.1"
+              ],
+              [
+                "dec",
+                "0.04"
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "353/50",
+        "B": "159/25",
+        "C": "53/300",
+        "D": "53/50"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Replaces mul with add.",
+        "C": "Trap: Replaces mul with div.",
+        "D": "Trap: Stops at the left intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((1.1 − 0.04) × 6) = 159/25.",
+      "question_number": 87
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q088",
+      "archetype": "Sequence",
+      "sub_type": "Interleaved (Dual Series)",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 32, 71, 41, 78, 54, 93, 71, 116, ?",
+      "stimulus": [
+        "32",
+        "71",
+        "41",
+        "78",
+        "54",
+        "93",
+        "71",
+        "116"
+      ],
+      "computed_values": {
+        "next_term": "92",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 32,
+            "b": 7,
+            "c": 2,
+            "d": 71,
+            "e": 3,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "161",
+        "B": "71",
+        "C": "92",
+        "D": "116"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 32 + 7n + 2n²; even = 71 + 3n + 4n². The next term is 92.",
+      "modality": "Numbers Only",
+      "question_number": 88
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q089",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Angles in a triangle",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Two interior angles of a triangle are 39° and 54°. Find 11/7 of the third interior angle.",
+      "stimulus": "Two interior angles of a triangle are 39° and 54°. Find 11/7 of the third interior angle.",
+      "computed_values": {
+        "result": "957/7",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Angles in a triangle",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  [
+                    "sub",
+                    180,
+                    [
+                      "add",
+                      39,
+                      54
+                    ]
+                  ],
+                  11
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Two interior angles of a triangle are 39° and 54°. Find 11/7 of the third interior angle.",
+              "diagram": {
+                "kind": "triangle",
+                "angles": [
+                  39,
+                  54
+                ]
+              }
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "sub",
+              [
+                "mul",
+                [
+                  "sub",
+                  180,
+                  [
+                    "add",
+                    39,
+                    54
+                  ]
+                ],
+                11
+              ],
+              7
+            ],
+            "B": [
+              "mul",
+              [
+                "mul",
+                [
+                  "sub",
+                  180,
+                  [
+                    "add",
+                    39,
+                    54
+                  ]
+                ],
+                11
+              ],
+              7
+            ],
+            "D": [
+              "div",
+              7,
+              [
+                "mul",
+                [
+                  "sub",
+                  180,
+                  [
+                    "add",
+                    39,
+                    54
+                  ]
+                ],
+                11
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "950",
+        "B": "6699",
+        "C": "957/7",
+        "D": "7/957"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with sub.",
+        "B": "Trap: Replaces div with mul.",
+        "D": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((180 − (39 + 54)) × 11) ÷ 7) = 957/7.",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 155' width='100%' height='155'><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><text x='140' y='20' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Triangle (not to scale)</text><polygon points='40,130 240,130 130,34' fill='#eff6ff' stroke='#1d4ed8' stroke-width='2.2'/><text x='68' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>39°</text><text x='194' y='122' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>54°</text><text x='130' y='62' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>x°</text></svg>",
+        "alt_text": "Triangle (not to scale) with base angles 39 degrees and 54 degrees, and apex angle x°."
+      },
+      "question_number": 89
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q090",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: (((21 × 5) ÷ 12) − (3 ÷ 4))",
+      "stimulus": "Evaluate the following expression. Expression: (((21 × 5) ÷ 12) − (3 ÷ 4))",
+      "computed_values": {
+        "result": "8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    21,
+                    5
+                  ],
+                  12
+                ],
+                [
+                  "div",
+                  3,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "div",
+              [
+                "mul",
+                21,
+                5
+              ],
+              12
+            ],
+            "B": [
+              "sub",
+              [
+                "div",
+                3,
+                4
+              ],
+              [
+                "div",
+                [
+                  "mul",
+                  21,
+                  5
+                ],
+                12
+              ]
+            ],
+            "D": [
+              "add",
+              [
+                "div",
+                [
+                  "mul",
+                  21,
+                  5
+                ],
+                12
+              ],
+              [
+                "div",
+                3,
+                4
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "35/4",
+        "B": "-8",
+        "C": "8",
+        "D": "19/2"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "B": "Trap: Reverses operands in sub.",
+        "D": "Trap: Replaces sub with add."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((21 × 5) ÷ 12) − (3 ÷ 4)) = 8.",
+      "question_number": 90
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q091",
+      "archetype": "Sequence",
+      "sub_type": "Interleaved (Dual Series)",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 16, 44, 29, 53, 46, 66, 67, 83, ?",
+      "stimulus": [
+        "16",
+        "44",
+        "29",
+        "53",
+        "46",
+        "66",
+        "67",
+        "83"
+      ],
+      "computed_values": {
+        "next_term": "92",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 16,
+            "b": 11,
+            "c": 2,
+            "d": 44,
+            "e": 7,
+            "f": 2,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "83",
+        "B": "99",
+        "C": "92",
+        "D": "67"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 16 + 11n + 2n²; even = 44 + 7n + 2n². The next term is 92.",
+      "modality": "Numbers Only",
+      "question_number": 91
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q092",
+      "archetype": "Sequence",
+      "sub_type": "Interleaved (Dual Series)",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: W, D, E, J, W, T, Y, H, ? Alphabet positions wrap from Z to A.",
+      "stimulus": [
+        "W",
+        "D",
+        "E",
+        "J",
+        "W",
+        "T",
+        "Y",
+        "H"
+      ],
+      "computed_values": {
+        "next_term": "K",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 23,
+            "b": 3,
+            "c": 5,
+            "d": 56,
+            "e": 4,
+            "f": 2,
+            "denom": 1,
+            "modality": "Letters Only",
+            "pattern": "interleaved-quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "Y",
+        "B": "H",
+        "C": "K",
+        "D": "Q"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses the last visible step.",
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 23 + 3n + 5n²; even = 56 + 4n + 2n². Convert alphabet positions to letters, wrapping after Z. The next term is K.",
+      "modality": "Letters Only",
+      "question_number": 92
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q093",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Evaluating equations with variables",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "For x = -6, y = 8, Evaluate the following expression. Expression: ((21 × x) − 4)",
+        "B": "For x = -3, y = 8, Evaluate the following expression. Expression: ((19 × x) − 2)",
+        "C": "For x = -4, y = 5, Evaluate the following expression. Expression: ((24 × x) − 9)"
+      },
+      "computed_values": {
+        "A": "-130",
+        "B": "-59",
+        "C": "-105",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Evaluating equations with variables",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                4
+              ],
+              "variables": {
+                "x": -6,
+                "y": 8
+              },
+              "context": "For x = -6, y = 8, Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  19,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                2
+              ],
+              "variables": {
+                "x": -3,
+                "y": 8
+              },
+              "context": "For x = -3, y = 8, Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  24,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                9
+              ],
+              "variables": {
+                "x": -4,
+                "y": 5
+              },
+              "context": "For x = -4, y = 5, Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(B) + (C) = (A)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "B": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "C": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): ((21 × x) − 4) = -130; (B): ((19 × x) − 2) = -59; (C): ((24 × x) − 9) = -105. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 93
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q094",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Geometry",
+      "syllabus_topic": "Transversal and vertical angles",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Two parallel lines are crossed by a transversal. Same-side interior angles are (21x + 2)° and (9x + 4)°. Find x.",
+        "B": "Two parallel lines are crossed by a transversal. Same-side interior angles are (14x + 9)° and (5x + 9)°. Find x.",
+        "C": "Two parallel lines are crossed by a transversal. Same-side interior angles are (8x + 9)° and (7x + 8)°. Find x."
+      },
+      "computed_values": {
+        "A": "29/5",
+        "B": "162/19",
+        "C": "163/15",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Transversal and vertical angles",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "sub",
+                    180,
+                    2
+                  ],
+                  4
+                ],
+                [
+                  "add",
+                  21,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Two parallel lines are crossed by a transversal. Same-side interior angles are (21x + 2)° and (9x + 4)°. Find x.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Parallel lines and a transversal",
+                "labels": [
+                  "Two parallel lines are crossed by a transversal. Same-side interior angles are (21x + 2)° and (9x + 4)°. Find x."
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "sub",
+                    180,
+                    9
+                  ],
+                  9
+                ],
+                [
+                  "add",
+                  14,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Two parallel lines are crossed by a transversal. Same-side interior angles are (14x + 9)° and (5x + 9)°. Find x.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Parallel lines and a transversal",
+                "labels": [
+                  "Two parallel lines are crossed by a transversal. Same-side interior angles are (14x + 9)° and (5x + 9)°. Find x."
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "sub",
+                    180,
+                    9
+                  ],
+                  8
+                ],
+                [
+                  "add",
+                  8,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Two parallel lines are crossed by a transversal. Same-side interior angles are (8x + 9)° and (7x + 8)°. Find x.",
+              "diagram": {
+                "kind": "constraints",
+                "title": "Parallel lines and a transversal",
+                "labels": [
+                  "Two parallel lines are crossed by a transversal. Same-side interior angles are (8x + 9)° and (7x + 8)°. Find x."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(C) is less than (B)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Reverses relational inequality between (C) and (B)."
+      },
+      "explanation": "(A): (((180 − 2) − 4) ÷ (21 + 9)) = 29/5; (B): (((180 − 9) − 9) ÷ (14 + 5)) = 162/19; (C): (((180 − 9) − 8) ÷ (8 + 7)) = 163/15. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Parallel lines and a transversal</text><path d=\"M30 45 H365 M30 75 H365 M150 32 L230 88\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Two parallel lines are crossed by a transversal.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">Same-side interior angles are (21x + 2)° and (9x</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">+ 4)°. Find x.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Parallel lines and a transversal</text><path d=\"M30 45 H365 M30 75 H365 M150 32 L230 88\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Two parallel lines are crossed by a transversal.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">Same-side interior angles are (14x + 9)° and (5x</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">+ 9)°. Find x.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 400 220\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"8\" fill=\"#f4f8fa\" stroke=\"#bdccd4\"/><text x=\"18\" y=\"24\" font-size=\"14\" font-weight=\"bold\">Parallel lines and a transversal</text><path d=\"M30 45 H365 M30 75 H365 M150 32 L230 88\" fill=\"none\" stroke=\"#477289\" stroke-width=\"2\"/><text x=\"18\" y=\"105\" font-size=\"12\" fill=\"#263c48\">Two parallel lines are crossed by a transversal.</text><text x=\"18\" y=\"125\" font-size=\"12\" fill=\"#263c48\">Same-side interior angles are (8x + 9)° and (7x</text><text x=\"18\" y=\"145\" font-size=\"12\" fill=\"#263c48\">+ 8)°. Find x.</text><text x=\"230\" y=\"210\" font-size=\"10\">Schematic; not to scale</text></svg></svg>",
+        "alt_text": "Quantity A: Parallel lines and a transversal: Two parallel lines are crossed by a transversal. Same-side interior angles are (21x + 2)° and (9x + 4)°. Find x.; Quantity B: Parallel lines and a transversal: Two parallel lines are crossed by a transversal. Same-side interior angles are (14x + 9)° and (5x + 9)°. Find x.; Quantity C: Parallel lines and a transversal: Two parallel lines are crossed by a transversal. Same-side interior angles are (8x + 9)° and (7x + 8)°. Find x."
+      },
+      "question_number": 94
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q095",
+      "archetype": "Sequence",
+      "sub_type": "Linear Two-Step",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 8, 28, 68, 148, 308, ?",
+      "stimulus": [
+        "8",
+        "28",
+        "68",
+        "148",
+        "308"
+      ],
+      "computed_values": {
+        "next_term": "628",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "parameters": {
+            "a": 8,
+            "b": 2,
+            "c": 12,
+            "d": 42,
+            "e": 3,
+            "f": 3,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "affine"
+          }
+        }
+      },
+      "options": {
+        "A": "148",
+        "B": "308",
+        "C": "468",
+        "D": "628"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses the last visible step.",
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Multiply the preceding term by 2, then add 12, at every step. The next term is 628.",
+      "modality": "Numbers Only",
+      "question_number": 95
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q096",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((3 ^ 2) − 6)",
+        "B": "Evaluate the following expression. Expression: ((7 ^ 2) − 3)",
+        "C": "Evaluate the following expression. Expression: ((8 ^ 2) − 6)"
+      },
+      "computed_values": {
+        "A": "3",
+        "B": "46",
+        "C": "58",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  3,
+                  2
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  7,
+                  2
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  8,
+                  2
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "C": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "D": "Trap: Misorders the middle quantity in (B) > (A) > (C)."
+      },
+      "explanation": "(A): ((3 ^ 2) − 6) = 3; (B): ((7 ^ 2) − 3) = 46; (C): ((8 ^ 2) − 6) = 58. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 96
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q097",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 102, 170, 268, 402, 578, 802, 1080, 1418, ?",
+      "stimulus": [
+        "102",
+        "170",
+        "268",
+        "402",
+        "578",
+        "802",
+        "1080",
+        "1418"
+      ],
+      "computed_values": {
+        "next_term": "1822",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 10,
+            "b": 4,
+            "c": 7,
+            "d": 80,
+            "e": 10,
+            "f": 3,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "1756",
+        "B": "1822",
+        "C": "1080",
+        "D": "1418"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "For consecutive n starting at 4, use n³ + 7n + 10. The next term is 1822.",
+      "modality": "Numbers Only",
+      "question_number": 97
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q098",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 3, 11, 28, 61, 178, 361, ?",
+      "stimulus": [
+        "3",
+        "11",
+        "28",
+        "61",
+        "178",
+        "361"
+      ],
+      "computed_values": {
+        "next_term": "1078",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 3,
+            "b": 2,
+            "c": 5,
+            "d": 81,
+            "e": 3,
+            "f": 5,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "544",
+        "B": "178",
+        "C": "1078",
+        "D": "361"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Alternate these rules: multiply by 2 then add 5; multiply by 3 then subtract 5. The next term is 1078.",
+      "modality": "Numbers Only",
+      "question_number": 98
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q099",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 62, 102, 166, 260, 390, 562, 782, 1056, ?",
+      "stimulus": [
+        "62",
+        "102",
+        "166",
+        "260",
+        "390",
+        "562",
+        "782",
+        "1056"
+      ],
+      "computed_values": {
+        "next_term": "1390",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 26,
+            "b": 3,
+            "c": 3,
+            "d": 44,
+            "e": 9,
+            "f": 6,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "1390",
+        "B": "1056",
+        "C": "782",
+        "D": "1330"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "For consecutive n starting at 3, use n³ + 3n + 26. The next term is 1390.",
+      "modality": "Numbers Only",
+      "question_number": 99
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q100",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Evaluating equations with variables",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "For x = -3, y = 2, Evaluate the following expression. Expression: ((11 × x) − 8)",
+        "B": "For x = -9, y = 4, Evaluate the following expression. Expression: ((6 × x) − 3)",
+        "C": "For x = -4, y = 5, Evaluate the following expression. Expression: ((17 × x) − 6)"
+      },
+      "computed_values": {
+        "A": "-41",
+        "B": "-57",
+        "C": "-74",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Evaluating equations with variables",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  11,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                8
+              ],
+              "variables": {
+                "x": -3,
+                "y": 2
+              },
+              "context": "For x = -3, y = 2, Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  6,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                3
+              ],
+              "variables": {
+                "x": -9,
+                "y": 4
+              },
+              "context": "For x = -9, y = 4, Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  17,
+                  [
+                    "var",
+                    "x"
+                  ]
+                ],
+                6
+              ],
+              "variables": {
+                "x": -4,
+                "y": 5
+              },
+              "context": "For x = -4, y = 5, Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(B) is equal to (C) and less than (A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Misorders (C), (A), and (B) under time pressure."
+      },
+      "explanation": "(A): ((11 × x) − 8) = -41; (B): ((6 × x) − 3) = -57; (C): ((17 × x) − 6) = -74. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 100
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q101",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((16 × (4 + 6)) − (16 × (8 − 3)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((13 × (4 + 6)) − (13 × (7 − 2)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((13 × (4 + 6)) − (13 × (3 − 5)))"
+      },
+      "computed_values": {
+        "A": "80",
+        "B": "65",
+        "C": "156",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  16,
+                  [
+                    "add",
+                    4,
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  16,
+                  [
+                    "sub",
+                    8,
+                    3
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  13,
+                  [
+                    "add",
+                    4,
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  13,
+                  [
+                    "sub",
+                    7,
+                    2
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  13,
+                  [
+                    "add",
+                    4,
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  13,
+                  [
+                    "sub",
+                    3,
+                    5
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A) is equal to (B) and less than (C)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "C": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "D": "Trap: Misorders the middle quantity in (B) > (A) > (C)."
+      },
+      "explanation": "(A): ((16 × (4 + 6)) − (16 × (8 − 3))) = 80; (B): ((13 × (4 + 6)) − (13 × (7 − 2))) = 65; (C): ((13 × (4 + 6)) − (13 × (3 − 5))) = 156. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 101
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q102",
+      "archetype": "Comparison",
+      "sub_type": "Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Comparing objects",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z.",
+        "B": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z.",
+        "C": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z."
+      },
+      "computed_values": {
+        "A": "-13/18",
+        "B": "1/15",
+        "C": "26/55",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Comparing objects",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    7,
+                    9
+                  ],
+                  [
+                    "rat",
+                    10,
+                    11
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z.",
+              "diagram": {
+                "kind": "shaded",
+                "numerators": [
+                  7,
+                  10,
+                  2
+                ],
+                "denominators": [
+                  9,
+                  11,
+                  11
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    5,
+                    9
+                  ],
+                  [
+                    "rat",
+                    2,
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z.",
+              "diagram": {
+                "kind": "shaded",
+                "numerators": [
+                  5,
+                  2,
+                  5
+                ],
+                "denominators": [
+                  9,
+                  4,
+                  6
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    6,
+                    11
+                  ],
+                  [
+                    "rat",
+                    1,
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Let X, Y and Z be the shaded fractions of the corresponding figures. Find (X − Y) ÷ Z.",
+              "diagram": {
+                "kind": "shaded",
+                "numerators": [
+                  6,
+                  1,
+                  5
+                ],
+                "denominators": [
+                  11,
+                  4,
+                  8
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(A) is greater than (B) and (B) is greater than (C)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(B) is equal to (C) and greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): (((7/9) − (10/11)) ÷ (2/11)) = -13/18; (B): (((5/9) − (2/4)) ÷ (5/6)) = 1/15; (C): (((6/11) − (1/4)) ÷ (5/8)) = 26/55. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 380 132\"><rect x='0' y='0' width='380' height='132' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><rect x='18.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='50.7' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='50.7' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='50.7' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='73.3' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='73.3' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='73.3' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='60' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>X (7/9)</text><rect x='148.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='169.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='211.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='148.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='169.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='211.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='148.0' y='73.3' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='169.0' y='73.3' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='190' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Y (10/11)</text><rect x='278.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='299.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='320.0' y='28.0' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='341.0' y='28.0' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='278.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='299.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='320.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='341.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='278.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='299.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='320.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='320' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Z (2/11)</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 380 132\"><rect x='0' y='0' width='380' height='132' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><rect x='18.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='28.0' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='50.7' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='50.7' width='28.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='50.7' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='73.3' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='46.0' y='73.3' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='74.0' y='73.3' width='28.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='60' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>X (5/9)</text><rect x='148.0' y='28.0' width='42.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='28.0' width='42.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='148.0' y='62.0' width='42.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='62.0' width='42.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='190' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Y (2/4)</text><rect x='278.0' y='28.0' width='28.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='306.0' y='28.0' width='28.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='334.0' y='28.0' width='28.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='278.0' y='62.0' width='28.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='306.0' y='62.0' width='28.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='334.0' y='62.0' width='28.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='320' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Z (5/6)</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 380 132\"><rect x='0' y='0' width='380' height='132' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><rect x='18.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='39.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='60.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='81.0' y='28.0' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='39.0' y='50.7' width='21.0' height='22.7' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='60.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='81.0' y='50.7' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='18.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='39.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='60.0' y='73.3' width='21.0' height='22.7' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='60' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>X (6/11)</text><rect x='148.0' y='28.0' width='42.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='28.0' width='42.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='148.0' y='62.0' width='42.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='190.0' y='62.0' width='42.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='190' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Y (1/4)</text><rect x='278.0' y='28.0' width='21.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='299.0' y='28.0' width='21.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='320.0' y='28.0' width='21.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='341.0' y='28.0' width='21.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='278.0' y='62.0' width='21.0' height='34.0' fill='#3b82f6' stroke='#1e293b' stroke-width='1.5'/><rect x='299.0' y='62.0' width='21.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='320.0' y='62.0' width='21.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><rect x='341.0' y='62.0' width='21.0' height='34.0' fill='#f1f5f9' stroke='#1e293b' stroke-width='1.5'/><text x='320' y='118' text-anchor='middle' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Z (5/8)</text></svg></svg>",
+        "alt_text": "Quantity A: Shaded fractions X, Y, Z: 7/9, 10/11, 2/11; Quantity B: Shaded fractions X, Y, Z: 5/9, 2/4, 5/6; Quantity C: Shaded fractions X, Y, Z: 6/11, 1/4, 5/8"
+      },
+      "question_number": 102
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q103",
+      "archetype": "Sequence",
+      "sub_type": "Alphanumeric Coupled/Uncoupled",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 8U, 73I, 22C, 87C, 44I, 107U, 74M, 133K, ? Alphabet positions wrap from Z to A.",
+      "stimulus": [
+        "8U",
+        "73I",
+        "22C",
+        "87C",
+        "44I",
+        "107U",
+        "74M",
+        "133K"
+      ],
+      "computed_values": {
+        "next_term": "112O",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 8,
+            "b": 10,
+            "c": 4,
+            "d": 73,
+            "e": 11,
+            "f": 3,
+            "denom": 1,
+            "modality": "Alphanumeric",
+            "pattern": "coupled-hard"
+          }
+        }
+      },
+      "options": {
+        "A": "112O",
+        "B": "133O",
+        "C": "113O",
+        "D": "112K"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Keeps the numeric stream one term behind.",
+        "C": "Trap: Off-by-one in the numeric stream.",
+        "D": "Trap: Combines the correct numeric stream with the previous letter."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 8 + 10n + 4n²; even = 73 + 11n + 3n². Letter positions advance from 73 by 11n + 3n², wrapping after Z. The next term is 112O.",
+      "modality": "Alphanumeric",
+      "question_number": 103
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q104",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Slope of a line",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Line P joins (-1, -2) and (2, 1). Line Q joins (-2, 4) and (6, -2). Find (slope of P − slope of Q) ÷ (4/8).",
+        "B": "Line P joins (-3, -1) and (3, 3). Line Q joins (-3, 2) and (2, -2). Find (slope of P − slope of Q) ÷ (8/9).",
+        "C": "Line P joins (-2, -1) and (1, 6). Line Q joins (-1, 5) and (1, -1). Find (slope of P − slope of Q) ÷ (5/6)."
+      },
+      "computed_values": {
+        "A": "7/2",
+        "B": "33/20",
+        "C": "32/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Slope of a line",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      1,
+                      -2
+                    ],
+                    [
+                      "sub",
+                      2,
+                      -1
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -2,
+                      4
+                    ],
+                    [
+                      "sub",
+                      6,
+                      -2
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-1, -2) and (2, 1). Line Q joins (-2, 4) and (6, -2). Find (slope of P − slope of Q) ÷ (4/8).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -1,
+                    -2
+                  ],
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -2,
+                    4
+                  ],
+                  [
+                    6,
+                    -2
+                  ]
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      3,
+                      -1
+                    ],
+                    [
+                      "sub",
+                      3,
+                      -3
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -2,
+                      2
+                    ],
+                    [
+                      "sub",
+                      2,
+                      -3
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-3, -1) and (3, 3). Line Q joins (-3, 2) and (2, -2). Find (slope of P − slope of Q) ÷ (8/9).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -3,
+                    -1
+                  ],
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -3,
+                    2
+                  ],
+                  [
+                    2,
+                    -2
+                  ]
+                ]
+              }
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "div",
+                    [
+                      "sub",
+                      6,
+                      -1
+                    ],
+                    [
+                      "sub",
+                      1,
+                      -2
+                    ]
+                  ],
+                  [
+                    "div",
+                    [
+                      "sub",
+                      -1,
+                      5
+                    ],
+                    [
+                      "sub",
+                      1,
+                      -1
+                    ]
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-2, -1) and (1, 6). Line Q joins (-1, 5) and (1, -1). Find (slope of P − slope of Q) ÷ (5/6).",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -2,
+                    -1
+                  ],
+                  [
+                    1,
+                    6
+                  ]
+                ],
+                "points_b": [
+                  [
+                    -1,
+                    5
+                  ],
+                  [
+                    1,
+                    -1
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(B) is equal to (C) and greater than (A)",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Treats (B) and (C) as equivalent and larger than (A).",
+        "C": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "D": "Trap: Misorders (C) and (B) when ranking all three quantities."
+      },
+      "explanation": "(A): ((((1 − -2) ÷ (2 − -1)) − ((-2 − 4) ÷ (6 − -2))) ÷ (4/8)) = 7/2; (B): ((((3 − -1) ÷ (3 − -3)) − ((-2 − 2) ÷ (2 − -3))) ÷ (8/9)) = 33/20; (C): ((((6 − -1) ÷ (1 − -2)) − ((-1 − 5) ÷ (1 − -1))) ÷ (5/6)) = 32/5. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 630\" width=\"420\" height=\"630\"><text x=\"8\" y=\"16\" font-size=\"13\" font-weight=\"bold\">Quantity (A)</text><svg x=\"0\" y=\"24\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='81.5' y1='127.0' x2='107.0' y2='101.5' stroke='#2563eb' stroke-width='2.4'/><circle cx='81.5' cy='127.0' r='3.5' fill='#1d4ed8'/><circle cx='107.0' cy='101.5' r='3.5' fill='#1d4ed8'/><text x='113.0' y='97.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-1, -2)->(2, 1)</text><line x1='73.0' y1='76.0' x2='141.0' y2='127.0' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='73.0' cy='76.0' r='3.5' fill='#dc2626'/><circle cx='141.0' cy='127.0' r='3.5' fill='#dc2626'/><text x='147.0' y='139.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-2, 4)->(6, -2)</text></svg><text x=\"8\" y=\"226\" font-size=\"13\" font-weight=\"bold\">Quantity (B)</text><svg x=\"0\" y=\"234\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='64.5' y1='118.5' x2='115.5' y2='84.5' stroke='#2563eb' stroke-width='2.4'/><circle cx='64.5' cy='118.5' r='3.5' fill='#1d4ed8'/><circle cx='115.5' cy='84.5' r='3.5' fill='#1d4ed8'/><text x='121.5' y='80.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-3, -1)->(3, 3)</text><line x1='64.5' y1='93.0' x2='107.0' y2='127.0' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='64.5' cy='93.0' r='3.5' fill='#dc2626'/><circle cx='107.0' cy='127.0' r='3.5' fill='#dc2626'/><text x='113.0' y='139.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-3, 2)->(2, -2)</text></svg><text x=\"8\" y=\"436\" font-size=\"13\" font-weight=\"bold\">Quantity (C)</text><svg x=\"0\" y=\"444\" width=\"420\" height=\"180\" style=\"height:180px\" viewBox=\"0 0 280 155\"><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='73.0' y1='118.5' x2='98.5' y2='59.0' stroke='#2563eb' stroke-width='2.4'/><circle cx='73.0' cy='118.5' r='3.5' fill='#1d4ed8'/><circle cx='98.5' cy='59.0' r='3.5' fill='#1d4ed8'/><text x='104.5' y='55.0' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-2, -1)->(1, 6)</text><line x1='81.5' y1='67.5' x2='98.5' y2='118.5' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='4,2'/><circle cx='81.5' cy='67.5' r='3.5' fill='#dc2626'/><circle cx='98.5' cy='118.5' r='3.5' fill='#dc2626'/><text x='104.5' y='130.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#dc2626'>Q (-1, 5)->(1, -1)</text></svg></svg>",
+        "alt_text": "Quantity A: Coordinate grid plotting P through (-1, -2) and (2, 1).; Quantity B: Coordinate grid plotting P through (-3, -1) and (3, 3).; Quantity C: Coordinate grid plotting P through (-2, -1) and (1, 6)."
+      },
+      "question_number": 104
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q105",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 75, 138, 231, 360, 531, 750, 1023, 1356, ?",
+      "stimulus": [
+        "75",
+        "138",
+        "231",
+        "360",
+        "531",
+        "750",
+        "1023",
+        "1356"
+      ],
+      "computed_values": {
+        "next_term": "1755",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 3,
+            "b": 4,
+            "c": 2,
+            "d": 73,
+            "e": 10,
+            "f": 3,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "1755",
+        "B": "1689",
+        "C": "1023",
+        "D": "1356"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "For consecutive n starting at 4, use n³ + 2n + 3. The next term is 1755.",
+      "modality": "Numbers Only",
+      "question_number": 105
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q106",
+      "archetype": "Sequence",
+      "sub_type": "Second-Order Difference",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 17, 29, 45, 65, 89, ?",
+      "stimulus": [
+        "17",
+        "29",
+        "45",
+        "65",
+        "89"
+      ],
+      "computed_values": {
+        "next_term": "117",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 2,
+          "parameters": {
+            "a": 17,
+            "b": 10,
+            "c": 2,
+            "d": 76,
+            "e": 8,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "113",
+        "B": "117",
+        "C": "89",
+        "D": "65"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Repeats the previous term instead of advancing.",
+        "D": "Trap: Reverses the last visible step."
+      },
+      "explanation": "With term index n starting at 0, the numeric term is 17 + 10n + 2n²; first differences increase by 4. The next term is 117.",
+      "modality": "Numbers Only",
+      "question_number": 106
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q107",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Distributive property with variables",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "For x = -2, y = 4, use distribution and substitution to evaluate the expression. Expression: ((22 × (x − 3)) − (4 × (y + 7)))",
+      "stimulus": "For x = -2, y = 4, use distribution and substitution to evaluate the expression. Expression: ((22 × (x − 3)) − (4 × (y + 7)))",
+      "computed_values": {
+        "result": "-154",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property with variables",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  22,
+                  [
+                    "sub",
+                    [
+                      "var",
+                      "x"
+                    ],
+                    3
+                  ]
+                ],
+                [
+                  "mul",
+                  4,
+                  [
+                    "add",
+                    [
+                      "var",
+                      "y"
+                    ],
+                    7
+                  ]
+                ]
+              ],
+              "variables": {
+                "x": -2,
+                "y": 4
+              },
+              "context": "For x = -2, y = 4, use distribution and substitution to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              22,
+              [
+                "sub",
+                [
+                  "var",
+                  "x"
+                ],
+                3
+              ]
+            ],
+            "C": [
+              "add",
+              [
+                "mul",
+                22,
+                [
+                  "sub",
+                  [
+                    "var",
+                    "x"
+                  ],
+                  3
+                ]
+              ],
+              [
+                "mul",
+                4,
+                [
+                  "add",
+                  [
+                    "var",
+                    "y"
+                  ],
+                  7
+                ]
+              ]
+            ],
+            "D": [
+              "sub",
+              [
+                "mul",
+                4,
+                [
+                  "add",
+                  [
+                    "var",
+                    "y"
+                  ],
+                  7
+                ]
+              ],
+              [
+                "mul",
+                22,
+                [
+                  "sub",
+                  [
+                    "var",
+                    "x"
+                  ],
+                  3
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "-110",
+        "B": "-154",
+        "C": "-66",
+        "D": "154"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Replaces sub with add.",
+        "D": "Trap: Reverses operands in sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((22 × (x − 3)) − (4 × (y + 7))) = -154.",
+      "question_number": 107
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q108",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Algebra",
+      "syllabus_topic": "Slope of a line",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Line P joins (-3, -2) and (2, 3). Find the slope of P.",
+      "stimulus": "Line P joins (-3, -2) and (2, 3). Find the slope of P.",
+      "computed_values": {
+        "result": "1",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Slope of a line",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  3,
+                  -2
+                ],
+                [
+                  "sub",
+                  2,
+                  -3
+                ]
+              ],
+              "variables": {},
+              "context": "Line P joins (-3, -2) and (2, 3). Find the slope of P.",
+              "diagram": {
+                "kind": "coordinate",
+                "points": [
+                  [
+                    -3,
+                    -2
+                  ],
+                  [
+                    2,
+                    3
+                  ]
+                ],
+                "points_b": null
+              }
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "sub",
+              [
+                "sub",
+                3,
+                -2
+              ],
+              [
+                "sub",
+                2,
+                -3
+              ]
+            ],
+            "C": [
+              "sub",
+              3,
+              -2
+            ],
+            "D": [
+              "mul",
+              [
+                "sub",
+                3,
+                -2
+              ],
+              [
+                "sub",
+                2,
+                -3
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "5",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Replaces div with sub.",
+        "C": "Trap: Stops at the left intermediate result.",
+        "D": "Trap: Replaces div with mul."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((3 − -2) ÷ (2 − -3)) = 1.",
+      "media": {
+        "content_type": "image/svg+xml",
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 155' width='100%' height='155'><rect x='0' y='0' width='280' height='155' rx='8' fill='#ffffff' stroke='#e2e8f0' stroke-width='1'/><line x1='20' y1='110.0' x2='260' y2='110.0' stroke='#94a3b8' stroke-width='1.5'/><line x1='90.0' y1='15' x2='90.0' y2='142' stroke='#94a3b8' stroke-width='1.5'/><line x1='64.5' y1='127.0' x2='107.0' y2='84.5' stroke='#2563eb' stroke-width='2.4'/><circle cx='64.5' cy='127.0' r='3.5' fill='#1d4ed8'/><circle cx='107.0' cy='84.5' r='3.5' fill='#1d4ed8'/><text x='113.0' y='80.5' font-family='sans-serif' font-size='10' font-weight='bold' fill='#1d4ed8'>P (-3, -2)->(2, 3)</text></svg>",
+        "alt_text": "Coordinate grid plotting P through (-3, -2) and (2, 3)."
+      },
+      "question_number": 108
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q109",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 4, 11, 29, 61, 179, 361, ?",
+      "stimulus": [
+        "4",
+        "11",
+        "29",
+        "61",
+        "179",
+        "361"
+      ],
+      "computed_values": {
+        "next_term": "1079",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 4,
+            "b": 2,
+            "c": 3,
+            "d": 63,
+            "e": 3,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "543",
+        "B": "361",
+        "C": "1079",
+        "D": "179"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "D": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Alternate these rules: multiply by 2 then add 3; multiply by 3 then subtract 4. The next term is 1079.",
+      "modality": "Numbers Only",
+      "question_number": 109
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q110",
+      "archetype": "Sequence",
+      "sub_type": "Second-Order Difference",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving decimals",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 1.8, 2.5, 3.8, 5.7, 8.2, ?",
+      "stimulus": [
+        "1.8",
+        "2.5",
+        "3.8",
+        "5.7",
+        "8.2"
+      ],
+      "computed_values": {
+        "next_term": "11.3",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Operations involving decimals",
+          "level": 2,
+          "parameters": {
+            "a": 18,
+            "b": 4,
+            "c": 3,
+            "d": 45,
+            "e": 9,
+            "f": 3,
+            "denom": 10,
+            "modality": "Numbers Only",
+            "pattern": "quadratic"
+          }
+        }
+      },
+      "options": {
+        "A": "8.2",
+        "B": "5.7",
+        "C": "11.3",
+        "D": "10.7"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "With term index n starting at 0, the numeric term is 18 + 4n + 3n²; first differences increase by 6. Divide the numeric expressions by 10. The next term is 11.3.",
+      "modality": "Numbers Only",
+      "question_number": 110
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q111",
+      "archetype": "Sequence",
+      "sub_type": "Alphanumeric Coupled/Uncoupled",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 15K, 63B, 28Y, 80B, 51K, 103Z, 84U, 132V, ? Alphabet positions wrap from Z to A.",
+      "stimulus": [
+        "15K",
+        "63B",
+        "28Y",
+        "80B",
+        "51K",
+        "103Z",
+        "84U",
+        "132V"
+      ],
+      "computed_values": {
+        "next_term": "127C",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 15,
+            "b": 8,
+            "c": 5,
+            "d": 63,
+            "e": 14,
+            "f": 3,
+            "denom": 1,
+            "modality": "Alphanumeric",
+            "pattern": "coupled-hard"
+          }
+        }
+      },
+      "options": {
+        "A": "132C",
+        "B": "128C",
+        "C": "127V",
+        "D": "127C"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Keeps the numeric stream one term behind.",
+        "B": "Trap: Off-by-one in the numeric stream.",
+        "C": "Trap: Combines the correct numeric stream with the previous letter."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 15 + 8n + 5n²; even = 63 + 14n + 3n². Letter positions advance from 63 by 14n + 3n², wrapping after Z. The next term is 127C.",
+      "modality": "Alphanumeric",
+      "question_number": 111
+    },
+    {
+      "question_id": "HSPT-QS-40-T05-Q112",
+      "archetype": "Sequence",
+      "sub_type": "Alphanumeric Coupled/Uncoupled",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Addition / Subtraction",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 9C, 81N, 23I, 92N, 47C, 113B, 81K, 144D, ? Alphabet positions wrap from Z to A.",
+      "stimulus": [
+        "9C",
+        "81N",
+        "23I",
+        "92N",
+        "47C",
+        "113B",
+        "81K",
+        "144D"
+      ],
+      "computed_values": {
+        "next_term": "125G",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Addition / Subtraction",
+          "level": 3,
+          "parameters": {
+            "a": 9,
+            "b": 9,
+            "c": 5,
+            "d": 81,
+            "e": 6,
+            "f": 5,
+            "denom": 1,
+            "modality": "Alphanumeric",
+            "pattern": "coupled-hard"
+          }
+        }
+      },
+      "options": {
+        "A": "144G",
+        "B": "125G",
+        "C": "126G",
+        "D": "125D"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Keeps the numeric stream one term behind.",
+        "C": "Trap: Off-by-one in the numeric stream.",
+        "D": "Trap: Combines the correct numeric stream with the previous letter."
+      },
+      "explanation": "Split odd and even positions. With index n starting at 0 in each stream: odd = 9 + 9n + 5n²; even = 81 + 6n + 5n². Letter positions advance from 81 by 6n + 5n², wrapping after Z. The next term is 125G.",
+      "modality": "Alphanumeric",
+      "question_number": 112
+    }
+  ]
+}

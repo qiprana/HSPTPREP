@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "test_count": 40,
+  "question_count": 2080,
+  "difficulty_counts": {
+    "2": 624,
+    "3": 1456
+  },
+  "topic_difficulty_counts": {
+    "Addition / Subtraction": {
+      "2": 115,
+      "3": 280
+    },
+    "Multiplication / Division": {
+      "2": 69,
+      "3": 166
+    },
+    "Operations involving fractions": {
+      "2": 17,
+      "3": 58
+    },
+    "Fraction comparisons": {
+      "2": 17,
+      "3": 28
+    },
+    "Operations involving decimals": {
+      "2": 69,
+      "3": 166
+    },
+    "Distributive property": {
+      "2": 27,
+      "3": 48
+    },
+    "Exponents & scientific notation": {
+      "2": 59,
+      "3": 146
+    },
+    "Distributive property with variables": {
+      "2": 18,
+      "3": 56
+    },
+    "Slope of a line": {
+      "2": 21,
+      "3": 52
+    },
+    "Evaluating equations with variables": {
+      "2": 26,
+      "3": 47
+    },
+    "Sum of angles": {
+      "2": 20,
+      "3": 53
+    },
+    "Angles in a triangle": {
+      "2": 23,
+      "3": 50
+    },
+    "Transversal and vertical angles": {
+      "2": 29,
+      "3": 44
+    },
+    "Right angles": {
+      "2": 18,
+      "3": 55
+    },
+    "Roman numerals": {
+      "2": 36,
+      "3": 77
+    },
+    "Comparing objects": {
+      "2": 15,
+      "3": 29
+    },
+    "Measurements": {
+      "2": 25,
+      "3": 48
+    },
+    "Graphs and charts": {
+      "2": 20,
+      "3": 53
+    }
+  },
+  "unique_semantic_fingerprints": 2080,
+  "unique_presentation_fingerprints": 2080,
+  "duplicate_count": 0,
+  "family_counts": {
+    "Comparison/Addition / Subtraction/L2": 18,
+    "Comparison/Addition / Subtraction/L3": 27,
+    "Comparison/Angles in a triangle/L2": 16,
+    "Comparison/Angles in a triangle/L3": 28,
+    "Comparison/Comparing objects/L2": 15,
+    "Comparison/Comparing objects/L3": 29,
+    "Comparison/Distributive property with variables/L2": 13,
+    "Comparison/Distributive property with variables/L3": 32,
+    "Comparison/Distributive property/L2": 17,
+    "Comparison/Distributive property/L3": 28,
+    "Comparison/Evaluating equations with variables/L2": 16,
+    "Comparison/Evaluating equations with variables/L3": 28,
+    "Comparison/Exponents & scientific notation/L2": 18,
+    "Comparison/Exponents & scientific notation/L3": 27,
+    "Comparison/Fraction comparisons/L2": 17,
+    "Comparison/Fraction comparisons/L3": 28,
+    "Comparison/Graphs and charts/L2": 17,
+    "Comparison/Graphs and charts/L3": 27,
+    "Comparison/Measurements/L2": 14,
+    "Comparison/Measurements/L3": 30,
+    "Comparison/Multiplication / Division/L2": 14,
+    "Comparison/Multiplication / Division/L3": 31,
+    "Comparison/Operations involving decimals/L2": 14,
+    "Comparison/Operations involving decimals/L3": 31,
+    "Comparison/Operations involving fractions/L2": 13,
+    "Comparison/Operations involving fractions/L3": 32,
+    "Comparison/Right angles/L2": 14,
+    "Comparison/Right angles/L3": 30,
+    "Comparison/Roman numerals/L2": 15,
+    "Comparison/Roman numerals/L3": 29,
+    "Comparison/Slope of a line/L2": 13,
+    "Comparison/Slope of a line/L3": 31,
+    "Comparison/Sum of angles/L2": 15,
+    "Comparison/Sum of angles/L3": 29,
+    "Comparison/Transversal and vertical angles/L2": 18,
+    "Comparison/Transversal and vertical angles/L3": 26,
+    "Computation/Addition / Subtraction/L2": 8,
+    "Computation/Addition / Subtraction/L3": 22,
+    "Computation/Angles in a triangle/L2": 7,
+    "Computation/Angles in a triangle/L3": 22,
+    "Computation/Distributive property with variables/L2": 5,
+    "Computation/Distributive property with variables/L3": 24,
+    "Computation/Distributive property/L2": 10,
+    "Computation/Distributive property/L3": 20,
+    "Computation/Evaluating equations with variables/L2": 10,
+    "Computation/Evaluating equations with variables/L3": 19,
+    "Computation/Graphs and charts/L2": 3,
+    "Computation/Graphs and charts/L3": 26,
+    "Computation/Measurements/L2": 11,
+    "Computation/Measurements/L3": 18,
+    "Computation/Multiplication / Division/L2": 11,
+    "Computation/Multiplication / Division/L3": 19,
+    "Computation/Operations involving decimals/L2": 9,
+    "Computation/Operations involving decimals/L3": 21,
+    "Computation/Operations involving fractions/L2": 4,
+    "Computation/Operations involving fractions/L3": 26,
+    "Computation/Right angles/L2": 4,
+    "Computation/Right angles/L3": 25,
+    "Computation/Roman numerals/L2": 8,
+    "Computation/Roman numerals/L3": 21,
+    "Computation/Slope of a line/L2": 8,
+    "Computation/Slope of a line/L3": 21,
+    "Computation/Sum of angles/L2": 5,
+    "Computation/Sum of angles/L3": 24,
+    "Computation/Transversal and vertical angles/L2": 11,
+    "Computation/Transversal and vertical angles/L3": 18,
+    "Sequence/Addition / Subtraction/L2": 89,
+    "Sequence/Addition / Subtraction/L3": 231,
+    "Sequence/Exponents & scientific notation/L2": 41,
+    "Sequence/Exponents & scientific notation/L3": 119,
+    "Sequence/Multiplication / Division/L2": 44,
+    "Sequence/Multiplication / Division/L3": 116,
+    "Sequence/Operations involving decimals/L2": 46,
+    "Sequence/Operations involving decimals/L3": 114,
+    "Sequence/Roman numerals/L2": 13,
+    "Sequence/Roman numerals/L3": 27
+  },
+  "difficulty_basis": "Designed and structurally verified; not empirically calibrated.",
+  "duplicate_candidates_rejected": 33
+}
