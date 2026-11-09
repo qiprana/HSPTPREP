@@ -114,7 +114,7 @@ const READING_BUILD=function buildReadingContent(science,history,narrative,commu
       const w=wordPool[i],mode=i%5===1?"antonym":"synonym";
       const key=mode==="antonym"?w.antonym:w.synonym;
       const wrong1=mode==="antonym"?w.synonym:w.antonym;
-      const source=wordPool.filter((z,j)=>j!==i&&z.part===w.part&&z.word!==w.word);
+      const source=vocabulary.filter(z=>z.part===w.part&&z.word!==w.word&&z.synonym&&z.synonym.toLowerCase()!==key.toLowerCase());
       const wrongs=[wrong1];
       for(let k=0;k<source.length*2 && wrongs.length<3;k++){
         const candidate=source[(i*7+k*11+day*3)%source.length];
