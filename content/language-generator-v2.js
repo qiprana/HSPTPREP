@@ -12,12 +12,12 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     familiar:"familar",fascinate:"fasinate",favorite:"favourit",February:"Febuary",finally:"finaly",financial:"finantial",foreign:"foriegn",forty:"fourty",frequently:"frequentley",friend:"freind",
     government:"goverment",grammar:"grammer",guarantee:"garantee",guidance:"guidence",handkerchief:"hankerchief",harass:"harrass",height:"heigth",hesitate:"hesatate",hierarchy:"heirarchy",humorous:"humourous",
     immediately:"immediatly",independent:"independant",indispensable:"indispensible",inevitable:"inevitible",influence:"influance",ingredient:"ingrediant",innocent:"inocent",intelligence:"inteligence",interrupt:"interupt",invitation:"invetation",
-    jealous:"jelous",judgment:"judgement",knowledge:"knowlege",language:"langauge",leisure:"liesure",library:"libary",license:"licence",lightning:"lightening",maintenance:"maintanance",manageable:"managable",
+    jealous:"jelous",judgment:"judgmant",knowledge:"knowlege",language:"langauge",leisure:"liesure",library:"libary",license:"lisence",lightning:"lightnning",maintenance:"maintanance",manageable:"managable",
     marriage:"marrige",mathematics:"mathamatics",medicine:"medecine",miniature:"miniture",mischievous:"mischevious",necessary:"neccessary",neighbor:"neigbor",neither:"niether",nervous:"nervouse",noticeable:"noticable",
     occasion:"ocassion",occasionally:"ocassionally",occur:"occurr",occurrence:"occurence",opinion:"opionion",opportunity:"oppertunity",original:"orignal",parallel:"paralel",parliament:"parliment",particular:"particullar",
     pastime:"passtime",patience:"patiance",peculiar:"peculier",permanent:"permenant",perseverance:"perserverance",persuade:"persaude",physical:"phisical",pleasant:"plesant",possess:"posess",possible:"possable",
     precede:"preceed",preferred:"prefered",prejudice:"predjudice",preparation:"preperation",privilege:"privelege",probably:"probly",procedure:"proceedure",profession:"proffession",pronunciation:"pronounciation",psychology:"psycology",
-    questionnaire:"questionaire",receive:"recieve",recognize:"recognise",recommend:"recomend",reference:"referance",referred:"refered",relevant:"relavent",remember:"remeber",repetition:"repetiton",responsible:"responsable",
+    questionnaire:"questionaire",receive:"recieve",recognize:"recognnize",recommend:"recomend",reference:"referance",referred:"refered",relevant:"relavent",remember:"remeber",repetition:"repetiton",responsible:"responsable",
     restaurant:"restaraunt",rhythm:"rythm",rigorous:"rigourous",sacrifice:"sacrafice",schedule:"schedual",secretary:"secretery",separate:"seperate",serious:"serius",similar:"similiar",sincerely:"sincerly",
     sophomore:"sophmore",souvenir:"sovenir",specific:"specfic",speech:"speach",stomach:"stomache",strategy:"stragety",successful:"succesful",sufficient:"sufficent",surprise:"suprise",symbol:"symbal",
     temperature:"temprature",temporary:"tempory",thorough:"thourough",though:"thogh",through:"thruogh",throughout:"througout",tomorrow:"tommorrow",tradition:"tradtion",truly:"truely",twelfth:"twelth",
@@ -84,7 +84,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
   }
   function spellingItem(day,q,practice=false) {
     const words=sessions[day-1].words,target=words[q%10],noMistakes=(q+day+(practice?2:0))%5===0;
-    const other1=words[(q+3)%10],other2=words[(q+6)%10],misspelling=fakeSpelling(target);
+    const other1=words[(q+(practice?4:3))%10],other2=words[(q+(practice?8:6))%10],misspelling=fakeSpelling(target);
     if(!misspelling||misspelling.toLowerCase()===target.toLowerCase())throw Error("Invalid misspelling "+target);
     const correctIndex=noMistakes?3:(q+day+(practice?1:0))%3;
     const options=noMistakes?[target,other1,other2,"No mistakes."]:[other1,other2,misspelling,"No mistakes."];
