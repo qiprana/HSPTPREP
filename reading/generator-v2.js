@@ -142,7 +142,7 @@ const READING_BUILD=function buildReadingContent(science,history,narrative,commu
         :[related[(day+i*3)%related.length].questions[i].answer,
           related[(day+i*3+6)%related.length].questions[i].answer,
           related[(day+i*3+11)%related.length].questions[i].answer];
-      return item("RG"+String(day).padStart(2,"0"),i+1,q.skill,q.prompt,q.answer,wrongs,
+      return item("RG"+String(day).padStart(2,"0"),i+1,q.skill,i===4?q.prompt+' in "'+f.title+'"?':q.prompt,q.answer,wrongs,
         "The passage supports the answer: "+q.answer+". Refer to the detail or overall point of the passage.",day*7+i);
     });
     // Further guided practice focuses on evidence evaluation and reading strategy, rather than repeating full-test questions.
