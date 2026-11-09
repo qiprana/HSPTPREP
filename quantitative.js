@@ -176,6 +176,11 @@ document.addEventListener('click',e=>{
  if(btn.dataset.quantRetake){startQuantPaper(Number(btn.dataset.quantRetake));return;}
  if(btn.dataset.quantClose){stopQuantPaperTimer();quantPaperQuiz=null;$('quantPaperRunner').classList.add('hidden');return;}
  if(btn.dataset.openQuantReserved){examSection='quantitative';setPage('exam');return;}
+ if(btn.dataset.startQuantMock){
+  const paper=selectedMockDay-30;
+  if(paper>=21&&paper<=30){examSection='quantitative';setPage('exam');startQuantPaper(paper);}
+  return;
+ }
 });
 document.addEventListener('change',e=>{
  const n=e.target;if(n.matches('[data-quant-answer]')&&quantPaperQuiz&&!quantPaperQuiz.submitted){quantPaperQuiz.answers[Number(n.dataset.quantAnswer)]=n.value;tickQuantPaper();}
