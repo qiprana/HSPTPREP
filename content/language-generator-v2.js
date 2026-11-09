@@ -76,7 +76,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     });
   }
   function spellingHint(word) {
-    const doubles=[...word.matchAll(/([a-z])\\1/g)].map(m=>m[1].toLowerCase());
+    const doubles=[...word.matchAll(/([a-z])\1/g)].map(m=>m[1].toLowerCase());
     if(word==="weird"||word==="receive"||word==="receipt"||word==="science"||word==="feisty"||word==="sieve")return "Pay attention to the vowel order: the familiar i-before-e rhyme has exceptions.";
     if(word==="Wednesday"||word==="knowledge"||word==="knowing")return "Read the full written form carefully; pronunciation does not reveal every letter.";
     if(word==="forty")return "The standard spelling is forty, without the u in four.";
