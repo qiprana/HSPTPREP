@@ -23,7 +23,7 @@ for(let day=1;day<=20;day++){
   assert.equal(new Set(q.options.map(x=>x.trim().toLowerCase())).size,4,q.id);
   assert.ok(Number.isInteger(q.correctIndex)&&q.correctIndex>=0&&q.correctIndex<4,q.id);
   assert.ok(q.text.length>15&&q.explanation.length>20,q.id);
-  assert.ok(!/\\{[A-Za-z]+\\}/.test(q.text+q.options.join(' ')),q.id);
+  assert.ok(!/\{[A-Za-z]+\}/.test(q.text+q.options.join(' ')),q.id);
   const signature=q.text+'|'+[...q.options].sort().join('~');
   assert.ok(!seen.has(signature),'Repeated question: '+q.id);
   seen.add(signature);checked++;
