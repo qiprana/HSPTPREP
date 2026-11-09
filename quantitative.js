@@ -84,16 +84,34 @@ function quantScroll(selector){
 }
 function stopQuantPaperTimer(){if(quantPaperTimer!==null){clearInterval(quantPaperTimer);quantPaperTimer=null;}}
 function quantPaperNormalize(data,number){
- if(!Array.isArray(data?.questions)||data.questions.length!==52)throw Error('Paper '+number+' needs exactly 52 questions.');
- const ids=new Set();
+ if(!Array.isArray(data?.questions)||data.questions.length!==52)throw Error('Paper '+number+' must contain exactly 52 questions.');
+ const ids=new Set(),labels=['A','B','C','D'];
  return data.questions.map((q,i)=>{
-  const choices=q.choices||q.options;
-  if(!Array.isArray(choices)||choices.length!==4||new Set(choices).size!==4||!choices.includes(q.answer)||!q.prompt)throw Error('Paper '+number+' has an invalid question at '+(i+1)+'.');
-  const id=String(q.id||number+'-'+(i+1));
-  if(ids.has(id))throw Error('Duplicate question ID in paper '+number+'.');
+  const options=q.options||q.choices;
+  const raw=Array.isArray(options)?options:options&&labels.every(k=>typeof options[k]==='string')?labels.map(k=>options[k]):null;
+  if(!q.prompt||!raw||raw.length!==4||raw.some(x=>typeof x!=='string')||new Set(raw).size!==4)throw Error('Invalid answer choices on paper '+number+', question '+(i+1));
+  const expected=q.correct_option||q.answer;
+  const correct=labels.includes(expected)?labels.indexOf(expected):raw.indexOf(expected);
+  if(correct<0)throw Error('Missing correct answer on paper '+number+', question '+(i+1));
+  const id=String(q.question_id||q.id||number+'-'+(i+1));
+  if(ids.has(id))throw Error('Duplicate question ID on paper '+number);
   ids.add(id);
-  return {id,prompt:String(q.prompt),choices:choices.map(String),answer:String(q.answer),explanation:String(q.explanation||'No explanation supplied.'),passage:q.passage?String(q.passage):null};
+  return {id,prompt:String(q.prompt),choices:raw.map((v,j)=>labels[j]+'. '+v),answer:labels[correct]+'. '+raw[correct],
+   explanation:String(q.explanation||'Explanation unavailable.'),stimulus:q.stimulus,
+   topic:String(q.syllabus_topic||''),type:String(q.archetype||'Quantitative'),
+   mediaSvg:q.media?.content_type==='image/svg+xml'&&typeof q.media.svg==='string'?q.media.svg:null};
  });
+}
+function quantPaperStimulus(item){
+ let html='';
+ if(item.stimulus&&typeof item.stimulus==='object'&&!Array.isArray(item.stimulus)){
+  html+='<div class="quant-stimulus">'+['A','B','C'].filter(k=>item.stimulus[k]).map(k=>'<div><b>('+k+')</b> '+safe(String(item.stimulus[k]))+'</div>').join('')+'</div>';
+ }else if(typeof item.stimulus==='string'&&item.stimulus!==item.prompt){html+='<div class="quant-stimulus">'+safe(item.stimulus)+'</div>';}
+ if(item.mediaSvg){
+  const src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(item.mediaSvg);
+  html+='<div class="quant-figure"><img alt="Diagram for this quantitative question" loading="lazy" src="'+src+'"></div>';
+ }
+ return html;
 }
 async function startQuantPaper(number){
  const slot=QCFG.paperSlots[number-1],file=quantPaperLink(slot);
@@ -125,8 +143,8 @@ function renderQuantPaperQuiz(){
  const scored=q.submitted?'<div class="exam-results"><h3>'+q.correct+' / 52 correct · '+q.score+'%</h3><p>Your result is saved in this browser. Review explanations below and retake whenever you wish.</p></div>':'';
  anchor.innerHTML='<div class="quant-paper-clock"><span>QUANTITATIVE PAPER #'+q.paper+' · 52 QUESTIONS</span>'+
  '<div><strong id="quantPaperClock">'+(q.submitted?'Finished':'28:00')+'</strong> <span id="quantPaperAnswered">'+Object.keys(q.answers).length+' / 52 answered</span></div></div>'+scored+
- q.questions.map((item,i)=>'<section class="mini-question"><div class="q-number">QUESTION '+(i+1)+' OF 52</div>'+
- (item.passage?'<div class="passage">'+safe(item.passage)+'</div>':'')+'<h3>'+safe(item.prompt)+'</h3>'+
+ q.questions.map((item,i)=>'<section class="mini-question"><div class="q-number">QUESTION '+(i+1)+' OF 52 · '+safe(item.type)+' · '+safe(item.topic)+'</div>'+
+ '<h3>'+safe(item.prompt)+'</h3>'+quantPaperStimulus(item)+
  item.choices.map(choice=>'<label class="mini-option"><input type="radio" name="quant-q-'+i+'" data-quant-answer="'+i+'" value="'+safe(choice)+'" '+(q.answers[i]===choice?'checked':'')+' '+(q.submitted?'disabled':'')+'><span>'+safe(choice)+'</span></label>').join('')+
  (q.submitted?'<div class="answer-note">Correct: '+safe(item.answer)+' · '+safe(item.explanation)+'</div>':'')+'</section>').join('')+
  '<div class="row"><button class="btn primary" data-quant-'+(q.submitted?'retake':'submit')+'="'+q.paper+'">'+(q.submitted?'Retake paper ↻':'Submit paper →')+'</button>'+
