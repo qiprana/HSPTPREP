@@ -1,0 +1,21 @@
+name: Validate HSPT Reading Question Banks
+on:
+  push:
+    paths:
+      - 'reading/**'
+      - 'tests/validate-reading-papers.js'
+      - '.github/workflows/validate-reading.yml'
+  pull_request:
+    paths:
+      - 'reading/**'
+      - 'tests/validate-reading-papers.js'
+jobs:
+  validate-reading:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate Reading question bank, passage counts and explanations
+        run: node tests/validate-reading-papers.js
