@@ -202,7 +202,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     ][d-1];
     const targetPool=errors.map((e,i)=>guidedCategories.includes(e[0])?i:-1).filter(i=>i>=0);
     if(targetPool.length<3)throw Error("Insufficient guided skill coverage for day "+d);
-    const practice=[...Array.from({length:8},(_,i)=>usageItem(d,i+4,true,targetPool[(i*3+d)%targetPool.length])),...Array.from({length:3},(_,i)=>spellingItem(d,(i+2)%10,true)),...Array.from({length:4},(_,i)=>compositionItem(d,i+2,true))];
+    const practice=[...Array.from({length:8},(_,i)=>usageItem(d,i+34,true,targetPool[(i*3+d)%targetPool.length])),...Array.from({length:3},(_,i)=>spellingItem(d,(i+2)%10,true)),...Array.from({length:4},(_,i)=>compositionItem(d,i+2,true))];
     practiceDays.push({day:d,questions:practice});
   }
   return {blueprint:SECTION,fullDays,practiceDays,typos:badSpelling};
