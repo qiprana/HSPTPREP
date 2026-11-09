@@ -46,7 +46,7 @@ function quantTopicCard(index){
 function quantPaperCard(number){
  const slot=QCFG.paperSlots[number-1],file=quantPaperLink(slot),best=quantPaperBest(number),status=file?'File linked':'Awaiting paper';
  let label=number<=20?'Learning paper '+number:number<=30?'Mock Day '+(number+30)+' paper '+number:'Reserve paper '+number;
- return '<div class="quant-paper '+(file?'quant-linked':'')+'"><div class="quant-paper-top"><strong>'+safe(label)+'</strong>'+
+ return '<div class="quant-paper '+(file?'quant-linked':'')+'" data-paper-number="'+number+'"><div class="quant-paper-top"><strong>'+safe(label)+'</strong>'+
  '<span class="pill '+(file?'teal':'')+'">'+safe(status)+'</span></div>'+
  '<p class="small muted">52 questions · 28 minutes · '+(best===null?'Not attempted':'Best '+best+'%')+'</p>'+
  (file?(slot.format==='json'?'<button class="btn tiny primary" data-quant-paper="'+number+'">Start 28-minute paper →</button>':
@@ -74,7 +74,7 @@ function renderQuantitative(){
  '<button class="btn tiny outline" data-quant-filter="reserve">Papers 31–40 · Reserve</button></div>'+
  '<div class="quant-paper-grid">'+QCFG.paperSlots.map(slot=>quantPaperCard(slot.paperNumber)).join('')+'</div></div>'+
  '<div class="quant-note"><b>Other practice</b><p class="small muted">The existing short sample questions below are optional practice. They are not the 52-question papers or the individual topic tests.</p></div>';
- if(quantPaperQuiz&&quantPaperQuiz.submitted)renderQuantPaperQuiz();
+ if(quantPaperQuiz)renderQuantPaperQuiz();
 }
 function quantScroll(selector){
  const id=Number(selector.dataset.quantJumpTopic||selector.dataset.quantJumpPaper);
@@ -157,6 +157,7 @@ document.addEventListener('click',e=>{
  if(btn.dataset.quantSubmit){submitQuantPaper();return;}
  if(btn.dataset.quantRetake){startQuantPaper(Number(btn.dataset.quantRetake));return;}
  if(btn.dataset.quantClose){stopQuantPaperTimer();quantPaperQuiz=null;$('quantPaperRunner').classList.add('hidden');return;}
+ if(btn.dataset.openQuantReserved){examSection='quantitative';setPage('exam');return;}
 });
 document.addEventListener('change',e=>{
  const n=e.target;if(n.matches('[data-quant-answer]')&&quantPaperQuiz&&!quantPaperQuiz.submitted){quantPaperQuiz.answers[Number(n.dataset.quantAnswer)]=n.value;tickQuantPaper();}
