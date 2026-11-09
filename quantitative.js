@@ -26,7 +26,7 @@ function quantGroup(paperNumber){return paperNumber<=20?'learning':paperNumber<=
 function quantPaperLink(slot){
  if(!slot||!slot.path)return '';
  const path=slot.path.trim();
- if(!/^output\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
+ if(!/^(?:forty-tests|output)\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
  return path;
 }
 function quantPaperBest(paper){
