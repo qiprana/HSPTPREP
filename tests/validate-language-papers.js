@@ -1,0 +1,32 @@
+/* Run with: node tests/validate-language-papers.js */
+const fs=require('node:fs');
+const path=require('node:path');
+const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/language-papers-v2.json'),'utf8'));
+const sessions=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/language-20day-curriculum-spelling.json'),'utf8')).sessions;
+const assert=require('node:assert/strict');
+assert.equal(data.tests.length,20);
+assert.equal(data.practice.length,20);
+assert.equal(sessions.length,20);
+const seen=new Set();
+let checked=0;
+for(let day=1;day<=20;day++){
+ const paper=data.tests[day-1],practice=data.practice[day-1];
+ assert.equal(paper.day,day);assert.equal(practice.day,day);
+ assert.equal(paper.questions.length,60);assert.equal(practice.questions.length,15);
+ assert.equal(paper.durationMinutes,25);
+ assert.equal(paper.questions.filter(x=>x.group==='usage').length,30);
+ assert.equal(paper.questions.filter(x=>x.group==='spelling').length,10);
+ assert.equal(paper.questions.filter(x=>x.group==='composition').length,20);
+ assert.equal(sessions[day-1].words.length,10);
+ for(const q of [...paper.questions,...practice.questions]){
+  assert.equal(q.options.length,4,q.id);
+  assert.equal(new Set(q.options.map(x=>x.trim().toLowerCase())).size,4,q.id);
+  assert.ok(Number.isInteger(q.correctIndex)&&q.correctIndex>=0&&q.correctIndex<4,q.id);
+  assert.ok(q.text.length>15&&q.explanation.length>20,q.id);
+  assert.ok(!/\\{[A-Za-z]+\\}/.test(q.text+q.options.join(' ')),q.id);
+  const signature=q.text+'|'+[...q.options].sort().join('~');
+  assert.ok(!seen.has(signature),'Repeated question: '+q.id);
+  seen.add(signature);checked++;
+ }
+}
+console.log('PASS: '+checked+' unique Language questions, 20 full papers and 20 practice sets.');
