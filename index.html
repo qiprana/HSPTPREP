@@ -344,9 +344,9 @@ function overviewSubjectPlanHtml(){
  const day=overviewPlanDay||1,chosen=chosenSubjects(day),locked=!!state.completed[day];
  const rows=Array.from({length:50},(_,i)=>{const d=i+1,pair=chosenSubjects(d);return '<button class="overview-pair-day '+(day===d?'active':'')+'" data-plan-day="'+d+'"><b>Day '+d+'</b><small>'+pair.map(label).map(safe).join(' + ')+'</small></button>'}).join('');
  const controls=SUBJECTS.map(([id,name])=>{const active=chosen.includes(id),done=isSessionDone(day,id);return '<button class="subject-plan-choice '+(active?'selected':'')+'" data-overview-subject="'+id+'" '+(locked||done?'disabled':'')+'><span class="subject-plan-check">'+(active?'✓':'+')+'</span><span><b>'+safe(name)+'</b><small>'+(done?'Session completed':active?'Scheduled':'Select for this day')+'</small></span></button>'}).join('');
- return '<div class="row between"><div><div class="kicker">50-DAY SUBJECT PLAN</div><h2 class="section-title">Your complete subject schedule</h2><p class="hint">Each day has two subjects preassigned. Select any day to adjust its pair below; your changes are saved. Completed sessions stay protected.</p></div><span class="pill teal">50 days planned</span></div>'+
+ return '<div class="row between"><div><div class="kicker">60-DAY COMPLETE STUDY PLAN</div><h2 class="section-title">Your complete subject schedule</h2><p class="hint">Each day has two subjects preassigned. Select any day to adjust its pair below; your changes are saved. Completed sessions stay protected.</p></div><span class="pill teal">50 learning + 10 mock days</span></div>'+
  '<div class="row" style="margin:14px 0">'+SUBJECTS.map(([id,name])=>'<span class="pill">'+safe(name)+': '+counts[id]+'/20 days</span>').join('')+'</div>'+
- '<div class="overview-pair-grid">'+rows+'</div>'+
+ '<div class="overview-pair-grid">'+rows+Array.from({length:10},(_,i)=>{const d=i+51,done=(state.mockHistory||[]).some(x=>x.day===d&&x.submitted);return '<button class="overview-pair-day" data-open-mock="'+d+'"><b>Day '+d+'</b><small>'+(done?'✓ Completed · ':'')+'Full mock exam '+(i+1)+'</small></button>'}).join('')+'</div>'+
  '<div class="overview-pair-editor"><div class="row between"><div><div class="kicker">OPTIONAL CHANGES</div><h3 style="margin:6px 0">Day '+day+' · change subject pair</h3><p class="hint">The default pair is already selected. To change it, deselect one subject and select another.</p></div><button class="btn tiny outline" data-open-day="'+day+'">Study Day '+day+' →</button></div>'+
  '<div class="subject-plan-grid">'+controls+'</div><div style="margin-top:14px">'+dailyRhythmHtml(day)+'</div></div>';
 }
@@ -493,13 +493,15 @@ function renderExam(){
  const x=EXAM_SECTIONS.find(v=>v[0]===examSection);
  const pending=examSection==='quantitative';
  $('examTitle').textContent=x[1];
- $('examDescription').textContent=pending?'18 topic groups, two review sessions and 40 available 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'Reading curriculum and full question bank are awaiting the planned materials. You can use the 15 starter questions below for optional practice.':'Starter HSPT-style practice with explanations and score history. The complete curriculum will be added when its question bank is provided.';
+ $('examDescription').textContent=pending?'18 topic groups, two review sessions and 40 available 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'20-day reading skills roadmap, guided practice and a timed 62-question reading paper.':'20-day Language curriculum with lessons, targeted exercises and 60-question timed papers.';
  $('quantitativePlan').classList.toggle('hidden',!pending);
  if(pending&&typeof renderQuantitative==='function')renderQuantitative();
- $('examControls').classList.toggle('hidden',pending||examSection==='reading');
- $('examBody').classList.toggle('hidden',pending||examSection==='reading');
- $('examExternalResources').classList.toggle('hidden',pending);
- $('readingPilotLink').classList.toggle('hidden',examSection!=='reading');
+ $('examControls').classList.toggle('hidden',pending||examSection==='reading'||examSection==='language');
+ $('examBody').classList.toggle('hidden',pending||examSection==='reading'||examSection==='language');
+ $('examExternalResources').classList.add('hidden');
+ $('readingPilotLink').classList.toggle('hidden',examSection!=='reading'&&examSection!=='language');
+ if(examSection==='language')$('readingPilotLink').innerHTML='<div class="kicker">LANGUAGE · LEARN AND PRACTICE</div><h3>20 learning days + 10 full-test days</h3><p class="muted">Grammar, spelling, usage, punctuation and composition with lessons, review, and 60-question timed papers.</p><a class="btn primary" href="./language.html">Open Language Practice →</a>';
+ else $('readingPilotLink').innerHTML='<div class="kicker">READING · LEARN AND PRACTICE</div><h3>Reading Skills · 20-day roadmap</h3><p class="muted">Guided reading lessons and passage practice.</p><a class="btn primary" href="./reading-skills.html">Open Reading Skills Practice →</a><hr style="border:0;border-top:1px solid #dce9e3;margin:20px 0"><h3>62-question timed Reading Paper</h3><a class="btn primary" href="./reading-day1.html">Open Reading Paper →</a>';
  if(!pending){$('quantPaperRunner').classList.add('hidden');if(typeof stopQuantPaperTimer==='function')stopQuantPaperTimer();}
  $('examSectionPicker').innerHTML='';
  renderExamIntro();
