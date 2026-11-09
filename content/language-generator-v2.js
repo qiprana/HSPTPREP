@@ -75,6 +75,20 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
         :"Sentence "+letter+" contains the error. "+selected[3]+" Corrected sentence: "+mainGood
     });
   }
+  function spellingHint(word) {
+    const doubles=[...word.matchAll(/([a-z])\\1/g)].map(m=>m[1].toLowerCase());
+    if(word==="weird"||word==="receive"||word==="receipt"||word==="science"||word==="feisty"||word==="sieve")return "Pay attention to the vowel order: the familiar i-before-e rhyme has exceptions.";
+    if(word==="Wednesday"||word==="knowledge"||word==="knowing")return "Read the full written form carefully; pronunciation does not reveal every letter.";
+    if(word==="forty")return "The standard spelling is forty, without the u in four.";
+    if(word==="necessary")return "A useful memory aid: one c and two s letters in necessary.";
+    if(word==="accommodate")return "Remember double c and double m in accommodate.";
+    if(doubles.length)return "Notice the doubled "+[...new Set(doubles)].map(x=>x.toUpperCase()).join(" and ")+" in the correct spelling.";
+    if(/(ible|able)$/.test(word))return "Check whether the ending is -able or -ible.";
+    if(/(tion|sion)$/.test(word))return "The ending is an important spelling clue; check every vowel before -tion or -sion.";
+    if(/(ment|ness|ful|less|ly)$/.test(word))return "Identify the suffix and verify the base word before adding it.";
+    if(/(anti|dis|mis|pre|re|un)/.test(word))return "Study the prefix and the spelling of the base word.";
+    return "Divide the word into parts, identify the less obvious vowel sounds, and spell it again from memory.";
+  }
   function fakeSpelling(word) {
     if(badSpelling[word])return badSpelling[word];
     const doubles=word.match(/([a-z])\1/i);
@@ -96,7 +110,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
       text:"Which word is misspelled?",
       options,correctIndex,
       explanation:noMistakes?"All three words are spelled correctly. Recall the standard forms: "+[target,other1,other2].join(", ")+"."
-       :"The misspelled form is "+misspelling+". Correct spelling: "+target+". Review its letter sequence and practise spelling it without looking."
+       :"The misspelled form is "+misspelling+". Correct spelling: "+target+". "+spellingHint(target)
     });
   }
   function rotate(q,seed) {
