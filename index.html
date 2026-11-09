@@ -85,6 +85,28 @@
 @media(max-width:780px){.rhythm-items{grid-template-columns:repeat(3,minmax(0,1fr))}.mini-question .mini-options{grid-template-columns:1fr}}
 @media(max-width:480px){.rhythm-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+
+/* Quantitative: 20 topic sessions and 40 full paper slots */
+.quant-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.quant-head-stat{border-radius:12px;background:#ecf5ef;border:1px solid #d0e4d8;text-align:center;padding:13px;min-width:115px}.quant-head-stat b{display:block;font-size:22px}.quant-head-stat span{font-size:11px;color:var(--muted)}
+.quant-today{padding:14px 16px;background:#e9f4ed;border:1px solid #bad7c4;border-radius:12px;margin:15px 0}.quant-today p{margin:5px 0 10px}
+.quant-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:20px 0}
+.quant-topic{border:1px solid #dce5e0;border-radius:12px;padding:13px;background:#fff}.quant-topic.quant-covered{background:#f0f8f2}
+.quant-topic-no{color:#4c8375;font-size:10px;font-weight:800;letter-spacing:.08em;margin-bottom:5px}.quant-topic strong{display:block;font-size:14px}.quant-topic p{margin:6px 0 12px}
+.quant-topic-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.quant-topic-actions button{margin-left:auto}
+.quant-paper-section{border-top:1px solid #dce6e0;padding-top:18px;margin-top:18px}
+.quant-paper-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
+.quant-paper-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.quant-paper{border:1px solid #e1e7e2;border-radius:11px;padding:13px;background:#fff}.quant-paper.quant-linked{background:#f1f8f3}
+.quant-paper-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.quant-paper-top strong{font-size:13px}.quant-paper-top .pill{font-size:10px}.quant-paper p{margin:10px 0}
+.quant-note{background:#f6f7f4;border-radius:10px;padding:13px 15px;margin-top:18px}.quant-note p{margin:6px 0 0}
+.quant-paper-clock{position:sticky;top:11px;background:#e8f5ef;border:1px solid #a6cfbb;border-radius:11px;padding:12px;display:flex;justify-content:space-between;align-items:center;gap:14px;z-index:15;margin-bottom:18px}
+.quant-paper-clock strong{font-size:24px;font-variant-numeric:tabular-nums}
+#quantPaperRunner .mini-question{margin-bottom:12px}#quantPaperRunner .mini-option{margin:6px 0}
+@media(max-width:900px){.quant-paper-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.quant-heading{flex-direction:column}.quant-topic-grid,.quant-paper-grid{grid-template-columns:1fr}.quant-paper-clock{flex-wrap:wrap}}
+
 </style>
 </head>
 <body>
@@ -115,7 +137,7 @@
  <section class="page" id="exam">
   <div class="page-top"><div><div class="kicker">SUBJECT PRACTICE</div><h1 class="heading" id="examTitle">Verbal Skills</h1><p class="intro" id="examDescription">Practice questions for the selected HSPT subject.</p></div></div>
   <div class="section-picker" id="examSectionPicker"></div>
-  <div id="quantitativePlan" class="card pad hidden"><div class="kicker">COMING NEXT · QUANTITATIVE SKILLS</div><h2 class="section-title">Three-category Quantitative challenges</h2><p class="intro">This section is reserved for your Quantitative question bank. We'll build the three categories and challenge types from the examples you provide.</p><div class="quant-placeholders"><div><b>Category 1</b><span>Awaiting the question bank</span></div><div><b>Category 2</b><span>Awaiting the question bank</span></div><div><b>Category 3</b><span>Awaiting the question bank</span></div></div><p class="hint">Previously added general sample questions remain in the code. They are not presented as your new three-category challenges.</p></div><div class="card exam-controls" id="examControls"><div class="kicker" id="examSelectionTitle">VERBAL SKILLS</div><div class="row"><label class="small strong">Questions <select class="tool-select" id="examCount"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="20">Up to 20 questions</option><option value="all">Entire question bank</option></select></label><label class="small strong">Timing <select class="tool-select" id="examTiming"><option value="untimed">Untimed</option><option value="timed">Section-style timer</option></select></label><button class="btn primary" id="startExam">Start practice →</button></div><div class="hint" id="examHelp"></div></div>
+  <div id="quantitativePlan" class="card pad hidden"><div class="kicker">QUANTITATIVE SKILLS</div><p class="muted">Loading quantitative topics…</p></div><div id="quantPaperRunner" class="card pad hidden" style="margin-top:18px"></div><div class="card exam-controls" id="examControls"><div class="kicker" id="examSelectionTitle">VERBAL SKILLS</div><div class="row"><label class="small strong">Questions <select class="tool-select" id="examCount"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="20">Up to 20 questions</option><option value="all">Entire question bank</option></select></label><label class="small strong">Timing <select class="tool-select" id="examTiming"><option value="untimed">Untimed</option><option value="timed">Section-style timer</option></select></label><button class="btn primary" id="startExam">Start practice →</button></div><div class="hint" id="examHelp"></div></div>
   <div class="card pad" id="examBody"><div class="empty-illustration">✍</div><p class="muted">Select a section above to start. Scores will be saved separately from your learning-day vocabulary challenges.</p></div>
   <div class="card pad" style="margin-top:20px"><div class="kicker">FREE EXTERNAL PRACTICE REFERENCES</div><h3 class="section-title">Try additional HSPT-style examples</h3><p class="medium muted">Question formats were checked against public practice guides. Our embedded questions are original practice material, not official HSPT questions or copied from these websites.</p><div class="resource-links"><a href="https://www.testingmom.com/tests/high-school-placement-test-hspt-overview/hspt-practice-questions-by-subtest/hspt-verbal-skills-practice-questions/" target="_blank" rel="noopener">TestingMom · free verbal samples ↗</a><a href="https://admittest.com/guide/hspt-sample-questions" target="_blank" rel="noopener">AdmitTest · examples for five sections ↗</a><a href="https://www.certpracticetest.com/hspt-practice-test/" target="_blank" rel="noopener">CertPracticeTest · free HSPT practice ↗</a></div></div>
  </section>
@@ -168,7 +190,7 @@ const DAY_WORDS=Object.fromEntries(Array.from({length:TOTAL_DAYS},(_,i)=>[i+1,WO
 const $=id=>document.getElementById(id), $$=s=>[...document.querySelectorAll(s)];
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmtDay=d=>'Day '+String(d).padStart(2,'0');
-const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[],scheduleVersion:2,miniHistory:[],miniBest:{}});
+const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[],scheduleVersion:2,miniHistory:[],miniBest:{},quantTopicsReviewed:{},quantPaperAttempts:[]});
 let state=loadState(),selectedDay=1,selectedMockDay=51,currentPage='overview',activeKind='daily',currentQuiz=null,letterFilter='All';
 function migrateOldState(old={}){
  return {...newState(),covered:old.covered||{},review:old.review||{},examHistory:old.examHistory||[],questionFlags:old.questionFlags||[],
@@ -238,6 +260,7 @@ function toggleSubject(day,subject){
 }
 function openPracticeSubject(subject){
  if(!chosenSubjects(selectedDay).includes(subject))return;
+ if(subject==='quantitative'){examSection='quantitative';setPage('exam');return;}
  setPage('study');
  startMiniPractice(subject);
 }
@@ -452,14 +475,15 @@ function renderExam(){
  const x=EXAM_SECTIONS.find(v=>v[0]===examSection);
  const pending=examSection==='quantitative';
  $('examTitle').textContent=x[1];
- $('examDescription').textContent=pending?'Ready for the three Quantitative categories and question bank you will supply.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':'Original HSPT-style practice with explanations and score history.';
+ $('examDescription').textContent=pending?'18 topic groups and two review sessions, plus forty allocated 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':'Original HSPT-style practice with explanations and score history.';
  $('quantitativePlan').classList.toggle('hidden',!pending);
+ if(pending&&typeof renderQuantitative==='function')renderQuantitative();
  $('examControls').classList.remove('hidden');
- $('examBody').classList.remove('hidden');
+ $('examBody').classList.remove('hidden');if(!pending){$('quantPaperRunner').classList.add('hidden');if(typeof stopQuantPaperTimer==='function')stopQuantPaperTimer();}
  $('examSectionPicker').innerHTML='';
  renderExamIntro();
  if(examQuiz&&examQuiz.section===examSection)drawExam();
- else $('examBody').innerHTML='<div class="kicker">READY TO PRACTICE</div><h3>Choose a question count, then start</h3><p class="muted">Your results are recorded separately from the 50-day verbal learning challenges.</p>';
+ else $('examBody').innerHTML='<div class="kicker">OPTIONAL STARTER PRACTICE</div><h3>Choose a question count, then start</h3><p class="muted">These starter samples are not part of the 52-question papers or the forthcoming topic tests. Scores are saved separately.</p>';
 }
 function renderExamProgress(){const hist=state.examHistory||[];$('examProgressGrid').innerHTML=EXAM_SECTIONS.map(s=>{const scores=hist.filter(x=>x.section===s[0]);return `<div class="exam-progress-stat"><div class="kicker">${safe(s[1])}</div><b>${scores.length?Math.max(...scores.map(x=>x.score))+'%':'—'}</b><span class="small muted">${scores.length} attempt${scores.length===1?'':'s'}</span></div>`;}).join('');$('examAttempts').innerHTML=hist.length?`Latest: ${hist.slice(0,5).map(x=>`${safe(EXAM_SECTIONS.find(s=>s[0]===x.section)?.[1]||x.section)} ${x.score}% (${x.date})`).join(' · ')}`:'No exam practice attempts yet.';}
 function renderExamIntro(){let x=EXAM_SECTIONS.find(x=>x[0]===examSection);$('examSelectionTitle').textContent=x[1].toUpperCase();const best=(state.examHistory||[]).filter(r=>r.section===examSection).map(r=>r.score);$('examHelp').textContent=`${EXAM_QUESTIONS.filter(q=>q.section===examSection).length} original questions · Suggested section pace: ${x[3]} minutes for a full HSPT subtest · Best practice score: ${best.length?Math.max(...best)+'%':'not taken'}`;}
@@ -473,5 +497,7 @@ setup();
 </script>
 <script src="mock.js"></script>
 <script src="daily-quick.js"></script>
+<script src="quantitative-config.js"></script>
+<script src="quantitative.js"></script>
 </body>
 </html>

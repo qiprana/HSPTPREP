@@ -20,6 +20,43 @@ A GitHub Pages-friendly HSPT study site. No logins, frameworks or paid APIs.
 - Short concept questions are untimed; timed subject questions prioritize unseen items from the available bank and record distinct question coverage separately from repeat attempts. The optional 60-question Verbal exam is available with a **14-minute** timer.
 - The 98-question starter bank is intentionally marked as sample practice. Complete section-size question sets and actual section coverage depend on additional bank uploads.
 
+## Quantitative: 20 sessions, 40 papers (allocation prepared)
+
+The Quantitative module uses the 18 study topics supplied in the screenshot, plus two mixed-review sessions. Each of the 20 Quantitative learning sessions is assigned one **52-question paper** with a **28-minute timer**.
+
+| Paper numbers | Allocation | Status |
+| --- | --- | --- |
+| 1–20 | Quantitative learning sessions 1–20 within Days 1–50 | Slots created |
+| 21–30 | Quantitative portion of mock days 51–60, one per day | Reserved |
+| 31–40 | Future reinforcement, retakes, and targeted review | Reserved |
+
+The topic-specific tests are shown as **awaiting upload**. Their question counts and formats will be finalized after source files arrive.
+
+**Important:** The connected GitHub repository `qiprana/HSPTPREP` currently has **no `output/` directory or 40-paper files on `main`** (checked at setup time). No papers were imported or marked available. When the files are pushed to this repository, update `quantitative-config.js` with the exact relative paths. The browser cannot enumerate a folder in a GitHub Pages site on its own.
+
+### Interactive paper file format
+
+The optional online paper runner accepts JSON with **exactly 52 unique questions**, each containing a unique ID, a prompt, four distinct choice strings, a correct answer matching a choice, and an optional explanation:
+
+```json
+{
+  "paperNumber": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Example question prompt",
+      "choices": ["Choice A", "Choice B", "Choice C", "Choice D"],
+      "answer": "Choice A",
+      "explanation": "Explain the reasoning."
+    }
+  ]
+}
+```
+
+The example shows the **format** only; an actual file requires 52 questions. Set the paper entry's `path` to a relative file such as `output/quant-paper-01.json` and `format` to `json`. PDF papers can instead be linked using `format: 'pdf'`; they open as documents rather than auto-graded interactive tests. A PDF needs a converted question bank with answers for scoring and detailed progress tracking.
+
+For fully interactive paper attempts, correct answers, question-attempt counts, topic review marks, and timer-based scores are stored locally in the same browser. Previously saved learning progress remains in place. Paper completion credit requires an entire 52-question learning paper attempted and at least 70% correct; paper retakes are allowed.
+
 ## Mock-exam readiness
 
 - Days 51–60 currently offer **30-question five-section diagnostic previews** (six original starter questions per subject), with a 30-minute countdown, review explanations, and scores tracked separately.
