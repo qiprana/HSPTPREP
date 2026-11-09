@@ -102,7 +102,7 @@ const READING_BUILD=function buildReadingContent(science,history,narrative,commu
         "It presents a situation and problem, then an approach, evidence, and a qualified outcome.",
         ["It lists unrelated historical dates with no central topic.","It offers only an argument and its direct rebuttal.","It describes several characters without presenting any challenge or response."],
         "The paragraphs move from the initial problem to the method and finding, then the limitation and conclusion.",day+section+9),
-      item(prefix,10,"Vocabulary","As used in this passage, the word \""+term[0]+"\" most nearly means",
+      item(prefix,10,"Vocabulary","In the passage \""+t.title+"\", the word \""+term[0]+"\" most nearly means",
         term[1],term.slice(2),
         "The word describes an approach that considers information before acting. In this context, "+term[0]+" means "+term[1]+".",day+section+10)
     ];
