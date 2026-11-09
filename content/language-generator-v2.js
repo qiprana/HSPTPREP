@@ -84,8 +84,8 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     return word.slice(0,p)+word[p+1]+word[p]+word.slice(p+2);
   }
   function spellingItem(day,q,practice=false) {
-    const words=sessions[day-1].words,target=words[q%10],noMistakes=(q+day+(practice?2:0))%5===0;
-    const other1=words[(q+(practice?4:3))%10],other2=words[(q+(practice?8:6))%10],misspelling=fakeSpelling(target);
+    const words=sessions[day-1].words,target=words[(q*3+day+(practice?5:0))%words.length],noMistakes=(q+day+(practice?2:0))%5===0;
+    const other1=words[(q*3+day+4+(practice?1:0))%words.length],other2=words[(q*3+day+9+(practice?2:0))%words.length],misspelling=fakeSpelling(target);
     if(!misspelling||misspelling.toLowerCase()===target.toLowerCase())throw Error("Invalid misspelling "+target);
     const correctIndex=noMistakes?3:(q+day+(practice?1:0))%3;
     const options=noMistakes?[target,other1,other2,"No mistakes."]:[other1,other2,misspelling,"No mistakes."];
