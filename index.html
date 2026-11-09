@@ -476,7 +476,7 @@ function renderExam(){
  const x=EXAM_SECTIONS.find(v=>v[0]===examSection);
  const pending=examSection==='quantitative';
  $('examTitle').textContent=x[1];
- $('examDescription').textContent=pending?'18 topic groups and two review sessions, plus forty allocated 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':'Original HSPT-style practice with explanations and score history.';
+ $('examDescription').textContent=pending?'18 topic groups, two review sessions and 40 available 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'Reading curriculum and full question bank are awaiting the planned materials. You can use the 15 starter questions below for optional practice.':'Starter HSPT-style practice with explanations and score history. The complete curriculum will be added when its question bank is provided.';
  $('quantitativePlan').classList.toggle('hidden',!pending);
  if(pending&&typeof renderQuantitative==='function')renderQuantitative();
  $('examControls').classList.remove('hidden');
@@ -484,7 +484,7 @@ function renderExam(){
  $('examSectionPicker').innerHTML='';
  renderExamIntro();
  if(examQuiz&&examQuiz.section===examSection)drawExam();
- else $('examBody').innerHTML='<div class="kicker">OPTIONAL STARTER PRACTICE</div><h3>Choose a question count, then start</h3><p class="muted">These starter samples are not part of the 52-question papers or the forthcoming topic tests. Scores are saved separately.</p>';
+ else $('examBody').innerHTML='<div class="kicker">OPTIONAL STARTER PRACTICE</div><h3>Choose a question count, then start</h3><p class="muted">'+(examSection==='reading'?'The Reading section currently has 15 original starter questions. Reading topics, passage sets, and daily challenges will be organized once the full question bank is provided.':'These are starter samples, separate from full-length subject papers and the learning-day challenges.')+' Results are saved in this browser.</p>';
 }
 function renderExamProgress(){const hist=state.examHistory||[];$('examProgressGrid').innerHTML=EXAM_SECTIONS.map(s=>{const scores=hist.filter(x=>x.section===s[0]);return `<div class="exam-progress-stat"><div class="kicker">${safe(s[1])}</div><b>${scores.length?Math.max(...scores.map(x=>x.score))+'%':'—'}</b><span class="small muted">${scores.length} attempt${scores.length===1?'':'s'}</span></div>`;}).join('');$('examAttempts').innerHTML=hist.length?`Latest: ${hist.slice(0,5).map(x=>`${safe(EXAM_SECTIONS.find(s=>s[0]===x.section)?.[1]||x.section)} ${x.score}% (${x.date})`).join(' · ')}`:'No exam practice attempts yet.';}
 function renderExamIntro(){let x=EXAM_SECTIONS.find(x=>x[0]===examSection);$('examSelectionTitle').textContent=x[1].toUpperCase();const best=(state.examHistory||[]).filter(r=>r.section===examSection).map(r=>r.score);$('examHelp').textContent=`${EXAM_QUESTIONS.filter(q=>q.section===examSection).length} original questions · Suggested section pace: ${x[3]} minutes for a full HSPT subtest · Best practice score: ${best.length?Math.max(...best)+'%':'not taken'}`;}
