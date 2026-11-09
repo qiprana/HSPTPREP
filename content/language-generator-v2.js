@@ -110,7 +110,7 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     const a=seed.topics[(day+type*3+(practice?7:0))%seed.topics.length];
     const b=seed.topics[(day+type*3+9)%seed.topics.length];
     const claim=a.claim, detail=a.detail, unrelated=a.unrelated, problem=a.problem,solution=a.solution,outcome=a.outcome,steps=a.steps;
-    const vague="There are many interesting things to learn about "+a.topic+".";
+    const vague="There are many interesting things to learn about the "+a.topic+".";
     let text="",options=[],correct=0,explain="",skill="";
     switch(type){
       case 0:
@@ -123,10 +123,10 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
         skill="Paragraph unity";text="Consider a paragraph about "+a.topic+": (1) "+claim+" (2) "+detail+" (3) "+unrelated+" (4) "+outcome+" Which numbered sentence should be removed?";
         options=["Sentence 3","Sentence 1","Sentence 2","Sentence 4"];explain="Sentence 3 shifts to an unrelated subject and breaks paragraph unity.";break;
       case 3:
-        skill="Titles";text="A paragraph explains the topic of "+a.topic+" using this evidence: "+detail+" Which title best fits?";
+        skill="Titles";text=A paragraph explains the topic of the "+a.topic+" using this evidence: "+detail+" Which title best fits?";
         options=[a.title,"A Complete History of Everything","The Story of "+b.topic,"An Unrelated Adventure"];explain="The strongest title accurately describes the central topic at an appropriate level of specificity.";break;
       case 4:
-        skill="Organization";text="In explaining a process for "+a.topic+", which action should come FIRST?";
+        skill="Organization";text="In explaining a process for the "+a.topic+", which action should come FIRST?";
         options=[steps[0],steps[1],steps[2],outcome];explain="The first step establishes what is needed before later actions and results.";break;
       case 5:
         skill="Logical sequence";text="Put these actions in their most logical order: (1) "+steps[1]+" (2) "+steps[2]+" (3) "+steps[0];
@@ -165,13 +165,13 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
         skill="Supporting facts";text="Which fact would best support a paragraph arguing that "+a.topic+" produced observable results?";
         options=[detail,vague,unrelated,"The organizers thought their work was important."];explain="Measured or observed results are stronger support than broad opinions.";break;
       case 17:
-        skill="Paragraph unity";text="A writer wants to keep a paragraph focused on "+a.topic+". Which sentence should be deleted?";
+        skill="Paragraph unity";text="A writer wants to keep a paragraph focused on the "+a.topic+". Which sentence should be deleted?";
         options=[unrelated,solution,detail,claim];explain="The unrelated sentence diverts attention from the paragraph's focus.";break;
       case 18:
         skill="Text organization";text="A paragraph contains these sentences: '"+problem+" "+solution+" "+outcome+"' What organizational structure is used?";
         options=["Problem followed by solution and result","Comparison of two unrelated characters","A list of historical dates","A set of definitions for technical terms"];explain="The paragraph introduces an obstacle, explains a response, and describes its outcome.";break;
       case 19:
-        skill="Effective openings";text="Which sentence would most effectively introduce an essay about "+a.topic+"?";
+        skill="Effective openings";text="Which sentence would most effectively introduce an essay about the "+a.topic+"?";
         options=[claim,"There are a lot of things about this topic.",unrelated,detail];explain="An opening should present the controlling idea clearly and broadly enough for the paragraph.";break;
       case 20:
         skill="Sentence combining";text="Choose the combination that best shows cause and response: '"+problem+"' '"+solution+"'";
