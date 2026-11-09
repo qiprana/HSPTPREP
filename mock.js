@@ -22,7 +22,7 @@ function renderMocks(){
  $('mockIntro').innerHTML='<div class="kicker">DAY '+selectedMockDay+' · PREVIEW '+(selectedMockDay-50)+' / 10</div>'+
   '<h2 class="section-title">Five-section diagnostic practice</h2>'+
   '<p class="medium muted">30 starter questions, six from each section, with a 30-minute countdown and explained answers. This is a diagnostic preview, NOT an official full-length HSPT exam.</p>'+
-  '<div class="hint">Reserved Quantitative paper: #'+(selectedMockDay-30)+' (52 questions, 28 minutes), to be attached to Mock Day '+selectedMockDay+' when the complete paper files are available. <button class="btn tiny outline" data-open-quant-reserved="1">View Quantitative paper slots →</button></div>'+
+  '<div class="hint">Full Quantitative paper #'+(selectedMockDay-30)+' is ready for Mock Day '+selectedMockDay+' (52 questions · 28 minutes). <button class="btn tiny primary" data-start-quant-mock="1">Start this Quantitative paper →</button></div>'+
   '<div class="mock-section-summary">'+MOCK_SECTIONS.map(x=>'<div><b>'+safe(x[1])+'</b><span>6 practice questions</span></div>').join('')+'</div>'+
   '<div class="row"><span class="pill">'+history.length+' previous attempt(s)</span><span class="pill teal">Best '+(best===null?'—':best+'%')+'</span>'+
   '<button class="btn primary" data-start-mock="1">Start / retake preview →</button></div>';
