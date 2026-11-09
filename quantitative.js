@@ -3,6 +3,17 @@
    20 learning papers, 10 mock-phase papers, 10 reserve papers.
    Files are not assumed present; only explicit manifest paths are loadable. */
 const QCFG=window.HSPT_QUANT_CONFIG;
+/* Recovery for clients that cached the old placeholder config.
+   Canonical files were verified in forty-tests/test-01 through test-40. */
+if(QCFG?.paperSlots?.length===40){
+  for(let i=0;i<40;i++){
+    const slot=QCFG.paperSlots[i];
+    if(slot&&!slot.path){
+      slot.path='forty-tests/test-'+String(i+1).padStart(2,'0')+'/questions.json';
+      slot.format='json';
+    }
+  }
+}
 let quantPaperQuiz=null,quantPaperTimer=null;
 function quantState(){
  state.quantTopicsReviewed??={};
