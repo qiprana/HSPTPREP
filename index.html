@@ -218,7 +218,7 @@ const WORDS=RAW_WORDS.map((w,i)=>({...w,legacyDay:w.day,day:Math.floor(i*TOTAL_D
 const SUBJECTS=[['verbal','Verbal Skills'],['quantitative','Quantitative'],['reading','Reading'],['mathematics','Mathematics'],['language','Language']];
 const PAIR_CYCLE=[['mathematics','verbal'],['quantitative','reading'],['mathematics','verbal'],['reading','language'],['quantitative','language']];
 const OLD_PAIR_CYCLE=[['verbal','quantitative'],['reading','mathematics'],['language','verbal'],['quantitative','reading'],['mathematics','language']];
-const STUDY_SECTION_TIMES={verbal:14,quantitative:28,reading:23,mathematics:43,language:23};
+const STUDY_SECTION_TIMES={verbal:14,quantitative:28,reading:23,mathematics:43,language:25};
 const DAY_WORDS=Object.fromEntries(Array.from({length:TOTAL_DAYS},(_,i)=>[i+1,WORDS.filter(w=>w.day===i+1)]));
 const $=id=>document.getElementById(id), $$=s=>[...document.querySelectorAll(s)];
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -380,7 +380,7 @@ function overviewSubjectPlanHtml(){
  '<div class="overview-pair-editor"><div class="row between"><div><div class="kicker">OPTIONAL CHANGES</div><h3 style="margin:6px 0">Day '+day+' · change subject pair</h3><p class="hint">The default pair is already selected. To change it, deselect one subject and select another.</p></div><button class="btn tiny outline" data-open-day="'+day+'">Study Day '+day+' →</button></div>'+
  '<div class="subject-plan-grid">'+controls+'</div><div style="margin-top:14px">'+dailyRhythmHtml(day)+'</div></div>';
 }
-let overviewPlanDay=1;
+let overviewPlanDay=firstIncomplete();
 function renderOverview(){
  const n=coveredCount(),pct=Math.round(n/WORDS.length*100),stats=dateStats(),next=firstIncomplete(),completed=completedCount();
  const mockDays=Array.from({length:10},(_,i)=>i+51).filter(day=>(state.mockHistory||[]).some(x=>x.day===day&&x.submitted)).length;
@@ -528,7 +528,7 @@ function renderSubjectResources(){
  const buttons=Array.from({length:20},(_,i)=>{const d=i+1;return '<button type="button" class="subject-day '+(d===day?'active':'')+'" data-resource-day="'+d+'" aria-pressed="'+(d===day)+'" aria-label="'+subject+' Day '+d+'">Day '+d+'</button>';}).join('');
  const lessonUrl=reading?'./reading-skills.html?day='+day:'./language.html?day='+day;
  const paperUrl=reading?'./reading-skills.html?day='+day+'&focus=test':'./language.html?day='+day+'&focus=test';
- const practiceInfo=reading?'Read the Day '+day+' passage, answer 15 distinct comprehension, strategy and vocabulary questions, then review explanations.':'Review the Day '+day+' lesson, work on grammar and usage, and learn ten spelling words using pronunciation and recall drills.';
+ const practiceInfo=reading?'Read the Day '+day+' passage, answer 15 distinct comprehension, strategy and vocabulary questions, then review explanations.':'Review Day '+day+' grammar and composition, answer 15 distinct practice questions, and study 15–16 spelling words.';
  const paperTitle=reading?'Reading · Day '+day+' full test':'Language · Day '+day+' full test';
  const paperInfo=reading?'A distinct Day '+day+' Reading paper: 4 passages with 40 comprehension questions, plus 22 vocabulary questions. 23-minute timer and complete explanations.':'A separate 60-question paper for Day '+day+': 30 usage/mechanics, 10 spelling and 20 composition, with a 25-minute timer, scoring and answer explanations.';
  const note=reading?'Reading progress: '+completed+' of 20 guided sessions completed. Distinct 62-question papers are linked for Days 1–20.':'Language progress: '+completed+' of 20 practice sessions completed; '+mastered+' of 317 spelling words mastered. Distinct papers are linked for Days 1–20.';
