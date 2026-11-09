@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "paperId": "reading-01",
+  "status": "in-progress",
+  "durationMinutes": 23,
+  "targetQuestions": 62,
+  "passages": [
+    {
+      "id": "R01-P1",
+      "title": "The Changing Lighthouse",
+      "text": "In the early nineteenth century, many coastal towns depended on lighthouse keepers to guide ships past dangerous rocks. A keeper's work was repetitive but essential. Each evening, the keeper cleaned the lamp's glass, checked its fuel, and lit the flame before darkness settled. During storms, the keeper sometimes climbed the tower several times to ensure that wind had not extinguished the light.\n\nAs shipping increased, inventors sought brighter and more reliable lamps. The Fresnel lens, developed in France, used rings of carefully shaped glass to concentrate light into a powerful beam. Because it could direct more light toward distant ships without requiring a much larger lamp, the lens transformed lighthouse design.\n\nBy the twentieth century, electric lights and automatic controls had reduced the need for resident keepers. Automation lowered operating costs, but it also changed the character of the stations. Buildings once filled with families and daily routines became largely unoccupied.\n\nToday, many historic lighthouses remain standing. Some still serve as navigation aids, while others operate as museums. Their towers preserve evidence of both technological ingenuity and the people whose vigilance once protected sailors.",
+      "questions": [
+        {
+          "id": "R01-C01",
+          "type": "General",
+          "prompt": "Which title best captures the passage as a whole?",
+          "choices": [
+            "Lighthouses: From Keepers to Automation",
+            "How to Build a Fresnel Lens",
+            "The Most Dangerous Coastal Storms",
+            "The History of French Shipping"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage traces lighthouse operation from human keepers through lens improvements and automation to preservation.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C02",
+          "type": "General",
+          "prompt": "What is the main purpose of the passage?",
+          "choices": [
+            "To argue that modern navigation is unsafe",
+            "To explain how lighthouses changed over time",
+            "To describe a single keeper's childhood",
+            "To compare French and American ports"
+          ],
+          "correctIndex": 1,
+          "explanation": "The paragraphs follow developments in lighthouse technology and staffing across time.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C03",
+          "type": "Specific",
+          "prompt": "What did keepers check before lighting the lamp?",
+          "choices": [
+            "The museum schedule",
+            "The ship's cargo",
+            "The lamp's fuel",
+            "The electric controls"
+          ],
+          "correctIndex": 2,
+          "explanation": "The first paragraph explicitly states that keepers checked the lamp's fuel.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C04",
+          "type": "Specific",
+          "prompt": "Why might a keeper climb the tower repeatedly during storms?",
+          "choices": [
+            "To repair the surrounding road",
+            "To make sure the light remained lit",
+            "To watch visitors enter the museum",
+            "To replace the Fresnel lens each night"
+          ],
+          "correctIndex": 1,
+          "explanation": "Storm winds might extinguish the flame, requiring repeated checks.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C05",
+          "type": "Vocabulary",
+          "prompt": "In paragraph 1, 'extinguished' most nearly means",
+          "choices": [
+            "brightened",
+            "hidden",
+            "put out",
+            "reflected"
+          ],
+          "correctIndex": 2,
+          "explanation": "A wind-extinguished flame has been put out.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C06",
+          "type": "Specific",
+          "prompt": "What advantage did the Fresnel lens provide?",
+          "choices": [
+            "It eliminated all fuel use",
+            "It concentrated light without needing a much larger lamp",
+            "It prevented every shipwreck",
+            "It made towers unnecessary"
+          ],
+          "correctIndex": 1,
+          "explanation": "The lens focused light into a powerful beam without requiring a much larger lamp.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C07",
+          "type": "General",
+          "prompt": "Which statement best describes the organization of the passage?",
+          "choices": [
+            "A problem followed by unrelated anecdotes",
+            "A chronological account of change",
+            "An argument followed by a rebuttal",
+            "A list of instructions for visitors"
+          ],
+          "correctIndex": 1,
+          "explanation": "The passage moves from the nineteenth century to the twentieth century and then today.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C08",
+          "type": "General",
+          "prompt": "Which inference is best supported by the passage?",
+          "choices": [
+            "All historic lighthouses are now museums",
+            "Automatic controls made keeper duties less necessary",
+            "The Fresnel lens was invented after electric lighting",
+            "Storms no longer affect coastal navigation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Automation reduced the need for resident keepers.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C09",
+          "type": "Specific",
+          "prompt": "What happened to many lighthouse stations after automation?",
+          "choices": [
+            "They became more crowded",
+            "They moved inland",
+            "They became largely unoccupied",
+            "They stopped using glass"
+          ],
+          "correctIndex": 2,
+          "explanation": "The third paragraph says stations became largely unoccupied.",
+          "passageId": "R01-P1"
+        },
+        {
+          "id": "R01-C10",
+          "type": "General",
+          "prompt": "What attitude does the author convey toward historic lighthouses?",
+          "choices": [
+            "Respectful of their technological and human history",
+            "Dismissive of their usefulness",
+            "Angry about their French origins",
+            "Uninterested in their preservation"
+          ],
+          "correctIndex": 0,
+          "explanation": "The closing sentence values both technological ingenuity and the vigilance of keepers.",
+          "passageId": "R01-P1"
+        }
+      ]
+    }
+  ],
+  "vocabularyQuestions": [],
+  "notes": "Original pilot content. Not a full paper yet: remaining 3 passages and 22 vocabulary questions must be authored and validated. Do not expose as a full-length test."
+}
