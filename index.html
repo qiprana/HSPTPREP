@@ -161,21 +161,36 @@
 const RAW_WORDS=window.HSPT_WORDS, TOTAL_DAYS=50, JOURNEY_DAYS=60, PASS_MARK=70, STORAGE='hsptprep_1084_v4';
 const WORDS=RAW_WORDS.map((w,i)=>({...w,legacyDay:w.day,day:Math.floor(i*TOTAL_DAYS/RAW_WORDS.length)+1}));
 const SUBJECTS=[['verbal','Verbal Skills'],['quantitative','Quantitative'],['reading','Reading'],['mathematics','Mathematics'],['language','Language']];
-const PAIR_CYCLE=[['verbal','quantitative'],['reading','mathematics'],['language','verbal'],['quantitative','reading'],['mathematics','language']];
+const PAIR_CYCLE=[['mathematics','verbal'],['quantitative','reading'],['mathematics','verbal'],['reading','language'],['quantitative','language']];
+const OLD_PAIR_CYCLE=[['verbal','quantitative'],['reading','mathematics'],['language','verbal'],['quantitative','reading'],['mathematics','language']];
+const STUDY_SECTION_TIMES={verbal:14,quantitative:28,reading:23,mathematics:43,language:23};
 const DAY_WORDS=Object.fromEntries(Array.from({length:TOTAL_DAYS},(_,i)=>[i+1,WORDS.filter(w=>w.day===i+1)]));
 const $=id=>document.getElementById(id), $$=s=>[...document.querySelectorAll(s)];
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmtDay=d=>'Day '+String(d).padStart(2,'0');
-const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[]});
+const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[],scheduleVersion:2,miniHistory:[],miniBest:{}});
 let state=loadState(),selectedDay=1,selectedMockDay=51,currentPage='overview',activeKind='daily',currentQuiz=null,letterFilter='All';
 function migrateOldState(old={}){
  return {...newState(),covered:old.covered||{},review:old.review||{},examHistory:old.examHistory||[],questionFlags:old.questionFlags||[],
  legacyCompleted:{...(old.legacyCompleted||{}),...(old.completed||{})},legacyQuizBest:{...(old.legacyQuizBest||{}),...(old.quizBest||{})},legacyHistory:[...(old.legacyHistory||[]),...(old.history||[])]};
 }
+function retainExistingSchedule(v4){
+ const copy={...newState(),...v4};
+ if(v4.scheduleVersion>=2)return copy;
+ const picks={...(v4.planSelections||{})};
+ for(let day=1;day<=TOTAL_DAYS;day++){
+  if(picks[day])continue;
+  const started=!!v4.completed?.[day]||!!Object.keys(v4.subjectSessions?.[day]||{}).length||
+   !!v4.history?.some(x=>x.day===day)||DAY_WORDS[day].some(w=>v4.covered?.[w.key]);
+  if(started)picks[day]=OLD_PAIR_CYCLE[(day-1)%OLD_PAIR_CYCLE.length].slice();
+ }
+ copy.planSelections=picks;copy.scheduleVersion=2;
+ return copy;
+}
 function loadState(){
  try{
   const v4=JSON.parse(localStorage.getItem(STORAGE)||'null');
-  if(v4&&typeof v4==='object')return {...newState(),...v4};
+  if(v4&&typeof v4==='object')return retainExistingSchedule(v4);
   for(const key of ['hsptprep_1084_v3','hspt_word_studio_664_v2']){
    const old=JSON.parse(localStorage.getItem(key)||'null');
    if(old&&typeof old==='object')return migrateOldState(old);
@@ -227,27 +242,44 @@ function openPracticeSubject(subject){
  startMiniPractice(subject);
 }
 function dailyRhythmHtml(day){
- const wordsDone=dayCovered(day)===DAY_WORDS[day].length;
- const selected=chosenSubjects(day),sessions=selected.filter(id=>isSessionDone(day,id)).length;
- const activities=[
-  {name:'Vocabulary',minutes:20,sub:'21–22 words and pronunciation'},
-  {name:'Subject 1',minutes:22,sub:'10 min learn + 12 min challenge'},
-  {name:'Subject 2',minutes:22,sub:'10 min learn + 12 min challenge'},
-  {name:'Review',minutes:11,sub:'Mistakes and review words'},
-  {name:'Break',minutes:5,sub:'Stretch, breathe, reset'}
- ];
- return '<div class="card pad daily-rhythm"><div class="row between"><div><div class="kicker">YOUR DAILY TIME PLAN</div><h2 class="section-title">80-minute learning day</h2><p class="hint">Aim for 75–80 minutes. Short challenges fit within the subject sessions; full section tests are optional.</p></div><span class="pill teal">'+(wordsDone?'Words done':'Words pending')+' · '+sessions+'/2 subjects</span></div>'+
- '<div class="rhythm-bar">'+activities.map((a,i)=>'<span class="rhythm-'+i+'" style="flex:'+a.minutes+'" title="'+safe(a.name)+' · '+a.minutes+' min"></span>').join('')+'</div>'+
- '<div class="rhythm-items">'+activities.map(a=>'<div class="rhythm-item"><b>'+a.name+'</b><strong>'+a.minutes+' min</strong><small>'+a.sub+'</small></div>').join('')+'</div></div>';
+ const choices=chosenSubjects(day),done=choices.filter(id=>isSessionDone(day,id)).length;
+ const wordDone=dayCovered(day)===DAY_WORDS[day].length;
+ const extras=choices.filter(id=>id!=='verbal');
+ const rows=[{name:'Vocabulary'+(choices.includes('verbal')?' + Verbal recall':''),minutes:20,sub:'Daily words, examples and a quick recall check'}];
+ for(const id of extras){
+  const title=SUBJECTS.find(x=>x[0]===id)?.[1]||id;
+  rows.push({name:title,minutes:10+STUDY_SECTION_TIMES[id],sub:'10 min concepts + '+STUDY_SECTION_TIMES[id]+' min timed challenge'});
+ }
+ rows.push({name:'Review',minutes:5,sub:'Mistakes and flagged questions'});
+ const total=rows.reduce((n,r)=>n+r.minutes,0),optional=choices.includes('verbal')?14:0;
+ return '<div class="card pad daily-rhythm"><div class="row between"><div><div class="kicker">FLEXIBLE DAILY STUDY TIME</div><h2 class="section-title">'+total+'-minute plan</h2><p class="hint">Vocabulary is counted once, even when Verbal is selected. Challenge timers are two minutes shorter than standard exam times.</p></div><span class="pill teal">'+(wordDone?'Words done':'Words pending')+' · '+done+'/2 subjects</span></div>'+
+ '<div class="rhythm-bar">'+rows.map((r,i)=>'<span class="rhythm-'+Math.min(i,4)+'" style="flex:'+r.minutes+'" title="'+safe(r.name)+' · '+r.minutes+' minutes"></span>').join('')+'</div>'+
+ '<div class="rhythm-items">'+rows.map(r=>'<div class="rhythm-item"><b>'+safe(r.name)+'</b><strong>'+r.minutes+' min</strong><small>'+safe(r.sub)+'</small></div>').join('')+'</div>'+
+ (optional?'<p class="hint" style="margin-top:12px">Optional extra: a full 60-question Verbal challenge takes 14 more minutes (total '+(total+14)+' min). The short Verbal recall fits inside vocabulary time.</p>':'')+'</div>';
 }
 function subjectPlanHtml(day){
  const chosen=chosenSubjects(day),locked=!!state.completed[day];
- return `<div class="card pad study-plan"><div class="row between"><div><div class="kicker">LEARNING DAY ${day} · TWO SUBJECTS</div><h2 class="section-title">Choose today's subject sessions</h2><p class="hint">20 minutes of vocabulary plus two 22-minute subject sessions (10 minutes learning + a 12-minute short challenge). The suggested five-day rotation gives each subject 20 sessions across 50 days.</p></div><span class="pill ${chosen.length===2?'teal':'orange'}">${chosen.length}/2 selected</span></div>
- <div class="subject-plan-grid">${SUBJECTS.map(([id,name])=>{const selected=chosen.includes(id),done=isSessionDone(day,id),stats=bankStats(id);return `<button class="subject-plan-choice ${selected?'selected':''}" data-select-subject="${id}" ${locked||done?'disabled':''}><span class="subject-plan-check">${selected?'✓':'+'}</span><span><b>${safe(name)}</b><small>${sessionsCount(id)}/20 sessions · ${stats.seen}/${stats.total} starter questions answered</small></span>${done?'<span class="pill teal">Done</span>':''}</button>`}).join('')}</div>
- <div class="session-actions">${chosen.map(id=>{const name=SUBJECTS.find(x=>x[0]===id)?.[1]||id,done=isSessionDone(day,id);return `<div class="session-action"><b>${safe(name)}</b><span class="small muted">${done?'Session recorded':'10 min learning + 12 min challenge (8 questions).'}</span><div class="row"><button class="btn tiny primary" data-practice-subject="${id}">Start short challenge →</button><button class="btn tiny outline" data-study-session="${id}" ${done?'disabled':''}>${done?'✓ Completed':'Mark offline learning complete'}</button></div></div>`}).join('')}</div>
- ${locked?'<p class="hint">Day complete: its selected subject sessions are locked.</p>':''}</div>`;
+ const sessionCards=chosen.map(id=>{
+  const label=SUBJECTS.find(x=>x[0]===id)?.[1]||id,done=isSessionDone(day,id),verbal=id==='verbal';
+  const caption=verbal?'Vocabulary study includes a short Verbal recall check; no extra learning time.':'10 min concept practice + '+STUDY_SECTION_TIMES[id]+' min timed challenge';
+  return '<div class="session-action"><b>'+safe(label)+'</b><span class="small muted">'+safe(caption)+'</span><div class="row" style="margin-top:10px">'+
+  '<button class="btn tiny primary" data-practice-subject="'+id+'">'+(done?'Practice again →':verbal?'Start Verbal recall →':'Learn + timed challenge →')+'</button>'+
+  (verbal?'<button class="btn tiny outline" data-open-challenge="'+day+'">Optional 14-min full Verbal test</button>':'')+
+  '</div></div>';
+ }).join('');
+ const cards=SUBJECTS.map(([id,label])=>{
+  const selected=chosen.includes(id),done=isSessionDone(day,id),stats=bankStats(id);
+  const pace=id==='verbal'?'In daily vocabulary block':STUDY_SECTION_TIMES[id]+'-min timed section';
+  return '<button class="subject-plan-choice '+(selected?'selected':'')+'" data-select-subject="'+id+'" '+(locked||done?'disabled':'')+'><span class="subject-plan-check">'+(selected?'✓':'+')+'</span>'+
+  '<span><b>'+safe(label)+'</b><small>'+sessionsCount(id)+'/20 sessions · '+stats.seen+'/'+stats.total+' starter questions seen · '+pace+'</small></span>'+
+  (done?'<span class="pill teal">Done</span>':'')+'</button>';
+ }).join('');
+ return '<div class="card pad study-plan"><div class="row between"><div><div class="kicker">DAY '+day+' · TWO SUBJECTS</div><h2 class="section-title">Choose your subject pair</h2>'+
+ '<p class="hint">Mathematics is paired with Verbal/Vocabulary by default to reduce total study time. Each subject still receives 20 scheduled sessions in the 50-day plan. You may choose a different pair.</p></div>'+
+ '<span class="pill '+(chosen.length===2?'teal':'orange')+'">'+chosen.length+'/2 selected</span></div>'+
+ '<div class="subject-plan-grid">'+cards+'</div><div class="session-actions">'+sessionCards+'</div>'+
+ (locked?'<p class="hint">Completed day: your subject choices are preserved.</p>':'')+'</div>';
 }
-function toast(text){const el=$('toast');el.textContent=text;el.classList.add('show');clearTimeout(window.__hsptToast);window.__hsptToast=setTimeout(()=>el.classList.remove('show'),3400);}
 let verbalLastPage='study';
 function openSubject(subject){
  if(subject==='overview'||subject==='progress'||subject==='mocks'){setPage(subject);return;}
@@ -304,7 +336,7 @@ function renderOverview(){
  const wordBank=DAY_WORDS[next],wordCount=dayCovered(next),sessionsDone=chosenSubjects(next).filter(x=>isSessionDone(next,x)).length;
  const subjectPills=SUBJECTS.map(x=>'<span class="pill">'+safe(x[1])+' '+sessionsCount(x[0])+'/20</span>').join('');
  $('nextSteps').innerHTML='<div class="kicker">YOUR NEXT LEARNING DAY</div><h3>Day '+next+' · '+wordBank.length+' words</h3>'+
- '<p class="medium muted">Follow the 80-minute rhythm: 20 minutes of vocabulary, two short 22-minute subject sessions, 11 minutes review and a 5-minute break.</p>'+
+ '<p class="medium muted">The default pair puts Mathematics with Verbal/Vocabulary. Total time varies by the selected subjects, and vocabulary is never counted twice.</p>'+
  '<div class="checklist">'+checkItem(wordCount===wordBank.length,'Words: '+wordCount+'/'+wordBank.length)+checkItem(sessionsDone===2,'Subject sessions: '+sessionsDone+'/2')+'</div>'+
  '<div class="bar"><span style="width:'+Math.round((wordCount/wordBank.length+sessionsDone/2)/2*100)+'%"></span></div>'+
  '<div class="row" style="margin-top:16px"><button class="btn primary" data-open-day="'+next+'">Open Day '+next+' →</button><button class="btn outline" data-open-mock="51">Mock preview →</button></div>'+
