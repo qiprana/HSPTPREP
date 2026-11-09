@@ -48,13 +48,14 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     if(!question.explanation||question.explanation.length<20)throw Error("Missing explanation in "+question.id);
     return question;
   }
-  function usageItem(day,q,practice=false) {
+  function usageItem(day,q,practice=false,forcedIndex=null) {
     let running=0,selected=errors[0],ti=0;
     for(let b=0;b<BANDS.length;b++) {
       const [start,end,quota]=BANDS[b];
       if(q<running+quota){ti=start+(day*5+(q-running)*3+(practice?9:0))%(end-start+1);selected=errors[ti];break;}
       running+=quota;
     }
+    if(Number.isInteger(forcedIndex)){ti=forcedIndex;selected=errors[ti];}
     const noMistakes=(q+day+(practice?1:0))%6===0,correctIndex=noMistakes?3:(q+day+(practice?2:0))%3;
     const mainBad=fill(selected[1],day,q,0),mainGood=fill(selected[2],day,q,0);
     const differentIndexA=(ti+17+(q%4))%errors.length;
@@ -196,7 +197,12 @@ const LANGUAGE_BUILD=function buildLanguageContent(seed,errors,sessions) {
     const s=Array.from({length:10},(_,i)=>spellingItem(d,i));
     const c=Array.from({length:20},(_,i)=>compositionItem(d,i));
     fullDays.push({day:d,durationMinutes:25,groups:SECTION.groups,questions:[...u,...s,...c]});
-    const practice=[...Array.from({length:8},(_,i)=>usageItem(d,i+4,true)),...Array.from({length:3},(_,i)=>spellingItem(d,(i+2)%10,true)),...Array.from({length:4},(_,i)=>compositionItem(d,i+2,true))];
+    const guidedCategories=[
+      ["Possessives","Agreement"],["Pronoun case","Pronouns","Pronoun agreement"],["Verb tense","Verb forms","Verb mood"],["Agreement"],["Adjectives","Comparisons"],["Adverbs","Modifiers","Adjectives"],["Prepositions","Fragments","Punctuation"],["Articles","Quantifiers"],["Punctuation","Quotation punctuation"],["Capitalization","Possessives","Quotation punctuation"],["Word choice","Pronouns"],["Verb forms","Pronouns"],["Negatives","Comparisons","Quantifiers"],["Fragments","Run-ons","Punctuation"],["Parallelism","Modifiers"],["Usage","Word choice","Modifiers"],["Agreement","Pronoun case"],["Punctuation","Prepositions"],["Punctuation","Word choice"],["Agreement","Adjectives","Adverbs","Punctuation"]
+    ][d-1];
+    const targetPool=errors.map((e,i)=>guidedCategories.includes(e[0])?i:-1).filter(i=>i>=0);
+    if(targetPool.length<3)throw Error("Insufficient guided skill coverage for day "+d);
+    const practice=[...Array.from({length:8},(_,i)=>usageItem(d,i+4,true,targetPool[(i*3+d)%targetPool.length])),...Array.from({length:3},(_,i)=>spellingItem(d,(i+2)%10,true)),...Array.from({length:4},(_,i)=>compositionItem(d,i+2,true))];
     practiceDays.push({day:d,questions:practice});
   }
   return {blueprint:SECTION,fullDays,practiceDays,typos:badSpelling};
