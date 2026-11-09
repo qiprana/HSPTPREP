@@ -11,6 +11,15 @@ A GitHub Pages-friendly HSPT study site. No logins, frameworks or paid APIs.
 - 98 **original starter** subject-practice questions with explanations, separate score history, and optional scaled timers. Subject attempts track coverage of available questions.
 - Local browser storage; import/export progress backup. Version 3 progress migrates to version 4 without deleting covered-word flags or review marks. Previous 40-day completions and scores remain in historical records, without falsely counting as 50-day completions.
 
+## Daily subject pairing and time budget
+
+- The recommended five-day rotation is: **Mathematics + Verbal/Vocabulary**, **Quantitative + Reading**, **Mathematics + Verbal/Vocabulary**, **Reading + Language**, **Quantitative + Language**. Repeat it ten times: each section receives **20 learning sessions**.
+- Daily vocabulary is a single **20-minute** block. A brief Verbal recall check fits within that block rather than adding another study session on days paired with Mathematics.
+- Each non-Verbal subject has **10 minutes of concept practice** followed by a timed section challenge. Challenge timers are **two minutes shorter** than the standard durations supplied for the plan: Verbal 14, Quantitative 28, Reading 23, Mathematics 43, Language 23 minutes.
+- Add **5 minutes for review**. Recommended default day totals are **78, 96, 78, 91 and 96 minutes** per five-day cycle. Students can choose other subject pairs, so displayed times are recalculated automatically.
+- Short concept questions are untimed; timed subject questions prioritize unseen items from the available bank and record distinct question coverage separately from repeat attempts. The optional 60-question Verbal exam is available with a **14-minute** timer.
+- The 98-question starter bank is intentionally marked as sample practice. Complete section-size question sets and actual section coverage depend on additional bank uploads.
+
 ## Mock-exam readiness
 
 - Days 51–60 currently offer **30-question five-section diagnostic previews** (six original starter questions per subject), with a 30-minute countdown, review explanations, and scores tracked separately.

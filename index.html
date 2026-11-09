@@ -67,6 +67,24 @@
 .mock-clock strong{font-size:23px;font-variant-numeric:tabular-nums}.mock-section-summary{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:15px 0}.mock-section-summary>div{background:#f2f8f4;padding:11px;border-radius:10px}.mock-section-summary b,.mock-section-summary span{display:block}.mock-section-summary span{font-size:11px;color:var(--muted)}
 @media(max-width:990px){.nav.subject-nav{grid-template-columns:repeat(4,minmax(0,1fr))}.mock-section-summary{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:720px){.nav.subject-nav{display:flex;grid-template-columns:none}.subject-plan-grid,.session-actions{grid-template-columns:1fr}.mock-section-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Sustainable learning rhythm, included on every 50-day study page */
+.daily-rhythm{margin:0 0 16px}.rhythm-bar{display:flex;height:13px;overflow:hidden;border-radius:99px;gap:2px;margin:17px 0 14px}
+.rhythm-bar span{min-width:0}.rhythm-0{background:#96bdad}.rhythm-1{background:#448e83}.rhythm-2{background:#267669}.rhythm-3{background:#d4a46a}.rhythm-4{background:#cbd7d1}
+.rhythm-items{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
+.rhythm-item{border:1px solid #e3e9e4;border-radius:11px;padding:10px;display:flex;flex-direction:column;gap:2px}
+.rhythm-item b{font-size:12px}.rhythm-item strong{font-size:17px}.rhythm-item small{font-size:11px;color:var(--muted)}
+#miniChallenge{scroll-margin-top:14px;margin:16px 0}.mini-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.mini-sticky{position:sticky;top:10px;z-index:10;background:#e9f5ef;border:1px solid #b9d9ca;border-radius:12px;padding:11px 14px;display:flex;align-items:center;justify-content:space-between;gap:11px}
+.mini-sticky strong{font-size:25px;color:#216c5c;font-variant-numeric:tabular-nums}
+.mini-questions{display:grid;gap:12px;margin:17px 0}.mini-question{border:1px solid var(--line);border-radius:13px;background:#fff;padding:16px}
+.mini-question h3{font-size:16px;margin:8px 0 12px}.mini-question .mini-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.mini-question .mini-option{display:flex;align-items:center;gap:8px;padding:10px;border:1px solid #dae3db;background:#fbfcfb;border-radius:9px;cursor:pointer;font-size:13px}
+.mini-question .mini-option.correct{background:#def3e5;border-color:#88b99e}.mini-question .mini-option.wrong{background:#ffebeb;border-color:#dfa3a3}
+.mini-lesson{background:#f4f8f5;border-left:3px solid var(--teal);padding:13px 16px;border-radius:8px;margin:15px 0}
+@media(max-width:780px){.rhythm-items{grid-template-columns:repeat(3,minmax(0,1fr))}.mini-question .mini-options{grid-template-columns:1fr}}
+@media(max-width:480px){.rhythm-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 </style>
 </head>
 <body>
@@ -88,11 +106,11 @@
  </section>
  <section class="page" id="study">
   <div class="page-top"><div><div class="kicker">LEARN · LISTEN · REMEMBER</div><h1 class="heading">Today's word cards</h1><p class="intro">Hear each word, break it into syllables, explore its root or word family, and read the example. Mark each word covered when you've studied it.</p></div><div class="day-switcher"><button class="btn outline" id="studyPrev" aria-label="Previous study day">←</button><select id="studyDay" aria-label="Choose study day"></select><button class="btn outline" id="studyNext" aria-label="Next study day">→</button></div></div>
-  <div id="studySummary"></div><div id="studyPlan"></div><div id="reviewDeck"></div><div id="studyWords" class="word-list"></div><div class="source-footer">Original 664 entries retain their source meanings; 420 advanced extension definitions and examples are editorial study material. Example sentences, roots and syllable guides are study aids. The word bank combines your 501-entry extracted HTML and 163 entries from your two new photos, plus 420 new grade 9–12 enrichment entries. Roots and syllable guides are supplementary learning aids, not book quotations.</div>
+  <div id="studySummary"></div><div id="studyTimePlan"></div><div id="studyPlan"></div><div id="miniChallenge" class="hidden"></div><div id="reviewDeck"></div><div id="studyWords" class="word-list"></div><div class="source-footer">Original 664 entries retain their source meanings; 420 advanced extension definitions and examples are editorial study material. Example sentences, roots and syllable guides are study aids. The word bank combines your 501-entry extracted HTML and 163 entries from your two new photos, plus 420 new grade 9–12 enrichment entries. Roots and syllable guides are supplementary learning aids, not book quotations.</div>
  </section>
  <section class="page" id="challenges">
   <div class="page-top"><div><div class="kicker">TEST · REVISIT · GROW</div><h1 class="heading">Practice challenges</h1><p class="intro">Two challenges for every day: a focused quiz on the new words, and a cumulative review of the words you've marked covered.</p></div><div class="day-switcher"><select id="challengeDay" aria-label="Choose challenge day"></select></div></div>
-  <div class="challenge-layout"><aside class="card challenge-tools"><div class="kicker">CHOOSE A CHALLENGE</div><h3 id="challengeDayHeading">Day 1</h3><button class="kind-btn selected" data-kind="daily"><span class="kind-icon">✎</span><span><b>Daily challenge</b><span>Today’s 21–22 entries</span></span></button><button class="kind-btn" data-kind="cumulative"><span class="kind-icon">↗</span><span><b>Cumulative challenge</b><span>Review all words assigned so far</span></span></button><div id="challengeStatus" class="hint" style="margin-top:18px"></div><div id="sideTimer" class="quiz-side-timer hidden"><div class="kicker">TIME REMAINING</div><strong id="sideTimerText" class="timer-digits" role="timer">16:00</strong><div id="sideAnswered" class="small muted">0 / 60 answered</div><button class="btn outline timer-restart" data-reset-quiz="1">↻ Retake / restart</button></div><div style="margin-top:19px"><label class="small strong" for="speechSpeed">Pronunciation speed</label><select id="speechSpeed" class="tool-select" style="width:100%;margin-top:7px"><option value="0.9">Normal</option><option value="0.68">Slow practice</option></select></div></aside><div id="challengeBody" class="card challenge-body"></div></div><div id="mobileQuizTimer" class="mobile-quiz-timer hidden" role="timer"><span><strong id="mobileTimerText">16:00</strong> <span id="mobileAnswered">0 / 60</span></span><button class="btn tiny outline" data-reset-quiz="1">↻ Restart</button></div>
+  <div class="challenge-layout"><aside class="card challenge-tools"><div class="kicker">CHOOSE A CHALLENGE</div><h3 id="challengeDayHeading">Day 1</h3><button class="kind-btn selected" data-kind="daily"><span class="kind-icon">✎</span><span><b>Daily challenge</b><span>Today’s 21–22 entries</span></span></button><button class="kind-btn" data-kind="cumulative"><span class="kind-icon">↗</span><span><b>Cumulative challenge</b><span>Review all words assigned so far</span></span></button><div id="challengeStatus" class="hint" style="margin-top:18px"></div><div id="sideTimer" class="quiz-side-timer hidden"><div class="kicker">TIME REMAINING</div><strong id="sideTimerText" class="timer-digits" role="timer">14:00</strong><div id="sideAnswered" class="small muted">0 / 60 answered</div><button class="btn outline timer-restart" data-reset-quiz="1">↻ Retake / restart</button></div><div style="margin-top:19px"><label class="small strong" for="speechSpeed">Pronunciation speed</label><select id="speechSpeed" class="tool-select" style="width:100%;margin-top:7px"><option value="0.9">Normal</option><option value="0.68">Slow practice</option></select></div></aside><div id="challengeBody" class="card challenge-body"></div></div><div id="mobileQuizTimer" class="mobile-quiz-timer hidden" role="timer"><span><strong id="mobileTimerText">14:00</strong> <span id="mobileAnswered">0 / 60</span></span><button class="btn tiny outline" data-reset-quiz="1">↻ Restart</button></div>
  </section>
  <section class="page" id="exam">
   <div class="page-top"><div><div class="kicker">SUBJECT PRACTICE</div><h1 class="heading" id="examTitle">Verbal Skills</h1><p class="intro" id="examDescription">Practice questions for the selected HSPT subject.</p></div></div>
@@ -143,21 +161,36 @@
 const RAW_WORDS=window.HSPT_WORDS, TOTAL_DAYS=50, JOURNEY_DAYS=60, PASS_MARK=70, STORAGE='hsptprep_1084_v4';
 const WORDS=RAW_WORDS.map((w,i)=>({...w,legacyDay:w.day,day:Math.floor(i*TOTAL_DAYS/RAW_WORDS.length)+1}));
 const SUBJECTS=[['verbal','Verbal Skills'],['quantitative','Quantitative'],['reading','Reading'],['mathematics','Mathematics'],['language','Language']];
-const PAIR_CYCLE=[['verbal','quantitative'],['reading','mathematics'],['language','verbal'],['quantitative','reading'],['mathematics','language']];
+const PAIR_CYCLE=[['mathematics','verbal'],['quantitative','reading'],['mathematics','verbal'],['reading','language'],['quantitative','language']];
+const OLD_PAIR_CYCLE=[['verbal','quantitative'],['reading','mathematics'],['language','verbal'],['quantitative','reading'],['mathematics','language']];
+const STUDY_SECTION_TIMES={verbal:14,quantitative:28,reading:23,mathematics:43,language:23};
 const DAY_WORDS=Object.fromEntries(Array.from({length:TOTAL_DAYS},(_,i)=>[i+1,WORDS.filter(w=>w.day===i+1)]));
 const $=id=>document.getElementById(id), $$=s=>[...document.querySelectorAll(s)];
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmtDay=d=>'Day '+String(d).padStart(2,'0');
-const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[]});
+const newState=()=>({covered:{},review:{},quizBest:{},history:[],completed:{},examHistory:[],questionFlags:[],planSelections:{},subjectSessions:{},questionSeen:{},mockHistory:[],mockBest:{},legacyCompleted:{},legacyQuizBest:{},legacyHistory:[],scheduleVersion:2,miniHistory:[],miniBest:{}});
 let state=loadState(),selectedDay=1,selectedMockDay=51,currentPage='overview',activeKind='daily',currentQuiz=null,letterFilter='All';
 function migrateOldState(old={}){
  return {...newState(),covered:old.covered||{},review:old.review||{},examHistory:old.examHistory||[],questionFlags:old.questionFlags||[],
  legacyCompleted:{...(old.legacyCompleted||{}),...(old.completed||{})},legacyQuizBest:{...(old.legacyQuizBest||{}),...(old.quizBest||{})},legacyHistory:[...(old.legacyHistory||[]),...(old.history||[])]};
 }
+function retainExistingSchedule(v4){
+ const copy={...newState(),...v4};
+ if(v4.scheduleVersion>=2)return copy;
+ const picks={...(v4.planSelections||{})};
+ for(let day=1;day<=TOTAL_DAYS;day++){
+  if(picks[day])continue;
+  const started=!!v4.completed?.[day]||!!Object.keys(v4.subjectSessions?.[day]||{}).length||
+   !!v4.history?.some(x=>x.day===day)||DAY_WORDS[day].some(w=>v4.covered?.[w.key]);
+  if(started)picks[day]=OLD_PAIR_CYCLE[(day-1)%OLD_PAIR_CYCLE.length].slice();
+ }
+ copy.planSelections=picks;copy.scheduleVersion=2;
+ return copy;
+}
 function loadState(){
  try{
   const v4=JSON.parse(localStorage.getItem(STORAGE)||'null');
-  if(v4&&typeof v4==='object')return {...newState(),...v4};
+  if(v4&&typeof v4==='object')return retainExistingSchedule(v4);
   for(const key of ['hsptprep_1084_v3','hspt_word_studio_664_v2']){
    const old=JSON.parse(localStorage.getItem(key)||'null');
    if(old&&typeof old==='object')return migrateOldState(old);
@@ -205,17 +238,48 @@ function toggleSubject(day,subject){
 }
 function openPracticeSubject(subject){
  if(!chosenSubjects(selectedDay).includes(subject))return;
- if(subject==='verbal'){activeKind='daily';openDay(selectedDay,'challenges');return;}
- examSection=subject;examQuiz=null;setPage('exam');
+ setPage('study');
+ startMiniPractice(subject);
+}
+function dailyRhythmHtml(day){
+ const choices=chosenSubjects(day),done=choices.filter(id=>isSessionDone(day,id)).length;
+ const wordDone=dayCovered(day)===DAY_WORDS[day].length;
+ const extras=choices.filter(id=>id!=='verbal');
+ const rows=[{name:'Vocabulary'+(choices.includes('verbal')?' + Verbal recall':''),minutes:20,sub:'Daily words, examples and a quick recall check'}];
+ for(const id of extras){
+  const title=SUBJECTS.find(x=>x[0]===id)?.[1]||id;
+  rows.push({name:title,minutes:10+STUDY_SECTION_TIMES[id],sub:'10 min concepts + '+STUDY_SECTION_TIMES[id]+' min timed challenge'});
+ }
+ rows.push({name:'Review',minutes:5,sub:'Mistakes and flagged questions'});
+ const total=rows.reduce((n,r)=>n+r.minutes,0),optional=choices.includes('verbal')?14:0;
+ return '<div class="card pad daily-rhythm"><div class="row between"><div><div class="kicker">FLEXIBLE DAILY STUDY TIME</div><h2 class="section-title">'+total+'-minute plan</h2><p class="hint">Vocabulary is counted once, even when Verbal is selected. Challenge timers are two minutes shorter than standard exam times.</p></div><span class="pill teal">'+(wordDone?'Words done':'Words pending')+' · '+done+'/2 subjects</span></div>'+
+ '<div class="rhythm-bar">'+rows.map((r,i)=>'<span class="rhythm-'+Math.min(i,4)+'" style="flex:'+r.minutes+'" title="'+safe(r.name)+' · '+r.minutes+' minutes"></span>').join('')+'</div>'+
+ '<div class="rhythm-items">'+rows.map(r=>'<div class="rhythm-item"><b>'+safe(r.name)+'</b><strong>'+r.minutes+' min</strong><small>'+safe(r.sub)+'</small></div>').join('')+'</div>'+
+ (optional?'<p class="hint" style="margin-top:12px">Optional extra: a full 60-question Verbal challenge takes 14 more minutes (total '+(total+14)+' min). The short Verbal recall fits inside vocabulary time.</p>':'')+'</div>';
 }
 function subjectPlanHtml(day){
  const chosen=chosenSubjects(day),locked=!!state.completed[day];
- return `<div class="card pad study-plan"><div class="row between"><div><div class="kicker">LEARNING DAY ${day} · TWO SUBJECTS</div><h2 class="section-title">Choose today's subject sessions</h2><p class="hint">Learn your daily vocabulary and work on two HSPT subjects. The suggested five-day rotation gives each subject 20 sessions across 50 days.</p></div><span class="pill ${chosen.length===2?'teal':'orange'}">${chosen.length}/2 selected</span></div>
- <div class="subject-plan-grid">${SUBJECTS.map(([id,name])=>{const selected=chosen.includes(id),done=isSessionDone(day,id),stats=bankStats(id);return `<button class="subject-plan-choice ${selected?'selected':''}" data-select-subject="${id}" ${locked||done?'disabled':''}><span class="subject-plan-check">${selected?'✓':'+'}</span><span><b>${safe(name)}</b><small>${sessionsCount(id)}/20 sessions · ${stats.seen}/${stats.total} starter questions answered</small></span>${done?'<span class="pill teal">Done</span>':''}</button>`}).join('')}</div>
- <div class="session-actions">${chosen.map(id=>{const name=SUBJECTS.find(x=>x[0]===id)?.[1]||id,done=isSessionDone(day,id);return `<div class="session-action"><b>${safe(name)}</b><span class="small muted">${done?'Session recorded':'Complete a practice set or record an offline study session.'}</span><div class="row"><button class="btn tiny primary" data-practice-subject="${id}">Practice →</button><button class="btn tiny outline" data-study-session="${id}" ${done?'disabled':''}>${done?'✓ Completed':'Mark study complete'}</button></div></div>`}).join('')}</div>
- ${locked?'<p class="hint">Day complete: its selected subject sessions are locked.</p>':''}</div>`;
+ const sessionCards=chosen.map(id=>{
+  const label=SUBJECTS.find(x=>x[0]===id)?.[1]||id,done=isSessionDone(day,id),verbal=id==='verbal';
+  const caption=verbal?'Vocabulary study includes a short Verbal recall check; no extra learning time.':'10 min concept practice + '+STUDY_SECTION_TIMES[id]+' min timed challenge';
+  return '<div class="session-action"><b>'+safe(label)+'</b><span class="small muted">'+safe(caption)+'</span><div class="row" style="margin-top:10px">'+
+  '<button class="btn tiny primary" data-practice-subject="'+id+'">'+(done?'Practice again →':verbal?'Start Verbal recall →':'Learn + timed challenge →')+'</button>'+
+  (verbal?'<button class="btn tiny outline" data-open-challenge="'+day+'">Optional 14-min full Verbal test</button>':'')+
+  '</div></div>';
+ }).join('');
+ const cards=SUBJECTS.map(([id,label])=>{
+  const selected=chosen.includes(id),done=isSessionDone(day,id),stats=bankStats(id);
+  const pace=id==='verbal'?'In daily vocabulary block':STUDY_SECTION_TIMES[id]+'-min timed section';
+  return '<button class="subject-plan-choice '+(selected?'selected':'')+'" data-select-subject="'+id+'" '+(locked||done?'disabled':'')+'><span class="subject-plan-check">'+(selected?'✓':'+')+'</span>'+
+  '<span><b>'+safe(label)+'</b><small>'+sessionsCount(id)+'/20 sessions · '+stats.seen+'/'+stats.total+' starter questions seen · '+pace+'</small></span>'+
+  (done?'<span class="pill teal">Done</span>':'')+'</button>';
+ }).join('');
+ return '<div class="card pad study-plan"><div class="row between"><div><div class="kicker">DAY '+day+' · TWO SUBJECTS</div><h2 class="section-title">Choose your subject pair</h2>'+
+ '<p class="hint">Mathematics is paired with Verbal/Vocabulary by default to reduce total study time. Each subject still receives 20 scheduled sessions in the 50-day plan. You may choose a different pair.</p></div>'+
+ '<span class="pill '+(chosen.length===2?'teal':'orange')+'">'+chosen.length+'/2 selected</span></div>'+
+ '<div class="subject-plan-grid">'+cards+'</div><div class="session-actions">'+sessionCards+'</div>'+
+ (locked?'<p class="hint">Completed day: your subject choices are preserved.</p>':'')+'</div>';
 }
-function toast(text){const el=$('toast');el.textContent=text;el.classList.add('show');clearTimeout(window.__hsptToast);window.__hsptToast=setTimeout(()=>el.classList.remove('show'),3400);}
 let verbalLastPage='study';
 function openSubject(subject){
  if(subject==='overview'||subject==='progress'||subject==='mocks'){setPage(subject);return;}
@@ -272,7 +336,7 @@ function renderOverview(){
  const wordBank=DAY_WORDS[next],wordCount=dayCovered(next),sessionsDone=chosenSubjects(next).filter(x=>isSessionDone(next,x)).length;
  const subjectPills=SUBJECTS.map(x=>'<span class="pill">'+safe(x[1])+' '+sessionsCount(x[0])+'/20</span>').join('');
  $('nextSteps').innerHTML='<div class="kicker">YOUR NEXT LEARNING DAY</div><h3>Day '+next+' · '+wordBank.length+' words</h3>'+
- '<p class="medium muted">Study your vocabulary and complete two selected subject sessions. You can also preview a mock exam.</p>'+
+ '<p class="medium muted">The default pair puts Mathematics with Verbal/Vocabulary. Total time varies by the selected subjects, and vocabulary is never counted twice.</p>'+
  '<div class="checklist">'+checkItem(wordCount===wordBank.length,'Words: '+wordCount+'/'+wordBank.length)+checkItem(sessionsDone===2,'Subject sessions: '+sessionsDone+'/2')+'</div>'+
  '<div class="bar"><span style="width:'+Math.round((wordCount/wordBank.length+sessionsDone/2)/2*100)+'%"></span></div>'+
  '<div class="row" style="margin-top:16px"><button class="btn primary" data-open-day="'+next+'">Open Day '+next+' →</button><button class="btn outline" data-open-mock="51">Mock preview →</button></div>'+
@@ -281,7 +345,7 @@ function renderOverview(){
 function checkItem(done,label){return `<div class="checkitem ${done?'complete':''}"><span class="status-icon">${done?'✓':'○'}</span><span>${label}</span></div>`;}
 function syllablesHtml(w){return w.syl.split('-').map(s=>`<span class="syll">${safe(s)}</span>`).join('');}
 function wordCard(w){const covered=!!state.covered[w.key],review=!!state.review[w.key];return `<article class="card word-card"><div class="word-head"><div><h2 class="word-title">${safe(w.word)}</h2><div class="word-meta"><span class="pill dark">${safe(w.part)}</span><span class="pill">${w.beats} syllable${w.beats===1?'':'s'}</span><span class="pill">${safe(w.source)}</span></div></div><button class="soundbtn" data-speak="${safe(w.word)}" aria-label="Hear pronunciation of ${safe(w.word)}" title="Hear the word">&#128266;</button></div><div><div class="word-label">SYLLABLE / SPELLING CHUNKS</div><div class="syll-row">${syllablesHtml(w)}</div>${w.pron?`<div class="small muted" style="margin-top:7px">Say it: ${safe(w.pron)}</div>`:''}</div><div><div class="word-label">MEANING / DEFINITION</div><div class="word-meaning">${safe(w.meaning)}</div>${w.synonym?`<div class="small muted" style="margin-top:7px"><b>Related synonym:</b> ${safe(w.synonym)}</div>`:''}${w.antonym?`<div class="small muted"><b>Antonym:</b> ${safe(w.antonym)}</div>`:''}</div><div class="rootbox"><div class="word-label">ROOT / WORD PARTS</div>${safe(w.root)}</div><div><div class="word-label">IN A SENTENCE</div><div class="example">&ldquo;${safe(w.example)}&rdquo;</div><button class="btn tiny ghost" data-speak-sentence="${safe(w.key)}" style="margin-top:8px">&#128266; Listen to sentence</button></div>${w.sense?`<div class="note">This spelling has another meaning elsewhere in the list. This entry: ${safe(w.sense)}</div>`:''}${w.note?`<div class="note">${safe(w.note)}</div>`:''}<div class="word-actions"><button class="btn tiny ${covered?'positive':'outline'}" data-cover="${safe(w.key)}">${covered?'&#10003; Covered':'+ Mark covered'}</button><button class="btn tiny ${review?'warning':'outline'}" data-review="${safe(w.key)}">${review?'&#9733; Review flagged':'&#9734; Needs practice'}</button></div></article>`;}
-function renderStudy(){const day=selectedDay,ws=DAY_WORDS[day],n=dayCovered(day);$('studyDay').value=day;$('studyPrev').disabled=day===1;$('studyNext').disabled=day===TOTAL_DAYS;$('studySummary').innerHTML=`<div class="card day-summary"><div><div class="kicker">${fmtDay(day)} · ${ws.length} HSPT WORDS</div><div class="medium muted" style="margin-top:5px">${n} covered · ${ws.length-n} remaining</div></div><div class="row"><div class="bar"><span style="width:${100*n/ws.length}%"></span></div><button class="btn primary" data-open-challenge="${day}">Challenge these words →</button></div></div>`;$('studyWords').innerHTML=ws.map(wordCard).join('');$('studyPlan').innerHTML=subjectPlanHtml(day);const due=WORDS.filter(w=>state.review[w.key]&&w.day<=day);$('reviewDeck').innerHTML=due.length?'<div class="card pad"><div class="kicker">NEEDS REVIEW</div><h3 class="section-title">Words to revisit</h3><p class="hint">Marked words receive additional vocabulary practice.</p><div class="row">'+due.slice(0,20).map(w=>'<button class="btn tiny outline" data-speak="'+safe(w.word)+'">🔊 '+safe(w.word)+'</button>').join('')+'</div></div>':'';}
+function renderStudy(){const day=selectedDay,ws=DAY_WORDS[day],n=dayCovered(day);$('studyDay').value=day;$('studyPrev').disabled=day===1;$('studyNext').disabled=day===TOTAL_DAYS;$('studySummary').innerHTML=`<div class="card day-summary"><div><div class="kicker">${fmtDay(day)} · ${ws.length} HSPT WORDS</div><div class="medium muted" style="margin-top:5px">${n} covered · ${ws.length-n} remaining</div></div><div class="row"><div class="bar"><span style="width:${100*n/ws.length}%"></span></div><button class="btn primary" data-open-challenge="${day}">Challenge these words →</button></div></div>`;$('studyWords').innerHTML=ws.map(wordCard).join('');$('studyPlan').innerHTML=subjectPlanHtml(day);$('studyTimePlan').innerHTML=dailyRhythmHtml(day);renderMiniPractice();const due=WORDS.filter(w=>state.review[w.key]&&w.day<=day);$('reviewDeck').innerHTML=due.length?'<div class="card pad"><div class="kicker">NEEDS REVIEW</div><h3 class="section-title">Words to revisit</h3><p class="hint">Marked words receive additional vocabulary practice.</p><div class="row">'+due.slice(0,20).map(w=>'<button class="btn tiny outline" data-speak="'+safe(w.word)+'">🔊 '+safe(w.word)+'</button>').join('')+'</div></div>':'';}
 function renderChallenges(){
  const day=selectedDay;
  $('challengeDay').value=day;
@@ -291,7 +355,7 @@ function renderChallenges(){
  if(currentQuiz&&currentQuiz.day===day&&currentQuiz.kind===activeKind){drawQuiz();return;}
  const c=activeKind==='daily';
  const n=WORDS.filter(w=>w.day<=day).length;
- $('challengeBody').innerHTML=`<div class="kicker">${c?'TODAY&#8217;S PRACTICE':'CUMULATIVE PRACTICE'}</div><h2 class="section-title">${c?'Daily word challenge':'Cumulative word challenge'}</h2><p class="medium muted">${c?'60 questions across all five verbal categories using today’s assigned vocabulary.':`60 questions across all five verbal categories using ${n} words assigned through Day ${day}.`}</p><p class="hint">60 questions · 16-minute countdown · Passing score: ${PASS_MARK}% · No prerequisite. You can retake a challenge without losing previous scores.</p><button class="btn primary big" data-start-quiz="1">Start ${c?'daily':'cumulative'} challenge →</button>`;
+ $('challengeBody').innerHTML=`<div class="kicker">${c?'TODAY&#8217;S PRACTICE':'CUMULATIVE PRACTICE'}</div><h2 class="section-title">${c?'Daily word challenge':'Cumulative word challenge'}</h2><p class="medium muted">${c?'60 questions across all five verbal categories using today’s assigned vocabulary.':`60 questions across all five verbal categories using ${n} words assigned through Day ${day}.`}</p><p class="hint">60 questions · 14-minute countdown · Passing score: ${PASS_MARK}% · No prerequisite. You can retake a challenge without losing previous scores.</p><button class="btn primary big" data-start-quiz="1">Start ${c?'daily':'cumulative'} challenge →</button>`;
  updateQuizChrome();
 }
 function rand(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -351,12 +415,12 @@ function updateQuizChrome(){
  $('mobileTimerText').classList.toggle('urgent',secs<=60);
 }
 function updateQuizTimer(){if(!currentQuiz||currentQuiz.submitted)return;updateQuizChrome();if(Date.now()>=currentQuiz.deadline){stopQuizTimer();submitQuiz(true);}}
-function startQuiz(){const day=selectedDay,kind=activeKind;stopQuizTimer();const qs=makeVerbalChallenge(day,kind);currentQuiz={day,kind,questions:qs,answers:{},submitted:false,deadline:Date.now()+16*60*1000};drawQuiz();updateQuizTimer();quizTimerId=setInterval(updateQuizTimer,1000);}
+function startQuiz(){const day=selectedDay,kind=activeKind;stopQuizTimer();const qs=makeVerbalChallenge(day,kind);currentQuiz={day,kind,questions:qs,answers:{},submitted:false,deadline:Date.now()+14*60*1000};drawQuiz();updateQuizTimer();quizTimerId=setInterval(updateQuizTimer,1000);}
 function drawQuiz(){const q=currentQuiz,qs=q.questions,filled=Object.keys(q.answers).length,submitted=q.submitted;$('challengeBody').innerHTML=`<div class="row between"><div><div class="kicker">${fmtDay(q.day)} · ${q.kind==='daily'?'DAILY':'CUMULATIVE'} QUIZ</div><h2 class="section-title" style="margin:8px 0 5px">${qs.length} questions</h2><div class="small muted">Timer stays visible beside the questions while you scroll.</div><div class="small muted">12 synonyms · 10 antonyms · 10 analogies · 12 logic · 16 classification</div><div class="small muted">${submitted?'Your answers are checked.':'Choose one answer for each question.'}</div></div><span class="pill teal">${submitted?'Finished':filled+' / '+qs.length+' answered'}</span></div><div class="bar" style="margin:15px 0 22px"><span style="width:${(submitted?100:filled/qs.length*100)}%"></span></div>${submitted?resultBox(q):''}${qs.map((item,i)=>`<section class="quiz-question"><div class="q-number">Question ${i+1} · ${safe(item.category||"Vocabulary")}</div><button type="button" class="btn tiny ghost" data-flag-question="${i}" title="Flag a problematic question">⚑ Flag question</button><h4>${safe(item.prompt)}</h4><div class="quiz-options">${item.choices.map(c=>{const checked=q.answers[i]===c,correct=submitted&&c===item.answer,wrong=submitted&&checked&&c!==item.answer;return `<label class="option ${correct?'correct':wrong?'wrong':''}"><input type="radio" name="question-${i}" value="${safe(c)}" data-answer-index="${i}" ${checked?'checked':''} ${submitted?'disabled':''}><span>${safe(c)}</span></label>`;}).join('')}</div>${submitted?`<div class="answer-note">${q.answers[i]===item.answer?'✓ Correct':'Correct answer: '+safe(item.answer)} · ${safe(item.explain)}</div>`:''}</section>`).join('')}<div class="quiz-footer"><div class="hint">${submitted?'You can review the answers above or try a fresh quiz.':'Complete the quiz to record your result.'}</div>${submitted?'<button class="btn outline" data-reset-quiz="1">Reset test &amp; timer</button><button class="btn primary" data-retry-quiz="1">Try again ↻</button>':'<button class="btn outline" data-reset-quiz="1">Restart test &amp; timer</button><button class="btn primary" data-submit-quiz="1">Check answers →</button>'}</div>`;updateQuizChrome();}
 function resultBox(q){const score=q.score,pass=score>=PASS_MARK;return `<div class="result-card ${pass?'':'fail'}"><div class="kicker">${pass?'CHALLENGE PASSED':'KEEP PRACTICING'}</div><div class="result-score">${q.correct} / ${q.questions.length} · ${score}%</div><p class="medium" style="margin:5px 0">${pass?'Well done! Your passing score is recorded.':'Review the answers and retake to reach 70%.'}</p><div class="row"><span class="pill ${pass?'teal':'orange'}">Best ${bestScore(q.day,q.kind)}%</span>${!!state.completed[q.day]?'<span class="pill teal">✓ Day completed</span>':''}</div></div>`;}
 function submitQuiz(auto=false){const q=currentQuiz;if(!q||q.submitted)return;const missing=q.questions.length-Object.keys(q.answers).length;if(missing&&!auto){toast('Please answer all '+q.questions.length+' questions before checking.');return;}stopQuizTimer();q.correct=q.questions.filter((r,i)=>q.answers[i]===r.answer).length;q.score=Math.round(q.correct/q.questions.length*100);q.submitted=true;if(chosenSubjects(q.day).includes('verbal')&&Object.keys(q.answers).length>=45)markSubjectDone(q.day,'verbal','verbal-challenge');const id=q.day+'-'+q.kind;state.quizBest[id]=Math.max(state.quizBest[id]||0,q.score);state.history.unshift({day:q.day,kind:q.kind,score:q.score,correct:q.correct,total:q.questions.length,date:dateKey()});state.history=state.history.slice(0,150);saveState();maybeComplete(q.day);renderChallenges();drawQuiz();window.scrollTo({top:180,behavior:'smooth'});}
 function speak(text){if(!('speechSynthesis' in window)||!('SpeechSynthesisUtterance' in window)){toast('Audio pronunciation is not available in this browser.');return;}try{window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=Number($('speechSpeed').value||.9);const voices=window.speechSynthesis.getVoices();const chosen=voices.find(v=>v.lang.toLowerCase().startsWith('en-us'))||voices.find(v=>v.lang.toLowerCase().startsWith('en'));if(chosen)utterance.voice=chosen;window.speechSynthesis.speak(utterance);}catch(e){toast('Audio could not start. Check your browser sound settings.');}}
-function handleAction(e){const button=e.target.closest('button');if(!button)return;if(button.dataset.openDay){openDay(button.dataset.openDay);return;}if(button.dataset.openMock){selectedMockDay=Number(button.dataset.openMock);setPage('mocks');return;}if(button.dataset.selectSubject){toggleSubject(selectedDay,button.dataset.selectSubject);return;}if(button.dataset.practiceSubject){openPracticeSubject(button.dataset.practiceSubject);return;}if(button.dataset.studySession){markSubjectDone(selectedDay,button.dataset.studySession,'offline-study');return;}if(button.dataset.startMock){startMockPreview();return;}if(button.dataset.submitMock){submitMockPreview();return;}if(button.dataset.retakeMock){startMockPreview();return;}if(button.dataset.openChallenge){activeKind='daily';openDay(button.dataset.openChallenge,'challenges');return;}if(button.dataset.speak){speak(button.dataset.speak);return;}if(button.dataset.speakSentence){let w=WORDS.find(w=>w.key===button.dataset.speakSentence);if(w)speak(w.example);return;}if(button.dataset.cover){let key=button.dataset.cover;state.covered[key]=!state.covered[key];saveState();const w=WORDS.find(x=>x.key===key);if(w)maybeComplete(w.day);refreshVisible();return;}if(button.dataset.review){let key=button.dataset.review;state.review[key]=!state.review[key];saveState();refreshVisible();return;}if(button.dataset.startQuiz){startQuiz();return;}if(button.dataset.submitQuiz){submitQuiz();return;}if(button.dataset.retryQuiz){currentQuiz=null;startQuiz();return;}if(button.dataset.resetQuiz){if(confirm('Restart this challenge with new questions and a fresh 16-minute timer? Your saved scores and completed days will stay intact.')){stopQuizTimer();currentQuiz=null;startQuiz();}return;}if(button.dataset.flagQuestion!==undefined){flagQuestion(Number(button.dataset.flagQuestion));return;}if(button.dataset.letter){letterFilter=button.dataset.letter;renderLibrary();}}
+function handleAction(e){const button=e.target.closest('button');if(!button)return;if(button.dataset.openDay){openDay(button.dataset.openDay);return;}if(button.dataset.openMock){selectedMockDay=Number(button.dataset.openMock);setPage('mocks');return;}if(button.dataset.selectSubject){toggleSubject(selectedDay,button.dataset.selectSubject);return;}if(button.dataset.practiceSubject){openPracticeSubject(button.dataset.practiceSubject);return;}if(button.dataset.studySession){markSubjectDone(selectedDay,button.dataset.studySession,'offline-study');return;}if(button.dataset.startMock){startMockPreview();return;}if(button.dataset.submitMock){submitMockPreview();return;}if(button.dataset.retakeMock){startMockPreview();return;}if(button.dataset.openChallenge){activeKind='daily';openDay(button.dataset.openChallenge,'challenges');return;}if(button.dataset.speak){speak(button.dataset.speak);return;}if(button.dataset.speakSentence){let w=WORDS.find(w=>w.key===button.dataset.speakSentence);if(w)speak(w.example);return;}if(button.dataset.cover){let key=button.dataset.cover;state.covered[key]=!state.covered[key];saveState();const w=WORDS.find(x=>x.key===key);if(w)maybeComplete(w.day);refreshVisible();return;}if(button.dataset.review){let key=button.dataset.review;state.review[key]=!state.review[key];saveState();refreshVisible();return;}if(button.dataset.startQuiz){startQuiz();return;}if(button.dataset.submitQuiz){submitQuiz();return;}if(button.dataset.retryQuiz){currentQuiz=null;startQuiz();return;}if(button.dataset.resetQuiz){if(confirm('Restart this challenge with new questions and a fresh 14-minute timer? Your saved scores and completed days will stay intact.')){stopQuizTimer();currentQuiz=null;startQuiz();}return;}if(button.dataset.flagQuestion!==undefined){flagQuestion(Number(button.dataset.flagQuestion));return;}if(button.dataset.letter){letterFilter=button.dataset.letter;renderLibrary();}}
 function flagQuestion(index){const q=currentQuiz?.questions[index];if(!q)return;const reason=prompt('Why is this question problematic? (Incorrect answer, unclear wording, repeated question, untaught word, or other)');if(reason===null)return;const entry={day:currentQuiz.day,kind:currentQuiz.kind,number:index+1,category:q.category||'Vocabulary',prompt:q.prompt,choices:q.choices,answer:q.answer,reason:reason.trim()||'Flagged for review',date:new Date().toISOString()};state.questionFlags??=[];state.questionFlags.push(entry);saveState();toast('Flag saved in this browser. Export feedback to share it with the website maintainer.');}
 function exportQuestionFlags(){const data=JSON.stringify({version:1,flags:state.questionFlags||[]},null,2);const blob=new Blob([data],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='hspt-question-feedback.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);}
 function refreshVisible(){if(currentPage==='study')renderStudy();if(currentPage==='library')renderLibrary();if(currentPage==='progress'){renderProgress();renderExamProgress();}if(currentPage==='overview')renderOverview();if(currentPage==='challenges'&&!currentQuiz)renderChallenges();if(currentPage==='exam')renderExam();}
@@ -408,5 +472,6 @@ document.addEventListener('change',e=>{const n=e.target;if(n.matches('[data-exam
 setup();
 </script>
 <script src="mock.js"></script>
+<script src="daily-quick.js"></script>
 </body>
 </html>
