@@ -870,81 +870,81 @@
     {
       "id": "R01-V18",
       "type": "Reading Vocabulary",
-      "prompt": "Choose the closest meaning of the underlined word in: \"an affront to her dignity\"",
-      "phrase": "an affront to her dignity",
-      "targetWord": "affront",
+      "prompt": "In the sentence \"The hike was long and arduous.\", the word \"arduous\" most nearly means",
+      "phrase": "The hike was long and arduous.",
+      "targetWord": "arduous",
       "choices": [
-        "reward",
-        "offense",
-        "remedy",
-        "honor"
+        "difficult",
+        "ordinary",
+        "brief",
+        "effortless"
       ],
-      "correctIndex": 1,
-      "explanation": "In this phrase, the word most nearly means \"offense\".",
+      "correctIndex": 0,
+      "explanation": "Arduous describes something demanding great effort; here it means difficult.",
       "vocabularyDay": 1
     },
     {
       "id": "R01-V19",
       "type": "Reading Vocabulary",
-      "prompt": "Choose the closest meaning of the underlined word in: \"defer a decision\"",
-      "phrase": "defer a decision",
-      "targetWord": "defer",
+      "prompt": "In the sentence \"The grant will augment the school budget.\", the word \"augment\" most nearly means",
+      "phrase": "The grant will augment the school budget.",
+      "targetWord": "augment",
       "choices": [
-        "approve",
-        "delay",
-        "cancel",
-        "explain"
+        "reduce",
+        "increase",
+        "record",
+        "borrow"
       ],
       "correctIndex": 1,
-      "explanation": "In this phrase, the word most nearly means \"delay\".",
+      "explanation": "To augment something is to add to it or increase its amount.",
       "vocabularyDay": 1
     },
     {
       "id": "R01-V20",
       "type": "Reading Vocabulary",
-      "prompt": "Choose the closest meaning of the underlined word in: \"succinct instructions\"",
-      "phrase": "succinct instructions",
-      "targetWord": "succinct",
+      "prompt": "In the sentence \"Facts buttress the main argument.\", the word \"buttress\" most nearly means",
+      "phrase": "Facts buttress the main argument.",
+      "targetWord": "buttress",
       "choices": [
-        "confusing",
-        "brief",
-        "unnecessary",
-        "strict"
+        "obscure",
+        "delay",
+        "reinforce",
+        "weaken"
       ],
-      "correctIndex": 1,
-      "explanation": "In this phrase, the word most nearly means \"brief\".",
+      "correctIndex": 2,
+      "explanation": "Facts that buttress an argument strengthen or reinforce it.",
       "vocabularyDay": 1
     },
     {
       "id": "R01-V21",
       "type": "Reading Vocabulary",
-      "prompt": "Choose the closest meaning of the underlined word in: \"an illustrious career\"",
-      "phrase": "an illustrious career",
-      "targetWord": "illustrious",
+      "prompt": "In the sentence \"The witness gave a credible account.\", the word \"credible\" most nearly means",
+      "phrase": "The witness gave a credible account.",
+      "targetWord": "credible",
       "choices": [
-        "brief",
-        "renowned",
-        "secret",
-        "ordinary"
+        "believable",
+        "confused",
+        "contradictory",
+        "impossible"
       ],
-      "correctIndex": 1,
-      "explanation": "In this phrase, the word most nearly means \"renowned\".",
+      "correctIndex": 0,
+      "explanation": "A credible account is trustworthy or believable.",
       "vocabularyDay": 1
     },
     {
       "id": "R01-V22",
       "type": "Reading Vocabulary",
-      "prompt": "Choose the closest meaning of the underlined word in: \"a voracious appetite\"",
-      "phrase": "a voracious appetite",
-      "targetWord": "voracious",
+      "prompt": "In the sentence \"The tenacious runner refused to quit.\", the word \"tenacious\" most nearly means",
+      "phrase": "The tenacious runner refused to quit.",
+      "targetWord": "tenacious",
       "choices": [
-        "moderate",
-        "ravenous",
-        "delicate",
-        "selective"
+        "careless",
+        "persistent",
+        "hesitant",
+        "exhausted"
       ],
       "correctIndex": 1,
-      "explanation": "In this phrase, the word most nearly means \"ravenous\".",
+      "explanation": "Tenacious means persistent or determined, supported by refused to quit.",
       "vocabularyDay": 1
     }
   ],
