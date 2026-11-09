@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "paperId": "reading-02",
+  "status": "draft-review",
+  "durationMinutes": 23,
+  "targetQuestions": 62,
+  "totalQuestions": 62,
+  "passages": [
+    {
+      "id": "R02-P1",
+      "title": "The Floating Garden",
+      "text": "In a riverside city, residents noticed that summer storms carried soil and litter into a shallow canal. A neighborhood group proposed floating gardens: lightweight platforms planted with native grasses. Their roots would hang in the water, taking up some nutrients and providing shelter for small fish. The city allowed a trial but required volunteers to measure results rather than assume the gardens would work.\n\nAt first, the volunteers counted fewer floating scraps near the platforms. Yet they realized that wind might simply have pushed the scraps elsewhere. They began collecting water samples upstream and downstream and recording rainfall after each storm. The measurements showed modest improvements in water clarity during calm weeks, though heavy rains still overwhelmed the canal.\n\nThe project also created an unexpected benefit. Schoolchildren visited the gardens to observe insects and fish, and local residents began reporting blocked drains. The organizers concluded that floating gardens were useful but could not replace better waste collection and storm-water management.",
+      "questions": [
+        {
+          "id": "R02-C01",
+          "type": "General",
+          "prompt": "Which statement best summarizes the passage?",
+          "choices": [
+            "A small project was evaluated using evidence and qualified conclusions",
+            "The first proposed solution always solved every problem",
+            "Researchers abandoned their observations immediately",
+            "The community refused to consider any alternatives"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C02",
+          "type": "General",
+          "prompt": "What was the central purpose of the project?",
+          "choices": [
+            "To address a local problem through an informed trial",
+            "To create a national law",
+            "To replace all scientific studies",
+            "To demonstrate that history never changes"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C03",
+          "type": "Specific",
+          "prompt": "Which detail is explicitly supported by the passage?",
+          "choices": [
+            "roots hang in the water",
+            "The city banned all community meetings",
+            "The project had no participants",
+            "All observations were conducted overseas"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage specifically states: roots hang in the water.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C04",
+          "type": "Specific",
+          "prompt": "What method did the participants use to evaluate or understand the situation?",
+          "choices": [
+            "collecting samples upstream and downstream",
+            "Guess without collecting evidence",
+            "Ask only one unrelated person",
+            "Avoid recording any observations"
+          ],
+          "correctIndex": 0,
+          "explanation": "The participants used this approach: collecting samples upstream and downstream.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C05",
+          "type": "Specific",
+          "prompt": "What limitation or challenge does the author emphasize?",
+          "choices": [
+            "heavy rains overwhelmed the canal",
+            "No one was interested in the project",
+            "The weather never changed",
+            "All costs disappeared"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage notes this limitation: heavy rains overwhelmed the canal.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C06",
+          "type": "Specific",
+          "prompt": "What additional benefit emerged?",
+          "choices": [
+            "students observed wildlife",
+            "Every local problem was solved",
+            "The community stopped visiting",
+            "The participants lost all records"
+          ],
+          "correctIndex": 0,
+          "explanation": "An additional benefit was that students observed wildlife.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C07",
+          "type": "Specific",
+          "prompt": "Which conclusion is most consistent with the evidence?",
+          "choices": [
+            "gardens help but cannot replace drainage improvements",
+            "The results proved all possible theories",
+            "The project should be repeated without observation",
+            "No further evidence could be useful"
+          ],
+          "correctIndex": 0,
+          "explanation": "The conclusion is appropriately limited: gardens help but cannot replace drainage improvements.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C08",
+          "type": "General",
+          "prompt": "What does the passage suggest about drawing conclusions?",
+          "choices": [
+            "A single observation can prove every explanation",
+            "Different factors should be considered before assigning causes",
+            "Contradictory evidence must always be ignored",
+            "A promising result guarantees future success"
+          ],
+          "correctIndex": 1,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C09",
+          "type": "General",
+          "prompt": "How is the passage mainly organized?",
+          "choices": [
+            "proposal, trial, measurement, qualified conclusion",
+            "A random list of unrelated facts",
+            "A debate with no resolution",
+            "Instructions for purchasing equipment"
+          ],
+          "correctIndex": 0,
+          "explanation": "The events follow this progression: proposal, trial, measurement, qualified conclusion.",
+          "passageId": "R02-P1"
+        },
+        {
+          "id": "R02-C10",
+          "type": "Vocabulary",
+          "prompt": "In the passage, \"modest\" most nearly means",
+          "choices": [
+            "limited",
+            "completely invisible",
+            "carelessly arranged",
+            "impossible to measure"
+          ],
+          "correctIndex": 0,
+          "explanation": "In context, \"modest\" means \"limited\".",
+          "passageId": "R02-P1"
+        }
+      ]
+    },
+    {
+      "id": "R02-P2",
+      "title": "A Map of Forgotten Paths",
+      "text": "When a new walking trail was planned through a farming valley, planners consulted modern road maps. An elderly resident, however, remembered narrow footpaths that once connected orchards, a mill, and a school. Most had disappeared beneath fields or fences. Rather than dismiss her account, the planners invited residents to share photographs, diaries, and hand-drawn maps.\n\nThe evidence did not always agree. One photograph showed a bridge that a diary described as a ford, a shallow river crossing. Researchers compared the dates and discovered that the bridge had been built several years after the diary was written. What first seemed like a contradiction instead revealed how the route had changed.\n\nThe planners ultimately chose a trail that followed portions of the old paths while avoiding fragile streambanks and private gardens. Interpretive signs explained the valley's history. The project showed that memories can guide research, but historical claims become stronger when checked against several kinds of evidence.",
+      "questions": [
+        {
+          "id": "R02-C11",
+          "type": "General",
+          "prompt": "Which statement best summarizes the passage?",
+          "choices": [
+            "A small project was evaluated using evidence and qualified conclusions",
+            "The first proposed solution always solved every problem",
+            "Researchers abandoned their observations immediately",
+            "The community refused to consider any alternatives"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C12",
+          "type": "General",
+          "prompt": "What was the central purpose of the project?",
+          "choices": [
+            "To address a local problem through an informed trial",
+            "To create a national law",
+            "To replace all scientific studies",
+            "To demonstrate that history never changes"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C13",
+          "type": "Specific",
+          "prompt": "Which detail is explicitly supported by the passage?",
+          "choices": [
+            "paths linked orchards, a mill, and a school",
+            "The city banned all community meetings",
+            "The project had no participants",
+            "All observations were conducted overseas"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage specifically states: paths linked orchards, a mill, and a school.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C14",
+          "type": "Specific",
+          "prompt": "What method did the participants use to evaluate or understand the situation?",
+          "choices": [
+            "compare dated photographs and diaries",
+            "Guess without collecting evidence",
+            "Ask only one unrelated person",
+            "Avoid recording any observations"
+          ],
+          "correctIndex": 0,
+          "explanation": "The participants used this approach: compare dated photographs and diaries.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C15",
+          "type": "Specific",
+          "prompt": "What limitation or challenge does the author emphasize?",
+          "choices": [
+            "records appeared to contradict each other",
+            "No one was interested in the project",
+            "The weather never changed",
+            "All costs disappeared"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage notes this limitation: records appeared to contradict each other.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C16",
+          "type": "Specific",
+          "prompt": "What additional benefit emerged?",
+          "choices": [
+            "signs explained local history",
+            "Every local problem was solved",
+            "The community stopped visiting",
+            "The participants lost all records"
+          ],
+          "correctIndex": 0,
+          "explanation": "An additional benefit was that signs explained local history.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C17",
+          "type": "Specific",
+          "prompt": "Which conclusion is most consistent with the evidence?",
+          "choices": [
+            "memories should be checked against evidence",
+            "The results proved all possible theories",
+            "The project should be repeated without observation",
+            "No further evidence could be useful"
+          ],
+          "correctIndex": 0,
+          "explanation": "The conclusion is appropriately limited: memories should be checked against evidence.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C18",
+          "type": "General",
+          "prompt": "What does the passage suggest about drawing conclusions?",
+          "choices": [
+            "A single observation can prove every explanation",
+            "Different factors should be considered before assigning causes",
+            "Contradictory evidence must always be ignored",
+            "A promising result guarantees future success"
+          ],
+          "correctIndex": 1,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C19",
+          "type": "General",
+          "prompt": "How is the passage mainly organized?",
+          "choices": [
+            "memory, evidence collection, comparison, route design",
+            "A random list of unrelated facts",
+            "A debate with no resolution",
+            "Instructions for purchasing equipment"
+          ],
+          "correctIndex": 0,
+          "explanation": "The events follow this progression: memory, evidence collection, comparison, route design.",
+          "passageId": "R02-P2"
+        },
+        {
+          "id": "R02-C20",
+          "type": "Vocabulary",
+          "prompt": "In the passage, \"fragile\" most nearly means",
+          "choices": [
+            "easily damaged",
+            "completely invisible",
+            "carelessly arranged",
+            "impossible to measure"
+          ],
+          "correctIndex": 0,
+          "explanation": "In context, \"fragile\" means \"easily damaged\".",
+          "passageId": "R02-P2"
+        }
+      ]
+    },
+    {
+      "id": "R02-P3",
+      "title": "The Quietest Classroom",
+      "text": "Students at Northfield School complained that their science classroom was difficult to hear in. The room had hard floors, tall windows, and bare walls. When several groups discussed experiments at once, voices echoed. A teacher suggested buying a louder microphone, but the student council proposed investigating the room itself.\n\nStudents used a phone application to record sound levels during identical activities. They then hung thick fabric panels on two walls and placed soft pads beneath chair legs. During a second trial, students sat in the same places and followed the same discussion schedule. The recordings suggested that sudden scraping noises had decreased, although ordinary conversation remained audible.\n\nThe council cautioned that a single week of measurements could not show whether every student learned more effectively. Still, teachers reported fewer interruptions, and the school agreed to test the panels in another room. The experiment illustrated the value of changing one environment carefully and measuring the effects before making larger claims.",
+      "questions": [
+        {
+          "id": "R02-C21",
+          "type": "General",
+          "prompt": "Which statement best summarizes the passage?",
+          "choices": [
+            "A small project was evaluated using evidence and qualified conclusions",
+            "The first proposed solution always solved every problem",
+            "Researchers abandoned their observations immediately",
+            "The community refused to consider any alternatives"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C22",
+          "type": "General",
+          "prompt": "What was the central purpose of the project?",
+          "choices": [
+            "To address a local problem through an informed trial",
+            "To create a national law",
+            "To replace all scientific studies",
+            "To demonstrate that history never changes"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C23",
+          "type": "Specific",
+          "prompt": "Which detail is explicitly supported by the passage?",
+          "choices": [
+            "hard surfaces caused echoes",
+            "The city banned all community meetings",
+            "The project had no participants",
+            "All observations were conducted overseas"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage specifically states: hard surfaces caused echoes.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C24",
+          "type": "Specific",
+          "prompt": "What method did the participants use to evaluate or understand the situation?",
+          "choices": [
+            "measure sound before and after adding panels",
+            "Guess without collecting evidence",
+            "Ask only one unrelated person",
+            "Avoid recording any observations"
+          ],
+          "correctIndex": 0,
+          "explanation": "The participants used this approach: measure sound before and after adding panels.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C25",
+          "type": "Specific",
+          "prompt": "What limitation or challenge does the author emphasize?",
+          "choices": [
+            "one week cannot prove learning gains",
+            "No one was interested in the project",
+            "The weather never changed",
+            "All costs disappeared"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage notes this limitation: one week cannot prove learning gains.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C26",
+          "type": "Specific",
+          "prompt": "What additional benefit emerged?",
+          "choices": [
+            "fewer interruptions",
+            "Every local problem was solved",
+            "The community stopped visiting",
+            "The participants lost all records"
+          ],
+          "correctIndex": 0,
+          "explanation": "An additional benefit was that fewer interruptions.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C27",
+          "type": "Specific",
+          "prompt": "Which conclusion is most consistent with the evidence?",
+          "choices": [
+            "measure environmental changes before broad claims",
+            "The results proved all possible theories",
+            "The project should be repeated without observation",
+            "No further evidence could be useful"
+          ],
+          "correctIndex": 0,
+          "explanation": "The conclusion is appropriately limited: measure environmental changes before broad claims.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C28",
+          "type": "General",
+          "prompt": "What does the passage suggest about drawing conclusions?",
+          "choices": [
+            "A single observation can prove every explanation",
+            "Different factors should be considered before assigning causes",
+            "Contradictory evidence must always be ignored",
+            "A promising result guarantees future success"
+          ],
+          "correctIndex": 1,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C29",
+          "type": "General",
+          "prompt": "How is the passage mainly organized?",
+          "choices": [
+            "complaint, baseline measurement, modification, retest",
+            "A random list of unrelated facts",
+            "A debate with no resolution",
+            "Instructions for purchasing equipment"
+          ],
+          "correctIndex": 0,
+          "explanation": "The events follow this progression: complaint, baseline measurement, modification, retest.",
+          "passageId": "R02-P3"
+        },
+        {
+          "id": "R02-C30",
+          "type": "Vocabulary",
+          "prompt": "In the passage, \"audible\" most nearly means",
+          "choices": [
+            "able to be heard",
+            "completely invisible",
+            "carelessly arranged",
+            "impossible to measure"
+          ],
+          "correctIndex": 0,
+          "explanation": "In context, \"audible\" means \"able to be heard\".",
+          "passageId": "R02-P3"
+        }
+      ]
+    },
+    {
+      "id": "R02-P4",
+      "title": "The Orchard's Unexpected Visitors",
+      "text": "A family orchard had produced apples for decades, but its harvests became less reliable after nearby wildflower meadows were replaced by parking lots. The owners suspected that fewer pollinating insects were visiting their trees. They planted strips of native flowers between rows and stopped mowing one edge of the property during spring.\n\nThe first year brought many more bees and butterflies, yet the apple harvest barely changed. A local ecologist explained that fruit production also depends on frost, rainfall, tree health, and the timing of blossoms. The owners began recording these conditions alongside insect visits. In the second year, a mild spring coincided with both abundant pollinators and a larger harvest.\n\nThe family resisted claiming that the flowers alone had caused the improvement. Nevertheless, the flowering strips supported insects through more of the season and made the orchard attractive to visitors. Their experience suggested that ecological changes may offer several benefits even when a single outcome is hard to attribute to one cause.",
+      "questions": [
+        {
+          "id": "R02-C31",
+          "type": "General",
+          "prompt": "Which statement best summarizes the passage?",
+          "choices": [
+            "A small project was evaluated using evidence and qualified conclusions",
+            "The first proposed solution always solved every problem",
+            "Researchers abandoned their observations immediately",
+            "The community refused to consider any alternatives"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C32",
+          "type": "General",
+          "prompt": "What was the central purpose of the project?",
+          "choices": [
+            "To address a local problem through an informed trial",
+            "To create a national law",
+            "To replace all scientific studies",
+            "To demonstrate that history never changes"
+          ],
+          "correctIndex": 0,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C33",
+          "type": "Specific",
+          "prompt": "Which detail is explicitly supported by the passage?",
+          "choices": [
+            "flower meadows had been replaced by parking lots",
+            "The city banned all community meetings",
+            "The project had no participants",
+            "All observations were conducted overseas"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage specifically states: flower meadows had been replaced by parking lots.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C34",
+          "type": "Specific",
+          "prompt": "What method did the participants use to evaluate or understand the situation?",
+          "choices": [
+            "record pollinator visits and weather conditions",
+            "Guess without collecting evidence",
+            "Ask only one unrelated person",
+            "Avoid recording any observations"
+          ],
+          "correctIndex": 0,
+          "explanation": "The participants used this approach: record pollinator visits and weather conditions.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C35",
+          "type": "Specific",
+          "prompt": "What limitation or challenge does the author emphasize?",
+          "choices": [
+            "harvest depends on several factors",
+            "No one was interested in the project",
+            "The weather never changed",
+            "All costs disappeared"
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage notes this limitation: harvest depends on several factors.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C36",
+          "type": "Specific",
+          "prompt": "What additional benefit emerged?",
+          "choices": [
+            "flower strips supported insects",
+            "Every local problem was solved",
+            "The community stopped visiting",
+            "The participants lost all records"
+          ],
+          "correctIndex": 0,
+          "explanation": "An additional benefit was that flower strips supported insects.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C37",
+          "type": "Specific",
+          "prompt": "Which conclusion is most consistent with the evidence?",
+          "choices": [
+            "multiple causes complicate claims about harvest",
+            "The results proved all possible theories",
+            "The project should be repeated without observation",
+            "No further evidence could be useful"
+          ],
+          "correctIndex": 0,
+          "explanation": "The conclusion is appropriately limited: multiple causes complicate claims about harvest.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C38",
+          "type": "General",
+          "prompt": "What does the passage suggest about drawing conclusions?",
+          "choices": [
+            "A single observation can prove every explanation",
+            "Different factors should be considered before assigning causes",
+            "Contradictory evidence must always be ignored",
+            "A promising result guarantees future success"
+          ],
+          "correctIndex": 1,
+          "explanation": "The correct answer is supported by the passage.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C39",
+          "type": "General",
+          "prompt": "How is the passage mainly organized?",
+          "choices": [
+            "concern, planting, mixed first results, broader monitoring",
+            "A random list of unrelated facts",
+            "A debate with no resolution",
+            "Instructions for purchasing equipment"
+          ],
+          "correctIndex": 0,
+          "explanation": "The events follow this progression: concern, planting, mixed first results, broader monitoring.",
+          "passageId": "R02-P4"
+        },
+        {
+          "id": "R02-C40",
+          "type": "Vocabulary",
+          "prompt": "In the passage, \"abundant\" most nearly means",
+          "choices": [
+            "plentiful",
+            "completely invisible",
+            "carelessly arranged",
+            "impossible to measure"
+          ],
+          "correctIndex": 0,
+          "explanation": "In context, \"abundant\" means \"plentiful\".",
+          "passageId": "R02-P4"
+        }
+      ]
+    }
+  ],
+  "vocabularyQuestions": [
+    {
+      "id": "R02-V01",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an affront to the guests\"",
+      "phrase": "an affront to the guests",
+      "targetWord": "affront",
+      "choices": [
+        "invitation",
+        "insult",
+        "agreement",
+        "compliment"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"insult\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V02",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an antidote to the poison\"",
+      "phrase": "an antidote to the poison",
+      "targetWord": "antidote",
+      "choices": [
+        "danger",
+        "symptom",
+        "remedy",
+        "delay"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"remedy\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V03",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"assent to the proposal\"",
+      "phrase": "assent to the proposal",
+      "targetWord": "assent",
+      "choices": [
+        "object",
+        "agree",
+        "hesitate",
+        "forget"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"agree\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V04",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"censure the misconduct\"",
+      "phrase": "censure the misconduct",
+      "targetWord": "censure",
+      "choices": [
+        "praise",
+        "conceal",
+        "criticize",
+        "imitate"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"criticize\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V05",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"reach a compromise\"",
+      "phrase": "reach a compromise",
+      "targetWord": "compromise",
+      "choices": [
+        "settlement",
+        "dispute",
+        "victory",
+        "command"
+      ],
+      "correctIndex": 0,
+      "explanation": "In this phrase, the word most nearly means \"settlement\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V06",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a period of concord\"",
+      "phrase": "a period of concord",
+      "targetWord": "concord",
+      "choices": [
+        "confusion",
+        "harmony",
+        "scarcity",
+        "silence"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"harmony\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V07",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"defer the meeting\"",
+      "phrase": "defer the meeting",
+      "targetWord": "defer",
+      "choices": [
+        "attend",
+        "shorten",
+        "postpone",
+        "announce"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"postpone\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V08",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"deplorable conditions\"",
+      "phrase": "deplorable conditions",
+      "targetWord": "deplorable",
+      "choices": [
+        "ordinary",
+        "temporary",
+        "shameful",
+        "favorable"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"shameful\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V09",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"endanger the hikers\"",
+      "phrase": "endanger the hikers",
+      "targetWord": "endanger",
+      "choices": [
+        "guide",
+        "threaten",
+        "rescue",
+        "entertain"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"threaten\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V10",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"enthrall the audience\"",
+      "phrase": "enthrall the audience",
+      "targetWord": "enthrall",
+      "choices": [
+        "confuse",
+        "disappoint",
+        "captivate",
+        "dismiss"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"captivate\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V11",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an illustrious scientist\"",
+      "phrase": "an illustrious scientist",
+      "targetWord": "illustrious",
+      "choices": [
+        "unknown",
+        "distinguished",
+        "inexperienced",
+        "ordinary"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"distinguished\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V12",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"latitude in choosing a topic\"",
+      "phrase": "latitude in choosing a topic",
+      "targetWord": "latitude",
+      "choices": [
+        "precision",
+        "distance",
+        "freedom",
+        "urgency"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"freedom\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V13",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a succinct explanation\"",
+      "phrase": "a succinct explanation",
+      "targetWord": "succinct",
+      "choices": [
+        "lengthy",
+        "uncertain",
+        "concise",
+        "forceful"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"concise\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V14",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"with the utmost care\"",
+      "phrase": "with the utmost care",
+      "targetWord": "utmost",
+      "choices": [
+        "least",
+        "greatest",
+        "usual",
+        "sudden"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"greatest\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V15",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"validate the results\"",
+      "phrase": "validate the results",
+      "targetWord": "validate",
+      "choices": [
+        "ignore",
+        "reverse",
+        "confirm",
+        "invent"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"confirm\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V16",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a vital resource\"",
+      "phrase": "a vital resource",
+      "targetWord": "vital",
+      "choices": [
+        "optional",
+        "scarce",
+        "essential",
+        "costly"
+      ],
+      "correctIndex": 2,
+      "explanation": "In this phrase, the word most nearly means \"essential\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V17",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a voracious reader\"",
+      "phrase": "a voracious reader",
+      "targetWord": "voracious",
+      "choices": [
+        "eager",
+        "careless",
+        "silent",
+        "reluctant"
+      ],
+      "correctIndex": 0,
+      "explanation": "In this phrase, the word most nearly means \"eager\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V18",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an affront to her dignity\"",
+      "phrase": "an affront to her dignity",
+      "targetWord": "affront",
+      "choices": [
+        "reward",
+        "offense",
+        "remedy",
+        "honor"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"offense\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V19",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"defer a decision\"",
+      "phrase": "defer a decision",
+      "targetWord": "defer",
+      "choices": [
+        "approve",
+        "delay",
+        "cancel",
+        "explain"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"delay\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V20",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"succinct instructions\"",
+      "phrase": "succinct instructions",
+      "targetWord": "succinct",
+      "choices": [
+        "confusing",
+        "brief",
+        "unnecessary",
+        "strict"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"brief\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V21",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"an illustrious career\"",
+      "phrase": "an illustrious career",
+      "targetWord": "illustrious",
+      "choices": [
+        "brief",
+        "renowned",
+        "secret",
+        "ordinary"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"renowned\". (Pilot review question.)",
+      "vocabularyDay": 1
+    },
+    {
+      "id": "R02-V22",
+      "type": "Reading Vocabulary",
+      "prompt": "Choose the closest meaning of the underlined word in: \"a voracious appetite\"",
+      "phrase": "a voracious appetite",
+      "targetWord": "voracious",
+      "choices": [
+        "moderate",
+        "ravenous",
+        "delicate",
+        "selective"
+      ],
+      "correctIndex": 1,
+      "explanation": "In this phrase, the word most nearly means \"ravenous\". (Pilot review question.)",
+      "vocabularyDay": 1
+    }
+  ],
+  "notes": "Draft content for editorial review. Vocabulary questions are temporary repeats of Paper 1 and must be replaced with Day 2-linked items before student release."
+}
