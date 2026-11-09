@@ -480,8 +480,8 @@ function renderExam(){
  $('examDescription').textContent=pending?'18 topic groups, two review sessions and 40 available 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'Reading curriculum and full question bank are awaiting the planned materials. You can use the 15 starter questions below for optional practice.':'Starter HSPT-style practice with explanations and score history. The complete curriculum will be added when its question bank is provided.';
  $('quantitativePlan').classList.toggle('hidden',!pending);
  if(pending&&typeof renderQuantitative==='function')renderQuantitative();
- $('examControls').classList.toggle('hidden',pending);
- $('examBody').classList.toggle('hidden',pending);
+ $('examControls').classList.toggle('hidden',pending||examSection==='reading');
+ $('examBody').classList.toggle('hidden',pending||examSection==='reading');
  $('examExternalResources').classList.toggle('hidden',pending);
  $('readingPilotLink').classList.toggle('hidden',examSection!=='reading');
  if(!pending){$('quantPaperRunner').classList.add('hidden');if(typeof stopQuantPaperTimer==='function')stopQuantPaperTimer();}
