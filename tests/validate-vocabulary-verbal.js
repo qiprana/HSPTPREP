@@ -18,9 +18,19 @@ assert.equal(keys.size,1084,'All vocabulary entry keys must be unique');
 const words=raw.map((w,i)=>({...w,legacyDay:w.day,day:Math.floor(i*50/raw.length)+1}));
 const dayWords=Object.fromEntries(Array.from({length:50},(_,i)=>[i+1,words.filter(w=>w.day===i+1)]));
 for(let d=1;d<=50;d++)assert.ok(dayWords[d].length>=21&&dayWords[d].length<=22,'Day '+d+' should have 21 or 22 words');
+let noDirectCount=0;
 for(const w of words){
  assert.ok(w.word&&w.meaning&&w.example&&w.root&&w.key,'Missing study content: '+w.key);
+ assert.ok(w.synonym&&w.synonym.trim(),'Missing synonym: '+w.key);
+ if(!w.antonym){
+  assert.equal(w.antonymStatus,'no-direct-antonym','Missing antonym classification: '+w.key);
+  assert.ok(w.antonymNote&&w.antonymNote.length>25,'Missing no-direct-antonym rationale: '+w.key);
+  noDirectCount++;
+ }else{
+  assert.notEqual(w.antonym.toLowerCase(),w.word.toLowerCase(),'Antonym repeats headword '+w.key);
+ }
 }
+assert.equal(noDirectCount,29,'Expected 29 explicitly classified no-direct-antonym entries');
 const start=index.indexOf('function rand(arr){'),stop=index.indexOf('let quizTimerId=null;');
 assert.ok(start>=0&&stop>start,'Verbal question generator missing');
 const script=index.slice(start,stop);
@@ -61,6 +71,7 @@ assert.match(index,/q\.score>=PASS_MARK\)markSubjectDone/,'Passing score must be
 assert.match(index,/window\.speechSynthesis\.speak/,'Pronunciation support must be present');
 assert.match(index,/state\.covered/,'Word-level progress must be saved');
 assert.match(index,/state\.review/,'Needs-review mechanism must be present');
+assert.ok(index.includes('No direct antonym for this meaning.'),'No-direct-antonym display missing');
 const p=index.indexOf('function submitQuiz(auto=false)'),e=index.indexOf('function speak(text)',p);
 assert.ok(p>=0&&e>p,'Verbal submit handler missing');
 const quizHandler=index.slice(p,e);
@@ -75,4 +86,4 @@ for(const [answered,correct,shouldComplete] of [[60,60,true],[60,25,false],[45,4
  assert.equal(done,shouldComplete?1:0,'Incorrect subject completion behavior');
  assert.equal(saved,1,'Score should persist');
 }
-console.log('PASS: '+raw.length+' vocabulary entries across 50 days; '+vocabularyQuestions+' vocabulary exercise cases and '+verbalQuestions+' Verbal items checked; timer, categories and scoring validated.');
+console.log('PASS: '+raw.length+' vocabulary entries across 50 days; '+vocabularyQuestions+' vocabulary exercise cases and '+verbalQuestions+' Verbal items checked; 29 justified no-direct-antonym cases; timer, categories and scoring validated.');
