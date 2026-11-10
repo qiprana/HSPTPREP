@@ -1,0 +1,25 @@
+name: Validate Vocabulary and Verbal Skills
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'daily-quick.js'
+      - 'words-*.js'
+      - 'tests/validate-vocabulary-verbal.js'
+      - '.github/workflows/validate-vocabulary-verbal.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'daily-quick.js'
+      - 'words-*.js'
+      - 'tests/validate-vocabulary-verbal.js'
+jobs:
+  validate-vocabulary-verbal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate all 50 daily study sets and Verbal tests
+        run: node tests/validate-vocabulary-verbal.js
