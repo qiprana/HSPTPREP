@@ -1,38 +1,36 @@
-# HSPT Prep — Vocabulary and Verbal Skills QA / implementation sign-off
+# HSPT Prep — Vocabulary and Verbal Skills final implementation sign-off
 
 **Date:** 2026-11-09  
-**Repository:** qiprana/HSPTPREP, default branch `main`  
-**Status:** Functional implementation and automated QA **signed off**; complete editorial content sign-off **pending**.
+**Repository:** `qiprana/HSPTPREP`, default branch `main`  
+**Status:** **Implementation and source-metadata coverage signed off; automated regression checks passed.** Independent psychometric and live-browser verification remain separate activities.
 
-## Vocabulary — accepted implementation
+## Vocabulary — signed off
 
-- 1,084 distinct keyed vocabulary entries organized in the website into 50 learning days, 21–22 words per day. The raw imported `words-*.js` files retain legacy 40-day `day` values; `index.html` intentionally maps them into the current 50-day plan at runtime.
-- Word cards with meaning, part of speech, example, study root/word parts, pronunciation using browser speech synthesis, and per-word covered / needs-review flags.
-- Generated question types: definition, reverse definition, synonym, antonym where available, context sentence completion, syllable recognition and analogy.
-- 7,405 generated individual exercise cases inspected for complete answer choices, unique options and explanations.
-- Cumulative study uses all words assigned up to the selected day. Word coverage and practice records use local browser storage.
+- 1,084 unique keyed vocabulary entries distributed at runtime into 50 learning days (21–22 words daily). Original source `words-*.js` retains legacy day labels; runtime distribution is intentional.
+- All 1,084 vocabulary words have a meaning, example sentence, root/word-parts field, part of speech and **non-empty synonym**.
+- 1,055 words have a supplied antonym or contextual opposite; **29 words have no reliable direct antonym**, and instead carry an explicit `antonymStatus: "no-direct-antonym"` and rationale. The UI shows “No direct antonym for this meaning.” These 29 are excluded from exercises asking for a strict antonym.
+- The previously incomplete 163 synonyms and 183 antonym fields have been reviewed and handled by either a sense-specific lexical entry or explicit no-direct-antonym classification; no unclassified blanks remain.
+- Corrected *instinctively* from adjective to adverb; retained its legacy word key to preserve browser progress.
+- Word learning, browser pronunciation, dictionary, needs-review flags and daily/cumulative challenge generation remain intact.
+- **7,559 vocabulary question instances** across reverse definitions, meanings, synonyms, available antonyms, sentence context, syllables and analogies passed structural checks.
 
-## Verbal Skills — accepted implementation
+## Verbal Skills — signed off
 
-- 50 daily and 50 cumulative 60-question challenge sets were sampled and structurally checked (6,000 generated question instances).
-- Per set: 12 synonyms, 10 antonyms, 10 analogies, 12 three-option logical reasoning questions (True/False/Uncertain), and 16 verbal classification questions.
-- Corrected the antonym generator to choose words that have a genuine antonym; the former implementation could substitute a generic definition question under the antonym label.
-- Full 60-question challenge now uses a **16-minute countdown** consistently, instead of an inconsistent 14-minute countdown.
-- Fixed passing credit: a Verbal session is recorded as completed only if every question was answered **and** the result reaches the project's 70% passing threshold. Low-scoring or incomplete attempts are still recorded without incorrectly completing the subject.
-- Tested the submission handler with 60/60, 25/60 and 45/60 (15 blank) responses. Passing alone earned subject-session completion.
-- Corrected the Word Study context question generator to provide actual example-based sentence-completion questions for advanced words, even where no prewritten cloze field exists.
+- Fifty daily and fifty cumulative challenges, each containing **60 questions**.
+- Per challenge: 12 synonyms, 10 genuine antonym questions, 10 analogies, 12 logical reasoning questions with three options (True/False/Uncertain), and 16 verbal classification questions.
+- **6,000 generated question instances** were tested for category distribution, valid keys, nonduplicated choices, explanations and correct question counts.
+- The optional 60-question full Verbal challenge uses a **16-minute countdown** consistently across the page and explanatory text.
+- A Verbal learning session receives passing completion credit only with **all answers submitted and at least 70% correct**. Scores below threshold and incomplete attempts are recorded without incorrectly marking a session complete.
+- Simulated perfect, failing and incomplete submissions verified correct behavior and persisted result records.
 
-## Regression safeguards
+## Continuous quality safeguards
 
-- `node tests/validate-vocabulary-verbal.js` checks vocabulary counts, all 50 runtime days, 7,405 word exercise cases, 100 daily/cumulative Verbal sets, section distribution, unique answer options, answer presence, 16-minute timer, pronunciation and scoring.
-- `.github/workflows/validate-vocabulary-verbal.yml` runs that test on relevant source changes.
-- All tests were invoked successfully through a simulated Node runtime against the actual GitHub files.
+- `node tests/validate-vocabulary-verbal.js` checks all 1,084 entries, 50 study days, 29 no-direct-antonym exceptions, 7,559 vocabulary exercise cases, 100 Verbal sets, category distributions, answer keys, timer and scoring rules.
+- `.github/workflows/validate-vocabulary-verbal.yml` runs the regression script on relevant changes.
+- All regression checks were executed successfully against the repository source.
 
-## Outstanding editorial and release tasks
+## Scope and remaining independent verification
 
-- **163 entries lack a manually supplied explicit synonym; 183 lack an explicit antonym.** The dictionary definitions are still available, but do not count as reviewed synonym/antonym coverage. A verified word-by-word enrichment pass remains to reach 100% source metadata completeness.
-- Automated checks validate structure and key availability. They do not independently certify that every synonym, antonym, classification group and analogy is semantically unambiguous or as difficult as a genuine HSPT question.
-- Live GitHub Pages deployment, cross-browser visual testing, and assistive-technology accessibility are not independently verified in this environment.
-- The additional 10 cross-subject mock days remain diagnostic previews, not completed full-length five-subtest mock exams; they are outside this Vocabulary/Verbal sign-off.
+The application is original HSPT preparation material, not official HSPT exams. Automated checks establish structural validity and test a broad sample of generated question combinations, but cannot prove that every antonym pair is unambiguous, every analogy is exam-calibrated, or every word definition is lexicographically perfect. A complete independent human review of all questions and cross-browser/mobile live GitHub Pages verification were **not** performed as part of this sign-off. The last ten cross-subject mock days remain separate diagnostic previews, outside this section's scope.
 
-**Conclusion:** Vocabulary and Verbal Skills have passed functional/automated QA and can be considered *implementation signed off*. Complete, unconditional editorial sign-off should remain pending until the listed vocabulary metadata and review gaps are resolved. Language retains its separate implementation sign-off.
+**Decision:** Sign off Vocabulary and Verbal Skills **implementation, content-field completion, and automated QA**. Do not describe the project as independently standardized, browser-certified, or psychometrically validated.
