@@ -12,7 +12,10 @@ function sectionPool(subject,day){
  return EXAM_QUESTIONS.filter(q=>q.section===subject&&q.choices.includes(q.answer)).map(q=>({...q,choices:[...q.choices],explanation:q.explanation||''}));
 }
 function uniqueSelection(pool,subject,count,exclude=[]){
- const omitted=new Set(exclude),shuffled=rand(pool.filter(q=>!omitted.has(q.prompt)));
+ const fingerprint=q=>String(q.prompt||'').trim().toLowerCase().replace(/\s+/g,' ')+'|'+(q.passage||'')+'|'+[...q.choices].map(x=>String(x).trim().toLowerCase()).sort().join('|');
+ const omitted=new Set(exclude),unique=new Map();
+ for(const q of rand(pool)){if(omitted.has(q.prompt)||!Array.isArray(q.choices)||new Set(q.choices).size!==q.choices.length)continue;const key=fingerprint(q);if(!unique.has(key))unique.set(key,q);}
+ const shuffled=[...unique.values()];
  const unseen=shuffled.filter(q=>!state.questionSeen?.[subject+'|'+q.prompt]?.attempts);
  const seen=shuffled.filter(q=>state.questionSeen?.[subject+'|'+q.prompt]?.attempts)
   .sort((a,b)=>(state.questionSeen[subject+'|'+a.prompt]?.correct||0)-(state.questionSeen[subject+'|'+b.prompt]?.correct||0));
