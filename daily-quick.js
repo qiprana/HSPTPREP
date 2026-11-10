@@ -56,7 +56,7 @@ function renderMiniPractice(){
    const correct=q.prep.filter((item,i)=>q.prepAnswers[i]===item.answer).length;
    inner+='<div class="quiz-footer"><span class="hint">'+Object.keys(q.prepAnswers).length+'/'+q.prep.length+' checked · finish with at least 4 correct</span>'+
     '<button class="btn primary" data-mini-finish-recall="1" '+(ready?'':'disabled')+'>Complete Verbal recall →</button></div>'+
-    '<p class="hint">For additional speed practice, the optional 60-question Verbal test has a 14-minute countdown.</p>';
+    '<p class="hint">For additional speed practice, the optional 60-question Verbal test has a 16-minute countdown.</p>';
   }else{
    inner+='<div class="quiz-footer"><span class="hint">'+Object.keys(q.prepAnswers).length+'/'+q.prep.length+' concept questions checked</span>'+
     '<button class="btn primary" data-mini-start-timed="1" '+(ready?'':'disabled')+'>Start '+QUICK_TIMES[q.subject]+'-minute challenge →</button></div>';
