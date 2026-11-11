@@ -41,11 +41,39 @@ assert.equal(new Set(longBank.map(p=>p.id)).size,80);
 assert.equal(new Set(longBank.map(p=>p.text)).size,80,'Repeated authentic source passages in staged 20-day bank');
 assert.ok(longBank.every(p=>p.source?.url&&p.source?.author&&p.reviewStatus==='pending'));
 assert.ok(longBank.every(p=>p.questions.length===0),'Staged excerpts must not be assigned unrelated legacy questions');
+const completed=data('sections/reading/data/advanced/complete-days-03-20.json');
+assert.equal(completed.days.length,18,'18 additional practice days');
+let extendedCount=0;
+for(let d=3;d<=20;d++){
+ const day=completed.days[d-3];
+ assert.equal(day.day,d,'Advanced day in sequence');
+ assert.equal(day.passages.length,4,'Four passages per advanced day');
+ for(let i=0;i<4;i++){
+  const p=day.passages[i];
+  assert.equal(p.id,'ADV-D'+String(d).padStart(2,'0')+'-P'+(i+1));
+  assert.ok(p.wordCount>=300&&p.wordCount<=650,p.id+' requires readable excerpt length');
+  assert.ok(!/Project Gutenberg|1\\.E\\.\\d/.test(p.text),p.id+' contains distribution license');
+  assert.ok(p.source?.url&&p.source?.author&&p.source?.excerptStart);
+  assert.ok(!passageTexts.has(p.text),p.id+' repeated passage');
+  passageTexts.add(p.text);
+  assert.equal(p.questions.length,10);
+  for(const q of p.questions){
+   assert.ok(!ids.has(q.id),q.id+' repeated ID');ids.add(q.id);
+   assert.ok(q.prompt.length>=90&&q.modelAnswer.length>=100);
+   assert.ok(p.text.includes(q.evidence),q.id+' evidence does not appear in passage');
+   assert.equal(q.answerType,'guided-rubric');
+   assert.equal(q.reviewStatus,'requires-editorial-review');
+   extendedCount++;
+  }
+ }
+}
+assert.equal(extendedCount,720);
+assert.equal(ids.size,800);
 const html=read('advanced-reading.html'),reading=read('reading-skills.html'),script=read('sections/reading/advanced-reading.js');
 assert.ok(reading.includes('href="./advanced-reading.html"'),'Reading page must link advanced Day 1 pilot');
-assert.ok(html.includes('80 challenging evidence-based questions'));
+assert.ok(html.includes('800 evidence-based questions'));
 assert.ok(html.includes('id="dayPicker"'));
-assert.ok(script.includes('ADV_DAYS=[1,2]'));
+assert.ok(script.includes('length:20'));
 assert.ok(html.includes('sections/reading/advanced-reading.js'));
 assert.ok(script.includes('hspt-reading-advanced-v1'),'Use independent student progress key');
 assert.ok(!script.includes('hspt-reading-v2'),'Do not overwrite legacy Reading progress');
@@ -54,4 +82,4 @@ assert.ok(script.includes("answer.length<40||evidence.length<12"),'Require both 
 new vm.Script(script);
 const embedded=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(Boolean);
 for(const s of embedded)new vm.Script(s);
-console.log('PASS: 8 authentic excerpts, 80 evidence-anchored questions across 2 days; 80 distinct staged source excerpts, separate progress and working browser script.');
+console.log('PASS: 20 advanced Reading days, 80 passages, 800 evidence-led questions (720 guided-rubric exercises awaiting editorial review); separate student progress and syntax checks.');
