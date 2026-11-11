@@ -1,0 +1,88 @@
+{
+  "id": "ADV-D01-P1",
+  "title": "Wealth, Marriage, and Social Irony",
+  "genre": "Literature",
+  "gradeBand": "10-11",
+  "wordCount": 570,
+  "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\n\nHowever little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.\n\n\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"\n\nMr. Bennet replied that he had not.\n\n\"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"\n\nMr. Bennet made no answer.\n\n\"Do you not want to know who has taken it?\" cried his wife impatiently.\n\n\"You want to tell me, and I have no objection to hearing it.\"\n\nThis was invitation enough.\n\n\"Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.\"\n\n\"Is he married or single?\"\n\n\"Oh! Single, my dear, to be sure! A single man of large fortune; four or five thousand a year. What a fine thing for our girls!\"\n\n\"How so? How can it affect them?\"\n\n\"My dear Mr. Bennet,\" replied his wife, \"how can you be so tiresome! You must know that I am thinking of his marrying one of them.\"\n\n\"Is that his design in settling here?\"\n\n\"Design! Nonsense, how can you talk so! But it is very likely that he may fall in love with one of them, and therefore you must visit him as soon as he comes.\"\n\n\"I see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still better, for as you are as handsome as any of them, Mr. Bingley may like you the best of the party.\"\n\n\"My dear, you flatter me. I certainly have had my share of beauty, but I do not pretend to be anything extraordinary now. When a woman has five grown-up daughters, she ought to give over thinking of her own beauty.\"\n\n\"In such cases, a woman has not often much beauty to think of.\"\n\n\"But, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood.\"\n\n\"It is more than I engage for, I assure you.\"\n\n\"But consider your daughters. Only think what an establishment it would be for one of them. Sir William and Lady Lucas are determined to go, merely on that account, for in general, you know, they visit no newcomers. Indeed you must go, for it will be impossible for us to visit him if you do not.\"\n\n\"You are over-scrupulous, surely. I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls; though I must throw in a good word for my little Lizzy.\"",
+  "source": {
+    "work": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publicationYear": 1813,
+    "chapter": "Chapter 1",
+    "url": "https://www.gutenberg.org/ebooks/1342",
+    "rights": "Public domain in United States"
+  },
+  "questions": [
+    {
+      "id": "ADV-D01-P1-Q01",
+      "skill": "irony",
+      "prompt": "Why does the opening assertion about wealthy unmarried men invite skepticism?",
+      "modelAnswer": "It is presented as an objective truth even though the families cannot know a stranger's intentions; the universal-sounding claim exposes the neighbors' assumptions.",
+      "evidence": "However little known the feelings or views"
+    },
+    {
+      "id": "ADV-D01-P1-Q02",
+      "skill": "metaphor",
+      "prompt": "What is the satirical effect of calling the newcomer the 'rightful property' of somebody's daughter?",
+      "modelAnswer": "It depicts the community as claiming a stranger for its marriage ambitions before he has chosen anyone, exposing an acquisitive social attitude.",
+      "evidence": "the rightful property of some one or other"
+    },
+    {
+      "id": "ADV-D01-P1-Q03",
+      "skill": "characterization",
+      "prompt": "How does Mrs. Bennet's account of the lease reveal her priorities?",
+      "modelAnswer": "Her intense interest in particulars matters because Bingley's wealth and unmarried status may benefit her daughters, not because she is simply assessing a rental.",
+      "evidence": "What a fine thing for our girls"
+    },
+    {
+      "id": "ADV-D01-P1-Q04",
+      "skill": "dialogue",
+      "prompt": "What does Mr. Bennet communicate by remarking that she wants to tell him the news?",
+      "modelAnswer": "His mock permission suggests that he understands her impatience and intends to tease rather than join in her urgency.",
+      "evidence": "You want to tell me, and I have no objection"
+    },
+    {
+      "id": "ADV-D01-P1-Q05",
+      "skill": "inference",
+      "prompt": "Which unproven assumption turns Bingley's arrival into a demand for a visit?",
+      "modelAnswer": "Mrs. Bennet assumes he may marry one of their daughters even though she has no evidence that courtship is his purpose in settling there.",
+      "evidence": "he may fall in love with one of them"
+    },
+    {
+      "id": "ADV-D01-P1-Q06",
+      "skill": "satire",
+      "prompt": "Why does Mr. Bennet propose that Bingley might prefer his wife to the daughters?",
+      "modelAnswer": "He exaggerates the matrimonial logic to an absurd result, teasing Mrs. Bennet's urgent wish to direct the newcomer's choice.",
+      "evidence": "Mr. Bingley may like you the best"
+    },
+    {
+      "id": "ADV-D01-P1-Q07",
+      "skill": "evidence",
+      "prompt": "Why does Mrs. Bennet invoke Sir William and Lady Lucas?",
+      "modelAnswer": "Their intention to visit despite normally avoiding newcomers helps her show that the wealthy visitor is an exceptional social opportunity.",
+      "evidence": "they visit no newcomers"
+    },
+    {
+      "id": "ADV-D01-P1-Q08",
+      "skill": "context vocabulary",
+      "prompt": "What does Mrs. Bennet mean by 'establishment' in reference to a daughter?",
+      "modelAnswer": "An advantageous settled position through marriage, not the physical establishment of a house or business.",
+      "evidence": "what an establishment it would be"
+    },
+    {
+      "id": "ADV-D01-P1-Q09",
+      "skill": "character contrast",
+      "prompt": "How does the exchange reveal different ideas about appropriate action?",
+      "modelAnswer": "Mrs. Bennet insists on a practical introduction to Bingley; Mr. Bennet responds with deadpan questions and jokes, resisting her pressure.",
+      "evidence": "you must indeed go and see Mr. Bingley"
+    },
+    {
+      "id": "ADV-D01-P1-Q10",
+      "skill": "narrative stance",
+      "prompt": "How is social criticism achieved without a direct statement that the characters are foolish?",
+      "modelAnswer": "The narrator contrasts purported universal certainty with ignorance of the man's feelings, allowing irony to expose the absurdity of assigning him to a daughter.",
+      "evidence": "this truth is so well fixed in the minds"
+    }
+  ]
+}

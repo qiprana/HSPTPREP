@@ -1,0 +1,89 @@
+{
+  "id": "ADV-D01-P4",
+  "title": "What Counts as a Struggle in Nature?",
+  "genre": "Scientific argument",
+  "gradeBand": "10-11",
+  "wordCount": 497,
+  "text": "We will now discuss in a little more detail the struggle for existence. In my future work this subject shall be treated, as it well deserves, at much greater length. The elder De Candolle and Lyell have largely and philosophically shown that all organic beings are exposed to severe competition. In regard to plants, no one has treated this subject with more spirit and ability than W. Herbert, Dean of Manchester, evidently the result of his great horticultural knowledge. Nothing is easier than to admit in words the truth of the universal struggle for life, or more difficult--at least I have found it so--than constantly to bear this conclusion in mind. Yet unless it be thoroughly engrained in the mind, I am convinced that the whole economy of nature, with every fact on distribution, rarity, abundance, extinction, and variation, will be dimly seen or quite misunderstood. We behold the face of nature bright with gladness, we often see superabundance of food; we do not see, or we forget, that the birds which are idly singing round us mostly live on insects or seeds, and are thus constantly destroying life; or we forget how largely these songsters, or their eggs, or their nestlings, are destroyed by birds and beasts of prey; we do not always bear in mind, that though food may be now superabundant, it is not so at all seasons of each recurring year.\n\nI should premise that I use the term Struggle for Existence in a large and metaphorical sense, including dependence of one being on another, and including (which is more important) not only the life of the individual, but success in leaving progeny. Two canine animals in a time of dearth, may be truly said to struggle with each other which shall get food and live. But a plant on the edge of a desert is said to struggle for life against the drought, though more properly it should be said to be dependent on the moisture. A plant which annually produces a thousand seeds, of which on an average only one comes to maturity, may be more truly said to struggle with the plants of the same and other kinds which already clothe the ground. The missletoe is dependent on the apple and a few other trees, but can only in a far-fetched sense be said to struggle with these trees, for if too many of these parasites grow on the same tree, it will languish and die. But several seedling missletoes, growing close together on the same branch, may more truly be said to struggle with each other. As the missletoe is disseminated by birds, its existence depends on birds; and it may metaphorically be said to struggle with other fruit-bearing plants, in order to tempt birds to devour and thus disseminate its seeds rather than those of other plants. In these several senses, which pass into each other, I use for convenience sake the general term of struggle for existence.",
+  "source": {
+    "work": "On the Origin of Species",
+    "author": "Charles Darwin",
+    "publicationYear": 1859,
+    "chapter": "Chapter III — Struggle for Existence",
+    "url": "https://www.gutenberg.org/ebooks/1228",
+    "rights": "Public domain in United States",
+    "contextNote": "An excerpt from historical scientific writing; contemporary scientific understanding has developed since its publication."
+  },
+  "questions": [
+    {
+      "id": "ADV-D01-P4-Q01",
+      "skill": "definition",
+      "prompt": "How does the meaning of 'struggle for existence' differ from ordinary physical combat?",
+      "modelAnswer": "It includes environmental dependence, indirect competition and success in leaving offspring, not merely direct confrontations.",
+      "evidence": "large and metaphorical sense"
+    },
+    {
+      "id": "ADV-D01-P4-Q02",
+      "skill": "contrast",
+      "prompt": "Why does Darwin describe the beauty and apparent abundance of nature?",
+      "modelAnswer": "He shows how a pleasant view can hide predation, fluctuating resources and the struggle that still occurs.",
+      "evidence": "bright with gladness"
+    },
+    {
+      "id": "ADV-D01-P4-Q03",
+      "skill": "comparison",
+      "prompt": "How do the dogs and the desert plant illustrate distinct senses of struggle?",
+      "modelAnswer": "Two dogs compete directly for scarce food; the plant depends on moisture and faces an environmental limitation.",
+      "evidence": "plant on the edge of a desert"
+    },
+    {
+      "id": "ADV-D01-P4-Q04",
+      "skill": "qualification",
+      "prompt": "Why is mistletoe's relation to its host tree only a 'far-fetched' kind of struggle?",
+      "modelAnswer": "Mistletoe chiefly depends on the tree; seedlings growing together are a more direct case of organisms competing.",
+      "evidence": "far-fetched sense"
+    },
+    {
+      "id": "ADV-D01-P4-Q05",
+      "skill": "causation",
+      "prompt": "Why does the bird example matter to the description of mistletoe?",
+      "modelAnswer": "Birds disperse seeds, so the plant depends on them and indirectly competes with other fruit-bearing plants for dispersal.",
+      "evidence": "disseminated by birds"
+    },
+    {
+      "id": "ADV-D01-P4-Q06",
+      "skill": "inference",
+      "prompt": "Why does Darwin add 'success in leaving progeny' to his definition?",
+      "modelAnswer": "The outcome of reproduction matters beyond whether a particular organism survives for its own lifetime.",
+      "evidence": "success in leaving progeny"
+    },
+    {
+      "id": "ADV-D01-P4-Q07",
+      "skill": "rhetorical precision",
+      "prompt": "What does Darwin's admission that some uses are less literal suggest about his reasoning?",
+      "modelAnswer": "He is qualifying a metaphor's limits instead of asserting that every ecological relationship is an identical form of conflict.",
+      "evidence": "more properly it should be said"
+    },
+    {
+      "id": "ADV-D01-P4-Q08",
+      "skill": "evidence analysis",
+      "prompt": "Why does a plant that produces a thousand seeds offer a useful example?",
+      "modelAnswer": "The contrast with only one reaching maturity shows that producing many offspring does not eliminate competition for conditions and space.",
+      "evidence": "a thousand seeds"
+    },
+    {
+      "id": "ADV-D01-P4-Q09",
+      "skill": "reasoning",
+      "prompt": "Why does a season with abundant food not disprove the wider struggle?",
+      "modelAnswer": "Temporary supply does not remove predation or later scarcity; the author argues one moment cannot stand for the full cycle.",
+      "evidence": "not so at all seasons"
+    },
+    {
+      "id": "ADV-D01-P4-Q10",
+      "skill": "synthesis",
+      "prompt": "What is the cumulative purpose of the succession of animal and plant examples?",
+      "modelAnswer": "It demonstrates overlapping forms of dependence and competition that together justify a deliberately broad ecological concept.",
+      "evidence": "several senses, which pass into each other"
+    }
+  ]
+}

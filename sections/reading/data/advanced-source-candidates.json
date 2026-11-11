@@ -1,9 +1,9 @@
 {
   "version": 1,
   "gradeBand": "10-11",
-  "status": "source_curation_only",
-  "liveBankStatus": "introductory_legacy",
-  "newPassagesWritten": 0,
+  "status": "pilot_day1_and_excerpt_corpus_staged",
+  "liveBankStatus": "legacy_unchanged_advanced_day1_separate",
+  "newPassagesWritten": 80,
   "requiredFullTestPassages": 80,
   "sourceCandidates": [
     {
@@ -42,5 +42,8 @@
       "rights": "public domain in the USA",
       "usage": "Scientific reasoning, qualification, hypothesis and evidence; historical science not modern factual guidance"
     }
-  ]
+  ],
+  "newPassagesEditedAndQuestioned": 4,
+  "newAdvancedWrittenQuestions": 40,
+  "remainingAdvancedWrittenQuestions": 760
 }
