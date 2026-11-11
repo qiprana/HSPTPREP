@@ -37,7 +37,7 @@ function quantGroup(paperNumber){return paperNumber<=20?'learning':paperNumber<=
 function quantPaperLink(slot){
  if(!slot||!slot.path)return '';
  const path=slot.path.trim();
- if(!/^(?:sections/quantitative/papers|output)\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
+ if(!/^(?:sections\/quantitative\/papers|output)\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
  return path;
 }
 function quantPaperBest(paper){
@@ -51,7 +51,7 @@ function quantTopicCard(index){
  return '<div class="quant-topic '+(covered?'quant-covered':'')+'">'+
  '<div class="quant-topic-no">SESSION '+session+(day?' · DAY '+day:' · Flexible')+'</div>'+
  '<strong>'+safe(title)+'</strong><p class="small muted">Topic learning and question practice</p>'+
- '<div class="quant-topic-actions"><span class="pill '+(covered?'teal':'')+'">'+(covered?'✓ Concept reviewed':'Topic test: awaiting upload')+'</span>'+
+ '<div class="quant-topic-actions"><span class="pill '+(covered?'teal':'')+'">'+(covered?'✓ Concept reviewed':'Concept not yet reviewed')+'</span>'+
  '<button class="btn tiny outline" data-quant-mark-topic="'+session+'">'+(covered?'Undo reviewed':'Mark concept reviewed')+'</button></div></div>';
 }
 function quantPaperCard(number){
@@ -71,7 +71,7 @@ function renderQuantitative(){
  const session=selected?quantSession(selectedDay):null;
  const count=QCFG.paperSlots.filter(slot=>!!quantPaperLink(slot)).length;
  const totalReviewed=Object.values(state.quantTopicsReviewed||{}).filter(Boolean).length;
- root.innerHTML='<div class="quant-heading"><div><div class="kicker">QUANTITATIVE SKILLS · 20 LEARNING SESSIONS</div><h2 class="section-title">18 topics + 2 mixed review sessions</h2><p class="medium muted">Learn a topic and practise its question types. Individual topic tests are placeholders until you upload them. Each full paper will contain 52 questions with a 28-minute challenge timer.</p></div>'+
+ root.innerHTML='<div class="quant-heading"><div><div class="kicker">QUANTITATIVE SKILLS · 20 LEARNING SESSIONS</div><h2 class="section-title">18 topics + 2 mixed review sessions</h2><p class="medium muted">Learn a topic and practise its question types. 20 focused practice papers are available for your learning sessions. Each full paper will contain 52 questions with a 28-minute challenge timer.</p></div>'+
  '<div class="quant-head-stat"><b>'+totalReviewed+' / 20</b><span>Topics reviewed</span></div></div>'+
  (selected&&session>=1&&session<=20?'<div class="quant-today"><b>Selected learning day '+selectedDay+' · Quantitative session '+session+'</b>'+
  '<p>Topic: '+safe(QCFG.topics[session-1])+' · Reserved full paper: #'+session+'</p>'+
@@ -84,7 +84,7 @@ function renderQuantitative(){
  '<button class="btn tiny outline" data-quant-filter="mock">Papers 21–30 · Mock days</button>'+
  '<button class="btn tiny outline" data-quant-filter="reserve">Papers 31–40 · Reserve</button></div>'+
  '<div class="quant-paper-grid">'+QCFG.paperSlots.map(slot=>quantPaperCard(slot.paperNumber)).join('')+'</div></div>'+
- '<div class="quant-note"><b>Other practice</b><p class="small muted">The existing short sample questions below are optional practice. They are not the 52-question papers or the individual topic tests.</p></div>';
+ '<div class="quant-note"><b>Other practice</b><p class="small muted">The short sample questions below are optional and separate from the 20 focused practice papers and 40 full-section papers.</p></div>';
  if(quantPaperQuiz)renderQuantPaperQuiz();
 }
 function quantScroll(selector){

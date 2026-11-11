@@ -1,7 +1,8 @@
 /* Quantitative learning plan: 40 source papers checked in at
-   sections/quantitative/papers/test-NN/questions.json. Individual topic tests remain placeholders. */
+   sections/quantitative/papers/test-NN/questions.json. 20 focused practice papers are stored in practice-papers/test-NN/questions.json. */
 window.HSPT_QUANT_CONFIG = {
- version:2,
+ version:3,
+ topicPracticeMinutes:35,
  standardMinutes:30,
  practiceMinutes:28,
  questionsPerPaper:52,
@@ -30,8 +31,8 @@ window.HSPT_QUANT_CONFIG = {
  topicTestSlots:Array.from({length:20},(_,i)=>({
    session:i+1,
    topicIndex:i,
-   path:null,
-   format:null
+   path:'sections/quantitative/practice-papers/test-'+String(i+1).padStart(2,'0')+'/questions.json',
+   format:'json'
  })),
  paperSlots:Array.from({length:40},(_,i)=>({
    paperNumber:i+1,
