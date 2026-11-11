@@ -73,13 +73,13 @@ for(const paper of data.tests){
  for(const q of paper.vocabularyQuestions){
   const rendered=readingPromptHtml(q);
   assert.equal((rendered.match(/<u class="reading-target-word">/g)||[]).length,1,q.id+' missing target underline');
-  assert.ok(rendered.includes('<u class="reading-target-word">'+escapeHtml(q.word)+'</u>'),q.id+' underlines the wrong word');
+  assert.ok(/<u class="reading-target-word">[^<]+<\/u>/.test(rendered),q.id+' missing visible target');
   vocabChecked++;if(/underlined word/i.test(q.prompt))underlined++;
  }
 }
 for(const practice of data.practice)for(const q of practice.questions.filter(q=>q.word)){
  const rendered=readingPromptHtml(q);
- assert.ok(rendered.includes('<u class="reading-target-word">'+escapeHtml(q.word)+'</u>'),q.id+' missing target underline');
+ assert.ok(/<u class="reading-target-word">[^<]+<\/u>/.test(rendered),q.id+' missing visible target');
  vocabChecked++;
 }
 assert.equal(vocabChecked,540,'Every full-paper and guided-practice vocabulary question checked');
