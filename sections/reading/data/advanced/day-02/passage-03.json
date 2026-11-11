@@ -1,0 +1,89 @@
+{
+  "id": "ADV-D02-P3",
+  "title": "The Federalist Papers — Close reading",
+  "genre": "History / Civics",
+  "gradeBand": "10-11",
+  "wordCount": 581,
+  "text": "As the natural limit of a democracy is that distance from the central point which will just permit the most remote citizens to assemble as often as their public functions demand, and will include no greater number than can join in those functions; so the natural limit of a republic is that distance from the centre which will barely allow the representatives to meet as often as may be necessary for the administration of public affairs. Can it be said that the limits of the United States exceed this distance? It will not be said by those who recollect that the Atlantic coast is the longest side of the Union, that during the term of thirteen years, the representatives of the States have been almost continually assembled, and that the members from the most distant States are not chargeable with greater intermissions of attendance than those from the States in the neighborhood of Congress.\n\nThat we may form a juster estimate with regard to this interesting subject, let us resort to the actual dimensions of the Union. The limits, as fixed by the treaty of peace, are: on the east the Atlantic, on the south the latitude of thirty-one degrees, on the west the Mississippi, and on the north an irregular line running in some instances beyond the forty-fifth degree, in others falling as low as the forty-second. The southern shore of Lake Erie lies below that latitude. Computing the distance between the thirty-first and forty-fifth degrees, it amounts to nine hundred and seventy-three common miles; computing it from thirty-one to forty-two degrees, to seven hundred and sixty-four miles and a half. Taking the mean for the distance, the amount will be eight hundred and sixty-eight miles and three-fourths. The mean distance from the Atlantic to the Mississippi does not probably exceed seven hundred and fifty miles. On a comparison of this extent with that of several countries in Europe, the practicability of rendering our system commensurate to it appears to be demonstrable. It is not a great deal larger than Germany, where a diet representing the whole empire is continually assembled; or than Poland before the late dismemberment, where another national diet was the depositary of the supreme power. Passing by France and Spain, we find that in Great Britain, inferior as it may be in size, the representatives of the northern extremity of the island have as far to travel to the national council as will be required of those of the most remote parts of the Union.\n\nFavorable as this view of the subject may be, some observations remain which will place it in a light still more satisfactory.\n\nIn the first place it is to be remembered that the general government is not to be charged with the whole power of making and administering laws. Its jurisdiction is limited to certain enumerated objects, which concern all the members of the republic, but which are not to be attained by the separate provisions of any. The subordinate governments, which can extend their care to all those other subjects which can be separately provided for, will retain their due authority and activity. Were it proposed by the plan of the convention to abolish the governments of the particular States, its adversaries would have some ground for their objection; though it would not be difficult to show that if they were abolished the general government would be compelled, by the principle of self-preservation, to reinstate them in their proper jurisdiction.",
+  "source": {
+    "work": "The Federalist Papers",
+    "author": "James Madison, Alexander Hamilton and John Jay",
+    "publicationYear": 1787,
+    "chapter": "Selected excerpt",
+    "url": "https://www.gutenberg.org/ebooks/1404",
+    "rights": "Public domain in United States",
+    "contextNote": "Authentic historical text; wording and viewpoints reflect its period."
+  },
+  "questions": [
+    {
+      "id": "ADV-D02-P3-Q01",
+      "prompt": "What distinction between democracy and republic structures the opening argument?",
+      "modelAnswer": "The author contrasts citizens assembling personally with representatives assembling on their behalf. He then evaluates geographic scale according to the travel demands of each arrangement.",
+      "evidence": "representatives to meet as often as may be necessary",
+      "skill": "comparison"
+    },
+    {
+      "id": "ADV-D02-P3-Q02",
+      "prompt": "How does the record of attendance from distant states function as evidence?",
+      "modelAnswer": "It serves as an observed counterexample to the objection that distance makes representation unworkable. Its persuasive force depends on past practice indicating future feasibility.",
+      "evidence": "not chargeable with greater intermissions of attendance",
+      "skill": "evidence"
+    },
+    {
+      "id": "ADV-D02-P3-Q03",
+      "prompt": "Why does the author enumerate the Union's borders and distances?",
+      "modelAnswer": "Detailed measurements convert an abstract fear of excessive size into a practical logistical question. The numbers are meant to make the claim testable rather than merely rhetorical.",
+      "evidence": "actual dimensions of the Union",
+      "skill": "quantitative reasoning"
+    },
+    {
+      "id": "ADV-D02-P3-Q04",
+      "prompt": "What assumption underlies comparisons with European representative assemblies?",
+      "modelAnswer": "He assumes that comparable or greater travel distances abroad demonstrate feasibility at home. A critic could ask whether infrastructure and political arrangements are sufficiently similar.",
+      "evidence": "representatives of the northern extremity",
+      "skill": "assumption"
+    },
+    {
+      "id": "ADV-D02-P3-Q05",
+      "prompt": "Why are both German and British examples used?",
+      "modelAnswer": "Germany illustrates a large polity with a common representative body; Britain illustrates long journeys to a national council. The two comparisons address scale from different angles.",
+      "evidence": "a diet representing the whole empire",
+      "skill": "synthesis"
+    },
+    {
+      "id": "ADV-D02-P3-Q06",
+      "prompt": "How does the phrase 'Favorable as this view' change the argument's direction?",
+      "modelAnswer": "It acknowledges that the geographic comparison has already helped his case while signaling an additional, stronger line of reasoning about the division of governmental responsibilities.",
+      "evidence": "Favorable as this view of the subject may be",
+      "skill": "transition"
+    },
+    {
+      "id": "ADV-D02-P3-Q07",
+      "prompt": "What is the significance of powers being limited to 'enumerated objects'?",
+      "modelAnswer": "It narrows the responsibilities of the national government, reducing the need for it to manage all local matters. The scale objection is addressed through jurisdiction as well as distance.",
+      "evidence": "limited to certain enumerated objects",
+      "skill": "constitutional reasoning"
+    },
+    {
+      "id": "ADV-D02-P3-Q08",
+      "prompt": "How does the role of subordinate governments reinforce the argument?",
+      "modelAnswer": "State institutions handle matters that can be addressed separately, allowing the national body to focus on shared concerns. Federalism is presented as a practical solution to the burdens of size.",
+      "evidence": "will retain their due authority and activity",
+      "skill": "inference"
+    },
+    {
+      "id": "ADV-D02-P3-Q09",
+      "prompt": "Why does the author grant conditional legitimacy to the opponents' objection?",
+      "modelAnswer": "By admitting that abolition of state governments would strengthen the objection, he identifies its plausible premise while insisting that premise does not describe the proposed system.",
+      "evidence": "its adversaries would have some ground",
+      "skill": "concession"
+    },
+    {
+      "id": "ADV-D02-P3-Q10",
+      "prompt": "How is the final self-preservation claim different from the earlier geographic evidence?",
+      "modelAnswer": "The first part relies on distances and historical examples; the final assertion predicts institutional necessity. It is a theoretical claim that even a centralized system would need local administration.",
+      "evidence": "compelled, by the principle of self-preservation",
+      "skill": "reasoning"
+    }
+  ]
+}
