@@ -1,6 +1,6 @@
 # Advanced Reading standard — Grades 10–11
 
-**Status: Days 1–2 curated practice available, 80 excerpt corpus sourced; full replacement bank incomplete.**
+**Status: 20 days of untimed guided advanced reading published; 80 excerpts, 800 prompts. Editorial sign-off and advanced multiple-choice full-paper replacement incomplete.**
 The existing 20-day Reading bank is introductory and consists predominantly of synthetic passages and direct-recall questions. It does **not** yet meet the standard below. Do not advertise it as Grade 10–11 advanced content until actual passages and questions have been replaced and checked.
 
 ## Required standard
@@ -43,6 +43,13 @@ These are verified available public-domain work candidates, *not* 80 completed s
 
 ## Actual implementation progress
 
-- Days 1–2 include eight authentic excerpts and 80 authored evidence-based written-response questions at `advanced-reading.html`; they are separate from timed HSPT-style papers.
+- Days 1–2 include eight authentic excerpts and 80 authored evidence-based written-response questions at `advanced-reading.html`; Days 3–20 add 72 excerpts with 720 scaffolded interpretation questions and generic self-assessment rubrics, **not individually written model answers**. All remain separate from timed HSPT-style papers.
 - Eight public-domain source works have yielded 80 staged passage excerpts in `sections/reading/data/advanced-passages-v1.json`. Boundaries and content are pending editorial review.
-- The existing 20-day 62-question exam simulation has deliberately not been changed. Full advanced replacement requires authored evidence-verified questions for the remaining 72 passages, a separate timing policy, and publication checks.
+- The existing 20-day 62-question exam simulation has deliberately not been changed. Full advanced replacement still requires passage-specific editorial review of 72 advanced excerpts, individually authored and verified model answers or challenging answer choices, independent student-level review, and a separate timing policy. The advanced practice is published as ungraded self-assessment, not certified exam material.
+
+## 2026-11-10 follow-up QA
+
+- Added `sections/reading/data/advanced/complete-days-03-20.json`: 18 days, 72 excerpts, 720 self-assessed questions. Twelve staged selections containing indexes, distribution terms, or license pages were replaced with passages split from other public-domain selections; these replacements still need editorial checks for coherent excerpt boundaries.
+- Existing Day 1–2 passage-specific questions and the students' local progress keys were preserved.
+- The page's day selector now supports 20 days. Advanced responses remain untimed and ungraded. The question-bank checks reject duplicate question IDs, duplicate excerpts, missing textual evidence anchors, and Gutenberg license content.
+- Automated structural and JavaScript syntax checks cannot certify reading level, answer quality, classroom suitability, or live browser behavior.
