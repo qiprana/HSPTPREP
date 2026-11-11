@@ -1,5 +1,7 @@
 "use strict";
-const ADV_FILES=[1,2,3,4].map(i=>'./sections/reading/data/advanced/day-01/passage-0'+i+'.json');
+const ADV_DAYS=[1,2];
+const ADV_FILES=day=>[1,2,3,4].map(i=>'./sections/reading/data/advanced/day-'+String(day).padStart(2,'0')+'/passage-0'+i+'.json');
+let advDay=1;
 const ADV_KEY='hspt-reading-advanced-v1';
 let advPassages=[],advPassage=0,advQuestion=0,advProgress={};
 const adv$=id=>document.getElementById(id);
@@ -14,6 +16,9 @@ function advStats(){
  adv$('overallBar').style.width=(ids.length?100*marked.length/ids.length:0)+'%';
 }
 function advRender(){
+ adv$('dayPicker').innerHTML=ADV_DAYS.map(day=>'<button class="tab '+(day===advDay?'active':'')+'" data-adv-day="'+day+'">Day '+day+'</button>').join('');
+ adv$('dayPicker').querySelectorAll('[data-adv-day]').forEach(b=>b.onclick=()=>advLoadDay(Number(b.dataset.advDay)));
+
  if(!advPassages.length)return;
  const paper=advPassages[advPassage],q=paper.questions[advQuestion],rec=advRecord(q);
  adv$('readingLayout').hidden=false;
@@ -64,9 +69,13 @@ function advRevealState(){
  b.disabled=answer.length<40||evidence.length<12;
  b.title=b.disabled?'Write your interpretation and identify evidence first.':'Compare with the model response.';
 }
-Promise.all(ADV_FILES.map(async p=>{const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw Error('Cannot load '+p+' (HTTP '+r.status+')');return r.json()}))
- .then(papers=>{
-  if(papers.length!==4||papers.some((p,i)=>p.id!=='ADV-D01-P'+(i+1)||!Array.isArray(p.questions)||p.questions.length!==10))throw Error('Advanced pilot data invalid');
-  advPassages=papers;advRender();
- })
- .catch(err=>{adv$('globalStatus').textContent='Advanced reading material could not be loaded. Please try reloading.';console.error(err)});
+async function advLoadDay(day){
+ if(!ADV_DAYS.includes(day))return;
+ adv$('globalStatus').textContent='Loading Day '+day+' passages…';
+ try{
+  const papers=await Promise.all(ADV_FILES(day).map(async p=>{const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw Error('Cannot load '+p+' (HTTP '+r.status+')');return r.json()}));
+  if(papers.length!==4||papers.some((p,i)=>p.id!=='ADV-D'+String(day).padStart(2,'0')+'-P'+(i+1)||!Array.isArray(p.questions)||p.questions.length!==10))throw Error('Advanced day data invalid');
+  advDay=day;advPassages=papers;advPassage=0;advQuestion=0;advRender();
+ }catch(err){adv$('globalStatus').textContent='Advanced reading material could not be loaded. Please try reloading.';console.error(err)}
+}
+advLoadDay(1);
