@@ -93,7 +93,7 @@
 .quant-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:20px 0}
 .quant-topic{border:1px solid #dce5e0;border-radius:12px;padding:13px;background:#fff}.quant-topic.quant-covered{background:#f0f8f2}
 .quant-topic-no{color:#4c8375;font-size:10px;font-weight:800;letter-spacing:.08em;margin-bottom:5px}.quant-topic strong{display:block;font-size:14px}.quant-topic p{margin:6px 0 12px}
-.quant-topic-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.quant-topic-actions button{margin-left:auto}
+.quant-topic-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.quant-topic-actions button{margin-left:auto}.quant-practice-details{border-top:1px solid #dce6e0;margin-top:14px;padding-top:12px}.quant-practice-details .kicker{font-size:10px;letter-spacing:.08em}.quant-practice-details p{margin:7px 0}.quant-practice-details .btn{margin-top:5px}
 .quant-paper-section{border-top:1px solid #dce6e0;padding-top:18px;margin-top:18px}
 .quant-paper-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
 .quant-paper-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
@@ -103,7 +103,7 @@
 .quant-note{background:#f6f7f4;border-radius:10px;padding:13px 15px;margin-top:18px}.quant-note p{margin:6px 0 0}
 .quant-paper-clock{position:sticky;top:11px;background:#e8f5ef;border:1px solid #a6cfbb;border-radius:11px;padding:12px;display:flex;justify-content:space-between;align-items:center;gap:14px;z-index:15;margin-bottom:18px}
 .quant-paper-clock strong{font-size:24px;font-variant-numeric:tabular-nums}
-#quantPaperRunner .mini-question{margin-bottom:12px}#quantPaperRunner .mini-option{margin:6px 0}
+#quantPaperRunner .mini-question,#quantPracticeRunner .mini-question{margin-bottom:12px}#quantPaperRunner .mini-option,#quantPracticeRunner .mini-option{margin:6px 0}
 @media(max-width:900px){.quant-paper-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.quant-heading{flex-direction:column}.quant-topic-grid,.quant-paper-grid{grid-template-columns:1fr}.quant-paper-clock{flex-wrap:wrap}}
 
@@ -170,7 +170,7 @@
   <div class="page-top"><div><div class="kicker">SUBJECT PRACTICE</div><h1 class="heading" id="examTitle">Verbal Skills</h1><p class="intro" id="examDescription">Practice questions for the selected HSPT subject.</p></div></div>
   <div class="section-picker" id="examSectionPicker"></div>
   <div id="readingPilotLink" class="card pad hidden"></div>
-  <div id="quantitativePlan" class="card pad hidden"><div class="kicker">QUANTITATIVE SKILLS</div><p class="muted">Loading quantitative topics…</p></div><div id="quantPaperRunner" class="card pad hidden" style="margin-top:18px"></div><div class="card exam-controls" id="examControls"><div class="kicker" id="examSelectionTitle">VERBAL SKILLS</div><div class="row"><label class="small strong">Questions <select class="tool-select" id="examCount"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="20">Up to 20 questions</option><option value="all">Entire question bank</option></select></label><label class="small strong">Timing <select class="tool-select" id="examTiming"><option value="untimed">Untimed</option><option value="timed">Section-style timer</option></select></label><button class="btn primary" id="startExam">Start practice →</button></div><div class="hint" id="examHelp"></div></div>
+  <div id="quantitativePlan" class="card pad hidden"><div class="kicker">QUANTITATIVE SKILLS</div><p class="muted">Loading quantitative topics…</p></div><div id="quantPracticeRunner" class="card pad hidden" style="margin-top:18px"></div><div id="quantPaperRunner" class="card pad hidden" style="margin-top:18px"></div><div class="card exam-controls" id="examControls"><div class="kicker" id="examSelectionTitle">VERBAL SKILLS</div><div class="row"><label class="small strong">Questions <select class="tool-select" id="examCount"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="20">Up to 20 questions</option><option value="all">Entire question bank</option></select></label><label class="small strong">Timing <select class="tool-select" id="examTiming"><option value="untimed">Untimed</option><option value="timed">Section-style timer</option></select></label><button class="btn primary" id="startExam">Start practice →</button></div><div class="hint" id="examHelp"></div></div>
   <div class="card pad" id="examBody"><div class="empty-illustration">✍</div><p class="muted">Select a section above to start. Scores will be saved separately from your learning-day vocabulary challenges.</p></div>
   <div class="card pad" id="examExternalResources" style="margin-top:20px"><div class="kicker">FREE EXTERNAL PRACTICE REFERENCES</div><h3 class="section-title">Try additional HSPT-style examples</h3><p class="medium muted">Question formats were checked against public practice guides. Our embedded questions are original practice material, not official HSPT questions or copied from these websites.</p><div class="resource-links"><a href="https://www.testingmom.com/tests/high-school-placement-test-hspt-overview/hspt-practice-questions-by-subtest/hspt-verbal-skills-practice-questions/" target="_blank" rel="noopener">TestingMom · free verbal samples ↗</a><a href="https://admittest.com/guide/hspt-sample-questions" target="_blank" rel="noopener">AdmitTest · examples for five sections ↗</a><a href="https://www.certpracticetest.com/hspt-practice-test/" target="_blank" rel="noopener">CertPracticeTest · free HSPT practice ↗</a></div></div>
  </section>
@@ -577,7 +577,8 @@ setup();
 </script>
 <script src="shared/mock.js"></script>
 <script src="shared/daily-quick.js"></script>
-<script src="sections/quantitative/quantitative-config.js?v=20261108-40papers-v2"></script>
-<script src="sections/quantitative/quantitative.js?v=20261108-40papers-v2"></script>
+<script src="sections/quantitative/quantitative-config.js?v=20261110-practice20-v1"></script>
+<script src="sections/quantitative/quantitative.js?v=20261110-practice20-v1"></script>
+<script src="sections/quantitative/quantitative-practice.js?v=20261110-practice20-v1"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ A GitHub Pages-friendly HSPT study site. No logins, frameworks or paid APIs.
 - Short concept questions are untimed; timed subject questions prioritize unseen items from the available bank and record distinct question coverage separately from repeat attempts. The optional 60-question Verbal exam is available with a **14-minute** timer.
 - The 98-question starter bank is intentionally marked as sample practice. Complete section-size question sets and actual section coverage depend on additional bank uploads.
 
-## Quantitative: 20 learning sessions and 40 complete paper files
+## Quantitative: 20 focused practice papers and 40 full-section papers
 
 All 40 Quantitative papers are now stored in `sections/quantitative/papers/test-NN/questions.json`, accompanied by HTML, metadata and validation reports. The collection manifest is at `sections/quantitative/papers/manifest.json`; it lists **2,080 questions** total. Every paper has **52 questions** and the practice interface uses a **28-minute countdown** (two minutes below the provided 30-minute standard).
 
@@ -30,7 +30,7 @@ All 40 Quantitative papers are now stored in `sections/quantitative/papers/test-
 | 21–30 | Quantitative portion of mock days 51–60, one per day | Connected; launch from mock-day panel |
 | 31–40 | Future reinforcement, retakes and targeted review | Connected, available as reserve |
 
-The 18 supplied Quantitative topics and two mixed-review sessions are displayed in the Quantitative learning curriculum. **Individual topic tests have not been uploaded yet** and remain placeholders.
+A separate collection of **20 focused practice papers (1,040 questions, 52 per paper, 35 minutes each)** is stored under `sections/quantitative/practice-papers/test-NN/questions.json`. Its manifest lists each paper's focus topics. The Quantitative learning-session cards link to these papers and track their scores independently from the 40 full-section papers. A passing focused paper can complete the selected Quantitative learning session when all 52 questions are answered and at least 70% are correct. The 18 concept topics and two mixed reviews remain visible as learning headings; practice papers cover multiple syllabus topics.
 
 The JSON runner reads the original source schema: `questions` (52 items), `question_id`, `prompt`, `options` with A–D keys, `correct_option`, `explanation`, optional `stimulus` and geometry SVG diagrams in `media.svg`. It preserves these diagrams, renders comparison quantities, tracks individual question attempts, scores and retakes, and stores progress locally in the browser.
 
@@ -40,7 +40,7 @@ Each Quantitative paper is a separate complete section. Days 51–60 still inclu
 
 - Days 51–60 currently offer **30-question five-section diagnostic previews** (six original starter questions per subject), with a 30-minute countdown, review explanations, and scores tracked separately.
 - These are **not yet complete official-format mock papers**. The starter bank of 98 questions cannot provide 10 distinct full HSPT papers. Expand the bank with user-supplied material before enabling the complete paper format.
-- Quantitative has 40 complete online papers. Topic-specific tests remain pending; other subjects still need their full mock-paper banks.
+- Quantitative has 20 focused practice papers plus 40 full-section online papers. Other subjects still need their full mock-paper banks.
 - Marking study sessions complete is separate from taking a test. Completed days require all daily words marked covered and the two selected subject sessions finished; the optional 60-question Verbal daily/cumulative challenges remain available and retakable.
 
 ## Deploy
@@ -72,7 +72,8 @@ sections/
   language/data/         # spelling, lessons, papers
   language/generators/   # content-building helpers
   quantitative/          # runner and config
-    papers/test-01..40/  # complete papers
+    papers/test-01..40/           # complete full-section papers
+    practice-papers/test-01..20/  # focused practice papers
   mathematics/           # future Mathematics content
 shared/                  # shared browser scripts
 tests/                   # validation checks
