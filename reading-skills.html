@@ -54,11 +54,28 @@ function start(kind){
 }
 function clockText(){return Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0');}
 // Highlight the vocabulary target inside its example; escape all text before inserting the underline.
+// Mark the vocabulary target word in its example; HTML-escape all surrounding text.
 function readingPromptHtml(q){
  const prompt=String(q.prompt??''),word=String(q.word??'').trim();
  if(!word)return esc(prompt);
  const quoted=[...prompt.matchAll(/"([^"]+)"/g)];
- const escapedWord=word.replace(/[.*+?^$()|[\]{}\\]/g,'\\function renderQuestion(){');
+ const wordLower=word.toLocaleLowerCase();
+ for(const quote of quoted){
+  if(quote[1].trim().toLocaleLowerCase()===wordLower)continue;
+  const snippet=quote[1],lower=snippet.toLocaleLowerCase();
+  let at=lower.indexOf(wordLower);
+  while(at>=0){
+   const before=at?snippet[at-1]:'',after=snippet[at+word.length]||'';
+   if(!/[A-Za-z0-9]/.test(before)&&!/[A-Za-z0-9]/.test(after)){
+    const from=quote.index+1+at,to=from+word.length;
+    return esc(prompt.slice(0,from))+'<u class="reading-target-word">'+esc(prompt.slice(from,to))+'</u>'+esc(prompt.slice(to));
+   }
+   at=lower.indexOf(wordLower,at+1);
+  }
+ }
+ return esc(prompt);
+}
+function renderQuestion(){');
  const wordPattern=new RegExp('(^|[^A-Za-z0-9])('+escapedWord+')(?![A-Za-z0-9])','i');
  for(const quote of quoted){
   if(quote[1].trim().toLowerCase()===word.toLowerCase())continue;
