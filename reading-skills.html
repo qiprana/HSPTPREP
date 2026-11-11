@@ -59,31 +59,24 @@ function readingPromptHtml(q){
  const prompt=String(q.prompt??''),word=String(q.word??'').trim();
  if(!word)return esc(prompt);
  const quoted=[...prompt.matchAll(/"([^"]+)"/g)];
- const wordLower=word.toLocaleLowerCase();
- for(const quote of quoted){
-  if(quote[1].trim().toLocaleLowerCase()===wordLower)continue;
-  const snippet=quote[1],lower=snippet.toLocaleLowerCase();
-  let at=lower.indexOf(wordLower);
-  while(at>=0){
-   const before=at?snippet[at-1]:'',after=snippet[at+word.length]||'';
-   if(!/[A-Za-z0-9]/.test(before)&&!/[A-Za-z0-9]/.test(after)){
-    const from=quote.index+1+at,to=from+word.length;
-    return esc(prompt.slice(0,from))+'<u class="reading-target-word">'+esc(prompt.slice(from,to))+'</u>'+esc(prompt.slice(to));
-   }
-   at=lower.indexOf(wordLower,at+1);
-  }
+ const lemma=word.toLocaleLowerCase();
+ function isTarget(token){
+  const t=token.toLocaleLowerCase();
+  if(t===lemma)return true;
+  if(t.startsWith(lemma)&&/^(s|es|ed|ing|d)$/.test(t.slice(lemma.length)))return true;
+  if(lemma.endsWith('e')&&t.startsWith(lemma.slice(0,-1))&&/^(ed|ing)$/.test(t.slice(lemma.length-1)))return true;
+  if(lemma.endsWith('y')&&['ied','ies'].some(end=>t===lemma.slice(0,-1)+end))return true;
+  if(lemma.endsWith('t')&&t===lemma+'ted')return true;
+  return false;
  }
- return esc(prompt);
-}
-function renderQuestion(){');
- const wordPattern=new RegExp('(^|[^A-Za-z0-9])('+escapedWord+')(?![A-Za-z0-9])','i');
- for(const quote of quoted){
-  if(quote[1].trim().toLowerCase()===word.toLowerCase())continue;
-  const match=wordPattern.exec(quote[1]);
-  if(!match)continue;
-  const from=quote.index+1+match.index+match[1].length;
-  const to=from+match[2].length;
-  return esc(prompt.slice(0,from))+'<u class="reading-target-word">'+esc(prompt.slice(from,to))+'</u>'+esc(prompt.slice(to));
+ for(const quotedMatch of quoted){
+  if(quotedMatch[1].trim().toLocaleLowerCase()===lemma)continue;
+  const tokens=[...quotedMatch[1].matchAll(/[A-Za-z]+(?:[-'][A-Za-z]+)*/g)];
+  for(const match of tokens){
+   if(!isTarget(match[0]))continue;
+   const from=quotedMatch.index+1+match.index,to=from+match[0].length;
+   return esc(prompt.slice(0,from))+'<u class="reading-target-word">'+esc(prompt.slice(from,to))+'</u>'+esc(prompt.slice(to));
+  }
  }
  return esc(prompt);
 }
