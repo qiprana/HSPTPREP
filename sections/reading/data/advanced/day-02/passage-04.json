@@ -1,0 +1,89 @@
+{
+  "id": "ADV-D02-P4",
+  "title": "Walden — Close reading",
+  "genre": "Philosophy",
+  "gradeBand": "10-11",
+  "wordCount": 490,
+  "text": "For many years I was self-appointed inspector of snow-storms and rain-storms, and did my duty faithfully; surveyor, if not of highways, then of forest paths and all across-lot routes, keeping them open, and ravines bridged and passable at all seasons, where the public heel had testified to their utility.\n\nI have looked after the wild stock of the town, which give a faithful herdsman a good deal of trouble by leaping fences; and I have had an eye to the unfrequented nooks and corners of the farm; though I did not always know whether Jonas or Solomon worked in a particular field to-day; that was none of my business. I have watered the red huckleberry, the sand cherry and the nettle-tree, the red pine and the black ash, the white grape and the yellow violet, which might have withered else in dry seasons.\n\nIn short, I went on thus for a long time (I may say it without boasting), faithfully minding my business, till it became more and more evident that my townsmen would not after all admit me into the list of town officers, nor make my place a sinecure with a moderate allowance. My accounts, which I can swear to have kept faithfully, I have, indeed, never got audited, still less accepted, still less paid and settled. However, I have not set my heart on that.\n\nNot long since, a strolling Indian went to sell baskets at the house of a well-known lawyer in my neighborhood. \"Do you wish to buy any baskets?\" he asked. \"No, we do not want any,\" was the reply. \"What!\" exclaimed the Indian as he went out the gate, \"do you mean to starve us?\" Having seen his industrious white neighbors so well off--that the lawyer had only to weave arguments, and, by some magic, wealth and standing followed--he had said to himself: I will go into business; I will weave baskets; it is a thing which I can do. Thinking that when he had made the baskets he would have done his part, and then it would be the white man's to buy them. He had not discovered that it was necessary for him to make it worth the other's while to buy them, or at least make him think that it was so, or to make something else which it would be worth his while to buy. I too had woven a kind of basket of a delicate texture, but I had not made it worth any one's while to buy them. Yet not the less, in my case, did I think it worth my while to weave them, and instead of studying how to make it worth men's while to buy my baskets, I studied rather how to avoid the necessity of selling them. The life which men praise and regard as successful is but one kind. Why should we exaggerate any one kind at the expense of the others?",
+  "source": {
+    "work": "Walden",
+    "author": "Henry David Thoreau",
+    "publicationYear": 1854,
+    "chapter": "Selected excerpt",
+    "url": "https://www.gutenberg.org/ebooks/205",
+    "rights": "Public domain in United States",
+    "contextNote": "Authentic historical text; wording and viewpoints reflect its period."
+  },
+  "questions": [
+    {
+      "id": "ADV-D02-P4-Q01",
+      "prompt": "Why does Thoreau assign himself public-sounding jobs without official appointment?",
+      "modelAnswer": "His invented titles humorously confer value on observations and care that society does not reward. The joke questions the assumption that only paid or recognized labor counts.",
+      "evidence": "self-appointed inspector of snow-storms",
+      "skill": "irony"
+    },
+    {
+      "id": "ADV-D02-P4-Q02",
+      "prompt": "What does the detailed list of plants and paths contribute to his self-portrait?",
+      "modelAnswer": "Specific natural objects make his unofficial work concrete and attentive, countering any assumption that his idleness was mere neglect. The details also suggest a different standard of usefulness.",
+      "evidence": "red huckleberry, the sand cherry",
+      "skill": "imagery"
+    },
+    {
+      "id": "ADV-D02-P4-Q03",
+      "prompt": "Why does the narrator emphasize that his accounts were never audited or paid?",
+      "modelAnswer": "He borrows the language of business to expose the mismatch between his chosen pursuits and conventional employment. The mock grievance makes the economic standard appear arbitrary.",
+      "evidence": "never got audited, still less accepted",
+      "skill": "satire"
+    },
+    {
+      "id": "ADV-D02-P4-Q04",
+      "prompt": "What misconception does the basket seller initially make about production?",
+      "modelAnswer": "He supposes that successfully making an item creates an obligation for others to buy it. The encounter distinguishes personal effort from market demand.",
+      "evidence": "when he had made the baskets he would have done his part",
+      "skill": "economic reasoning"
+    },
+    {
+      "id": "ADV-D02-P4-Q05",
+      "prompt": "How does Thoreau compare his own work with the basket seller's?",
+      "modelAnswer": "Both have made something they find valuable, but the narrator chooses not to make public purchase the test of worth. The analogy supports an alternative to commercial success.",
+      "evidence": "I too had woven a kind of basket",
+      "skill": "analogy"
+    },
+    {
+      "id": "ADV-D02-P4-Q06",
+      "prompt": "What role does the lawyer play in the basket anecdote?",
+      "modelAnswer": "He exemplifies a society in which some forms of labor bring status and money while others do not. His refusal also demonstrates that a producer cannot dictate another person's needs.",
+      "evidence": "the lawyer had only to weave arguments",
+      "skill": "social criticism"
+    },
+    {
+      "id": "ADV-D02-P4-Q07",
+      "prompt": "Why is the phrase 'weave arguments' especially pointed?",
+      "modelAnswer": "It creates a parallel between the lawyer's rhetoric and the seller's baskets. The same verb highlights how different products receive different economic and social valuations.",
+      "evidence": "weave arguments",
+      "skill": "word choice"
+    },
+    {
+      "id": "ADV-D02-P4-Q08",
+      "prompt": "Does Thoreau endorse forcing others to buy goods they do not need? Explain.",
+      "modelAnswer": "No. He explicitly acknowledges the seller's failure to offer something worth buying, then separates that market judgment from the personal worth of undertaking an activity.",
+      "evidence": "make it worth the other's while to buy",
+      "skill": "qualification"
+    },
+    {
+      "id": "ADV-D02-P4-Q09",
+      "prompt": "What does the sentence about avoiding the necessity of selling suggest about freedom?",
+      "modelAnswer": "The narrator seeks independence by reducing reliance on others' purchases rather than maximizing income. Freedom here means control over one's needs and standards of success.",
+      "evidence": "avoid the necessity of selling them",
+      "skill": "inference"
+    },
+    {
+      "id": "ADV-D02-P4-Q10",
+      "prompt": "How does the final rhetorical question reframe the entire passage?",
+      "modelAnswer": "It moves from comic self-description and a market anecdote to a general challenge to conventional success. Multiple worthwhile lives may exist beyond publicly rewarded work.",
+      "evidence": "Why should we exaggerate any one kind",
+      "skill": "synthesis"
+    }
+  ]
+}
