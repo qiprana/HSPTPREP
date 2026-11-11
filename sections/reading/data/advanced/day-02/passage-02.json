@@ -1,0 +1,89 @@
+{
+  "id": "ADV-D02-P2",
+  "title": "A Vindication of the Rights of Woman — Close reading",
+  "genre": "Argument",
+  "gradeBand": "10-11",
+  "wordCount": 398,
+  "text": "These are exactly the arguments that I have used to children; but I have added, \"Your reason is now gaining strength, and, till it arrives at some degree of maturity, you must look up to me for advice: then you ought to THINK, and only rely on God.\"\n\nYet, in the following lines, Milton seems to coincide with me, when he makes Adam thus expostulate with his Maker:--\n\n\"Hast thou not made me here thy substitute, And these inferior far beneath me set? Among unequals what society Can sort, what harmony or delight? Which must be mutual, in proportion due Given and received; but in disparity The one intense, the other still remiss Cannot well suit with either, but soon prove Tedious alike: of fellowship I speak Such as I seek fit to participate All rational delight.\"\n\nIn treating, therefore, of the manners of women, let us, disregarding sensual arguments, trace what we should endeavour to make them in order to co-operate, if the expression be not too bold, with the Supreme Being.\n\nBy individual education, I mean--for the sense of the word is not precisely defined--such an attention to a child as will slowly sharpen the senses, form the temper, regulate the passions, as they begin to ferment, and set the understanding to work before the body arrives at maturity; so that the man may only have to proceed, not to begin, the important task of learning to think and reason.\n\nTo prevent any misconstruction, I must add, that I do not believe that a private education can work the wonders which some sanguine writers have attributed to it. Men and women must be educated, in a great degree, by the opinions and manners of the society they live in. In every age there has been a stream of popular opinion that has carried all before it, and given a family character, as it were, to the century. It may then fairly be inferred, that, till society be differently constituted, much cannot be expected from education. It is, however, sufficient for my present purpose to assert, that, whatever effect circumstances have on the abilities, every being may become virtuous by the exercise of its own reason; for if but one being was created with vicious inclinations--that is, positively bad-- what can save us from atheism? or if we worship a God, is not that God a devil?",
+  "source": {
+    "work": "A Vindication of the Rights of Woman",
+    "author": "Mary Wollstonecraft",
+    "publicationYear": 1792,
+    "chapter": "Selected excerpt",
+    "url": "https://www.gutenberg.org/ebooks/3420",
+    "rights": "Public domain in United States",
+    "contextNote": "Authentic historical text; wording and viewpoints reflect its period."
+  },
+  "questions": [
+    {
+      "id": "ADV-D02-P2-Q01",
+      "prompt": "Why does the author tell a child to obey advice only temporarily?",
+      "modelAnswer": "She treats deference as a developmental necessity rather than a permanent ideal: maturing reason should replace dependence. The distinction prepares her broader argument about education.",
+      "evidence": "till it arrives at some degree of maturity",
+      "skill": "thesis"
+    },
+    {
+      "id": "ADV-D02-P2-Q02",
+      "prompt": "What role does the quotation about unequal fellowship play?",
+      "modelAnswer": "It supports the claim that meaningful companionship requires some reciprocity between rational beings. The borrowed authority reinforces a moral rather than merely practical argument.",
+      "evidence": "Among unequals what society",
+      "skill": "allusion"
+    },
+    {
+      "id": "ADV-D02-P2-Q03",
+      "prompt": "How does the author define education beyond memorizing information?",
+      "modelAnswer": "Education develops perception, emotional self-command and reasoning before adulthood. Her definition depicts an ongoing formation of judgment rather than the accumulation of lessons.",
+      "evidence": "set the understanding to work",
+      "skill": "definition"
+    },
+    {
+      "id": "ADV-D02-P2-Q04",
+      "prompt": "Why does she clarify the meaning of 'individual education'?",
+      "modelAnswer": "She anticipates ambiguity in the term and narrows her argument before examining its limits. The qualification improves precision and avoids making private instruction seem omnipotent.",
+      "evidence": "the sense of the word is not precisely defined",
+      "skill": "rhetorical structure"
+    },
+    {
+      "id": "ADV-D02-P2-Q05",
+      "prompt": "What correction does the author make to an overly optimistic view of private education?",
+      "modelAnswer": "She concedes that social customs shape people alongside parental teaching, so private instruction cannot by itself transform society. The concession strengthens rather than abandons her argument.",
+      "evidence": "private education can work the wonders",
+      "skill": "concession"
+    },
+    {
+      "id": "ADV-D02-P2-Q06",
+      "prompt": "How does the image of a stream of popular opinion develop her reasoning?",
+      "modelAnswer": "The current suggests pervasive social pressure that carries individuals along and helps determine an era's character. It explains why isolated teaching is constrained by the surrounding culture.",
+      "evidence": "a stream of popular opinion",
+      "skill": "metaphor"
+    },
+    {
+      "id": "ADV-D02-P2-Q07",
+      "prompt": "What does her admission that little can be expected until society changes imply?",
+      "modelAnswer": "It implies that reform must address public norms, not merely individual children. Her account of learning moves from the household to institutions and collective assumptions.",
+      "evidence": "till society be differently constituted",
+      "skill": "inference"
+    },
+    {
+      "id": "ADV-D02-P2-Q08",
+      "prompt": "Where does the author locate the possibility of virtue despite social pressures?",
+      "modelAnswer": "She argues that every person can exercise reason even if circumstances influence abilities. Thus social conditioning limits development but does not eliminate moral agency.",
+      "evidence": "virtuous by the exercise of its own reason",
+      "skill": "argument"
+    },
+    {
+      "id": "ADV-D02-P2-Q09",
+      "prompt": "How does the closing theological question intensify the argument?",
+      "modelAnswer": "It presents the hypothesis of an inherently vicious creature as incompatible with a just creator. The stark implication pressures readers to accept the potential for rational virtue.",
+      "evidence": "if but one being was created with vicious inclinations",
+      "skill": "reductio"
+    },
+    {
+      "id": "ADV-D02-P2-Q10",
+      "prompt": "What tension should a careful reader notice between dependence and independence?",
+      "modelAnswer": "The text acknowledges childhood dependence and social influence while insisting on eventual self-directed reason. Its central ideal is autonomy achieved through education, not isolation from others.",
+      "evidence": "then you ought to THINK",
+      "skill": "synthesis"
+    }
+  ]
+}
