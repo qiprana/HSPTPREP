@@ -1,5 +1,7 @@
 "use strict";
-const ADV_DAYS=[1,2];
+const ADV_DAYS=Array.from({length:20},(_,i)=>i+1);
+let advExtendedBank=null;
+let advLoadRequest=0;
 const ADV_FILES=day=>[1,2,3,4].map(i=>'./sections/reading/data/advanced/day-'+String(day).padStart(2,'0')+'/passage-0'+i+'.json');
 let advDay=1;
 const ADV_KEY='hspt-reading-advanced-v1';
@@ -40,8 +42,8 @@ function advRender(){
  '<textarea class="area" id="advAnswer" rows="4" placeholder="Explain your reasoning in your own words…">'+advEsc(rec.answer)+'</textarea>'+
  '<label class="field" for="advEvidence">Support it with a detail or quotation from the passage</label>'+
  '<textarea class="area evidence" id="advEvidence" rows="3" placeholder="Which line or detail supports your answer?">'+advEsc(rec.evidence)+'</textarea>'+
- (rec.revealed?'<div class="feedback"><div class="kicker">MODEL ANSWER & SOURCE EVIDENCE</div><p>'+advEsc(q.modelAnswer)+'</p>'+
- '<p><b>Text evidence:</b> '+advEsc(q.evidence)+'</p><p class="small muted">Compare this with your own response. This exercise uses self-assessment, not automated scoring.</p></div>':'')+
+ (rec.revealed?'<div class="feedback"><div class="kicker">'+(q.answerType==='guided-rubric'?'RESPONSE GUIDE · EDITORIAL REVIEW PENDING':'MODEL ANSWER & SOURCE EVIDENCE')+'</div><p>'+advEsc(q.modelAnswer)+'</p>'+
+ '<p><b>Evidence anchor:</b> '+advEsc(q.evidence)+'</p><p class="small muted">'+(q.answerType==='guided-rubric'?'This is a response guide, not a checked model solution. Evaluate your answer against the rubric and the excerpt.':'Compare with the model response. This exercise uses self-assessment, not automated scoring.')+'</p></div>':'')+
  '<div class="actions">'+(rec.revealed?'<button class="secondary" data-adv-status="review">Needs review</button>'+
  '<button class="primary" data-adv-status="understood">I understand this</button>':
  '<button class="primary" id="advReveal">Reveal model response</button>')+'</div></div>'+
@@ -71,11 +73,23 @@ function advRevealState(){
 }
 async function advLoadDay(day){
  if(!ADV_DAYS.includes(day))return;
+ const ticket=++advLoadRequest;
  adv$('globalStatus').textContent='Loading Day '+day+' passages…';
  try{
-  const papers=await Promise.all(ADV_FILES(day).map(async p=>{const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw Error('Cannot load '+p+' (HTTP '+r.status+')');return r.json()}));
-  if(papers.length!==4||papers.some((p,i)=>p.id!=='ADV-D'+String(day).padStart(2,'0')+'-P'+(i+1)||!Array.isArray(p.questions)||p.questions.length!==10))throw Error('Advanced day data invalid');
+  let papers;
+  if(day<=2){
+   papers=await Promise.all(ADV_FILES(day).map(async p=>{const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw Error('Cannot load '+p+' (HTTP '+r.status+')');return r.json()}));
+  }else{
+   if(!advExtendedBank){
+    const r=await fetch('./sections/reading/data/advanced/complete-days-03-20.json',{cache:'no-cache'});
+    if(!r.ok)throw Error('Cannot load advanced Reading bank (HTTP '+r.status+')');
+    advExtendedBank=await r.json();
+   }
+   papers=advExtendedBank.days.find(x=>x.day===day)?.passages;
+  }
+  if(ticket!==advLoadRequest)return;
+  if(!Array.isArray(papers)||papers.length!==4||papers.some((p,i)=>p.id!=='ADV-D'+String(day).padStart(2,'0')+'-P'+(i+1)||!Array.isArray(p.questions)||p.questions.length!==10))throw Error('Advanced day data invalid');
   advDay=day;advPassages=papers;advPassage=0;advQuestion=0;advRender();
- }catch(err){adv$('globalStatus').textContent='Advanced reading material could not be loaded. Please try reloading.';console.error(err)}
+ }catch(err){if(ticket===advLoadRequest)adv$('globalStatus').textContent='Advanced reading material could not be loaded. Please try reloading.';console.error(err)}
 }
 advLoadDay(1);
