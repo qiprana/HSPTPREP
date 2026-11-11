@@ -57,3 +57,34 @@ assert.equal(vocabWords.size,440);
 assert.equal(legacy.vocabularyQuestions.length,22);
 assert.equal(new Set(legacy.vocabularyQuestions.map(x=>x.targetWord.toLowerCase())).size,22);
 console.log('PASS: 20 Reading papers, 80 passages, 1240 test questions, 300 guided questions and 440 unique full-test vocabulary targets.');
+
+
+// Test vocabulary-underlining on all 20 full papers and 20 guided sessions.
+const page=fs.readFileSync(path.join(__dirname,'../reading-skills.html'),'utf8');
+const helperStart=page.indexOf('function readingPromptHtml(q){');
+const helperEnd=page.indexOf('function renderQuestion(){',helperStart);
+assert.ok(helperStart>0&&helperEnd>helperStart,'Missing vocabulary underline renderer');
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const readingPromptHtml=new Function('esc',page.slice(helperStart,helperEnd)+'return readingPromptHtml;')(escapeHtml);
+assert.ok(page.includes("'<h3>'+readingPromptHtml(q)+'</h3>"),'Quiz view must display underlined targets');
+assert.ok(page.includes("'. '+readingPromptHtml(q)+'</b>"),'Answer review must display underlined targets');
+let underlined=0,vocabChecked=0;
+for(const paper of data.tests){
+ for(const q of paper.vocabularyQuestions){
+  const rendered=readingPromptHtml(q);
+  assert.equal((rendered.match(/<u class="reading-target-word">/g)||[]).length,1,q.id+' missing target underline');
+  assert.ok(/<u class="reading-target-word">[^<]+<\/u>/.test(rendered),q.id+' missing visible target');
+  vocabChecked++;if(/underlined word/i.test(q.prompt))underlined++;
+ }
+}
+for(const practice of data.practice)for(const q of practice.questions.filter(q=>q.word)){
+ const rendered=readingPromptHtml(q);
+ assert.ok(/<u class="reading-target-word">[^<]+<\/u>/.test(rendered),q.id+' missing visible target');
+ vocabChecked++;
+}
+assert.equal(vocabChecked,540,'Every full-paper and guided-practice vocabulary question checked');
+assert.equal(underlined,17,'Expected 17 explicit underlined-word prompts in Reading Day 1');
+assert.ok(data.tests[0].vocabularyQuestions.slice(0,17).every(q=>/underlined word/i.test(q.prompt)),'Day 1 Q41–Q57 should have visible underlining');
+const ordinary=data.tests[0].passages[0].questions[0];
+assert.equal(readingPromptHtml(ordinary),escapeHtml(ordinary.prompt),'Do not alter comprehension question rendering');
+console.log('PASS: All 540 Reading vocabulary targets display an underline, including Day 1 Q41–57; review and comprehension rendering verified.');
