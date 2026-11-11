@@ -1,13 +1,13 @@
 /* Run with: node tests/validate-language-papers.js */
 const fs=require('node:fs');
 const path=require('node:path');
-const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/language-papers-v2.json'),'utf8'));
-const sessions=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/language-20day-curriculum-spelling.json'),'utf8')).sessions;
+const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../sections/language/data/language-papers-v2.json'),'utf8'));
+const sessions=JSON.parse(fs.readFileSync(path.join(__dirname,'../sections/language/data/language-20day-curriculum-spelling.json'),'utf8')).sessions;
 const assert=require('node:assert/strict');
 assert.equal(data.tests.length,20);
 assert.equal(data.practice.length,20);
 assert.equal(sessions.length,20);
-const book=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/language-hspt-book-spelling.json'),'utf8'));
+const book=JSON.parse(fs.readFileSync(path.join(__dirname,'../sections/language/data/language-hspt-book-spelling.json'),'utf8'));
 const allWords=sessions.flatMap(x=>x.words),allWordSet=new Set(allWords.map(x=>x.toLowerCase()));
 assert.equal(allWords.length,317,'Expected 317 unique words');
 assert.equal(allWordSet.size,317,'Spelling vocabulary must not repeat');

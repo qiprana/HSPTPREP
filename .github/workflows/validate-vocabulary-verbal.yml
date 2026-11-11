@@ -3,15 +3,15 @@ on:
   push:
     paths:
       - 'index.html'
-      - 'daily-quick.js'
-      - 'words-*.js'
+      - 'shared/daily-quick.js'
+      - 'sections/vocabulary/data/words-*.js'
       - 'tests/validate-vocabulary-verbal.js'
       - '.github/workflows/validate-vocabulary-verbal.yml'
   pull_request:
     paths:
       - 'index.html'
-      - 'daily-quick.js'
-      - 'words-*.js'
+      - 'shared/daily-quick.js'
+      - 'sections/vocabulary/data/words-*.js'
       - 'tests/validate-vocabulary-verbal.js'
 jobs:
   validate-vocabulary-verbal:

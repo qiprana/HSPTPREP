@@ -2,16 +2,16 @@ name: Validate HSPT Language Question Banks
 on:
   push:
     paths:
-      - 'content/language-papers-v2.json'
-      - 'content/language-20day-curriculum-spelling.json'
-      - 'content/language-hspt-book-spelling.json'
+      - 'sections/language/data/language-papers-v2.json'
+      - 'sections/language/data/language-20day-curriculum-spelling.json'
+      - 'sections/language/data/language-hspt-book-spelling.json'
       - 'tests/validate-language-papers.js'
       - '.github/workflows/validate-language.yml'
   pull_request:
     paths:
-      - 'content/language-papers-v2.json'
-      - 'content/language-20day-curriculum-spelling.json'
-      - 'content/language-hspt-book-spelling.json'
+      - 'sections/language/data/language-papers-v2.json'
+      - 'sections/language/data/language-20day-curriculum-spelling.json'
+      - 'sections/language/data/language-hspt-book-spelling.json'
       - 'tests/validate-language-papers.js'
 jobs:
   check-language:

@@ -4,12 +4,12 @@
    Files are not assumed present; only explicit manifest paths are loadable. */
 const QCFG=window.HSPT_QUANT_CONFIG;
 /* Recovery for clients that cached the old placeholder config.
-   Canonical files were verified in forty-tests/test-01 through test-40. */
+   Canonical files were verified in sections/quantitative/papers/test-01 through test-40. */
 if(QCFG?.paperSlots?.length===40){
   for(let i=0;i<40;i++){
     const slot=QCFG.paperSlots[i];
     if(slot&&!slot.path){
-      slot.path='forty-tests/test-'+String(i+1).padStart(2,'0')+'/questions.json';
+      slot.path='sections/quantitative/papers/test-'+String(i+1).padStart(2,'0')+'/questions.json';
       slot.format='json';
     }
   }
@@ -37,7 +37,7 @@ function quantGroup(paperNumber){return paperNumber<=20?'learning':paperNumber<=
 function quantPaperLink(slot){
  if(!slot||!slot.path)return '';
  const path=slot.path.trim();
- if(!/^(?:forty-tests|output)\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
+ if(!/^(?:sections/quantitative/papers|output)\/[a-zA-Z0-9_./-]+\.(?:json|pdf)$/i.test(path)||path.includes('..'))return '';
  return path;
 }
 function quantPaperBest(paper){

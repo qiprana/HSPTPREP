@@ -22,7 +22,7 @@ A GitHub Pages-friendly HSPT study site. No logins, frameworks or paid APIs.
 
 ## Quantitative: 20 learning sessions and 40 complete paper files
 
-All 40 Quantitative papers are now stored in `forty-tests/test-NN/questions.json`, accompanied by HTML, metadata and validation reports. The collection manifest is at `forty-tests/manifest.json`; it lists **2,080 questions** total. Every paper has **52 questions** and the practice interface uses a **28-minute countdown** (two minutes below the provided 30-minute standard).
+All 40 Quantitative papers are now stored in `sections/quantitative/papers/test-NN/questions.json`, accompanied by HTML, metadata and validation reports. The collection manifest is at `sections/quantitative/papers/manifest.json`; it lists **2,080 questions** total. Every paper has **52 questions** and the practice interface uses a **28-minute countdown** (two minutes below the provided 30-minute standard).
 
 | Paper numbers | Allocation | Status |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Each Quantitative paper is a separate complete section. Days 51–60 still inclu
 
 ## Deploy
 
-1. Put `index.html`, `mock.js`, `exam-data.js`, `words-01.js` through the final `words-NN.js`, and `words.csv` at the repository root.
+1. Keep public HTML pages at the root and resource files under `sections/` or `shared/`.
 2. In GitHub, open Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 3. Your site will appear at `https://qiprana.github.io/HSPTPREP/` once GitHub Pages finishes publishing.
 
@@ -59,3 +59,25 @@ Free reference sites for additional practice:
 - https://www.certpracticetest.com/hspt-practice-test/
 
 This is independent, unofficial preparation material; not affiliated with Scholastic Testing Service.
+
+## Adding new material
+
+```text
+index.html, language.html, reading-skills.html  # stable public URLs
+sections/
+  vocabulary/data/       # word chunks, CSV
+  verbal/                # future Verbal Skills data
+  reading/data/          # lessons, papers, source seeds
+  reading/generators/    # content-building helpers
+  language/data/         # spelling, lessons, papers
+  language/generators/   # content-building helpers
+  quantitative/          # runner and config
+    papers/test-01..40/  # complete papers
+  mathematics/           # future Mathematics content
+shared/                  # shared browser scripts
+tests/                   # validation checks
+docs/                    # project notes
+.github/workflows/       # automated tests
+```
+
+Keep question IDs, study progress keys, and public page URLs stable. Put new content under its section and run the validation tests before deploying. Quantitative papers 1–20 are learning, 21–30 mocks, and 31–40 reserve. The legacy forty-tests index redirects to the new catalog.

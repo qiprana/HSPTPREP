@@ -3,8 +3,8 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
-const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../reading/reading-papers-v2.json'),'utf8'));
-const legacy=JSON.parse(fs.readFileSync(path.join(__dirname,'../reading/paper-01.json'),'utf8'));
+const data=JSON.parse(fs.readFileSync(path.join(__dirname,'../sections/reading/data/reading-papers-v2.json'),'utf8'));
+const legacy=JSON.parse(fs.readFileSync(path.join(__dirname,'../sections/reading/data/paper-01.json'),'utf8'));
 assert.equal(data.tests.length,20,'Exactly 20 Reading papers');
 assert.equal(data.practice.length,20,'Exactly 20 guided practices');
 assert.equal(data.lessons.length,20,'Exactly 20 Reading lessons');

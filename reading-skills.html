@@ -93,7 +93,7 @@ function finish(auto){
 const params=new URLSearchParams(location.search),requestedDay=Number(params.get('day'));
 if(Number.isInteger(requestedDay)&&requestedDay>=1&&requestedDay<=20)day=requestedDay;
 renderDays();renderDashboard();
-fetch('./reading/reading-papers-v2.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
+fetch('./sections/reading/data/reading-papers-v2.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
  if(!Array.isArray(data.tests)||data.tests.length!==20||!Array.isArray(data.practice)||data.practice.length!==20)throw Error('Reading data must contain 20 days');
  if(data.tests.some(p=>p.passages?.length!==4||p.passages.some(x=>x.questions?.length!==10)||p.vocabularyQuestions?.length!==22))throw Error('Invalid Reading test distribution');
  bank=data;renderDashboard();renderToolkit();if(params.get('focus')==='test')$('testBtn')?.focus();
