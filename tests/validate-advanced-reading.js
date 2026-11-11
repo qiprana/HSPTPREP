@@ -6,10 +6,10 @@ const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const data=p=>JSON.parse(read(p));
 const names=new Set(),passageTexts=new Set(),ids=new Set(),works=new Set();
 const sources=[];
-for(let i=1;i<=4;i++){
+for(let day=1;day<=2;day++)for(let i=1;i<=4;i++){
  const code=String(i).padStart(2,'0');
- const p=data('sections/reading/data/advanced/day-01/passage-'+code+'.json');
- assert.equal(p.id,'ADV-D01-P'+i);
+ const p=data('sections/reading/data/advanced/day-'+String(day).padStart(2,'0')+'/passage-'+code+'.json');
+ assert.equal(p.id,'ADV-D'+String(day).padStart(2,'0')+'-P'+i);
  assert.ok(p.title.length>10);
  assert.ok(p.wordCount>=350&&p.wordCount<=650,p.title+' must be within the 350-650 word editorial target');
  assert.equal(p.questions.length,10);
@@ -29,8 +29,8 @@ for(let i=1;i<=4;i++){
  }
  sources.push(p.source.work);
 }
-assert.equal(works.size,4);
-assert.equal(ids.size,40,'Day 1 pilot must contain 40 advanced questions');
+assert.ok(works.size>=4);
+assert.equal(ids.size,80,'Days 1–2 must contain 80 advanced questions');
 const bank=data('sections/reading/data/advanced-passages-v1.json');
 assert.equal(bank.gradeBand,'10-11');
 assert.equal(bank.days.length,20);
@@ -43,7 +43,9 @@ assert.ok(longBank.every(p=>p.source?.url&&p.source?.author&&p.reviewStatus==='p
 assert.ok(longBank.every(p=>p.questions.length===0),'Staged excerpts must not be assigned unrelated legacy questions');
 const html=read('advanced-reading.html'),reading=read('reading-skills.html'),script=read('sections/reading/advanced-reading.js');
 assert.ok(reading.includes('href="./advanced-reading.html"'),'Reading page must link advanced Day 1 pilot');
-assert.ok(html.includes('40 challenging written-response questions')||html.includes('40 challenging questions'));
+assert.ok(html.includes('80 challenging evidence-based questions'));
+assert.ok(html.includes('id="dayPicker"'));
+assert.ok(script.includes('ADV_DAYS=[1,2]'));
 assert.ok(html.includes('sections/reading/advanced-reading.js'));
 assert.ok(script.includes('hspt-reading-advanced-v1'),'Use independent student progress key');
 assert.ok(!script.includes('hspt-reading-v2'),'Do not overwrite legacy Reading progress');
@@ -52,4 +54,4 @@ assert.ok(script.includes("answer.length<40||evidence.length<12"),'Require both 
 new vm.Script(script);
 const embedded=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(Boolean);
 for(const s of embedded)new vm.Script(s);
-console.log('PASS: 4 authentic pilot excerpts, 40 evidence-anchored questions; 80 distinct staged source excerpts, separate progress and working browser script.');
+console.log('PASS: 8 authentic excerpts, 80 evidence-anchored questions across 2 days; 80 distinct staged source excerpts, separate progress and working browser script.');
