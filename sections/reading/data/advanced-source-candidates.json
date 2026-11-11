@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "gradeBand": "10-11",
+  "status": "source_curation_only",
+  "liveBankStatus": "introductory_legacy",
+  "newPassagesWritten": 0,
+  "requiredFullTestPassages": 80,
+  "sourceCandidates": [
+    {
+      "work": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "genre": "literary fiction",
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "rights": "public domain in the USA",
+      "usage": "Narrative voice, free indirect discourse, irony, inference"
+    },
+    {
+      "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "author": "Frederick Douglass",
+      "year": 1845,
+      "genre": "memoir and historical firsthand account",
+      "url": "https://www.gutenberg.org/ebooks/23",
+      "rights": "public domain in the USA",
+      "usage": "Perspective, argument, tone, rhetorical choice; teach with historical context"
+    },
+    {
+      "work": "The Federalist Papers",
+      "author": "Alexander Hamilton, James Madison, John Jay",
+      "year": 1787,
+      "genre": "political argument and historical essay",
+      "url": "https://www.gutenberg.org/ebooks/1404",
+      "rights": "public domain in the USA",
+      "usage": "Claim/evidence, inference, counterargument, paragraph structure"
+    },
+    {
+      "work": "On the Origin of Species",
+      "author": "Charles Darwin",
+      "year": 1859,
+      "genre": "historical scientific argument",
+      "url": "https://www.gutenberg.org/ebooks/1228",
+      "rights": "public domain in the USA",
+      "usage": "Scientific reasoning, qualification, hypothesis and evidence; historical science not modern factual guidance"
+    }
+  ]
+}
