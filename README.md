@@ -36,6 +36,10 @@ The JSON runner reads the original source schema: `questions` (52 items), `quest
 
 Each Quantitative paper is a separate complete section. Days 51–60 still include a **30-question, five-section diagnostic preview**, because full Reading, Mathematics, Language and Verbal mock-paper banks are not yet complete. The matching 52-question Quantitative paper (#21–30) can be launched separately on each mock day. Do not present the diagnostic as a complete five-section HSPT exam.
 
+## Reading vocabulary display
+
+Reading test and guided-practice prompts now underline the vocabulary target in their example phrase or sentence. All 540 Reading vocabulary questions, including Day 1 Q41–57, are covered without changing questions, answers, IDs or saved student progress. The same formatting is used in answer review.
+
 ## Mock-exam readiness
 
 - Days 51–60 currently offer **30-question five-section diagnostic previews** (six original starter questions per subject), with a 30-minute countdown, review explanations, and scores tracked separately.
