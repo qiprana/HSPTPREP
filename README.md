@@ -86,3 +86,10 @@ docs/                    # project notes
 ```
 
 Keep question IDs, study progress keys, and public page URLs stable. Put new content under its section and run the validation tests before deploying. Quantitative papers 1–20 are learning, 21–30 mocks, and 31–40 reserve. The legacy forty-tests index redirects to the new catalog.
+
+
+## Advanced authentic Reading (Grades 10–11)
+
+An **untimed Day 1 pilot** is available at `advanced-reading.html`, with four sourced public-domain excerpts and 40 evidence-based written-response questions. Students write a response and cite a detail before seeing a model answer; self-reviews are saved independently under `hspt-reading-advanced-v1` and the existing 23-minute, 62-question Reading papers remain unchanged.
+
+A separate `sections/reading/data/advanced-passages-v1.json` contains **80 source-attributed excerpts across 20 days from eight historical public-domain works**, not yet released as tests. The excerpt boundaries, historical context and difficulty still need editorial review, and 760 further advanced passage questions have not yet been authored. Do not silently substitute those excerpts for unrelated legacy questions.

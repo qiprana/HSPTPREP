@@ -1,6 +1,6 @@
 # Advanced Reading standard — Grades 10–11
 
-**Status: editorial specification, not a completed replacement bank.**
+**Status: Day 1 curated pilot available, 80 excerpt corpus sourced; full replacement bank incomplete.**
 The existing 20-day Reading bank is introductory and consists predominantly of synthetic passages and direct-recall questions. It does **not** yet meet the standard below. Do not advertise it as Grade 10–11 advanced content until actual passages and questions have been replaced and checked.
 
 ## Required standard
@@ -40,3 +40,9 @@ These are verified available public-domain work candidates, *not* 80 completed s
 - Current questions frequently permit elimination by implausible distractors; some explanations merely repeat the answer.
 - **No existing synthetic passage has been relabeled as authentic or advanced.**
 - Vocabulary underlining is a separate UI defect and is fixed independently.
+
+## Actual implementation progress
+
+- Day 1 includes four authentic excerpts and 40 authored evidence-based written-response questions at `advanced-reading.html`; they are separate from timed HSPT-style papers.
+- Eight public-domain source works have yielded 80 staged passage excerpts in `sections/reading/data/advanced-passages-v1.json`. Boundaries and content are pending editorial review.
+- The existing 20-day 62-question exam simulation has deliberately not been changed. Full advanced replacement requires authored evidence-verified questions for the remaining 76 passages, a separate timing policy, and publication checks.

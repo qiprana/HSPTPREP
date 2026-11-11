@@ -1,0 +1,30 @@
+name: Validate Advanced Authentic Reading
+on:
+  push:
+    paths:
+      - 'advanced-reading.html'
+      - 'reading-skills.html'
+      - 'sections/reading/advanced-reading.js'
+      - 'sections/reading/data/advanced/**'
+      - 'sections/reading/data/advanced-passages-v1.json'
+      - 'tests/validate-advanced-reading.js'
+      - '.github/workflows/validate-advanced-reading.yml'
+  pull_request:
+    paths:
+      - 'advanced-reading.html'
+      - 'reading-skills.html'
+      - 'sections/reading/advanced-reading.js'
+      - 'sections/reading/data/advanced/**'
+      - 'sections/reading/data/advanced-passages-v1.json'
+      - 'tests/validate-advanced-reading.js'
+      - '.github/workflows/validate-advanced-reading.yml'
+jobs:
+  verify-advanced-reading:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate authentic sources, evidence and interface
+        run: node tests/validate-advanced-reading.js
