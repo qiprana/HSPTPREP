@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T17",
+  "test_number": 17,
+  "title": "HSPT Quantitative Practice Test 17 (Exponents & scientific notation · Transversal and vertical angles · Sum of angles)",
+  "focus_topics": [
+    "Exponents & scientific notation",
+    "Transversal and vertical angles",
+    "Sum of angles"
+  ],
+  "topic_question_counts": {
+    "Exponents & scientific notation": 15,
+    "Transversal and vertical angles": 20,
+    "Sum of angles": 17
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 38,
+    "Computation": 8,
+    "Sequence": 6
+  },
+  "topics": [
+    "Exponents & scientific notation",
+    "Sum of angles",
+    "Transversal and vertical angles"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q061",
+      "number": 61,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "85dbefb7b3a4992b1f6fc014886bd5db94577d1103cc7089ff9bc28374ea5a93"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q062",
+      "number": 62,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "99e6718c196479596c390b358ddae340128fa9412d082b93e3bafbfb2c44d951"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q063",
+      "number": 63,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f0356c050561b30fb1deba10b5e7c1992615682191946507d0fd8734e541b181"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q064",
+      "number": 64,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "e3d67d947f5dc9a8d584eb026e659b4eb038421f712e5b297f9d4cf5c26db8cc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q065",
+      "number": 65,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "552b24e56df640c3ff5f2e44babb3181201840f0142dd78118cc44c096a2e708"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q066",
+      "number": 66,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "fcfac44b40855fc096578b040d7b6f881d34e0f51253445103e0bf2b5c8821df"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q067",
+      "number": 67,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3c0e29c2d228a37600fca5e15f75c09e6e32d578c24a73f1097d1934e5faefe1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q068",
+      "number": 68,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8702bde55340f235f71406f09ef7ad0beecb75628df4457cd3d31e14ebf36b4d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q069",
+      "number": 69,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "93799323b174552d1b6000f60784b2c274c9886c7891eb24a258fdd6d5f07131"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q070",
+      "number": 70,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "b29fc3acdbe7eab3cd823d63c9f3d1285fd7e756474f1af9d5aa51ab8dfa6c0e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q071",
+      "number": 71,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8b466d52d175ec35a0de1c68506a92447c38436a23c799f2855154532376a39d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q072",
+      "number": 72,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cfc0ea6cfddb6de57657103bdcae8d3face159e0f7ada1e1a921cfe0d2fb5f63"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q073",
+      "number": 73,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "bd53b75d1b2b599b22c28704d1ddef48d4a18619f428f5c8ec95d16b7d1377f3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q074",
+      "number": 74,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "739cf2d4b424b874e2d2457a05613c5b20e3048b843633a88ebb70289214bed7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q075",
+      "number": 75,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "1e696bcd48731f49276d3ef5a7a4696ad6553291498080332a3df06f1c25e690"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q076",
+      "number": 76,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "27fdbeaa0d8247015622c5743de51bbba57404c8deadba1fb7e67a1e3a5d88e7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q077",
+      "number": 77,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "28cf4da0b090ac032a3b0f004b55a38dcb43c8989c75eb77e832c97918d9bb41"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q078",
+      "number": 78,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "a763043d906a2291c178ae5be6908e3b781debbd0b50bfd29ff2363c8fb185da"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q079",
+      "number": 79,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c65e590a6ba37b8db48564420032f56e620e20b1decb7abd0b5a614943d387e3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q080",
+      "number": 80,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "24356d78fa304533bae20d9d355d09b1e3172db4c163ce5791f2a723555c9897"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q081",
+      "number": 81,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "69318f6f1be59c81b31f9aa1387a17046b0ccf65cac3164514c694f21f64d807"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q082",
+      "number": 82,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "58174b27a69f624ad6d5facf458b3269943aeffe812d8ab6f4319b0a9c060a74"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q083",
+      "number": 83,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "79c2ffb5badf96bf49c45d9d320eb2a7a0cf1bf9b846c4620972341b515c2903"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q084",
+      "number": 84,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "c64460fef1f6e5243052768bd832662cf565f066ecc569735109b8b242ac0b86"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q085",
+      "number": 85,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ca25e22b188beeedaa5c3594a2ceb178728303621c99267c9231acef433c5694"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q086",
+      "number": 86,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fe4d00961396ecf0e4a6db7d80526bb592a938ca21819393587acb2c0a8e3242"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q087",
+      "number": 87,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "a873bcc450c9afaca34d77dfb3214a0fce048f7632e8adde16782e7ffd99f052"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q088",
+      "number": 88,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "68bfe4958cebf9f13c44a32a7cfdb49fbba3820ccb8f19352696293552c46e08"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q089",
+      "number": 89,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "26288bc6199a3c3d5e4cf09a6619156885730ac680745a15a9a16b5512f8b20e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q090",
+      "number": 90,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "14add6966d980912448d4d4f2b90bc94d3c6d6494693a2a5d16bbfb08a894af4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q091",
+      "number": 91,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "5431fe286ecebe9882302f0e03ea4b1f0ba0e045a57ea590f0025b9e602b24b5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q092",
+      "number": 92,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b46e54df3702507807b2842ba847233fc20116e46a5acfdc13928a6929baa972"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q093",
+      "number": 93,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c754d2c4b533645fde58c72ddb82f6fc626a5d4d4a4de738bbc9bd63c9429501"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q094",
+      "number": 94,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cb085922d5a5c5426ad061027cc4445d2ed43c475a2a631c8a7078e49ad2d7f6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q095",
+      "number": 95,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "625a7a5381b9cfc0417232cf7d60015a6b8a2139d639e46ad134c46fe053bb90"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q096",
+      "number": 96,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cf41d65d850b367d4b49f8f7ee641a15758ddbfa0266b2c8f086b32f7fdc3005"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q097",
+      "number": 97,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "59ac7e452f934af1d41d5a74fe0d4351044ed9a2a3c8534a98476c9495514e4c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q098",
+      "number": 98,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "9cb1bf86a9b13417fc95ac3c74703e19dd8ac3a2e7f48af542e136a6417a22a7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q099",
+      "number": 99,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "7620dc668dcd3f57562d3a8461c891e345959ee7dafdaf711f1ff66e6160d09a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q100",
+      "number": 100,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "64858f9aa5eb3a972c3b356fa8f9aeb9eadb60054b2e72e027ccc18f31692e83"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q101",
+      "number": 101,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6c3fda390773ef2bc50ec445d6dbb444fa6408c0bc401cc25039a3aa6912a88d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q102",
+      "number": 102,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "dd43a1680cd03ca072fa5f9b16a733761a0522b2e77c798c13c77c3c42f626f3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q103",
+      "number": 103,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1f5789d4311d7d73c06e3d9afdadc660ee75cd3392c060b10ae51bacb122f9b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q104",
+      "number": 104,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6359ae2099d9f96862db98dcdf0bc5523e8f302b4b8348d395a0458495ad00cc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q105",
+      "number": 105,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6724b2e5eee24931491c7874b212fd0a1ee460771ae9cde23a1b2621c2e87ae8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q106",
+      "number": 106,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "a0371bc13d5bcda594839536612a3970354f47b33794db3ad1b6a0db4e95fd7e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q107",
+      "number": 107,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "58c584e72794758302f8491a6f4709f25d43121a0b031267c7b47106df70dadc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q108",
+      "number": 108,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "722c98907d1796c536cb14990d2dab6c63ca77ec731277e4efb9f60751fc0742"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q109",
+      "number": 109,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8fe410ab381d31036f89295501ba9d744f0e218a6fd74d5006d4646f037a6d3d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q110",
+      "number": 110,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "06394dad2e336642a9575ade9d1d2ea760d3246c43c6db3eb038192e0eba51e2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q111",
+      "number": 111,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "579d80de0344d1e29bb99e72f33bfcd41db45579716f2d0ae38cc4079f3bef86"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T17-Q112",
+      "number": 112,
+      "topic": "Transversal and vertical angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9a94b75683d6e31750d701420357fce6267786eb29bea466e241f0abdf61e1b2"
+    }
+  ]
+}

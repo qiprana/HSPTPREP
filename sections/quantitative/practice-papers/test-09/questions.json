@@ -1,0 +1,5722 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "exam_id": "HSPT-QS-PRACTICE-20-T09",
+  "title": "HSPT Quantitative Practice Test 09 (Multiplication / Division · Distributive property · Fraction comparisons)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Distributive property",
+    "Fraction comparisons"
+  ],
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q061",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((17 × 2) ÷ 10) − (2 ÷ 9))",
+        "B": "Evaluate the following expression. Expression: (((12 × 2) ÷ 3) − (2 ÷ 4))",
+        "C": "Evaluate the following expression. Expression: (((11 × 6) ÷ 15) − (7 ÷ 5))"
+      },
+      "computed_values": {
+        "A": "143/45",
+        "B": "15/2",
+        "C": "3",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    17,
+                    2
+                  ],
+                  10
+                ],
+                [
+                  "div",
+                  2,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    12,
+                    2
+                  ],
+                  3
+                ],
+                [
+                  "div",
+                  2,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    11,
+                    6
+                  ],
+                  15
+                ],
+                [
+                  "div",
+                  7,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (C) and less than (B)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "B": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs."
+      },
+      "explanation": "(A): (((17 × 2) ÷ 10) − (2 ÷ 9)) = 143/45; (B): (((12 × 2) ÷ 3) − (2 ÷ 4)) = 15/2; (C): (((11 × 6) ÷ 15) − (7 ÷ 5)) = 3. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 61
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q062",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((20 × 10) ÷ 12) − (8 ÷ 4))",
+        "B": "Evaluate the following expression. Expression: (((8 × 10) ÷ 9) − (5 ÷ 7))",
+        "C": "Evaluate the following expression. Expression: (((13 × 12) ÷ 6) − (3 ÷ 6))"
+      },
+      "computed_values": {
+        "A": "44/3",
+        "B": "515/63",
+        "C": "51/2",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    20,
+                    10
+                  ],
+                  12
+                ],
+                [
+                  "div",
+                  8,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    8,
+                    10
+                  ],
+                  9
+                ],
+                [
+                  "div",
+                  5,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    13,
+                    12
+                  ],
+                  6
+                ],
+                [
+                  "div",
+                  3,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) = 2(A)",
+        "B": "(C) is greater than (A) and (A) is greater than (B)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(C) is greater than (B) and (B) is greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Reverses strict ascending order (C) > (B) > (A)."
+      },
+      "explanation": "(A): (((20 × 10) ÷ 12) − (8 ÷ 4)) = 44/3; (B): (((8 × 10) ÷ 9) − (5 ÷ 7)) = 515/63; (C): (((13 × 12) ÷ 6) − (3 ÷ 6)) = 51/2. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 62
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q063",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((20/5) − (5/4)) + (3/6)) ÷ (1 − (4/7)))",
+        "B": "Evaluate the following expression. Expression: ((((13/8) − (10/2)) + (5/9)) ÷ (1 − (2/7)))",
+        "C": "Evaluate the following expression. Expression: ((((21/4) − (7/6)) + (11/5)) ÷ (1 − (6/17)))"
+      },
+      "computed_values": {
+        "A": "91/12",
+        "B": "-1421/360",
+        "C": "6409/660",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      20,
+                      5
+                    ],
+                    [
+                      "rat",
+                      5,
+                      4
+                    ]
+                  ],
+                  [
+                    "rat",
+                    3,
+                    6
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    4,
+                    7
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      13,
+                      8
+                    ],
+                    [
+                      "rat",
+                      10,
+                      2
+                    ]
+                  ],
+                  [
+                    "rat",
+                    5,
+                    9
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    2,
+                    7
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      21,
+                      4
+                    ],
+                    [
+                      "rat",
+                      7,
+                      6
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    5
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    6,
+                    17
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(A) is greater than (C)",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "C": "Trap: Reverses relational comparison between (A) and (C).",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): ((((20/5) − (5/4)) + (3/6)) ÷ (1 − (4/7))) = 91/12; (B): ((((13/8) − (10/2)) + (5/9)) ÷ (1 − (2/7))) = -1421/360; (C): ((((21/4) − (7/6)) + (11/5)) ÷ (1 − (6/17))) = 6409/660. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 63
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q064",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((20 × 8) ÷ 15) − (8 ÷ 4))",
+        "B": "Evaluate the following expression. Expression: (((23 × 4) ÷ 17) − (7 ÷ 3))",
+        "C": "Evaluate the following expression. Expression: (((5 × 6) ÷ 17) − (9 ÷ 8))"
+      },
+      "computed_values": {
+        "A": "26/3",
+        "B": "157/51",
+        "C": "87/136",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    20,
+                    8
+                  ],
+                  15
+                ],
+                [
+                  "div",
+                  8,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    23,
+                    4
+                  ],
+                  17
+                ],
+                [
+                  "div",
+                  7,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    5,
+                    6
+                  ],
+                  17
+                ],
+                [
+                  "div",
+                  9,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(C) = 2(A)",
+        "C": "(A) is equal to (C) and less than (B)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C), (A), and (B) under time pressure.",
+        "B": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "C": "Trap: Assumes (A) = (C) < (B) without verifying each quantity."
+      },
+      "explanation": "(A): (((20 × 8) ÷ 15) − (8 ÷ 4)) = 26/3; (B): (((23 × 4) ÷ 17) − (7 ÷ 3)) = 157/51; (C): (((5 × 6) ÷ 17) − (9 ÷ 8)) = 87/136. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 64
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q065",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((16/3) − (13/8)) + (8/4)) ÷ (1 − (8/16)))",
+        "B": "Evaluate the following expression. Expression: ((((21/13) − (15/3)) + (6/14)) ÷ (1 − (3/9)))",
+        "C": "Evaluate the following expression. Expression: ((((16/3) − (12/5)) + (2/4)) ÷ (1 − (5/7)))"
+      },
+      "computed_values": {
+        "A": "137/12",
+        "B": "-807/182",
+        "C": "721/60",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      16,
+                      3
+                    ],
+                    [
+                      "rat",
+                      13,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    8,
+                    4
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      21,
+                      13
+                    ],
+                    [
+                      "rat",
+                      15,
+                      3
+                    ]
+                  ],
+                  [
+                    "rat",
+                    6,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    3,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      16,
+                      3
+                    ],
+                    [
+                      "rat",
+                      12,
+                      5
+                    ]
+                  ],
+                  [
+                    "rat",
+                    2,
+                    4
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    5,
+                    7
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A) + (B) = (C)",
+        "C": "(A) is equal to (B) and greater than (C)",
+        "D": "(A) is equal to (B) and less than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "C": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "D": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B)."
+      },
+      "explanation": "(A): ((((16/3) − (13/8)) + (8/4)) ÷ (1 − (8/16))) = 137/12; (B): ((((21/13) − (15/3)) + (6/14)) ÷ (1 − (3/9))) = -807/182; (C): ((((16/3) − (12/5)) + (2/4)) ÷ (1 − (5/7))) = 721/60. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 65
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q066",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((15/13) − (16/5)) + (3/14)) ÷ (1 − (5/8)))",
+        "B": "Evaluate the following expression. Expression: ((((19/3) − (13/8)) + (8/4)) ÷ (1 − (8/16)))",
+        "C": "Evaluate the following expression. Expression: ((((18/10) − (15/7)) + (5/11)) ÷ (1 − (7/12)))"
+      },
+      "computed_values": {
+        "A": "-6668/1365",
+        "B": "161/12",
+        "C": "516/1925",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      15,
+                      13
+                    ],
+                    [
+                      "rat",
+                      16,
+                      5
+                    ]
+                  ],
+                  [
+                    "rat",
+                    3,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    5,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      19,
+                      3
+                    ],
+                    [
+                      "rat",
+                      13,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    8,
+                    4
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      18,
+                      10
+                    ],
+                    [
+                      "rat",
+                      15,
+                      7
+                    ]
+                  ],
+                  [
+                    "rat",
+                    5,
+                    11
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    7,
+                    12
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) = 2(C)",
+        "B": "(B) + (C) = (A)",
+        "C": "(B) is greater than (C) and (C) is greater than (A)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly concludes (A) is twice (C).",
+        "B": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "D": "Trap: Reverses strict descending order (A) > (B) > (C)."
+      },
+      "explanation": "(A): ((((15/13) − (16/5)) + (3/14)) ÷ (1 − (5/8))) = -6668/1365; (B): ((((19/3) − (13/8)) + (8/4)) ÷ (1 − (8/16))) = 161/12; (C): ((((18/10) − (15/7)) + (5/11)) ÷ (1 − (7/12))) = 516/1925. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 66
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q067",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Use the distributive property to evaluate the expression. Expression: ((13 × (10 + 13)) − (13 × (6 − 9)))",
+      "stimulus": "Use the distributive property to evaluate the expression. Expression: ((13 × (10 + 13)) − (13 × (6 − 9)))",
+      "computed_values": {
+        "result": "338",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  13,
+                  [
+                    "add",
+                    10,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  13,
+                  [
+                    "sub",
+                    6,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "add",
+              [
+                "mul",
+                13,
+                [
+                  "add",
+                  10,
+                  13
+                ]
+              ],
+              [
+                "mul",
+                13,
+                [
+                  "sub",
+                  6,
+                  9
+                ]
+              ]
+            ],
+            "C": [
+              "sub",
+              [
+                "mul",
+                13,
+                [
+                  "sub",
+                  6,
+                  9
+                ]
+              ],
+              [
+                "mul",
+                13,
+                [
+                  "add",
+                  10,
+                  13
+                ]
+              ]
+            ],
+            "D": [
+              "mul",
+              13,
+              [
+                "add",
+                10,
+                13
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "338",
+        "B": "260",
+        "C": "-338",
+        "D": "299"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Replaces sub with add.",
+        "C": "Trap: Reverses operands in sub.",
+        "D": "Trap: Stops at the left intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((13 × (10 + 13)) − (13 × (6 − 9))) = 338.",
+      "question_number": 67
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q068",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((8 × (5 + 15)) − (8 × (6 − 8)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((8 × (7 + 11)) − (8 × (8 − 11)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((21 × (4 + 11)) − (21 × (6 − 9)))"
+      },
+      "computed_values": {
+        "A": "176",
+        "B": "168",
+        "C": "378",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  8,
+                  [
+                    "add",
+                    5,
+                    15
+                  ]
+                ],
+                [
+                  "mul",
+                  8,
+                  [
+                    "sub",
+                    6,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  8,
+                  [
+                    "add",
+                    7,
+                    11
+                  ]
+                ],
+                [
+                  "mul",
+                  8,
+                  [
+                    "sub",
+                    8,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "add",
+                    4,
+                    11
+                  ]
+                ],
+                [
+                  "mul",
+                  21,
+                  [
+                    "sub",
+                    6,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) = 2(C)",
+        "B": "(A), (B), and (C) are equal",
+        "C": "(C) is greater than (A) and (A) is greater than (B)",
+        "D": "(A) + (B) = (C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly concludes (A) is twice (C).",
+        "B": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms."
+      },
+      "explanation": "(A): ((8 × (5 + 15)) − (8 × (6 − 8))) = 176; (B): ((8 × (7 + 11)) − (8 × (8 − 11))) = 168; (C): ((21 × (4 + 11)) − (21 × (6 − 9))) = 378. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 68
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q069",
+      "archetype": "Sequence",
+      "sub_type": "Linear Two-Step",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 15, 41, 93, 197, 405, ?",
+      "stimulus": [
+        "15",
+        "41",
+        "93",
+        "197",
+        "405"
+      ],
+      "computed_values": {
+        "next_term": "821",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "parameters": {
+            "a": 15,
+            "b": 2,
+            "c": 11,
+            "d": 81,
+            "e": 3,
+            "f": 6,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "affine"
+          }
+        }
+      },
+      "options": {
+        "A": "821",
+        "B": "613",
+        "C": "197",
+        "D": "405"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Multiply the preceding term by 2, then add 11, at every step. The next term is 821.",
+      "modality": "Numbers Only",
+      "question_number": 69
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q070",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((13/7) − (3/4)) ÷ (3/8))",
+        "B": "Evaluate the following expression. Expression: (((17/10) − (6/8)) ÷ (3/11))",
+        "C": "Evaluate the following expression. Expression: (((21/6) − (7/4)) ÷ (6/7))"
+      },
+      "computed_values": {
+        "A": "62/21",
+        "B": "209/60",
+        "C": "49/24",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    13,
+                    7
+                  ],
+                  [
+                    "rat",
+                    3,
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  3,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    17,
+                    10
+                  ],
+                  [
+                    "rat",
+                    6,
+                    8
+                  ]
+                ],
+                [
+                  "rat",
+                  3,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    21,
+                    6
+                  ],
+                  [
+                    "rat",
+                    7,
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(B) = 2(A)",
+        "C": "(C) is greater than (A)",
+        "D": "(A) is equal to (B) and less than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: Reverses relational comparison between (C) and (A).",
+        "D": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B)."
+      },
+      "explanation": "(A): (((13/7) − (3/4)) ÷ (3/8)) = 62/21; (B): (((17/10) − (6/8)) ÷ (3/11)) = 209/60; (C): (((21/6) − (7/4)) ÷ (6/7)) = 49/24. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 70
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q071",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((5 × (6 + 8)) − (5 × (3 − 5)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((15 × (9 + 12)) − (15 × (8 − 11)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((14 × (3 + 10)) − (14 × (2 − 5)))"
+      },
+      "computed_values": {
+        "A": "80",
+        "B": "360",
+        "C": "224",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  5,
+                  [
+                    "add",
+                    6,
+                    8
+                  ]
+                ],
+                [
+                  "mul",
+                  5,
+                  [
+                    "sub",
+                    3,
+                    5
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  15,
+                  [
+                    "add",
+                    9,
+                    12
+                  ]
+                ],
+                [
+                  "mul",
+                  15,
+                  [
+                    "sub",
+                    8,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  14,
+                  [
+                    "add",
+                    3,
+                    10
+                  ]
+                ],
+                [
+                  "mul",
+                  14,
+                  [
+                    "sub",
+                    2,
+                    5
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(B) = 2(A)",
+        "C": "(B) is less than (C)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C), (A), and (B) under time pressure.",
+        "B": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: Reverses relational inequality between (B) and (C)."
+      },
+      "explanation": "(A): ((5 × (6 + 8)) − (5 × (3 − 5))) = 80; (B): ((15 × (9 + 12)) − (15 × (8 − 11))) = 360; (C): ((14 × (3 + 10)) − (14 × (2 − 5))) = 224. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 71
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q072",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((21 × (7 + 15)) − (21 × (6 − 11)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((14 × (13 + 4)) − (14 × (3 − 10)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((17 × (13 + 13)) − (17 × (2 − 9)))"
+      },
+      "computed_values": {
+        "A": "567",
+        "B": "336",
+        "C": "561",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "add",
+                    7,
+                    15
+                  ]
+                ],
+                [
+                  "mul",
+                  21,
+                  [
+                    "sub",
+                    6,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  14,
+                  [
+                    "add",
+                    13,
+                    4
+                  ]
+                ],
+                [
+                  "mul",
+                  14,
+                  [
+                    "sub",
+                    3,
+                    10
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  17,
+                  [
+                    "add",
+                    13,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  17,
+                  [
+                    "sub",
+                    2,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) = 2(A)",
+        "B": "(A) is equal to (C) and greater than (B)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(A) + (C) = (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "B": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: False additive relation (A) + (C) = (B) from arithmetic error."
+      },
+      "explanation": "(A): ((21 × (7 + 15)) − (21 × (6 − 11))) = 567; (B): ((14 × (13 + 4)) − (14 × (3 − 10))) = 336; (C): ((17 × (13 + 13)) − (17 × (2 − 9))) = 561. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 72
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q073",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((9/6) − (11/5)) ÷ (4/7))",
+        "B": "Evaluate the following expression. Expression: (((7/10) − (13/6)) ÷ (5/11))",
+        "C": "Evaluate the following expression. Expression: (((12/9) − (15/7)) ÷ (6/10))"
+      },
+      "computed_values": {
+        "A": "-49/40",
+        "B": "-242/75",
+        "C": "-85/63",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    9,
+                    6
+                  ],
+                  [
+                    "rat",
+                    11,
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    7,
+                    10
+                  ],
+                  [
+                    "rat",
+                    13,
+                    6
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    12,
+                    9
+                  ],
+                  [
+                    "rat",
+                    15,
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(C) = 2(A)",
+        "C": "(B) is equal to (C) and greater than (A)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "B": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "C": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): (((9/6) − (11/5)) ÷ (4/7)) = -49/40; (B): (((7/10) − (13/6)) ÷ (5/11)) = -242/75; (C): (((12/9) − (15/7)) ÷ (6/10)) = -85/63. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 73
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q074",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((19 × 5) ÷ 7)",
+        "B": "Evaluate the following expression. Expression: ((5 × 5) ÷ 8)",
+        "C": "Evaluate the following expression. Expression: ((11 × 7) ÷ 14)"
+      },
+      "computed_values": {
+        "A": "95/7",
+        "B": "25/8",
+        "C": "11/2",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  19,
+                  5
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  5,
+                  5
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  11,
+                  7
+                ],
+                14
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(A) = 2(C)",
+        "D": "(A) is equal to (C) and less than (B)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "C": "Trap: Incorrectly concludes (A) is twice (C).",
+        "D": "Trap: Assumes (A) = (C) < (B) without verifying each quantity."
+      },
+      "explanation": "(A): ((19 × 5) ÷ 7) = 95/7; (B): ((5 × 5) ÷ 8) = 25/8; (C): ((11 × 7) ÷ 14) = 11/2. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 74
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q075",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 4, 13, 35, 75, 221, 447, ?",
+      "stimulus": [
+        "4",
+        "13",
+        "35",
+        "75",
+        "221",
+        "447"
+      ],
+      "computed_values": {
+        "next_term": "1337",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 4,
+            "b": 2,
+            "c": 5,
+            "d": 78,
+            "e": 3,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "447",
+        "B": "673",
+        "C": "221",
+        "D": "1337"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Alternate these rules: multiply by 2 then add 5; multiply by 3 then subtract 4. The next term is 1337.",
+      "modality": "Numbers Only",
+      "question_number": 75
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q076",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: (((22 × 13) ÷ 15) − (6 ÷ 8))",
+      "stimulus": "Evaluate the following expression. Expression: (((22 × 13) ÷ 15) − (6 ÷ 8))",
+      "computed_values": {
+        "result": "1099/60",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    22,
+                    13
+                  ],
+                  15
+                ],
+                [
+                  "div",
+                  6,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "div",
+              [
+                "mul",
+                22,
+                13
+              ],
+              15
+            ],
+            "C": [
+              "add",
+              [
+                "div",
+                [
+                  "mul",
+                  22,
+                  13
+                ],
+                15
+              ],
+              [
+                "div",
+                6,
+                8
+              ]
+            ],
+            "D": [
+              "sub",
+              [
+                "div",
+                6,
+                8
+              ],
+              [
+                "div",
+                [
+                  "mul",
+                  22,
+                  13
+                ],
+                15
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "286/15",
+        "B": "1099/60",
+        "C": "1189/60",
+        "D": "-1099/60"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Replaces sub with add.",
+        "D": "Trap: Reverses operands in sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((22 × 13) ÷ 15) − (6 ÷ 8)) = 1099/60.",
+      "question_number": 76
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q077",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 9, 30, 88, 267, 799, 2400, ?",
+      "stimulus": [
+        "9",
+        "30",
+        "88",
+        "267",
+        "799",
+        "2400"
+      ],
+      "computed_values": {
+        "next_term": "7198",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 9,
+            "b": 3,
+            "c": 3,
+            "d": 62,
+            "e": 3,
+            "f": 2,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "4001",
+        "B": "2400",
+        "C": "799",
+        "D": "7198"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Alternate these rules: multiply by 3 then add 3; multiply by 3 then subtract 2. The next term is 7198.",
+      "modality": "Numbers Only",
+      "question_number": 77
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q078",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((24 × (4 + 11)) − (24 × (3 − 8)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((8 × (8 + 11)) − (8 × (4 − 2)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((11 × (12 + 13)) − (11 × (3 − 8)))"
+      },
+      "computed_values": {
+        "A": "480",
+        "B": "136",
+        "C": "330",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  24,
+                  [
+                    "add",
+                    4,
+                    11
+                  ]
+                ],
+                [
+                  "mul",
+                  24,
+                  [
+                    "sub",
+                    3,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  8,
+                  [
+                    "add",
+                    8,
+                    11
+                  ]
+                ],
+                [
+                  "mul",
+                  8,
+                  [
+                    "sub",
+                    4,
+                    2
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  11,
+                  [
+                    "add",
+                    12,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  11,
+                  [
+                    "sub",
+                    3,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(A) + (B) = (C)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(B) + (C) = (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): ((24 × (4 + 11)) − (24 × (3 − 8))) = 480; (B): ((8 × (8 + 11)) − (8 × (4 − 2))) = 136; (C): ((11 × (12 + 13)) − (11 × (3 − 8))) = 330. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 78
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q079",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((10 × (12 + 9)) − (10 × (8 − 10)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((24 × (9 + 8)) − (24 × (2 − 11)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((23 × (12 + 3)) − (23 × (5 − 10)))"
+      },
+      "computed_values": {
+        "A": "230",
+        "B": "624",
+        "C": "460",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  10,
+                  [
+                    "add",
+                    12,
+                    9
+                  ]
+                ],
+                [
+                  "mul",
+                  10,
+                  [
+                    "sub",
+                    8,
+                    10
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  24,
+                  [
+                    "add",
+                    9,
+                    8
+                  ]
+                ],
+                [
+                  "mul",
+                  24,
+                  [
+                    "sub",
+                    2,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  23,
+                  [
+                    "add",
+                    12,
+                    3
+                  ]
+                ],
+                [
+                  "mul",
+                  23,
+                  [
+                    "sub",
+                    5,
+                    10
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) = 2(A)",
+        "B": "(A) + (B) = (C)",
+        "C": "(A) is greater than (C)",
+        "D": "(B) is equal to (C) and greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "C": "Trap: Reverses relational comparison between (A) and (C).",
+        "D": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): ((10 × (12 + 9)) − (10 × (8 − 10))) = 230; (B): ((24 × (9 + 8)) − (24 × (2 − 11))) = 624; (C): ((23 × (12 + 3)) − (23 × (5 − 10))) = 460. Therefore (C) = 2(A).",
+      "question_number": 79
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q080",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((11 × (10 + 14)) − (11 × (6 − 7)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((17 × (11 + 6)) − (17 × (9 − 11)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((8 × (10 + 5)) − (8 × (9 − 6)))"
+      },
+      "computed_values": {
+        "A": "275",
+        "B": "323",
+        "C": "96",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  11,
+                  [
+                    "add",
+                    10,
+                    14
+                  ]
+                ],
+                [
+                  "mul",
+                  11,
+                  [
+                    "sub",
+                    6,
+                    7
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  17,
+                  [
+                    "add",
+                    11,
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  17,
+                  [
+                    "sub",
+                    9,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  8,
+                  [
+                    "add",
+                    10,
+                    5
+                  ]
+                ],
+                [
+                  "mul",
+                  8,
+                  [
+                    "sub",
+                    9,
+                    6
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(C) is greater than (A)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(A), (B), and (C) are equal"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "B": "Trap: Reverses relational comparison between (C) and (A).",
+        "D": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs."
+      },
+      "explanation": "(A): ((11 × (10 + 14)) − (11 × (6 − 7))) = 275; (B): ((17 × (11 + 6)) − (17 × (9 − 11))) = 323; (C): ((8 × (10 + 5)) − (8 × (9 − 6))) = 96. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 80
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q081",
+      "archetype": "Sequence",
+      "sub_type": "Linear Two-Step",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 13, 35, 79, 167, 343, ?",
+      "stimulus": [
+        "13",
+        "35",
+        "79",
+        "167",
+        "343"
+      ],
+      "computed_values": {
+        "next_term": "695",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "parameters": {
+            "a": 13,
+            "b": 2,
+            "c": 9,
+            "d": 74,
+            "e": 2,
+            "f": 2,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "affine"
+          }
+        }
+      },
+      "options": {
+        "A": "343",
+        "B": "695",
+        "C": "167",
+        "D": "519"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "Multiply the preceding term by 2, then add 9, at every step. The next term is 695.",
+      "modality": "Numbers Only",
+      "question_number": 81
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q082",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((6 × 2) + (6 × 7))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((17 × 10) + (17 × 8))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((21 × 6) + (21 × 13))"
+      },
+      "computed_values": {
+        "A": "54",
+        "B": "306",
+        "C": "399",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  6,
+                  2
+                ],
+                [
+                  "mul",
+                  6,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  17,
+                  10
+                ],
+                [
+                  "mul",
+                  17,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  21,
+                  6
+                ],
+                [
+                  "mul",
+                  21,
+                  13
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A) + (C) = (B)",
+        "D": "(B) is equal to (C) and less than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "C": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "D": "Trap: Treats (B) and (C) as equivalent and smaller than (A)."
+      },
+      "explanation": "(A): ((6 × 2) + (6 × 7)) = 54; (B): ((17 × 10) + (17 × 8)) = 306; (C): ((21 × 6) + (21 × 13)) = 399. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 82
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q083",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 7, 27, 78, 240, 717, 2157, ?",
+      "stimulus": [
+        "7",
+        "27",
+        "78",
+        "240",
+        "717",
+        "2157"
+      ],
+      "computed_values": {
+        "next_term": "6468",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 7,
+            "b": 3,
+            "c": 6,
+            "d": 42,
+            "e": 3,
+            "f": 3,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "3597",
+        "B": "6468",
+        "C": "717",
+        "D": "2157"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Alternate these rules: multiply by 3 then add 6; multiply by 3 then subtract 3. The next term is 6468.",
+      "modality": "Numbers Only",
+      "question_number": 83
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q084",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((23/6) − (3/5)) + (3/7)) ÷ (1 − (5/8)))",
+        "B": "Evaluate the following expression. Expression: ((((20/11) − (3/7)) + (3/12)) ÷ (1 − (7/10)))",
+        "C": "Evaluate the following expression. Expression: ((((23/2) − (10/9)) + (2/3)) ÷ (1 − (9/11)))"
+      },
+      "computed_values": {
+        "A": "3076/315",
+        "B": "2525/462",
+        "C": "2189/36",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      23,
+                      6
+                    ],
+                    [
+                      "rat",
+                      3,
+                      5
+                    ]
+                  ],
+                  [
+                    "rat",
+                    3,
+                    7
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    5,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      20,
+                      11
+                    ],
+                    [
+                      "rat",
+                      3,
+                      7
+                    ]
+                  ],
+                  [
+                    "rat",
+                    3,
+                    12
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    7,
+                    10
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      23,
+                      2
+                    ],
+                    [
+                      "rat",
+                      10,
+                      9
+                    ]
+                  ],
+                  [
+                    "rat",
+                    2,
+                    3
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    9,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A) is greater than (B) and (B) is greater than (C)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(A), (B), and (C) are equal"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs."
+      },
+      "explanation": "(A): ((((23/6) − (3/5)) + (3/7)) ÷ (1 − (5/8))) = 3076/315; (B): ((((20/11) − (3/7)) + (3/12)) ÷ (1 − (7/10))) = 2525/462; (C): ((((23/2) − (10/9)) + (2/3)) ÷ (1 − (9/11))) = 2189/36. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 84
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q085",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((23 × 2) ÷ 5) − (6 ÷ 7))",
+        "B": "Evaluate the following expression. Expression: (((10 × 13) ÷ 12) − (5 ÷ 11))",
+        "C": "Evaluate the following expression. Expression: (((6 × 3) ÷ 7) − (8 ÷ 3))"
+      },
+      "computed_values": {
+        "A": "292/35",
+        "B": "685/66",
+        "C": "-2/21",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    23,
+                    2
+                  ],
+                  5
+                ],
+                [
+                  "div",
+                  6,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    10,
+                    13
+                  ],
+                  12
+                ],
+                [
+                  "div",
+                  5,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    6,
+                    3
+                  ],
+                  7
+                ],
+                [
+                  "div",
+                  8,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(A) is equal to (C) and greater than (B)",
+        "C": "(A) + (C) = (B)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "B": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "C": "Trap: False additive relation (A) + (C) = (B) from arithmetic error."
+      },
+      "explanation": "(A): (((23 × 2) ÷ 5) − (6 ÷ 7)) = 292/35; (B): (((10 × 13) ÷ 12) − (5 ÷ 11)) = 685/66; (C): (((6 × 3) ÷ 7) − (8 ÷ 3)) = -2/21. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 85
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q086",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 4, 17, 49, 152, 454, 1367, ?",
+      "stimulus": [
+        "4",
+        "17",
+        "49",
+        "152",
+        "454",
+        "1367"
+      ],
+      "computed_values": {
+        "next_term": "4099",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 4,
+            "b": 3,
+            "c": 5,
+            "d": 38,
+            "e": 3,
+            "f": 2,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "4099",
+        "B": "454",
+        "C": "2280",
+        "D": "1367"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses the last visible step.",
+        "C": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Alternate these rules: multiply by 3 then add 5; multiply by 3 then subtract 2. The next term is 4099.",
+      "modality": "Numbers Only",
+      "question_number": 86
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q087",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((20 × 9) ÷ 14) − (4 ÷ 10))",
+        "B": "Evaluate the following expression. Expression: (((15 × 11) ÷ 14) − (5 ÷ 8))",
+        "C": "Evaluate the following expression. Expression: (((6 × 12) ÷ 5) − (8 ÷ 2))"
+      },
+      "computed_values": {
+        "A": "436/35",
+        "B": "625/56",
+        "C": "52/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    20,
+                    9
+                  ],
+                  14
+                ],
+                [
+                  "div",
+                  4,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    15,
+                    11
+                  ],
+                  14
+                ],
+                [
+                  "div",
+                  5,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    6,
+                    12
+                  ],
+                  5
+                ],
+                [
+                  "div",
+                  8,
+                  2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(B) is equal to (C) and less than (A)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "C": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): (((20 × 9) ÷ 14) − (4 ÷ 10)) = 436/35; (B): (((15 × 11) ÷ 14) − (5 ÷ 8)) = 625/56; (C): (((6 × 12) ÷ 5) − (8 ÷ 2)) = 52/5. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 87
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q088",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((6 × (2 + 13)) − (6 × (4 − 9)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((17 × (10 + 7)) − (17 × (2 − 3)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((22 × (11 + 10)) − (22 × (3 − 6)))"
+      },
+      "computed_values": {
+        "A": "120",
+        "B": "306",
+        "C": "528",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  6,
+                  [
+                    "add",
+                    2,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  6,
+                  [
+                    "sub",
+                    4,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  17,
+                  [
+                    "add",
+                    10,
+                    7
+                  ]
+                ],
+                [
+                  "mul",
+                  17,
+                  [
+                    "sub",
+                    2,
+                    3
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  22,
+                  [
+                    "add",
+                    11,
+                    10
+                  ]
+                ],
+                [
+                  "mul",
+                  22,
+                  [
+                    "sub",
+                    3,
+                    6
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): ((6 × (2 + 13)) − (6 × (4 − 9))) = 120; (B): ((17 × (10 + 7)) − (17 × (2 − 3))) = 306; (C): ((22 × (11 + 10)) − (22 × (3 − 6))) = 528. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 88
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q089",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((19 × 2) ÷ 12)",
+        "B": "Evaluate the following expression. Expression: ((10 × 11) ÷ 3)",
+        "C": "Evaluate the following expression. Expression: ((23 × 3) ÷ 8)"
+      },
+      "computed_values": {
+        "A": "19/6",
+        "B": "110/3",
+        "C": "69/8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  19,
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  10,
+                  11
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  23,
+                  3
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and greater than (A)",
+        "B": "(A) is greater than (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and larger than (A).",
+        "B": "Trap: Reverses relational comparison between (A) and (B).",
+        "C": "Trap: Misorders the middle quantity in (B) > (A) > (C)."
+      },
+      "explanation": "(A): ((19 × 2) ÷ 12) = 19/6; (B): ((10 × 11) ÷ 3) = 110/3; (C): ((23 × 3) ÷ 8) = 69/8. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 89
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q090",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Use the distributive property to evaluate the expression. Expression: ((23 × (10 + 16)) − (23 × (3 − 8)))",
+      "stimulus": "Use the distributive property to evaluate the expression. Expression: ((23 × (10 + 16)) − (23 × (3 − 8)))",
+      "computed_values": {
+        "result": "713",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  23,
+                  [
+                    "add",
+                    10,
+                    16
+                  ]
+                ],
+                [
+                  "mul",
+                  23,
+                  [
+                    "sub",
+                    3,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "sub",
+              [
+                "mul",
+                23,
+                [
+                  "sub",
+                  3,
+                  8
+                ]
+              ],
+              [
+                "mul",
+                23,
+                [
+                  "add",
+                  10,
+                  16
+                ]
+              ]
+            ],
+            "C": [
+              "mul",
+              23,
+              [
+                "add",
+                10,
+                16
+              ]
+            ],
+            "D": [
+              "add",
+              [
+                "mul",
+                23,
+                [
+                  "add",
+                  10,
+                  16
+                ]
+              ],
+              [
+                "mul",
+                23,
+                [
+                  "sub",
+                  3,
+                  8
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "713",
+        "B": "-713",
+        "C": "598",
+        "D": "483"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses operands in sub.",
+        "C": "Trap: Stops at the left intermediate result.",
+        "D": "Trap: Replaces sub with add."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((23 × (10 + 16)) − (23 × (3 − 8))) = 713.",
+      "question_number": 90
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q091",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((22/4) − (5/9)) + (4/5)) ÷ (1 − (9/13)))",
+        "B": "Evaluate the following expression. Expression: ((((12/13) − (16/6)) + (10/14)) ÷ (1 − (6/16)))",
+        "C": "Evaluate the following expression. Expression: ((((24/11) − (14/3)) + (9/12)) ÷ (1 − (3/12)))"
+      },
+      "computed_values": {
+        "A": "6721/360",
+        "B": "-2248/1365",
+        "C": "-229/99",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      22,
+                      4
+                    ],
+                    [
+                      "rat",
+                      5,
+                      9
+                    ]
+                  ],
+                  [
+                    "rat",
+                    4,
+                    5
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    9,
+                    13
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      12,
+                      13
+                    ],
+                    [
+                      "rat",
+                      16,
+                      6
+                    ]
+                  ],
+                  [
+                    "rat",
+                    10,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    6,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      24,
+                      11
+                    ],
+                    [
+                      "rat",
+                      14,
+                      3
+                    ]
+                  ],
+                  [
+                    "rat",
+                    9,
+                    12
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    3,
+                    12
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(C) is greater than (A)",
+        "C": "(A) is equal to (C) and less than (B)",
+        "D": "(B) is greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses relational comparison between (C) and (A).",
+        "C": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "D": "Trap: Reverses relational comparison between (B) and (A)."
+      },
+      "explanation": "(A): ((((22/4) − (5/9)) + (4/5)) ÷ (1 − (9/13))) = 6721/360; (B): ((((12/13) − (16/6)) + (10/14)) ÷ (1 − (6/16))) = -2248/1365; (C): ((((24/11) − (14/3)) + (9/12)) ÷ (1 − (3/12))) = -229/99. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 91
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q092",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((23/13) − (11/8)) + (8/14)) ÷ (1 − (8/16)))",
+        "B": "Evaluate the following expression. Expression: ((((18/2) − (8/2)) + (11/3)) ÷ (1 − (2/13)))",
+        "C": "Evaluate the following expression. Expression: ((((18/13) − (11/6)) + (6/14)) ÷ (1 − (6/12)))"
+      },
+      "computed_values": {
+        "A": "703/364",
+        "B": "338/33",
+        "C": "-11/273",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      23,
+                      13
+                    ],
+                    [
+                      "rat",
+                      11,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    8,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      18,
+                      2
+                    ],
+                    [
+                      "rat",
+                      8,
+                      2
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    3
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    2,
+                    13
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      18,
+                      13
+                    ],
+                    [
+                      "rat",
+                      11,
+                      6
+                    ]
+                  ],
+                  [
+                    "rat",
+                    6,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    6,
+                    12
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and greater than (C)",
+        "B": "(A) is greater than (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(A) is equal to (C) and less than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "B": "Trap: Reverses relational comparison between (A) and (B).",
+        "D": "Trap: Assumes (A) = (C) < (B) without verifying each quantity."
+      },
+      "explanation": "(A): ((((23/13) − (11/8)) + (8/14)) ÷ (1 − (8/16))) = 703/364; (B): ((((18/2) − (8/2)) + (11/3)) ÷ (1 − (2/13))) = 338/33; (C): ((((18/13) − (11/6)) + (6/14)) ÷ (1 − (6/12))) = -11/273. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 92
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q093",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((18 × 9) + (18 × 10))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((21 × 2) + (21 × 5))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((19 × 7) + (19 × 16))"
+      },
+      "computed_values": {
+        "A": "342",
+        "B": "147",
+        "C": "437",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  18,
+                  9
+                ],
+                [
+                  "mul",
+                  18,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  21,
+                  2
+                ],
+                [
+                  "mul",
+                  21,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  19,
+                  7
+                ],
+                [
+                  "mul",
+                  19,
+                  16
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A), (B), and (C) are equal",
+        "C": "(A) is equal to (B) and greater than (C)",
+        "D": "(A) is greater than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "C": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "D": "Trap: Reverses relational comparison between (A) and (C)."
+      },
+      "explanation": "(A): ((18 × 9) + (18 × 10)) = 342; (B): ((21 × 2) + (21 × 5)) = 147; (C): ((19 × 7) + (19 × 16)) = 437. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 93
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q094",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((11/11) − (14/8)) + (6/12)) ÷ (1 − (8/14)))",
+        "B": "Evaluate the following expression. Expression: ((((18/4) − (7/8)) + (7/5)) ÷ (1 − (8/15)))",
+        "C": "Evaluate the following expression. Expression: ((((8/12) − (5/4)) + (11/13)) ÷ (1 − (4/15)))"
+      },
+      "computed_values": {
+        "A": "-7/12",
+        "B": "603/56",
+        "C": "205/572",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      11,
+                      11
+                    ],
+                    [
+                      "rat",
+                      14,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    6,
+                    12
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    14
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      18,
+                      4
+                    ],
+                    [
+                      "rat",
+                      7,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    7,
+                    5
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    15
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      8,
+                      12
+                    ],
+                    [
+                      "rat",
+                      5,
+                      4
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    13
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    4,
+                    15
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(B) is equal to (C) and less than (A)",
+        "C": "(B) is greater than (C) and (C) is greater than (A)",
+        "D": "(A) is equal to (B) and less than (C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "B": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "D": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B)."
+      },
+      "explanation": "(A): ((((11/11) − (14/8)) + (6/12)) ÷ (1 − (8/14))) = -7/12; (B): ((((18/4) − (7/8)) + (7/5)) ÷ (1 − (8/15))) = 603/56; (C): ((((8/12) − (5/4)) + (11/13)) ÷ (1 − (4/15))) = 205/572. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 94
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q095",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Use the distributive property to evaluate the expression. Expression: ((24 × (13 + 11)) − (24 × (8 − 11)))",
+      "stimulus": "Use the distributive property to evaluate the expression. Expression: ((24 × (13 + 11)) − (24 × (8 − 11)))",
+      "computed_values": {
+        "result": "648",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  24,
+                  [
+                    "add",
+                    13,
+                    11
+                  ]
+                ],
+                [
+                  "mul",
+                  24,
+                  [
+                    "sub",
+                    8,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "mul",
+              24,
+              [
+                "add",
+                13,
+                11
+              ]
+            ],
+            "C": [
+              "add",
+              [
+                "mul",
+                24,
+                [
+                  "add",
+                  13,
+                  11
+                ]
+              ],
+              [
+                "mul",
+                24,
+                [
+                  "sub",
+                  8,
+                  11
+                ]
+              ]
+            ],
+            "D": [
+              "sub",
+              [
+                "mul",
+                24,
+                [
+                  "sub",
+                  8,
+                  11
+                ]
+              ],
+              [
+                "mul",
+                24,
+                [
+                  "add",
+                  13,
+                  11
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "648",
+        "B": "576",
+        "C": "504",
+        "D": "-648"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Stops at the left intermediate result.",
+        "C": "Trap: Replaces sub with add.",
+        "D": "Trap: Reverses operands in sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((24 × (13 + 11)) − (24 × (8 − 11))) = 648.",
+      "question_number": 95
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q096",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((8/2) − (10/2)) ÷ (4/3))",
+        "B": "Evaluate the following expression. Expression: (((21/2) − (11/5)) ÷ (9/3))",
+        "C": "Evaluate the following expression. Expression: (((23/12) − (12/2)) ÷ (2/13))"
+      },
+      "computed_values": {
+        "A": "-3/4",
+        "B": "83/30",
+        "C": "-637/24",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    8,
+                    2
+                  ],
+                  [
+                    "rat",
+                    10,
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    21,
+                    2
+                  ],
+                  [
+                    "rat",
+                    11,
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    23,
+                    12
+                  ],
+                  [
+                    "rat",
+                    12,
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  13
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) = 2(C)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(B) = 2(A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly concludes (A) is twice (C).",
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "D": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): (((8/2) − (10/2)) ÷ (4/3)) = -3/4; (B): (((21/2) − (11/5)) ÷ (9/3)) = 83/30; (C): (((23/12) − (12/2)) ÷ (2/13)) = -637/24. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 96
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q097",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((11 × 2) ÷ 10) − (2 ÷ 6))",
+        "B": "Evaluate the following expression. Expression: (((15 × 5) ÷ 6) − (3 ÷ 2))",
+        "C": "Evaluate the following expression. Expression: (((8 × 3) ÷ 4) − (6 ÷ 10))"
+      },
+      "computed_values": {
+        "A": "28/15",
+        "B": "11",
+        "C": "27/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    11,
+                    2
+                  ],
+                  10
+                ],
+                [
+                  "div",
+                  2,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    15,
+                    5
+                  ],
+                  6
+                ],
+                [
+                  "div",
+                  3,
+                  2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    8,
+                    3
+                  ],
+                  4
+                ],
+                [
+                  "div",
+                  6,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and less than (A)",
+        "B": "(A) is greater than (C)",
+        "C": "(B) is greater than (C) and (C) is greater than (A)",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "B": "Trap: Reverses relational comparison between (A) and (C).",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): (((11 × 2) ÷ 10) − (2 ÷ 6)) = 28/15; (B): (((15 × 5) ÷ 6) − (3 ÷ 2)) = 11; (C): (((8 × 3) ÷ 4) − (6 ÷ 10)) = 27/5. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 97
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q098",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((9 × (3 + 12)) − (9 × (6 − 4)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((4 × (12 + 15)) − (4 × (7 − 11)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((21 × (10 + 13)) − (21 × (5 − 10)))"
+      },
+      "computed_values": {
+        "A": "117",
+        "B": "124",
+        "C": "588",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  9,
+                  [
+                    "add",
+                    3,
+                    12
+                  ]
+                ],
+                [
+                  "mul",
+                  9,
+                  [
+                    "sub",
+                    6,
+                    4
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  4,
+                  [
+                    "add",
+                    12,
+                    15
+                  ]
+                ],
+                [
+                  "mul",
+                  4,
+                  [
+                    "sub",
+                    7,
+                    11
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "add",
+                    10,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  21,
+                  [
+                    "sub",
+                    5,
+                    10
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) = 2(A)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(B) is equal to (C) and greater than (A)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: Treats (B) and (C) as equivalent and larger than (A).",
+        "D": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): ((9 × (3 + 12)) − (9 × (6 − 4))) = 117; (B): ((4 × (12 + 15)) − (4 × (7 − 11))) = 124; (C): ((21 × (10 + 13)) − (21 × (5 − 10))) = 588. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 98
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q099",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((12/13) − (9/6)) ÷ (5/14))",
+        "B": "Evaluate the following expression. Expression: (((6/7) − (3/8)) ÷ (4/8))",
+        "C": "Evaluate the following expression. Expression: (((23/6) − (10/3)) ÷ (6/7))"
+      },
+      "computed_values": {
+        "A": "-21/13",
+        "B": "27/28",
+        "C": "7/12",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    12,
+                    13
+                  ],
+                  [
+                    "rat",
+                    9,
+                    6
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  14
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    6,
+                    7
+                  ],
+                  [
+                    "rat",
+                    3,
+                    8
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    23,
+                    6
+                  ],
+                  [
+                    "rat",
+                    10,
+                    3
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(A) + (B) = (C)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(B) + (C) = (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): (((12/13) − (9/6)) ÷ (5/14)) = -21/13; (B): (((6/7) − (3/8)) ÷ (4/8)) = 27/28; (C): (((23/6) − (10/3)) ÷ (6/7)) = 7/12. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 99
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q100",
+      "archetype": "Sequence",
+      "sub_type": "Alternating Two-Operation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 5, 20, 56, 173, 515, 1550, ?",
+      "stimulus": [
+        "5",
+        "20",
+        "56",
+        "173",
+        "515",
+        "1550"
+      ],
+      "computed_values": {
+        "next_term": "4646",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "parameters": {
+            "a": 5,
+            "b": 3,
+            "c": 5,
+            "d": 82,
+            "e": 3,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "alternating-affine"
+          }
+        }
+      },
+      "options": {
+        "A": "2585",
+        "B": "515",
+        "C": "1550",
+        "D": "4646"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Reverses the last visible step.",
+        "C": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Alternate these rules: multiply by 3 then add 5; multiply by 3 then subtract 4. The next term is 4646.",
+      "modality": "Numbers Only",
+      "question_number": 100
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q101",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: (((21 × 11) ÷ 4) − (8 ÷ 3))",
+      "stimulus": "Evaluate the following expression. Expression: (((21 × 11) ÷ 4) − (8 ÷ 3))",
+      "computed_values": {
+        "result": "661/12",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    21,
+                    11
+                  ],
+                  4
+                ],
+                [
+                  "div",
+                  8,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "div",
+              [
+                "mul",
+                21,
+                11
+              ],
+              4
+            ],
+            "B": [
+              "sub",
+              [
+                "div",
+                8,
+                3
+              ],
+              [
+                "div",
+                [
+                  "mul",
+                  21,
+                  11
+                ],
+                4
+              ]
+            ],
+            "C": [
+              "add",
+              [
+                "div",
+                [
+                  "mul",
+                  21,
+                  11
+                ],
+                4
+              ],
+              [
+                "div",
+                8,
+                3
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "231/4",
+        "B": "-661/12",
+        "C": "725/12",
+        "D": "661/12"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "B": "Trap: Reverses operands in sub.",
+        "C": "Trap: Replaces sub with add."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((21 × 11) ÷ 4) − (8 ÷ 3)) = 661/12.",
+      "question_number": 101
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q102",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((16/11) − (6/8)) + (8/12)) ÷ (1 − (8/16)))",
+        "B": "Evaluate the following expression. Expression: ((((20/7) − (9/7)) + (11/8)) ÷ (1 − (7/18)))",
+        "C": "Evaluate the following expression. Expression: ((((4/11) − (3/5)) + (9/12)) ÷ (1 − (5/14)))"
+      },
+      "computed_values": {
+        "A": "181/66",
+        "B": "135/28",
+        "C": "791/990",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      16,
+                      11
+                    ],
+                    [
+                      "rat",
+                      6,
+                      8
+                    ]
+                  ],
+                  [
+                    "rat",
+                    8,
+                    12
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    8,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      20,
+                      7
+                    ],
+                    [
+                      "rat",
+                      9,
+                      7
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    8
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    7,
+                    18
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      4,
+                      11
+                    ],
+                    [
+                      "rat",
+                      3,
+                      5
+                    ]
+                  ],
+                  [
+                    "rat",
+                    9,
+                    12
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    5,
+                    14
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) = 2(A)",
+        "B": "(B) is less than (C)",
+        "C": "(C) is greater than (A)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "B": "Trap: Reverses relational inequality between (B) and (C).",
+        "C": "Trap: Reverses relational comparison between (C) and (A)."
+      },
+      "explanation": "(A): ((((16/11) − (6/8)) + (8/12)) ÷ (1 − (8/16))) = 181/66; (B): ((((20/7) − (9/7)) + (11/8)) ÷ (1 − (7/18))) = 135/28; (C): ((((4/11) − (3/5)) + (9/12)) ÷ (1 − (5/14))) = 791/990. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 102
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q103",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((9/8) − (6/7)) + (9/9)) ÷ (1 − (7/16)))",
+        "B": "Evaluate the following expression. Expression: ((((24/10) − (14/3)) + (5/11)) ÷ (1 − (3/8)))",
+        "C": "Evaluate the following expression. Expression: ((((7/8) − (14/9)) + (6/9)) ÷ (1 − (9/15)))"
+      },
+      "computed_values": {
+        "A": "142/63",
+        "B": "-2392/825",
+        "C": "-5/144",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      9,
+                      8
+                    ],
+                    [
+                      "rat",
+                      6,
+                      7
+                    ]
+                  ],
+                  [
+                    "rat",
+                    9,
+                    9
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    7,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      24,
+                      10
+                    ],
+                    [
+                      "rat",
+                      14,
+                      3
+                    ]
+                  ],
+                  [
+                    "rat",
+                    5,
+                    11
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    3,
+                    8
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      7,
+                      8
+                    ],
+                    [
+                      "rat",
+                      14,
+                      9
+                    ]
+                  ],
+                  [
+                    "rat",
+                    6,
+                    9
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    9,
+                    15
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(A) is equal to (B) and greater than (C)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "B": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): ((((9/8) − (6/7)) + (9/9)) ÷ (1 − (7/16))) = 142/63; (B): ((((24/10) − (14/3)) + (5/11)) ÷ (1 − (3/8))) = -2392/825; (C): ((((7/8) − (14/9)) + (6/9)) ÷ (1 − (9/15))) = -5/144. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 103
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q104",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate the following expression. Expression: ((8 × 8) ÷ 7)",
+      "stimulus": "Evaluate the following expression. Expression: ((8 × 8) ÷ 7)",
+      "computed_values": {
+        "result": "64/7",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  8,
+                  8
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              [
+                "mul",
+                8,
+                8
+              ],
+              7
+            ],
+            "B": [
+              "div",
+              7,
+              [
+                "mul",
+                8,
+                8
+              ]
+            ],
+            "C": [
+              "sub",
+              [
+                "mul",
+                8,
+                8
+              ],
+              7
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "448",
+        "B": "7/64",
+        "C": "57",
+        "D": "64/7"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with mul.",
+        "B": "Trap: Reverses operands in div.",
+        "C": "Trap: Replaces div with sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((8 × 8) ÷ 7) = 64/7.",
+      "question_number": 104
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q105",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((21 × 7) + (21 × 17))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((7 × 10) + (7 × 4))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((23 × 9) + (23 × 8))"
+      },
+      "computed_values": {
+        "A": "504",
+        "B": "98",
+        "C": "391",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  21,
+                  7
+                ],
+                [
+                  "mul",
+                  21,
+                  17
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  7,
+                  10
+                ],
+                [
+                  "mul",
+                  7,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  23,
+                  9
+                ],
+                [
+                  "mul",
+                  23,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) + (C) = (B)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(C) = 2(A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "B": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "D": "Trap: Incorrectly doubles (A) when comparing to (C)."
+      },
+      "explanation": "(A): ((21 × 7) + (21 × 17)) = 504; (B): ((7 × 10) + (7 × 4)) = 98; (C): ((23 × 9) + (23 × 8)) = 391. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 105
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q106",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((18 × 7) + (18 × 16))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((22 × 2) + (22 × 5))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((13 × 5) + (13 × 17))"
+      },
+      "computed_values": {
+        "A": "414",
+        "B": "154",
+        "C": "286",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  18,
+                  7
+                ],
+                [
+                  "mul",
+                  18,
+                  16
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  22,
+                  2
+                ],
+                [
+                  "mul",
+                  22,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  13,
+                  5
+                ],
+                [
+                  "mul",
+                  13,
+                  17
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) + (C) = (A)",
+        "B": "(A) is equal to (B) and greater than (C)",
+        "C": "(B) = 2(A)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "B": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): ((18 × 7) + (18 × 16)) = 414; (B): ((22 × 2) + (22 × 5)) = 154; (C): ((13 × 5) + (13 × 17)) = 286. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 106
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q107",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((21/10) − (9/2)) ÷ (7/11))",
+        "B": "Evaluate the following expression. Expression: (((21/10) − (13/4)) ÷ (8/11))",
+        "C": "Evaluate the following expression. Expression: (((9/2) − (4/7)) ÷ (2/3))"
+      },
+      "computed_values": {
+        "A": "-132/35",
+        "B": "-253/160",
+        "C": "165/28",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    21,
+                    10
+                  ],
+                  [
+                    "rat",
+                    9,
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    21,
+                    10
+                  ],
+                  [
+                    "rat",
+                    13,
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "rat",
+                    9,
+                    2
+                  ],
+                  [
+                    "rat",
+                    4,
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(C) is less than (B)",
+        "D": "(A) = 2(C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "C": "Trap: Reverses relational inequality between (C) and (B).",
+        "D": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): (((21/10) − (9/2)) ÷ (7/11)) = -132/35; (B): (((21/10) − (13/4)) ÷ (8/11)) = -253/160; (C): (((9/2) − (4/7)) ÷ (2/3)) = 165/28. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 107
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q108",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Use the distributive property to evaluate the expression. Expression: ((21 × (4 + 6)) − (21 × (8 − 9)))",
+        "B": "Use the distributive property to evaluate the expression. Expression: ((7 × (11 + 13)) − (7 × (2 − 3)))",
+        "C": "Use the distributive property to evaluate the expression. Expression: ((8 × (12 + 4)) − (8 × (2 − 6)))"
+      },
+      "computed_values": {
+        "A": "231",
+        "B": "175",
+        "C": "160",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  21,
+                  [
+                    "add",
+                    4,
+                    6
+                  ]
+                ],
+                [
+                  "mul",
+                  21,
+                  [
+                    "sub",
+                    8,
+                    9
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  7,
+                  [
+                    "add",
+                    11,
+                    13
+                  ]
+                ],
+                [
+                  "mul",
+                  7,
+                  [
+                    "sub",
+                    2,
+                    3
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "mul",
+                  8,
+                  [
+                    "add",
+                    12,
+                    4
+                  ]
+                ],
+                [
+                  "mul",
+                  8,
+                  [
+                    "sub",
+                    2,
+                    6
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A), (B), and (C) are equal",
+        "B": "(A) + (C) = (B)",
+        "C": "(B) is greater than (C) and (C) is greater than (A)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "B": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "C": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): ((21 × (4 + 6)) − (21 × (8 − 9))) = 231; (B): ((7 × (11 + 13)) − (7 × (2 − 3))) = 175; (C): ((8 × (12 + 4)) − (8 × (2 − 6))) = 160. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 108
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q109",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Fraction comparisons",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((5/2) − (8/6)) + (7/3)) ÷ (1 − (6/13)))",
+        "B": "Evaluate the following expression. Expression: ((((15/9) − (4/7)) + (11/10)) ÷ (1 − (7/18)))",
+        "C": "Evaluate the following expression. Expression: ((((8/13) − (14/5)) + (11/14)) ÷ (1 − (5/16)))"
+      },
+      "computed_values": {
+        "A": "13/2",
+        "B": "1383/385",
+        "C": "-10184/5005",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Fraction comparisons",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      5,
+                      2
+                    ],
+                    [
+                      "rat",
+                      8,
+                      6
+                    ]
+                  ],
+                  [
+                    "rat",
+                    7,
+                    3
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    6,
+                    13
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      15,
+                      9
+                    ],
+                    [
+                      "rat",
+                      4,
+                      7
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    10
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    7,
+                    18
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "sub",
+                    [
+                      "rat",
+                      8,
+                      13
+                    ],
+                    [
+                      "rat",
+                      14,
+                      5
+                    ]
+                  ],
+                  [
+                    "rat",
+                    11,
+                    14
+                  ]
+                ],
+                [
+                  "sub",
+                  1,
+                  [
+                    "rat",
+                    5,
+                    16
+                  ]
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and greater than (C)",
+        "B": "(A) + (C) = (B)",
+        "C": "(A) is equal to (B) and less than (C)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "B": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "C": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B)."
+      },
+      "explanation": "(A): ((((5/2) − (8/6)) + (7/3)) ÷ (1 − (6/13))) = 13/2; (B): ((((15/9) − (4/7)) + (11/10)) ÷ (1 − (7/18))) = 1383/385; (C): ((((8/13) − (14/5)) + (11/14)) ÷ (1 − (5/16))) = -10184/5005. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 109
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q110",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Distributive property",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Use the distributive property to evaluate the expression. Expression: ((23 × 2) + (23 × 4))",
+      "stimulus": "Use the distributive property to evaluate the expression. Expression: ((23 × 2) + (23 × 4))",
+      "computed_values": {
+        "result": "138",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Distributive property",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "add",
+                [
+                  "mul",
+                  23,
+                  2
+                ],
+                [
+                  "mul",
+                  23,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Use the distributive property to evaluate the expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              23,
+              2
+            ],
+            "B": [
+              "sub",
+              [
+                "mul",
+                23,
+                2
+              ],
+              [
+                "mul",
+                23,
+                4
+              ]
+            ],
+            "D": [
+              "mul",
+              23,
+              4
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "46",
+        "B": "-46",
+        "C": "138",
+        "D": "92"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Stops at the left intermediate result.",
+        "B": "Trap: Replaces add with sub.",
+        "D": "Trap: Stops at the right intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((23 × 2) + (23 × 4)) = 138.",
+      "question_number": 110
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q111",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((7 × 11) ÷ 6)",
+        "B": "Evaluate the following expression. Expression: ((21 × 8) ÷ 7)",
+        "C": "Evaluate the following expression. Expression: ((13 × 3) ÷ 5)"
+      },
+      "computed_values": {
+        "A": "77/6",
+        "B": "24",
+        "C": "39/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  7,
+                  11
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  21,
+                  8
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "mul",
+                  13,
+                  3
+                ],
+                5
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) = 2(A)",
+        "B": "(B) is greater than (A) and (A) is greater than (C)",
+        "C": "(A) + (B) = (C)",
+        "D": "(A) is equal to (B) and greater than (C)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "D": "Trap: Conflates (A) and (B) as equal or misorders (C)."
+      },
+      "explanation": "(A): ((7 × 11) ÷ 6) = 77/6; (B): ((21 × 8) ÷ 7) = 24; (C): ((13 × 3) ÷ 5) = 39/5. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 111
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q112",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Multiplication / Division",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: (((13 × 2) ÷ 5) − (4 ÷ 10))",
+      "stimulus": "Evaluate the following expression. Expression: (((13 × 2) ÷ 5) − (4 ÷ 10))",
+      "computed_values": {
+        "result": "24/5",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Multiplication / Division",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "div",
+                  [
+                    "mul",
+                    13,
+                    2
+                  ],
+                  5
+                ],
+                [
+                  "div",
+                  4,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "add",
+              [
+                "div",
+                [
+                  "mul",
+                  13,
+                  2
+                ],
+                5
+              ],
+              [
+                "div",
+                4,
+                10
+              ]
+            ],
+            "B": [
+              "sub",
+              [
+                "div",
+                4,
+                10
+              ],
+              [
+                "div",
+                [
+                  "mul",
+                  13,
+                  2
+                ],
+                5
+              ]
+            ],
+            "D": [
+              "div",
+              [
+                "mul",
+                13,
+                2
+              ],
+              5
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "28/5",
+        "B": "-24/5",
+        "C": "24/5",
+        "D": "26/5"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Replaces sub with add.",
+        "B": "Trap: Reverses operands in sub.",
+        "D": "Trap: Stops at the left intermediate result."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((13 × 2) ÷ 5) − (4 ÷ 10)) = 24/5.",
+      "question_number": 112
+    }
+  ]
+}

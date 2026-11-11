@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T15",
+  "test_number": 15,
+  "title": "HSPT Quantitative Practice Test 15 (Operations involving decimals · Evaluating equations with variables · Angles in a triangle)",
+  "focus_topics": [
+    "Operations involving decimals",
+    "Evaluating equations with variables",
+    "Angles in a triangle"
+  ],
+  "topic_question_counts": {
+    "Operations involving decimals": 18,
+    "Evaluating equations with variables": 17,
+    "Angles in a triangle": 17
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 33,
+    "Computation": 12,
+    "Sequence": 7
+  },
+  "topics": [
+    "Angles in a triangle",
+    "Evaluating equations with variables",
+    "Operations involving decimals"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q061",
+      "number": 61,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "136bcd9c045bbc657297fcbcb8c3af774a1669389edb2d2985891a7511d7c777"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q062",
+      "number": 62,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c70c4b275857ecfdee124e3344c03643d5e67f91b71f8bdf0509fb1cdb3fd099"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q063",
+      "number": 63,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "82603aa12179d4edb279cc5d92d92d2e5a06dd202ddea44ed0b3177d5f5d42ef"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q064",
+      "number": 64,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a47472d761f3bc47b72d0f8d26fc8ae05753a6726daa709d4bbd5a3f284f935d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q065",
+      "number": 65,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "df4b7e54b51d69f1388f25bbde5e78e5add66873eac156582f5acf9fe0a37605"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q066",
+      "number": 66,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c15b1382c47f5fde16b576e25707146473ab5ca8b47bbc76b968f4b2cc3d25a4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q067",
+      "number": 67,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c94008d5ed0919538aea0cc3009093e72d28b3bb4b30e2168c6c6c306f997739"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q068",
+      "number": 68,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ee3f483abcf3cb6eabab50829b6c8c4e008ccb37a9bc9aa58106bc0f5ec7cb51"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q069",
+      "number": 69,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "5fcc78e347c00d7c877164a58db3b8d5d73b5240b24f144ad4dd3154112dd16c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q070",
+      "number": 70,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e19e365eb5108fef011acea5fb108b3da731b284b87e393060c6d26633b07254"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q071",
+      "number": 71,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "983cdbf875e63793a22443d27652bb97eabbc7ce38190a6a0f161fc2f04ce3d7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q072",
+      "number": 72,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "5d651aa6416b71abe41ad96c635c1f637140b883c14d59a25f295b8b3ac0e067"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q073",
+      "number": 73,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "d774bd0f8b422db6bf7f336cdcc4c83c53459b1947b107668ff602f590e5feb5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q074",
+      "number": 74,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "77180b0c7ca242aac7f6af8ef272cfaf4ba21bb713b7c46b5d45717d2d35b4f3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q075",
+      "number": 75,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "da1e0398b83b06312b8711ff866ca7ccf66ccc7ddfba99bef121976c391a1a35"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q076",
+      "number": 76,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "eb0cbfae422ae7aea47c208e0cd65f5b38aa3b5ebc2900475579a783d29ccc35"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q077",
+      "number": 77,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "a9c00a555857a8ef788fac5cf4fcecafcdc9e2f84bef8066fc56729595db9c5d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q078",
+      "number": 78,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "5ed40dfc2e46b0b015b39f9011c4454fdc8f417d99c84f49a2094128c537dfaa"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q079",
+      "number": 79,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "00b03bd73adc723dba3977c76d77a527fc1c6fdcf2a06a9fae6349a8221736e1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q080",
+      "number": 80,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "87edaedef0eb72d61d184ac87dca880a57b612d36037bc0cb4b643be0a4ffdf0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q081",
+      "number": 81,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "7c4155f715fd18ce65dfa7391445dd8972c709c00afb0ab7d70757179314c201"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q082",
+      "number": 82,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "201f7f225f20d1b14414bdc2fda0cad45da7803ea9b503369f864b36860e0014"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q083",
+      "number": 83,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b81d758666ccf1dfdaff1a11754ba3b00684c2f8f7b39e688b180ba38ea9bf39"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q084",
+      "number": 84,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cb8c3a99d1ad36fd36a6bbd105cdbb3b6ff835c200323bbbb60c76804015d670"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q085",
+      "number": 85,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "72187e39f2a9b81e8cad519d497dc863cb96fe6aa1423aac4123eb5e52f6f1fd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q086",
+      "number": 86,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e4d5ef09f0505903b908c835fc1a42a37f3aceb6240987c81d157f7371424044"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q087",
+      "number": 87,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cf651d59e967a83d45491c461109d220fe07207cd527edaf576b5457754402e2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q088",
+      "number": 88,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "921b54077080f68a9fc9d0e6d2768429c4412509d7b681a18762a96b715b9b79"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q089",
+      "number": 89,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "66747207ec3b91920203c57e63b3c5d87d3515cc8a9c72e88b0c6aa69bc17224"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q090",
+      "number": 90,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "61868b8e5574d7d33b7dbdd39e14feb91f5155e99a9083c94060a4704767ac03"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q091",
+      "number": 91,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "314c3f6719ac3c01537af1bad04fce77991c52dcc6cc682a08a8edc022c796c2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q092",
+      "number": 92,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "049df005a7996de8f1a39d2fed52b16bd183355d9cf7573a6cb45d6cecf2af9b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q093",
+      "number": 93,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ce1394c212559c88061691bc8d4cd98d35ca5c3d9d0a8d05234790dc1d729f0d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q094",
+      "number": 94,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "52948e9603272eb3cc3fe35163eb830eec7a8b4c3a17f20b019eca74399e6d2e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q095",
+      "number": 95,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cba65eabef900d8a2d36ad7288d748e18777c5a24124bab0fd0067096933f8e3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q096",
+      "number": 96,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "e9558e99664df3cf6ff01df23c9eb31ad0a53e7bb5c270b89e2c8573fb7a586a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q097",
+      "number": 97,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a7b311e5d8b44d78aa63c83134f7eca9664cde6e3855370fcae0a468a8d2601a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q098",
+      "number": 98,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "683cb2ac2884343594ecbfda0b7d99356651212d8e244c08f57ba46fc1e84949"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q099",
+      "number": 99,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "0534ac18426df8021c2708f57661b9dd230315b962d0be3de7340e5aed421642"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q100",
+      "number": 100,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a1a1954a51bec6e8c03eee16fef32d1d8180611c635479ff384fd0b05fe4ef3f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q101",
+      "number": 101,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "5fa8816760bfcf8310646853aa925927c3db87b61ba9e725ad36cf50ca2f8671"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q102",
+      "number": 102,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b1093ab13f2d7652b80d68a0c35a28e105fbb749d7482e092aaa923dd10fb090"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q103",
+      "number": 103,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "bd446b5ba828b8523c40eb7e6ce05dd1925001433ab79cbc5b49884db1eb4860"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q104",
+      "number": 104,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "49288ea348a9641247ec162e15ef549f0383b8ca9c858e67f24dfd4319ce5a46"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q105",
+      "number": 105,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "e11886a3302ff30108fd77c7d505378787616e4be6cb665f2b192b8f1d4fe0a5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q106",
+      "number": 106,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "80c6e07769d6c7f84d590df18c0cc44fef9f4ec55c52bdb0d9bb21f27c825e3f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q107",
+      "number": 107,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "3b04b3231a4647aa605d17973f0961b286247914a53fa7a50a866bb5f98d69a1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q108",
+      "number": 108,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "7001d292c603a0acc034f87b789c3bf60760aeeeb40ad6936564826a81945b2b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q109",
+      "number": 109,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c4a8c79b8bb79a528ba6870d9002970cac1b8e8ccfdfa7915f441f58ff5ec8e0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q110",
+      "number": 110,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5253ee198ef768136a563295700c824347753ab0324925f7252235844f83bd03"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q111",
+      "number": 111,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "b5bd92436468feb663370b04cf0f546d0a738e4e6adfd4a7eef4a4c86a8a473d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T15-Q112",
+      "number": 112,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "2ce3d324131d0f2c59b90de70bbb714d3b96913c62383ac6e1172a4e4040da52"
+    }
+  ]
+}

@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSPT Quantitative Practice Test 11 (Multiplication / Division · Evaluating equations with variables · Operations involving fractions)</title>
+<style>
+  :root {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --border: #cbd5e1;
+    --text: #0f172a;
+    --muted: #475569;
+    --primary: #1d4ed8;
+    --primary-soft: #dbeafe;
+    --correct: #15803d;
+    --correct-bg: #dcfce7;
+    --wrong: #b91c1c;
+    --wrong-bg: #fee2e2;
+    --badge-seq: #7c3aed;
+    --badge-comp: #0284c7;
+    --badge-calc: #d97706;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 0.85rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.2);
+  }
+  .title-block h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .title-block .subtitle {
+    font-size: 0.8rem;
+    color: #94a3b8;
+  }
+  .hud {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .timer-box {
+    background: #1e293b;
+    border: 1px solid #334155;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #38bdf8;
+  }
+  .score-box {
+    background: #1e293b;
+    border: 1px solid #334155;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+  }
+  button.btn {
+    background: var(--primary);
+    color: #ffffff;
+    border: none;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button.btn.secondary {
+    background: #334155;
+  }
+  .controls-bar {
+    max-width: 1120px;
+    margin: 1rem auto;
+    padding: 0.85rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  .controls-bar label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .controls-bar select {
+    padding: 0.35rem 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    background: #fff;
+  }
+  main.container {
+    max-width: 1120px;
+    margin: 0 auto 3rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  article.question-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  }
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  .badge {
+    font-size: 0.73rem;
+    font-weight: 700;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: #e2e8f0;
+    color: #1e293b;
+  }
+  .badge.qnum { background: #0f172a; color: #ffffff; }
+  .badge.arch-Sequence { background: #ede9fe; color: var(--badge-seq); }
+  .badge.arch-Comparison { background: #e0f2fe; color: var(--badge-comp); }
+  .badge.arch-Computation { background: #fef3c7; color: var(--badge-calc); }
+  .prompt-text {
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.75rem 0;
+  }
+  .stimulus-box {
+    background: #f1f5f9;
+    border-left: 4px solid var(--primary);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.9rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.95rem;
+  }
+  .comp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.65rem;
+  }
+  .comp-cell {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.55rem 0.75rem;
+  }
+  .comp-cell strong {
+    color: var(--primary);
+  }
+  .svg-figure {
+    margin: 0.85rem 0;
+    padding: 0.75rem;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    text-align: center;
+    overflow-x: auto;
+  }
+  .svg-figure svg {
+    max-width: 100%;
+    height: auto;
+  }
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+  }
+  button.option-btn {
+    text-align: left;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #ffffff;
+    font-size: 0.92rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  button.option-btn:hover {
+    border-color: var(--primary);
+    background: #f8fafc;
+  }
+  button.option-btn.selected-correct {
+    background: var(--correct-bg);
+    border-color: var(--correct);
+    color: var(--correct);
+    font-weight: 700;
+  }
+  button.option-btn.selected-wrong {
+    background: var(--wrong-bg);
+    border-color: var(--wrong);
+    color: var(--wrong);
+    font-weight: 700;
+  }
+  .rationale-panel {
+    margin-top: 0.9rem;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    display: none;
+  }
+  .rationale-panel.visible {
+    display: block;
+  }
+  .rationale-list {
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.2rem;
+    font-size: 0.86rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="title-block">
+    <h1>HSPT Quantitative Practice Test 11 (Multiplication / Division · Evaluating equations with variables · Operations involving fractions)</h1>
+    <div class="subtitle">Exam ID: HSPT-QS-PRACTICE-20-T11 &middot; Total Questions: <span id="visible-count">52</span> / 52 &middot; Source: SQLite Inline-SVG Repository</div>
+  </div>
+  <div class="hud">
+    <div class="timer-box" id="timer-display">35:00</div>
+    <button class="btn" type="button" onclick="toggleTimer()" id="timer-btn">Start Timer</button>
+    <button class="btn secondary" type="button" onclick="resetExam()">Reset</button>
+    <button class="btn secondary" type="button" onclick="toggleAllRationales()">Show/Hide Solutions</button>
+    <div class="score-box">
+      Answered: <strong id="answered-count">0</strong> &middot;
+      Correct: <strong id="correct-count">0</strong> &middot;
+      Score: <strong id="score-pct">0%</strong>
+    </div>
+  </div>
+</header>
+
+<section class="controls-bar" aria-label="Question Filters">
+  <label>Archetype
+    <select id="filter-archetype" onchange="applyFilters()">
+      <option value="ALL">All Archetypes</option>
+      <option value="Sequence">Sequence</option>
+      <option value="Comparison">Comparison</option>
+      <option value="Computation">Computation</option>
+    </select>
+  </label>
+  <label>Syllabus Domain
+    <select id="filter-domain" onchange="applyFilters()">
+      <option value="ALL">All Domains</option>
+      <option value="Mathematics">Mathematics</option>
+      <option value="Algebra">Algebra</option>
+      <option value="Geometry">Geometry</option>
+      <option value="Miscellaneous">Miscellaneous</option>
+    </select>
+  </label>
+  <label>Syllabus Topic
+    <select id="filter-topic" onchange="applyFilters()">
+      <option value="ALL">All Topics (18)</option>
+      <option value="Evaluating equations with variables">Evaluating equations with variables</option>
+<option value="Multiplication / Division">Multiplication / Division</option>
+<option value="Operations involving fractions">Operations involving fractions</option>
+    </select>
+  </label>
+  <label>Complexity Level
+    <select id="filter-complexity" onchange="applyFilters()">
+      <option value="ALL">All Levels</option>
+      <option value="1">Level 1 (Foundational)</option>
+      <option value="2">Level 2 (Standard HSPT)</option>
+      <option value="3">Level 3 (High-Trap)</option>
+    </select>
+  </label>
+</section>
+
+<main class="container" id="questions-container">
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q061"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q61</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q061</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -4, y = 5, Evaluate the following expression. Expression: ((10 × (x ^ 2)) + ((y − 6) ÷ 3))</div><div class="comp-cell"><strong>(B)</strong> For x = -6, y = 6, Evaluate the following expression. Expression: ((22 × (x ^ 2)) + ((y − 11) ÷ 3))</div><div class="comp-cell"><strong>(C)</strong> For x = -6, y = 7, Evaluate the following expression. Expression: ((11 × (x ^ 2)) + ((y − 10) ÷ 15))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q061', 'A', 'B')"><strong>(A)</strong> (B) + (C) = (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q061', 'B', 'B')"><strong>(B)</strong> (B) is greater than (C) and (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q061', 'C', 'B')"><strong>(C)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q061', 'D', 'B')"><strong>(D)</strong> (B) is less than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; (A): ((10 × (x ^ 2)) + ((y − 6) ÷ 3)) = 479/3; (B): ((22 × (x ^ 2)) + ((y − 11) ÷ 3)) = 2371/3; (C): ((11 × (x ^ 2)) + ((y − 10) ÷ 15)) = 1979/5. Therefore (B) is greater than (C) and (C) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;479/3&quot;, &quot;B&quot;: &quot;2371/3&quot;, &quot;C&quot;: &quot;1979/5&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 10, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 6], 3]], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -4, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 22, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 11], 3]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -6, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 11, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 10], 15]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 7}, &quot;context&quot;: &quot;For x = -6, y = 7, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: False additive relation (B) + (C) = (A) from sign or grouping error.</li><li><strong>Option (C):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (D):</strong> Trap: Reverses relational inequality between (B) and (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q062"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q62</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q062</span>
+    <span class="badge arch-Sequence">Sequence &middot; Alternating Two-Operation</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 9, 31, 56, 172, 338, 1018, ?</div>
+  <div class="stimulus-box">Series: 9 , 31 , 56 , 172 , 338 , 1018 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q062', 'A', 'A')"><strong>(A)</strong> 2030</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q062', 'B', 'A')"><strong>(B)</strong> 1018</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q062', 'C', 'A')"><strong>(C)</strong> 338</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q062', 'D', 'A')"><strong>(D)</strong> 1698</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; Alternate these rules: multiply by 3 then add 4; multiply by 2 then subtract 6. The next term is 2030.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;2030&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;parameters&quot;: {&quot;a&quot;: 9, &quot;b&quot;: 3, &quot;c&quot;: 4, &quot;d&quot;: 48, &quot;e&quot;: 2, &quot;f&quot;: 6, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;alternating-affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Repeats the previous term instead of advancing.</li><li><strong>Option (C):</strong> Trap: Reverses the last visible step.</li><li><strong>Option (D):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q063"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q63</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q063</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((8 × 5) ÷ 9) − (2 ÷ 4))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((8 × 8) ÷ 12) − (8 ÷ 11))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((18 × 3) ÷ 16) − (4 ÷ 9))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q063', 'A', 'D')"><strong>(A)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q063', 'B', 'D')"><strong>(B)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q063', 'C', 'D')"><strong>(C)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q063', 'D', 'D')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): (((8 × 5) ÷ 9) − (2 ÷ 4)) = 71/18; (B): (((8 × 8) ÷ 12) − (8 ÷ 11)) = 152/33; (C): (((18 × 3) ÷ 16) − (4 ÷ 9)) = 211/72. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;71/18&quot;, &quot;B&quot;: &quot;152/33&quot;, &quot;C&quot;: &quot;211/72&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 8, 5], 9], [&quot;div&quot;, 2, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 8, 8], 12], [&quot;div&quot;, 8, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 18, 3], 16], [&quot;div&quot;, 4, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (B):</strong> Trap: Misorders (C), (A), and (B) under time pressure.</li><li><strong>Option (C):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q064"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q64</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q064</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((8/7) + (17/9)) − ((4/8) × 4)) ÷ (9/5))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((24/5) + (15/7)) − ((7/6) × 7)) ÷ (7/8))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((20/7) + (16/8)) − ((5/8) × 5)) ÷ (8/6))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q064', 'A', 'C')"><strong>(A)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q064', 'B', 'C')"><strong>(B)</strong> (B) is equal to (C) and less than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q064', 'C', 'C')"><strong>(C)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q064', 'D', 'C')"><strong>(D)</strong> (C) = 2(A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): ((((8/7) + (17/9)) − ((4/8) × 4)) ÷ (9/5)) = 325/567; (B): ((((24/5) + (15/7)) − ((7/6) × 7)) ÷ (7/8)) = -1028/735; (C): ((((20/7) + (16/8)) − ((5/8) × 5)) ÷ (8/6)) = 291/224. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;325/567&quot;, &quot;B&quot;: &quot;-1028/735&quot;, &quot;C&quot;: &quot;291/224&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 8, 7], [&quot;rat&quot;, 17, 9]], [&quot;mul&quot;, [&quot;rat&quot;, 4, 8], 4]], [&quot;rat&quot;, 9, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 24, 5], [&quot;rat&quot;, 15, 7]], [&quot;mul&quot;, [&quot;rat&quot;, 7, 6], 7]], [&quot;rat&quot;, 7, 8]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 20, 7], [&quot;rat&quot;, 16, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 5, 8], 5]], [&quot;rat&quot;, 8, 6]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (B):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li><li><strong>Option (D):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q065"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q65</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q065</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((21/11) + (16/8)) − ((5/12) × 5)) ÷ (8/6))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((13/3) + (10/4)) − ((2/4) × 2)) ÷ (4/3))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((9/10) + (6/5)) − ((6/11) × 6)) ÷ (5/7))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q065', 'A', 'A')"><strong>(A)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q065', 'B', 'A')"><strong>(B)</strong> (B) + (C) = (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q065', 'C', 'A')"><strong>(C)</strong> (A) is equal to (B) and greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q065', 'D', 'A')"><strong>(D)</strong> (A) + (B) = (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((((21/11) + (16/8)) − ((5/12) × 5)) ÷ (8/6)) = 241/176; (B): ((((13/3) + (10/4)) − ((2/4) × 2)) ÷ (4/3)) = 35/8; (C): ((((9/10) + (6/5)) − ((6/11) × 6)) ÷ (5/7)) = -903/550. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;241/176&quot;, &quot;B&quot;: &quot;35/8&quot;, &quot;C&quot;: &quot;-903/550&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 21, 11], [&quot;rat&quot;, 16, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 5, 12], 5]], [&quot;rat&quot;, 8, 6]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 13, 3], [&quot;rat&quot;, 10, 4]], [&quot;mul&quot;, [&quot;rat&quot;, 2, 4], 2]], [&quot;rat&quot;, 4, 3]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 9, 10], [&quot;rat&quot;, 6, 5]], [&quot;mul&quot;, [&quot;rat&quot;, 6, 11], 6]], [&quot;rat&quot;, 5, 7]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: False additive relation (B) + (C) = (A) from sign or grouping error.</li><li><strong>Option (C):</strong> Trap: Conflates (A) and (B) as equal or misorders (C).</li><li><strong>Option (D):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q066"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q66</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q066</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: (((18/4) + (8/9)) ÷ 2)</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: (((18/4) + (8/9)) ÷ 2)</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q066', 'A', 'C')"><strong>(A)</strong> 61/18</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q066', 'B', 'C')"><strong>(B)</strong> 97/9</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q066', 'C', 'C')"><strong>(C)</strong> 97/36</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q066', 'D', 'C')"><strong>(D)</strong> 36/97</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Translate the stated relationships and evaluate in order: (((18/4) + (8/9)) ÷ 2) = 97/36.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;97/36&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 4], [&quot;rat&quot;, 8, 9]], 2], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 4], [&quot;rat&quot;, 8, 9]], 2], &quot;B&quot;: [&quot;mul&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 4], [&quot;rat&quot;, 8, 9]], 2], &quot;D&quot;: [&quot;div&quot;, 2, [&quot;add&quot;, [&quot;rat&quot;, 18, 4], [&quot;rat&quot;, 8, 9]]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Replaces div with sub.</li><li><strong>Option (B):</strong> Trap: Replaces div with mul.</li><li><strong>Option (D):</strong> Trap: Reverses operands in div.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q067"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q67</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q067</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((21 × 13) ÷ 9) − (3 ÷ 10))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((18 × 10) ÷ 13) − (3 ÷ 2))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((15 × 4) ÷ 5) − (6 ÷ 11))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q067', 'A', 'C')"><strong>(A)</strong> (A) + (C) = (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q067', 'B', 'C')"><strong>(B)</strong> (B) is less than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q067', 'C', 'C')"><strong>(C)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q067', 'D', 'C')"><strong>(D)</strong> (B) is equal to (C) and less than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): (((21 × 13) ÷ 9) − (3 ÷ 10)) = 901/30; (B): (((18 × 10) ÷ 13) − (3 ÷ 2)) = 321/26; (C): (((15 × 4) ÷ 5) − (6 ÷ 11)) = 126/11. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;901/30&quot;, &quot;B&quot;: &quot;321/26&quot;, &quot;C&quot;: &quot;126/11&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 21, 13], 9], [&quot;div&quot;, 3, 10]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 18, 10], 13], [&quot;div&quot;, 3, 2]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 15, 4], 5], [&quot;div&quot;, 6, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: False additive relation (A) + (C) = (B) from arithmetic error.</li><li><strong>Option (B):</strong> Trap: Reverses relational inequality between (B) and (C).</li><li><strong>Option (D):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q068"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q68</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q068</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: (((14 × 7) ÷ 15) − (8 ÷ 10))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: (((14 × 7) ÷ 15) − (8 ÷ 10))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q068', 'A', 'B')"><strong>(A)</strong> -86/15</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q068', 'B', 'B')"><strong>(B)</strong> 86/15</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q068', 'C', 'B')"><strong>(C)</strong> 22/3</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q068', 'D', 'B')"><strong>(D)</strong> 98/15</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; Translate the stated relationships and evaluate in order: (((14 × 7) ÷ 15) − (8 ÷ 10)) = 86/15.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;86/15&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 14, 7], 15], [&quot;div&quot;, 8, 10]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;sub&quot;, [&quot;div&quot;, 8, 10], [&quot;div&quot;, [&quot;mul&quot;, 14, 7], 15]], &quot;C&quot;: [&quot;add&quot;, [&quot;div&quot;, [&quot;mul&quot;, 14, 7], 15], [&quot;div&quot;, 8, 10]], &quot;D&quot;: [&quot;div&quot;, [&quot;mul&quot;, 14, 7], 15]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses operands in sub.</li><li><strong>Option (C):</strong> Trap: Replaces sub with add.</li><li><strong>Option (D):</strong> Trap: Stops at the left intermediate result.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q069"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q69</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q069</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -7, y = 6, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 12) ÷ 13))</div><div class="comp-cell"><strong>(B)</strong> For x = -6, y = 9, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 11) ÷ 17))</div><div class="comp-cell"><strong>(C)</strong> For x = -2, y = 6, Evaluate the following expression. Expression: ((4 × (x ^ 2)) + ((y − 10) ÷ 15))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q069', 'A', 'A')"><strong>(A)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q069', 'B', 'A')"><strong>(B)</strong> (C) = 2(A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q069', 'C', 'A')"><strong>(C)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q069', 'D', 'A')"><strong>(D)</strong> (C) is greater than (B) and (B) is greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((19 × (x ^ 2)) + ((y − 12) ÷ 13)) = 12097/13; (B): ((19 × (x ^ 2)) + ((y − 11) ÷ 17)) = 11626/17; (C): ((4 × (x ^ 2)) + ((y − 10) ÷ 15)) = 236/15. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;12097/13&quot;, &quot;B&quot;: &quot;11626/17&quot;, &quot;C&quot;: &quot;236/15&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 12], 13]], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -7, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 11], 17]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -6, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 4, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 10], 15]], &quot;variables&quot;: {&quot;x&quot;: -2, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -2, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li><li><strong>Option (C):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (D):</strong> Trap: Reverses strict ascending order (C) &gt; (B) &gt; (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q070"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q70</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q070</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((12/12) + (12/2)) − ((4/13) × 4)) ÷ (2/5))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((7/13) + (10/8)) − ((3/14) × 3)) ÷ (8/4))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((5/9) + (9/7)) − ((11/10) × 11)) ÷ (7/12))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q070', 'A', 'A')"><strong>(A)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q070', 'B', 'A')"><strong>(B)</strong> (B) is greater than (C) and (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q070', 'C', 'A')"><strong>(C)</strong> (A) is equal to (C) and less than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q070', 'D', 'A')"><strong>(D)</strong> (B) + (C) = (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((((12/12) + (12/2)) − ((4/13) × 4)) ÷ (2/5)) = 375/26; (B): ((((7/13) + (10/8)) − ((3/14) × 3)) ÷ (8/4)) = 417/728; (C): ((((5/9) + (9/7)) − ((11/10) × 11)) ÷ (7/12)) = -12926/735. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;375/26&quot;, &quot;B&quot;: &quot;417/728&quot;, &quot;C&quot;: &quot;-12926/735&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 12], [&quot;rat&quot;, 12, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 4, 13], 4]], [&quot;rat&quot;, 2, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 7, 13], [&quot;rat&quot;, 10, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 14], 3]], [&quot;rat&quot;, 8, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 5, 9], [&quot;rat&quot;, 9, 7]], [&quot;mul&quot;, [&quot;rat&quot;, 11, 10], 11]], [&quot;rat&quot;, 7, 12]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Misorders (B), (C), and (A) due to arithmetic slip.</li><li><strong>Option (C):</strong> Trap: Assumes (A) = (C) &lt; (B) without verifying each quantity.</li><li><strong>Option (D):</strong> Trap: False additive relation (B) + (C) = (A) from sign or grouping error.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q071"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q71</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q071</span>
+    <span class="badge arch-Sequence">Sequence &middot; Alternating Two-Operation</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 5, 17, 48, 146, 435, 1307, ?</div>
+  <div class="stimulus-box">Series: 5 , 17 , 48 , 146 , 435 , 1307 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q071', 'A', 'A')"><strong>(A)</strong> 3918</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q071', 'B', 'A')"><strong>(B)</strong> 2179</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q071', 'C', 'A')"><strong>(C)</strong> 435</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q071', 'D', 'A')"><strong>(D)</strong> 1307</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; Alternate these rules: multiply by 3 then add 2; multiply by 3 then subtract 3. The next term is 3918.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;3918&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;parameters&quot;: {&quot;a&quot;: 5, &quot;b&quot;: 3, &quot;c&quot;: 2, &quot;d&quot;: 45, &quot;e&quot;: 3, &quot;f&quot;: 3, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;alternating-affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li><li><strong>Option (C):</strong> Trap: Reverses the last visible step.</li><li><strong>Option (D):</strong> Trap: Repeats the previous term instead of advancing.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q072"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q72</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q072</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -2, y = 4, Evaluate the following expression. Expression: ((16 × (x ^ 2)) + ((y − 13) ÷ 10))</div><div class="comp-cell"><strong>(B)</strong> For x = -6, y = 5, Evaluate the following expression. Expression: ((20 × (x ^ 2)) + ((y − 13) ÷ 6))</div><div class="comp-cell"><strong>(C)</strong> For x = -5, y = 3, Evaluate the following expression. Expression: ((8 × (x ^ 2)) + ((y − 8) ÷ 16))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q072', 'A', 'D')"><strong>(A)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q072', 'B', 'D')"><strong>(B)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q072', 'C', 'D')"><strong>(C)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q072', 'D', 'D')"><strong>(D)</strong> (B) is greater than (C) and (C) is greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): ((16 × (x ^ 2)) + ((y − 13) ÷ 10)) = 631/10; (B): ((20 × (x ^ 2)) + ((y − 13) ÷ 6)) = 2156/3; (C): ((8 × (x ^ 2)) + ((y − 8) ÷ 16)) = 3195/16. Therefore (B) is greater than (C) and (C) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;631/10&quot;, &quot;B&quot;: &quot;2156/3&quot;, &quot;C&quot;: &quot;3195/16&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 16, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 10]], &quot;variables&quot;: {&quot;x&quot;: -2, &quot;y&quot;: 4}, &quot;context&quot;: &quot;For x = -2, y = 4, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 20, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 6]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -6, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 8, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 8], 16]], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 3}, &quot;context&quot;: &quot;For x = -5, y = 3, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (B):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (C):</strong> Trap: Misorders the middle quantity in (B) &gt; (A) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q073"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q73</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q073</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -4, y = 8, Evaluate the following expression. Expression: ((5 × (x ^ 2)) + ((y − 13) ÷ 17))</div><div class="comp-cell"><strong>(B)</strong> For x = -4, y = 3, Evaluate the following expression. Expression: ((20 × (x ^ 2)) + ((y − 7) ÷ 10))</div><div class="comp-cell"><strong>(C)</strong> For x = -7, y = 5, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 3) ÷ 10))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q073', 'A', 'B')"><strong>(A)</strong> (B) is greater than (C) and (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q073', 'B', 'B')"><strong>(B)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q073', 'C', 'B')"><strong>(C)</strong> (A) is equal to (C) and greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q073', 'D', 'B')"><strong>(D)</strong> (A) is equal to (B) and less than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; (A): ((5 × (x ^ 2)) + ((y − 13) ÷ 17)) = 1355/17; (B): ((20 × (x ^ 2)) + ((y − 7) ÷ 10)) = 1598/5; (C): ((19 × (x ^ 2)) + ((y − 3) ÷ 10)) = 4656/5. Therefore (C) is greater than (B) and (B) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;1355/17&quot;, &quot;B&quot;: &quot;1598/5&quot;, &quot;C&quot;: &quot;4656/5&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 5, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 17]], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -4, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 20, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 7], 10]], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 3}, &quot;context&quot;: &quot;For x = -4, y = 3, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 3], 10]], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -7, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Misorders (B), (C), and (A) due to arithmetic slip.</li><li><strong>Option (C):</strong> Trap: Miscomputes (B) as smaller than (A) and (C).</li><li><strong>Option (D):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q074"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q74</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q074</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -6, y = 6, Evaluate the following expression. Expression: ((11 × (x ^ 2)) + ((y − 3) ÷ 17))</div><div class="comp-cell"><strong>(B)</strong> For x = -4, y = 6, Evaluate the following expression. Expression: ((9 × (x ^ 2)) + ((y − 11) ÷ 14))</div><div class="comp-cell"><strong>(C)</strong> For x = -6, y = 3, Evaluate the following expression. Expression: ((14 × (x ^ 2)) + ((y − 8) ÷ 15))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q074', 'A', 'C')"><strong>(A)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q074', 'B', 'C')"><strong>(B)</strong> (C) is less than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q074', 'C', 'C')"><strong>(C)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q074', 'D', 'C')"><strong>(D)</strong> (A) is equal to (B) and less than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): ((11 × (x ^ 2)) + ((y − 3) ÷ 17)) = 6735/17; (B): ((9 × (x ^ 2)) + ((y − 11) ÷ 14)) = 2011/14; (C): ((14 × (x ^ 2)) + ((y − 8) ÷ 15)) = 1511/3. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;6735/17&quot;, &quot;B&quot;: &quot;2011/14&quot;, &quot;C&quot;: &quot;1511/3&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 11, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 3], 17]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -6, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 9, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 11], 14]], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -4, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 14, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 8], 15]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 3}, &quot;context&quot;: &quot;For x = -6, y = 3, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (B):</strong> Trap: Reverses relational inequality between (C) and (B).</li><li><strong>Option (D):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q075"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q75</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q075</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -5, y = 8, Evaluate the following expression. Expression: ((12 × (x ^ 2)) + ((y − 9) ÷ 6))</div><div class="comp-cell"><strong>(B)</strong> For x = -3, y = 9, Evaluate the following expression. Expression: ((21 × (x ^ 2)) + ((y − 5) ÷ 17))</div><div class="comp-cell"><strong>(C)</strong> For x = -9, y = 8, Evaluate the following expression. Expression: ((14 × (x ^ 2)) + ((y − 5) ÷ 10))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q075', 'A', 'A')"><strong>(A)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q075', 'B', 'A')"><strong>(B)</strong> (A) is equal to (B) and less than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q075', 'C', 'A')"><strong>(C)</strong> (A) + (C) = (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q075', 'D', 'A')"><strong>(D)</strong> (A) = 2(C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((12 × (x ^ 2)) + ((y − 9) ÷ 6)) = 1799/6; (B): ((21 × (x ^ 2)) + ((y − 5) ÷ 17)) = 3217/17; (C): ((14 × (x ^ 2)) + ((y − 5) ÷ 10)) = 11343/10. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;1799/6&quot;, &quot;B&quot;: &quot;3217/17&quot;, &quot;C&quot;: &quot;11343/10&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 12, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 9], 6]], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -5, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 21, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 5], 17]], &quot;variables&quot;: {&quot;x&quot;: -3, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -3, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 14, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 5], 10]], &quot;variables&quot;: {&quot;x&quot;: -9, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -9, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li><li><strong>Option (C):</strong> Trap: False additive relation (A) + (C) = (B) from arithmetic error.</li><li><strong>Option (D):</strong> Trap: Incorrectly concludes (A) is twice (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q076"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q76</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q076</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -8, y = 6, Evaluate the following expression. Expression: ((23 × x) − 7)</div><div class="comp-cell"><strong>(B)</strong> For x = -3, y = 5, Evaluate the following expression. Expression: ((6 × x) − 4)</div><div class="comp-cell"><strong>(C)</strong> For x = -6, y = 7, Evaluate the following expression. Expression: ((4 × x) − 10)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q076', 'A', 'B')"><strong>(A)</strong> (B) is equal to (C) and less than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q076', 'B', 'B')"><strong>(B)</strong> (B) is greater than (C) and (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q076', 'C', 'B')"><strong>(C)</strong> (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q076', 'D', 'B')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; (A): ((23 × x) − 7) = -191; (B): ((6 × x) − 4) = -22; (C): ((4 × x) − 10) = -34. Therefore (B) is greater than (C) and (C) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-191&quot;, &quot;B&quot;: &quot;-22&quot;, &quot;C&quot;: &quot;-34&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 23, [&quot;var&quot;, &quot;x&quot;]], 7], &quot;variables&quot;: {&quot;x&quot;: -8, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -8, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 6, [&quot;var&quot;, &quot;x&quot;]], 4], &quot;variables&quot;: {&quot;x&quot;: -3, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -3, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 4, [&quot;var&quot;, &quot;x&quot;]], 10], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 7}, &quot;context&quot;: &quot;For x = -6, y = 7, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li><li><strong>Option (C):</strong> Trap: Reverses relational comparison between (A) and (B).</li><li><strong>Option (D):</strong> Trap: Misorders the middle quantity in (B) &gt; (A) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q077"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q77</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q077</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: (((24 × 13) ÷ 14) − (4 ÷ 7))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: (((24 × 13) ÷ 14) − (4 ÷ 7))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q077', 'A', 'D')"><strong>(A)</strong> 156/7</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q077', 'B', 'D')"><strong>(B)</strong> -152/7</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q077', 'C', 'D')"><strong>(C)</strong> 160/7</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q077', 'D', 'D')"><strong>(D)</strong> 152/7</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Translate the stated relationships and evaluate in order: (((24 × 13) ÷ 14) − (4 ÷ 7)) = 152/7.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;152/7&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 24, 13], 14], [&quot;div&quot;, 4, 7]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;div&quot;, [&quot;mul&quot;, 24, 13], 14], &quot;B&quot;: [&quot;sub&quot;, [&quot;div&quot;, 4, 7], [&quot;div&quot;, [&quot;mul&quot;, 24, 13], 14]], &quot;C&quot;: [&quot;add&quot;, [&quot;div&quot;, [&quot;mul&quot;, 24, 13], 14], [&quot;div&quot;, 4, 7]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Stops at the left intermediate result.</li><li><strong>Option (B):</strong> Trap: Reverses operands in sub.</li><li><strong>Option (C):</strong> Trap: Replaces sub with add.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q078"
+  data-archetype="Computation"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q78</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q078</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">For x = -7, y = 8, Evaluate the following expression. Expression: ((8 × (x ^ 2)) + ((y − 12) ÷ 17))</div>
+  <div class="stimulus-box">For x = -7, y = 8, Evaluate the following expression. Expression: ((8 × (x ^ 2)) + ((y − 12) ÷ 17))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q078', 'A', 'C')"><strong>(A)</strong> 392</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q078', 'B', 'C')"><strong>(B)</strong> 6668/17</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q078', 'C', 'C')"><strong>(C)</strong> 6660/17</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q078', 'D', 'C')"><strong>(D)</strong> -4/17</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Translate the stated relationships and evaluate in order: ((8 × (x ^ 2)) + ((y − 12) ÷ 17)) = 6660/17.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;6660/17&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 8, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 12], 17]], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -7, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;mul&quot;, 8, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], &quot;B&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 8, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 12], 17]], &quot;D&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 12], 17]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Stops at the left intermediate result.</li><li><strong>Option (B):</strong> Trap: Replaces add with sub.</li><li><strong>Option (D):</strong> Trap: Stops at the right intermediate result.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q079"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q79</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q079</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((18/3) + (10/6)) − ((8/4) × 8)) ÷ (6/9))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((7/7) + (3/6)) − ((3/8) × 3)) ÷ (6/4))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((18/6) + (17/9)) − ((11/7) × 11)) ÷ (9/12))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q079', 'A', 'A')"><strong>(A)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q079', 'B', 'A')"><strong>(B)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q079', 'C', 'A')"><strong>(C)</strong> (B) is less than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q079', 'D', 'A')"><strong>(D)</strong> (B) = 2(A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((((18/3) + (10/6)) − ((8/4) × 8)) ÷ (6/9)) = -25/2; (B): ((((7/7) + (3/6)) − ((3/8) × 3)) ÷ (6/4)) = 1/4; (C): ((((18/6) + (17/9)) − ((11/7) × 11)) ÷ (9/12)) = -3124/189. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-25/2&quot;, &quot;B&quot;: &quot;1/4&quot;, &quot;C&quot;: &quot;-3124/189&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 3], [&quot;rat&quot;, 10, 6]], [&quot;mul&quot;, [&quot;rat&quot;, 8, 4], 8]], [&quot;rat&quot;, 6, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 7, 7], [&quot;rat&quot;, 3, 6]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 8], 3]], [&quot;rat&quot;, 6, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 6], [&quot;rat&quot;, 17, 9]], [&quot;mul&quot;, [&quot;rat&quot;, 11, 7], 11]], [&quot;rat&quot;, 9, 12]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Reverses strict ascending order (C) &gt; (B) &gt; (A).</li><li><strong>Option (C):</strong> Trap: Reverses relational inequality between (B) and (C).</li><li><strong>Option (D):</strong> Trap: Incorrectly doubles (A) when comparing to (B).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q080"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q80</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q080</span>
+    <span class="badge arch-Sequence">Sequence &middot; Linear Two-Step</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 8, 24, 56, 120, 248, ?</div>
+  <div class="stimulus-box">Series: 8 , 24 , 56 , 120 , 248 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q080', 'A', 'C')"><strong>(A)</strong> 120</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q080', 'B', 'C')"><strong>(B)</strong> 376</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q080', 'C', 'C')"><strong>(C)</strong> 504</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q080', 'D', 'C')"><strong>(D)</strong> 248</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Multiply the preceding term by 2, then add 8, at every step. The next term is 504.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;504&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;parameters&quot;: {&quot;a&quot;: 8, &quot;b&quot;: 2, &quot;c&quot;: 8, &quot;d&quot;: 56, &quot;e&quot;: 2, &quot;f&quot;: 6, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses the last visible step.</li><li><strong>Option (B):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li><li><strong>Option (D):</strong> Trap: Repeats the previous term instead of advancing.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q081"
+  data-archetype="Computation"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q81</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q081</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">For x = -6, y = 8, Evaluate the following expression. Expression: ((21 × x) − 4)</div>
+  <div class="stimulus-box">For x = -6, y = 8, Evaluate the following expression. Expression: ((21 × x) − 4)</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q081', 'A', 'D')"><strong>(A)</strong> 130</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q081', 'B', 'D')"><strong>(B)</strong> -122</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q081', 'C', 'D')"><strong>(C)</strong> -126</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q081', 'D', 'D')"><strong>(D)</strong> -130</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Translate the stated relationships and evaluate in order: ((21 × x) − 4) = -130.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;-130&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 21, [&quot;var&quot;, &quot;x&quot;]], 4], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -6, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;sub&quot;, 4, [&quot;mul&quot;, 21, [&quot;var&quot;, &quot;x&quot;]]], &quot;B&quot;: [&quot;add&quot;, [&quot;mul&quot;, 21, [&quot;var&quot;, &quot;x&quot;]], 4], &quot;C&quot;: [&quot;mul&quot;, 21, [&quot;var&quot;, &quot;x&quot;]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses operands in sub.</li><li><strong>Option (B):</strong> Trap: Replaces sub with add.</li><li><strong>Option (C):</strong> Trap: Stops at the left intermediate result.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q082"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q82</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q082</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((18 × 3) ÷ 4)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((22 × 5) ÷ 16)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((9 × 13) ÷ 15)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q082', 'A', 'C')"><strong>(A)</strong> (A) is equal to (C) and greater than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q082', 'B', 'C')"><strong>(B)</strong> (A) is equal to (B) and greater than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q082', 'C', 'C')"><strong>(C)</strong> (A) is greater than (C) and (C) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q082', 'D', 'C')"><strong>(D)</strong> (A) is greater than (B) and (B) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): ((18 × 3) ÷ 4) = 27/2; (B): ((22 × 5) ÷ 16) = 55/8; (C): ((9 × 13) ÷ 15) = 39/5. Therefore (A) is greater than (C) and (C) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;27/2&quot;, &quot;B&quot;: &quot;55/8&quot;, &quot;C&quot;: &quot;39/5&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 18, 3], 4], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 22, 5], 16], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 9, 13], 15], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Miscomputes (B) as smaller than (A) and (C).</li><li><strong>Option (B):</strong> Trap: Conflates (A) and (B) as equal or misorders (C).</li><li><strong>Option (D):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q083"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q83</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q083</span>
+    <span class="badge arch-Sequence">Sequence &middot; Alternating Two-Operation</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 4, 15, 41, 89, 263, 533, ?</div>
+  <div class="stimulus-box">Series: 4 , 15 , 41 , 89 , 263 , 533 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q083', 'A', 'C')"><strong>(A)</strong> 533</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q083', 'B', 'C')"><strong>(B)</strong> 803</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q083', 'C', 'C')"><strong>(C)</strong> 1595</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q083', 'D', 'C')"><strong>(D)</strong> 263</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Alternate these rules: multiply by 2 then add 7; multiply by 3 then subtract 4. The next term is 1595.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;1595&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;parameters&quot;: {&quot;a&quot;: 4, &quot;b&quot;: 2, &quot;c&quot;: 7, &quot;d&quot;: 46, &quot;e&quot;: 3, &quot;f&quot;: 4, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;alternating-affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Repeats the previous term instead of advancing.</li><li><strong>Option (B):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li><li><strong>Option (D):</strong> Trap: Reverses the last visible step.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q084"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q84</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q084</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: (((19 × 13) ÷ 9) − (9 ÷ 2))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: (((19 × 13) ÷ 9) − (9 ÷ 2))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q084', 'A', 'D')"><strong>(A)</strong> 575/18</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q084', 'B', 'D')"><strong>(B)</strong> 247/9</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q084', 'C', 'D')"><strong>(C)</strong> -413/18</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q084', 'D', 'D')"><strong>(D)</strong> 413/18</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Translate the stated relationships and evaluate in order: (((19 × 13) ÷ 9) − (9 ÷ 2)) = 413/18.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;413/18&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 19, 13], 9], [&quot;div&quot;, 9, 2]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;add&quot;, [&quot;div&quot;, [&quot;mul&quot;, 19, 13], 9], [&quot;div&quot;, 9, 2]], &quot;B&quot;: [&quot;div&quot;, [&quot;mul&quot;, 19, 13], 9], &quot;C&quot;: [&quot;sub&quot;, [&quot;div&quot;, 9, 2], [&quot;div&quot;, [&quot;mul&quot;, 19, 13], 9]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Replaces sub with add.</li><li><strong>Option (B):</strong> Trap: Stops at the left intermediate result.</li><li><strong>Option (C):</strong> Trap: Reverses operands in sub.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q085"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q85</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q085</span>
+    <span class="badge arch-Sequence">Sequence &middot; Alternating Two-Operation</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 8, 21, 36, 77, 148, 301, ?</div>
+  <div class="stimulus-box">Series: 8 , 21 , 36 , 77 , 148 , 301 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q085', 'A', 'D')"><strong>(A)</strong> 454</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q085', 'B', 'D')"><strong>(B)</strong> 301</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q085', 'C', 'D')"><strong>(C)</strong> 148</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q085', 'D', 'D')"><strong>(D)</strong> 596</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Alternate these rules: multiply by 2 then add 5; multiply by 2 then subtract 6. The next term is 596.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;596&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;parameters&quot;: {&quot;a&quot;: 8, &quot;b&quot;: 2, &quot;c&quot;: 5, &quot;d&quot;: 39, &quot;e&quot;: 2, &quot;f&quot;: 6, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;alternating-affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li><li><strong>Option (B):</strong> Trap: Repeats the previous term instead of advancing.</li><li><strong>Option (C):</strong> Trap: Reverses the last visible step.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q086"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q86</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q086</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((5 × 6) ÷ 11) − (6 ÷ 9))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((7 × 2) ÷ 11) − (7 ÷ 3))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((20 × 5) ÷ 7) − (8 ÷ 11))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q086', 'A', 'A')"><strong>(A)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q086', 'B', 'A')"><strong>(B)</strong> (A) is equal to (C) and greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q086', 'C', 'A')"><strong>(C)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q086', 'D', 'A')"><strong>(D)</strong> (B) is greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): (((5 × 6) ÷ 11) − (6 ÷ 9)) = 68/33; (B): (((7 × 2) ÷ 11) − (7 ÷ 3)) = -35/33; (C): (((20 × 5) ÷ 7) − (8 ÷ 11)) = 1044/77. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;68/33&quot;, &quot;B&quot;: &quot;-35/33&quot;, &quot;C&quot;: &quot;1044/77&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 5, 6], 11], [&quot;div&quot;, 6, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 7, 2], 11], [&quot;div&quot;, 7, 3]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 20, 5], 7], [&quot;div&quot;, 8, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Miscomputes (B) as smaller than (A) and (C).</li><li><strong>Option (C):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (D):</strong> Trap: Reverses relational comparison between (B) and (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q087"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q87</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q087</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -5, y = 8, Evaluate the following expression. Expression: ((14 × x) − 13)</div><div class="comp-cell"><strong>(B)</strong> For x = -5, y = 2, Evaluate the following expression. Expression: ((7 × x) − 11)</div><div class="comp-cell"><strong>(C)</strong> For x = -4, y = 5, Evaluate the following expression. Expression: ((4 × x) − 5)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q087', 'A', 'D')"><strong>(A)</strong> (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q087', 'B', 'D')"><strong>(B)</strong> (A) = 2(C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q087', 'C', 'D')"><strong>(C)</strong> (C) = 2(A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q087', 'D', 'D')"><strong>(D)</strong> (C) is greater than (B) and (B) is greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): ((14 × x) − 13) = -83; (B): ((7 × x) − 11) = -46; (C): ((4 × x) − 5) = -21. Therefore (C) is greater than (B) and (B) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-83&quot;, &quot;B&quot;: &quot;-46&quot;, &quot;C&quot;: &quot;-21&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 14, [&quot;var&quot;, &quot;x&quot;]], 13], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -5, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 7, [&quot;var&quot;, &quot;x&quot;]], 11], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 2}, &quot;context&quot;: &quot;For x = -5, y = 2, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 4, [&quot;var&quot;, &quot;x&quot;]], 5], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -4, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses relational comparison between (A) and (C).</li><li><strong>Option (B):</strong> Trap: Incorrectly concludes (A) is twice (C).</li><li><strong>Option (C):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q088"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q88</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q088</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -7, y = 6, Evaluate the following expression. Expression: ((11 × x) − 4)</div><div class="comp-cell"><strong>(B)</strong> For x = -7, y = 6, Evaluate the following expression. Expression: ((21 × x) − 7)</div><div class="comp-cell"><strong>(C)</strong> For x = -8, y = 9, Evaluate the following expression. Expression: ((7 × x) − 9)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q088', 'A', 'D')"><strong>(A)</strong> (B) + (C) = (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q088', 'B', 'D')"><strong>(B)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q088', 'C', 'D')"><strong>(C)</strong> (C) = 2(A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q088', 'D', 'D')"><strong>(D)</strong> (C) is greater than (A) and (A) is greater than (B)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): ((11 × x) − 4) = -81; (B): ((21 × x) − 7) = -154; (C): ((7 × x) − 9) = -65. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-81&quot;, &quot;B&quot;: &quot;-154&quot;, &quot;C&quot;: &quot;-65&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 11, [&quot;var&quot;, &quot;x&quot;]], 4], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -7, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 21, [&quot;var&quot;, &quot;x&quot;]], 7], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -7, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 7, [&quot;var&quot;, &quot;x&quot;]], 9], &quot;variables&quot;: {&quot;x&quot;: -8, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -8, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: False additive relation (B) + (C) = (A) from sign or grouping error.</li><li><strong>Option (B):</strong> Trap: Reverses strict ascending order (C) &gt; (B) &gt; (A).</li><li><strong>Option (C):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q089"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q89</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q089</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((22 × 13) ÷ 6)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((11 × 11) ÷ 17)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((4 × 9) ÷ 12)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q089', 'A', 'D')"><strong>(A)</strong> (A) is greater than (C) and (C) is greater than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q089', 'B', 'D')"><strong>(B)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q089', 'C', 'D')"><strong>(C)</strong> (A) is equal to (B) and less than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q089', 'D', 'D')"><strong>(D)</strong> (A) is greater than (B) and (B) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): ((22 × 13) ÷ 6) = 143/3; (B): ((11 × 11) ÷ 17) = 121/17; (C): ((4 × 9) ÷ 12) = 3. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;143/3&quot;, &quot;B&quot;: &quot;121/17&quot;, &quot;C&quot;: &quot;3&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 22, 13], 6], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 11, 11], 17], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 4, 9], 12], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Misorders (C) and (B) when ranking all three quantities.</li><li><strong>Option (B):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li><li><strong>Option (C):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q090"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q90</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q090</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((19 × 9) ÷ 8) − (9 ÷ 6))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((22 × 3) ÷ 5) − (8 ÷ 5))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((18 × 8) ÷ 7) − (6 ÷ 5))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q090', 'A', 'A')"><strong>(A)</strong> (A) is greater than (C) and (C) is greater than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q090', 'B', 'A')"><strong>(B)</strong> (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q090', 'C', 'A')"><strong>(C)</strong> (B) = 2(A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q090', 'D', 'A')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): (((19 × 9) ÷ 8) − (9 ÷ 6)) = 159/8; (B): (((22 × 3) ÷ 5) − (8 ÷ 5)) = 58/5; (C): (((18 × 8) ÷ 7) − (6 ÷ 5)) = 678/35. Therefore (A) is greater than (C) and (C) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;159/8&quot;, &quot;B&quot;: &quot;58/5&quot;, &quot;C&quot;: &quot;678/35&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 19, 9], 8], [&quot;div&quot;, 9, 6]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 22, 3], 5], [&quot;div&quot;, 8, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 18, 8], 7], [&quot;div&quot;, 6, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Reverses relational comparison between (B) and (A).</li><li><strong>Option (C):</strong> Trap: Incorrectly doubles (A) when comparing to (B).</li><li><strong>Option (D):</strong> Trap: Misorders the middle quantity in (B) &gt; (A) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q091"
+  data-archetype="Computation"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q91</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q091</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">For x = -5, y = 5, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 3) ÷ 15))</div>
+  <div class="stimulus-box">For x = -5, y = 5, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 3) ÷ 15))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q091', 'A', 'D')"><strong>(A)</strong> 7123/15</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q091', 'B', 'D')"><strong>(B)</strong> 2/15</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q091', 'C', 'D')"><strong>(C)</strong> 475</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q091', 'D', 'D')"><strong>(D)</strong> 7127/15</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Translate the stated relationships and evaluate in order: ((19 × (x ^ 2)) + ((y − 3) ÷ 15)) = 7127/15.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;7127/15&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 3], 15]], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -5, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 3], 15]], &quot;B&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 3], 15], &quot;C&quot;: [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Replaces add with sub.</li><li><strong>Option (B):</strong> Trap: Stops at the right intermediate result.</li><li><strong>Option (C):</strong> Trap: Stops at the left intermediate result.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q092"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q92</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q092</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((10/3) + (17/8)) ÷ 8)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((14/6) + (9/3)) ÷ 5)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((13/3) + (9/4)) ÷ 10)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q092', 'A', 'D')"><strong>(A)</strong> (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q092', 'B', 'D')"><strong>(B)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q092', 'C', 'D')"><strong>(C)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q092', 'D', 'D')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): (((10/3) + (17/8)) ÷ 8) = 131/192; (B): (((14/6) + (9/3)) ÷ 5) = 16/15; (C): (((13/3) + (9/4)) ÷ 10) = 79/120. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;131/192&quot;, &quot;B&quot;: &quot;16/15&quot;, &quot;C&quot;: &quot;79/120&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 10, 3], [&quot;rat&quot;, 17, 8]], 8], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 14, 6], [&quot;rat&quot;, 9, 3]], 5], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 13, 3], [&quot;rat&quot;, 9, 4]], 10], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses relational comparison between (C) and (A).</li><li><strong>Option (B):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (C):</strong> Trap: Reverses strict ascending order (C) &gt; (B) &gt; (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q093"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q93</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q093</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -7, y = 8, Evaluate the following expression. Expression: ((8 × (x ^ 2)) + ((y − 6) ÷ 12))</div><div class="comp-cell"><strong>(B)</strong> For x = -3, y = 6, Evaluate the following expression. Expression: ((10 × (x ^ 2)) + ((y − 5) ÷ 4))</div><div class="comp-cell"><strong>(C)</strong> For x = -7, y = 4, Evaluate the following expression. Expression: ((9 × (x ^ 2)) + ((y − 8) ÷ 7))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q093', 'A', 'C')"><strong>(A)</strong> (B) is equal to (C) and less than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q093', 'B', 'C')"><strong>(B)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q093', 'C', 'C')"><strong>(C)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q093', 'D', 'C')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): ((8 × (x ^ 2)) + ((y − 6) ÷ 12)) = 2353/6; (B): ((10 × (x ^ 2)) + ((y − 5) ÷ 4)) = 361/4; (C): ((9 × (x ^ 2)) + ((y − 8) ÷ 7)) = 3083/7. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;2353/6&quot;, &quot;B&quot;: &quot;361/4&quot;, &quot;C&quot;: &quot;3083/7&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 8, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 6], 12]], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -7, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 10, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 5], 4]], &quot;variables&quot;: {&quot;x&quot;: -3, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -3, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 9, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 8], 7]], &quot;variables&quot;: {&quot;x&quot;: -7, &quot;y&quot;: 4}, &quot;context&quot;: &quot;For x = -7, y = 4, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li><li><strong>Option (B):</strong> Trap: Reverses strict ascending order (C) &gt; (B) &gt; (A).</li><li><strong>Option (D):</strong> Trap: Misorders the middle quantity in (B) &gt; (A) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q094"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q94</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q094</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: ((((21/12) + (7/8)) − ((3/13) × 3)) ÷ (8/4))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: ((((21/12) + (7/8)) − ((3/13) × 3)) ÷ (8/4))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q094', 'A', 'C')"><strong>(A)</strong> -7/104</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q094', 'B', 'C')"><strong>(B)</strong> 208/201</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q094', 'C', 'C')"><strong>(C)</strong> 201/208</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q094', 'D', 'C')"><strong>(D)</strong> 201/52</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Translate the stated relationships and evaluate in order: ((((21/12) + (7/8)) − ((3/13) × 3)) ÷ (8/4)) = 201/208.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;201/208&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 21, 12], [&quot;rat&quot;, 7, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 13], 3]], [&quot;rat&quot;, 8, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;sub&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 21, 12], [&quot;rat&quot;, 7, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 13], 3]], [&quot;rat&quot;, 8, 4]], &quot;B&quot;: [&quot;div&quot;, [&quot;rat&quot;, 8, 4], [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 21, 12], [&quot;rat&quot;, 7, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 13], 3]]], &quot;D&quot;: [&quot;mul&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 21, 12], [&quot;rat&quot;, 7, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 13], 3]], [&quot;rat&quot;, 8, 4]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Replaces div with sub.</li><li><strong>Option (B):</strong> Trap: Reverses operands in div.</li><li><strong>Option (D):</strong> Trap: Replaces div with mul.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q095"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q95</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q095</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -6, y = 6, Evaluate the following expression. Expression: ((22 × x) − 13)</div><div class="comp-cell"><strong>(B)</strong> For x = -4, y = 7, Evaluate the following expression. Expression: ((16 × x) − 6)</div><div class="comp-cell"><strong>(C)</strong> For x = -8, y = 8, Evaluate the following expression. Expression: ((18 × x) − 5)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q095', 'A', 'A')"><strong>(A)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q095', 'B', 'A')"><strong>(B)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q095', 'C', 'A')"><strong>(C)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q095', 'D', 'A')"><strong>(D)</strong> (A) is equal to (B) and less than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((22 × x) − 13) = -145; (B): ((16 × x) − 6) = -70; (C): ((18 × x) − 5) = -149. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-145&quot;, &quot;B&quot;: &quot;-70&quot;, &quot;C&quot;: &quot;-149&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 22, [&quot;var&quot;, &quot;x&quot;]], 13], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -6, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 16, [&quot;var&quot;, &quot;x&quot;]], 6], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 7}, &quot;context&quot;: &quot;For x = -4, y = 7, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 18, [&quot;var&quot;, &quot;x&quot;]], 5], &quot;variables&quot;: {&quot;x&quot;: -8, &quot;y&quot;: 8}, &quot;context&quot;: &quot;For x = -8, y = 8, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Misorders (C), (A), and (B) under time pressure.</li><li><strong>Option (C):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (D):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q096"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q96</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q096</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -8, y = 2, Evaluate the following expression. Expression: ((15 × (x ^ 2)) + ((y − 11) ÷ 9))</div><div class="comp-cell"><strong>(B)</strong> For x = -6, y = 2, Evaluate the following expression. Expression: ((16 × (x ^ 2)) + ((y − 9) ÷ 11))</div><div class="comp-cell"><strong>(C)</strong> For x = -2, y = 6, Evaluate the following expression. Expression: ((16 × (x ^ 2)) + ((y − 13) ÷ 6))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q096', 'A', 'A')"><strong>(A)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q096', 'B', 'A')"><strong>(B)</strong> (C) = 2(A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q096', 'C', 'A')"><strong>(C)</strong> (A) is equal to (B) and less than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q096', 'D', 'A')"><strong>(D)</strong> (A) = 2(C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((15 × (x ^ 2)) + ((y − 11) ÷ 9)) = 959; (B): ((16 × (x ^ 2)) + ((y − 9) ÷ 11)) = 6329/11; (C): ((16 × (x ^ 2)) + ((y − 13) ÷ 6)) = 377/6. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;959&quot;, &quot;B&quot;: &quot;6329/11&quot;, &quot;C&quot;: &quot;377/6&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 15, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 11], 9]], &quot;variables&quot;: {&quot;x&quot;: -8, &quot;y&quot;: 2}, &quot;context&quot;: &quot;For x = -8, y = 2, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 16, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 9], 11]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 2}, &quot;context&quot;: &quot;For x = -6, y = 2, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 16, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 6]], &quot;variables&quot;: {&quot;x&quot;: -2, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -2, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li><li><strong>Option (C):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li><li><strong>Option (D):</strong> Trap: Incorrectly concludes (A) is twice (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q097"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q97</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q097</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: ((((12/10) + (4/4)) − ((10/11) × 10)) ÷ (4/11))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: ((((12/10) + (4/4)) − ((10/11) × 10)) ÷ (4/11))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q097', 'A', 'C')"><strong>(A)</strong> -20/379</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q097', 'B', 'C')"><strong>(B)</strong> -399/55</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q097', 'C', 'C')"><strong>(C)</strong> -379/20</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q097', 'D', 'C')"><strong>(D)</strong> -1516/605</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; Translate the stated relationships and evaluate in order: ((((12/10) + (4/4)) − ((10/11) × 10)) ÷ (4/11)) = -379/20.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;-379/20&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 10], [&quot;rat&quot;, 4, 4]], [&quot;mul&quot;, [&quot;rat&quot;, 10, 11], 10]], [&quot;rat&quot;, 4, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;div&quot;, [&quot;rat&quot;, 4, 11], [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 10], [&quot;rat&quot;, 4, 4]], [&quot;mul&quot;, [&quot;rat&quot;, 10, 11], 10]]], &quot;B&quot;: [&quot;sub&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 10], [&quot;rat&quot;, 4, 4]], [&quot;mul&quot;, [&quot;rat&quot;, 10, 11], 10]], [&quot;rat&quot;, 4, 11]], &quot;D&quot;: [&quot;mul&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 10], [&quot;rat&quot;, 4, 4]], [&quot;mul&quot;, [&quot;rat&quot;, 10, 11], 10]], [&quot;rat&quot;, 4, 11]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses operands in div.</li><li><strong>Option (B):</strong> Trap: Replaces div with sub.</li><li><strong>Option (D):</strong> Trap: Replaces div with mul.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q098"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q98</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q098</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((4/6) + (13/3)) ÷ 2)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((4/8) + (12/5)) ÷ 2)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((11/6) + (14/6)) ÷ 3)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q098', 'A', 'D')"><strong>(A)</strong> (B) is less than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q098', 'B', 'D')"><strong>(B)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q098', 'C', 'D')"><strong>(C)</strong> (A), (B), and (C) are equal</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q098', 'D', 'D')"><strong>(D)</strong> (A) is greater than (B) and (B) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): (((4/6) + (13/3)) ÷ 2) = 5/2; (B): (((4/8) + (12/5)) ÷ 2) = 29/20; (C): (((11/6) + (14/6)) ÷ 3) = 25/18. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;5/2&quot;, &quot;B&quot;: &quot;29/20&quot;, &quot;C&quot;: &quot;25/18&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 4, 6], [&quot;rat&quot;, 13, 3]], 2], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 4, 8], [&quot;rat&quot;, 12, 5]], 2], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 11, 6], [&quot;rat&quot;, 14, 6]], 3], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses relational inequality between (B) and (C).</li><li><strong>Option (B):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li><li><strong>Option (C):</strong> Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q099"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q99</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q099</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: ((((9/5) + (16/2)) − ((9/6) × 9)) ÷ (2/10))</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: ((((9/5) + (16/2)) − ((9/6) × 9)) ÷ (2/10))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q099', 'A', 'D')"><strong>(A)</strong> -2/37</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q099', 'B', 'D')"><strong>(B)</strong> -37/50</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q099', 'C', 'D')"><strong>(C)</strong> -39/10</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q099', 'D', 'D')"><strong>(D)</strong> -37/2</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; Translate the stated relationships and evaluate in order: ((((9/5) + (16/2)) − ((9/6) × 9)) ÷ (2/10)) = -37/2.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;-37/2&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 9, 5], [&quot;rat&quot;, 16, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 9, 6], 9]], [&quot;rat&quot;, 2, 10]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;A&quot;: [&quot;div&quot;, [&quot;rat&quot;, 2, 10], [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 9, 5], [&quot;rat&quot;, 16, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 9, 6], 9]]], &quot;B&quot;: [&quot;mul&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 9, 5], [&quot;rat&quot;, 16, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 9, 6], 9]], [&quot;rat&quot;, 2, 10]], &quot;C&quot;: [&quot;sub&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 9, 5], [&quot;rat&quot;, 16, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 9, 6], 9]], [&quot;rat&quot;, 2, 10]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses operands in div.</li><li><strong>Option (B):</strong> Trap: Replaces div with mul.</li><li><strong>Option (C):</strong> Trap: Replaces div with sub.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q100"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q100</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q100</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((7/2) + (12/5)) − ((11/3) × 11)) ÷ (5/12))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((13/12) + (9/6)) − ((4/13) × 4)) ÷ (6/5))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((19/2) + (8/6)) − ((2/3) × 2)) ÷ (6/3))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q100', 'A', 'A')"><strong>(A)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q100', 'B', 'A')"><strong>(B)</strong> (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q100', 'C', 'A')"><strong>(C)</strong> (A) is equal to (B) and less than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q100', 'D', 'A')"><strong>(D)</strong> (A) is greater than (B) and (B) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((((7/2) + (12/5)) − ((11/3) × 11)) ÷ (5/12)) = -2066/25; (B): ((((13/12) + (9/6)) − ((4/13) × 4)) ÷ (6/5)) = 1055/936; (C): ((((19/2) + (8/6)) − ((2/3) × 2)) ÷ (6/3)) = 19/4. Therefore (C) is greater than (B) and (B) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-2066/25&quot;, &quot;B&quot;: &quot;1055/936&quot;, &quot;C&quot;: &quot;19/4&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 7, 2], [&quot;rat&quot;, 12, 5]], [&quot;mul&quot;, [&quot;rat&quot;, 11, 3], 11]], [&quot;rat&quot;, 5, 12]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 13, 12], [&quot;rat&quot;, 9, 6]], [&quot;mul&quot;, [&quot;rat&quot;, 4, 13], 4]], [&quot;rat&quot;, 6, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 19, 2], [&quot;rat&quot;, 8, 6]], [&quot;mul&quot;, [&quot;rat&quot;, 2, 3], 2]], [&quot;rat&quot;, 6, 3]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Reverses relational comparison between (A) and (C).</li><li><strong>Option (C):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li><li><strong>Option (D):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q101"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q101</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q101</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -2, y = 9, Evaluate the following expression. Expression: ((14 × (x ^ 2)) + ((y − 4) ÷ 10))</div><div class="comp-cell"><strong>(B)</strong> For x = -6, y = 6, Evaluate the following expression. Expression: ((7 × (x ^ 2)) + ((y − 13) ÷ 17))</div><div class="comp-cell"><strong>(C)</strong> For x = -3, y = 5, Evaluate the following expression. Expression: ((19 × (x ^ 2)) + ((y − 2) ÷ 14))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q101', 'A', 'D')"><strong>(A)</strong> (A) is equal to (C) and less than (B)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q101', 'B', 'D')"><strong>(B)</strong> (A) is equal to (C) and greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q101', 'C', 'D')"><strong>(C)</strong> (A) = 2(C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q101', 'D', 'D')"><strong>(D)</strong> (B) is greater than (C) and (C) is greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): ((14 × (x ^ 2)) + ((y − 4) ÷ 10)) = 113/2; (B): ((7 × (x ^ 2)) + ((y − 13) ÷ 17)) = 4277/17; (C): ((19 × (x ^ 2)) + ((y − 2) ÷ 14)) = 2397/14. Therefore (B) is greater than (C) and (C) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;113/2&quot;, &quot;B&quot;: &quot;4277/17&quot;, &quot;C&quot;: &quot;2397/14&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 14, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 4], 10]], &quot;variables&quot;: {&quot;x&quot;: -2, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -2, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 7, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 17]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 6}, &quot;context&quot;: &quot;For x = -6, y = 6, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 19, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 14]], &quot;variables&quot;: {&quot;x&quot;: -3, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -3, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Assumes (A) = (C) &lt; (B) without verifying each quantity.</li><li><strong>Option (B):</strong> Trap: Miscomputes (B) as smaller than (A) and (C).</li><li><strong>Option (C):</strong> Trap: Incorrectly concludes (A) is twice (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q102"
+  data-archetype="Computation"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q102</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q102</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">For x = -4, y = 5, Evaluate the following expression. Expression: ((13 × (x ^ 2)) + ((y − 2) ÷ 5))</div>
+  <div class="stimulus-box">For x = -4, y = 5, Evaluate the following expression. Expression: ((13 × (x ^ 2)) + ((y − 2) ÷ 5))</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q102', 'A', 'A')"><strong>(A)</strong> 1043/5</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q102', 'B', 'A')"><strong>(B)</strong> 3/5</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q102', 'C', 'A')"><strong>(C)</strong> 208</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q102', 'D', 'A')"><strong>(D)</strong> 1037/5</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; Translate the stated relationships and evaluate in order: ((13 × (x ^ 2)) + ((y − 2) ÷ 5)) = 1043/5.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;1043/5&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 13, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 5]], &quot;variables&quot;: {&quot;x&quot;: -4, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -4, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;B&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 5], &quot;C&quot;: [&quot;mul&quot;, 13, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], &quot;D&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 13, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 5]]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Stops at the right intermediate result.</li><li><strong>Option (C):</strong> Trap: Stops at the left intermediate result.</li><li><strong>Option (D):</strong> Trap: Replaces add with sub.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q103"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q103</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q103</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((8 × 10) ÷ 17) − (4 ÷ 9))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((6 × 7) ÷ 17) − (7 ÷ 3))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((14 × 11) ÷ 3) − (5 ÷ 4))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q103', 'A', 'B')"><strong>(A)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q103', 'B', 'B')"><strong>(B)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q103', 'C', 'B')"><strong>(C)</strong> (A) + (C) = (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q103', 'D', 'B')"><strong>(D)</strong> (C) = 2(A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; (A): (((8 × 10) ÷ 17) − (4 ÷ 9)) = 652/153; (B): (((6 × 7) ÷ 17) − (7 ÷ 3)) = 7/51; (C): (((14 × 11) ÷ 3) − (5 ÷ 4)) = 601/12. Therefore (C) is greater than (A) and (A) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;652/153&quot;, &quot;B&quot;: &quot;7/51&quot;, &quot;C&quot;: &quot;601/12&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 8, 10], 17], [&quot;div&quot;, 4, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 6, 7], 17], [&quot;div&quot;, 7, 3]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 14, 11], 3], [&quot;div&quot;, 5, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li><li><strong>Option (C):</strong> Trap: False additive relation (A) + (C) = (B) from arithmetic error.</li><li><strong>Option (D):</strong> Trap: Incorrectly doubles (A) when comparing to (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q104"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q104</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q104</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((5 × 11) ÷ 17)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((9 × 10) ÷ 11)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((24 × 3) ÷ 16)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q104', 'A', 'A')"><strong>(A)</strong> (B) is greater than (C) and (C) is greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q104', 'B', 'A')"><strong>(B)</strong> (B) is equal to (C) and less than (A)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q104', 'C', 'A')"><strong>(C)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q104', 'D', 'A')"><strong>(D)</strong> (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((5 × 11) ÷ 17) = 55/17; (B): ((9 × 10) ÷ 11) = 90/11; (C): ((24 × 3) ÷ 16) = 9/2. Therefore (B) is greater than (C) and (C) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;55/17&quot;, &quot;B&quot;: &quot;90/11&quot;, &quot;C&quot;: &quot;9/2&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 5, 11], 17], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 9, 10], 11], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 24, 3], 16], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li><li><strong>Option (C):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (D):</strong> Trap: Reverses relational comparison between (A) and (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q105"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q105</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q105</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((16/9) + (12/8)) − ((9/10) × 9)) ÷ (8/10))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((23/7) + (17/9)) − ((4/8) × 4)) ÷ (9/5))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((18/9) + (16/7)) − ((11/10) × 11)) ÷ (7/12))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q105', 'A', 'A')"><strong>(A)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q105', 'B', 'A')"><strong>(B)</strong> (C) is greater than (A) and (A) is greater than (B)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q105', 'C', 'A')"><strong>(C)</strong> (A) is equal to (C) and greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q105', 'D', 'A')"><strong>(D)</strong> (A) = 2(C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((((16/9) + (12/8)) − ((9/10) × 9)) ÷ (8/10)) = -217/36; (B): ((((23/7) + (17/9)) − ((4/8) × 4)) ÷ (9/5)) = 1000/567; (C): ((((18/9) + (16/7)) − ((11/10) × 11)) ÷ (7/12)) = -3282/245. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;-217/36&quot;, &quot;B&quot;: &quot;1000/567&quot;, &quot;C&quot;: &quot;-3282/245&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 16, 9], [&quot;rat&quot;, 12, 8]], [&quot;mul&quot;, [&quot;rat&quot;, 9, 10], 9]], [&quot;rat&quot;, 8, 10]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 23, 7], [&quot;rat&quot;, 17, 9]], [&quot;mul&quot;, [&quot;rat&quot;, 4, 8], 4]], [&quot;rat&quot;, 9, 5]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 18, 9], [&quot;rat&quot;, 16, 7]], [&quot;mul&quot;, [&quot;rat&quot;, 11, 10], 11]], [&quot;rat&quot;, 7, 12]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Misorders (C), (A), and (B) under time pressure.</li><li><strong>Option (C):</strong> Trap: Miscomputes (B) as smaller than (A) and (C).</li><li><strong>Option (D):</strong> Trap: Incorrectly concludes (A) is twice (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q106"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q106</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q106</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: ((((7/9) + (16/2)) − ((8/10) × 8)) ÷ (2/9))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: ((((8/12) + (16/7)) − ((10/13) × 10)) ÷ (7/11))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: ((((15/7) + (8/9)) − ((3/8) × 3)) ÷ (9/4))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q106', 'A', 'C')"><strong>(A)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q106', 'B', 'C')"><strong>(B)</strong> (B) is greater than (A) and (A) is greater than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q106', 'C', 'C')"><strong>(C)</strong> (A) is greater than (C) and (C) is greater than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q106', 'D', 'C')"><strong>(D)</strong> (A) is greater than (B) and (B) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): ((((7/9) + (16/2)) − ((8/10) × 8)) ÷ (2/9)) = 107/10; (B): ((((8/12) + (16/7)) − ((10/13) × 10)) ÷ (7/11)) = -14234/1911; (C): ((((15/7) + (8/9)) − ((3/8) × 3)) ÷ (9/4)) = 961/1134. Therefore (A) is greater than (C) and (C) is greater than (B).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;107/10&quot;, &quot;B&quot;: &quot;-14234/1911&quot;, &quot;C&quot;: &quot;961/1134&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 7, 9], [&quot;rat&quot;, 16, 2]], [&quot;mul&quot;, [&quot;rat&quot;, 8, 10], 8]], [&quot;rat&quot;, 2, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 8, 12], [&quot;rat&quot;, 16, 7]], [&quot;mul&quot;, [&quot;rat&quot;, 10, 13], 10]], [&quot;rat&quot;, 7, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;sub&quot;, [&quot;add&quot;, [&quot;rat&quot;, 15, 7], [&quot;rat&quot;, 8, 9]], [&quot;mul&quot;, [&quot;rat&quot;, 3, 8], 3]], [&quot;rat&quot;, 9, 4]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li><li><strong>Option (B):</strong> Trap: Misorders the middle quantity in (B) &gt; (A) &gt; (C).</li><li><strong>Option (D):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q107"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q107</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q107</span>
+    <span class="badge arch-Sequence">Sequence &middot; Linear Two-Step</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 20, 51, 113, 237, 485, ?</div>
+  <div class="stimulus-box">Series: 20 , 51 , 113 , 237 , 485 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q107', 'A', 'B')"><strong>(A)</strong> 485</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q107', 'B', 'B')"><strong>(B)</strong> 981</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q107', 'C', 'B')"><strong>(C)</strong> 733</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q107', 'D', 'B')"><strong>(D)</strong> 237</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; Multiply the preceding term by 2, then add 11, at every step. The next term is 981.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;981&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;parameters&quot;: {&quot;a&quot;: 20, &quot;b&quot;: 2, &quot;c&quot;: 11, &quot;d&quot;: 44, &quot;e&quot;: 3, &quot;f&quot;: 5, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Repeats the previous term instead of advancing.</li><li><strong>Option (C):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li><li><strong>Option (D):</strong> Trap: Reverses the last visible step.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q108"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Operations involving fractions"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q108</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q108</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Operations involving fractions</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((12/2) + (16/9)) ÷ 3)</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((17/7) + (14/6)) ÷ 11)</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((5/5) + (4/8)) ÷ 4)</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q108', 'A', 'C')"><strong>(A)</strong> (B) is equal to (C) and less than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q108', 'B', 'C')"><strong>(B)</strong> (A) is equal to (B) and less than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q108', 'C', 'C')"><strong>(C)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q108', 'D', 'C')"><strong>(D)</strong> (B) is equal to (C) and greater than (A)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (C)</strong> &mdash; (A): (((12/2) + (16/9)) ÷ 3) = 70/27; (B): (((17/7) + (14/6)) ÷ 11) = 100/231; (C): (((5/5) + (4/8)) ÷ 4) = 3/8. Therefore (A) is greater than (B) and (B) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;70/27&quot;, &quot;B&quot;: &quot;100/231&quot;, &quot;C&quot;: &quot;3/8&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Operations involving fractions&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 12, 2], [&quot;rat&quot;, 16, 9]], 3], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 17, 7], [&quot;rat&quot;, 14, 6]], 11], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;div&quot;, [&quot;add&quot;, [&quot;rat&quot;, 5, 5], [&quot;rat&quot;, 4, 8]], 4], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Treats (B) and (C) as equivalent and smaller than (A).</li><li><strong>Option (B):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li><li><strong>Option (D):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q109"
+  data-archetype="Computation"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="2">
+  <div class="card-meta">
+    <span class="badge qnum">Q109</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q109</span>
+    <span class="badge arch-Computation">Computation &middot; Domain Verbal Equation</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 2 &middot; 30s</span>
+  </div>
+  <div class="prompt-text">Evaluate the following expression. Expression: ((14 × 11) ÷ 10)</div>
+  <div class="stimulus-box">Evaluate the following expression. Expression: ((14 × 11) ÷ 10)</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q109', 'A', 'A')"><strong>(A)</strong> 77/5</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q109', 'B', 'A')"><strong>(B)</strong> 5/77</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q109', 'C', 'A')"><strong>(C)</strong> 144</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q109', 'D', 'A')"><strong>(D)</strong> 1540</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; Translate the stated relationships and evaluate in order: ((14 × 11) ÷ 10) = 77/5.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;result&quot;: &quot;77/5&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 2, &quot;models&quot;: [{&quot;expression&quot;: [&quot;div&quot;, [&quot;mul&quot;, 14, 11], 10], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}], &quot;distractor_expressions&quot;: {&quot;B&quot;: [&quot;div&quot;, 10, [&quot;mul&quot;, 14, 11]], &quot;C&quot;: [&quot;sub&quot;, [&quot;mul&quot;, 14, 11], 10], &quot;D&quot;: [&quot;mul&quot;, [&quot;mul&quot;, 14, 11], 10]}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: Reverses operands in div.</li><li><strong>Option (C):</strong> Trap: Replaces div with sub.</li><li><strong>Option (D):</strong> Trap: Replaces div with mul.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q110"
+  data-archetype="Comparison"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q110</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q110</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> Evaluate the following expression. Expression: (((20 × 7) ÷ 17) − (5 ÷ 9))</div><div class="comp-cell"><strong>(B)</strong> Evaluate the following expression. Expression: (((16 × 8) ÷ 14) − (4 ÷ 3))</div><div class="comp-cell"><strong>(C)</strong> Evaluate the following expression. Expression: (((4 × 7) ÷ 11) − (6 ÷ 11))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q110', 'A', 'D')"><strong>(A)</strong> (B) is less than (C)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q110', 'B', 'D')"><strong>(B)</strong> (A) is greater than (B) and (B) is greater than (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q110', 'C', 'D')"><strong>(C)</strong> (B) is equal to (C) and greater than (A)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q110', 'D', 'D')"><strong>(D)</strong> (B) is greater than (A) and (A) is greater than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (D)</strong> &mdash; (A): (((20 × 7) ÷ 17) − (5 ÷ 9)) = 1175/153; (B): (((16 × 8) ÷ 14) − (4 ÷ 3)) = 164/21; (C): (((4 × 7) ÷ 11) − (6 ÷ 11)) = 2. Therefore (B) is greater than (A) and (A) is greater than (C).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;1175/153&quot;, &quot;B&quot;: &quot;164/21&quot;, &quot;C&quot;: &quot;2&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 20, 7], 17], [&quot;div&quot;, 5, 9]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 16, 8], 14], [&quot;div&quot;, 4, 3]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;sub&quot;, [&quot;div&quot;, [&quot;mul&quot;, 4, 7], 11], [&quot;div&quot;, 6, 11]], &quot;variables&quot;: {}, &quot;context&quot;: &quot;Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Reverses relational inequality between (B) and (C).</li><li><strong>Option (B):</strong> Trap: Reverses strict descending order (A) &gt; (B) &gt; (C).</li><li><strong>Option (C):</strong> Trap: Treats (B) and (C) as equivalent and larger than (A).</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q111"
+  data-archetype="Sequence"
+  data-domain="Mathematics"
+  data-topic="Multiplication / Division"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q111</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q111</span>
+    <span class="badge arch-Sequence">Sequence &middot; Alternating Two-Operation</span>
+    <span class="badge">Modality: Numbers Only</span>
+    <span class="badge">Mathematics &rarr; Multiplication / Division</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Find the next term in the series: 4, 10, 14, 30, 54, 110, ?</div>
+  <div class="stimulus-box">Series: 4 , 10 , 14 , 30 , 54 , 110 , ?</div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q111', 'A', 'B')"><strong>(A)</strong> 110</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q111', 'B', 'B')"><strong>(B)</strong> 214</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q111', 'C', 'B')"><strong>(C)</strong> 54</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q111', 'D', 'B')"><strong>(D)</strong> 166</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (B)</strong> &mdash; Alternate these rules: multiply by 2 then add 2; multiply by 2 then subtract 6. The next term is 214.</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;next_term&quot;: &quot;214&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;sequence&quot;, &quot;topic&quot;: &quot;Multiplication / Division&quot;, &quot;level&quot;: 3, &quot;parameters&quot;: {&quot;a&quot;: 4, &quot;b&quot;: 2, &quot;c&quot;: 2, &quot;d&quot;: 42, &quot;e&quot;: 2, &quot;f&quot;: 6, &quot;denom&quot;: 1, &quot;modality&quot;: &quot;Numbers Only&quot;, &quot;pattern&quot;: &quot;alternating-affine&quot;}}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (A):</strong> Trap: Repeats the previous term instead of advancing.</li><li><strong>Option (C):</strong> Trap: Reverses the last visible step.</li><li><strong>Option (D):</strong> Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.</li>
+    </ul>
+  </div>
+</article>
+
+<article class="question-card"
+  data-qid="HSPT-QS-PRACTICE-20-T11-Q112"
+  data-archetype="Comparison"
+  data-domain="Algebra"
+  data-topic="Evaluating equations with variables"
+  data-complexity="3">
+  <div class="card-meta">
+    <span class="badge qnum">Q112</span>
+    <span class="badge">HSPT-QS-PRACTICE-20-T11-Q112</span>
+    <span class="badge arch-Comparison">Comparison &middot; Non-Geometric</span>
+    
+    <span class="badge">Algebra &rarr; Evaluating equations with variables</span>
+    <span class="badge">Level 3 &middot; 42s</span>
+  </div>
+  <div class="prompt-text">Evaluate quantities (A), (B), and (C), then choose the one true statement.</div>
+  <div class="stimulus-box"><div class="comp-grid"><div class="comp-cell"><strong>(A)</strong> For x = -3, y = 9, Evaluate the following expression. Expression: ((5 × (x ^ 2)) + ((y − 13) ÷ 5))</div><div class="comp-cell"><strong>(B)</strong> For x = -5, y = 9, Evaluate the following expression. Expression: ((9 × (x ^ 2)) + ((y − 2) ÷ 13))</div><div class="comp-cell"><strong>(C)</strong> For x = -6, y = 5, Evaluate the following expression. Expression: ((11 × (x ^ 2)) + ((y − 2) ÷ 7))</div></div></div>
+  
+  <div class="options-grid">
+    <button type="button" class="option-btn" data-opt="A" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q112', 'A', 'A')"><strong>(A)</strong> (C) is greater than (B) and (B) is greater than (A)</button><button type="button" class="option-btn" data-opt="B" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q112', 'B', 'A')"><strong>(B)</strong> (A) + (B) = (C)</button><button type="button" class="option-btn" data-opt="C" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q112', 'C', 'A')"><strong>(C)</strong> (A) is equal to (C) and less than (B)</button><button type="button" class="option-btn" data-opt="D" onclick="selectOption('HSPT-QS-PRACTICE-20-T11-Q112', 'D', 'A')"><strong>(D)</strong> (A) is equal to (B) and less than (C)</button>
+  </div>
+  <div class="rationale-panel">
+    <div><strong>Correct Answer: (A)</strong> &mdash; (A): ((5 × (x ^ 2)) + ((y − 13) ÷ 5)) = 221/5; (B): ((9 × (x ^ 2)) + ((y − 2) ÷ 13)) = 2932/13; (C): ((11 × (x ^ 2)) + ((y − 2) ÷ 7)) = 2775/7. Therefore (C) is greater than (B) and (B) is greater than (A).</div>
+    <div style="font-size:0.8rem; color:#475569; margin-top:0.35rem;">Computed Values: <code>{&quot;A&quot;: &quot;221/5&quot;, &quot;B&quot;: &quot;2932/13&quot;, &quot;C&quot;: &quot;2775/7&quot;, &quot;_task&quot;: {&quot;schema&quot;: &quot;calibrated-task/1&quot;, &quot;kind&quot;: &quot;expressions&quot;, &quot;topic&quot;: &quot;Evaluating equations with variables&quot;, &quot;level&quot;: 3, &quot;models&quot;: [{&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 5, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 13], 5]], &quot;variables&quot;: {&quot;x&quot;: -3, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -3, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 9, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 13]], &quot;variables&quot;: {&quot;x&quot;: -5, &quot;y&quot;: 9}, &quot;context&quot;: &quot;For x = -5, y = 9, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}, {&quot;expression&quot;: [&quot;add&quot;, [&quot;mul&quot;, 11, [&quot;pow&quot;, [&quot;var&quot;, &quot;x&quot;], 2]], [&quot;div&quot;, [&quot;sub&quot;, [&quot;var&quot;, &quot;y&quot;], 2], 7]], &quot;variables&quot;: {&quot;x&quot;: -6, &quot;y&quot;: 5}, &quot;context&quot;: &quot;For x = -6, y = 5, Evaluate the following expression.&quot;, &quot;diagram&quot;: null}]}}</code></div>
+    <ul class="rationale-list">
+      <li><strong>Option (B):</strong> Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.</li><li><strong>Option (C):</strong> Trap: Assumes (A) = (C) &lt; (B) without verifying each quantity.</li><li><strong>Option (D):</strong> Trap: Assumes (A) = (B) &lt; (C) due to surface similarity of (A) and (B).</li>
+    </ul>
+  </div>
+</article>
+
+</main>
+
+<script>
+  let remainingSeconds = 35 * 60;
+  let timerInterval = null;
+  let showAll = false;
+  const userAnswers = {};
+
+  function formatTime(sec) {
+    const m = Math.floor(sec / 60).toString().padStart(2, '0');
+    const s = (sec % 60).toString().padStart(2, '0');
+    return m + ':' + s;
+  }
+
+  function toggleTimer() {
+    const btn = document.getElementById('timer-btn');
+    if (timerInterval) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+      btn.textContent = 'Resume Timer';
+    } else {
+      btn.textContent = 'Pause Timer';
+      timerInterval = setInterval(() => {
+        if (remainingSeconds > 0) {
+          remainingSeconds--;
+          document.getElementById('timer-display').textContent = formatTime(remainingSeconds);
+        } else {
+          clearInterval(timerInterval);
+          timerInterval = null;
+        }
+      }, 1000);
+    }
+  }
+
+  function selectOption(qid, chosen, correct) {
+    userAnswers[qid] = { chosen, correct };
+    const card = document.querySelector(`[data-qid="${qid}"]`);
+    if (!card) return;
+    const buttons = card.querySelectorAll('.option-btn');
+    buttons.forEach(btn => {
+      btn.classList.remove('selected-correct', 'selected-wrong');
+      const opt = btn.getAttribute('data-opt');
+      if (opt === chosen) {
+        btn.classList.add(chosen === correct ? 'selected-correct' : 'selected-wrong');
+      } else if (opt === correct) {
+        btn.classList.add('selected-correct');
+      }
+    });
+    const panel = card.querySelector('.rationale-panel');
+    if (panel) panel.classList.add('visible');
+    updateScore();
+  }
+
+  function updateScore() {
+    const entries = Object.values(userAnswers);
+    const answered = entries.length;
+    const correct = entries.filter(e => e.chosen === e.correct).length;
+    const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+    document.getElementById('answered-count').textContent = answered;
+    document.getElementById('correct-count').textContent = correct;
+    document.getElementById('score-pct').textContent = pct + '%';
+  }
+
+  function toggleAllRationales() {
+    showAll = !showAll;
+    document.querySelectorAll('.rationale-panel').forEach(p => {
+      if (showAll) p.classList.add('visible');
+      else p.classList.remove('visible');
+    });
+  }
+
+  function resetExam() {
+    Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
+    document.querySelectorAll('.option-btn').forEach(b => {
+      b.classList.remove('selected-correct', 'selected-wrong');
+    });
+    document.querySelectorAll('.rationale-panel').forEach(p => p.classList.remove('visible'));
+    remainingSeconds = 35 * 60;
+    document.getElementById('timer-display').textContent = formatTime(remainingSeconds);
+    updateScore();
+  }
+
+  function applyFilters() {
+    const arch = document.getElementById('filter-archetype').value;
+    const dom = document.getElementById('filter-domain').value;
+    const top = document.getElementById('filter-topic').value;
+    const lvl = document.getElementById('filter-complexity').value;
+    let visible = 0;
+    document.querySelectorAll('.question-card').forEach(card => {
+      const matchArch = arch === 'ALL' || card.getAttribute('data-archetype') === arch;
+      const matchDom = dom === 'ALL' || card.getAttribute('data-domain') === dom;
+      const matchTop = top === 'ALL' || card.getAttribute('data-topic') === top;
+      const matchLvl = lvl === 'ALL' || card.getAttribute('data-complexity') === lvl;
+      if (matchArch && matchDom && matchTop && matchLvl) {
+        card.style.display = '';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    document.getElementById('visible-count').textContent = visible;
+  }
+</script>
+</body>
+</html>

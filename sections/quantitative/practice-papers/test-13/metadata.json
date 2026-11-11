@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T13",
+  "test_number": 13,
+  "title": "HSPT Quantitative Practice Test 13 (Operations involving decimals · Operations involving fractions · Fraction comparisons)",
+  "focus_topics": [
+    "Operations involving decimals",
+    "Operations involving fractions",
+    "Fraction comparisons"
+  ],
+  "topic_question_counts": {
+    "Operations involving decimals": 18,
+    "Operations involving fractions": 22,
+    "Fraction comparisons": 12
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 37,
+    "Computation": 8,
+    "Sequence": 7
+  },
+  "topics": [
+    "Fraction comparisons",
+    "Operations involving decimals",
+    "Operations involving fractions"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q061",
+      "number": 61,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "617821bd26bfffad7fedb6f4cec4cfa55357f2d5fb8e2d8efa5d315b666fd390"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q062",
+      "number": 62,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "c0473c149dd0d671de8e91e3d2f1e13065199de146b334b624ada3a8af8a268c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q063",
+      "number": 63,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c420d2d7309bee135f85862d91423db7048a9b1e5f252aef2d8fdc45cb559f5b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q064",
+      "number": 64,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "2a89558f165119b427e9628b7a55f66ec2fc5e74c6f2d5a4b0cd344af7063e61"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q065",
+      "number": 65,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0e20b9f33008678cd49094c1f17aad22e33f7abe80df4665005892ccb6ccf0ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q066",
+      "number": 66,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "799b0de5a7420edf2f8955a399f6eaeac68fee7e369611afb6d910da9c850bb9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q067",
+      "number": 67,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "81c23e7babbae0a596810b68d807237a9dcc676d972061c09e579b8768b26fc0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q068",
+      "number": 68,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "497d91987f37be8866e99a30629139e9cfc0664061c2364ee3c8f405a0cc0270"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q069",
+      "number": 69,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "2387b522c17f6a497fea4b5f1ea3021a0aa8b8190abe0a98560c6d5b49c61dd5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q070",
+      "number": 70,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7f343207cd1c4ae30a58c56e303722693f80f866378bcd68350918ecfb9402b0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q071",
+      "number": 71,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a60debc180f37bf9c805a6f42f056598c2039b99fa558a8cf1bf0cadd22f982f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q072",
+      "number": 72,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "62c5b8207ee7fa3370b50edf79fb5801fd6276face64f382495654c31939668d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q073",
+      "number": 73,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "00af6f4ab5eedfb0e6492fdc841921d036aad5c660acca06a109d00d49291af6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q074",
+      "number": 74,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "01ede23ad814fe8bca506abd5e03bbfff6bbd619b3fbae49d201f8b29b64c3f2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q075",
+      "number": 75,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "6dd9570617b6210da0f090cedd579b022f49b9f4261851803ede3a5a21ed40a0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q076",
+      "number": 76,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a7b0d5e4af3ad4ffc36e79a30c09a16bb1d389afcb539424f64ddf2e6ba0be19"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q077",
+      "number": 77,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d292e0fe77a2f17c1da8b019e34a1321854316e53239cdaf181d5f6f4c0c0bfc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q078",
+      "number": 78,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "285071afaf161fdf30c8785cbe85a03a5d3ff868b56202eb6064274ce158a6a8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q079",
+      "number": 79,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "116be0d6408acdba9d226555b1d5fab5ba34d0f665fc5730c43eabc94d434271"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q080",
+      "number": 80,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c3c7f1139802be38ebfc356adec8841eeca2e3d6a25905099d4ca447a215810c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q081",
+      "number": 81,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "660e06cdafcc475188561d0fb774abe1982025160c1910735c6c45ddb41c4905"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q082",
+      "number": 82,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e1cf3697a9fc59dce73e5739b7634d923968ce858ba40311b91f7fc09c1e6cdd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q083",
+      "number": 83,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d524fd1c5927ae728a216fac91627ed63ea353e767f50cefb44cb9e9734aad4c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q084",
+      "number": 84,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "24592b2924b19b96c9df1142b2305b0a5deb51164419519e95e303282cee8f64"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q085",
+      "number": 85,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f11d678f1e08796bf2ed64d9b0a11d2ce3a237bd4241aa3db01c7852ca09580b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q086",
+      "number": 86,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e784469efb83f925f8f66e5cb3415493b27412f93b0648a9c62e2f48a77770fe"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q087",
+      "number": 87,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8e04d7660051eb071ccf8c89194c38ee3d228fc8d62c7f3d7f8ecf173cbad218"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q088",
+      "number": 88,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0b2e32c2f3b808203a0fb0f7b3cc98033b94abe4d241617f9a1a2914c58e6197"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q089",
+      "number": 89,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "aa0e0e1a9fe2005757304077c7c363088e13e707f9a6aecf79f9e13e5858ab3c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q090",
+      "number": 90,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c5c9637dc045f4d20157c1cefb8a4f15c9267135681ad83661f288b8a72cdc62"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q091",
+      "number": 91,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fcdfff84e940eb59bc85697e7033fda825e9332ebcb50ef98657c2f95f455d34"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q092",
+      "number": 92,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "326fc49a1bb8d50c97376637e96b9745b0a98f92b40498d0ad4ae7fb3a94fc43"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q093",
+      "number": 93,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f38b815ae0a5aded3d38da93605b4d92c796abfa8fece478a6c153cbd87f4b57"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q094",
+      "number": 94,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4b2f4a3f044795f898745139b07602f033abfb8ab901d4b4996c0b533111d5f0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q095",
+      "number": 95,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ab3d123237e7d35a764b6ca6e78f1136a6326a1fc4133287d0b38517b5bc89b6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q096",
+      "number": 96,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "97e61101b2071014af9aadcbd5914e9512cd274a910d50fc8c0c1a926c3b2803"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q097",
+      "number": 97,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "28723fec82bf2c4c06607aebce6ad89d493ec37e253a857f3e81908e50e40dbe"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q098",
+      "number": 98,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "70168ed7fe193d8bfbc2c53eb7a15d91d3bd8433a1117c1954fc85a920248b4c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q099",
+      "number": 99,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5a1d3ff2f42c763fddc67da68d947455adf497aba1394062919bb7dc947898f4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q100",
+      "number": 100,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "7b0bad3b781e4f0c4123b519ed631cf562caa434acc94141ac66276135fbc421"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q101",
+      "number": 101,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "e2b20962e64725fdfd72e7531eae666a1cd7a42bc38180d09e8fb0ac8c9e89d8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q102",
+      "number": 102,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7a8509436923dc9fa883731603bd8db76c0d6f4c094a306ef4a68a4abc671b49"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q103",
+      "number": 103,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "81af9739202ed1a5655d74a052372b34f45bb7060c81bdfbaf3b409f2a377765"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q104",
+      "number": 104,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "45f4fbfb2af75b839579997cf1c060a66cf5934c5822d16a75c935e2cbc48ecf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q105",
+      "number": 105,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "5a3c0d97bc43b046ac98ad2fbb098c2677bbe2bf1df7a9f9003f6a021b07f542"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q106",
+      "number": 106,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cfd38027b76ed037d228d751212c9f87a5e9fcb82155249e9af3ef06af0f274a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q107",
+      "number": 107,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c3450b9dcb40601695aa5bd7a2cc92aedba143a80adfb1caccf0206ed3297105"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q108",
+      "number": 108,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "53648c6ffb98a81e2d499c409cca4165e812fadbc5d01a0cdcd0ccbd14be2d6b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q109",
+      "number": 109,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "641db3ba90411ffe7e3de0334df1ac57db7f6ecc5b187e93136698ac13d9cce3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q110",
+      "number": 110,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "44cd67fbb45bf1c5602177efac68d580d87fa2ce0c39ebea94ae9c93d64e8070"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q111",
+      "number": 111,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a03df8c44cd6c9af1635feca0f5ee05452791054308a6501bc407d5eb78efd28"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T13-Q112",
+      "number": 112,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "1355c2ad12bf88ad2b78d6d458cf4961006e67573fad662b55fe280cd741fcbe"
+    }
+  ]
+}

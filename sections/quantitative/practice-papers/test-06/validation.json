@@ -1,0 +1,24 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "test_id": "HSPT-QS-PRACTICE-20-T06",
+  "status": "pass",
+  "focus_topics": [
+    "Addition / Subtraction",
+    "Right angles",
+    "Distributive property with variables"
+  ],
+  "topic_question_counts": {
+    "Addition / Subtraction": 21,
+    "Right angles": 15,
+    "Distributive property with variables": 16
+  },
+  "question_count": 52,
+  "math_verified": 52,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "duplicate_count": 0,
+  "collection_uniqueness_verified": true,
+  "difficulty_basis": "Designed and structurally verified with shortcut rejection; not empirically calibrated."
+}

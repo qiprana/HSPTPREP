@@ -1,0 +1,6206 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "exam_id": "HSPT-QS-PRACTICE-20-T19",
+  "title": "HSPT Quantitative Practice Test 19 (Exponents & scientific notation · Operations involving fractions · Measurements)",
+  "focus_topics": [
+    "Exponents & scientific notation",
+    "Operations involving fractions",
+    "Measurements"
+  ],
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q061",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((4 ^ 3) − (5 ^ 2)) ÷ (10 ^ -2))",
+        "B": "Evaluate the following expression. Expression: (((4 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1))",
+        "C": "Evaluate the following expression. Expression: (((6 ^ 3) − (2 ^ 2)) ÷ (10 ^ -1))"
+      },
+      "computed_values": {
+        "A": "3900",
+        "B": "280",
+        "C": "2120",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    5,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    6,
+                    3
+                  ],
+                  [
+                    "pow",
+                    2,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) = 2(A)",
+        "B": "(B) is greater than (A) and (A) is greater than (C)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(A) + (B) = (C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "B": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "D": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms."
+      },
+      "explanation": "(A): (((4 ^ 3) − (5 ^ 2)) ÷ (10 ^ -2)) = 3900; (B): (((4 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1)) = 280; (C): (((6 ^ 3) − (2 ^ 2)) ÷ (10 ^ -1)) = 2120. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 61
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q062",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "A rope is 24 yards and 2 feet long. After 33 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "stimulus": "A rope is 24 yards and 2 feet long. After 33 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "computed_values": {
+        "result": "57",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        24,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  33
+                ],
+                15
+              ],
+              "variables": {},
+              "context": "A rope is 24 yards and 2 feet long. After 33 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      24,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                33
+              ],
+              15
+            ],
+            "B": [
+              "sub",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      24,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                33
+              ],
+              15
+            ],
+            "D": [
+              "div",
+              15,
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      24,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                33
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "12825",
+        "B": "840",
+        "C": "57",
+        "D": "1/57"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with mul.",
+        "B": "Trap: Replaces div with sub.",
+        "D": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((((24 × 3) + 2) × 12) − 33) ÷ 15) = 57.",
+      "question_number": 62
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q063",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 19, 41, 81, 145, 239, 369, 541, 761, ?",
+      "stimulus": [
+        "19",
+        "41",
+        "81",
+        "145",
+        "239",
+        "369",
+        "541",
+        "761"
+      ],
+      "computed_values": {
+        "next_term": "1035",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 5,
+            "b": 2,
+            "c": 3,
+            "d": 71,
+            "e": 3,
+            "f": 6,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "981",
+        "B": "541",
+        "C": "1035",
+        "D": "761"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "For consecutive n starting at 2, use n³ + 3n + 5. The next term is 1035.",
+      "modality": "Numbers Only",
+      "question_number": 63
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q064",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 7 yards and 2 feet long. After 36 inches are removed, how many complete 12-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 27 yards and 2 feet long. After 9 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 12 yards and 1 feet long. After 12 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "20",
+        "B": "141",
+        "C": "72",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        7,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  36
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "A rope is 7 yards and 2 feet long. After 36 inches are removed, how many complete 12-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        27,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  9
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "A rope is 27 yards and 2 feet long. After 9 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        12,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  12
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "A rope is 12 yards and 1 feet long. After 12 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) + (C) = (B)",
+        "B": "(C) is greater than (A) and (A) is greater than (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "B": "Trap: Misorders (C), (A), and (B) under time pressure.",
+        "C": "Trap: Misorders the middle quantity in (B) > (A) > (C)."
+      },
+      "explanation": "(A): (((((7 × 3) + 2) × 12) − 36) ÷ 12) = 20; (B): (((((27 × 3) + 2) × 12) − 9) ÷ 7) = 141; (C): (((((12 × 3) + 1) × 12) − 12) ÷ 6) = 72. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 64
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q065",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((15/8) + (3/5)) − ((7/9) × 7)) ÷ (5/8))",
+        "B": "Evaluate the following expression. Expression: ((((9/2) + (10/5)) − ((5/3) × 5)) ÷ (5/6))",
+        "C": "Evaluate the following expression. Expression: ((((24/12) + (13/5)) − ((10/13) × 10)) ÷ (5/11))"
+      },
+      "computed_values": {
+        "A": "-1069/225",
+        "B": "-11/5",
+        "C": "-2211/325",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      15,
+                      8
+                    ],
+                    [
+                      "rat",
+                      3,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      9
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      9,
+                      2
+                    ],
+                    [
+                      "rat",
+                      10,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      5,
+                      3
+                    ],
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      24,
+                      12
+                    ],
+                    [
+                      "rat",
+                      13,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      13
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and less than (A)",
+        "B": "(A) = 2(C)",
+        "C": "(B) is equal to (C) and greater than (A)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "B": "Trap: Incorrectly concludes (A) is twice (C).",
+        "C": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): ((((15/8) + (3/5)) − ((7/9) × 7)) ÷ (5/8)) = -1069/225; (B): ((((9/2) + (10/5)) − ((5/3) × 5)) ÷ (5/6)) = -11/5; (C): ((((24/12) + (13/5)) − ((10/13) × 10)) ÷ (5/11)) = -2211/325. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 65
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q066",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((24/8) + (6/6)) − ((7/9) × 7)) ÷ (6/8))",
+        "B": "Evaluate the following expression. Expression: ((((22/2) + (15/9)) − ((10/3) × 10)) ÷ (9/11))",
+        "C": "Evaluate the following expression. Expression: ((((23/11) + (15/9)) − ((9/12) × 9)) ÷ (9/10))"
+      },
+      "computed_values": {
+        "A": "-52/27",
+        "B": "-682/27",
+        "C": "-1975/594",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      24,
+                      8
+                    ],
+                    [
+                      "rat",
+                      6,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      9
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      22,
+                      2
+                    ],
+                    [
+                      "rat",
+                      15,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      3
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      23,
+                      11
+                    ],
+                    [
+                      "rat",
+                      15,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      9,
+                      12
+                    ],
+                    9
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is less than (B)",
+        "B": "(B) + (C) = (A)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(C) = 2(A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational inequality between (C) and (B).",
+        "B": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "D": "Trap: Incorrectly doubles (A) when comparing to (C)."
+      },
+      "explanation": "(A): ((((24/8) + (6/6)) − ((7/9) × 7)) ÷ (6/8)) = -52/27; (B): ((((22/2) + (15/9)) − ((10/3) × 10)) ÷ (9/11)) = -682/27; (C): ((((23/11) + (15/9)) − ((9/12) × 9)) ÷ (9/10)) = -1975/594. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 66
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q067",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 57, 101, 169, 267, 401, 577, 801, 1079, ?",
+      "stimulus": [
+        "57",
+        "101",
+        "169",
+        "267",
+        "401",
+        "577",
+        "801",
+        "1079"
+      ],
+      "computed_values": {
+        "next_term": "1417",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 9,
+            "b": 3,
+            "c": 7,
+            "d": 80,
+            "e": 4,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "801",
+        "B": "1357",
+        "C": "1417",
+        "D": "1079"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses the last visible step.",
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "For consecutive n starting at 3, use n³ + 7n + 9. The next term is 1417.",
+      "modality": "Numbers Only",
+      "question_number": 67
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q068",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((6 ^ 3) − (5 ^ 2)) ÷ (10 ^ -2))",
+        "B": "Evaluate the following expression. Expression: (((6 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1))",
+        "C": "Evaluate the following expression. Expression: (((4 ^ 3) − (4 ^ 2)) ÷ (10 ^ -2))"
+      },
+      "computed_values": {
+        "A": "19100",
+        "B": "1800",
+        "C": "4800",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    6,
+                    3
+                  ],
+                  [
+                    "pow",
+                    5,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    6,
+                    3
+                  ],
+                  [
+                    "pow",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    4,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (C) and greater than (B)",
+        "B": "(C) is less than (B)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "B": "Trap: Reverses relational inequality between (C) and (B).",
+        "C": "Trap: Reverses strict descending order (A) > (B) > (C)."
+      },
+      "explanation": "(A): (((6 ^ 3) − (5 ^ 2)) ÷ (10 ^ -2)) = 19100; (B): (((6 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1)) = 1800; (C): (((4 ^ 3) − (4 ^ 2)) ÷ (10 ^ -2)) = 4800. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 68
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q069",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 24, 33, 44, 57, 72, ?",
+      "stimulus": [
+        "24",
+        "33",
+        "44",
+        "57",
+        "72"
+      ],
+      "computed_values": {
+        "next_term": "89",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 2,
+          "parameters": {
+            "a": 8,
+            "b": 4,
+            "c": 3,
+            "d": 53,
+            "e": 13,
+            "f": 2,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "square-offset"
+          }
+        }
+      },
+      "options": {
+        "A": "89",
+        "B": "57",
+        "C": "87",
+        "D": "72"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses the last visible step.",
+        "C": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "D": "Trap: Repeats the previous term instead of advancing."
+      },
+      "explanation": "Terms are consecutive squares starting at 4², with 8 added to each square. The next term is 89.",
+      "modality": "Numbers Only",
+      "question_number": 69
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q070",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Find the next term in the series: 14, 19, 26, 35, 46, ?",
+      "stimulus": [
+        "14",
+        "19",
+        "26",
+        "35",
+        "46"
+      ],
+      "computed_values": {
+        "next_term": "59",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 2,
+          "parameters": {
+            "a": 10,
+            "b": 2,
+            "c": 6,
+            "d": 46,
+            "e": 12,
+            "f": 5,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "square-offset"
+          }
+        }
+      },
+      "options": {
+        "A": "59",
+        "B": "57",
+        "C": "46",
+        "D": "35"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "C": "Trap: Repeats the previous term instead of advancing.",
+        "D": "Trap: Reverses the last visible step."
+      },
+      "explanation": "Terms are consecutive squares starting at 2², with 10 added to each square. The next term is 59.",
+      "modality": "Numbers Only",
+      "question_number": 70
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q071",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate the following expression. Expression: (((5/7) + (11/9)) ÷ 7)",
+      "stimulus": "Evaluate the following expression. Expression: (((5/7) + (11/9)) ÷ 7)",
+      "computed_values": {
+        "result": "122/441",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    5,
+                    7
+                  ],
+                  [
+                    "rat",
+                    11,
+                    9
+                  ]
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              [
+                "add",
+                [
+                  "rat",
+                  5,
+                  7
+                ],
+                [
+                  "rat",
+                  11,
+                  9
+                ]
+              ],
+              7
+            ],
+            "B": [
+              "sub",
+              [
+                "add",
+                [
+                  "rat",
+                  5,
+                  7
+                ],
+                [
+                  "rat",
+                  11,
+                  9
+                ]
+              ],
+              7
+            ],
+            "C": [
+              "div",
+              7,
+              [
+                "add",
+                [
+                  "rat",
+                  5,
+                  7
+                ],
+                [
+                  "rat",
+                  11,
+                  9
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "122/9",
+        "B": "-319/63",
+        "C": "441/122",
+        "D": "122/441"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with mul.",
+        "B": "Trap: Replaces div with sub.",
+        "C": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((5/7) + (11/9)) ÷ 7) = 122/441.",
+      "question_number": 71
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q072",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 17 yards and 2 feet long. After 21 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 23 yards and 2 feet long. After 18 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 6 yards and 2 feet long. After 16 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "41",
+        "B": "139",
+        "C": "32",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        17,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  21
+                ],
+                15
+              ],
+              "variables": {},
+              "context": "A rope is 17 yards and 2 feet long. After 21 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        23,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  18
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "A rope is 23 yards and 2 feet long. After 18 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        6,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  16
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "A rope is 6 yards and 2 feet long. After 16 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) + (C) = (A)",
+        "B": "(A) + (C) = (B)",
+        "C": "(B) is greater than (A) and (A) is greater than (C)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "B": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "D": "Trap: Misorders (C) and (B) when ranking all three quantities."
+      },
+      "explanation": "(A): (((((17 × 3) + 2) × 12) − 21) ÷ 15) = 41; (B): (((((23 × 3) + 2) × 12) − 18) ÷ 6) = 139; (C): (((((6 × 3) + 2) × 12) − 16) ÷ 7) = 32. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 72
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q073",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 17 yards and 2 feet long. After 34 inches are removed, how many complete 14-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 26 yards and 2 feet long. After 6 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 4 yards and 1 feet long. After 11 inches are removed, how many complete 5-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "43",
+        "B": "159",
+        "C": "29",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        17,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  34
+                ],
+                14
+              ],
+              "variables": {},
+              "context": "A rope is 17 yards and 2 feet long. After 34 inches are removed, how many complete 14-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        26,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  6
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "A rope is 26 yards and 2 feet long. After 6 inches are removed, how many complete 6-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        4,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  11
+                ],
+                5
+              ],
+              "variables": {},
+              "context": "A rope is 4 yards and 1 feet long. After 11 inches are removed, how many complete 5-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A), (B), and (C) are equal",
+        "B": "(C) = 2(A)",
+        "C": "(B) is equal to (C) and less than (A)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "B": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "C": "Trap: Treats (B) and (C) as equivalent and smaller than (A)."
+      },
+      "explanation": "(A): (((((17 × 3) + 2) × 12) − 34) ÷ 14) = 43; (B): (((((26 × 3) + 2) × 12) − 6) ÷ 6) = 159; (C): (((((4 × 3) + 1) × 12) − 11) ÷ 5) = 29. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 73
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q074",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "A rope is 28 yards and 2 feet long. After 31 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "stimulus": "A rope is 28 yards and 2 feet long. After 31 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "computed_values": {
+        "result": "91",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        28,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  31
+                ],
+                11
+              ],
+              "variables": {},
+              "context": "A rope is 28 yards and 2 feet long. After 31 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      28,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                31
+              ],
+              11
+            ],
+            "C": [
+              "div",
+              11,
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      28,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                31
+              ]
+            ],
+            "D": [
+              "sub",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      28,
+                      3
+                    ],
+                    2
+                  ],
+                  12
+                ],
+                31
+              ],
+              11
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "11011",
+        "B": "91",
+        "C": "1/91",
+        "D": "990"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with mul.",
+        "C": "Trap: Reverses operands in div.",
+        "D": "Trap: Replaces div with sub."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((((28 × 3) + 2) × 12) − 31) ÷ 11) = 91.",
+      "question_number": 74
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q075",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((4/10) + (9/2)) ÷ 9)",
+        "B": "Evaluate the following expression. Expression: (((6/13) + (14/5)) ÷ 7)",
+        "C": "Evaluate the following expression. Expression: (((19/3) + (4/7)) ÷ 3)"
+      },
+      "computed_values": {
+        "A": "49/90",
+        "B": "212/455",
+        "C": "145/63",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    4,
+                    10
+                  ],
+                  [
+                    "rat",
+                    9,
+                    2
+                  ]
+                ],
+                9
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    6,
+                    13
+                  ],
+                  [
+                    "rat",
+                    14,
+                    5
+                  ]
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    19,
+                    3
+                  ],
+                  [
+                    "rat",
+                    4,
+                    7
+                  ]
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (C) and less than (B)",
+        "B": "(B) is equal to (C) and less than (A)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "B": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C)."
+      },
+      "explanation": "(A): (((4/10) + (9/2)) ÷ 9) = 49/90; (B): (((6/13) + (14/5)) ÷ 7) = 212/455; (C): (((19/3) + (4/7)) ÷ 3) = 145/63. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 75
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q076",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 17 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 13 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 11 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "624",
+        "B": "492",
+        "C": "420",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    17,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 17 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    13,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 13 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    11,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 11 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) = 2(A)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(A) is equal to (B) and greater than (C)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "B": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "C": "Trap: Conflates (A) and (B) as equal or misorders (C)."
+      },
+      "explanation": "(A): (((17 × 3) + 1) × 12) = 624; (B): (((13 × 3) + 2) × 12) = 492; (C): (((11 × 3) + 2) × 12) = 420. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 76
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q077",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((18/5) + (11/6)) − ((2/6) × 2)) ÷ (6/3))",
+        "B": "Evaluate the following expression. Expression: ((((14/7) + (17/3)) − ((9/8) × 9)) ÷ (3/10))",
+        "C": "Evaluate the following expression. Expression: ((((13/8) + (13/4)) − ((11/9) × 11)) ÷ (4/12))"
+      },
+      "computed_values": {
+        "A": "143/60",
+        "B": "-295/36",
+        "C": "-617/24",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      18,
+                      5
+                    ],
+                    [
+                      "rat",
+                      11,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      6
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      14,
+                      7
+                    ],
+                    [
+                      "rat",
+                      17,
+                      3
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      9,
+                      8
+                    ],
+                    9
+                  ]
+                ],
+                [
+                  "rat",
+                  3,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      13,
+                      8
+                    ],
+                    [
+                      "rat",
+                      13,
+                      4
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      11,
+                      9
+                    ],
+                    11
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  12
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(B) = 2(A)",
+        "C": "(B) is less than (C)",
+        "D": "(B) is greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: Reverses relational inequality between (B) and (C).",
+        "D": "Trap: Reverses relational comparison between (B) and (A)."
+      },
+      "explanation": "(A): ((((18/5) + (11/6)) − ((2/6) × 2)) ÷ (6/3)) = 143/60; (B): ((((14/7) + (17/3)) − ((9/8) × 9)) ÷ (3/10)) = -295/36; (C): ((((13/8) + (13/4)) − ((11/9) × 11)) ÷ (4/12)) = -617/24. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 77
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q078",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 20 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 26 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 17 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "744",
+        "B": "948",
+        "C": "636",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    20,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 20 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    26,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 26 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    17,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 17 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B)",
+        "B": "(A) + (C) = (B)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (B).",
+        "B": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C)."
+      },
+      "explanation": "(A): (((20 × 3) + 2) × 12) = 744; (B): (((26 × 3) + 1) × 12) = 948; (C): (((17 × 3) + 2) × 12) = 636. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 78
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q079",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: ((((7/12) + (15/8)) − ((5/13) × 5)) ÷ (8/6))",
+      "stimulus": "Evaluate the following expression. Expression: ((((7/12) + (15/8)) − ((5/13) × 5)) ÷ (8/6))",
+      "computed_values": {
+        "result": "167/416",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      7,
+                      12
+                    ],
+                    [
+                      "rat",
+                      15,
+                      8
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      5,
+                      13
+                    ],
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "div",
+              [
+                "rat",
+                8,
+                6
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    7,
+                    12
+                  ],
+                  [
+                    "rat",
+                    15,
+                    8
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    5,
+                    13
+                  ],
+                  5
+                ]
+              ]
+            ],
+            "B": [
+              "sub",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    7,
+                    12
+                  ],
+                  [
+                    "rat",
+                    15,
+                    8
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    5,
+                    13
+                  ],
+                  5
+                ]
+              ],
+              [
+                "rat",
+                8,
+                6
+              ]
+            ],
+            "D": [
+              "mul",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    7,
+                    12
+                  ],
+                  [
+                    "rat",
+                    15,
+                    8
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    5,
+                    13
+                  ],
+                  5
+                ]
+              ],
+              [
+                "rat",
+                8,
+                6
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "416/167",
+        "B": "-83/104",
+        "C": "167/416",
+        "D": "167/234"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses operands in div.",
+        "B": "Trap: Replaces div with sub.",
+        "D": "Trap: Replaces div with mul."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((((7/12) + (15/8)) − ((5/13) × 5)) ÷ (8/6)) = 167/416.",
+      "question_number": 79
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q080",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 21 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "384",
+        "B": "768",
+        "C": "480",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    10,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    21,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 21 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    13,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(B) = 2(A)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(B) is equal to (C) and greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "C": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "D": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): (((10 × 3) + 2) × 12) = 384; (B): (((21 × 3) + 1) × 12) = 768; (C): (((13 × 3) + 1) × 12) = 480. Therefore (B) = 2(A).",
+      "question_number": 80
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q081",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((22/11) + (6/5)) ÷ 6)",
+        "B": "Evaluate the following expression. Expression: (((19/3) + (10/8)) ÷ 9)",
+        "C": "Evaluate the following expression. Expression: (((12/5) + (6/3)) ÷ 4)"
+      },
+      "computed_values": {
+        "A": "8/15",
+        "B": "91/108",
+        "C": "11/10",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    22,
+                    11
+                  ],
+                  [
+                    "rat",
+                    6,
+                    5
+                  ]
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    19,
+                    3
+                  ],
+                  [
+                    "rat",
+                    10,
+                    8
+                  ]
+                ],
+                9
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    12,
+                    5
+                  ],
+                  [
+                    "rat",
+                    6,
+                    3
+                  ]
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and less than (A)",
+        "B": "(A) + (B) = (C)",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(A) is greater than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "B": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "D": "Trap: Reverses relational comparison between (A) and (B)."
+      },
+      "explanation": "(A): (((22/11) + (6/5)) ÷ 6) = 8/15; (B): (((19/3) + (10/8)) ÷ 9) = 91/108; (C): (((12/5) + (6/3)) ÷ 4) = 11/10. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 81
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q082",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((7 ^ 3) − (3 ^ 2)) ÷ (10 ^ -2))",
+        "B": "Evaluate the following expression. Expression: (((4 ^ 3) − (7 ^ 2)) ÷ (10 ^ -1))",
+        "C": "Evaluate the following expression. Expression: (((4 ^ 3) − (6 ^ 2)) ÷ (10 ^ -3))"
+      },
+      "computed_values": {
+        "A": "33400",
+        "B": "150",
+        "C": "28000",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    7,
+                    3
+                  ],
+                  [
+                    "pow",
+                    3,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    7,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(B) is greater than (A)",
+        "C": "(B) is greater than (C) and (C) is greater than (A)",
+        "D": "(A), (B), and (C) are equal"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses relational comparison between (B) and (A).",
+        "C": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "D": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs."
+      },
+      "explanation": "(A): (((7 ^ 3) − (3 ^ 2)) ÷ (10 ^ -2)) = 33400; (B): (((4 ^ 3) − (7 ^ 2)) ÷ (10 ^ -1)) = 150; (C): (((4 ^ 3) − (6 ^ 2)) ÷ (10 ^ -3)) = 28000. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 82
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q083",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((6/11) + (5/9)) − ((4/12) × 4)) ÷ (9/5))",
+        "B": "Evaluate the following expression. Expression: ((((8/12) + (3/2)) − ((2/13) × 2)) ÷ (2/3))",
+        "C": "Evaluate the following expression. Expression: ((((23/7) + (8/6)) − ((4/8) × 4)) ÷ (6/5))"
+      },
+      "computed_values": {
+        "A": "-115/891",
+        "B": "145/52",
+        "C": "275/126",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      6,
+                      11
+                    ],
+                    [
+                      "rat",
+                      5,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      4,
+                      12
+                    ],
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      8,
+                      12
+                    ],
+                    [
+                      "rat",
+                      3,
+                      2
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      13
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      23,
+                      7
+                    ],
+                    [
+                      "rat",
+                      8,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      4,
+                      8
+                    ],
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(C) = 2(A)",
+        "D": "(A) is greater than (B) and (B) is greater than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "D": "Trap: Reverses strict descending order (A) > (B) > (C)."
+      },
+      "explanation": "(A): ((((6/11) + (5/9)) − ((4/12) × 4)) ÷ (9/5)) = -115/891; (B): ((((8/12) + (3/2)) − ((2/13) × 2)) ÷ (2/3)) = 145/52; (C): ((((23/7) + (8/6)) − ((4/8) × 4)) ÷ (6/5)) = 275/126. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 83
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q084",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((3 ^ 3) − (4 ^ 2)) ÷ (10 ^ -1))",
+        "B": "Evaluate the following expression. Expression: (((5 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1))",
+        "C": "Evaluate the following expression. Expression: (((7 ^ 3) − (7 ^ 2)) ÷ (10 ^ -2))"
+      },
+      "computed_values": {
+        "A": "110",
+        "B": "890",
+        "C": "29400",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    3,
+                    3
+                  ],
+                  [
+                    "pow",
+                    4,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    5,
+                    3
+                  ],
+                  [
+                    "pow",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    7,
+                    3
+                  ],
+                  [
+                    "pow",
+                    7,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C) and (C) is greater than (B)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Misorders (C), (A), and (B) under time pressure."
+      },
+      "explanation": "(A): (((3 ^ 3) − (4 ^ 2)) ÷ (10 ^ -1)) = 110; (B): (((5 ^ 3) − (6 ^ 2)) ÷ (10 ^ -1)) = 890; (C): (((7 ^ 3) − (7 ^ 2)) ÷ (10 ^ -2)) = 29400. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 84
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q085",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 31, 52, 91, 154, 247, 376, 547, 766, ?",
+      "stimulus": [
+        "31",
+        "52",
+        "91",
+        "154",
+        "247",
+        "376",
+        "547",
+        "766"
+      ],
+      "computed_values": {
+        "next_term": "1039",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 19,
+            "b": 2,
+            "c": 2,
+            "d": 52,
+            "e": 5,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "985",
+        "B": "766",
+        "C": "547",
+        "D": "1039"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule.",
+        "B": "Trap: Repeats the previous term instead of advancing.",
+        "C": "Trap: Reverses the last visible step."
+      },
+      "explanation": "For consecutive n starting at 2, use n³ + 2n + 19. The next term is 1039.",
+      "modality": "Numbers Only",
+      "question_number": 85
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q086",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((3 ^ 2) − 2)",
+        "B": "Evaluate the following expression. Expression: ((7 ^ 2) − 2)",
+        "C": "Evaluate the following expression. Expression: ((3 ^ 2) − 2)"
+      },
+      "computed_values": {
+        "A": "7",
+        "B": "47",
+        "C": "7",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  3,
+                  2
+                ],
+                2
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  7,
+                  2
+                ],
+                2
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  3,
+                  2
+                ],
+                2
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(A) is equal to (C) and greater than (B)",
+        "C": "(A) is equal to (C) and less than (B)",
+        "D": "(B) is equal to (C) and less than (A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "B": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Treats (B) and (C) as equivalent and smaller than (A)."
+      },
+      "explanation": "(A): ((3 ^ 2) − 2) = 7; (B): ((7 ^ 2) − 2) = 47; (C): ((3 ^ 2) − 2) = 7. Therefore (A) is equal to (C) and less than (B).",
+      "question_number": 86
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q087",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 15 yards and 2 feet long. After 3 inches are removed, how many complete 3-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 17 yards and 2 feet long. After 31 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 7 yards and 2 feet long. After 51 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "187",
+        "B": "55",
+        "C": "15",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        15,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  3
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "A rope is 15 yards and 2 feet long. After 3 inches are removed, how many complete 3-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        17,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  31
+                ],
+                11
+              ],
+              "variables": {},
+              "context": "A rope is 17 yards and 2 feet long. After 31 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        7,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  51
+                ],
+                15
+              ],
+              "variables": {},
+              "context": "A rope is 7 yards and 2 feet long. After 51 inches are removed, how many complete 15-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) + (C) = (A)",
+        "B": "(A) is greater than (B) and (B) is greater than (C)",
+        "C": "(A) is equal to (B) and less than (C)",
+        "D": "(B) = 2(A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "C": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "D": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): (((((15 × 3) + 2) × 12) − 3) ÷ 3) = 187; (B): (((((17 × 3) + 2) × 12) − 31) ÷ 11) = 55; (C): (((((7 × 3) + 2) × 12) − 51) ÷ 15) = 15. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 87
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q088",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "A rope is 6 yards and 1 feet long. After 3 inches are removed, how many complete 3-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "stimulus": "A rope is 6 yards and 1 feet long. After 3 inches are removed, how many complete 3-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+      "computed_values": {
+        "result": "75",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        6,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  3
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "A rope is 6 yards and 1 feet long. After 3 inches are removed, how many complete 3-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "B": [
+              "sub",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      6,
+                      3
+                    ],
+                    1
+                  ],
+                  12
+                ],
+                3
+              ],
+              3
+            ],
+            "C": [
+              "div",
+              3,
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      6,
+                      3
+                    ],
+                    1
+                  ],
+                  12
+                ],
+                3
+              ]
+            ],
+            "D": [
+              "mul",
+              [
+                "sub",
+                [
+                  "mul",
+                  [
+                    "add",
+                    [
+                      "mul",
+                      6,
+                      3
+                    ],
+                    1
+                  ],
+                  12
+                ],
+                3
+              ],
+              3
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "75",
+        "B": "222",
+        "C": "1/75",
+        "D": "675"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Replaces div with sub.",
+        "C": "Trap: Reverses operands in div.",
+        "D": "Trap: Replaces div with mul."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: (((((6 × 3) + 1) × 12) − 3) ÷ 3) = 75.",
+      "question_number": 88
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q089",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((3 ^ 3) − (3 ^ 2)) ÷ (10 ^ -1))",
+        "B": "Evaluate the following expression. Expression: (((7 ^ 3) − (3 ^ 2)) ÷ (10 ^ -3))",
+        "C": "Evaluate the following expression. Expression: (((6 ^ 3) − (4 ^ 2)) ÷ (10 ^ -2))"
+      },
+      "computed_values": {
+        "A": "180",
+        "B": "334000",
+        "C": "20000",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    3,
+                    3
+                  ],
+                  [
+                    "pow",
+                    3,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    7,
+                    3
+                  ],
+                  [
+                    "pow",
+                    3,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    6,
+                    3
+                  ],
+                  [
+                    "pow",
+                    4,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(A) is equal to (C) and greater than (B)",
+        "C": "(A) = 2(C)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "B": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "C": "Trap: Incorrectly concludes (A) is twice (C)."
+      },
+      "explanation": "(A): (((3 ^ 3) − (3 ^ 2)) ÷ (10 ^ -1)) = 180; (B): (((7 ^ 3) − (3 ^ 2)) ÷ (10 ^ -3)) = 334000; (C): (((6 ^ 3) − (4 ^ 2)) ÷ (10 ^ -2)) = 20000. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 89
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q090",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((4/13) + (7/6)) − ((11/14) × 11)) ÷ (6/12))",
+        "B": "Evaluate the following expression. Expression: ((((18/8) + (9/8)) − ((8/9) × 8)) ÷ (8/9))",
+        "C": "Evaluate the following expression. Expression: ((((21/8) + (6/9)) − ((10/9) × 10)) ÷ (9/11))"
+      },
+      "computed_values": {
+        "A": "-3914/273",
+        "B": "-269/64",
+        "C": "-6193/648",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      4,
+                      13
+                    ],
+                    [
+                      "rat",
+                      7,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      11,
+                      14
+                    ],
+                    11
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  12
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      18,
+                      8
+                    ],
+                    [
+                      "rat",
+                      9,
+                      8
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      8,
+                      9
+                    ],
+                    8
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      21,
+                      8
+                    ],
+                    [
+                      "rat",
+                      6,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      9
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(A) is equal to (B) and greater than (C)",
+        "C": "(A) is equal to (C) and greater than (B)",
+        "D": "(B) is equal to (C) and less than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "C": "Trap: Miscomputes (B) as smaller than (A) and (C).",
+        "D": "Trap: Treats (B) and (C) as equivalent and smaller than (A)."
+      },
+      "explanation": "(A): ((((4/13) + (7/6)) − ((11/14) × 11)) ÷ (6/12)) = -3914/273; (B): ((((18/8) + (9/8)) − ((8/9) × 8)) ÷ (8/9)) = -269/64; (C): ((((21/8) + (6/9)) − ((10/9) × 10)) ÷ (9/11)) = -6193/648. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 90
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q091",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: ((((9/4) + (12/7)) − ((11/5) × 11)) ÷ (7/12))",
+      "stimulus": "Evaluate the following expression. Expression: ((((9/4) + (12/7)) − ((11/5) × 11)) ÷ (7/12))",
+      "computed_values": {
+        "result": "-8499/245",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      9,
+                      4
+                    ],
+                    [
+                      "rat",
+                      12,
+                      7
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      11,
+                      5
+                    ],
+                    11
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  12
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "sub",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    9,
+                    4
+                  ],
+                  [
+                    "rat",
+                    12,
+                    7
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    11,
+                    5
+                  ],
+                  11
+                ]
+              ],
+              [
+                "rat",
+                7,
+                12
+              ]
+            ],
+            "B": [
+              "div",
+              [
+                "rat",
+                7,
+                12
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    9,
+                    4
+                  ],
+                  [
+                    "rat",
+                    12,
+                    7
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    11,
+                    5
+                  ],
+                  11
+                ]
+              ]
+            ],
+            "C": [
+              "mul",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    9,
+                    4
+                  ],
+                  [
+                    "rat",
+                    12,
+                    7
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    11,
+                    5
+                  ],
+                  11
+                ]
+              ],
+              [
+                "rat",
+                7,
+                12
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "-2186/105",
+        "B": "-245/8499",
+        "C": "-2833/240",
+        "D": "-8499/245"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with sub.",
+        "B": "Trap: Reverses operands in div.",
+        "C": "Trap: Replaces div with mul."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((((9/4) + (12/7)) − ((11/5) × 11)) ÷ (7/12)) = -8499/245.",
+      "question_number": 91
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q092",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((3 ^ 3) − (7 ^ 2)) ÷ (10 ^ -1))",
+        "B": "Evaluate the following expression. Expression: (((4 ^ 3) − (3 ^ 2)) ÷ (10 ^ -3))",
+        "C": "Evaluate the following expression. Expression: (((2 ^ 3) − (2 ^ 2)) ÷ (10 ^ -2))"
+      },
+      "computed_values": {
+        "A": "-220",
+        "B": "55000",
+        "C": "400",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    3,
+                    3
+                  ],
+                  [
+                    "pow",
+                    7,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -1
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    4,
+                    3
+                  ],
+                  [
+                    "pow",
+                    3,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "pow",
+                    2,
+                    3
+                  ],
+                  [
+                    "pow",
+                    2,
+                    2
+                  ]
+                ],
+                [
+                  "pow",
+                  10,
+                  -2
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) = 2(C)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(A) is greater than (C)",
+        "D": "(B) + (C) = (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly concludes (A) is twice (C).",
+        "C": "Trap: Reverses relational comparison between (A) and (C).",
+        "D": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error."
+      },
+      "explanation": "(A): (((3 ^ 3) − (7 ^ 2)) ÷ (10 ^ -1)) = -220; (B): (((4 ^ 3) − (3 ^ 2)) ÷ (10 ^ -3)) = 55000; (C): (((2 ^ 3) − (2 ^ 2)) ÷ (10 ^ -2)) = 400. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 92
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q093",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 11 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 20 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "384",
+        "B": "420",
+        "C": "732",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    10,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 10 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    11,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 11 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    20,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 20 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A) and (A) is greater than (B)",
+        "B": "(A) is equal to (B) and greater than (C)",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(A) is equal to (C) and greater than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (C), (A), and (B) under time pressure.",
+        "B": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "D": "Trap: Miscomputes (B) as smaller than (A) and (C)."
+      },
+      "explanation": "(A): (((10 × 3) + 2) × 12) = 384; (B): (((11 × 3) + 2) × 12) = 420; (C): (((20 × 3) + 1) × 12) = 732. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 93
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q094",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 10 yards and 2 feet long. After 14 inches are removed, how many complete 10-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 21 yards and 2 feet long. After 38 inches are removed, how many complete 14-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 11 yards and 2 feet long. After 13 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "37",
+        "B": "53",
+        "C": "37",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        10,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  14
+                ],
+                10
+              ],
+              "variables": {},
+              "context": "A rope is 10 yards and 2 feet long. After 14 inches are removed, how many complete 10-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        21,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  38
+                ],
+                14
+              ],
+              "variables": {},
+              "context": "A rope is 21 yards and 2 feet long. After 38 inches are removed, how many complete 14-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        11,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  13
+                ],
+                11
+              ],
+              "variables": {},
+              "context": "A rope is 11 yards and 2 feet long. After 13 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(A) is equal to (B) and greater than (C)",
+        "C": "(B) = 2(A)",
+        "D": "(A) is equal to (C) and less than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "B": "Trap: Conflates (A) and (B) as equal or misorders (C).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): (((((10 × 3) + 2) × 12) − 14) ÷ 10) = 37; (B): (((((21 × 3) + 2) × 12) − 38) ÷ 14) = 53; (C): (((((11 × 3) + 2) × 12) − 13) ÷ 11) = 37. Therefore (A) is equal to (C) and less than (B).",
+      "question_number": 94
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q095",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((7 ^ 2) − 6)",
+        "B": "Evaluate the following expression. Expression: ((3 ^ 2) − 4)",
+        "C": "Evaluate the following expression. Expression: ((3 ^ 2) − 3)"
+      },
+      "computed_values": {
+        "A": "43",
+        "B": "5",
+        "C": "6",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Exponents & scientific notation",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  7,
+                  2
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  3,
+                  2
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "sub",
+                [
+                  "pow",
+                  3,
+                  2
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (C) and (C) is greater than (A)",
+        "B": "(B) is equal to (C) and greater than (A)",
+        "C": "(A) is greater than (C) and (C) is greater than (B)",
+        "D": "(C) is greater than (A)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Misorders (B), (C), and (A) due to arithmetic slip.",
+        "B": "Trap: Treats (B) and (C) as equivalent and larger than (A).",
+        "D": "Trap: Reverses relational comparison between (C) and (A)."
+      },
+      "explanation": "(A): ((7 ^ 2) − 6) = 43; (B): ((3 ^ 2) − 4) = 5; (C): ((3 ^ 2) − 3) = 6. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 95
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q096",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((15/9) + (5/9)) ÷ 8)",
+        "B": "Evaluate the following expression. Expression: (((4/11) + (16/5)) ÷ 4)",
+        "C": "Evaluate the following expression. Expression: (((23/4) + (16/3)) ÷ 8)"
+      },
+      "computed_values": {
+        "A": "5/18",
+        "B": "49/55",
+        "C": "133/96",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    15,
+                    9
+                  ],
+                  [
+                    "rat",
+                    5,
+                    9
+                  ]
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    4,
+                    11
+                  ],
+                  [
+                    "rat",
+                    16,
+                    5
+                  ]
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    23,
+                    4
+                  ],
+                  [
+                    "rat",
+                    16,
+                    3
+                  ]
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) + (B) = (C)",
+        "B": "(C) is greater than (B) and (B) is greater than (A)",
+        "C": "(A) = 2(C)",
+        "D": "(B) is greater than (A) and (A) is greater than (C)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "C": "Trap: Incorrectly concludes (A) is twice (C).",
+        "D": "Trap: Misorders the middle quantity in (B) > (A) > (C)."
+      },
+      "explanation": "(A): (((15/9) + (5/9)) ÷ 8) = 5/18; (B): (((4/11) + (16/5)) ÷ 4) = 49/55; (C): (((23/4) + (16/3)) ÷ 8) = 133/96. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 96
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q097",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((9/11) + (9/4)) − ((7/12) × 7)) ÷ (4/8))",
+        "B": "Evaluate the following expression. Expression: ((((8/4) + (8/9)) − ((6/5) × 6)) ÷ (9/7))",
+        "C": "Evaluate the following expression. Expression: ((((18/5) + (17/4)) − ((7/6) × 7)) ÷ (4/8))"
+      },
+      "computed_values": {
+        "A": "-67/33",
+        "B": "-1358/405",
+        "C": "-19/30",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      9,
+                      11
+                    ],
+                    [
+                      "rat",
+                      9,
+                      4
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      12
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      8,
+                      4
+                    ],
+                    [
+                      "rat",
+                      8,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      6,
+                      5
+                    ],
+                    6
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      18,
+                      5
+                    ],
+                    [
+                      "rat",
+                      17,
+                      4
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      6
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is equal to (B) and less than (C)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(C) is greater than (A) and (A) is greater than (B)",
+        "D": "(C) is less than (B)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "D": "Trap: Reverses relational inequality between (C) and (B)."
+      },
+      "explanation": "(A): ((((9/11) + (9/4)) − ((7/12) × 7)) ÷ (4/8)) = -67/33; (B): ((((8/4) + (8/9)) − ((6/5) × 6)) ÷ (9/7)) = -1358/405; (C): ((((18/5) + (17/4)) − ((7/6) × 7)) ÷ (4/8)) = -19/30. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 97
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q098",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((15/4) + (9/7)) − ((8/5) × 8)) ÷ (7/9))",
+        "B": "Evaluate the following expression. Expression: ((((4/4) + (9/3)) − ((9/5) × 9)) ÷ (3/10))",
+        "C": "Evaluate the following expression. Expression: ((((23/4) + (6/8)) − ((2/5) × 2)) ÷ (8/3))"
+      },
+      "computed_values": {
+        "A": "-9783/980",
+        "B": "-122/3",
+        "C": "171/80",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      15,
+                      4
+                    ],
+                    [
+                      "rat",
+                      9,
+                      7
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      8,
+                      5
+                    ],
+                    8
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  9
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      4,
+                      4
+                    ],
+                    [
+                      "rat",
+                      9,
+                      3
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      9,
+                      5
+                    ],
+                    9
+                  ]
+                ],
+                [
+                  "rat",
+                  3,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      23,
+                      4
+                    ],
+                    [
+                      "rat",
+                      6,
+                      8
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      5
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(C) is greater than (A) and (A) is greater than (B)",
+        "C": "(C) is greater than (B) and (B) is greater than (A)",
+        "D": "(B) is equal to (C) and greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "C": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "D": "Trap: Treats (B) and (C) as equivalent and larger than (A)."
+      },
+      "explanation": "(A): ((((15/4) + (9/7)) − ((8/5) × 8)) ÷ (7/9)) = -9783/980; (B): ((((4/4) + (9/3)) − ((9/5) × 9)) ÷ (3/10)) = -122/3; (C): ((((23/4) + (6/8)) − ((2/5) × 2)) ÷ (8/3)) = 171/80. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 98
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q099",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((12/8) + (9/2)) − ((6/9) × 6)) ÷ (2/7))",
+        "B": "Evaluate the following expression. Expression: ((((10/4) + (9/5)) − ((10/5) × 10)) ÷ (5/11))",
+        "C": "Evaluate the following expression. Expression: ((((20/9) + (6/5)) − ((2/10) × 2)) ÷ (5/3))"
+      },
+      "computed_values": {
+        "A": "7",
+        "B": "-1727/50",
+        "C": "136/75",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      12,
+                      8
+                    ],
+                    [
+                      "rat",
+                      9,
+                      2
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      6,
+                      9
+                    ],
+                    6
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      10,
+                      4
+                    ],
+                    [
+                      "rat",
+                      9,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      5
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      20,
+                      9
+                    ],
+                    [
+                      "rat",
+                      6,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      10
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A) and (A) is greater than (C)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(B) + (C) = (A)",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Misorders the middle quantity in (B) > (A) > (C).",
+        "C": "Trap: False additive relation (B) + (C) = (A) from sign or grouping error.",
+        "D": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): ((((12/8) + (9/2)) − ((6/9) × 6)) ÷ (2/7)) = 7; (B): ((((10/4) + (9/5)) − ((10/5) × 10)) ÷ (5/11)) = -1727/50; (C): ((((20/9) + (6/5)) − ((2/10) × 2)) ÷ (5/3)) = 136/75. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 99
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q100",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((4/7) + (5/4)) ÷ 10)",
+        "B": "Evaluate the following expression. Expression: (((11/6) + (15/3)) ÷ 6)",
+        "C": "Evaluate the following expression. Expression: (((24/6) + (4/3)) ÷ 8)"
+      },
+      "computed_values": {
+        "A": "51/280",
+        "B": "41/36",
+        "C": "2/3",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    4,
+                    7
+                  ],
+                  [
+                    "rat",
+                    5,
+                    4
+                  ]
+                ],
+                10
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    11,
+                    6
+                  ],
+                  [
+                    "rat",
+                    15,
+                    3
+                  ]
+                ],
+                6
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    24,
+                    6
+                  ],
+                  [
+                    "rat",
+                    4,
+                    3
+                  ]
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and less than (A)",
+        "B": "(B) is greater than (C) and (C) is greater than (A)",
+        "C": "(C) = 2(A)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and smaller than (A).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "D": "Trap: Misorders (C), (A), and (B) under time pressure."
+      },
+      "explanation": "(A): (((4/7) + (5/4)) ÷ 10) = 51/280; (B): (((11/6) + (15/3)) ÷ 6) = 41/36; (C): (((24/6) + (4/3)) ÷ 8) = 2/3. Therefore (B) is greater than (C) and (C) is greater than (A).",
+      "question_number": 100
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q101",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 18 yards and 1 feet long. After 12 inches are removed, how many complete 4-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 7 yards and 2 feet long. After 34 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 21 yards and 2 feet long. After 8 inches are removed, how many complete 4-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "162",
+        "B": "22",
+        "C": "193",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        18,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  12
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "A rope is 18 yards and 1 feet long. After 12 inches are removed, how many complete 4-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        7,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  34
+                ],
+                11
+              ],
+              "variables": {},
+              "context": "A rope is 7 yards and 2 feet long. After 34 inches are removed, how many complete 11-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        21,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  8
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "A rope is 21 yards and 2 feet long. After 8 inches are removed, how many complete 4-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (C)",
+        "B": "(A) is equal to (B) and less than (C)",
+        "C": "(B) is greater than (A)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (A) and (C).",
+        "B": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B).",
+        "C": "Trap: Reverses relational comparison between (B) and (A)."
+      },
+      "explanation": "(A): (((((18 × 3) + 1) × 12) − 12) ÷ 4) = 162; (B): (((((7 × 3) + 2) × 12) − 34) ÷ 11) = 22; (C): (((((21 × 3) + 2) × 12) − 8) ÷ 4) = 193. Therefore (C) is greater than (A) and (A) is greater than (B).",
+      "question_number": 101
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q102",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((9/2) + (6/8)) − ((11/3) × 11)) ÷ (8/12))",
+        "B": "Evaluate the following expression. Expression: ((((5/2) + (9/9)) − ((6/3) × 6)) ÷ (9/7))",
+        "C": "Evaluate the following expression. Expression: ((((12/2) + (7/4)) − ((5/3) × 5)) ÷ (4/6))"
+      },
+      "computed_values": {
+        "A": "-421/8",
+        "B": "-119/18",
+        "C": "-7/8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      9,
+                      2
+                    ],
+                    [
+                      "rat",
+                      6,
+                      8
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      11,
+                      3
+                    ],
+                    11
+                  ]
+                ],
+                [
+                  "rat",
+                  8,
+                  12
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      5,
+                      2
+                    ],
+                    [
+                      "rat",
+                      9,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      6,
+                      3
+                    ],
+                    6
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  7
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      12,
+                      2
+                    ],
+                    [
+                      "rat",
+                      7,
+                      4
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      5,
+                      3
+                    ],
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(A) is equal to (C) and less than (B)",
+        "C": "(A) + (B) = (C)",
+        "D": "(A) is equal to (B) and less than (C)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Assumes (A) = (C) < (B) without verifying each quantity.",
+        "C": "Trap: False additive relation (A) + (B) = (C) from miscalculating one of the terms.",
+        "D": "Trap: Assumes (A) = (B) < (C) due to surface similarity of (A) and (B)."
+      },
+      "explanation": "(A): ((((9/2) + (6/8)) − ((11/3) × 11)) ÷ (8/12)) = -421/8; (B): ((((5/2) + (9/9)) − ((6/3) × 6)) ÷ (9/7)) = -119/18; (C): ((((12/2) + (7/4)) − ((5/3) × 5)) ÷ (4/6)) = -7/8. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 102
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q103",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "Convert 17 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "480",
+        "B": "636",
+        "C": "480",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    13,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    17,
+                    3
+                  ],
+                  2
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 17 yards and 2 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "mul",
+                [
+                  "add",
+                  [
+                    "mul",
+                    13,
+                    3
+                  ],
+                  1
+                ],
+                12
+              ],
+              "variables": {},
+              "context": "Convert 13 yards and 1 feet to inches. (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) is greater than (B) and (B) is greater than (C)",
+        "B": "(B) is less than (C)",
+        "C": "(B) = 2(A)",
+        "D": "(A) is equal to (C) and less than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Reverses strict descending order (A) > (B) > (C).",
+        "B": "Trap: Reverses relational inequality between (B) and (C).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): (((13 × 3) + 1) × 12) = 480; (B): (((17 × 3) + 2) × 12) = 636; (C): (((13 × 3) + 1) × 12) = 480. Therefore (A) is equal to (C) and less than (B).",
+      "question_number": 103
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q104",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 27 yards and 2 feet long. After 12 inches are removed, how many complete 8-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 12 yards and 1 feet long. After 10 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 21 yards and 2 feet long. After 10 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "123",
+        "B": "62",
+        "C": "110",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        27,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  12
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "A rope is 27 yards and 2 feet long. After 12 inches are removed, how many complete 8-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        12,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  10
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "A rope is 12 yards and 1 feet long. After 10 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        21,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  10
+                ],
+                7
+              ],
+              "variables": {},
+              "context": "A rope is 21 yards and 2 feet long. After 10 inches are removed, how many complete 7-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(A) = 2(C)",
+        "B": "(C) is greater than (A)",
+        "C": "(C) is less than (B)",
+        "D": "(A) is greater than (C) and (C) is greater than (B)"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Incorrectly concludes (A) is twice (C).",
+        "B": "Trap: Reverses relational comparison between (C) and (A).",
+        "C": "Trap: Reverses relational inequality between (C) and (B)."
+      },
+      "explanation": "(A): (((((27 × 3) + 2) × 12) − 12) ÷ 8) = 123; (B): (((((12 × 3) + 1) × 12) − 10) ÷ 7) = 62; (C): (((((21 × 3) + 2) × 12) − 10) ÷ 7) = 110. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 104
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q105",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((17/8) + (11/9)) − ((5/9) × 5)) ÷ (9/6))",
+        "B": "Evaluate the following expression. Expression: ((((24/11) + (14/2)) − ((2/12) × 2)) ÷ (2/3))",
+        "C": "Evaluate the following expression. Expression: ((((16/13) + (11/6)) − ((9/14) × 9)) ÷ (6/10))"
+      },
+      "computed_values": {
+        "A": "41/108",
+        "B": "146/11",
+        "C": "-3715/819",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      17,
+                      8
+                    ],
+                    [
+                      "rat",
+                      11,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      5,
+                      9
+                    ],
+                    5
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  6
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      24,
+                      11
+                    ],
+                    [
+                      "rat",
+                      14,
+                      2
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      12
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      16,
+                      13
+                    ],
+                    [
+                      "rat",
+                      11,
+                      6
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      9,
+                      14
+                    ],
+                    9
+                  ]
+                ],
+                [
+                  "rat",
+                  6,
+                  10
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is equal to (C) and greater than (A)",
+        "B": "(B) is greater than (A) and (A) is greater than (C)",
+        "C": "(C) = 2(A)",
+        "D": "(C) is greater than (A) and (A) is greater than (B)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Treats (B) and (C) as equivalent and larger than (A).",
+        "C": "Trap: Incorrectly doubles (A) when comparing to (C).",
+        "D": "Trap: Misorders (C), (A), and (B) under time pressure."
+      },
+      "explanation": "(A): ((((17/8) + (11/9)) − ((5/9) × 5)) ÷ (9/6)) = 41/108; (B): ((((24/11) + (14/2)) − ((2/12) × 2)) ÷ (2/3)) = 146/11; (C): ((((16/13) + (11/6)) − ((9/14) × 9)) ÷ (6/10)) = -3715/819. Therefore (B) is greater than (A) and (A) is greater than (C).",
+      "question_number": 105
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q106",
+      "archetype": "Computation",
+      "sub_type": "Domain Verbal Equation",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate the following expression. Expression: ((((20/6) + (6/2)) − ((10/7) × 10)) ÷ (2/11))",
+      "stimulus": "Evaluate the following expression. Expression: ((((20/6) + (6/2)) − ((10/7) × 10)) ÷ (2/11))",
+      "computed_values": {
+        "result": "-1837/42",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      20,
+                      6
+                    ],
+                    [
+                      "rat",
+                      6,
+                      2
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      7
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  2,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ],
+          "distractor_expressions": {
+            "A": [
+              "mul",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    20,
+                    6
+                  ],
+                  [
+                    "rat",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    10,
+                    7
+                  ],
+                  10
+                ]
+              ],
+              [
+                "rat",
+                2,
+                11
+              ]
+            ],
+            "B": [
+              "sub",
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    20,
+                    6
+                  ],
+                  [
+                    "rat",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    10,
+                    7
+                  ],
+                  10
+                ]
+              ],
+              [
+                "rat",
+                2,
+                11
+              ]
+            ],
+            "C": [
+              "div",
+              [
+                "rat",
+                2,
+                11
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "rat",
+                    20,
+                    6
+                  ],
+                  [
+                    "rat",
+                    6,
+                    2
+                  ]
+                ],
+                [
+                  "mul",
+                  [
+                    "rat",
+                    10,
+                    7
+                  ],
+                  10
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "options": {
+        "A": "-334/231",
+        "B": "-1879/231",
+        "C": "-42/1837",
+        "D": "-1837/42"
+      },
+      "correct_option": "D",
+      "distractor_rationale": {
+        "A": "Trap: Replaces div with mul.",
+        "B": "Trap: Replaces div with sub.",
+        "C": "Trap: Reverses operands in div."
+      },
+      "explanation": "Translate the stated relationships and evaluate in order: ((((20/6) + (6/2)) − ((10/7) × 10)) ÷ (2/11)) = -1837/42.",
+      "question_number": 106
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q107",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((8/9) + (3/5)) ÷ 2)",
+        "B": "Evaluate the following expression. Expression: (((8/7) + (7/7)) ÷ 2)",
+        "C": "Evaluate the following expression. Expression: (((17/6) + (6/8)) ÷ 3)"
+      },
+      "computed_values": {
+        "A": "67/90",
+        "B": "15/14",
+        "C": "43/36",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    8,
+                    9
+                  ],
+                  [
+                    "rat",
+                    3,
+                    5
+                  ]
+                ],
+                2
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    8,
+                    7
+                  ],
+                  [
+                    "rat",
+                    7,
+                    7
+                  ]
+                ],
+                2
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    17,
+                    6
+                  ],
+                  [
+                    "rat",
+                    6,
+                    8
+                  ]
+                ],
+                3
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(A), (B), and (C) are equal",
+        "C": "(A) + (C) = (B)",
+        "D": "(B) = 2(A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "C": "Trap: False additive relation (A) + (C) = (B) from arithmetic error.",
+        "D": "Trap: Incorrectly doubles (A) when comparing to (B)."
+      },
+      "explanation": "(A): (((8/9) + (3/5)) ÷ 2) = 67/90; (B): (((8/7) + (7/7)) ÷ 2) = 15/14; (C): (((17/6) + (6/8)) ÷ 3) = 43/36. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 107
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q108",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((18/12) + (10/7)) − ((3/13) × 3)) ÷ (7/4))",
+        "B": "Evaluate the following expression. Expression: ((((15/10) + (9/5)) − ((7/11) × 7)) ÷ (5/8))",
+        "C": "Evaluate the following expression. Expression: ((((15/7) + (6/4)) − ((7/8) × 7)) ÷ (4/8))"
+      },
+      "computed_values": {
+        "A": "814/637",
+        "B": "-508/275",
+        "C": "-139/28",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      18,
+                      12
+                    ],
+                    [
+                      "rat",
+                      10,
+                      7
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      3,
+                      13
+                    ],
+                    3
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  4
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      15,
+                      10
+                    ],
+                    [
+                      "rat",
+                      9,
+                      5
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      11
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  5,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      15,
+                      7
+                    ],
+                    [
+                      "rat",
+                      6,
+                      4
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      7,
+                      8
+                    ],
+                    7
+                  ]
+                ],
+                [
+                  "rat",
+                  4,
+                  8
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(A) is greater than (B) and (B) is greater than (C)",
+        "D": "(A) is equal to (B) and greater than (C)"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Reverses strict ascending order (C) > (B) > (A).",
+        "B": "Trap: Misorders (C) and (B) when ranking all three quantities.",
+        "D": "Trap: Conflates (A) and (B) as equal or misorders (C)."
+      },
+      "explanation": "(A): ((((18/12) + (10/7)) − ((3/13) × 3)) ÷ (7/4)) = 814/637; (B): ((((15/10) + (9/5)) − ((7/11) × 7)) ÷ (5/8)) = -508/275; (C): ((((15/7) + (6/4)) − ((7/8) × 7)) ÷ (4/8)) = -139/28. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 108
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q109",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Miscellaneous",
+      "syllabus_topic": "Measurements",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "A rope is 6 yards and 2 feet long. After 30 inches are removed, how many complete 10-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "B": "A rope is 7 yards and 1 feet long. After 9 inches are removed, how many complete 5-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+        "C": "A rope is 26 yards and 2 feet long. After 15 inches are removed, how many complete 9-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)"
+      },
+      "computed_values": {
+        "A": "21",
+        "B": "51",
+        "C": "105",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Measurements",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        6,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  30
+                ],
+                10
+              ],
+              "variables": {},
+              "context": "A rope is 6 yards and 2 feet long. After 30 inches are removed, how many complete 10-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        7,
+                        3
+                      ],
+                      1
+                    ],
+                    12
+                  ],
+                  9
+                ],
+                5
+              ],
+              "variables": {},
+              "context": "A rope is 7 yards and 1 feet long. After 9 inches are removed, how many complete 5-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "mul",
+                    [
+                      "add",
+                      [
+                        "mul",
+                        26,
+                        3
+                      ],
+                      2
+                    ],
+                    12
+                  ],
+                  15
+                ],
+                9
+              ],
+              "variables": {},
+              "context": "A rope is 26 yards and 2 feet long. After 15 inches are removed, how many complete 9-inch pieces can be cut from the rest? (1 yard = 3 feet; 1 foot = 12 inches.)",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (B) and (B) is greater than (A)",
+        "B": "(B) = 2(A)",
+        "C": "(A), (B), and (C) are equal",
+        "D": "(B) is greater than (C) and (C) is greater than (A)"
+      },
+      "correct_option": "A",
+      "distractor_rationale": {
+        "B": "Trap: Incorrectly doubles (A) when comparing to (B).",
+        "C": "Trap: Assumes all three expressions simplify to the same value without checking order of operations or signs.",
+        "D": "Trap: Misorders (B), (C), and (A) due to arithmetic slip."
+      },
+      "explanation": "(A): (((((6 × 3) + 2) × 12) − 30) ÷ 10) = 21; (B): (((((7 × 3) + 1) × 12) − 9) ÷ 5) = 51; (C): (((((26 × 3) + 2) × 12) − 15) ÷ 9) = 105. Therefore (C) is greater than (B) and (B) is greater than (A).",
+      "question_number": 109
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q110",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: ((((23/6) + (7/9)) − ((2/7) × 2)) ÷ (9/3))",
+        "B": "Evaluate the following expression. Expression: ((((5/2) + (16/7)) − ((10/3) × 10)) ÷ (7/11))",
+        "C": "Evaluate the following expression. Expression: ((((22/10) + (5/9)) − ((4/11) × 4)) ÷ (9/5))"
+      },
+      "computed_values": {
+        "A": "509/378",
+        "B": "-13189/294",
+        "C": "644/891",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 3,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      23,
+                      6
+                    ],
+                    [
+                      "rat",
+                      7,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      2,
+                      7
+                    ],
+                    2
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  3
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      5,
+                      2
+                    ],
+                    [
+                      "rat",
+                      16,
+                      7
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      10,
+                      3
+                    ],
+                    10
+                  ]
+                ],
+                [
+                  "rat",
+                  7,
+                  11
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "sub",
+                  [
+                    "add",
+                    [
+                      "rat",
+                      22,
+                      10
+                    ],
+                    [
+                      "rat",
+                      5,
+                      9
+                    ]
+                  ],
+                  [
+                    "mul",
+                    [
+                      "rat",
+                      4,
+                      11
+                    ],
+                    4
+                  ]
+                ],
+                [
+                  "rat",
+                  9,
+                  5
+                ]
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(C) is greater than (A)",
+        "B": "(A) is greater than (C) and (C) is greater than (B)",
+        "C": "(B) is greater than (A)",
+        "D": "(A) is equal to (B) and greater than (C)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (C) and (A).",
+        "C": "Trap: Reverses relational comparison between (B) and (A).",
+        "D": "Trap: Conflates (A) and (B) as equal or misorders (C)."
+      },
+      "explanation": "(A): ((((23/6) + (7/9)) − ((2/7) × 2)) ÷ (9/3)) = 509/378; (B): ((((5/2) + (16/7)) − ((10/3) × 10)) ÷ (7/11)) = -13189/294; (C): ((((22/10) + (5/9)) − ((4/11) × 4)) ÷ (9/5)) = 644/891. Therefore (A) is greater than (C) and (C) is greater than (B).",
+      "question_number": 110
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q111",
+      "archetype": "Comparison",
+      "sub_type": "Non-Geometric",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Operations involving fractions",
+      "complexity_level": 2,
+      "time_target_seconds": 30,
+      "prompt": "Evaluate quantities (A), (B), and (C), then choose the one true statement.",
+      "stimulus": {
+        "A": "Evaluate the following expression. Expression: (((24/2) + (9/3)) ÷ 9)",
+        "B": "Evaluate the following expression. Expression: (((11/3) + (7/9)) ÷ 4)",
+        "C": "Evaluate the following expression. Expression: (((10/8) + (14/8)) ÷ 8)"
+      },
+      "computed_values": {
+        "A": "5/3",
+        "B": "10/9",
+        "C": "3/8",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "expressions",
+          "topic": "Operations involving fractions",
+          "level": 2,
+          "models": [
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    24,
+                    2
+                  ],
+                  [
+                    "rat",
+                    9,
+                    3
+                  ]
+                ],
+                9
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    11,
+                    3
+                  ],
+                  [
+                    "rat",
+                    7,
+                    9
+                  ]
+                ],
+                4
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            },
+            {
+              "expression": [
+                "div",
+                [
+                  "add",
+                  [
+                    "rat",
+                    10,
+                    8
+                  ],
+                  [
+                    "rat",
+                    14,
+                    8
+                  ]
+                ],
+                8
+              ],
+              "variables": {},
+              "context": "Evaluate the following expression.",
+              "diagram": null
+            }
+          ]
+        }
+      },
+      "options": {
+        "A": "(B) is greater than (A)",
+        "B": "(A) is greater than (B) and (B) is greater than (C)",
+        "C": "(B) is less than (C)",
+        "D": "(C) is greater than (A)"
+      },
+      "correct_option": "B",
+      "distractor_rationale": {
+        "A": "Trap: Reverses relational comparison between (B) and (A).",
+        "C": "Trap: Reverses relational inequality between (B) and (C).",
+        "D": "Trap: Reverses relational comparison between (C) and (A)."
+      },
+      "explanation": "(A): (((24/2) + (9/3)) ÷ 9) = 5/3; (B): (((11/3) + (7/9)) ÷ 4) = 10/9; (C): (((10/8) + (14/8)) ÷ 8) = 3/8. Therefore (A) is greater than (B) and (B) is greater than (C).",
+      "question_number": 111
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q112",
+      "archetype": "Sequence",
+      "sub_type": "Powers / Modified Cubes & Squares",
+      "syllabus_domain": "Mathematics",
+      "syllabus_topic": "Exponents & scientific notation",
+      "complexity_level": 3,
+      "time_target_seconds": 42,
+      "prompt": "Find the next term in the series: 58, 99, 164, 259, 390, 563, 784, 1059, ?",
+      "stimulus": [
+        "58",
+        "99",
+        "164",
+        "259",
+        "390",
+        "563",
+        "784",
+        "1059"
+      ],
+      "computed_values": {
+        "next_term": "1394",
+        "_task": {
+          "schema": "calibrated-task/1",
+          "kind": "sequence",
+          "topic": "Exponents & scientific notation",
+          "level": 3,
+          "parameters": {
+            "a": 19,
+            "b": 3,
+            "c": 4,
+            "d": 75,
+            "e": 10,
+            "f": 4,
+            "denom": 1,
+            "modality": "Numbers Only",
+            "pattern": "cubic-linear"
+          }
+        }
+      },
+      "options": {
+        "A": "1059",
+        "B": "784",
+        "C": "1394",
+        "D": "1334"
+      },
+      "correct_option": "C",
+      "distractor_rationale": {
+        "A": "Trap: Repeats the previous term instead of advancing.",
+        "B": "Trap: Reverses the last visible step.",
+        "D": "Trap: Extends only the last visible difference, ignoring the changing or interleaved rule."
+      },
+      "explanation": "For consecutive n starting at 3, use n³ + 4n + 19. The next term is 1394.",
+      "modality": "Numbers Only",
+      "question_number": 112
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T09",
+  "test_number": 9,
+  "title": "HSPT Quantitative Practice Test 09 (Multiplication / Division · Distributive property · Fraction comparisons)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Distributive property",
+    "Fraction comparisons"
+  ],
+  "topic_question_counts": {
+    "Multiplication / Division": 20,
+    "Distributive property": 17,
+    "Fraction comparisons": 15
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 37,
+    "Computation": 8,
+    "Sequence": 7
+  },
+  "topics": [
+    "Distributive property",
+    "Fraction comparisons",
+    "Multiplication / Division"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q061",
+      "number": 61,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "cf64238c9432df494e5e10e0fdf0d022889ec510e254911ae66d9052de48d2e9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q062",
+      "number": 62,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "760d44fb20456056c8b4dc1191c231616dbb884a6f1dc8eb3420568d568e81b4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q063",
+      "number": 63,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e970c1927b20f38b418b5874d387cdfac30d4e0089d68cbf263f7f8c79925904"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q064",
+      "number": 64,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1d74d1c334273652b2a582bff60a259f123e3932d9a4d06d5ba89b7e38e5ac69"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q065",
+      "number": 65,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "19ae0b6781c7f42065fe57b0a310b59e4a512a2e6f07351604257fcf1d955a93"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q066",
+      "number": 66,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "40d2033eb21a4f04da501f9221be25cfac7e44abbd197c60ac96c895f4ce3cbf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q067",
+      "number": 67,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f192bd07ddbf0b087a40a76c9b5f46ea083f120f1abaf0ca821bf26400d31b1b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q068",
+      "number": 68,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1470ea3c5ec91d2e4710d662703fade8d04e0840480caa38bd9c690491a8a539"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q069",
+      "number": 69,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "888a6dae7e781e5335ab3d207c9c820c3aae9b35ee1d32314e0457433f3d9889"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q070",
+      "number": 70,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9fc14bbd4df6401c72999c6aba0e6e6fe0a724a86ffd13d3d5855908e1da05a1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q071",
+      "number": 71,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c095a192f2c78ea9cc90cf6c92fc6be3f12f295e57262e9c780f34e958fc0ed9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q072",
+      "number": 72,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d530e25537eaf0f2f21e03681f14b779595047ef9ccf26d617897e0a7354162c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q073",
+      "number": 73,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "96468d221e9241d6ed035b878bf0ad68be3fbdb8d1045c49caf01db39074d6ec"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q074",
+      "number": 74,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "5ac01f525004c57e4130d1fc665188c272f7aba826fa504e7efa5d476c32ac61"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q075",
+      "number": 75,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "fc6d56125055a1109e393aa25da8c9c40584cc313d3ceed9019c31a843403bb3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q076",
+      "number": 76,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "cbc95e2a51ded4ce0f56f7011e5c9bdf00a6752169fce1e919860cf10c05050a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q077",
+      "number": 77,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "69920f3907e7feb94b7120418ac65a0dd391f4d0f52a02a46467c59e323ba62a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q078",
+      "number": 78,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a23193c988879751e61c2c665bff1d237b37931dbab64eab8acdc5faa82d7daf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q079",
+      "number": 79,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e2c19c31b2985a7d2e1d069d83e7576d7750c6a0bc114922db16f71f3117a8c7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q080",
+      "number": 80,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "db1a054433f297ce13c666d98410fdc66143f545bc5efdcefff32f490f7084c2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q081",
+      "number": 81,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "1a58928f9858c009f3af9e914ffb888dde6c15129d1dce273990a26d7f7f13e0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q082",
+      "number": 82,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "4ebbc88ba81853cdac55028a612e09778954ff6e221eb7a4a90c769aa8f78e29"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q083",
+      "number": 83,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "b72fd2c70fde88f8cb77a3b62b3eaef3a1f608d5a3678e5540ba8dc41631d663"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q084",
+      "number": 84,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9dc5086a6da0ae57f384a33cd291cb341b7dacff0e20caf396d5232f6a1ccc8c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q085",
+      "number": 85,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3ddd209c6f74f3048015616857ad1055c7d25c7b0cf7c8186c11af29d3d3a9e1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q086",
+      "number": 86,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "348fa6f0933a904f61f829e1dbb616427fcdb909318ea9b816f51ed433f43cef"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q087",
+      "number": 87,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b8f2881e514b99fa31dc891f17ccedbf81e208d9915a5bd1e81c7ec61b190024"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q088",
+      "number": 88,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "30f2c63a7d4478a7dc0832eeb4d6976c2041174051d136b95b224351e59d81ea"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q089",
+      "number": 89,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b6705b551872617d95ce28d18f87149b00ed7cd60915e53e72024fac77ee5fc8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q090",
+      "number": 90,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e9c9da068f07bb3ff2b8485e6e85137e1bebe6d659f404f1f6234c2269cdf94b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q091",
+      "number": 91,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "34d99a95a628b6ed81cd295832b22cd4d9ede7db52008220369f16918129de8f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q092",
+      "number": 92,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b091f4e16831ceca8668d85c5dff1079b1e84b50715d9638179844030afdfa0c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q093",
+      "number": 93,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e5310522989d52131ff7ca09dc172f4b16d5824c291ef376da46ff02a30937db"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q094",
+      "number": 94,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "df2c60f8a89e31d2451719ed69e78dad0ed20859a799678dff3988da01756249"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q095",
+      "number": 95,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "91360257f2670f8c634578b137bb0f1090b37efb343e6d70e6f5154d78ff1682"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q096",
+      "number": 96,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ba3178e5c37ff3a22e55d09a9c16870b306a63154179ada12ac8f260a5a6018a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q097",
+      "number": 97,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "681466f746c04178b6e6bd3bfd76343bb2816bedd3fbf1b4bd2623ba7b8bc2ac"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q098",
+      "number": 98,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "520b9df375b86f95242c3c1a967a86b6a54f0545e4c38a711af4d2220ccc95eb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q099",
+      "number": 99,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c687785892cf99c4a4dca44c58368af98243cc2af1baf65f130335375af3ab3c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q100",
+      "number": 100,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "5f6b3a993fcd1fa0d325ff40747ef1b78b5d81683ecd8ea1927f020728ef596d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q101",
+      "number": 101,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "50755cd959aec5a80a429adf3cf0a602cc4b5815d963177b73c170635254ded8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q102",
+      "number": 102,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4cd43b087a4e0a12b109e9fb876d8fe061b14a13ba6337d16cbd22ed934de0f9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q103",
+      "number": 103,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ee239bfa154e2bb442fbabd287793a9dfe37bfb9d01684b30177e16513fc9454"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q104",
+      "number": 104,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "50d79102f807050bcb1619267df1091aee297b04ca186da53aa0f785ad4082b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q105",
+      "number": 105,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "275de74475fdbeedc35f308efa38be004e7e87e7387909f3a73fea9e55837c3b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q106",
+      "number": 106,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "813be3dc64c23ea88774cd9e15f12dbd515bfeeb903ea7e60e34c6150c2e6a2c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q107",
+      "number": 107,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3f5b4cfa7843b79be8676e6b7dbeb4332e65f042cbc78624b5858247726ce3df"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q108",
+      "number": 108,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4543326c4442805c105f4363a33435f6877d575986087e6523aa83569d6955d1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q109",
+      "number": 109,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "87487f29291397513a0764512054a6a621a644dfea535988981a0c50c138dca2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q110",
+      "number": 110,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "a0e27c8845fe259e8d3a4000f89de626dc806d1d07d3a6e027b796a8e9aa285f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q111",
+      "number": 111,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f126f1d0f0c7470801e9effa0d27e7b5ccf26e4bb06a7503b602d251fb25547e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T09-Q112",
+      "number": 112,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "17e723ee46316e969297d8b32a71d908214f9cd115516d1d84f7a526f0ec2c20"
+    }
+  ]
+}

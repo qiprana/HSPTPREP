@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T08",
+  "test_number": 8,
+  "title": "HSPT Quantitative Practice Test 08 (Multiplication / Division · Distributive property · Slope of a line)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Distributive property",
+    "Slope of a line"
+  ],
+  "topic_question_counts": {
+    "Multiplication / Division": 20,
+    "Distributive property": 17,
+    "Slope of a line": 15
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 34,
+    "Computation": 11,
+    "Sequence": 7
+  },
+  "topics": [
+    "Distributive property",
+    "Multiplication / Division",
+    "Slope of a line"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q061",
+      "number": 61,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d56d76cea890842773cc389722f132bfc0e0caa06a5e7b4035ed04473ef56e64"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q062",
+      "number": 62,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "3ebfde0a23fb55f8490904f54bae5b59e78c213867f12f71dda0e7a99c2aa518"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q063",
+      "number": 63,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "b05e64a0b31497678bcb4bc248d9b0dc68ca78828918b4cb36a3f13760bd978d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q064",
+      "number": 64,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "79120f116506f0c2a29149601e071fc2cb2b3b2acc5922fc51c751f6ddf88a45"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q065",
+      "number": 65,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a0dfae45e90d6912eb686827471ec47516e973fd82c50882abdfc03515ebab7d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q066",
+      "number": 66,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "27e767412788fc7597d025ffc620cbd02d0d980e62ffabbaf4d96d8f434abb35"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q067",
+      "number": 67,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9e104c68df944e323588677e4613cee9a6b974a25b3eb47a8a5341df80222d3d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q068",
+      "number": 68,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c0d114a3d9e6b5ec3eab3825798affd11336d3a46befd0e18642a7fe1ee4b253"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q069",
+      "number": 69,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c88a602245a2cfaa43b334300f2f9d14e3bb378d4e22a5ef8cec454f33c1b567"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q070",
+      "number": 70,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e0c1757712da222e1c01b8bf47857331303ef3eb6b33fa3bf9a2018a06f6862a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q071",
+      "number": 71,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "3fc34e7e423cbe484bc015a32422eb5298fb2eeeb1162c9554caf0e523d041f8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q072",
+      "number": 72,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4bb59086db7be0243d112e1c857f209b051a82a2e560101e198e7ba5d871ed47"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q073",
+      "number": 73,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "9cde2b096f4d6227bfa1461345f6c384370f8abf43d46cbafc3b84aae6908872"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q074",
+      "number": 74,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "18aa856ffaa6c86a78a3d0ade4da7d27f64ccea2ed6bff0045d3cb780c6b1676"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q075",
+      "number": 75,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "91a6d14968ff9b9073a9c65972a6b11390f59dcc7acc619030f843ea41c664d4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q076",
+      "number": 76,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1d2b2dd1035b9822ef1d9241df6ca4ca798c5d79e52ff16e19c43f0078e9444c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q077",
+      "number": 77,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "19c305bedd4503c2a507a5f26e54c4ff47fa49085f4fe63d5d096e8faba202f1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q078",
+      "number": 78,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "47941f29b84c2e8d1743e84837a33f1e901734fec5f856bf0819539a9867cbc3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q079",
+      "number": 79,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "19abdaa1e6542e032e1d2034e54564785ff8ecdb035918bb3ad0c4b714122125"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q080",
+      "number": 80,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e32c8af06626d77fb34e3c11c023ce0ba9f82e42e083c42ad73a0fadb2348509"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q081",
+      "number": 81,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "57db86d19f7a8ead71da1ad1bd9e00c7f5358d08700e35daefec5926fe27265f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q082",
+      "number": 82,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "dfd2c7bd64a3900ff345f8b4370f894e054ef434e69ad27fdc4a4792eb98d6e6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q083",
+      "number": 83,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e09584b9dafed031ec062626230582f92bd8fee3d2bd05e3319a0bc9f47b3cc5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q084",
+      "number": 84,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f4bda99bd95267e10683b70dc5f4bc01bcdca3c5994812859b85d9c3e0f2b816"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q085",
+      "number": 85,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "3c79d06a976403c301d036b1386a2682477e5bd1c4f47267880c118786c9a15f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q086",
+      "number": 86,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "1874fae460a1e9ca1a2e79235141353afa23f83095287aaed27d6307f55eddd0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q087",
+      "number": 87,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "769d91a935fb87bf22f5b6b06800ba4fb933ada0369c2a4fb884e404cc7327b3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q088",
+      "number": 88,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f1b9601feba2b8cf28873a7057c4e23e58a6c4b211c9223fefc708190a9230ec"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q089",
+      "number": 89,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "d9dc8fe8e6306707fa6714d8167c71c3ea4814e0ab99704db022566439ae082c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q090",
+      "number": 90,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e1127f42dda51de881a84c4c281396383649336082567b2310657233f49974bb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q091",
+      "number": 91,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5fdbd6e4aecf036841431dc8ea7add660bc415efc4f7b27edfb2d4818825c0b4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q092",
+      "number": 92,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "19bd23cd8f8c23e670ce13dd4296063bbd50cf0d2c79dd92ea73b54acd2b8a8e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q093",
+      "number": 93,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "42e85b24449fdab579914d57dc97d5fc3c486b603e11c29d1fe161ec2b85b1ed"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q094",
+      "number": 94,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f6d37590435e04e624ed5d6371232cec57d83f9eac0f84fcb5c5675a52e09d3f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q095",
+      "number": 95,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6406ac4b20a5708d53331711e366949d1b29edc20b6215aa1f4906f6b57103af"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q096",
+      "number": 96,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "0a11b2d8085fe19aafe01ef7dfc7ec2e8ccbf669f9ba5562a8f6d00edb4e2a3f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q097",
+      "number": 97,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6425da10341224a8c1b438d7dd646ef3af24ad46c9221d1acf17be09190537ca"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q098",
+      "number": 98,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f0c80748a077888e13d62747c85b903230998022c7d434d0c1abb9205113f967"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q099",
+      "number": 99,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c748c380a1ffbdb80dd0e296d79aeeeaedcd6e1f4d348c11d8022e7ecac03739"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q100",
+      "number": 100,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5f8e0f3d6f014712233de7af2aa80a918ecf178d970154c88e9f1261f67b6a14"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q101",
+      "number": 101,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "d0647777b6a671ee5a95f904143379c337de2981c16ce7f6095a537b8466e65b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q102",
+      "number": 102,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "4e6e63c1384d123c05f4466265c3055b3be2acf971812468a03af142ff6a6172"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q103",
+      "number": 103,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "117ef9c1972d11267c32fa1395e7ecb0c63dab7c376dd19ef71e51ef900e8f80"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q104",
+      "number": 104,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "45841c33d6dad5194b93e60e8ccb5159fabf1abedcce5f8e59effe3e6cf1d480"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q105",
+      "number": 105,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c47d90dc22acd496000d7da471e39fe28333736dfbd7dd0635ea289e26a84f7d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q106",
+      "number": 106,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6adf7848b355e50a0a93d13c275e112921c998f78f5ef8fab2fb4962026846ca"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q107",
+      "number": 107,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8443ebf887607501601a42bc3408039599482a9b39cdf8ac5dd2469f3ed44149"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q108",
+      "number": 108,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "03bec03c673358eadbf611e0f4365ee3a37414293cd8fdbf5751a4bb0bfbc159"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q109",
+      "number": 109,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0a8c89ede3a6b1c7588a6cdf06dc2834e544a996caa5eea3a6317a4ea558754c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q110",
+      "number": 110,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3678b8a2ce5da0b22fe441ce5727b350e275a263c233d7b4a5bb23daad66e7a6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q111",
+      "number": 111,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "04d4c0224c0b20f41ba044936400683924f3b6238abc5a9579db2949a0eb32f7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T08-Q112",
+      "number": 112,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3b0202dc70162473fb91ca087b2fa17f5e253f6ac3d63761693a2c92f53c861d"
+    }
+  ]
+}

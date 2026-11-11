@@ -1,128 +1,710 @@
 {
-  "version": 1,
-  "section": "quantitative",
-  "collection": "20 learning-session practice papers",
-  "notes": "Each session corresponds to the Quantitative session number within the 50-day study plan, not to an overall calendar day. Papers have not been uploaded yet.",
-  "papers": [
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_kind": "focused_practice",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_count": 20,
+  "question_count": 1040,
+  "difficulty_counts": {
+    "2": 312,
+    "3": 728
+  },
+  "topic_totals": {
+    "Addition / Subtraction": 130,
+    "Angles in a triangle": 52,
+    "Comparing objects": 20,
+    "Distributive property": 50,
+    "Distributive property with variables": 48,
+    "Evaluating equations with variables": 70,
+    "Exponents & scientific notation": 60,
+    "Fraction comparisons": 52,
+    "Graphs and charts": 32,
+    "Measurements": 40,
+    "Multiplication / Division": 120,
+    "Operations involving decimals": 90,
+    "Operations involving fractions": 100,
+    "Right angles": 30,
+    "Roman numerals": 28,
+    "Slope of a line": 34,
+    "Sum of angles": 44,
+    "Transversal and vertical angles": 40
+  },
+  "tests": [
     {
-      "session": 1,
-      "topic": "Addition / Subtraction",
-      "filename": "day-01.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T01",
+      "test_number": 1,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Multiplication / Division",
+        "Comparing objects"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 22,
+        "Multiplication / Division": 20,
+        "Comparing objects": 10
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-01/questions.json",
+        "sqlite": "test-01/questions.db",
+        "html": "test-01/questions.html",
+        "metadata": "test-01/metadata.json",
+        "validation": "test-01/validation.json"
+      },
+      "checksums": {
+        "test-01/questions.json": "0f9f3fe82295c127e88cc8edf139ad0e9b9292d19cf24c766e55ceb538e4cca7",
+        "test-01/questions.db": "87d7e34571fc928ab04c103c00d59853de168dae8f224effb2d391e53f9f657f",
+        "test-01/questions.html": "d761d2c396e9549532e5de101e297b9997edc0897bd3adabcbfe868c4460372f",
+        "test-01/metadata.json": "114f1bc3c8848fba7c126e638f86e6d0db5c97b7e98ef19c5edce55caaf92dc6",
+        "test-01/validation.json": "647ca1888bdd9c9d49dffc876b5e2442761fe4c73d7fe7a5208e37471709243a"
+      }
     },
     {
-      "session": 2,
-      "topic": "Multiplication / Division",
-      "filename": "day-02.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T02",
+      "test_number": 2,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Operations involving fractions",
+        "Comparing objects"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 22,
+        "Operations involving fractions": 20,
+        "Comparing objects": 10
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-02/questions.json",
+        "sqlite": "test-02/questions.db",
+        "html": "test-02/questions.html",
+        "metadata": "test-02/metadata.json",
+        "validation": "test-02/validation.json"
+      },
+      "checksums": {
+        "test-02/questions.json": "6502b2750e81e906aec98167c6ed762994ca542fa785e274117264fd99a1edcc",
+        "test-02/questions.db": "14901313c5b75161be773702e98e7c12c0b50b1be267986275b1e033f934154f",
+        "test-02/questions.html": "f9270a6efeeb756ceb5684ad0ebfabb3553d6b9e2fff9b9074d442bf91fbb7f1",
+        "test-02/metadata.json": "8f8212d5856c60a013d55614ec8b64fa16816284c096d7b79c2a45d3d6c1d7b0",
+        "test-02/validation.json": "8480be0e7e110cc061ec16a81886b97482bb596430d5e0d5d62ba81c630e95a1"
+      }
     },
     {
-      "session": 3,
-      "topic": "Operations involving fractions",
-      "filename": "day-03.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T03",
+      "test_number": 3,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Roman numerals",
+        "Graphs and charts"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 22,
+        "Roman numerals": 14,
+        "Graphs and charts": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-03/questions.json",
+        "sqlite": "test-03/questions.db",
+        "html": "test-03/questions.html",
+        "metadata": "test-03/metadata.json",
+        "validation": "test-03/validation.json"
+      },
+      "checksums": {
+        "test-03/questions.json": "2882d520413b4bfa8299a6dcd7425e44b92c2e46e037d1c27f639e5202b0e24e",
+        "test-03/questions.db": "cc37102f3f1c217cee96a7992394f30c12df603358df0369b51ea7254da21584",
+        "test-03/questions.html": "79d5c48078808bf74bd946fe5dd4d12884f2e6dc704a942d6d1b48403604bb9f",
+        "test-03/metadata.json": "f58b3ba4fb175f305c159456f89ce4401959f55c0f28eb8f9a8d9d3e69b217d8",
+        "test-03/validation.json": "31af2866d62fa8dca36c0fa3af02482c5210e882214c2b5ad811523ad0e0a8be"
+      }
     },
     {
-      "session": 4,
-      "topic": "Fraction comparisons",
-      "filename": "day-04.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T04",
+      "test_number": 4,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Roman numerals",
+        "Graphs and charts"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 22,
+        "Roman numerals": 14,
+        "Graphs and charts": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-04/questions.json",
+        "sqlite": "test-04/questions.db",
+        "html": "test-04/questions.html",
+        "metadata": "test-04/metadata.json",
+        "validation": "test-04/validation.json"
+      },
+      "checksums": {
+        "test-04/questions.json": "87e89138e10cc5a4f5fe8c4e8251b911453a3fe7ffbeb1553ca1f4088b742504",
+        "test-04/questions.db": "dbbf0965fb1961937773ef5c0371a56bb73c20e80b6c2047f4ca6a9b6167e1a5",
+        "test-04/questions.html": "8e48cf589d125f5e793b9fe959b3b43845da8cc20efe315c6685846385280fc6",
+        "test-04/metadata.json": "ac351819b8619bbe41c4a002bbf22c3843395c5adb6a228b8f2eecf06302c0cd",
+        "test-04/validation.json": "41cef2dce3a62d8855c3d94199616bb2663794726b0be8155fe1954c186f9af9"
+      }
     },
     {
-      "session": 5,
-      "topic": "Operations involving decimals",
-      "filename": "day-05.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T05",
+      "test_number": 5,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Right angles",
+        "Distributive property with variables"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 21,
+        "Right angles": 15,
+        "Distributive property with variables": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-05/questions.json",
+        "sqlite": "test-05/questions.db",
+        "html": "test-05/questions.html",
+        "metadata": "test-05/metadata.json",
+        "validation": "test-05/validation.json"
+      },
+      "checksums": {
+        "test-05/questions.json": "426c6f91013b912031ebe9c0831562c2842ef8eaf6aacd124ddb02b2f593e313",
+        "test-05/questions.db": "b20966a0a7853afe9515845d41a3fef61af8f89a3b8c6ae1463fc1e86c33a696",
+        "test-05/questions.html": "2a6ad84c1c07c75473c11c39c2f638f5bca054cc00365bb5a2c9cf684dbfa0ff",
+        "test-05/metadata.json": "619e16adfd276af6a7ac5f2795a81cfa00747153343c64f7ed75170eddd54116",
+        "test-05/validation.json": "1baeb4b08ce5432189f01db03fad6f739813b7d3156aaee995cb2827183dc230"
+      }
     },
     {
-      "session": 6,
-      "topic": "Distributive property",
-      "filename": "day-06.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T06",
+      "test_number": 6,
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Right angles",
+        "Distributive property with variables"
+      ],
+      "topic_question_counts": {
+        "Addition / Subtraction": 21,
+        "Right angles": 15,
+        "Distributive property with variables": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-06/questions.json",
+        "sqlite": "test-06/questions.db",
+        "html": "test-06/questions.html",
+        "metadata": "test-06/metadata.json",
+        "validation": "test-06/validation.json"
+      },
+      "checksums": {
+        "test-06/questions.json": "667ce61766933387c9d33655763a8e9c9eace8d176335586b52fab824e112baa",
+        "test-06/questions.db": "cd7502a5c4983dc66b4a882fdaff8e8fd800980fb275b9e53b06a1dba4fc9f07",
+        "test-06/questions.html": "345aa8e02066013ea0ae7d135ff9291e677be9b32c435fc205eadffea428360b",
+        "test-06/metadata.json": "8e7d3ca6850c93712e7f0625113b74671fc26cb1019a8d90de9f9e296b7394b8",
+        "test-06/validation.json": "a4b38fde11873761c11044c3aeece13fed927d974d5bc5c5f56abb868886f3b5"
+      }
     },
     {
-      "session": 7,
-      "topic": "Exponents & scientific notation",
-      "filename": "day-07.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T07",
+      "test_number": 7,
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property with variables",
+        "Distributive property"
+      ],
+      "topic_question_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property with variables": 16,
+        "Distributive property": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-07/questions.json",
+        "sqlite": "test-07/questions.db",
+        "html": "test-07/questions.html",
+        "metadata": "test-07/metadata.json",
+        "validation": "test-07/validation.json"
+      },
+      "checksums": {
+        "test-07/questions.json": "14f701987d5343c7f83cfe285c537eaa755e6e231c5d9ca471742b53aa97461f",
+        "test-07/questions.db": "229ec34c0df1d6b256b46322f2a36c49de378b563cd89f0255fcc514946ceacb",
+        "test-07/questions.html": "772ccb3c636b4f1e4604a2aa24288c66f5929a3a31075d0be74126292df39a83",
+        "test-07/metadata.json": "33e1c9dae303ce0406dd2d8de26b9cd6ed882fadbf0ea6a6d884e30ddb2f6a16",
+        "test-07/validation.json": "29c81bb649434d3555126b7c5cf4d71979b9bfae7937f0a3dd92126f72c1b8af"
+      }
     },
     {
-      "session": 8,
-      "topic": "Distributive property with variables",
-      "filename": "day-08.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T08",
+      "test_number": 8,
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property",
+        "Slope of a line"
+      ],
+      "topic_question_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property": 17,
+        "Slope of a line": 15
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-08/questions.json",
+        "sqlite": "test-08/questions.db",
+        "html": "test-08/questions.html",
+        "metadata": "test-08/metadata.json",
+        "validation": "test-08/validation.json"
+      },
+      "checksums": {
+        "test-08/questions.json": "d3943c298424476df6ae238e863de72e581258d7f586fb0e164174a8b4dc3042",
+        "test-08/questions.db": "bf564b50928196e1242629e223e3b85737fb3ee2b0939b791b445568783c9f54",
+        "test-08/questions.html": "172451489d24ebd96fca4f99df212846910977632ad48e2c4cb8bf9d6764dfed",
+        "test-08/metadata.json": "ce8f4028afa11531de7701992e14c97bb7e3885752b6392581e0d0ae3478a986",
+        "test-08/validation.json": "f4388e207b6a8add49be25ce33ddac3a728181d27bb952eb70ab85aae7020a2d"
+      }
     },
     {
-      "session": 9,
-      "topic": "Slope of a line",
-      "filename": "day-09.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T09",
+      "test_number": 9,
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property",
+        "Fraction comparisons"
+      ],
+      "topic_question_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property": 17,
+        "Fraction comparisons": 15
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-09/questions.json",
+        "sqlite": "test-09/questions.db",
+        "html": "test-09/questions.html",
+        "metadata": "test-09/metadata.json",
+        "validation": "test-09/validation.json"
+      },
+      "checksums": {
+        "test-09/questions.json": "348b54bf3ec34da7174c45ba49ccdb0d41dd2c32d73f9dd1b00435f0d84f71e2",
+        "test-09/questions.db": "9245d3141273bf2c6e587ab534b8494d1281680061955786383f75e38b766eb3",
+        "test-09/questions.html": "5117756066402bad2411c2f2c5d985a828803489aaa9b423e8de63cd03aa98c2",
+        "test-09/metadata.json": "d42d4bd50b04bf1e9da84b44baf9e2eedab178abf602e0318aa8ea28f472cc91",
+        "test-09/validation.json": "7a0879377a81f3c7bd89d47dbac76abee57015b92062fc5dfb8cd2fd0249a58e"
+      }
     },
     {
-      "session": 10,
-      "topic": "Evaluating equations with variables",
-      "filename": "day-10.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T10",
+      "test_number": 10,
+      "focus_topics": [
+        "Multiplication / Division",
+        "Slope of a line",
+        "Fraction comparisons"
+      ],
+      "topic_question_counts": {
+        "Multiplication / Division": 20,
+        "Slope of a line": 19,
+        "Fraction comparisons": 13
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-10/questions.json",
+        "sqlite": "test-10/questions.db",
+        "html": "test-10/questions.html",
+        "metadata": "test-10/metadata.json",
+        "validation": "test-10/validation.json"
+      },
+      "checksums": {
+        "test-10/questions.json": "303b7f3057c9970ece5c22004009be0b3d677a4f2f71733e9c19373e713ed361",
+        "test-10/questions.db": "e1a4cc8d49251dfda86edc9aaf654bb9c626d2d39557cc2878ecaa61257daa6d",
+        "test-10/questions.html": "f29ae40c2c062d2a52c1411ac958f4c1918641820f0d9996c6bde158fa4728e2",
+        "test-10/metadata.json": "86d95f2fd2b0ffeab8059b8d32ce5a7c89030968744e25fd7ec00a31a04419ac",
+        "test-10/validation.json": "28998594a5d6b6f5449cbe85fa11fd49df2fc4ee832bcc569a998071cd8893d9"
+      }
     },
     {
-      "session": 11,
-      "topic": "Sum of angles",
-      "filename": "day-11.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T11",
+      "test_number": 11,
+      "focus_topics": [
+        "Multiplication / Division",
+        "Evaluating equations with variables",
+        "Operations involving fractions"
+      ],
+      "topic_question_counts": {
+        "Multiplication / Division": 20,
+        "Evaluating equations with variables": 18,
+        "Operations involving fractions": 14
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-11/questions.json",
+        "sqlite": "test-11/questions.db",
+        "html": "test-11/questions.html",
+        "metadata": "test-11/metadata.json",
+        "validation": "test-11/validation.json"
+      },
+      "checksums": {
+        "test-11/questions.json": "4009013dd87ac8bbd1ea89a1da43b4bf37386eceb724c03caf4cb71f50d57a55",
+        "test-11/questions.db": "68a64b3ba007702d01f1861b85c65807deba672f46213b758f4a64d6cfd5e8df",
+        "test-11/questions.html": "342503e0aa00bb18ab534f4e0a8e66b58cc47a684b8b191e5dc25beb51449cc6",
+        "test-11/metadata.json": "8fd941a4532514439cfc24d9ba2cc32ac8078b7c88caefd4a112de8ed3cc94b5",
+        "test-11/validation.json": "1fb564813e67a9e832abf8b59a102af88aa35a4de2b62005aa91e4705c56d274"
+      }
     },
     {
-      "session": 12,
-      "topic": "Angles in a triangle",
-      "filename": "day-12.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T12",
+      "test_number": 12,
+      "focus_topics": [
+        "Operations involving decimals",
+        "Operations involving fractions",
+        "Fraction comparisons"
+      ],
+      "topic_question_counts": {
+        "Operations involving decimals": 18,
+        "Operations involving fractions": 22,
+        "Fraction comparisons": 12
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-12/questions.json",
+        "sqlite": "test-12/questions.db",
+        "html": "test-12/questions.html",
+        "metadata": "test-12/metadata.json",
+        "validation": "test-12/validation.json"
+      },
+      "checksums": {
+        "test-12/questions.json": "abf20118dbf2e4d515c00df0d97eef64ad8ecb0b95e2bb68aba63a394b517111",
+        "test-12/questions.db": "ca9ed4d713e83dfc751e2922ec5d48436def71de8946b0733ee233c39b04287c",
+        "test-12/questions.html": "c9d48dcdcd508eb27d2fb04c3d42a21ecf0f4025ab9a406f9da2c686126e351d",
+        "test-12/metadata.json": "8494c3f5644f9d575961875af2b78ef3f33479a938de5e3750ae5143c777fe20",
+        "test-12/validation.json": "a5c9edbe30cf19338c72cd0edc9a70e9f0122875f882a5a643ab79327e3f95ef"
+      }
     },
     {
-      "session": 13,
-      "topic": "Transversal and vertical angles",
-      "filename": "day-13.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T13",
+      "test_number": 13,
+      "focus_topics": [
+        "Operations involving decimals",
+        "Operations involving fractions",
+        "Fraction comparisons"
+      ],
+      "topic_question_counts": {
+        "Operations involving decimals": 18,
+        "Operations involving fractions": 22,
+        "Fraction comparisons": 12
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-13/questions.json",
+        "sqlite": "test-13/questions.db",
+        "html": "test-13/questions.html",
+        "metadata": "test-13/metadata.json",
+        "validation": "test-13/validation.json"
+      },
+      "checksums": {
+        "test-13/questions.json": "4013deed71e0e6737804e1d710fb7c8e4777a3bd0062440e0e3bdeb6323557b7",
+        "test-13/questions.db": "0935d13469af01c7c31f60f124affe8b3a92ca48baaa361952462c228655a073",
+        "test-13/questions.html": "c17b74f08829c23de1a2ac464712c5591d99d42a9937a0e6a3f10a29c1fe47db",
+        "test-13/metadata.json": "d29db8ed5eb18da00b5c59c9315a00881e60fc00036a13b90e0c4fca0ec0b87e",
+        "test-13/validation.json": "dc6544e4f36512458ea027f9d732890f931ec02695825fc1c6d714c6da2e3aef"
+      }
     },
     {
-      "session": 14,
-      "topic": "Right angles",
-      "filename": "day-14.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T14",
+      "test_number": 14,
+      "focus_topics": [
+        "Operations involving decimals",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_question_counts": {
+        "Operations involving decimals": 18,
+        "Evaluating equations with variables": 17,
+        "Angles in a triangle": 17
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-14/questions.json",
+        "sqlite": "test-14/questions.db",
+        "html": "test-14/questions.html",
+        "metadata": "test-14/metadata.json",
+        "validation": "test-14/validation.json"
+      },
+      "checksums": {
+        "test-14/questions.json": "7f6f53cd3b6a78e22dd911eaab19f21088b54da8244656182f122c6c30b86d2b",
+        "test-14/questions.db": "84bd4744acd14b9623b80842feecb41a6cf3cf6f77aad3959a6bbe7d38466a23",
+        "test-14/questions.html": "354080ae127f725252d0fe9e8005db95136a19b04a4b1105519f38d0f50d75c2",
+        "test-14/metadata.json": "e3cfc5b7140bd78e23d308cef1b477b7ba73461ef5f1481b6384bf2b10fbad92",
+        "test-14/validation.json": "2b15eca34de28f3042bae6b98de1109f731bd4124898949363168515caa40fd4"
+      }
     },
     {
-      "session": 15,
-      "topic": "Roman numerals",
-      "filename": "day-15.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T15",
+      "test_number": 15,
+      "focus_topics": [
+        "Operations involving decimals",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_question_counts": {
+        "Operations involving decimals": 18,
+        "Evaluating equations with variables": 17,
+        "Angles in a triangle": 17
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-15/questions.json",
+        "sqlite": "test-15/questions.db",
+        "html": "test-15/questions.html",
+        "metadata": "test-15/metadata.json",
+        "validation": "test-15/validation.json"
+      },
+      "checksums": {
+        "test-15/questions.json": "ffffe58402d86ed98338a85c1e7e16ce0622692493f4c70becc7b69acf89f9f1",
+        "test-15/questions.db": "29e064d0c9bb7d1909092958ea7233bc184bf0dd1e3176f479042392a5ce68da",
+        "test-15/questions.html": "d68835a7315a72b24cd2f790bbf74fdacfccc1e559cb7bf400e58af02b50e7c7",
+        "test-15/metadata.json": "35c76b6378e97d4e3d3af30774a96a6be05c0fce07e861ea152115cd3b79cda6",
+        "test-15/validation.json": "93b84e203b5c3e598b50d2fda981fd1781a7d74b4b4d07330ac5234934c97a1f"
+      }
     },
     {
-      "session": 16,
-      "topic": "Comparing objects",
-      "filename": "day-16.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T16",
+      "test_number": 16,
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_question_counts": {
+        "Exponents & scientific notation": 16,
+        "Evaluating equations with variables": 18,
+        "Angles in a triangle": 18
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-16/questions.json",
+        "sqlite": "test-16/questions.db",
+        "html": "test-16/questions.html",
+        "metadata": "test-16/metadata.json",
+        "validation": "test-16/validation.json"
+      },
+      "checksums": {
+        "test-16/questions.json": "0fcf48383a6bd381166b078856ba6de6000116b9643f7bd2d728fda817aede60",
+        "test-16/questions.db": "67c478a69f9b707ab5892fc245bdf6fb125d29582369f367c270a66021f07f47",
+        "test-16/questions.html": "b79fc356f94e1548306d37912e26581c0b12635bbb3a3ef3945b4bf0322343b0",
+        "test-16/metadata.json": "67d2c8e8d0996f4dedf9ebde63b4aa552be059586090ce3fe35e277ba58e61fd",
+        "test-16/validation.json": "d8b14c84c57670a22bb6afce670a5f2a12742ee22867b283b3056edab9bb3309"
+      }
     },
     {
-      "session": 17,
-      "topic": "Measurements",
-      "filename": "day-17.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T17",
+      "test_number": 17,
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Transversal and vertical angles",
+        "Sum of angles"
+      ],
+      "topic_question_counts": {
+        "Exponents & scientific notation": 15,
+        "Transversal and vertical angles": 20,
+        "Sum of angles": 17
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-17/questions.json",
+        "sqlite": "test-17/questions.db",
+        "html": "test-17/questions.html",
+        "metadata": "test-17/metadata.json",
+        "validation": "test-17/validation.json"
+      },
+      "checksums": {
+        "test-17/questions.json": "e8509e532e09e79ddb27e4c6fa4303f75355cf1dee77183656f2a7ddf37cb77b",
+        "test-17/questions.db": "2db8fb42e3a735ca6a3a55bb88ec9aafe660dd81d7f2dd946fd3bee0a9939235",
+        "test-17/questions.html": "b7c6135dcc317ef2055aa9a6ecb0aa8493f45c346b027c57f216b0ff2aa7776f",
+        "test-17/metadata.json": "12401e2dc7a9daa457ecd045703ad62831e1021aebc6ab96e11845f57ab3fbfc",
+        "test-17/validation.json": "a82d5af7fc62843a24491743234740547c2c825cde74aee02af39e9dd81f748a"
+      }
     },
     {
-      "session": 18,
-      "topic": "Graphs and charts",
-      "filename": "day-18.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T18",
+      "test_number": 18,
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Transversal and vertical angles",
+        "Sum of angles"
+      ],
+      "topic_question_counts": {
+        "Exponents & scientific notation": 15,
+        "Transversal and vertical angles": 20,
+        "Sum of angles": 17
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 15,
+        "3": 37
+      },
+      "files": {
+        "json": "test-18/questions.json",
+        "sqlite": "test-18/questions.db",
+        "html": "test-18/questions.html",
+        "metadata": "test-18/metadata.json",
+        "validation": "test-18/validation.json"
+      },
+      "checksums": {
+        "test-18/questions.json": "8dd0c64a8750eb7c907cd576aa781522233236bfc2f7849660acfdb476e57079",
+        "test-18/questions.db": "48cef96d483721e9e52a3c6db61f9aed95909ce139e1a237f532081dcaaccf23",
+        "test-18/questions.html": "1795f153feae4c1921ac14a34ce48b0051cb3aa4b6bf11f3c34c974c7cbb1510",
+        "test-18/metadata.json": "d7b657af52d25b526b27ddce3d7c80a20a80e7ca68d614abe52edadec6001573",
+        "test-18/validation.json": "24d387c4438ce81f5a7ed0ea2eeb85ac1a3b459b410ba8ba021af7c656f23aba"
+      }
     },
     {
-      "session": 19,
-      "topic": "Mixed Review I — arithmetic and number reasoning",
-      "filename": "day-19.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T19",
+      "test_number": 19,
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Operations involving fractions",
+        "Measurements"
+      ],
+      "topic_question_counts": {
+        "Exponents & scientific notation": 14,
+        "Operations involving fractions": 22,
+        "Measurements": 16
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-19/questions.json",
+        "sqlite": "test-19/questions.db",
+        "html": "test-19/questions.html",
+        "metadata": "test-19/metadata.json",
+        "validation": "test-19/validation.json"
+      },
+      "checksums": {
+        "test-19/questions.json": "4611f23c42f0745cecbfcbc6d1f611c40c9471f4dfd38e3ecb844e272ca5988d",
+        "test-19/questions.db": "05c2eaa638361d0f31fa45a609ece28b9be162c26475faaf40abdc99c46ea710",
+        "test-19/questions.html": "f195f2f9d5854b9f8b6f54161c699275944551a0b0a7ddb314e55564743e2a3c",
+        "test-19/metadata.json": "7a70cf1621db685372ad3feb84fab0effc2ac878073d4b8edfc3ed2b2d19c790",
+        "test-19/validation.json": "bfc413e23cbae90718e8db6dad4e1a53f7c4f113426d870b81dc460d02837822"
+      }
     },
     {
-      "session": 20,
-      "topic": "Mixed Review II — algebra, geometry and data",
-      "filename": "day-20.json",
-      "status": "awaiting_upload"
+      "test_id": "HSPT-QS-PRACTICE-20-T20",
+      "test_number": 20,
+      "focus_topics": [
+        "Operations involving decimals",
+        "Measurements",
+        "Sum of angles"
+      ],
+      "topic_question_counts": {
+        "Operations involving decimals": 18,
+        "Measurements": 24,
+        "Sum of angles": 10
+      },
+      "question_count": 52,
+      "difficulty_counts": {
+        "2": 16,
+        "3": 36
+      },
+      "files": {
+        "json": "test-20/questions.json",
+        "sqlite": "test-20/questions.db",
+        "html": "test-20/questions.html",
+        "metadata": "test-20/metadata.json",
+        "validation": "test-20/validation.json"
+      },
+      "checksums": {
+        "test-20/questions.json": "32f98a266d6b481cd581cf75b5c18a3f1df94d40559347a98fc015e2e405f35a",
+        "test-20/questions.db": "b1162a08fd4120d077e2d260187e22bdbe1543ef58556ca5a28c827251723c72",
+        "test-20/questions.html": "3c56084599e5b6ff73436442c61314565c4552be2652e4b1e4221d00bafe49e6",
+        "test-20/metadata.json": "81bedcbd47b1e65ff3168d283c347013ffec58188026b3e14c0561b7422bb7a2",
+        "test-20/validation.json": "a27e5b6fb5703fc0d7c4730d4de7defc485b0ec7f481e7ac45e6a4d54e2f7255"
+      }
     }
-  ]
+  ],
+  "root_checksums": {
+    "build-config.json": "d48c4e15d67af32790e78a1ab4c0da10ed72b0ac21dd1581258dd67e98bb3421",
+    "capacity.json": "1d4278b727ad6ca6489b1ef62eb8dde0c9f07f778f126c85af29ebb50ae62568",
+    "validation.json": "b0216b605ac69c78e0119084f95ad51cf58f7e392374ef90734543eee96a16f1",
+    "fingerprints.json": "dd03bafb17600f9a0bd5341087a715db607e0015451ecde6cef6af7d3b812242",
+    "reference-fingerprints.json": "50dd3ac804c9a7f4083cc58c211c75842e6a8c47e7dafeb11a5da3623e45e12b",
+    "integration.md": "15f4a1e5dbf2a78064b4cb8db595b6cd39ff648504f7323d3aff36fe4f24ec59",
+    "index.html": "198cc7f552425856edeece12310cc762d7c485577ff136149f6666e6331f706e"
+  },
+  "source_sha256": {
+    "calibrated.py": "4217d5e0d2483467e25eddf0b5f6c85906619eeecd4f8dce10b23eddadd9222c",
+    "collection_audit.py": "5ab765c2c95cf7a8020f73f04e3e465505bf25da4fda71fd0eb0a7cc5e87e09a",
+    "practice_collection.py": "e29f74c8298e0409e6f6f2c7199350e8f469a4779e75701a1e54d85aa063d51e",
+    "practice_quality.py": "29886482957a782f2de7358c6c30601d20f6f30e34c3ae0153ea920dfffb4f50"
+  },
+  "uniqueness_policy": "Normalized mathematical tasks and visible stimuli; IDs, answer ordering, difficulty labels and cosmetic rewrites do not establish uniqueness. Frozen forty-test reference identities are also excluded."
 }

@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T10",
+  "test_number": 10,
+  "title": "HSPT Quantitative Practice Test 10 (Multiplication / Division · Slope of a line · Fraction comparisons)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Slope of a line",
+    "Fraction comparisons"
+  ],
+  "topic_question_counts": {
+    "Multiplication / Division": 20,
+    "Slope of a line": 19,
+    "Fraction comparisons": 13
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 38,
+    "Computation": 7,
+    "Sequence": 7
+  },
+  "topics": [
+    "Fraction comparisons",
+    "Multiplication / Division",
+    "Slope of a line"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q061",
+      "number": 61,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "c5b474285205239907a70c244a3b146030ed0764c17e376b764e6db3719a1b52"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q062",
+      "number": 62,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5a0c5e5a3b295d05673d1f8128fbcac71e0b7e1ce1191535322518779a6d244b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q063",
+      "number": 63,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "783425beba3a60d94004bfe0ab8ea9b686bef47a4fa4c0ab9fbd73963c470e8d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q064",
+      "number": 64,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b5755dc5578f9e7cb4a5182d91ebeb6e52dd235114eba088203ad04ba6db4ad8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q065",
+      "number": 65,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6b5d63d690230c4f78290f0e24ef8a6a8aaaf19a6440adf5a32b496995b1368d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q066",
+      "number": 66,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "162f1941f619a17b44567e166f766e1db4d820ca6c2b36339ec46bb784cc0e51"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q067",
+      "number": 67,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d14b44af1ca58a9a6c07fc56095b857e3a444b97a6b082dd1eacf642e9067a6b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q068",
+      "number": 68,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "264b75a608c14a818e901d1e184fc0899d61be03987500000bdcade18ed5253a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q069",
+      "number": 69,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d7d7ba5224655f79e3b79c54a687e51c6f9e0d77bb032059bc2beca0aabacf0e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q070",
+      "number": 70,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "faad6cba05e6220ff515443aff31f9bfbb1b7dd3da242f58e117eb84970e5e8f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q071",
+      "number": 71,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f3968f45cc19b904ebe38058b8d87e5a108ff2f56a71de37e077df8513524312"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q072",
+      "number": 72,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0a7504428367a46d433f55520014f62748fdd81b39eb716b6bf9599971fb784b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q073",
+      "number": 73,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9260190b33aeab4a51d346b65cbe261087cf82643e8cbfbce75923cf73c80ad0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q074",
+      "number": 74,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e4ed42d15d99b1123ed9d3e141eae19f3a624c83b5e28b6827641fb1632dbbf9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q075",
+      "number": 75,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "c2894060d3d07609499086c3d1ac75c06b69e697ed396e2347f9680eeb5f53b0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q076",
+      "number": 76,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "db4ea9d57f495784fde000a83cdb48b0cc00549f2fcad5a8d1923f6e74e559ca"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q077",
+      "number": 77,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "f165df22f6ce727042833602e98c2a13d60dc3d9f56651af315083985e4ce579"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q078",
+      "number": 78,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "05a1ac278337604e87a5aaaaaf1b5d7dcbebd8a4d288a1dbd97c343578f4c12c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q079",
+      "number": 79,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "686260199cda8ea3647607819faff77249163bd7f8fe1f4dbe4c58eacf686a44"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q080",
+      "number": 80,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "728979e587f96b62d69ed0a88097a50eb9e14c44cc317b90c1ce8c9822419d00"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q081",
+      "number": 81,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f3da7aa1f6cffbdee20cc3f60a495e547b9625dae17068099077686e61c1b5b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q082",
+      "number": 82,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a5e05ea13c5794cc178f2c6e8aae45da47240e58052a5da4ee70a2ee47f746c0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q083",
+      "number": 83,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e04bf98309bd0f00b753837fd86d014ef58068f54e3b4958d22ca0682b8f7469"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q084",
+      "number": 84,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0c026e8aabcdd20416db3e66750fcb53539a71411de78c886870c8eff1277efd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q085",
+      "number": 85,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "03eaeaf0bddcc1418a3f8981e5a6d16dd0e34ad5fc19e0af17f4dd5bb7a55113"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q086",
+      "number": 86,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "4030f982a0efa2cbc398b63fe7e26c6e4a157b29a2ee37c8ca76a2236ee0d4b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q087",
+      "number": 87,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "ecfad2ac2439b91f5cf353f37c26f7501c7948e63c0886a4e668f9ed7e07fc77"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q088",
+      "number": 88,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d537efe3927e77ca4dd0d409e9eb953aeba993fc2e16686f657f12d22e3cf988"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q089",
+      "number": 89,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "aa681c26ca745004bf1e02ed29fdb39bcecd16ef761073be27ca99e4a4213d76"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q090",
+      "number": 90,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fa3798bd5eeba9f1f3d38b6b2c9399f9cf0ae9169132a2334c5e754aeac3c1e8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q091",
+      "number": 91,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b2942c5eaffb3c6ba44cf1b4a5eeaf04e3b9024bc5c076d3aa6583be2c45bba7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q092",
+      "number": 92,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "91a0cb8457a10d43c29974c6242c49f23f5bfb37134d16e88226f1c75e5659b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q093",
+      "number": 93,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "1cb99ba9931203488b5b97de0228637bd33f4f71417b8099e688ad5509dfd9bf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q094",
+      "number": 94,
+      "topic": "Slope of a line",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e4cb28dc4e84576a9ffa30c544639c7d570a7068b138a58a88e5aa080262f3ef"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q095",
+      "number": 95,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "56030c83332ebf669f8e8d842b6038e2799a13ad5c05bc8b11342f24d818ee62"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q096",
+      "number": 96,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0d3f441a2fd319309518357ec9cda718c63fa8bb217210f38ef88c51a7389c5e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q097",
+      "number": 97,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9db6ab3e70052d42884c2bfa976f8fa5aef47e2badb743ed9abb3af3dd3a39ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q098",
+      "number": 98,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "bd87aee9f7c04294d18b95292853868101fd60bc7765b96bfef212c311ec4f12"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q099",
+      "number": 99,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "17e963d06b4f4af65e49799fdb4d3f83ea138e1d9831d3bc88f2c044ca8532d2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q100",
+      "number": 100,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "45f02eef69a22cb80f4a1b99504d15f10e1b2d1febd8f7929b4472244562cfb8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q101",
+      "number": 101,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f29e5936d9dfeb24b5521f9898ad17a3a8a5c9e62da716d27edbb3dd8481cdd8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q102",
+      "number": 102,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ba7b736db27b9cbeaeefbbfd622d3d14ee84ecb0bc4e4509025caff0601abfdb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q103",
+      "number": 103,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f3e3633ddbee604d96a9306d99d635e65417f028e28bd47384cfb3a922036d0f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q104",
+      "number": 104,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0a6f400e8d9774dffe5b0eb17f2b1c935fa9113b31416d1b9097501b830fd5cc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q105",
+      "number": 105,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "a45ef6908d599b8cdab773ed2e3e3fe77ce3621047125ec4faac8fe62bf7f138"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q106",
+      "number": 106,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "779595447a5217cad69ba98ff1378bc5e1b67dab5a69637a6158da117d24b499"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q107",
+      "number": 107,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "319e7dbc9a806e8557ed4fedd908d6b4ff50b08dd779eca34e475a6a805bbe18"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q108",
+      "number": 108,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fb9474bb94207d0b02e8bc1e437220d09fa269ce542d187c2467380001e8436d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q109",
+      "number": 109,
+      "topic": "Fraction comparisons",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e64d996c67561899f5ab5ab5ad429ccbad3c063b1c8f876824774b5692a6bf77"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q110",
+      "number": 110,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7ad38494a3555c21ce85256e55c0815f77a603c5cad54038a991e94ed765debf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q111",
+      "number": 111,
+      "topic": "Slope of a line",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8e26efa9a6b75b175fc480c4ee815996a8875152817e916223174ccc941f4ab2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T10-Q112",
+      "number": 112,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "aaab95a537bcfd43fd2faa7bbb1b6848973f062fda6afc6e72970904bc107717"
+    }
+  ]
+}

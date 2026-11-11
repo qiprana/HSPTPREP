@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T03",
+  "test_number": 3,
+  "title": "HSPT Quantitative Practice Test 03 (Addition / Subtraction · Roman numerals · Graphs and charts)",
+  "focus_topics": [
+    "Addition / Subtraction",
+    "Roman numerals",
+    "Graphs and charts"
+  ],
+  "topic_question_counts": {
+    "Addition / Subtraction": 22,
+    "Roman numerals": 14,
+    "Graphs and charts": 16
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 23,
+    "Computation": 12,
+    "Sequence": 17
+  },
+  "topics": [
+    "Addition / Subtraction",
+    "Graphs and charts",
+    "Roman numerals"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q061",
+      "number": 61,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "02af28641f32d735b64b73ed1884580dbc70969628b71d91e39b792a6f2e8d6a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q062",
+      "number": 62,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "a32713e840f52a2d47d1f5ab1ff46d842e6b6a1958f9d17545e2477e0dd583e8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q063",
+      "number": 63,
+      "topic": "Roman numerals",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "c91660120f4467dad0b760d754027b3e54893b7984d50180eafd2a475faacf5b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q064",
+      "number": 64,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "cff1ed26f40525a519eb7ce848a636bcc87cc13e0773f92cb15e05dd5a7d734d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q065",
+      "number": 65,
+      "topic": "Graphs and charts",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "7821a3a8302b30d4f90179055986ef3c256015a950d2a250ff21580504abd5b1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q066",
+      "number": 66,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "ca2236ef23f9fbe340ef6da5531ff5b4b7a0cdc9471b45da1e2143e43e4e9624"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q067",
+      "number": 67,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "3d3caa515bb7603302d7d1d9474587efd5a093f64f718207e232b72bbef6f54e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q068",
+      "number": 68,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "82b8b009fceaac467590df14fb82f246630b78638365d25bfd2cede2e1389658"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q069",
+      "number": 69,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "31a69c7a25cd01726f535b14ca1855171ade8be932a49ee22de08710df5410b9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q070",
+      "number": 70,
+      "topic": "Roman numerals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "d670cbd2cd9aead3553a289c475911804896165713641eea4f6bd994f046c6c4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q071",
+      "number": 71,
+      "topic": "Roman numerals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "31436a2b66604ac98ab657d8f33f373839b75698139b24b3ee53665886824a23"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q072",
+      "number": 72,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7ecbb2ca59fd3ecc627b1acb9fca43d78595f27021bdf5fc77d126bec6e5581d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q073",
+      "number": 73,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "af2c669019208ddaebbe5c16e0627ffc4b98bf501a20bf9d3b25b7824634b09a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q074",
+      "number": 74,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "05efdae7d20be6019a603824f3cdbe6fb5925c3a06d1cbac1fe4a22e0e556d65"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q075",
+      "number": 75,
+      "topic": "Roman numerals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "058a5c12727df4571f883d677e9602410582e9f3bf43b9b0ed9f5320c5f9ca79"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q076",
+      "number": 76,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "9e052e96826d53994f8d0788d338687b73cd94e7e0624e1a1f4361f4f44d2bc2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q077",
+      "number": 77,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "87bd134cfd3bd2e46da9d735d04eaa4c9362181edd4c2128cd692e39b9fec9ff"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q078",
+      "number": 78,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0ad667c2e7950f18c4c9c1fc88cae70669b068fdfbb10e8150f4f235167f6138"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q079",
+      "number": 79,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "70017b2628d5705d1955ddd3930d4015baf67732d6f8efeb41a0b31ec8ae1f71"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q080",
+      "number": 80,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "51bfaef1ad8f95ce2458bed17181fcdfe88883ac14c8e2314a1b3ce799a83793"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q081",
+      "number": 81,
+      "topic": "Roman numerals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d14f2331331b75cea64328ff06b38d62b9bd6478b9f998ec17a3eb29574c75f9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q082",
+      "number": 82,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "55fc984ff0c8abfeb144215de335681a44887418b3a5ee1f954b5e092f64db69"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q083",
+      "number": 83,
+      "topic": "Roman numerals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "39a5c0fd9ee36c896339b340e1ba30595af1058004920eac92e9522a329d99e4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q084",
+      "number": 84,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "7b6fe0e63f8e77997b0ad0f80f3cf9c4c408a57eb11446333c8d9089590bb32f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q085",
+      "number": 85,
+      "topic": "Graphs and charts",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "4ef84298dc509d9f87d235326ffe5145784743feb0e48d1bb468671c1472fb35"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q086",
+      "number": 86,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "77cd5a1ead91dc44df789280d3eac4033b9f19faf4af8e22cc4528eacb9a50e7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q087",
+      "number": 87,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3133e5747de8068702954ce2404cfc261d53d4ced04f43d8b1636b6c46ed984f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q088",
+      "number": 88,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7c31e5b5a13365c854bbae2d9b85d3afad7fcc1065aa830c89c4a189ad506958"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q089",
+      "number": 89,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "3f5c8b9b9693b8812bace8077b311dcd0a895fcf43640486ab7c54b819811836"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q090",
+      "number": 90,
+      "topic": "Roman numerals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e762297452ff6c92035072b65d7f1b6157956c06ba647861dbc89d6803ecf88c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q091",
+      "number": 91,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "8708dc0d5331c2303ec0d879e5e81ae15a31db3b8d90ba093843e3651c4499f1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q092",
+      "number": 92,
+      "topic": "Roman numerals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8846a2ebe76b8b6ca7066ab2dfd135450c60f8584ee85ce53285b0ab1fb61a32"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q093",
+      "number": 93,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fba0e6bb9e63a4e5264c9a814e4cf4a9aec94582157549b832fe2bb40829e40f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q094",
+      "number": 94,
+      "topic": "Graphs and charts",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "ccdda8dafef1b758d046b2df165d009e8b716079f0a7eb56b5978ea60fb39638"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q095",
+      "number": 95,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "4a8c1fd865f079438a7e3689b8a719b1617c8ac42e71d7fc1cd652419b04f49e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q096",
+      "number": 96,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "84b3fbba8187629f937cfbf4e39d3385a677c17eedffd5ab016c42c348db5fd8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q097",
+      "number": 97,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6d2df923cbcdd4bc32c879e6c5c93db532d153f8aa7f4e304f2bd5e4d886e3b8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q098",
+      "number": 98,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "acde6fff45df959ce6aefcdc3f702515eb2a9e5e62a73bb4abcc1567ccfeb830"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q099",
+      "number": 99,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ba581f5ab290c3c7359c798f84b0c3a5cb78dca8980b996d5595ef820dd28d3e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q100",
+      "number": 100,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c326b0071bb2b7c14fd52024672b4c946657491482f2a7beab1485024b016801"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q101",
+      "number": 101,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "db978bd7ffcf3263f9d357a40725391b0ea707a251d3efc2bb827095c77a2e9d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q102",
+      "number": 102,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "b7bd0252bf2904e7fce40d63f55b9341cb7e5bf12c9721540285e687b868a4cf"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q103",
+      "number": 103,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d3d7144c3e804aba11fe114a51646d2516f1553d8a211619ad2384c1adff194c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q104",
+      "number": 104,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6031f79a051335f9d244c9a7839effb3cf3ae371f1a10e3c247c17c5e4441490"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q105",
+      "number": 105,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "315a4fb2405d96c6097c57cf3b53f1a3f3a7c54d670bfd30cc6984f2532e8a49"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q106",
+      "number": 106,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "45293baa1de9d886d131291d88d85c8a772dda16949a784164fbaff9d9e39be9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q107",
+      "number": 107,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8f8ff65cadf8c32fab8c266072bfed1dae90df71c15503fb8d89b90aab7c1c9d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q108",
+      "number": 108,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "946fc26244e0a1df6c14b167eee60743de6d8e89132ecf605729268a1c01e7d1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q109",
+      "number": 109,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "0c444846d06dd1cee73e2ba705922a35dcda3aca4676935fe03d31faea7a05a1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q110",
+      "number": 110,
+      "topic": "Graphs and charts",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1b01fd36a7c7cf3a3893964f936c1f978f162ce055e853d5e37107e1ed9bc5b5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q111",
+      "number": 111,
+      "topic": "Roman numerals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "faec19dbca1bb486e707e5b256ad3a10628efbd29ce49ccdb06844ed6e97e324"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T03-Q112",
+      "number": 112,
+      "topic": "Graphs and charts",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "27da17a8fc461e7d1648902e6e2c8fd6460ff863322bea6e97870846f70d261c"
+    }
+  ]
+}

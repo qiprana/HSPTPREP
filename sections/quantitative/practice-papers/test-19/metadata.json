@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T19",
+  "test_number": 19,
+  "title": "HSPT Quantitative Practice Test 19 (Exponents & scientific notation · Operations involving fractions · Measurements)",
+  "focus_topics": [
+    "Exponents & scientific notation",
+    "Operations involving fractions",
+    "Measurements"
+  ],
+  "topic_question_counts": {
+    "Exponents & scientific notation": 14,
+    "Operations involving fractions": 22,
+    "Measurements": 16
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 39,
+    "Computation": 7,
+    "Sequence": 6
+  },
+  "topics": [
+    "Exponents & scientific notation",
+    "Measurements",
+    "Operations involving fractions"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q061",
+      "number": 61,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f0b331a6b6478953087ddc4d6ceb3847afb02525e600a762fd9393ab0cd7b127"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q062",
+      "number": 62,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "b0e175bc7fc261a12bf55033e5ba37eabe5baab2a3c25377b006ee3ed27b31a4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q063",
+      "number": 63,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "04dadb941de6479be9cd23d1342866909f2b6336a401378cc25f6197aef086d0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q064",
+      "number": 64,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ed68f30c4ad0d0deccf3772a0c168a9930a8f27ca31bd30aecae9e6d0f0e8409"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q065",
+      "number": 65,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "389fe980e5df36440793a17b7e2ab32cc44015376f8707edab93852a75d79795"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q066",
+      "number": 66,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "be20bded6a6997a11fa6276cfa2294d9d0dd077835a7a8e29a2f2190d371d0ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q067",
+      "number": 67,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "bd5bd8bafeb31ae7bf71f7db701c86fb319c0ac60379d16c653afd6566e4cd21"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q068",
+      "number": 68,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6a0cdf425445a31b3a2a66a8ad5108a580f3b75a268fe6886775578221a18c34"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q069",
+      "number": 69,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "eb0b1588f143ee4a38987e16e89af9ce565f9f2c101a06dc92c3cce0b21506b5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q070",
+      "number": 70,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "50861db21e2fa3575261b6cb690b31831227fcfb349bdb0d3ed129574013915f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q071",
+      "number": 71,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "2d28ee0b4b2e44b2870dc080f16e3c1f9836edf2a34e94b685785a334b6a9e39"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q072",
+      "number": 72,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c53f901cfe4fe35278d2bc4b44fb15b96a27b363c16d6d52a4a9821f557bb003"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q073",
+      "number": 73,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "51d483c5107783e1efd828b9b34904bb1ee419a5c1d99c8d571ac77c6c9a0ab5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q074",
+      "number": 74,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "0fe558affdab6111ec0c3de01ff001f3133c71c39bfc60ba34906832e9e138c8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q075",
+      "number": 75,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7b763fc3c54544deaa4f1015044bf62c79a30135d06204820a971ef850e3b6e4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q076",
+      "number": 76,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "56e8d8d2028710d2db50c972d4890599c8d6f6834eab8bfa0e0b353d2530c39a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q077",
+      "number": 77,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fd0f45be4387d9e7f865c2f0023c61e24b5600ee6d40e966492882f54debfd31"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q078",
+      "number": 78,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "dbd24e6384ec03d6cee1e5cc2d0fbe5dfa14f1f65f817cb05f23bfd6bb359101"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q079",
+      "number": 79,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "117f66b6f13a0b5bca0974b49f98d3361b5e4837bb549ed4ba72f5c4da921897"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q080",
+      "number": 80,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9c34db95b4e75ac67863d26dc3dfdab0c3b8efe355d2a0e2337e7bd5cadacb65"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q081",
+      "number": 81,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "56d02fd7f9db44bf8897f4cbecc4df91a0c427bcfafb4ac59a98ddf3c89129cd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q082",
+      "number": 82,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1daf538b2ae5ce26bf84c7b94f1cd836a8c26cf4ce19cdcafec3b1f94a703230"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q083",
+      "number": 83,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "52d65cf74fb60445d4759518b1f6ae4eaea5a61b363ac94008ab8e03fa1d9547"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q084",
+      "number": 84,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f9ae80107a06862640296427888318179f976173e9166b7047830911763b631e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q085",
+      "number": 85,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "6d4eeea8bf2e11f604473be82ab5a80a8b4aa233153b169c35eb6805210fa2b2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q086",
+      "number": 86,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "aa2ad72c8ae990fbaa036904e4a8ffa4cf912703fac544687da8e8d5a8d7bcb3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q087",
+      "number": 87,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d487c4ecc011642736d064659983c494e134d6c60b1ec9d326bea46f825571b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q088",
+      "number": 88,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "5202a1d5c08433404db2d68a7a878fae3ce4b38fa5dd812f9fea8f8072c5a51f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q089",
+      "number": 89,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f7dcc08fae5eb65874766f128ea22ce8639b2cbf807cdb065200bf46516f647c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q090",
+      "number": 90,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b77768d0b5b4b964de518ff90ea91a57b3ecdb94a107f8b214b5adba02da08e1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q091",
+      "number": 91,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "03e846f30338a3378f622b678656c8afc60da03a9b88af319121d93234e848e2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q092",
+      "number": 92,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "70eed2dd5b84e6da28a688ebd69c2df35f62e29747651a2f8e0e2dd6cdfe07ac"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q093",
+      "number": 93,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7adddebf8ff9b04341f9ec0dfb8ce5cb0e4ac7244ac7514c8520d91cc362210e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q094",
+      "number": 94,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d8b1a74c5d5a7501499773466a33bf271d9e263a1bc277eafc31b66aef9726bd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q095",
+      "number": 95,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f6966530131d57a39da5ccc13867864a4fd79b1fd1a8a57b3e672aa067fa6c00"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q096",
+      "number": 96,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "fec970d7a555628b910d5976aedf94d5b023cef3f3a63a4c65d5ed3b888c9617"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q097",
+      "number": 97,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "45cafda813bfe85600721c1d02ae32401e2a32db932d83875afd1b59d225d7ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q098",
+      "number": 98,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e228b52d5aa0f2b49430276c3b37b4c4c877c909216f9df2a9755fc01fe7d029"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q099",
+      "number": 99,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "71420445d9529f3a6c4fbe450b660265a75ee8b18a019f10111699cf740e60e6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q100",
+      "number": 100,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3a723e2e910b7688bcc1f5bbcbe8f76b36cb7a54079ac8168ef4bd79b3519ace"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q101",
+      "number": 101,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "245629fef76333109027f4e4cf0ac4c635f6fe85830ded06cd06f939ddba04e5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q102",
+      "number": 102,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "df9be4b5e3881acdc37123fcbbaeb78035317d3e36b83de8110dae232efedb1d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q103",
+      "number": 103,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "19423c505704dea80bed1c493e9ad1e2d315cb45527dfb5b5914e54b527eaf31"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q104",
+      "number": 104,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8142fa2b27a94db95553a0c15fde6092264e3f3a61124aaf96fe56f5c5e99363"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q105",
+      "number": 105,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c68e8b452502f410d8f2f6675368e76e904580bd6f620c9746b0f5296b0f3a72"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q106",
+      "number": 106,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "50494668fa92edbecbf4717c673b9d4795354b57e3384bdac6baa71246a43608"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q107",
+      "number": 107,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "2bef25a24c3589881cda1dbc15543e6e1ce7cac05f91ea41b114e62095d0df4c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q108",
+      "number": 108,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b5c8708e3860ae3b0f69f5ece595decd69cc3d8db34ec07a015dce3de3800cbb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q109",
+      "number": 109,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "723a7501e90019f1e30da07facd877c6be5df12341dcfa278aa96d26daf8d607"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q110",
+      "number": 110,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "080f1ef16b41e465a345963173f54c97a184302a2a9da868a58d92c4f87d5f39"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q111",
+      "number": 111,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "342d901e025dd27fcdacea2d330be9acef0e2562295d5bc60bf678d2006539c0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T19-Q112",
+      "number": 112,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "04fa1bcf726446329c74a812aeab535334e08e3e62a3a3aad090ee2008d0f3d2"
+    }
+  ]
+}

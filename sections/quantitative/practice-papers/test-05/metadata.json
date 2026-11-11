@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T05",
+  "test_number": 5,
+  "title": "HSPT Quantitative Practice Test 05 (Addition / Subtraction · Right angles · Distributive property with variables)",
+  "focus_topics": [
+    "Addition / Subtraction",
+    "Right angles",
+    "Distributive property with variables"
+  ],
+  "topic_question_counts": {
+    "Addition / Subtraction": 21,
+    "Right angles": 15,
+    "Distributive property with variables": 16
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 31,
+    "Computation": 11,
+    "Sequence": 10
+  },
+  "topics": [
+    "Addition / Subtraction",
+    "Distributive property with variables",
+    "Right angles"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q061",
+      "number": 61,
+      "topic": "Right angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "3bcd1fb592321c219daa9fa9bf92120823593a72cff93a07e74c2630ea42c717"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q062",
+      "number": 62,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d87bb4496003addcdcb1a84810055877fc3e8624a7b94f08e36eb0f854b516e1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q063",
+      "number": 63,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a49b9ecc068331e0b780134494b5d548a759f37c1edefa48a9e20909e75de3f9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q064",
+      "number": 64,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "509d0a504605ed6a5b1121eb2806708f39fb9ee80a1dac4068e8a3cd02c46ee0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q065",
+      "number": 65,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "e903d91ec4aa800a920411ff2e6a86816deb802da67a04f59e692bd6310b99bb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q066",
+      "number": 66,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "db16e579e3ca87ea1fe7d839683b6dec5efdaca438163a183abc361a6eb3d3a1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q067",
+      "number": 67,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e194f64fb18035b1d9c2a1c77915ad7417fa3adf9f57795781129e32c8d1a91f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q068",
+      "number": 68,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "acaddb6be3829d1c38bcc823e1b3ec348817ebfa82970773446ff733bf59d30a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q069",
+      "number": 69,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "421a79a3a3161132d6c3b13f58330092fd81925eb43f550e55c9f845ba29de87"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q070",
+      "number": 70,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "bd30a6c3fe47d3fee30b4ff3bd72f30852023ba14b07f80a87c2ea07d8e9723a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q071",
+      "number": 71,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "bd498333a8d2f4b326af54cca9f29c7e1935b6ef39a77d0e5d424e325f36b8e5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q072",
+      "number": 72,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "4a46a18f9053dd612b46cd02e9547e0bce09890b5397feeab1c3b8070b9613f2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q073",
+      "number": 73,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "af17901f8f058d5278d5e43579ac6152eff336660199d584f41aa3ffb6af6425"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q074",
+      "number": 74,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "df3a43b27cb7b1c5958c81486f3a5f8482c5117161efc790674ffd7441694e9a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q075",
+      "number": 75,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "058f5a1b19a6ed1ef1c6d8a9be08dffbce9d5ad24218f3c6fea2e404e5dcd373"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q076",
+      "number": 76,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "33d3c25d045efd4fc87d4dd96a2cff52bf287c3c33680ee521a70f6f0aef0b92"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q077",
+      "number": 77,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "5fbd91577efa3b479990f7fbb46d2e9a4058aba5d4efee636de02737b84dc9df"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q078",
+      "number": 78,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "16aaa60d6cd37b6f5351ac2511ff015d697d69ba87f54275c2e9c16e68ced638"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q079",
+      "number": 79,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "510736f6d59590909410c89a9c0ffaeeb5a68e1c28ced643dffb449e782efc8f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q080",
+      "number": 80,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a56920bdfd4dac44df06ba84301a33d23196425dc0aa3f0acf752489ba740623"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q081",
+      "number": 81,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "2df97dfe6335a446739089f5af0cb98df85859f8df2b87c4324bc4a7068fb25a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q082",
+      "number": 82,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "ea2094197d1fb0351e4af067f44cd22961d829d51b378ca987d4c573f73c0f58"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q083",
+      "number": 83,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "469c456fc668839f189fe7412c8e7664f4d4e42dc547c15666f6426d19c5e74c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q084",
+      "number": 84,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "a765ee70e9537d6404c794141b0eacc968b2a88ebb6c62b5651ed35cb8b1eb21"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q085",
+      "number": 85,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "9478c9c3f768cf2814b4402f79059db309fa49ddd63064f10c72a7aba0a74de0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q086",
+      "number": 86,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "99d8980dca055fc1e5b5e72ea0cd3751974a28759cb478b9b050857d14cd1413"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q087",
+      "number": 87,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "51cb5e0859d539bec2a86e5a71170003b7ec023f214e143dd42a692c27458d5a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q088",
+      "number": 88,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2c3eafeaccfcb31e321ee0d75cff5b11c8225dedc5970fba3a8d756e0a3c44ac"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q089",
+      "number": 89,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3c777a27967d0bbfd7a270afe729baf55d686f608c910a6713e2b710f8eb62dc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q090",
+      "number": 90,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "e0ea32cb5d050371c8444c0e1d03b8c9e9e66256af335eb7c0bd588be61d92b0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q091",
+      "number": 91,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "de47a30864c7fdc04a6920e85544a111536109834a7410af72f75d452e703d02"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q092",
+      "number": 92,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "cc2829c602b75c7f7cab06a8d2720c186b68847b297383c560ef962049e1fb76"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q093",
+      "number": 93,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "939adb071f025fe5691abb15a74b72de6276c13d5ef51acc5facdb4ec8594415"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q094",
+      "number": 94,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8eae9b08164fba4de7cf31dbbf5ba5e1982a2b471ea037a89fee9dd61a81535f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q095",
+      "number": 95,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "434d812fe998edf26b1e74a13363660021fad787a76106089456c18d78fc06fb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q096",
+      "number": 96,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "6bbccf28cc299686ac89db0e852eec8a67e4e4e2c9847ff1a784c134d5dc2f24"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q097",
+      "number": 97,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "63a4a96e64350768b4c4561883b070573e850c1f9d4c8b53cab780e185d04222"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q098",
+      "number": 98,
+      "topic": "Right angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "cf236db5ca45f3e16ab5590c0b8c085ca3a2ad707ecb93ae8f193e6e5a133c4d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q099",
+      "number": 99,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "508b8b761bdda3448bc0363df0bf43277492a7b521dae6e0f12aacc20ed13714"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q100",
+      "number": 100,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "04c2414fd6e7c7e3b7e0214b1f91475348442f86e14ab57f3a12f4a5295fa4e8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q101",
+      "number": 101,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d5ee0e486e52345aaec8eb1c08c871c7eef52031943afffe8ba9e8b2770c6665"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q102",
+      "number": 102,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4c90bd14ef05657c3faf49a457dafa6f432fd9bf561b7b30ddf66648bcabffac"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q103",
+      "number": 103,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "702e678d22e2962605f9ed463438261f30ada6fa6a6339bbb69d6c8ba7153171"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q104",
+      "number": 104,
+      "topic": "Right angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "8d8d2899b9f10a1b538efa2ffc752e0d1390fc5cf54c6f2a4195f25eefa19540"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q105",
+      "number": 105,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "33776dee81529a6e61e6c2df68b00bafc54c5dfb75f48434c90f5eaa4571a5fd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q106",
+      "number": 106,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "bcc01086a86f8cb9c7748cc8dad9060e92e6ff5ad50d2dd5316a1cddb287a568"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q107",
+      "number": 107,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "93cb84e87d7958cb51607e161fab5db3f3c8b8fc824464ab66429d2d9623ae54"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q108",
+      "number": 108,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4c288cc5309c9fe7faa7aa6567d8a73b6ab76e74b54fc02699fa9cad22e25710"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q109",
+      "number": 109,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ce5ed8ac7e7ceedf2fa66c356d2794df08ea9be0ad6acc423ad2c055131628d9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q110",
+      "number": 110,
+      "topic": "Right angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ada551f97e75e6d4a93c18907b15aa42592ed14a14e0a8ccf06160197e94c91d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q111",
+      "number": 111,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "3c3af7004ffaf26a231392b1665990b94c1531121cbfbe5141a65c30939e80c7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T05-Q112",
+      "number": 112,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3a588007c857db0f234dbc3bd4de8a278f8b6526401a157e9ad4aa406e006af1"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T02",
+  "test_number": 2,
+  "title": "HSPT Quantitative Practice Test 02 (Addition / Subtraction · Operations involving fractions · Comparing objects)",
+  "focus_topics": [
+    "Addition / Subtraction",
+    "Operations involving fractions",
+    "Comparing objects"
+  ],
+  "topic_question_counts": {
+    "Addition / Subtraction": 22,
+    "Operations involving fractions": 20,
+    "Comparing objects": 10
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 34,
+    "Computation": 8,
+    "Sequence": 10
+  },
+  "topics": [
+    "Addition / Subtraction",
+    "Comparing objects",
+    "Operations involving fractions"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q061",
+      "number": 61,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "91d09c2a656bd8962a371f0fb1d77a27c276baf514f3f4b09eb359d1bc4c0fda"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q062",
+      "number": 62,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "edf01ca9f5b369f227c65cd5fca17a000809e5063831bd2a2ff757aa12755a3a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q063",
+      "number": 63,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "2827bfbc3c83f61a12e6ac355617d22b88e40e88ad0bc68cd7e3d727531c72f2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q064",
+      "number": 64,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3768f23471d57fb4b9b9fc5ec6bf0d88be03222a44c7d0c4e7731d11a6ffcf99"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q065",
+      "number": 65,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "121fd48cc4faf832b70292e9e2e4cc28d4adf270c6bd8377de38bd1f928922db"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q066",
+      "number": 66,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "6b5d4fc034df1c3fd31dca9874535cab495d964105b584618f9cdd764d29fc1c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q067",
+      "number": 67,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0189f1889511a2a4e1506aab3b85bd99bd8b73ca9fdf9d7f3a4ba7642ebaf743"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q068",
+      "number": 68,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "0a4cb33ca229fab52f1517324c58b55d45c23f8dd5ae0900a7470b977976aad9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q069",
+      "number": 69,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "4289d3855ae96ccd44176f308f2dff70ccd4db6097471ccb27f96614e8d135bb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q070",
+      "number": 70,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "2f27801d172a18b41d5fd6067a3618c445654b4e3d36509ea21f1e1afeb75caa"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q071",
+      "number": 71,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "78f8eca0ac98964ec190f184ff993915d613282802b1fbeafb2ff97fbf2e51a9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q072",
+      "number": 72,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "f6ed8c978e2b8bf2d72e02e2e26efb65f25a4186a0081842a4c9f7239c8da733"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q073",
+      "number": 73,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2582c58418b6fa790935b7da0b3e2f54c5d9b22cecc6282f27e49eb67cc1a523"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q074",
+      "number": 74,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7418d7a087569da4015aa55241fb8454973c1f8bcadf97a2564bc10ee650364b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q075",
+      "number": 75,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "711d1acbd6beca05387bc969f386c7fe16d3e815a1801cb3fb7720ddff7be3fe"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q076",
+      "number": 76,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e173aba73e57222f57537e2493ea5933e3dd13b0844845dd8469dc8cda0e8b90"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q077",
+      "number": 77,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "5949b5f072ac4708ff96bd6e36e0922b65c5b1dd7a449a7fcf443c29227c3ae8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q078",
+      "number": 78,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b88d30891613572c35e39c09317762369b6dfd5db3cac7388aaff38ddbe48f63"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q079",
+      "number": 79,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "9c97aee67edc170716847028a9abafa8686d530875d2231e879d314f05ef2e9d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q080",
+      "number": 80,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "5b6e26589226b0860837654deebfce11abc945a18bbb57f1024312c5b45a8cf9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q081",
+      "number": 81,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "efaf0df8fa9134da1aefc93ae25a7945e9acba4f13f6e0eeb927bf7546bdcf17"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q082",
+      "number": 82,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "961c406e133a46d867076606839dd3e6e51508d2a968b8f5bf1fbee22d3fbdd1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q083",
+      "number": 83,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "939b832a8e8c8eb6610af7b52555bb5f6beca56621440ed1c771333bfd7d7cf0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q084",
+      "number": 84,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d92867a89413342641000b4fc8eb54f43f444b7c46d6bbe93cfa5d6adc93a26a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q085",
+      "number": 85,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f1750312ad671a2931ff095d1640a49df8a3fb9c237ab63f4e9b7acd88437904"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q086",
+      "number": 86,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "a22ffd33482eaea25be88a7e7d7471263ff00e772a19dfc2ff96d3dd150c448c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q087",
+      "number": 87,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "b23166775cc5bcdec5bf39a867b4ae2b1e3967e5746f3e10da28c4cef27a6b3c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q088",
+      "number": 88,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "40b00e2927df8350c356a4b84374519eda14a5ddd59499169aae3df584827adc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q089",
+      "number": 89,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "ecba80e22ea374fb8f745b5d203bb29805e5602733911e4b1d9c706503108d22"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q090",
+      "number": 90,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1a53a699647b8fbb52ea023fd4b62c206ff3c9f29ef3dc1727335a42ecd84917"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q091",
+      "number": 91,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ce2765f96d3b8b5bede4b28a2e2978e5234f192a262797ad0f140e4973d76a6f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q092",
+      "number": 92,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "2d2ec33cac3d5020f210a849e9a0dc52030c364596218291d06592c183214886"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q093",
+      "number": 93,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "a10d2a2e7a4cd7e3ee4c6646275c2c6b3c7ed25853a1a03ff3f0e52cbc54b4f2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q094",
+      "number": 94,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "b424bdab374840d608cdeb6cad8d37ae9a34158ab436f9f2066db3c1af7a115d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q095",
+      "number": 95,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4a9b4a54192e1dca862d8bbd9b5c078090f2032459d18c2ec5cedd323efe0d85"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q096",
+      "number": 96,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "205c23f658ba6227ea4eca040b20c5270fed2e491f82d61789f23b9731028de9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q097",
+      "number": 97,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "efbdd8f2ec72613d3ac0960e092dc8097f7e768262eb23b2646e354ec8a2f0ef"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q098",
+      "number": 98,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5f2faba30ab9df7de0ee4ba176d00c96fe4d53d887538e1ba8f8a8e112a7c119"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q099",
+      "number": 99,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "0fcd8b6aad2633c2abfc001d49ad89d0ce71a93d9d3fd45b94ca3fa3212e24c8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q100",
+      "number": 100,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "6da9222729b239a4672feeaaad7b44f8e1a050e461a7b9b150400494a53c999a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q101",
+      "number": 101,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a2eda2e87411c54b9a761db85653ff5d89e026e95e85156efdf6ec903054d70a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q102",
+      "number": 102,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7cc6ea349519a30d26a399814ab5dd910b53e17b0b43209cf736d4164a473589"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q103",
+      "number": 103,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b467ad25bcdafc85bb2131542bc3ca529d304b21e12f1621eed89a30fd6230d8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q104",
+      "number": 104,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "427e1c143b84957a0c06967187b9cdf9e8b54030b28a918cb3deeac7ba566430"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q105",
+      "number": 105,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ac98c648e7eabcca1a84ad07282a0ef7ffcbf90d7704051436dd780a56a816a6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q106",
+      "number": 106,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "45806b5c3a02f11fc86e28c34e26c60e163d2dd71413578f99b5906b3b8766d9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q107",
+      "number": 107,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ef6588ecd1fcb827858bb384a0fc11d6c7ca1e952ef42a93299cd45775c2975b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q108",
+      "number": 108,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4f10a71ad2e28fa8e6219210ebdf9ced7bf5d62aa3cd781b2ab45e0beb4d40ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q109",
+      "number": 109,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d2d8592d71ce50445a1b81252fd544cbccc1fc17507435f0bb6373971c635846"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q110",
+      "number": 110,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "beb31921c9bf1a1a6a86e1df00be6d1e4381a8498ef8fcab7d31e1acd48d2bc8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q111",
+      "number": 111,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d04b9f60290521ff0917642f7d1c8bcdbb937c3e78b11730c5b11c280034cfa5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T02-Q112",
+      "number": 112,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "02c9a30398548f38996be3fcb6a94c22567993b1564a6e192c93ba0c5ab8afc2"
+    }
+  ]
+}

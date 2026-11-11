@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T16",
+  "test_number": 16,
+  "title": "HSPT Quantitative Practice Test 16 (Exponents & scientific notation · Evaluating equations with variables · Angles in a triangle)",
+  "focus_topics": [
+    "Exponents & scientific notation",
+    "Evaluating equations with variables",
+    "Angles in a triangle"
+  ],
+  "topic_question_counts": {
+    "Exponents & scientific notation": 16,
+    "Evaluating equations with variables": 18,
+    "Angles in a triangle": 18
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 38,
+    "Computation": 8,
+    "Sequence": 6
+  },
+  "topics": [
+    "Angles in a triangle",
+    "Evaluating equations with variables",
+    "Exponents & scientific notation"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q061",
+      "number": 61,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "3a9d79c5b4f574e1c1772a35134bee2ed6d72988827ae0d6d72dff3b505860b4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q062",
+      "number": 62,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "06aff97e6ed645504e08e3cbd00e387acbd7164592f31b4a645b520e85174388"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q063",
+      "number": 63,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f9f67477a404a0e503fb8849cd795249514980a9ceb454a22d1f7a8b1d483474"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q064",
+      "number": 64,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3fb1985c4e35d4f754a39a505e0f83ebbfba532cd088cb82a3207341d30f480f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q065",
+      "number": 65,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c431a39bc0144e725bf3c0d674c75c5f9272d9d94d692098a9f3e735cd34209d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q066",
+      "number": 66,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c17ad18a854d1113f17b1286256181197d9e6eaed8b0fa35d00a00a1e6a55cc3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q067",
+      "number": 67,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "64901e1ff1ef633807527d3bd24bd2197c10307d558bcf7016fa6b71b85ecd49"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q068",
+      "number": 68,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "56a0637a4fc2e2a33166e63c62ee65c818b58a66ae1e83f0e64b5c3138aec1a8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q069",
+      "number": 69,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "3e16e357c89e8ee88556e377ff8a9413d30cd1755f711c787b61aca347c2cd5b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q070",
+      "number": 70,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "d5f0f4929dcccc964d044663558be8ac8d9fc6d1b607db70b2faa5b79f56eefc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q071",
+      "number": 71,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "07a5c5994af56b40e7eedfb88676440cdf620afd7b2c9fa0909a112def4f93f2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q072",
+      "number": 72,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "695e2314af3e1b422ebc0aa6e2dedf2ab4cdf34a9dc3aa776cc901805c7b1c6e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q073",
+      "number": 73,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1198e66073a1eb5a05174c2a08ff08a4a4af22b1f3b5fd7018f34b0c535751ea"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q074",
+      "number": 74,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "742be80f7c5c992a29da2f41161edb44426f450d8dbe9e212c88406fe5b602bb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q075",
+      "number": 75,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9c3191b4a19f660661a48415c458f9b009eae2ee9ff6f93875df9bd98db5a530"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q076",
+      "number": 76,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "cfa0f278412db0555bb315b7545113c81d0ce43e48845ece29faede9a5bb7e1d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q077",
+      "number": 77,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "dacd6bf4991a31e36d32e9e7536895d46d15735f89447980d30b134d75d21c86"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q078",
+      "number": 78,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0814666da3f5aaee943b49b307e6bfe51e774a3a844264c054a04d05983e18ca"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q079",
+      "number": 79,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6a37131b69c63e02441e1b683de5b1cbe5dae8a039d1b87f6f0a261b7760adf6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q080",
+      "number": 80,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b12b2b7a5f45926217a09e4f44b19ed4930739e36a9fa1a23122953dd1e80a1e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q081",
+      "number": 81,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ca7c26d12a1a190fdffe3df00d964c6657195ff1b901eb2697ed04765162a9ad"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q082",
+      "number": 82,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "6a72ee80ee154589c72139f95bac8a5c6ef55f1051dc4630ee3994b246a5ce5e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q083",
+      "number": 83,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "b55b649dcdca50a7499e5159245b4e94347b4599467ee6d94b06c4b12b0e6cac"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q084",
+      "number": 84,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c7a4c4d96f19e9f8bb18fcb3b364a17898bd7af65a29508a2bc15477286d5795"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q085",
+      "number": 85,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ffbde677d84d4d9344203b987ac8e3a5819f621b78a025fe8ae82981b5aa5a80"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q086",
+      "number": 86,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "51daba6ef61c9a86aab56a6b52eed481fde684eeb762bdcd5df50c9c3825e25b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q087",
+      "number": 87,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1d31f2697b2ed67f40165f9822381781bcf8856fb72ea52448712e869ffa31ec"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q088",
+      "number": 88,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b366be8b02fbff931c183a5cccbed9e51e296af65aec2342fd3fed4eb6b5db95"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q089",
+      "number": 89,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "dc06b55196ea87ceebd189e846c463607ec3245373dd8bc03868c22440b9517f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q090",
+      "number": 90,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "a401046516e976edb1b98584fb44251e12de640211903a85c36c9f4513775c97"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q091",
+      "number": 91,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "1fec2d30d5cb21ec2b0c49c59276317346e701f58f4584e8060dd4245f339b52"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q092",
+      "number": 92,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "557e6ac9af34ff9b84fda799147eb225fc5e56da0db59ceb1d996cc181d9e307"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q093",
+      "number": 93,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3b75ec2b55eb7777ebaabcb3d0ff977b676808b386d9c018e67e57d625548158"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q094",
+      "number": 94,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "2ea98525a2952e3eb4bcb9c45b8c907d031ae0d79001a9981797ef1830f9bebd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q095",
+      "number": 95,
+      "topic": "Angles in a triangle",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "97c31b75728d5760dd51c388d983e1669655e32eec6d913f56e7df2607511eeb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q096",
+      "number": 96,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "88699120a2f185137de74ee3553af0e9ef094768eb0d03f92ab2bffc6c0848fc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q097",
+      "number": 97,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "93735374b0871780844c14e27cdf937321212a91e001d2bc150fbb4ce7d8b3c0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q098",
+      "number": 98,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e9179d281e0d35d6c5551b5fb1587e0a8fd09ca9eddbb52d6599affbd5c361ba"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q099",
+      "number": 99,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "7256cac7a516ce22f224d3c485c0e4b09ace756e8128fe8780feffb34522f6fc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q100",
+      "number": 100,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "08fa793aa73e32daab631f85cc4154577e4839eb403ddb193ca0d78186126d0e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q101",
+      "number": 101,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "e51b41530f49f3b9d37fc4b4d2dc4308a3476456009ab5be11ed6a15d6a4edd4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q102",
+      "number": 102,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "28103b3d15fcb97a6abb7467f88f6fbd8883dc535c91a097aa4f355f8516ba27"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q103",
+      "number": 103,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ef33d10601ec8c7187e1168be0ec8b37ff19ff54edf6b150a05d85f8bca6cdae"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q104",
+      "number": 104,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0654c6b9056ac2d6af3e31016d2cee2d8540644d268a2fbe118c819545b0ad83"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q105",
+      "number": 105,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "410bb54009fc130a71643878e7e019a38d0b9269cf2d6415ba073b7e7e80c5fa"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q106",
+      "number": 106,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d6d4d92e15e1b8a3c03f7b4629bc4345b3c6df042003bb7fd07a884d17f62259"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q107",
+      "number": 107,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "fc6421d15d2ba33bf7ab96f1a712776480d9cd816a9e764893f330237040822b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q108",
+      "number": 108,
+      "topic": "Angles in a triangle",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "2cd7e5a9ea8dc347d6b56b37e30966878e51068389b5aa17d364b6b3351e1a82"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q109",
+      "number": 109,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ed32934b11a4ebfe09ceb095c7af570000197102013c7ec606ed14159da415f7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q110",
+      "number": 110,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "eb42ee6aabab8bf1712fa6682be8596e37724a80ee221328072aefc2439d4c3a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q111",
+      "number": 111,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "5c7d62716a2c32164f51799629df7f1ea050fc6baf525b936c9701e074897b6a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T16-Q112",
+      "number": 112,
+      "topic": "Exponents & scientific notation",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "f1132f4c2db45f6eb41418c88ca4dea489115eb091010b2760855a36a12897f1"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "collection_kind": "focused_practice",
+  "weightage_mode": "hspt_weighted",
+  "test_count": 20,
+  "question_count": 1040,
+  "difficulty_counts": {
+    "2": 312,
+    "3": 728
+  },
+  "topic_totals": {
+    "Addition / Subtraction": 130,
+    "Angles in a triangle": 52,
+    "Comparing objects": 20,
+    "Distributive property": 50,
+    "Distributive property with variables": 48,
+    "Evaluating equations with variables": 70,
+    "Exponents & scientific notation": 60,
+    "Fraction comparisons": 52,
+    "Graphs and charts": 32,
+    "Measurements": 40,
+    "Multiplication / Division": 120,
+    "Operations involving decimals": 90,
+    "Operations involving fractions": 100,
+    "Right angles": 30,
+    "Roman numerals": 28,
+    "Slope of a line": 34,
+    "Sum of angles": 44,
+    "Transversal and vertical angles": 40
+  },
+  "topic_difficulty_counts": {
+    "Addition / Subtraction": {
+      "2": 38,
+      "3": 92
+    },
+    "Multiplication / Division": {
+      "2": 36,
+      "3": 84
+    },
+    "Operations involving fractions": {
+      "2": 30,
+      "3": 70
+    },
+    "Fraction comparisons": {
+      "2": 17,
+      "3": 35
+    },
+    "Operations involving decimals": {
+      "2": 28,
+      "3": 62
+    },
+    "Distributive property": {
+      "2": 15,
+      "3": 35
+    },
+    "Exponents & scientific notation": {
+      "2": 18,
+      "3": 42
+    },
+    "Distributive property with variables": {
+      "2": 15,
+      "3": 33
+    },
+    "Slope of a line": {
+      "2": 10,
+      "3": 24
+    },
+    "Evaluating equations with variables": {
+      "2": 20,
+      "3": 50
+    },
+    "Sum of angles": {
+      "2": 13,
+      "3": 31
+    },
+    "Angles in a triangle": {
+      "2": 15,
+      "3": 37
+    },
+    "Transversal and vertical angles": {
+      "2": 12,
+      "3": 28
+    },
+    "Right angles": {
+      "2": 9,
+      "3": 21
+    },
+    "Roman numerals": {
+      "2": 8,
+      "3": 20
+    },
+    "Comparing objects": {
+      "2": 6,
+      "3": 14
+    },
+    "Measurements": {
+      "2": 12,
+      "3": 28
+    },
+    "Graphs and charts": {
+      "2": 10,
+      "3": 22
+    }
+  },
+  "per_test_topic_schedule": [
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T01",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Multiplication / Division",
+        "Comparing objects"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 22,
+        "Multiplication / Division": 20,
+        "Comparing objects": 10
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T02",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Operations involving fractions",
+        "Comparing objects"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 22,
+        "Operations involving fractions": 20,
+        "Comparing objects": 10
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T03",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Roman numerals",
+        "Graphs and charts"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 22,
+        "Roman numerals": 14,
+        "Graphs and charts": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T04",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Roman numerals",
+        "Graphs and charts"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 22,
+        "Roman numerals": 14,
+        "Graphs and charts": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T05",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Right angles",
+        "Distributive property with variables"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 21,
+        "Right angles": 15,
+        "Distributive property with variables": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T06",
+      "focus_topics": [
+        "Addition / Subtraction",
+        "Right angles",
+        "Distributive property with variables"
+      ],
+      "topic_counts": {
+        "Addition / Subtraction": 21,
+        "Right angles": 15,
+        "Distributive property with variables": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T07",
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property with variables",
+        "Distributive property"
+      ],
+      "topic_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property with variables": 16,
+        "Distributive property": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T08",
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property",
+        "Slope of a line"
+      ],
+      "topic_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property": 17,
+        "Slope of a line": 15
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T09",
+      "focus_topics": [
+        "Multiplication / Division",
+        "Distributive property",
+        "Fraction comparisons"
+      ],
+      "topic_counts": {
+        "Multiplication / Division": 20,
+        "Distributive property": 17,
+        "Fraction comparisons": 15
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T10",
+      "focus_topics": [
+        "Multiplication / Division",
+        "Slope of a line",
+        "Fraction comparisons"
+      ],
+      "topic_counts": {
+        "Multiplication / Division": 20,
+        "Slope of a line": 19,
+        "Fraction comparisons": 13
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T11",
+      "focus_topics": [
+        "Multiplication / Division",
+        "Evaluating equations with variables",
+        "Operations involving fractions"
+      ],
+      "topic_counts": {
+        "Multiplication / Division": 20,
+        "Evaluating equations with variables": 18,
+        "Operations involving fractions": 14
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T12",
+      "focus_topics": [
+        "Operations involving decimals",
+        "Operations involving fractions",
+        "Fraction comparisons"
+      ],
+      "topic_counts": {
+        "Operations involving decimals": 18,
+        "Operations involving fractions": 22,
+        "Fraction comparisons": 12
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T13",
+      "focus_topics": [
+        "Operations involving decimals",
+        "Operations involving fractions",
+        "Fraction comparisons"
+      ],
+      "topic_counts": {
+        "Operations involving decimals": 18,
+        "Operations involving fractions": 22,
+        "Fraction comparisons": 12
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T14",
+      "focus_topics": [
+        "Operations involving decimals",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_counts": {
+        "Operations involving decimals": 18,
+        "Evaluating equations with variables": 17,
+        "Angles in a triangle": 17
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T15",
+      "focus_topics": [
+        "Operations involving decimals",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_counts": {
+        "Operations involving decimals": 18,
+        "Evaluating equations with variables": 17,
+        "Angles in a triangle": 17
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T16",
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Evaluating equations with variables",
+        "Angles in a triangle"
+      ],
+      "topic_counts": {
+        "Exponents & scientific notation": 16,
+        "Evaluating equations with variables": 18,
+        "Angles in a triangle": 18
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T17",
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Transversal and vertical angles",
+        "Sum of angles"
+      ],
+      "topic_counts": {
+        "Exponents & scientific notation": 15,
+        "Transversal and vertical angles": 20,
+        "Sum of angles": 17
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T18",
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Transversal and vertical angles",
+        "Sum of angles"
+      ],
+      "topic_counts": {
+        "Exponents & scientific notation": 15,
+        "Transversal and vertical angles": 20,
+        "Sum of angles": 17
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T19",
+      "focus_topics": [
+        "Exponents & scientific notation",
+        "Operations involving fractions",
+        "Measurements"
+      ],
+      "topic_counts": {
+        "Exponents & scientific notation": 14,
+        "Operations involving fractions": 22,
+        "Measurements": 16
+      }
+    },
+    {
+      "test_id": "HSPT-QS-PRACTICE-20-T20",
+      "focus_topics": [
+        "Operations involving decimals",
+        "Measurements",
+        "Sum of angles"
+      ],
+      "topic_counts": {
+        "Operations involving decimals": 18,
+        "Measurements": 24,
+        "Sum of angles": 10
+      }
+    }
+  ],
+  "unique_semantic_fingerprints": 1040,
+  "unique_presentation_fingerprints": 1040,
+  "duplicate_count": 0,
+  "family_counts": {
+    "Comparison/Addition / Subtraction/L2": 14,
+    "Comparison/Addition / Subtraction/L3": 30,
+    "Comparison/Angles in a triangle/L2": 12,
+    "Comparison/Angles in a triangle/L3": 28,
+    "Comparison/Comparing objects/L2": 6,
+    "Comparison/Comparing objects/L3": 14,
+    "Comparison/Distributive property with variables/L2": 12,
+    "Comparison/Distributive property with variables/L3": 24,
+    "Comparison/Distributive property/L2": 12,
+    "Comparison/Distributive property/L3": 26,
+    "Comparison/Evaluating equations with variables/L2": 16,
+    "Comparison/Evaluating equations with variables/L3": 38,
+    "Comparison/Exponents & scientific notation/L2": 10,
+    "Comparison/Exponents & scientific notation/L3": 26,
+    "Comparison/Fraction comparisons/L2": 17,
+    "Comparison/Fraction comparisons/L3": 35,
+    "Comparison/Graphs and charts/L2": 8,
+    "Comparison/Graphs and charts/L3": 16,
+    "Comparison/Measurements/L2": 12,
+    "Comparison/Measurements/L3": 22,
+    "Comparison/Multiplication / Division/L2": 18,
+    "Comparison/Multiplication / Division/L3": 36,
+    "Comparison/Operations involving decimals/L2": 13,
+    "Comparison/Operations involving decimals/L3": 22,
+    "Comparison/Operations involving fractions/L2": 25,
+    "Comparison/Operations involving fractions/L3": 55,
+    "Comparison/Right angles/L2": 9,
+    "Comparison/Right angles/L3": 15,
+    "Comparison/Roman numerals/L2": 2,
+    "Comparison/Roman numerals/L3": 6,
+    "Comparison/Slope of a line/L2": 10,
+    "Comparison/Slope of a line/L3": 18,
+    "Comparison/Sum of angles/L2": 10,
+    "Comparison/Sum of angles/L3": 22,
+    "Comparison/Transversal and vertical angles/L2": 10,
+    "Comparison/Transversal and vertical angles/L3": 22,
+    "Computation/Addition / Subtraction/L2": 6,
+    "Computation/Addition / Subtraction/L3": 18,
+    "Computation/Angles in a triangle/L2": 3,
+    "Computation/Angles in a triangle/L3": 9,
+    "Computation/Distributive property with variables/L2": 3,
+    "Computation/Distributive property with variables/L3": 9,
+    "Computation/Distributive property/L2": 3,
+    "Computation/Distributive property/L3": 9,
+    "Computation/Evaluating equations with variables/L2": 4,
+    "Computation/Evaluating equations with variables/L3": 12,
+    "Computation/Graphs and charts/L2": 2,
+    "Computation/Graphs and charts/L3": 6,
+    "Computation/Measurements/L3": 6,
+    "Computation/Multiplication / Division/L2": 6,
+    "Computation/Multiplication / Division/L3": 18,
+    "Computation/Operations involving decimals/L2": 5,
+    "Computation/Operations involving decimals/L3": 15,
+    "Computation/Operations involving fractions/L2": 5,
+    "Computation/Operations involving fractions/L3": 15,
+    "Computation/Right angles/L3": 6,
+    "Computation/Roman numerals/L2": 2,
+    "Computation/Roman numerals/L3": 6,
+    "Computation/Slope of a line/L3": 6,
+    "Computation/Sum of angles/L2": 3,
+    "Computation/Sum of angles/L3": 9,
+    "Computation/Transversal and vertical angles/L2": 2,
+    "Computation/Transversal and vertical angles/L3": 6,
+    "Sequence/Addition / Subtraction/L2": 18,
+    "Sequence/Addition / Subtraction/L3": 44,
+    "Sequence/Exponents & scientific notation/L2": 8,
+    "Sequence/Exponents & scientific notation/L3": 16,
+    "Sequence/Multiplication / Division/L2": 12,
+    "Sequence/Multiplication / Division/L3": 30,
+    "Sequence/Operations involving decimals/L2": 10,
+    "Sequence/Operations involving decimals/L3": 25,
+    "Sequence/Roman numerals/L2": 4,
+    "Sequence/Roman numerals/L3": 8
+  },
+  "difficulty_basis": "Designed and structurally verified with shortcut rejection; not empirically calibrated.",
+  "reference_question_count": 2080,
+  "reference_registry_sha256": "6152d7604d6b787c4da1720ae277ac5c49a750ec78785001b77f8d1c923fd3a0",
+  "cross_collection_duplicate_count": 0,
+  "time_limit_minutes": 35,
+  "per_test_target_seconds": [
+    2004,
+    1992,
+    2004,
+    1992,
+    1992,
+    2004,
+    1992,
+    2004,
+    1992,
+    1992,
+    2004,
+    1992,
+    2004,
+    1992,
+    1992,
+    2004,
+    1992,
+    2004,
+    1992,
+    1992
+  ],
+  "duplicate_candidates_rejected": 0
+}

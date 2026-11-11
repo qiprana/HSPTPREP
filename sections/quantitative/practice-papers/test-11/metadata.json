@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T11",
+  "test_number": 11,
+  "title": "HSPT Quantitative Practice Test 11 (Multiplication / Division · Evaluating equations with variables · Operations involving fractions)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Evaluating equations with variables",
+    "Operations involving fractions"
+  ],
+  "topic_question_counts": {
+    "Multiplication / Division": 20,
+    "Evaluating equations with variables": 18,
+    "Operations involving fractions": 14
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 33,
+    "Computation": 12,
+    "Sequence": 7
+  },
+  "topics": [
+    "Evaluating equations with variables",
+    "Multiplication / Division",
+    "Operations involving fractions"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q061",
+      "number": 61,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8ebba213b5246e3a2198ee3979c44029557cd4d89988bb790f3ff07b00751ecc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q062",
+      "number": 62,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "8fbbaead6d1bdfa73c34536a34f9e7a659da352d50938ba4b2efea4dbe42b8a8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q063",
+      "number": 63,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1da56715da131b32bc14276824c434522fb1781a667675f4bbd12bd56361df2a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q064",
+      "number": 64,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7202cf1bb6737a88372ef8d3f6861610651a1879759fd09dd143069a1b4ffc85"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q065",
+      "number": 65,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6581723e1d5356b0f35ed217297ace3acac43bde4a7d8143e3e48e49bec5d75f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q066",
+      "number": 66,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "c0fe528ce133893818b70c1be76f54c9230d981bdf484a581ad2f111f21be6df"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q067",
+      "number": 67,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "daeb6bfc6ea8ba87ae6e5c5a1d62f6f0792e7019d11389e0420132cad7971522"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q068",
+      "number": 68,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "7aa59f111e69ff5472d08de0d00d8d47a655c27e567fb081458902f73f985e3a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q069",
+      "number": 69,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9393670bb9d567bb1db51426813a9b14552814823317b3645954bb0648872cb1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q070",
+      "number": 70,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c0f6008cf69e49ab8febb9925a32803fe87f8e7ace5df0c0a768d91736b46be7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q071",
+      "number": 71,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "74ac8c05f5db4b2d6dca0de6097135ea1faacd34bfa7a0a978fb8fd6ee9a8b95"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q072",
+      "number": 72,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fc78afb60ced947e6faa0f34e862155dea1a8e2ead69abfceb0f51d9b017db78"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q073",
+      "number": 73,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "10999373cf8c908f0f3d82c7346c5b0411675bdfe43eb666c648896ab2fe4d5c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q074",
+      "number": 74,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1ae6c108742d2be96033383e448ac1b97c4d778f738fab8e7bb5e6fb077378fd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q075",
+      "number": 75,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1aaac195ae75225f51a61dae8854d1d72f05b7e45e7f4e0ece1b5add8e563bf5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q076",
+      "number": 76,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c9d1e2a7f3d69746d52d52d01f0a53aea78afad90bc9d01c19535296055bba93"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q077",
+      "number": 77,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "8969c54629ebdd5d0ebc0773fe5b952bc736c3652a155f54f981e4a97373116d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q078",
+      "number": 78,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "a264fa5b7bda274ccaa88fa26a39318aba5f925c1939e5fb2c884f62e4a4b214"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q079",
+      "number": 79,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d51b78f715f2341d836d1813c780f82b1e14922262fbd81234f2ffe7b7d5fded"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q080",
+      "number": 80,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "c002f6b5a4f09656a26f8828245bb3b64dfe55807d31c143ec5a6fcbe202dcdb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q081",
+      "number": 81,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "eea2d95e04e76bb5487ba5ad27d4ff58a3ec968cb146b663e41809d24234b86c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q082",
+      "number": 82,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7dc2226466eb2a6e8f8966c41dfaf4993a177197ae67bd4b598705dd1d7c72fb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q083",
+      "number": 83,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "9583f3b5145e5a34f99f00459c6f845bb8f3ce49abb6c75617ac7c28203484e0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q084",
+      "number": 84,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "4c4ff734c049b31d65e943409c76aac64c41114f1e186c74289179540a8b8528"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q085",
+      "number": 85,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "acc0ee4a6d6d580cc69ff8b34faf7e8afe29bbc73ff0eb9a1cced95c15c731ed"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q086",
+      "number": 86,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4c0cdb83e6a45313bdd03845107e19fe11aa52b04a9d1ebb205a912c2d97258e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q087",
+      "number": 87,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d08cc9949db72f6797fbeb98eea22702a51bcb95be235f7dff8fffbd740f0586"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q088",
+      "number": 88,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "39e9de369b01d823025d9524f0ea670b67acb004e74f72807eaa18718f7a285a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q089",
+      "number": 89,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "14fcb26e20e21d576d55d23e89cf454469326b490175b7777ca79356d7b11287"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q090",
+      "number": 90,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9288d272bb7f3a4dabd4da14f7fe64b0df6eff2307a7b2997fcb8f4d658228d4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q091",
+      "number": 91,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "e71560559651ce565b7325a134344bb4b141de71e4cf74af49097e663de9a378"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q092",
+      "number": 92,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "18247c5288eb50f23eb110cc7bb372a430f2c420699c21c7e29fda8f44d59fbc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q093",
+      "number": 93,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "2cee50b93043381aad3b2b328e9569c45a37c6d9d6a1c63ac4304998ca9a50d2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q094",
+      "number": 94,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f3007db8cb0e797c41b0903ede603bb2ae4921424c9343bf71377416807330d3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q095",
+      "number": 95,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "71150cace85ab391adbbcb3d38b92af81ad2bf7a0f98791880c7cfc13f80f043"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q096",
+      "number": 96,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "982fef20ef31bd8e1d163f5a3ea52af57da3f4b506beaf967ecf2db60d94b2a2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q097",
+      "number": 97,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "61b500e03b5fd0b63fa4b6420dd75cdfdac8428a87b26c72c9f9df516d04fce7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q098",
+      "number": 98,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "28de266c6348ef03ec1e5b4d18858835ad5ea5597b19622f84f21959d500438e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q099",
+      "number": 99,
+      "topic": "Operations involving fractions",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "91383cd18a13d7ed09d8ff3d3ec791cac41fdc155afa16e9a9928142e7ef55b7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q100",
+      "number": 100,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "323c7b3b4ed3a4e344fbdc5ce7738647a1ad954137b4497f1186999f28df14d2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q101",
+      "number": 101,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b998fe5eb85063d9c9fc758de511ffcc3fcb86afabced14a9ba6d8f31c124f87"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q102",
+      "number": 102,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "5810918c5a62309be4b18b5430b81d5820e4005d6b2ed76fec11ca0f526296f8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q103",
+      "number": 103,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6521a2203dc46c3096c1faa225fae120fbb358d8470ac966e11fbf36d13070f3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q104",
+      "number": 104,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "39630dea252ec335c1c38c948243d3d56b83e2c057b040230e1a7f18db4bbbfe"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q105",
+      "number": 105,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "880124d7c4320d7437a9ebae7dab3dad85ec8905159b2231dd913f0576eca2e9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q106",
+      "number": 106,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4e6bcb16203a18d2ef47859079883b63753a780886c37bf8124005ee5603d13c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q107",
+      "number": 107,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "f4f47615b18a161b14cc2a3ddec12f93ce80d4d15d8f60d8927449ec624b4e6b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q108",
+      "number": 108,
+      "topic": "Operations involving fractions",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "4273a319c5da0073b8a5bdd299f44facb75f0edcd0706cbaac649d4e2d9f45be"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q109",
+      "number": 109,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "be05d8f32bb28b20cbe84b19c8f0ba3562efd295dcd52342152f3312a8ad60fc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q110",
+      "number": 110,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3ab84a3d643818aa3f7eaa0e0e63f36241e838b8ef7dd52aa182e9e11ad87652"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q111",
+      "number": 111,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "4f69e286660afcf5cbd1c512888d49d35ea322ea7dd02be1d1334db701f61cfb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T11-Q112",
+      "number": 112,
+      "topic": "Evaluating equations with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "dd2b69778edc9da639a33c957bfc96ac4fd3a5ad81ec7aa87e0e2995454d9cb9"
+    }
+  ]
+}

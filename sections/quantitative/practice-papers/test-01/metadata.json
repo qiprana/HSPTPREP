@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T01",
+  "test_number": 1,
+  "title": "HSPT Quantitative Practice Test 01 (Addition / Subtraction · Multiplication / Division · Comparing objects)",
+  "focus_topics": [
+    "Addition / Subtraction",
+    "Multiplication / Division",
+    "Comparing objects"
+  ],
+  "topic_question_counts": {
+    "Addition / Subtraction": 22,
+    "Multiplication / Division": 20,
+    "Comparing objects": 10
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 15,
+    "3": 37
+  },
+  "archetype_counts": {
+    "Comparison": 26,
+    "Computation": 8,
+    "Sequence": 18
+  },
+  "topics": [
+    "Addition / Subtraction",
+    "Comparing objects",
+    "Multiplication / Division"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q061",
+      "number": 61,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5c810b0d109f63fe2e81b93bcedfd4209621cf91008ad10eec2b344558edafde"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q062",
+      "number": 62,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "8cc6598492c5b9c7bd5bbed0d9035dd29e5e3a8681f8c2f700596b0e97424697"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q063",
+      "number": 63,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5e72a1ffad521526f9a64215ce951a33097f432a734c408a3c851373e60cf174"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q064",
+      "number": 64,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e457a944af97fbd73261adefbf57cb5623ced502fd330a0139ecde54fbd67b0e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q065",
+      "number": 65,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ee76d97381931c19cea0fbdc6dd107f2ddddafba5bc667c0f918be62b17ec42c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q066",
+      "number": 66,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "3f4533e672d19f4df237d452f3c7c1cbca157853ad1dba8c4800d1f55b27eb66"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q067",
+      "number": 67,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "4d68e69285408f9c92a0c00bda96317ed29cf7113c9297e648e07c9c47a57212"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q068",
+      "number": 68,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8051297018ff7a88ed5ba64ee588a63fe9a747937792ffe36ab4299942494d7d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q069",
+      "number": 69,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "8f7bca4e8c17e57ddab85da08c208dcbc8b55c92517c2f603fed4afd8c46eb01"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q070",
+      "number": 70,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b033ffba584d25d4a0927e7ef2021f5870c4af7bda11914df2330f3b4ef5f854"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q071",
+      "number": 71,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "cc0dd984bc5596e06f69e79445309097855f0c6699adcfdaeb6301eebef22c45"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q072",
+      "number": 72,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "3fc8732bac31454de6da3105039f3ef706f304788fcae90db4657833f6304796"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q073",
+      "number": 73,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b7f41610bd6810268409274680f8a995045b56572e12692baf35dc900f23e368"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q074",
+      "number": 74,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "97547ca85e6fe48afbb17e49bb802e0f6c06e341f5f23e283b81a7ef986046a4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q075",
+      "number": 75,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "1f430e981d7734d50a7d1e9aa21b11e4b1ec1483aa8ec9276d91b760927105a3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q076",
+      "number": 76,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3a16d124e96e5a5b2e5c0d7134656bdebaca2b293bb0eddded30e4157f852829"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q077",
+      "number": 77,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "e43881b93d4cc1004f44c052c20f07f521857d26286d231a9608ca4b6551eef8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q078",
+      "number": 78,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "c41a88900ca98a8c18212eb6775078fdbc70e212d189a3058f7ebdefb70a8b98"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q079",
+      "number": 79,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "906934979a1c78dbd1488a6ab8a0bdcfbeac71dc529e7c09e38a626bf4287e06"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q080",
+      "number": 80,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "35a39416ab7bd1055300c9a1127530bddd549e4806de9e508943841e68ead46a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q081",
+      "number": 81,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "5e0bc37bd6c1bd32120d288d8169146ced51f900ad96ab5bf346ac0340b2c4a0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q082",
+      "number": 82,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "7eba89df1046eeaf35dae07ab7575af9e42fa920544b965b884dee96858e0c44"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q083",
+      "number": 83,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "54762fea78284c8d49fdd282749fd60ec60cd8c8b673e5eced2bb9bc76361f61"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q084",
+      "number": 84,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b8cf0338bb13dfda21ea2ee29369c916b1fd900bab5ddfa11b28a2825262ae4c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q085",
+      "number": 85,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "f355cafa225e26a79de110cfc7f5597b3b1041a644adcf38b58c157e14ab5d25"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q086",
+      "number": 86,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "ad756a660ce3c00151893e432ab4e370a58da700987145541c3b2557f5c3f00e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q087",
+      "number": 87,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "35becd5ade30b053441f932bd194189f0cb59104ac8a6831f91e81e54ae2ca59"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q088",
+      "number": 88,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "388d863b92b149627e50208a65b119f3754f4b41d8f9c5142fd41dc65bc9e124"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q089",
+      "number": 89,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "34c8f86fc6d0c69033f35b786c444a9e1c363ae93b363615fd9e5b494bf625dd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q090",
+      "number": 90,
+      "topic": "Addition / Subtraction",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "ec099242f5cca5b19c5d9749d660b7ef15169187d999b2f62204c03ad0490e60"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q091",
+      "number": 91,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "fac02a4ebe88df5209d667ea1ac6f2ef59c0b00bead427921dc60406d14e12b5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q092",
+      "number": 92,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "50af8cd067e5c54ce462abd7c7ca753bb07dc1703e2fe0de63b1500c27a05c8d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q093",
+      "number": 93,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "3c11d8d6ff18ea9d65178479e78d1d25f130173a298155e4d416f31fbe4c9a6c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q094",
+      "number": 94,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "1184b356b4aebcd7df4f11e850bc5c610b18bce206d7cb89e71f575fc44dcf3a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q095",
+      "number": 95,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "e96755ac9a62be896a3a5647bdd637e06d8e7c498d6705979c6dcbf635389c6e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q096",
+      "number": 96,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "146dcdff6b71dac59101154674198b737277879f1edf8d0bc47a44773d496b9c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q097",
+      "number": 97,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "3f164ee46036c3a62f8ce99dfda177f873d975ead8a57182e7eead3a276752b6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q098",
+      "number": 98,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "4125759a431756d5945c782bbd0b1a37fd67ee7a057f4c25b7ac1aeeedebb928"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q099",
+      "number": 99,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "29efdd9eb4e9c51bf46fc73ed590419630877507fd007d013bb749cd2618c9a3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q100",
+      "number": 100,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "407852a8c260fd7492da4c7a9f69bf26e13209b9d3f15dcabe4d5e3dcfa28b48"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q101",
+      "number": 101,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "cd2d7cf821650a9ea55b5a95cb2d97c824c56027dcff9cbdac11d95bc1f10743"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q102",
+      "number": 102,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "53e80e797f4bbaf12511afab8ebaedd1edb20e97d5dfd0ff293d98069c1a6570"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q103",
+      "number": 103,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "8d456884c0acbfde7e7c849cf16672372b58199e1721f5e94da33d84ebf2c6cb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q104",
+      "number": 104,
+      "topic": "Addition / Subtraction",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f85ae690f507582d61956b1fbaf94c0d1bd4e3f24b68c6aaeff794d89197d621"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q105",
+      "number": 105,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c41523c1c2c527a75519e5e71fc58d836ae57f4dd5e57ce8f4e6819c0f6ea891"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q106",
+      "number": 106,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "1b79329c52ca71c26ae3b3d60891522c6073d253768dc1dfcfa7c48b20e5eaa2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q107",
+      "number": 107,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "f7ca339adc8a99fb4298c5ca01305126e3daec55d253c71569edd1a8c00e79ce"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q108",
+      "number": 108,
+      "topic": "Addition / Subtraction",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "e8d1febc62f2101a31c391134cf6d09a927d36ebf482e2c7b8f3cfd92d38fd7b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q109",
+      "number": 109,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1cd52086eb817fc099185f3a928045d061ac37b90ba1ac7941a2d2ce4719cedd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q110",
+      "number": 110,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "649e5ded1738814d7c63af6ef0bf44b42ae86ad9d0a3e16618575c3b04497d76"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q111",
+      "number": 111,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "17b56840cf548534ac8b424c706882671a5865f75e92c8d08801f80763d6af3f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T01-Q112",
+      "number": 112,
+      "topic": "Comparing objects",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "773d2616c0afc72851e639e782282d976b60e56564f11acaeeed49caf386cb0d"
+    }
+  ]
+}

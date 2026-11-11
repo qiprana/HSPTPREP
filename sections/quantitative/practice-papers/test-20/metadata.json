@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T20",
+  "test_number": 20,
+  "title": "HSPT Quantitative Practice Test 20 (Operations involving decimals · Measurements · Sum of angles)",
+  "focus_topics": [
+    "Operations involving decimals",
+    "Measurements",
+    "Sum of angles"
+  ],
+  "topic_question_counts": {
+    "Operations involving decimals": 18,
+    "Measurements": 24,
+    "Sum of angles": 10
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 34,
+    "Computation": 11,
+    "Sequence": 7
+  },
+  "topics": [
+    "Measurements",
+    "Operations involving decimals",
+    "Sum of angles"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q061",
+      "number": 61,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "d037ea2926cd76457b652f7620046cf6746c38abc36b7af9c819428814cce0a4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q062",
+      "number": 62,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "873a84131d844f11d982b0713f86378eac6016b2a55d57240538e95ca93731db"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q063",
+      "number": 63,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "fdb1763cdd13e692ba680e04e4348f552efca6e416507529627e8267e8745c9f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q064",
+      "number": 64,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d9db683751ab6fb92eb1502b240baa09e93626a80450ad0bda570109982a0ca8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q065",
+      "number": 65,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "8b860e3a57ca7c1e56924641c3b69770c5897b7b8d4a4f948b6f15aff3947110"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q066",
+      "number": 66,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "727841b1252d403c41735baf91e30130065ecca71435b59c88ff5e0258d443f3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q067",
+      "number": 67,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e747fad9119fd2ad1e085aa75d1f7bb8ef4050589b517f81f145463af2b1c336"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q068",
+      "number": 68,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "c06cb1a87eb122d0a15776236c8208d62a77d85ab0dbcac283666f6e7d1098f9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q069",
+      "number": 69,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1fae2e1a1e3d06e8cdeec68a1c913ac8a63f461bf02dd7a7457d17a4c5c23acc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q070",
+      "number": 70,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e484ab44892c74f1e0049092331f15c687ba8218d76d5a20c025bf7e1a5bff10"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q071",
+      "number": 71,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "4fb030219fbeb5673c6b480eed9956992fe01e6876649e680a1221f05bc969a2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q072",
+      "number": 72,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "ccd64f14cae85bb0292a60e67c55f6daa426b1cbf6b2dd545f60f9d2e0c576ec"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q073",
+      "number": 73,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "0d6b5dc4d04204ba7798f7de6b19877979f57455fbda46e51d3e5b0461bab58c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q074",
+      "number": 74,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6fa50278d9ee8e24c1060c90109d02d5bc110b4014a7c469e36cf81c179bcb11"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q075",
+      "number": 75,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f5cc026a0d4012b458b6f71593fbeaebeff6d05790e4b85bf059f44c7488eae5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q076",
+      "number": 76,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "023a489d16a5e7f1e19349779ea0bff09f9e9af3fa7663be43573b6d8ac13774"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q077",
+      "number": 77,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "e876856df2cce97958d1d3da00b0b51a5bd4166729299a3663d1cea85a150460"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q078",
+      "number": 78,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "0f80f2ee47022c91da55826a79bf3cbfebfa7c66f9098447468c5c710c0930de"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q079",
+      "number": 79,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "49d041ab03fa9f31f840612716386b177f88c08531fdf2122525117c613389ce"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q080",
+      "number": 80,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "0b728583411df2d1e1788d3b772fbf8f6fc8ffed94364897973c31cc2890c04f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q081",
+      "number": 81,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "f88b80d204b5fe68a55a03d24a13ab9bdacbb208ca6b7b9e878523d09a550985"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q082",
+      "number": 82,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "23980eb16889c00e92c5587a1106973e21b3b53fdd410af93ee667eefd4f50ea"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q083",
+      "number": 83,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "1dd6e5640adf3ddb1bd5ab49331e9a1c9a7af62a45c08936caa23eadc568433c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q084",
+      "number": 84,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ddf0d3c6b864433ed655486768d5bee6141f92a4ade63dfc545e67678894b19c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q085",
+      "number": 85,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8443effe4a466122e77cc926e2ebe1b90a26491e10df54104ee0498a4d794dbd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q086",
+      "number": 86,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "79a199cd9adfa6cf3f01e32c33fd5cfd29bdaf79dde0de8d8c9baa0264f1c1cb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q087",
+      "number": 87,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "fd840507a82487e621deb6cee3d45b8d0d7457dad4c7e9625da1c4658c7cf38a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q088",
+      "number": 88,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "47019bd86cd2c30e0e8b1e09838adf0d9b2f1a43586d9f166444498a5f204b5f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q089",
+      "number": 89,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7b448eb7678ac5b107f0423c7c1d9f7ad3e517a9d5ccaad7873474effe3c6976"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q090",
+      "number": 90,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "6fd8a47a6650898fb04b272de1883147d4327bf80ab2314fd0fb8192feaa2f79"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q091",
+      "number": 91,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e68dac9224ac6a3edbe2d0e9652f17a79ce420e77920626aabea310a6791a811"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q092",
+      "number": 92,
+      "topic": "Measurements",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "23a9ce94ab499fb987dc004b021951b239b9d449fab552c558acad3bf1b0528c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q093",
+      "number": 93,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "0ac4942d8a430da22342e2ef1cc58c5ab46ffceb964e67180f79830ce50519e9"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q094",
+      "number": 94,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1bafbe0a5aba95a460b8a293c9f5bd1bb57dd21cc831ac9eb07688041370c106"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q095",
+      "number": 95,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "70be3de3436f859573511e1d3a0de21ad005697345bd32745afed8ef5b2e7bb5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q096",
+      "number": 96,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "fbfc377ac5db33973337ee032c1aeddc0de2de6d7c2d9b20a3e1c81363c9ca67"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q097",
+      "number": 97,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "dc5cf53334af0beedcdb9e609a81e7a5fcd3d153f0184bf272160e1dd6662e32"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q098",
+      "number": 98,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "290ab292fa14f57af5c5dd520299fef051a1fbc718884bb51beb36be518441c2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q099",
+      "number": 99,
+      "topic": "Operations involving decimals",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "e7eea096c1af585e67ba2a8c024ba8f3a0b06c15a2dffad8b177a4d24cb991b1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q100",
+      "number": 100,
+      "topic": "Operations involving decimals",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "cf18ef430c56c92698ae62c61645bbe6f2eab515d3c1cd0dbaa71dc51be7b4f8"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q101",
+      "number": 101,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "088678aba083baa35dbe56df4827b62ec029c7c14967a01c1d9438b48a119a3e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q102",
+      "number": 102,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a018a520e8226e1929331a316e6f60237c41396766bcf817598a38573b69a35b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q103",
+      "number": 103,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "ead4ce7bf6c9d8b310a528927fd54b89704b51d8240880c69e97344d461fc9d5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q104",
+      "number": 104,
+      "topic": "Operations involving decimals",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "207edcb5f1d5da15672ba878262bc3e7bdf853fa70934a6bbfe5ad9fe03e8407"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q105",
+      "number": 105,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "147faa349d93ee0416b8efc4000a956f9e3e6f1c95f209a70acb6060cdf9979d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q106",
+      "number": 106,
+      "topic": "Sum of angles",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e18d659d5637254ed1d06b932e0b0e545c96107102f425f6cb44f35584ab0dc1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q107",
+      "number": 107,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "66c1f826ce5c5f9489ee200e39779f38e08a73465c65e66af46fd94059a0fd08"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q108",
+      "number": 108,
+      "topic": "Sum of angles",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "63426378340e880cebdda6dfe6d63ecb3eaf3f2a0fe7fa508c1430c62ed508e6"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q109",
+      "number": 109,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "501efa4c4410e4ee50bc79eca314d8cf3856f162f3a036c97435a787036ca57c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q110",
+      "number": 110,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "525aa2d60d10f74dc7d19ae46157762ce9a152a1a4cdd8978478397779250467"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q111",
+      "number": 111,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "178ccce6956bab6088540ce8070eb38267fbcaaaf4ed88e868483b770e69da6a"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T20-Q112",
+      "number": 112,
+      "topic": "Measurements",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "b0b273f56a0bd1eb3bdced21649885f56f630775fdf8164655c01d55c983a730"
+    }
+  ]
+}

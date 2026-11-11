@@ -1,0 +1,24 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "test_id": "HSPT-QS-PRACTICE-20-T15",
+  "status": "pass",
+  "focus_topics": [
+    "Operations involving decimals",
+    "Evaluating equations with variables",
+    "Angles in a triangle"
+  ],
+  "topic_question_counts": {
+    "Operations involving decimals": 18,
+    "Evaluating equations with variables": 17,
+    "Angles in a triangle": 17
+  },
+  "question_count": 52,
+  "math_verified": 52,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "duplicate_count": 0,
+  "collection_uniqueness_verified": true,
+  "difficulty_basis": "Designed and structurally verified with shortcut rejection; not empirically calibrated."
+}

@@ -1,0 +1,460 @@
+{
+  "schema_version": "hspt.quant.practice-collection/1",
+  "collection_id": "HSPT-QS-PRACTICE-20",
+  "weightage_mode": "hspt_weighted",
+  "test_id": "HSPT-QS-PRACTICE-20-T07",
+  "test_number": 7,
+  "title": "HSPT Quantitative Practice Test 07 (Multiplication / Division · Distributive property with variables · Distributive property)",
+  "focus_topics": [
+    "Multiplication / Division",
+    "Distributive property with variables",
+    "Distributive property"
+  ],
+  "topic_question_counts": {
+    "Multiplication / Division": 20,
+    "Distributive property with variables": 16,
+    "Distributive property": 16
+  },
+  "question_count": 52,
+  "time_limit_minutes": 35,
+  "start_question_number": 61,
+  "end_question_number": 112,
+  "difficulty_counts": {
+    "2": 16,
+    "3": 36
+  },
+  "archetype_counts": {
+    "Comparison": 33,
+    "Computation": 12,
+    "Sequence": 7
+  },
+  "topics": [
+    "Distributive property",
+    "Distributive property with variables",
+    "Multiplication / Division"
+  ],
+  "files": {
+    "json": "questions.json",
+    "sqlite": "questions.db",
+    "html": "questions.html",
+    "validation": "validation.json"
+  },
+  "questions": [
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q061",
+      "number": 61,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "b7fe3c506ab0dcbe6bbbbfae3c87112bbd129038943325f827ed6626db3185e4"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q062",
+      "number": 62,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a5c60cf669ed4730f804b6e61c2692ab74c9b153b0cc80bde937943add7722ab"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q063",
+      "number": 63,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "6d9b63883a7c3736a30bcd968668a89c66cf03f74ffa8eea2cd3bd65681eada5"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q064",
+      "number": 64,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "595f5bf55f65cabdf695dcb199cb420b267899a9b3c21d4cd78278e1ecb4b063"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q065",
+      "number": 65,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "ff4c9ac381e4d71acc75059375e729059412228c49d903f00fcf80f65138f1e2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q066",
+      "number": 66,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "abcea91f054ab4d0bff841b3b6b16cd07bc273b74f806fa7abc667aa272403e3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q067",
+      "number": 67,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "2fb9e85407b17f581b3cfd24a7df0fc4f6b431d6f8a8a68eec72744ef6a0f618"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q068",
+      "number": 68,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "46cb46c3c899f5836ed1c8b8fc4bd0158c3df72a6c64c7d22aa01dc3a6927e34"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q069",
+      "number": 69,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "4a379ea6176b43fc8d1c19218030cf1c0564e594e1e2156bf6eff7d1547a9bee"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q070",
+      "number": 70,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "9f16432dc695f8133dc40860b1944f0c8115a661672889be737ef216ee0ff118"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q071",
+      "number": 71,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "51079c5d3dff9bf6a6e20b5152aed3b8a29f87d2c4ad09e83e7ccef6d9b9cd37"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q072",
+      "number": 72,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "757f81c58e6d9ec78056be7dac1d00271da5d8d0c666f0ed8b1d427644f9171f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q073",
+      "number": 73,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "7096fd301bd39c045f37a870ac976283ff93aec0fd8192549c55cd9f705a8547"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q074",
+      "number": 74,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "0ad0af6857ef3d859dbe0fb227457a371e03281ccc2ec79b0a34cb56c05c036c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q075",
+      "number": 75,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "f25793d5ae0d2cd997642aa65e3627d7d1e9e52460ef0b5147f4baa6c3132f00"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q076",
+      "number": 76,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "5b2a3c4d26838cc2f345e67e26b41f0bd2fea950bcb6adbfcd500016730f3f55"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q077",
+      "number": 77,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "de0e7ef85ddeae287a133a3cbd79e5afc6fec4d41a7c6fba3dd743c730e52789"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q078",
+      "number": 78,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "0a613e9a92ba6f2164b9cc7eb63935f01a3ceb32970e4c4ac73a2eeeaa9930d0"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q079",
+      "number": 79,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1dbe6da02dcdd354ae9d6425aa5b263fbf5e1be51bc6721fa45f92b1d10a4323"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q080",
+      "number": 80,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 2,
+      "content_fingerprint": "48fefdf8c98eb7c80f1f1adfffffe4bfa6973c70d1d60e8b9be1189a7d37162c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q081",
+      "number": 81,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "384c4e2fa70318452ae2e37ef6dbaf4ea348a49d513df183bb211cda253303fd"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q082",
+      "number": 82,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "c60e2357f1f09b0096c6a7716cd94b98e31635a4c973014a9ebc146f8747ee7b"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q083",
+      "number": 83,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "401779862b53284386c835bbba58f6bbdcf9032a8a00349adfc59270626adacc"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q084",
+      "number": 84,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "1286d60ce219620ec3330b926160b3d79c610ca0025e86fdacd1b7ef6c535420"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q085",
+      "number": 85,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "34aef9de4e93b4822de1d47b28ba87a25844f79a625ae74e3424e2e52d9a095e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q086",
+      "number": 86,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "4af0bf1b78bef0489312be0e32d11a95d3318ae508261f3bac662cff4c110195"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q087",
+      "number": 87,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "8d29e8caba9ad250fa9fbdf79b09132f3c88982a3cf0bc2229241d2e62cdbc8f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q088",
+      "number": 88,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "1b5fcc11e66cea1f5daddc48d0f3ce3dd56464dc1e0493c0100581d9ebdb3a79"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q089",
+      "number": 89,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "42a181ea6f531bc805bb692d66e558315bb513b6700947a2d54c1295f7ed7067"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q090",
+      "number": 90,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "90f8e25b55c67d9da81df1e494e67198212745a89512b8c1638d3cf48e17122d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q091",
+      "number": 91,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "958289994e9c3e72609e948679606df85e38fee62dca8fe5142fd22fee176da3"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q092",
+      "number": 92,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "7e384a2d968ef808263713a12ef400c945fed4427778d227c92421ee715cf3c7"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q093",
+      "number": 93,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "9618ab52181aa846c3d66bd9978d5eda534fd465036a5ed90c5f43dec8ba205e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q094",
+      "number": 94,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "e0a96dbabce0e136e5a7daab64110e2028552fcbb29e0f00674e02b22d6cc66f"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q095",
+      "number": 95,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "38b71c84610dca5f04b8c92c07d9c4203615edcc3d4f1f4cddd2759cc33d6cb1"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q096",
+      "number": 96,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "563c1ef15e2ff47a0a73009331b25c0a163b3c30f61eb3fc72aff51a84d666fb"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q097",
+      "number": 97,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "48bf78742b034eabec100cc3c0afa023cb19f7e8104a850e49c39a04deafda25"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q098",
+      "number": 98,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "fdf6dd2772169242a3e464c66f175933b6c32b75aa622334fbedfdc1f0b0d501"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q099",
+      "number": 99,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "c14213f96076260d088c3a47dd5172eacf34e3a75a406b2715b03ce6d188b197"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q100",
+      "number": 100,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "130d4aa7b4a49b448aab5916198080ee5dbb8b643387f76e337b7a8b8be26d5d"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q101",
+      "number": 101,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "4c9d4688dd80fa1bab111fbb4679f295997361c74e180a365b534ba76ba57d78"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q102",
+      "number": 102,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "88f5ced8987e247adc76dfe506678f605a27e5a4fbc12349ecae20398a3e9f65"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q103",
+      "number": 103,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "deeef6055eadf820d9867fe551551b6def413c04d00c8e068998bed09d67019c"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q104",
+      "number": 104,
+      "topic": "Distributive property with variables",
+      "archetype": "Comparison",
+      "difficulty": 2,
+      "content_fingerprint": "d2551f1231daa5b6717b95f6965192d4c3fffa853825a089267d648716ca37d2"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q105",
+      "number": 105,
+      "topic": "Multiplication / Division",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "71179d99adf4da93b03417b04c08675ebfec6c9711cb9c74a8d06f71730ced28"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q106",
+      "number": 106,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "699e74eea4036effc81fbf2106b565c74791f1cc9df3e5629adb88c0162c2e7e"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q107",
+      "number": 107,
+      "topic": "Multiplication / Division",
+      "archetype": "Sequence",
+      "difficulty": 3,
+      "content_fingerprint": "33a228bf4117bb9d7537849ff6c2c0afbab71e939a175fd2167a0dd71cdcbc07"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q108",
+      "number": 108,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "d362e6d3690db04683f15ff2e6d630c9d0db545a609c6edc7fea1d8a8dd82738"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q109",
+      "number": 109,
+      "topic": "Multiplication / Division",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "8bdbf628c688693fb719ee0597481ffcb01bfd2f057563a1cc3848ddbb385371"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q110",
+      "number": 110,
+      "topic": "Distributive property",
+      "archetype": "Comparison",
+      "difficulty": 3,
+      "content_fingerprint": "a6a8040b9c9d750bcd39aad8984ce641a42d849d71ac505d1501a6e317c4f998"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q111",
+      "number": 111,
+      "topic": "Distributive property with variables",
+      "archetype": "Computation",
+      "difficulty": 2,
+      "content_fingerprint": "3b21e605948b806fdb0e6ac4457793ec5648e62a9860e6a44aa67939d22c7217"
+    },
+    {
+      "question_id": "HSPT-QS-PRACTICE-20-T07-Q112",
+      "number": 112,
+      "topic": "Distributive property",
+      "archetype": "Computation",
+      "difficulty": 3,
+      "content_fingerprint": "76b68b20414eb4ac80febce309eff79aea359ee59ec2d9ea286399aa5c957b3b"
+    }
+  ]
+}
