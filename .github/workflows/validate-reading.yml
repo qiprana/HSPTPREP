@@ -2,12 +2,12 @@ name: Validate HSPT Reading Question Banks
 on:
   push:
     paths:
-      - 'reading/**'
+      - 'sections/reading/**'
       - 'tests/validate-reading-papers.js'
       - '.github/workflows/validate-reading.yml'
   pull_request:
     paths:
-      - 'reading/**'
+      - 'sections/reading/**'
       - 'tests/validate-reading-papers.js'
 jobs:
   validate-reading:

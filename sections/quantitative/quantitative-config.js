@@ -1,5 +1,5 @@
 /* Quantitative learning plan: 40 source papers checked in at
-   forty-tests/test-NN/questions.json. Individual topic tests remain placeholders. */
+   sections/quantitative/papers/test-NN/questions.json. Individual topic tests remain placeholders. */
 window.HSPT_QUANT_CONFIG = {
  version:2,
  standardMinutes:30,
@@ -36,7 +36,7 @@ window.HSPT_QUANT_CONFIG = {
  paperSlots:Array.from({length:40},(_,i)=>({
    paperNumber:i+1,
    allocation:i<20?'learning':i<30?'mock':'reserve',
-   path:'forty-tests/test-'+String(i+1).padStart(2,'0')+'/questions.json',
+   path:'sections/quantitative/papers/test-'+String(i+1).padStart(2,'0')+'/questions.json',
    format:'json'
  }))
 };

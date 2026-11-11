@@ -5,11 +5,11 @@ const path=require('node:path');
 const assert=require('node:assert/strict');
 const base=path.join(__dirname,'..');
 const index=fs.readFileSync(path.join(base,'index.html'),'utf8');
-const quick=fs.readFileSync(path.join(base,'daily-quick.js'),'utf8');
+const quick=fs.readFileSync(path.join(base,'shared/daily-quick.js'),'utf8');
 const window={HSPT_WORD_CHUNKS:[]};
 for(let i=1;i<=16;i++){
  const name='words-'+String(i).padStart(2,'0')+'.js';
- new Function('window',fs.readFileSync(path.join(base,name),'utf8'))(window);
+ new Function('window',fs.readFileSync(path.join(base,'sections/vocabulary/data',name),'utf8'))(window);
 }
 const raw=window.HSPT_WORD_CHUNKS.flat();
 assert.equal(raw.length,1084,'Vocabulary list must contain 1,084 entries');

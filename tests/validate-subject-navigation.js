@@ -16,8 +16,8 @@ assert.ok(index.includes("Diagnostic mock '+(i+1)"),'Mock previews must be clear
 assert.ok(index.includes("'./reading-skills.html?day='+day+'&focus=test'"),'Selected Reading day must open its paper');
 assert.ok(index.includes("'./language.html?day='+day+'&focus=test'"),'Selected Language day must open its paper');
 assert.ok(index.includes('language:25'),'Language section timer must be 25 minutes');
-assert.ok(reading.includes('reading/reading-papers-v2.json'),'Reading loads its complete paper bank');
-assert.ok(language.includes('content/language-papers-v2.json'),'Language loads its complete paper bank');
+assert.ok(reading.includes('sections/reading/data/reading-papers-v2.json'),'Reading loads its complete paper bank');
+assert.ok(language.includes('sections/language/data/language-papers-v2.json'),'Language loads its complete paper bank');
 assert.ok(reading.includes('Select a learning session')&&language.includes('Select a learning session'),'Subject day selection heading must match');
 assert.ok(reading.includes('20 distinct timed papers')&&language.includes('20 distinct timed papers'),'Each subject must show its paper count');
 assert.ok(oldReading.includes('reading-skills.html?day=1'),'Legacy Reading link must redirect');
