@@ -44,16 +44,6 @@ function quantPaperBest(paper){
  const scores=(state.quantPaperAttempts||[]).filter(x=>x.paper===paper).map(x=>x.score);
  return scores.length?Math.max(...scores):null;
 }
-function quantTopicCard(index){
- const title=QCFG.topics[index];
- const session=index+1,day=quantCurrentLearningDay(session);
- const covered=!!state.quantTopicsReviewed?.[session];
- return '<div class="quant-topic '+(covered?'quant-covered':'')+'">'+
- '<div class="quant-topic-no">SESSION '+session+(day?' · DAY '+day:' · Flexible')+'</div>'+
- '<strong>'+safe(title)+'</strong><p class="small muted">Topic learning and question practice</p>'+
- '<div class="quant-topic-actions"><span class="pill '+(covered?'teal':'')+'">'+(covered?'✓ Concept reviewed':'Concept not yet reviewed')+'</span>'+
- '<button class="btn tiny outline" data-quant-mark-topic="'+session+'">'+(covered?'Undo reviewed':'Mark concept reviewed')+'</button></div></div>';
-}
 function quantPaperCard(number){
  const slot=QCFG.paperSlots[number-1],file=quantPaperLink(slot),best=quantPaperBest(number),status=file?'File linked':'Awaiting paper';
  let label=number<=20?'Learning paper '+number:number<=30?'Mock Day '+(number+30)+' paper '+number:'Reserve paper '+number;
@@ -70,28 +60,21 @@ function renderQuantitative(){
  const selected=chosenSubjects(selectedDay).includes('quantitative');
  const session=selected?quantSession(selectedDay):null;
  const count=QCFG.paperSlots.filter(slot=>!!quantPaperLink(slot)).length;
- const totalReviewed=Object.values(state.quantTopicsReviewed||{}).filter(Boolean).length;
- root.innerHTML='<div class="quant-heading"><div><div class="kicker">QUANTITATIVE SKILLS · 20 LEARNING SESSIONS</div><h2 class="section-title">18 topics + 2 mixed review sessions</h2><p class="medium muted">Learn a topic and practise its question types. 20 focused practice papers are available for your learning sessions. Each full paper will contain 52 questions with a 28-minute challenge timer.</p></div>'+
- '<div class="quant-head-stat"><b>'+totalReviewed+' / 20</b><span>Topics reviewed</span></div></div>'+
- (selected&&session>=1&&session<=20?'<div class="quant-today"><b>Selected learning day '+selectedDay+' · Quantitative session '+session+'</b>'+
- '<p>Topic: '+safe(QCFG.topics[session-1])+' · Reserved full paper: #'+session+'</p>'+
- '<div class="row"><button class="btn tiny outline" data-quant-jump-topic="'+session+'">Go to today’s topic ↓</button>'+
- '<button class="btn tiny outline" data-quant-jump-paper="'+session+'">Go to paper #'+session+' ↓</button></div></div>':'')+
- '<div class="quant-topic-grid">'+QCFG.topics.map((_,i)=>quantTopicCard(i)).join('')+'</div>'+
- '<div class="quant-paper-section"><div class="kicker">FULL PAPERS · 52 QUESTIONS / 28 MIN</div><h3>Paper allocation</h3>'+
- '<p class="hint">'+count+' of 40 paper files are currently linked in this repository. A paper is not playable until its file is uploaded and mapped in quantitative-config.js.</p>'+
+ const attempted=new Set((state.quantPracticeAttempts||[]).map(x=>x.session)).size;
+ root.innerHTML='<div class="quant-heading"><div><div class="kicker">QUANTITATIVE SKILLS · 20 PRACTICE SESSIONS</div>'+
+ '<h2 class="section-title">Practice papers by session</h2>'+
+ '<p class="medium muted">Each practice paper is the learning session. The topics are taken from the actual paper. Complete its questions, review the explanations, and retake if needed.</p></div>'+
+ '<div class="quant-head-stat"><b>'+attempted+' / 20</b><span>Practice papers attempted</span></div></div>'+
+ (selected&&session>=1&&session<=20?'<div id="quantTodayPractice" class="quant-today"></div>':'')+
+ '<div class="quant-paper-section"><div class="kicker">FOCUSED PRACTICE · 52 QUESTIONS / 35 MIN</div>'+
+ '<h3>20 practice papers</h3><div class="quant-practice-grid" id="quantPracticeCards"><p class="muted">Loading practice topics…</p></div></div>'+
+ '<div class="quant-paper-section"><div class="kicker">FULL-SECTION TESTS · 52 QUESTIONS / 28 MIN</div><h3>40 full papers</h3>'+
+ '<p class="hint">'+count+' of 40 full-section papers linked; these are separate from the practice papers.</p>'+
  '<div class="quant-paper-tabs"><button class="btn tiny outline" data-quant-filter="learning">Papers 1–20 · Learning</button>'+
  '<button class="btn tiny outline" data-quant-filter="mock">Papers 21–30 · Mock days</button>'+
  '<button class="btn tiny outline" data-quant-filter="reserve">Papers 31–40 · Reserve</button></div>'+
- '<div class="quant-paper-grid">'+QCFG.paperSlots.map(slot=>quantPaperCard(slot.paperNumber)).join('')+'</div></div>'+
- '<div class="quant-note"><b>Other practice</b><p class="small muted">The short sample questions below are optional and separate from the 20 focused practice papers and 40 full-section papers.</p></div>';
+ '<div class="quant-paper-grid">'+QCFG.paperSlots.map(slot=>quantPaperCard(slot.paperNumber)).join('')+'</div></div>';
  if(quantPaperQuiz)renderQuantPaperQuiz();
-}
-function quantScroll(selector){
- const id=Number(selector.dataset.quantJumpTopic||selector.dataset.quantJumpPaper);
- const target=selector.dataset.quantJumpTopic?
-  document.querySelectorAll('.quant-topic')[id-1]:document.querySelectorAll('.quant-paper')[id-1];
- target?.scrollIntoView({behavior:'smooth',block:'center'});
 }
 function stopQuantPaperTimer(){if(quantPaperTimer!==null){clearInterval(quantPaperTimer);quantPaperTimer=null;}}
 function quantPaperNormalize(data,number){
@@ -179,9 +162,7 @@ function submitQuantPaper(auto=false){
 }
 document.addEventListener('click',e=>{
  const btn=e.target.closest('button');if(!btn)return;
- if(btn.dataset.quantMarkTopic){const n=Number(btn.dataset.quantMarkTopic);quantState();state.quantTopicsReviewed[n]=!state.quantTopicsReviewed[n];saveState();renderQuantitative();return;}
  if(btn.dataset.quantFilter){document.querySelectorAll('.quant-paper').forEach(el=>{const num=Number(el.dataset.paperNumber);el.classList.toggle('hidden',quantGroup(num)!==btn.dataset.quantFilter)});return;}
- if(btn.dataset.quantJumpTopic||btn.dataset.quantJumpPaper){quantScroll(btn);return;}
  if(btn.dataset.quantPaper){startQuantPaper(Number(btn.dataset.quantPaper));return;}
  if(btn.dataset.quantSubmit){submitQuantPaper();return;}
  if(btn.dataset.quantRetake){startQuantPaper(Number(btn.dataset.quantRetake));return;}

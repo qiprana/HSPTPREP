@@ -90,10 +90,10 @@
 .quant-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
 .quant-head-stat{border-radius:12px;background:#ecf5ef;border:1px solid #d0e4d8;text-align:center;padding:13px;min-width:115px}.quant-head-stat b{display:block;font-size:22px}.quant-head-stat span{font-size:11px;color:var(--muted)}
 .quant-today{padding:14px 16px;background:#e9f4ed;border:1px solid #bad7c4;border-radius:12px;margin:15px 0}.quant-today p{margin:5px 0 10px}
-.quant-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:20px 0}
-.quant-topic{border:1px solid #dce5e0;border-radius:12px;padding:13px;background:#fff}.quant-topic.quant-covered{background:#f0f8f2}
-.quant-topic-no{color:#4c8375;font-size:10px;font-weight:800;letter-spacing:.08em;margin-bottom:5px}.quant-topic strong{display:block;font-size:14px}.quant-topic p{margin:6px 0 12px}
-.quant-topic-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.quant-topic-actions button{margin-left:auto}.quant-practice-details{border-top:1px solid #dce6e0;margin-top:14px;padding-top:12px}.quant-practice-details .kicker{font-size:10px;letter-spacing:.08em}.quant-practice-details p{margin:7px 0}.quant-practice-details .btn{margin-top:5px}
+.quant-practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+.quant-practice-card{border:1px solid #dce5e0;border-radius:14px;padding:19px;background:#fff;display:flex;flex-direction:column;align-items:flex-start;gap:10px}.quant-practice-card h4{margin:0;font-size:17px}.quant-practice-card>.btn{margin-top:auto}.quant-focus-tags{display:flex;flex-wrap:wrap;gap:7px}.quant-focus-tag{font-size:12px;line-height:1.5;font-weight:600;color:#2a6358;background:#eaf5ee;border:1px solid #d1e6d8;padding:5px 9px;border-radius:8px}.quant-practice-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px;width:100%;margin:3px 0}
+.quant-topic-no{color:#4c8375;font-size:11px;font-weight:800;letter-spacing:.08em}
+
 .quant-paper-section{border-top:1px solid #dce6e0;padding-top:18px;margin-top:18px}
 .quant-paper-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
 .quant-paper-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
@@ -105,7 +105,7 @@
 .quant-paper-clock strong{font-size:24px;font-variant-numeric:tabular-nums}
 #quantPaperRunner .mini-question,#quantPracticeRunner .mini-question{margin-bottom:12px}#quantPaperRunner .mini-option,#quantPracticeRunner .mini-option{margin:6px 0}
 @media(max-width:900px){.quant-paper-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:650px){.quant-heading{flex-direction:column}.quant-topic-grid,.quant-paper-grid{grid-template-columns:1fr}.quant-paper-clock{flex-wrap:wrap}}
+@media(max-width:650px){.quant-heading{flex-direction:column}.quant-practice-grid,.quant-paper-grid{grid-template-columns:1fr}.quant-paper-clock{flex-wrap:wrap}}
 
 .quant-stimulus{display:grid;gap:10px;background:#f4f8f6;border:1px solid #d9e6de;border-radius:10px;padding:12px;margin:10px 0}.quant-stimulus>div{line-height:1.6}.quant-stimulus b{color:#276f61;margin-right:6px}.quant-figure{margin:12px 0;border:1px solid #dde5df;border-radius:12px;overflow:hidden;background:#fff;padding:10px;text-align:center}.quant-figure img{display:block;max-width:100%;height:auto;max-height:480px;margin:auto}
  .overview-pair-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:16px 0}.overview-pair-day{border:1px solid #dce5df;background:#fff;border-radius:11px;padding:10px;text-align:left;color:var(--ink);cursor:pointer}.overview-pair-day b{display:block;font-size:13px}.overview-pair-day small{display:block;font-size:11px;color:var(--muted);margin-top:4px}.overview-pair-day.active{background:#e5f3ed;border-color:#277d76;outline:1px solid #277d76}.overview-pair-editor{border-top:1px solid var(--line);padding-top:20px;margin-top:18px}.overview-pair-editor .daily-rhythm{box-shadow:none;margin-top:14px}@media(max-width:720px){.overview-pair-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}\n
@@ -551,7 +551,7 @@ function renderExam(){
  const x=EXAM_SECTIONS.find(v=>v[0]===examSection);
  const pending=examSection==='quantitative';
  $('examTitle').textContent=x[1];
- $('examDescription').textContent=pending?'18 topic groups, two review sessions and 40 available 52-question papers using a 28-minute timer.':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'20 Reading lessons, 20 distinct 62-question papers and guided practice with passage comprehension and vocabulary.':'20 Language learning sessions with 20 distinct 60-question papers, spelling and guided practice.';
+ $('examDescription').textContent=pending?'20 focused practice papers (52 questions, 35 minutes each) plus 40 separate full-section papers (28 minutes each).':examSection==='verbal'?'Extra Verbal Skills drills in addition to the daily and cumulative challenges.':examSection==='reading'?'20 Reading lessons, 20 distinct 62-question papers and guided practice with passage comprehension and vocabulary.':'20 Language learning sessions with 20 distinct 60-question papers, spelling and guided practice.';
  $('quantitativePlan').classList.toggle('hidden',!pending);
  if(pending&&typeof renderQuantitative==='function')renderQuantitative();
  $('examControls').classList.toggle('hidden',pending||examSection==='reading'||examSection==='language');
@@ -577,8 +577,8 @@ setup();
 </script>
 <script src="shared/mock.js"></script>
 <script src="shared/daily-quick.js"></script>
-<script src="sections/quantitative/quantitative-config.js?v=20261110-practice20-v1"></script>
-<script src="sections/quantitative/quantitative.js?v=20261110-practice20-v1"></script>
-<script src="sections/quantitative/quantitative-practice.js?v=20261110-practice20-v1"></script>
+<script src="sections/quantitative/quantitative-config.js?v=20261110-quant-session-fix"></script>
+<script src="sections/quantitative/quantitative.js?v=20261110-quant-session-fix"></script>
+<script src="sections/quantitative/quantitative-practice.js?v=20261110-quant-session-fix"></script>
 </body>
 </html>

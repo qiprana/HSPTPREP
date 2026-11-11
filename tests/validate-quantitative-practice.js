@@ -16,7 +16,7 @@ const window={};
 const cfg=fs.readFileSync(path.join(root,'sections/quantitative/quantitative-config.js'),'utf8');
 vm.runInNewContext(cfg,{window});
 const config=window.HSPT_QUANT_CONFIG;
-assert.equal(config.topicTestSlots.length,20);
+assert.equal(config.practicePaperSlots.length,20);
 assert.equal(config.paperSlots.length,40);
 assert.equal(config.topicPracticeMinutes,35);
 
@@ -30,8 +30,8 @@ for(let session=1;session<=20;session++){
  assert.equal(entry.files.json,expected);
  assert.equal(entry.question_count,52);
  assert.ok(Array.isArray(entry.focus_topics)&&entry.focus_topics.length>=1);
- assert.equal(config.topicTestSlots[session-1].path,'sections/quantitative/practice-papers/'+expected);
- assert.equal(config.topicTestSlots[session-1].format,'json');
+ assert.equal(config.practicePaperSlots[session-1].path,'sections/quantitative/practice-papers/'+expected);
+ assert.equal(config.practicePaperSlots[session-1].format,'json');
  const paper=JSON.parse(fs.readFileSync(path.join(dataRoot,expected),'utf8'));
  assert.equal(paper.exam_id,'HSPT-QS-PRACTICE-20-T'+code);
  assert.equal(paper.time_limit_minutes,35);
@@ -64,6 +64,14 @@ assert.ok(index.includes('id="quantPracticeRunner"'),'Focused practice panel mis
 assert.ok(index.includes('quantitative-practice.js'),'Focused practice script not loaded');
 assert.ok(index.indexOf('quantitative.js?v=')<index.indexOf('quantitative-practice.js?v='),'Practice must load after full runner');
 assert.ok(focus.includes('state.quantPracticeAttempts'),'Practice score history missing');
+assert.ok(!config.topics,'Old one-topic-per-day headings must be removed');
+assert.ok(!runner.includes('quantTopicCard'),'Do not render duplicate concept cards');
+assert.ok(!runner.includes('quantTopicsReviewed'),'Do not use independent concept-reviewed state');
+assert.ok(runner.includes('id="quantPracticeCards"'),'Practice paper list missing');
+assert.ok(focus.includes('quantFocusedManifest?.tests[session-1]?.focus_topics'),'Practice headings must come from paper manifest');
+assert.ok(!focus.includes("querySelectorAll('.quant-topic')"),'Duplicate topic UI detected');
+assert.ok(!index.includes('Mark concept reviewed'),'Redundant concept review control detected');
+
 assert.ok(focus.includes('focused-practice'),'Practice completion tracking missing');
 assert.ok(focus.includes('quantitative|practice-'),'Focused question history key missing');
 assert.ok(runner.includes('quantitative|paper-'),'Full paper history key must remain unchanged');
@@ -73,6 +81,6 @@ const sandbox={window,renderQuantitative:()=>{},startQuantPaper:()=>{},setPage:(
  document:{addEventListener:()=>{}},state:{},console};
 vm.createContext(sandbox);
 vm.runInContext(focus,sandbox);
-const first=vm.runInContext('quantFocusedPath(QCFG.topicTestSlots[0])',Object.assign(sandbox,{QCFG:config}));
+const first=vm.runInContext('quantFocusedPath(QCFG.practicePaperSlots[0])',Object.assign(sandbox,{QCFG:config}));
 assert.equal(first,'sections/quantitative/practice-papers/test-01/questions.json');
 console.log('PASS: 20 focused practice papers, 1,040 valid unique IDs, '+withMedia+' SVG questions; 35-minute timer, separate scoring, stable 40-paper runner and browser wiring.');

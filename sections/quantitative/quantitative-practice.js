@@ -31,32 +31,36 @@ async function quantFocusedLoadManifest(){
  }catch(error){console.warn('Quantitative focused practice manifest unavailable',error);}
  quantFocusedRenderCards();
 }
+function quantFocusedCard(session){
+ const slot=QCFG.practicePaperSlots[session-1],file=quantFocusedPath(slot);
+ const best=quantFocusedBest(session),day=quantCurrentLearningDay(session);
+ const topics=quantFocusedManifest?.tests[session-1]?.focus_topics;
+ const label='Practice paper '+String(session).padStart(2,'0');
+ const topicHtml=topics?.length
+  ?'<div class="quant-focus-tags">'+topics.map(topic=>'<span class="quant-focus-tag">'+safe(topic)+'</span>').join('')+'</div>'
+  :'<p class="small muted">Loading paper topics…</p>';
+ return '<article class="quant-practice-card">'+
+  '<div class="quant-topic-no">SESSION '+session+(day?' · DAY '+day:' · Flexible day')+'</div>'+
+  '<h4>'+label+'</h4>'+
+  '<div class="small muted">Topics covered</div>'+topicHtml+
+  '<div class="quant-practice-footer"><span class="small muted">52 questions · 35 minutes</span>'+
+  '<span class="pill '+(best===null?'':'teal')+'">'+(best===null?'Not attempted':'Best '+best+'%')+'</span></div>'+
+  (file?'<button class="btn tiny primary" data-quant-practice="'+session+'">Start practice paper →</button>':
+   '<button class="btn tiny outline" disabled>Practice paper unavailable</button>')+'</article>';
+}
 function quantFocusedRenderCards(){
  const root=$('quantitativePlan');
  if(!root||root.classList.contains('hidden'))return;
- const cards=root.querySelectorAll('.quant-topic');
- cards.forEach((card,i)=>{
-  card.querySelector('.quant-practice-details')?.remove();
-  const session=i+1,slot=QCFG.topicTestSlots[i],file=quantFocusedPath(slot),best=quantFocusedBest(session);
-  const focus=quantFocusedManifest?.tests[i]?.focus_topics;
-  const topics=focus?.length?focus.map(safe).join(' · '):'Three focused syllabus topics (see practice paper)';
-  card.insertAdjacentHTML('beforeend',
-   '<div class="quant-practice-details"><div class="kicker">FOCUSED PRACTICE PAPER '+session+'</div>'+
-   '<p class="small muted">'+topics+'</p>'+
-   '<p class="small muted">52 questions · 35 minutes · '+(best===null?'Not attempted':'Best '+best+'%')+'</p>'+
-   (file?'<button class="btn tiny primary" data-quant-practice="'+session+'">Start practice paper →</button>':
-   '<button class="btn tiny outline" disabled>Practice paper unavailable</button>')+'</div>');
- });
- const header=root.querySelector('.quant-heading .intro, .quant-heading p');
- if(header)header.textContent='Study each concept, then take its 52-question focused practice paper (35 minutes). Papers cover multiple listed topics. The 40 full-section papers remain separately available below.';
- const note=root.querySelector('.quant-note p');
- if(note)note.textContent='The short sample questions below are optional and separate from the 20 focused practice papers and 40 full-section papers.';
- const today=root.querySelector('.quant-today .row');
- if(today){
-  const existing=today.querySelector('[data-quant-practice]');
-  if(!existing&&chosenSubjects(selectedDay).includes('quantitative')){
-   const session=quantSession(selectedDay);
-   if(session>=1&&session<=20)today.insertAdjacentHTML('afterbegin','<button class="btn tiny primary" data-quant-practice="'+session+'">Start today’s practice →</button>');
+ const cards=root.querySelector('#quantPracticeCards');
+ if(cards)cards.innerHTML=QCFG.practicePaperSlots.map((_,i)=>quantFocusedCard(i+1)).join('');
+ const today=root.querySelector('#quantTodayPractice');
+ if(today&&chosenSubjects(selectedDay).includes('quantitative')){
+  const session=quantSession(selectedDay),topics=quantFocusedManifest?.tests[session-1]?.focus_topics;
+  if(session>=1&&session<=20){
+   today.innerHTML='<div class="kicker">TODAY’S QUANTITATIVE SESSION · DAY '+selectedDay+'</div>'+
+    '<h3>Practice paper '+String(session).padStart(2,'0')+'</h3>'+
+    (topics?.length?'<p>'+topics.map(safe).join(' · ')+'</p>':'<p class="muted">Loading practice topics…</p>')+
+    '<button class="btn tiny primary" data-quant-practice="'+session+'">Start today’s practice →</button>';
   }
  }
 }
@@ -68,7 +72,7 @@ function quantFocusedClose(){
  const runner=$('quantPracticeRunner');if(runner)runner.classList.add('hidden');
 }
 async function quantFocusedStart(session){
- const slot=QCFG.topicTestSlots[session-1],file=quantFocusedPath(slot);
+ const slot=QCFG.practicePaperSlots[session-1],file=quantFocusedPath(slot);
  if(!file){toast('Focused practice paper not found for this session.');return;}
  quantFocusedClose();
  stopQuantPaperTimer();
