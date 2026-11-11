@@ -16,7 +16,6 @@ if(QCFG?.paperSlots?.length===40){
 }
 let quantPaperQuiz=null,quantPaperTimer=null;
 function quantState(){
- state.quantTopicsReviewed??={};
  state.quantPaperAttempts??=[];
  return state;
 }
