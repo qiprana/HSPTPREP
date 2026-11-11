@@ -1,0 +1,89 @@
+{
+  "id": "ADV-D02-P1",
+  "title": "Frankenstein — Close reading",
+  "genre": "Literature",
+  "gradeBand": "10-11",
+  "wordCount": 409,
+  "text": "This aroused the stranger's attention, and he asked a multitude of questions concerning the route which the demon, as he called him, had pursued. Soon after, when he was alone with me, he said, \"I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make inquiries.\"\n\n\"Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.\"\n\n\"And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.\"\n\nSoon after this he inquired if I thought that the breaking up of the ice had destroyed the other sledge. I replied that I could not answer with any degree of certainty, for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge. From this time a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness to be upon deck to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. I have promised that someone should watch for him and give him instant notice if any new object should appear in sight.\n\nSuch is my journal of what relates to this strange occurrence up to the present day. The stranger has gradually improved in health but is very silent and appears uneasy when anyone except myself enters his cabin. Yet his manners are so conciliating and gentle that the sailors are all interested in him, although they have had very little communication with him. For my own part, I begin to love him as a brother, and his constant and deep grief fills me with sympathy and compassion. He must have been a noble creature in his better days, being even now in wreck so attractive and amiable. I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been happy to have possessed as the brother of my heart.\n\nI shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record.\n\nAugust 13th, 17--",
+  "source": {
+    "work": "Frankenstein",
+    "author": "Mary Shelley",
+    "publicationYear": 1818,
+    "chapter": "Selected excerpt",
+    "url": "https://www.gutenberg.org/ebooks/84",
+    "rights": "Public domain in United States",
+    "contextNote": "Authentic historical text; wording and viewpoints reflect its period."
+  },
+  "questions": [
+    {
+      "id": "ADV-D02-P1-Q01",
+      "prompt": "What tension drives the stranger's questioning about the other sledge?",
+      "modelAnswer": "His physical weakness contrasts with his intense need to know whether the other traveller survived. The urgency suggests that pursuit, rather than recovery, governs his priorities.",
+      "evidence": "greatest eagerness to be upon deck",
+      "skill": "inference"
+    },
+    {
+      "id": "ADV-D02-P1-Q02",
+      "prompt": "How does the narrator distinguish certainty from speculation when discussing the ice?",
+      "modelAnswer": "He refuses to infer the traveller's fate simply from the ice breaking because the timing allowed a possible escape. That restraint contrasts with the stranger's anxious urgency.",
+      "evidence": "I could not answer with any degree of certainty",
+      "skill": "reasoning"
+    },
+    {
+      "id": "ADV-D02-P1-Q03",
+      "prompt": "What does the stranger's reluctance to entertain questions reveal about the exchange?",
+      "modelAnswer": "He recognizes that he has aroused curiosity but relies on the narrator's delicacy not to demand a painful disclosure. Courtesy masks a significant gap in knowledge.",
+      "evidence": "you are too considerate to make inquiries",
+      "skill": "subtext"
+    },
+    {
+      "id": "ADV-D02-P1-Q04",
+      "prompt": "Why is the description of the stranger's renewed energy paradoxical?",
+      "modelAnswer": "His body is called decaying, yet uncertainty about the sledge briefly animates him. The contrast suggests that an unresolved purpose can overwhelm ordinary bodily needs.",
+      "evidence": "a new spirit of life animated the decaying frame",
+      "skill": "contrast"
+    },
+    {
+      "id": "ADV-D02-P1-Q05",
+      "prompt": "What does the narrator's decision to keep the stranger below deck establish?",
+      "modelAnswer": "The narrator's practical care tempers the stranger's willingness to endanger himself. Their differing priorities foreshadow a conflict between obsession and preservation.",
+      "evidence": "far too weak to sustain the rawness",
+      "skill": "characterization"
+    },
+    {
+      "id": "ADV-D02-P1-Q06",
+      "prompt": "How do the sailors' reactions complicate a purely sinister portrait of the stranger?",
+      "modelAnswer": "Although his silence and uneasiness might provoke distrust, his gentle manner wins sympathy. The passage deliberately resists a simple judgment based on his secrecy.",
+      "evidence": "manners are so conciliating and gentle",
+      "skill": "nuance"
+    },
+    {
+      "id": "ADV-D02-P1-Q07",
+      "prompt": "What evidence suggests that the narrator idealizes a man he barely knows?",
+      "modelAnswer": "He imagines the stranger as formerly noble and already calls him a brother, despite admitting that the man communicates little. Compassion may exceed the available evidence.",
+      "evidence": "He must have been a noble creature",
+      "skill": "reliability"
+    },
+    {
+      "id": "ADV-D02-P1-Q08",
+      "prompt": "How does the reference to Margaret change the function of this journal entry?",
+      "modelAnswer": "It reminds readers that the narrative is a personal report addressed to someone emotionally close, not an objective record. The narrator's longing for friendship shapes his account.",
+      "evidence": "my dear Margaret",
+      "skill": "narrative frame"
+    },
+    {
+      "id": "ADV-D02-P1-Q09",
+      "prompt": "Why does the word 'wreck' matter in the narrator's praise?",
+      "modelAnswer": "The nautical image likens the stranger's suffering to a ruined vessel, but the narrator claims to perceive an admirable former self. Sympathy depends on an imagined contrast.",
+      "evidence": "being even now in wreck",
+      "skill": "figurative language"
+    },
+    {
+      "id": "ADV-D02-P1-Q10",
+      "prompt": "What is the effect of ending with an intention to record future incidents?",
+      "modelAnswer": "The ending withholds the stranger's story and keeps the situation unresolved. It makes the journal appear provisional while encouraging readers to anticipate a later explanation.",
+      "evidence": "should I have any fresh incidents to record",
+      "skill": "structure"
+    }
+  ]
+}
