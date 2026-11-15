@@ -10,7 +10,7 @@ const readingDays=()=>Array.from({length:20},(_,i)=>i+1);
 function stopClock(){if(interval!==null)clearInterval(interval);interval=null;}
 function loadProgress(d){const p=progress[d]||{};return{practice:p.practice||(typeof p.score==='number'?{score:p.score,total:5,legacy:true}:null),test:p.test};}
 function renderDays(){
- $('days').innerHTML=readingDays().map(d=>'<button type="button" class="day '+(day===d?'active ':'')+(loadProgress(d).practice?'done':'')+'" data-day="'+d+'" aria-pressed="'+(d===day)+'">Day '+d+'</button>').join('');
+ $('days').innerHTML=readingDays().map(d=>'<button type="button" class="day '+(day===d?'active ':'')+((loadProgress(d).practice||loadProgress(d).test)?'done':'')+'" data-day="'+d+'" aria-pressed="'+(d===day)+'">Day '+d+'</button>').join('');
  document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>selectDay(Number(b.dataset.day)));
 }
 function selectDay(next){
@@ -28,7 +28,7 @@ function renderDashboard(){
  '<div class="two-col">'+
  '<article class="tile"><div class="kicker">01 · GUIDED PRACTICE</div><h3>Day '+day+' · Learn & practice</h3><p>One original short passage, 10 comprehension and strategy questions, and 5 separate vocabulary questions with immediate explanations.</p><button class="primary" id="practiceBtn" '+(!bank?'disabled':'')+'>Start 15-question practice →</button><span class="mini">'+(p.practice?'Last score: '+p.practice.score+'/'+p.practice.total:'No attempt yet')+'</span></article>'+
  '<article class="tile"><div class="kicker">02 · TIMED FULL TEST</div><h3>Day '+day+' · Full Reading paper</h3><p>4 original passages, 40 comprehension questions and 22 vocabulary questions. 62 questions in 23 minutes, with answer navigator and score breakdown.</p><button class="secondary" id="testBtn" '+(!bank?'disabled':'')+'>Open Day '+day+' full paper →</button><span class="mini">'+(p.test?'Last score: '+p.test.score+'/'+p.test.total:'No attempt yet')+'</span></article>'+
- '</div><div class="status">Reading progress: '+done+'/20 guided sessions completed. '+(p.test?'Day '+day+' paper completed.':'Day '+day+' full test not yet submitted.')+'</div>';
+ '</div><div class="status"><b>Day '+day+' submission status:</b> Practice '+(p.practice?'✓ Completed ('+p.practice.score+'/'+p.practice.total+')':'Not submitted')+' · Full test '+(p.test?'✓ Completed ('+p.test.score+'/'+p.test.total+')':'Not submitted')+'. Reading practices completed: '+done+'/20.</div>';
  if(bank){$('practiceBtn').onclick=()=>start('practice');$('testBtn').onclick=()=>start('test');}
 }
 function renderToolkit(){
