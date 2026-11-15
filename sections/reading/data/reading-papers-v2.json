@@ -6592,7 +6592,7 @@
           "id": "R07-P2",
           "title": "A New Use for Old Maps",
           "genre": "history",
-          "text": "A history class compared two maps of the same river valley drawn sixty years apart. A road shown on the older map appeared to cross land now covered by a reservoir. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nStudents researched construction records and interviewed residents who remembered the area. The reservoir had flooded a former road, while a newer highway followed higher ground. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their deliberate approach involved examining the available information before making the next decision.\n\nThe maps differed in scale, making some distances difficult to compare exactly. The class created an annotated overlay that explained both the landscape change and mapmaking limits. Maps are evidence shaped by their time and purpose, not timeless photographs of a place. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "On a classroom wall, two maps of the same river valley appeared to contradict one another. A survey drawn in 1920 showed a wagon road crossing a narrow floodplain, whereas a map dated 1980 showed a reservoir occupying that location. A student suggested that one cartographer must have made an error. Her teacher asked a different question: what changes to the landscape—and to the purposes of mapping—might explain why both documents were accurate in their own contexts?\n\nThe class consulted government construction records and newspaper photographs. A dam had been completed in 1954, raising the water level and submerging part of the old road. The regional government built a replacement route on higher ground. That finding explained much of the discrepancy, but it did not establish that every line on the two maps could be compared directly. The earlier survey used a large scale to show property boundaries, while the later regional map compressed a much wider area. Small bends and footpaths disappeared on the newer sheet, partly because its cartographer had different priorities.\n\nA student attempted to overlay digital images of the maps by matching the corners of the paper. The resulting river courses appeared misaligned. Another student noticed that one sheet had been scanned at an angle; the first student had also ignored changes in the coordinate reference systems. The group corrected the orientation and matched several surviving landmarks, but the old map had no explicit coordinate grid. Their overlay could therefore illustrate approximate relationships without providing survey-grade distances.\n\nAt a public history evening, one visitor remembered walking the former road as a child. Another disputed the recollection, claiming the old road had remained open long after the reservoir filled. The class found a highway closure notice from 1953, yet it could not rule out occasional later use of a nearby unpaved track. Rather than declare one recollection worthless, the students distinguished the official road from possible informal routes that the maps might never have recorded.\n\nTheir final exhibit placed the two maps beside an annotated overlay with a scale warning and a timeline of the dam's construction. The students had not proved that every feature was precisely located, but they had reconstructed a plausible sequence of physical change. More importantly, they had learned that a map is both evidence about a place and a selective representation made for a particular purpose.",
           "term": [
             "deliberate",
             "intentional",
@@ -6603,163 +6603,163 @@
           "questions": [
             {
               "id": "R07-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A New Use for Old Maps\"?",
+              "type": "Historical inference",
+              "prompt": "Why is it premature to conclude that one of the valley maps must be inaccurate?",
               "choices": [
-                "The method (“Students researched construction records and interviewed…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The reservoir had flooded a former road, while a newer…”) is treated as unrelated to the original investigation.",
-                "The concern (“A road shown on the older map appeared to cross land now…”) leads to inquiry, but “The maps differed in scale, making some distances…” limits the inference.",
-                "The proposed response (“The class created an annotated overlay that explained…”) makes the original concern irrelevant."
+                "Cartographers in different decades necessarily used identical surveying methods.",
+                "Landscape change and map purpose can account for substantial differences without either document being fraudulent.",
+                "The existence of a reservoir proves the 1920 roadway was imaginary.",
+                "All cartographic discrepancies reflect mistakes in printing."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The maps differed in scale, making some distances difficult to compare exactly. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The dam and replacement road explain an actual geographic change; differing scales and aims also alter depiction. The other options ignore those separate causes.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A New Use for Old Maps\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence evaluation",
+              "prompt": "What does the 1954 dam completion record establish most directly?",
               "choices": [
-                "The class created an annotated overlay that explained both the landscape change and mapmaking limits.",
-                "A road shown on the older map appeared to cross land now covered by a reservoir.",
-                "Students researched construction records and interviewed residents who remembered the area.",
-                "The reservoir had flooded a former road, while a newer highway followed higher ground."
+                "The earlier road could have been submerged as a consequence of the reservoir's creation.",
+                "Every building recorded in 1920 was destroyed.",
+                "The 1980 map contains no generalized features.",
+                "The old cartographer anticipated the dam's completion."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: A road shown on the older map appeared to cross land now covered by a reservoir. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Construction of the dam provides a plausible mechanism for the flooded roadway, corroborated by photographs. It does not identify the fate of every mapped feature.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A New Use for Old Maps\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Cartographic reasoning",
+              "prompt": "Why might a footpath present on the 1920 survey be absent from the 1980 map even if it still existed?",
               "choices": [
-                "The reservoir had flooded a former road, while a newer highway followed higher ground.",
-                "The maps differed in scale, making some distances difficult to compare exactly.",
-                "Students researched construction records and interviewed residents who remembered the area.",
-                "A road shown on the older map appeared to cross land now covered by a reservoir."
+                "The 1980 cartographer was required to omit all roads.",
+                "A road can appear only if it crosses a river.",
+                "The regional map covers a wider area and may omit minor features at its smaller scale.",
+                "The old survey was necessarily a fictional diagram."
               ],
               "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Students researched construction records and interviewed residents who remembered the area. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Map scale and purpose determine which details are represented. A feature's absence from a generalized map is not evidence that it disappeared.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A New Use for Old Maps\", rather than a procedure, caution, or policy response?",
+              "type": "Measurement validity",
+              "prompt": "Why did aligning the scans by their paper corners produce an unreliable overlay?",
               "choices": [
-                "Students researched construction records and interviewed residents who remembered the area.",
-                "The maps differed in scale, making some distances difficult to compare exactly.",
-                "The class created an annotated overlay that explained both the landscape change and mapmaking limits.",
-                "The reservoir had flooded a former road, while a newer highway followed higher ground."
+                "The scans had identical orientations and coordinate systems.",
+                "The historical road was made of an unknown material.",
+                "The river flowed in opposite directions on the two maps.",
+                "Scan rotation and differences in map reference systems can shift features even when both maps are accurate."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The reservoir had flooded a former road, while a newer highway followed higher ground. The other statements describe different stages of the inquiry.",
+              "explanation": "Image boundaries are not geographic control points. Scan angle and incompatible coordinate references create apparent offsets unrelated to actual land movement.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A New Use for Old Maps\" from being generalized beyond the available evidence?",
+              "type": "Limits of evidence",
+              "prompt": "Which claim goes beyond the precision of the students' corrected overlay?",
               "choices": [
-                "The maps differed in scale, making some distances difficult to compare exactly.",
-                "The reservoir had flooded a former road, while a newer highway followed higher ground.",
-                "Students researched construction records and interviewed residents who remembered the area.",
-                "The class created an annotated overlay that explained both the landscape change and mapmaking limits."
+                "It suggests approximate relationships among old and new landmarks.",
+                "It may help viewers understand where the reservoir lies relative to the former road.",
+                "It gives exact survey-grade distances between every vanished feature and surviving landmark.",
+                "It can be displayed with an explicit warning about uncertainty."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The maps differed in scale, making some distances difficult to compare exactly. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The older map lacks an explicit coordinate grid, and matching landmarks only yields approximate registration. Exact surveyed distances are unsupported.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A New Use for Old Maps\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Testimony",
+              "prompt": "How do the two visitors' recollections affect the investigation?",
               "choices": [
-                "The reservoir had flooded a former road, while a newer highway followed higher ground.",
-                "The class created an annotated overlay that explained both the landscape change and mapmaking limits.",
-                "A road shown on the older map appeared to cross land now covered by a reservoir.",
-                "Students researched construction records and interviewed residents who remembered the area."
+                "They establish that official documents should never be used.",
+                "They invite a distinction between the officially closed road and possible continued use of nearby informal tracks.",
+                "They prove that the highway closure notice was fabricated.",
+                "They show that both witnesses are necessarily remembering the same route."
               ],
               "correctIndex": 1,
-              "explanation": "The subsequent response was: The class created an annotated overlay that explained both the landscape change and mapmaking limits. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The closure notice addresses official status, while a nearby informal track could explain later travel memories. The accounts need not contradict once their referents are distinguished.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A New Use for Old Maps\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Evidence hierarchy",
+              "prompt": "Which additional source would best clarify whether an informal route remained passable after 1954?",
               "choices": [
-                "Initial concern: “The reservoir had flooded a former road, while a newer…”; method: “The class created an annotated overlay that explained…”.",
-                "Initial concern: “Students researched construction records and interviewed…”; method: “The reservoir had flooded a former road, while a newer…”.",
-                "Initial concern: “A road shown on the older map appeared to cross land now…”; method: “Students researched construction records and interviewed…”.",
-                "Initial concern: “A road shown on the older map appeared to cross land now…”; method: “The maps differed in scale, making some distances…”."
+                "A contemporary aerial photograph showing the reservoir shoreline and nearby tracks.",
+                "A present-day opinion poll on the attractiveness of the valley.",
+                "A list of current students' favorite map colors.",
+                "A brochure describing dams elsewhere in the country."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with A road shown on the older map appeared to cross land now covered by a reservoir. and the subsequent investigative procedure is Students researched construction records and interviewed residents who remembered the area..",
+              "correctIndex": 0,
+              "explanation": "A dated aerial image could reveal whether a route existed and was physically passable after filling. Opinions and unrelated brochures cannot establish that historical condition.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A New Use for Old Maps\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Rhetorical purpose",
+              "prompt": "Why does the author describe the failed first attempt at digital overlay?",
               "choices": [
-                "The observation (“The reservoir had flooded a former road, while a newer…”) rules out every alternative cause.",
-                "The limitation (“The maps differed in scale, making some distances…”) disproves the observation itself.",
-                "The method (“Students researched construction records and interviewed…”) guarantees the result before measurement.",
-                "The observation (“The reservoir had flooded a former road, while a newer…”) matters, but the limit (“The maps differed in scale, making some distances…”) remains."
+                "To imply that computer tools are fundamentally unsuitable for historical research.",
+                "To show that all inaccuracies originate in old printed maps.",
+                "To illustrate how an apparently objective technique depends on assumptions about alignment and coordinates.",
+                "To show that the teacher had forbidden students to use digital records."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The reservoir had flooded a former road, while a newer highway followed higher ground. but must be read alongside The maps differed in scale, making some distances difficult to compare exactly..",
+              "correctIndex": 2,
+              "explanation": "The first failure demonstrates that computational precision is not equivalent to valid geographical registration. The process requires justified reference points.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A New Use for Old Maps\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "Which conclusion best integrates the dam records, scales, and disputed memories?",
               "choices": [
-                "The response (“The class created an annotated overlay that explained…”) follows evidence but remains open to reassessment.",
-                "The response (“The class created an annotated overlay that explained…”) is proof of success in every setting.",
-                "The caveat (“The maps differed in scale, making some distances…”) makes the observations worthless.",
-                "The observation (“The reservoir had flooded a former road, while a newer…”) shows that measurement was unnecessary."
+                "All sources produce identical evidence once scanned correctly.",
+                "Official documents always outweigh every form of oral testimony.",
+                "Maps alone can establish the precise history of informal travel.",
+                "Historical reconstruction benefits from combining sources while preserving their distinct limits."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The class created an annotated overlay that explained both the landscape change and mapmaking limits.; the stated limit The maps differed in scale, making some distances difficult to compare exactly. still matters.",
+              "correctIndex": 3,
+              "explanation": "Each kind of source addresses a different aspect of the change, and none settles every ambiguity. Their combination offers a stronger qualified account.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A New Use for Old Maps\" without ignoring its stated limitation?",
+              "type": "Central thesis",
+              "prompt": "What general claim does the final sentence advance about maps?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Students researched construction records and interviewed…”) while testing the concern (“The maps differed in scale, making some distances…”)."
+                "A map records every feature of a region as it existed on the date printed.",
+                "Maps can reveal physical conditions while reflecting the purposes and selection decisions of their makers.",
+                "Older maps are categorically more detailed and reliable than newer maps.",
+                "Cartographic accuracy is impossible when a landscape changes."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, The maps differed in scale, making some distances difficult to compare exactly., while comparing evidence from the original method, Students researched construction records and interviewed residents who remembered the area..",
+              "correctIndex": 1,
+              "explanation": "The passage treats maps as situated evidence rather than transparent replicas. Purpose, scale and historical conditions shape what they show.",
               "passageId": "R07-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
