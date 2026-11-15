@@ -1358,7 +1358,7 @@
           "id": "R02-P3",
           "title": "The Last Bus Home",
           "genre": "narrative",
-          "text": "Leah reached the bus stop carrying a folder of drawings for a regional art competition. The bus driver explained that a road closure would delay the final departure. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nInstead of leaving, Leah called the competition office and asked a neighboring student about another route. The office agreed to accept entries until the next morning, and her classmate offered to share a ride. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their limited approach involved examining the available information before making the next decision.\n\nLeah disliked asking for help because she had hoped to manage everything alone. She arrived with her drawings intact and thanked both people for making the trip possible. Asking thoughtful questions can be a sign of responsibility rather than weakness. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "Leah had planned the route to the regional art competition so carefully that she could describe every transfer without consulting her phone. She carried a portfolio of charcoal drawings in a paper folder, unwilling to risk creasing the originals. At the bus terminal, however, the driver announced that a road closure would cancel the final departure. A printed sign offered no revised schedule. Leah's immediate impulse was to wait: a bus might arrive, and waiting required less explanation than asking someone for assistance.\n\nShe knew that the entries were due by six o'clock. The rules she had copied into her notebook described a strict deadline but said nothing about transportation disruptions. An older passenger suggested a taxi; the estimated fare would consume the money Leah had saved for art materials. Another passenger insisted the competition would make no exceptions, although he had not contacted the organizers. Leah realized that both recommendations relied partly on assumptions about facts she could still check.\n\nShe called the competition office and asked whether the deadline applied to physical portfolios as well as online registration. An administrator explained that online registration still closed at six, but portfolios could be delivered by ten the following morning if their owners registered on time. Leah submitted the online form from her phone and received a confirmation email. She then contacted her classmate Mira, who was traveling with a parent early the next day and could offer a ride. Mira warned that the car had limited trunk space, so Leah measured her portfolio before accepting.\n\nNone of these choices eliminated uncertainty. The office's promise was verbal until Leah requested written confirmation; Mira's ride depended on an early departure; and the drawings might be damaged if she packed them carelessly. Leah photographed the confirmation, wrapped the folder between stiff boards, and set two alarms. The precautions were modest, but each addressed a specific remaining risk rather than the mere feeling that the plan might fail.\n\nAt the exhibition hall the next morning, Leah arrived in time to submit her work. She still disliked having depended on other people, particularly when she had regarded independence as evidence of competence. Yet the journey altered the meaning she attached to self-reliance. Her original timetable had been precise but brittle; the revised plan succeeded because she tested uncertain claims, accepted help on explicit terms, and distinguished what she could control from what she could only anticipate.",
           "term": [
             "limited",
             "restricted in scope",
@@ -1369,163 +1369,163 @@
           "questions": [
             {
               "id": "R02-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Last Bus Home\"?",
+              "type": "Character inference",
+              "prompt": "What does Leah's initial decision to wait reveal about her understanding of independence?",
               "choices": [
-                "The concern (“The bus driver explained that a road closure would delay…”) leads to inquiry, but “Leah disliked asking for help because she had hoped to…” limits the inference.",
-                "The proposed response (“She arrived with her drawings intact and thanked both…”) makes the original concern irrelevant.",
-                "The method (“Instead of leaving, Leah called the competition office…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The office agreed to accept entries until the next…”) is treated as unrelated to the original investigation."
+                "She regarded asking for information as a possible admission that her careful plan had failed.",
+                "She knew a replacement bus was scheduled but feared missing it.",
+                "She preferred competition rules to be ignored whenever travel was difficult.",
+                "She believed the other passengers were employed by the competition."
               ],
               "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Leah disliked asking for help because she had hoped to manage everything alone. prevents an overly broad conclusion.",
+              "explanation": "Her impulse is described as avoiding the need to explain or request assistance, not as informed confidence in a new departure. It signals an emotional cost attached to changing plans.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Last Bus Home\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence evaluation",
+              "prompt": "Why is the second passenger's claim about deadlines less useful than Leah's subsequent phone call?",
               "choices": [
-                "She arrived with her drawings intact and thanked both people for making the trip possible.",
-                "The bus driver explained that a road closure would delay the final departure.",
-                "Instead of leaving, Leah called the competition office and asked a neighboring student about another route.",
-                "The office agreed to accept entries until the next morning, and her classmate offered to share a ride."
+                "His advice concerns only the price of a taxi.",
+                "He had not checked the organization's policy, whereas Leah obtained relevant information directly.",
+                "He correctly distinguished online registration from physical submission.",
+                "He knew that the contest had already closed registration."
               ],
               "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: The bus driver explained that a road closure would delay the final departure. The other choices describe what was done or discovered afterward.",
+              "explanation": "The passenger's assertion was unverified. The administrator provides a distinction between registration and delivery that changes the available options.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Last Bus Home\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Logical distinction",
+              "prompt": "Which distinction makes Leah's revised plan possible?",
               "choices": [
-                "The office agreed to accept entries until the next morning, and her classmate offered to share a ride.",
-                "Leah disliked asking for help because she had hoped to manage everything alone.",
-                "Instead of leaving, Leah called the competition office and asked a neighboring student about another route.",
-                "The bus driver explained that a road closure would delay the final departure."
+                "The difference between charcoal drawings and digital paintings.",
+                "The difference between competitions and exhibitions.",
+                "The difference between the online registration deadline and the portfolio-delivery deadline.",
+                "The difference between a delayed bus and a canceled bus."
               ],
               "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Instead of leaving, Leah called the competition office and asked a neighboring student about another route. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "The rules have two deadlines; registration remains fixed while physical delivery may occur the next morning. Confusing those requirements would foreclose a workable plan.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Last Bus Home\", rather than a procedure, caution, or policy response?",
+              "type": "Purpose of detail",
+              "prompt": "Why does the author include the limited trunk space in Mira's car?",
               "choices": [
-                "Instead of leaving, Leah called the competition office and asked a neighboring student about another route.",
-                "Leah disliked asking for help because she had hoped to manage everything alone.",
-                "She arrived with her drawings intact and thanked both people for making the trip possible.",
-                "The office agreed to accept entries until the next morning, and her classmate offered to share a ride."
+                "To suggest Mira secretly intended to cancel the trip.",
+                "To show that a seemingly available alternative still needs practical verification.",
+                "To establish that Leah's portfolio was too large to enter the competition.",
+                "To prove public transport would have been faster than a private car."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The office agreed to accept entries until the next morning, and her classmate offered to share a ride. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The constraint on available space prompts Leah to check the dimensions before relying on the ride. A workable alternative requires conditions to be confirmed.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Last Bus Home\" from being generalized beyond the available evidence?",
+              "type": "Synthesis",
+              "prompt": "Which pair best illustrates Leah's shift from vague anxiety to risk-specific planning?",
               "choices": [
-                "Leah disliked asking for help because she had hoped to manage everything alone.",
-                "The office agreed to accept entries until the next morning, and her classmate offered to share a ride.",
-                "Instead of leaving, Leah called the competition office and asked a neighboring student about another route.",
-                "She arrived with her drawings intact and thanked both people for making the trip possible."
+                "Waiting without asking questions; hoping a replacement bus will arrive.",
+                "Refusing the taxi; assuming the staff will waive all rules.",
+                "Calling the competition office; measuring the portfolio before accepting the ride.",
+                "Writing out her original timetable; refusing help from others."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: Leah disliked asking for help because she had hoped to manage everything alone. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The calls and measurement address unknown policies and physical constraints. Neither depends on vague optimism about the canceled service.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Last Bus Home\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Counterfactual reasoning",
+              "prompt": "Suppose the administrator had confirmed that both registration and portfolio delivery ended at six. Which consequence would follow most directly?",
               "choices": [
-                "The office agreed to accept entries until the next morning, and her classmate offered to share a ride.",
-                "She arrived with her drawings intact and thanked both people for making the trip possible.",
-                "The bus driver explained that a road closure would delay the final departure.",
-                "Instead of leaving, Leah called the competition office and asked a neighboring student about another route."
+                "Leah's overnight delivery plan would no longer satisfy the stated requirements.",
+                "Mira's vehicle would necessarily be too small for the drawings.",
+                "The taxi fare would become affordable.",
+                "The bus closure would cease to matter to the submission."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: She arrived with her drawings intact and thanked both people for making the trip possible. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The next-day plan relies specifically on a later physical-delivery allowance. Removing it invalidates that route without determining anything about transport prices or capacity.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Last Bus Home\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Theme",
+              "prompt": "What is the most defensible interpretation of the passage's final contrast between 'precise' and 'brittle'?",
               "choices": [
-                "Initial concern: “The office agreed to accept entries until the next…”; method: “She arrived with her drawings intact and thanked both…”.",
-                "Initial concern: “Instead of leaving, Leah called the competition office…”; method: “The office agreed to accept entries until the next…”.",
-                "Initial concern: “The bus driver explained that a road closure would delay…”; method: “Instead of leaving, Leah called the competition office…”.",
-                "Initial concern: “The bus driver explained that a road closure would delay…”; method: “Leah disliked asking for help because she had hoped to…”."
+                "Detailed plans are always less successful than improvised ones.",
+                "Planning is useful only when it avoids involving other people.",
+                "A plan can be carefully specified yet fail when it assumes conditions will not change.",
+                "Uncertainty can be eliminated by making enough phone calls."
               ],
               "correctIndex": 2,
-              "explanation": "The issue begins with The bus driver explained that a road closure would delay the final departure. and the subsequent investigative procedure is Instead of leaving, Leah called the competition office and asked a neighboring student about another route..",
+              "explanation": "Precision describes her original schedule, while brittleness describes its vulnerability to disruption. The narrative endorses adaptable planning rather than rejecting precision altogether.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Last Bus Home\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Authorial choice",
+              "prompt": "How does the request for written confirmation contribute to the account of Leah's judgment?",
               "choices": [
-                "The observation (“The office agreed to accept entries until the next…”) rules out every alternative cause.",
-                "The limitation (“Leah disliked asking for help because she had hoped to…”) disproves the observation itself.",
-                "The method (“Instead of leaving, Leah called the competition office…”) guarantees the result before measurement.",
-                "The observation (“The office agreed to accept entries until the next…”) matters, but the limit (“Leah disliked asking for help because she had hoped to…”) remains."
+                "It demonstrates that she regards official statements as inherently dishonest.",
+                "It shows an effort to reduce the gap between an informal assurance and a reliable record.",
+                "It suggests that the administrator was unaware of competition deadlines.",
+                "It reveals Leah's preference for paperwork over artistic success."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The office agreed to accept entries until the next morning, and her classmate offered to share a ride. but must be read alongside Leah disliked asking for help because she had hoped to manage everything alone..",
+              "correctIndex": 1,
+              "explanation": "Leah seeks a record of the exception instead of relying entirely on memory of a call. The detail illustrates proportionate verification, not distrust of all officials.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Last Bus Home\" relate to the strength and limits of the earlier observations?",
+              "type": "Character development",
+              "prompt": "What changes most significantly in Leah's view of self-reliance?",
               "choices": [
-                "The response (“She arrived with her drawings intact and thanked both…”) follows evidence but remains open to reassessment.",
-                "The response (“She arrived with her drawings intact and thanked both…”) is proof of success in every setting.",
-                "The caveat (“Leah disliked asking for help because she had hoped to…”) makes the observations worthless.",
-                "The observation (“The office agreed to accept entries until the next…”) shows that measurement was unnecessary."
+                "She concludes that personal responsibility is less important than winning.",
+                "She replaces a definition based on doing everything alone with one based on making informed decisions and coordinating help.",
+                "She decides that future travel should never be planned in advance.",
+                "She believes other people should accept all responsibility for her work."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed She arrived with her drawings intact and thanked both people for making the trip possible.; the stated limit Leah disliked asking for help because she had hoped to manage everything alone. still matters.",
+              "correctIndex": 1,
+              "explanation": "The final paragraph explicitly revises her understanding of competence: seeking accurate information and accepting conditional help become responsible actions.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Last Bus Home\" without ignoring its stated limitation?",
+              "type": "Main idea",
+              "prompt": "Which statement best synthesizes the decisions Leah makes after the cancellation?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Instead of leaving, Leah called the competition office…”) while testing the concern (“Leah disliked asking for help because she had hoped to…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "A single generous offer can solve logistical problems without further thought.",
+                "Competition rules are generally flexible whenever entrants encounter difficulty.",
+                "Successful adaptation involves checking constraints, reducing identifiable risks, and accepting assistance without abandoning responsibility.",
+                "Independent effort is pointless when plans encounter unpredictable events."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, Leah disliked asking for help because she had hoped to manage everything alone., while comparing evidence from the original method, Instead of leaving, Leah called the competition office and asked a neighboring student about another route..",
+              "correctIndex": 2,
+              "explanation": "Leah confirms both deadlines and transportation constraints, documents assurances and protects her artwork. The other options ignore the informed and conditional nature of her adjustments.",
               "passageId": "R02-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
