@@ -2609,9 +2609,9 @@
         },
         {
           "id": "R03-P4",
-          "title": "A Market with Two Languages",
-          "genre": "community",
-          "text": "When the Cedar Street Market replaced its English-only aisle labels with bilingual signs, the owners expected a simple improvement: shoppers who read the second language would locate goods without having to ask for directions. An early customer survey seemed to confirm the change. Many respondents said the new labels were helpful, and clerks reported fewer requests for basic aisle directions. Yet the manager knew that a reduction in questions could mean several things. Shoppers might have found products more easily; they might also have given up searching, or avoided asking because the revised signs introduced unfamiliar wording.\n\nThe translations were not as straightforward as the owners anticipated. The term used for a type of dried bean had one common meaning in the neighborhood's immigrant community and a different meaning in a standardized dictionary. A translator proposed using the dictionary term consistently to appear professional. A stock clerk who spoke the language at home warned that the result would be technically defensible but unrecognizable to many customers. Rather than choose between professional accuracy and local familiarity as if they were mutually exclusive, the owners tested several alternatives with shoppers of different ages.\n\nThe market also learned that language was only one barrier. Several customers could read both sets of labels but could not distinguish similar packages on high shelves. Other shoppers preferred pictorial signs, particularly when the goods were unfamiliar even in their first language. The owners added clear icons to selected aisles and reorganized shelf labels so that price and product type appeared in consistent positions. These adjustments made it harder to attribute any subsequent improvement to translation alone, but they also made the shop easier to navigate.\n\nTo assess the changes, volunteers observed whether shoppers completed assigned searches, how long those searches took, and when assistance was requested. The tasks were chosen to resemble ordinary errands rather than tests of isolated vocabulary. Even so, the owners were cautious: volunteers knew they were being observed and might act more carefully than on a normal shopping trip. The sample also contained mostly regular customers, so findings might not transfer to first-time visitors.\n\nAfter two months, task completion improved among the observed shoppers, while the average search time declined. The manager announced the results with their limitations and invited additional feedback. For the owners, accessibility was no longer a matter of translating every word perfectly. It meant recognizing that language, visual design, product familiarity, and the willingness to ask for help interact. The strongest improvement came from treating signs as part of a larger communication system rather than as a one-time translation project.",
+          "title": "Darwin — Changing Habits and Adaptation",
+          "genre": "historical scientific argument",
+          "text": "I will now give two or three instances of diversified and of changed habits in the individuals of the same species. When either case occurs, it would be easy for natural selection to fit the animal, by some modification of its structure, for its changed habits, or exclusively for one of its several different habits. But it is difficult to tell, and immaterial for us, whether habits generally change first and structure afterwards; or whether slight modifications of structure lead to changed habits; both probably often change almost simultaneously. Of cases of changed habits it will suffice merely to allude to that of the many British insects which now feed on exotic plants, or exclusively on artificial substances. Of diversified habits innumerable instances could be given: I have often watched a tyrant flycatcher (Saurophagus sulphuratus) in South America, hovering over one spot and then proceeding to another, like a kestrel, and at other times standing stationary on the margin of water, and then dashing like a kingfisher at a fish. In our own country the larger titmouse (Parus major) may be seen climbing branches, almost like a creeper; it often, like a shrike, kills small birds by blows on the head; and I have many times seen and heard it hammering the seeds of the yew on a branch, and thus breaking them like a nuthatch. In North America the black bear was seen by Hearne swimming for hours with widely open mouth, thus catching, like a whale, insects in the water. Even in so extreme a case as this, if the supply of insects were constant, and if better adapted competitors did not already exist in the country, I can see no difficulty in a race of bears being rendered, by natural selection, more and more aquatic in their structure and habits, with larger and larger mouths, till a creature was produced as monstrous as a whale.\n\nAs we sometimes see individuals of a species following habits widely different from those both of their own species and of the other species of the same genus, we might expect, on my theory, that such individuals would occasionally have given rise to new species, having anomalous habits, and with their structure either slightly or considerably modified from that of their proper type. And such instances do occur in nature. Can a more striking instance of adaptation be given than that of a woodpecker for climbing trees and for seizing insects in the chinks of the bark? Yet in North America there are woodpeckers which feed largely on fruit, and others with elongated wings which chase insects on the wing; and on the plains of La Plata, where not a tree grows, there is a woodpecker, which in every essential part of its organisation, even in its colouring, in the harsh tone of its voice, and undulatory flight, told me plainly of its close blood-relationship to our common species; yet it is a woodpecker which never climbs a tree!",
           "term": [
             "methodical",
             "systematic",
@@ -2622,165 +2622,186 @@
           "questions": [
             {
               "id": "R03-P4-01",
-              "type": "Interpretation",
-              "prompt": "Why is a decline in customer requests for help not sufficient by itself to prove easier navigation?",
+              "type": "Causation",
+              "prompt": "What uncertainty does Darwin acknowledge about the relationship between habits and bodily structure?",
               "choices": [
-                "Questions could decrease because shoppers abandoned searches or avoided asking, not only because they succeeded.",
-                "Staff can never measure customer assistance requests.",
-                "Bilingual signs necessarily discourage every customer.",
-                "The survey proved all shoppers understood every translated term."
+                "He cannot always determine whether changed behavior precedes structural change or vice versa.",
+                "He knows habits can never vary.",
+                "He argues all structural change happens in a single generation.",
+                "He claims adaptations never affect behavior."
               ],
               "correctIndex": 0,
-              "explanation": "The manager identifies multiple mechanisms for fewer questions. An outcome measure without task completion cannot distinguish them.",
+              "explanation": "He explicitly says the order is difficult to tell and that both may change nearly simultaneously.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-02",
-              "type": "Language nuance",
-              "prompt": "What conflict arises over the dictionary translation for the dried bean?",
+              "type": "Evidence type",
+              "prompt": "How do the examples of the flycatcher and titmouse function?",
               "choices": [
-                "The translator refuses to use any second language.",
-                "A standardized term may be accurate yet unfamiliar in the community's everyday usage.",
-                "The bean has no name in the second language.",
-                "The clerk insists that spelling errors be included on signs."
+                "They prove every bird species eats identical prey.",
+                "They provide anecdotes about individual owners.",
+                "They illustrate that members of a species can employ different feeding behaviors.",
+                "They show these birds have already become different species."
               ],
-              "correctIndex": 1,
-              "explanation": "The dictionary choice is formally defensible but may fail the practical purpose of communication if shoppers do not recognize it.",
+              "correctIndex": 2,
+              "explanation": "The behaviors illustrate variety in habits within species rather than documented speciation.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-03",
-              "type": "Decision process",
-              "prompt": "How do the owners address the translation disagreement?",
+              "type": "Hypothetical reasoning",
+              "prompt": "What conditions are attached to Darwin's speculative bear-to-aquatic-form example?",
               "choices": [
-                "They remove every product name from the aisles.",
-                "They choose the standardized term without testing.",
-                "They compare alternative terms with shoppers from multiple age groups.",
-                "They ask only the original translator to evaluate the final sign."
+                "The bears must already be whales.",
+                "A sustained insect food supply and absence of better-adapted competitors might favor increasingly aquatic traits.",
+                "The bears must stop reproducing.",
+                "All animals must live in identical habitats."
               ],
-              "correctIndex": 2,
-              "explanation": "Testing with users probes both technical correctness and comprehensibility rather than privileging one untested authority.",
+              "correctIndex": 1,
+              "explanation": "Darwin explicitly qualifies the hypothetical by resource constancy and competitive conditions.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-04",
-              "type": "Confounding",
-              "prompt": "Why is it difficult to credit translation alone for the later improvement?",
+              "type": "Distinguishing claims",
+              "prompt": "Which statement would overstate Darwin's account of the black bear?",
               "choices": [
-                "The signs were installed after the final survey.",
-                "No bilingual customers were included.",
-                "Customers were forbidden from asking for assistance.",
-                "Icons and consistent shelf labeling were changed during the same period."
+                "A bear was reported feeding while swimming.",
+                "Darwin treats it as an illustration of behavioral flexibility.",
+                "He imagines long-term selection under particular circumstances.",
+                "He documents the observed evolution of that bear population into whales."
               ],
               "correctIndex": 3,
-              "explanation": "Multiple design changes occurred together, so the result cannot uniquely identify translation as the cause.",
+              "explanation": "The observed behavior and speculative long-term possibility are distinct; he does not document a bear lineage evolving into whales.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-05",
-              "type": "Evidence design",
-              "prompt": "What is the principal advantage of observing shoppers completing realistic searches?",
+              "type": "Mechanism",
+              "prompt": "How does the discussion connect behavioral diversity to natural selection?",
               "choices": [
-                "It measures practical task success rather than only stated satisfaction with the signs.",
-                "It guarantees that no observer influences behavior.",
-                "It establishes a representative sample of all possible shoppers.",
-                "It replaces the need to note search times or requests for help."
+                "A habit may expose different uses of an environment, allowing selection to favor structures better suited to it.",
+                "Natural selection makes all organisms behave identically.",
+                "Every learned act permanently changes inherited traits immediately.",
+                "Species must first abandon all existing foods."
               ],
               "correctIndex": 0,
-              "explanation": "Realistic tasks offer behavioral evidence about the stated goal—finding goods—rather than relying solely on opinions.",
+              "explanation": "Darwin proposes that altered or varied habits provide contexts in which structural modifications can be selected.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-06",
-              "type": "Sample limitations",
-              "prompt": "Why might the reported results not generalize to first-time market visitors?",
+              "type": "Counterexample",
+              "prompt": "Why is the woodpecker living where no trees grow important to the argument?",
               "choices": [
-                "Regular customers necessarily read labels more poorly.",
-                "Regular shoppers may already know the store's arrangement, independently of the new signs.",
-                "First-time visitors are prohibited from reading pictorial icons.",
-                "The test was conducted in a language none of the shoppers understood."
+                "It establishes woodpeckers are not birds.",
+                "It disproves the existence of common ancestry.",
+                "It challenges a rigid assumption that species traits require identical habitats and behaviors everywhere.",
+                "It demonstrates that all woodpeckers are incapable of climbing."
               ],
-              "correctIndex": 1,
-              "explanation": "Familiarity with the layout affects navigation. A sample dominated by regular customers may overestimate ease for newcomers.",
+              "correctIndex": 2,
+              "explanation": "The tree-less habitat example illustrates divergence in lifestyle despite anatomical and behavioral evidence of relatedness.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-07",
-              "type": "Research method",
-              "prompt": "What possible bias arises because volunteers know they are observed?",
+              "type": "Authorial qualification",
+              "prompt": "What role does 'might expect, on my theory' play?",
               "choices": [
-                "Observers change the height of shelves during measurement.",
-                "The dictionary automatically adjusts the labels.",
-                "Participants may alter their behavior or exert extra care during the task.",
-                "All shoppers stop recognizing familiar goods when watched."
+                "It makes the prediction a demonstrated certainty.",
+                "It presents a hypothesis-derived expectation rather than disguising it as a universally observed fact.",
+                "It indicates the author has abandoned his theory.",
+                "It shows he is describing only a fictional narrative."
               ],
-              "correctIndex": 2,
-              "explanation": "The observation context can influence how participants behave, limiting transfer to ordinary unsupervised shopping.",
+              "correctIndex": 1,
+              "explanation": "The wording marks a prediction consistent with his theoretical framework, inviting comparison with cases.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-08",
-              "type": "Synthesis",
-              "prompt": "Which interpretation best explains why icons help even when translations are accurate?",
+              "type": "Comparative method",
+              "prompt": "What does Darwin's comparison of the plains woodpecker with familiar species emphasize?",
               "choices": [
-                "Accurate words are always useless in stores.",
-                "Pictorial signs force people to use only one language.",
-                "The market should stop offering bilingual labels.",
-                "Some barriers concern visual recognition or unfamiliar products rather than language decoding alone."
+                "Their different calls prove no relationship.",
+                "Only plumage color matters for classification.",
+                "Bird behavior has no connection to anatomy.",
+                "Shared organization and vocal or flight traits can suggest relatedness despite different habits."
               ],
               "correctIndex": 3,
-              "explanation": "The passage describes issues with shelf height, similar packaging, and product familiarity. Icons address those nonlinguistic obstacles.",
+              "explanation": "He cites anatomical, coloring, voice and flight similarities in arguing blood-relationship despite the bird's unusual habitat.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-09",
-              "type": "Authorial argument",
-              "prompt": "How does the final paragraph broaden the notion of accessibility?",
+              "type": "Scientific scope",
+              "prompt": "Which inference is not warranted by the passage alone?",
               "choices": [
-                "It treats communication as an interaction of language, layout, familiarity, and social behavior.",
-                "It defines accessibility exclusively as strict dictionary translation.",
-                "It argues that shoppers should memorize every aisle.",
-                "It suggests that staff assistance can never improve an experience."
+                "Every observed case proves the precise historical sequence of genetic changes that produced it.",
+                "Habit diversity can be observed within species.",
+                "Behavioral differences may offer starting points for further hypotheses.",
+                "The author uses specific examples to motivate a general possibility."
               ],
               "correctIndex": 0,
-              "explanation": "The manager moves from word-for-word translation to an integrated system designed around how actual shoppers navigate.",
+              "explanation": "The passage offers observations and theoretical reasoning, not complete genetic histories of the cases.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             },
             {
               "id": "R03-P4-10",
-              "type": "Evidence and qualification",
-              "prompt": "Which public conclusion is most consistent with the market's data?",
+              "type": "Synthesis",
+              "prompt": "Which thesis most closely links the varied examples?",
               "choices": [
-                "The bilingual signs alone caused every observed improvement.",
-                "Task performance improved among observed shoppers, but multiple changes and sampling limits prevent stronger causal claims.",
-                "Every resident will find goods faster than before.",
-                "No meaningful effect can be assessed because the study was observational."
+                "Species are incapable of changing habits.",
+                "Structural similarity always requires identical behavior.",
+                "Variation in behavior can coexist with shared ancestry and may interact with long-term structural adaptation.",
+                "Habits are entirely independent of environmental conditions."
               ],
-              "correctIndex": 1,
-              "explanation": "The reported improvement is grounded in observed tasks. The study's simultaneous interventions and regular-customer sample limit causal and population-wide generalization.",
+              "correctIndex": 2,
+              "explanation": "The author repeatedly links diversified habits, selection and the possibility of structural change while retaining common organization.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — variation of habits and adaptation"
             }
-          ]
+          ],
+          "source": {
+            "work": "On the Origin of Species",
+            "author": "Charles Darwin",
+            "year": 1859,
+            "url": "https://www.gutenberg.org/ebooks/1228",
+            "rights": "Public domain in United States",
+            "start": "I will now give two or three instances of diversified and of changed habits in the individuals ",
+            "end": "ose blood-relationship to our common species; yet it is a woodpecker which never climbs a tree!"
+          },
+          "sourceReference": "ADV-03-P2",
+          "contextNote": "Historical scientific reasoning (1859). The author presents hypotheses and observations from his era; read them as an argument to assess rather than as a modern scientific textbook."
         }
       ],
       "vocabularyQuestions": [
