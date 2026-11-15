@@ -207,18 +207,18 @@
         {
           "id": "L01-U11",
           "group": "usage",
-          "skill": "Agreement with head noun",
-          "text": "In the day 1 astronomy full-paper case: The number of scholars assigned to the task ___ increased since September.",
+          "skill": "Relative clause and agreement",
+          "text": "Which revision correctly identifies the researchers as the people making the comparison, while keeping subject–verb agreement?",
           "options": [
-            "have",
-            "were",
-            "are",
-            "has"
+            "The collection of surveys, which were compared by the researchers, reveal a disparity.",
+            "Comparing the surveys, a disparity in the collection was revealed.",
+            "The researchers, who compared the surveys, found that the collection revealed a disparity.",
+            "The researchers, which compared the surveys, finds a disparity in the collection."
           ],
-          "correctIndex": 3,
-          "explanation": "The singular head number takes has, despite the plural noun in its complement.",
+          "correctIndex": 2,
+          "explanation": "The plural researchers correctly takes 'who' and 'found'; the subordinate clause identifies them as agents, and the main clause avoids a dangling modifier.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U12",
@@ -1011,17 +1011,17 @@
           "id": "L02-U01",
           "group": "usage",
           "skill": "Correlative agreement",
-          "text": "In the day 2 climate research full-paper case: Neither the chair nor the specialists who drafted the brief ___ prepared to endorse it.",
+          "text": "Neither the editor nor the reviewers who checked the citations ___ willing to endorse a conclusion that the data ___ not support.",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "was; does",
+            "were; do",
+            "were; does",
+            "was; do"
           ],
-          "correctIndex": 2,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 1,
+          "explanation": "With neither/nor, the plural nearer subject 'reviewers' takes 'were'; the plural 'data' is paired with 'do' in this formal construction.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L02-U02",
@@ -1973,18 +1973,18 @@
         {
           "id": "L03-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 3 literature full-paper case: Neither the chair nor the reviewers who drafted the dossier ___ prepared to endorse it.",
+          "skill": "Sequence of tenses",
+          "text": "Which sentence correctly distinguishes what the critic believed before reading the later manuscript from what she concluded afterward?",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "Before she had read the manuscript, the critic believed its ending was definitive; afterward, she reconsidered.",
+            "Before she reads the manuscript, the critic had believed its ending was definitive; afterward, she reconsidered.",
+            "Before she read the manuscript, the critic will have believed its ending was definitive; afterward, she reconsidered.",
+            "Before she had read the manuscript, the critic believes its ending was definitive; afterward, she had reconsidered."
           ],
-          "correctIndex": 3,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "The past-perfect 'had read' locates the earlier stage relative to the later reconsideration, while the remaining finite past verbs preserve a coherent retrospective narrative.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L03-U02",
@@ -2936,18 +2936,18 @@
         {
           "id": "L04-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 4 archives full-paper case: Neither the chair nor the planners who drafted the memorandum ___ prepared to endorse it.",
+          "skill": "Misplaced modifiers",
+          "text": "Which sentence states unambiguously that only the sample collected on Tuesday was analyzed?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "Only the analyst reviewed the Tuesday sample.",
+            "The analyst reviewed the sample only on Tuesday.",
+            "The analyst reviewed only the sample collected on Tuesday.",
+            "The analyst only reviewed the sample that was collected on Tuesday."
           ],
-          "correctIndex": 0,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 2,
+          "explanation": "'Only' directly limits the noun phrase 'the sample collected on Tuesday' rather than the analyst, the action, or the time of review.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L04-U02",
@@ -3899,18 +3899,18 @@
         {
           "id": "L05-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 5 robotics full-paper case: Neither the chair nor the historians who drafted the submission ___ prepared to endorse it.",
+          "skill": "Parallelism and logic",
+          "text": "Which sentence maintains parallel structure and clearly assigns all three purposes to the same experiment?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "The experiment was designed to estimate runoff, testing drainage, and whether vegetation could reduce erosion.",
+            "The experiment was designed to estimate runoff, test drainage, and determine whether vegetation could reduce erosion.",
+            "The experiment was designed for estimating runoff, to test drainage, and determine whether vegetation could reduce erosion.",
+            "The experiment was designed that runoff be estimated, testing drainage, and to determine vegetation."
           ],
           "correctIndex": 1,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "explanation": "Three coordinated infinitives—estimate, test, and determine—follow 'designed to' and share a single subject.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L05-U02",
@@ -4862,18 +4862,18 @@
         {
           "id": "L06-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 6 ethics full-paper case: Neither the chair nor the consultants who drafted the account ___ prepared to endorse it.",
+          "skill": "Pronoun antecedent",
+          "text": "Which revision makes it clear that the coach, not the team captain, had questioned the strategy?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "When the coach met the captain, she explained why her strategy was questionable.",
+            "The captain was told that the coach's strategy was questionable.",
+            "After the meeting, the coach told the captain that she doubted the strategy.",
+            "The coach explained to the captain that the coach had questioned the strategy."
           ],
-          "correctIndex": 2,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 3,
+          "explanation": "Repeating 'the coach' resolves the ambiguity of 'she' or 'her' without assigning the doubt to the captain.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L06-U02",
@@ -5825,18 +5825,18 @@
         {
           "id": "L07-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 7 ecology full-paper case: Neither the chair nor the scientists who drafted the document ___ prepared to endorse it.",
+          "skill": "Subjunctive and conditionals",
+          "text": "If the archive ___ able to confirm the letter's date, its curator ___ revise the disputed label; the evidence, however, remains inconclusive.",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "were; would",
+            "was; will",
+            "is; had",
+            "had been; will"
           ],
-          "correctIndex": 3,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "The hypothetical 'If ... were' conventionally takes 'would' in the result clause; the following sentence establishes that the condition is not yet met.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L07-U02",
@@ -6788,18 +6788,18 @@
         {
           "id": "L08-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 8 civic planning full-paper case: Neither the chair nor the surveyors who drafted the paper ___ prepared to endorse it.",
+          "skill": "Conjunctive adverbs",
+          "text": "Which sentence correctly punctuates a contrast between two independent clauses?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "The proposed method was inexpensive, nevertheless, it had not been validated.",
+            "The proposed method was inexpensive; nevertheless, it had not been validated.",
+            "The proposed method was inexpensive; nevertheless it had not, been validated.",
+            "The proposed method was inexpensive nevertheless; it had not been validated."
           ],
-          "correctIndex": 0,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 1,
+          "explanation": "A semicolon separates two independent clauses, and a comma follows the conjunctive adverb 'nevertheless'.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L08-U02",
@@ -7751,18 +7751,18 @@
         {
           "id": "L09-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 9 linguistics full-paper case: Neither the chair nor the scholars who drafted the summary ___ prepared to endorse it.",
+          "skill": "Comparison consistency",
+          "text": "Which sentence compares like quantities without introducing ambiguity about what increased?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "Rainfall in June was higher than the preceding year.",
+            "Rainfall in June was higher than May did.",
+            "June's recorded rainfall was higher than that recorded in May.",
+            "June's rainfall was higher than the weather station."
           ],
-          "correctIndex": 1,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 2,
+          "explanation": "'That recorded in May' makes clear that two rainfall totals, rather than months, a year or an instrument, are being compared.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L09-U02",
@@ -8714,18 +8714,18 @@
         {
           "id": "L10-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 10 museum conservation full-paper case: Neither the chair nor the inspectors who drafted the document ___ prepared to endorse it.",
+          "skill": "Participial phrase",
+          "text": "Which revision avoids a dangling participial phrase?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "Having inspected the faulty sensor, the engineer wrote a revised report.",
+            "Having inspected the faulty sensor, a revised report was written.",
+            "Having inspected the faulty sensor, the report was revised.",
+            "Having inspected the faulty sensor, a revised conclusion emerged."
           ],
-          "correctIndex": 2,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "The engineer is the agent who performed the inspection, so the introductory participial phrase attaches correctly to that subject.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L10-U02",
@@ -9677,18 +9677,18 @@
         {
           "id": "L11-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 11 medical history full-paper case: Neither the chair nor the writers who drafted the draft ___ prepared to endorse it.",
+          "skill": "Nonrestrictive clause punctuation",
+          "text": "Which sentence correctly treats the date as additional information rather than as a restrictive condition?",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "The report, which was published in October, contradicted the earlier forecast.",
+            "The report which was published in October, contradicted the earlier forecast.",
+            "The report, which was published in October contradicted the earlier forecast.",
+            "The report which, was published in October, contradicted the earlier forecast."
           ],
-          "correctIndex": 3,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "The paired commas set off a nonrestrictive relative clause. The other versions contain mismatched commas.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L11-U02",
@@ -10640,18 +10640,18 @@
         {
           "id": "L12-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 12 economics full-paper case: Neither the chair nor the analysts who drafted the record ___ prepared to endorse it.",
+          "skill": "Agreement under inversion",
+          "text": "Which sentence correctly handles subject–verb agreement after an introductory locative phrase?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "Among the exhibits was several letters whose dates were uncertain.",
+            "Among the exhibits were several letters whose dates were uncertain.",
+            "Among the exhibits were several letters whose dates was uncertain.",
+            "Among the exhibits had been several letters whose dates is uncertain."
           ],
-          "correctIndex": 0,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 1,
+          "explanation": "The inverted subject 'several letters' is plural and takes 'were'; the relative clause's plural 'dates' also takes 'were'.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L12-U02",
@@ -11603,18 +11603,18 @@
         {
           "id": "L13-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 13 marine science full-paper case: Neither the chair nor the surveyors who drafted the proposal ___ prepared to endorse it.",
+          "skill": "Quantifier agreement",
+          "text": "Which sentence correctly distinguishes the group considered as a whole from its individual participants?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "Each of the participants have submitted their observations.",
+            "Each of the participants were submitting their observations.",
+            "Each of the participants has submitted their observations.",
+            "Each of the participants are submitting their observations."
           ],
-          "correctIndex": 1,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 2,
+          "explanation": "The distributive subject 'each' takes a singular finite verb, 'has'; singular 'their' is accepted for a person of unspecified gender.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L13-U02",
@@ -12566,18 +12566,18 @@
         {
           "id": "L14-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 14 public policy full-paper case: Neither the chair nor the curators who drafted the review ___ prepared to endorse it.",
+          "skill": "Ellipsis and comparison",
+          "text": "Which sentence avoids comparing the authority of one office with the people who hold another?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "The review board's authority is broader than the archivists.",
+            "The review board has broader authority than the archivists' office does.",
+            "The review board's authority is broader than that of the archival committee.",
+            "The review board's authority is broader than what the archivists."
           ],
           "correctIndex": 2,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "explanation": "'That of the archival committee' supplies a matching abstract noun ('authority') for comparison.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L14-U02",
@@ -13529,18 +13529,18 @@
         {
           "id": "L15-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 15 mathematics full-paper case: Neither the chair nor the evaluators who drafted the record ___ prepared to endorse it.",
+          "skill": "Colon usage",
+          "text": "Which version uses a colon correctly to introduce examples after an independent clause?",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "The manuscript cited three kinds of evidence: census tables, receipts, and oral accounts.",
+            "The manuscript cited: census tables, receipts, and oral accounts.",
+            "The manuscript cited three kinds: of evidence, census tables, receipts, and oral accounts.",
+            "The manuscript cited three kinds of: evidence, census tables, receipts, and oral accounts."
           ],
-          "correctIndex": 3,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "The independent clause 'The manuscript cited three kinds of evidence' can be followed by a colon introducing its examples.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L15-U02",
@@ -14492,18 +14492,18 @@
         {
           "id": "L16-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 16 journalism full-paper case: Neither the chair nor the technicians who drafted the report ___ prepared to endorse it.",
+          "skill": "Conditional inversion",
+          "text": "Which sentence correctly expresses the unreal past conditional without using 'if'?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "Had the notice been delivered earlier, the residents would have responded before the vote.",
+            "Had the notice delivered earlier, the residents would respond before the vote.",
+            "Should the notice have delivered earlier, the residents would responded before the vote.",
+            "Were the notice delivered earlier yesterday, the residents will have responded before the vote."
           ],
           "correctIndex": 0,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "explanation": "'Had the notice been delivered' is an inverted past-perfect conditional, paired with 'would have responded' for the unreal past result.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L16-U02",
@@ -15455,18 +15455,18 @@
         {
           "id": "L17-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 17 engineering full-paper case: Neither the chair nor the geologists who drafted the transcript ___ prepared to endorse it.",
+          "skill": "Correlative parallelism",
+          "text": "Which sentence keeps the structure after 'not only' and 'but also' parallel?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "The study not only documented increased use but also new barriers were identified.",
+            "The study documented not only increased use but also it identified new barriers.",
+            "The study not only documented increased use but also identified new barriers.",
+            "Not only the study documented increased use but also identified barriers."
           ],
-          "correctIndex": 1,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 2,
+          "explanation": "Both coordinated predicates ('documented' and 'identified') share the subject 'study' with matching verb forms.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L17-U02",
@@ -16418,18 +16418,18 @@
         {
           "id": "L18-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 18 environmental law full-paper case: Neither the chair nor the scholars who drafted the paper ___ prepared to endorse it.",
+          "skill": "Relative pronoun case",
+          "text": "Which sentence uses the relative pronoun correctly in formal written English?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "The committee appointed the student whom it believed was best prepared.",
+            "The committee appointed the student who it believed was best prepared.",
+            "The committee appointed the student whose it believed was best prepared.",
+            "The committee appointed the student which it believed was best prepared."
           ],
-          "correctIndex": 2,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 1,
+          "explanation": "Within the relative clause, 'who' is the subject of 'was' despite intervening 'it believed'; 'whom' would wrongly treat it as object of the relative clause.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L18-U02",
@@ -17381,18 +17381,18 @@
         {
           "id": "L19-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 19 psychology full-paper case: Neither the chair nor the reviewers who drafted the paper ___ prepared to endorse it.",
+          "skill": "Concessive subordinate clause",
+          "text": "Which sentence correctly communicates that the experiment was continued despite inconclusive preliminary evidence?",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "Although the early measurements were inconclusive, the researchers continued the trial.",
+            "Because the early measurements were inconclusive, so the researchers continued the trial.",
+            "Despite the early measurements were inconclusive, the researchers continued the trial.",
+            "Although the early measurements were inconclusive; the researchers continued the trial."
           ],
-          "correctIndex": 3,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 0,
+          "explanation": "'Although' introduces a subordinate concessive clause separated by a comma from the independent main clause.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L19-U02",
@@ -18344,18 +18344,18 @@
         {
           "id": "L20-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 20 urban history full-paper case: Neither the chair nor the specialists who drafted the finding ___ prepared to endorse it.",
+          "skill": "Consistency of voice",
+          "text": "Which revision keeps the two steps in parallel active voice while identifying the same actor?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "The linguists transcribed each recording, and the samples were compared.",
+            "Each recording was transcribed by the linguists, and they compared the samples.",
+            "The linguists transcribed each recording and compared the samples.",
+            "Transcribing each recording, the samples were compared."
           ],
-          "correctIndex": 0,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "correctIndex": 2,
+          "explanation": "Both active predicates 'transcribed' and 'compared' have the plural subject 'linguists', improving parallelism and avoiding the dangling phrase in option D.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L20-U02",
