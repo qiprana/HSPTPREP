@@ -7189,9 +7189,9 @@
       "passages": [
         {
           "id": "R08-P1",
-          "title": "The Hidden Stream",
-          "genre": "science",
-          "text": "Ecologists studied a stream that disappeared into a culvert before reappearing several blocks downstream. After storms, fish were rarely seen beyond the culvert, although the upstream channel held many. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe team measured water flow and photographed the narrow entrance at different water levels. The current became unusually fast at the entrance when rainfall increased. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their thorough approach involved examining the available information before making the next decision.\n\nThe observations did not establish whether speed alone explained the fish distribution. Officials considered widening part of the entrance and monitoring the stream afterward. Understanding a problem requires tracing conditions through the entire system, not merely inspecting its endpoints. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Thoreau — Solitude and Society",
+          "genre": "literary essay",
+          "text": "I find it wholesome to be alone the greater part of the time. To be in company, even with the best, is soon wearisome and dissipating. I love to be alone. I never found the companion that was so companionable as solitude. We are for the most part more lonely when we go abroad among men than when we stay in our chambers. A man thinking or working is always alone, let him be where he will. Solitude is not measured by the miles of space that intervene between a man and his fellows. The really diligent student in one of the crowded hives of Cambridge College is as solitary as a dervish in the desert. The farmer can work alone in the field or the woods all day, hoeing or chopping, and not feel lonesome, because he is employed; but when he comes home at night he cannot sit down in a room alone, at the mercy of his thoughts, but must be where he can \"see the folks,\" and recreate, and, as he thinks, remunerate himself for his day's solitude; and hence he wonders how the student can sit alone in the house all night and most of the day without ennui and \"the blues\"; but he does not realize that the student, though in the house, is still at work in _his_ field, and chopping in _his_ woods, as the farmer in his, and in turn seeks the same recreation and society that the latter does, though it may be a more condensed form of it.\n\nSociety is commonly too cheap. We meet at very short intervals, not having had time to acquire any new value for each other. We meet at meals three times a day, and give each other a new taste of that old musty cheese that we are. We have had to agree on a certain set of rules, called etiquette and politeness, to make this frequent meeting tolerable and that we need not come to open war. We meet at the post-office, and at the sociable, and about the fireside every night; we live thick and are in each other's way, and stumble over one another, and I think that we thus lose some respect for one another. Certainly less frequency would suffice for all important and hearty communications. Consider the girls in a factory--never alone, hardly in their dreams. It would be better if there were but one inhabitant to a square mile, as where I live. The value of a man is not in his skin, that we should touch him.\n\nI have heard of a man lost in the woods and dying of famine and exhaustion at the foot of a tree, whose loneliness was relieved by the grotesque visions with which, owing to bodily weakness, his diseased imagination surrounded him, and which he believed to be real. So also, owing to bodily and mental health and strength, we may be continually cheered by a like but more normal and natural society, and come to know that we are never alone.",
           "term": [
             "thorough",
             "complete and careful",
@@ -7202,165 +7202,185 @@
           "questions": [
             {
               "id": "R08-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Hidden Stream\"?",
+              "type": "Paradox",
+              "prompt": "What apparent paradox does the narrator introduce by claiming people may be lonelier among others than in their rooms?",
               "choices": [
-                "The concern (“After storms, fish were rarely seen beyond the culvert,…”) leads to inquiry, but “The observations did not establish whether speed alone…” limits the inference.",
-                "The proposed response (“Officials considered widening part of the entrance and…”) makes the original concern irrelevant.",
-                "The method (“The team measured water flow and photographed the narrow…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The current became unusually fast at the entrance when…”) is treated as unrelated to the original investigation."
+                "Physical proximity need not produce meaningful intellectual or emotional companionship.",
+                "Solitude is possible only when someone lives far from all settlements.",
+                "Being alone always causes more loneliness than being with others.",
+                "The narrator secretly dislikes every form of society."
               ],
               "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The observations did not establish whether speed alone explained the fish distribution. prevents an overly broad conclusion.",
+              "explanation": "Thoreau separates loneliness from physical separation, suggesting company may fail to provide connection while solitary activity can be fulfilling.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Hidden Stream\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Metaphorical analogy",
+              "prompt": "How does the comparison between the student and the farmer develop the argument?",
               "choices": [
-                "Officials considered widening part of the entrance and monitoring the stream afterward.",
-                "After storms, fish were rarely seen beyond the culvert, although the upstream channel held many.",
-                "The team measured water flow and photographed the narrow entrance at different water levels.",
-                "The current became unusually fast at the entrance when rainfall increased."
+                "It suggests that scholarly labor is always more difficult than physical labor.",
+                "It argues that the farmer should abandon fieldwork.",
+                "It presents mental labor as a form of purposeful work comparable to physical work, reducing the sense of isolation.",
+                "It proves that neither scholar nor farmer needs recreation."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: After storms, fish were rarely seen beyond the culvert, although the upstream channel held many. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The student works in a metaphorical field and woods just as the farmer works literally, so each can be occupied and seeks recreation afterward.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Hidden Stream\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Definition",
+              "prompt": "How does the passage redefine solitude?",
               "choices": [
-                "The current became unusually fast at the entrance when rainfall increased.",
-                "The observations did not establish whether speed alone explained the fish distribution.",
-                "The team measured water flow and photographed the narrow entrance at different water levels.",
-                "After storms, fish were rarely seen beyond the culvert, although the upstream channel held many."
+                "As a mathematical distance between homes.",
+                "As a condition partly shaped by purposeful occupation and inner life rather than simply the absence of people.",
+                "As a permanent withdrawal from work.",
+                "As an unavoidable result of poor health."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: The team measured water flow and photographed the narrow entrance at different water levels. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The writer explicitly says solitude is not measured in miles and develops examples of concentrated thought and work.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Hidden Stream\", rather than a procedure, caution, or policy response?",
+              "type": "Rhetoric",
+              "prompt": "Why does the narrator liken frequent social contact to tasting 'old musty cheese'?",
               "choices": [
-                "The team measured water flow and photographed the narrow entrance at different water levels.",
-                "The observations did not establish whether speed alone explained the fish distribution.",
-                "Officials considered widening part of the entrance and monitoring the stream afterward.",
-                "The current became unusually fast at the entrance when rainfall increased."
+                "To recommend a particular diet.",
+                "To emphasize the cost of communal meals.",
+                "To argue that everyone in a crowd smells unpleasant.",
+                "To satirize repetitive contact that offers little new exchange."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The current became unusually fast at the entrance when rainfall increased. The other statements describe different stages of the inquiry.",
+              "explanation": "The comic image conveys stale conversation produced by meeting before people have gained anything new to share.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Hidden Stream\" from being generalized beyond the available evidence?",
+              "type": "Qualified claim",
+              "prompt": "What does the narrator mean by saying less frequent meetings could suffice for 'important and hearty communications'?",
               "choices": [
-                "The observations did not establish whether speed alone explained the fish distribution.",
-                "The current became unusually fast at the entrance when rainfall increased.",
-                "The team measured water flow and photographed the narrow entrance at different water levels.",
-                "Officials considered widening part of the entrance and monitoring the stream afterward."
+                "Fewer encounters might increase the substance and respectfulness of exchanges.",
+                "All conversation should cease permanently.",
+                "Etiquette has no social function.",
+                "The value of a person is measured by the number of daily meetings."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: The observations did not establish whether speed alone explained the fish distribution. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "He argues constant contact can erode novelty and respect while more selective interaction may remain meaningful.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Hidden Stream\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Perspective",
+              "prompt": "What assumption does the farmer make about the student that the narrator rejects?",
               "choices": [
-                "The current became unusually fast at the entrance when rainfall increased.",
-                "Officials considered widening part of the entrance and monitoring the stream afterward.",
-                "After storms, fish were rarely seen beyond the culvert, although the upstream channel held many.",
-                "The team measured water flow and photographed the narrow entrance at different water levels."
+                "The student works outside in the same fields.",
+                "The student's time indoors is idle isolation rather than purposeful intellectual work.",
+                "The student has never spoken with a friend.",
+                "Physical work is impossible without companionship."
               ],
               "correctIndex": 1,
-              "explanation": "The subsequent response was: Officials considered widening part of the entrance and monitoring the stream afterward. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The farmer does not see that studying is work and wrongly associates the student's staying indoors with boredom.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Hidden Stream\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Tone",
+              "prompt": "Which description best captures the narrator's attitude toward conventional sociability?",
               "choices": [
-                "Initial concern: “The current became unusually fast at the entrance when…”; method: “Officials considered widening part of the entrance and…”.",
-                "Initial concern: “The team measured water flow and photographed the narrow…”; method: “The current became unusually fast at the entrance when…”.",
-                "Initial concern: “After storms, fish were rarely seen beyond the culvert,…”; method: “The team measured water flow and photographed the narrow…”.",
-                "Initial concern: “After storms, fish were rarely seen beyond the culvert,…”; method: “The observations did not establish whether speed alone…”."
+                "Unqualified hatred for all human contact.",
+                "Deferential acceptance of every rule of etiquette.",
+                "Wry skepticism about frequent contact combined with appreciation for more meaningful connection.",
+                "A scientific neutrality that avoids judgment."
               ],
               "correctIndex": 2,
-              "explanation": "The issue begins with After storms, fish were rarely seen beyond the culvert, although the upstream channel held many. and the subsequent investigative procedure is The team measured water flow and photographed the narrow entrance at different water levels..",
+              "explanation": "His irony criticizes habitual crowded social life, but he still values important and hearty communication.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Hidden Stream\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Argument development",
+              "prompt": "What is the purpose of the final anecdote about the starving man who imagines companions?",
               "choices": [
-                "The observation (“The current became unusually fast at the entrance when…”) rules out every alternative cause.",
-                "The limitation (“The observations did not establish whether speed alone…”) disproves the observation itself.",
-                "The method (“The team measured water flow and photographed the narrow…”) guarantees the result before measurement.",
-                "The observation (“The current became unusually fast at the entrance when…”) matters, but the limit (“The observations did not establish whether speed alone…”) remains."
+                "To prove hallucinations are a reliable means of communication.",
+                "To demonstrate that solitude must cause mental illness.",
+                "To recommend starvation as spiritual discipline.",
+                "To contrast pathological imagined company with the healthy mind's ability to feel inwardly sustained."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The current became unusually fast at the entrance when rainfall increased. but must be read alongside The observations did not establish whether speed alone explained the fish distribution..",
+              "explanation": "The passage turns from unhealthy visions to a healthier figurative companionship, reinforcing the role of perception and inner resources.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Hidden Stream\" relate to the strength and limits of the earlier observations?",
+              "type": "Evidence and scope",
+              "prompt": "Which claim would most clearly go beyond the passage?",
               "choices": [
-                "The response (“Officials considered widening part of the entrance and…”) follows evidence but remains open to reassessment.",
-                "The response (“Officials considered widening part of the entrance and…”) is proof of success in every setting.",
-                "The caveat (“The observations did not establish whether speed alone…”) makes the observations worthless.",
-                "The observation (“The current became unusually fast at the entrance when…”) shows that measurement was unnecessary."
+                "The narrator values solitude as beneficial to his own life.",
+                "The narrator regards constant social contact as potentially depleting.",
+                "Every person who lives alone is necessarily happier and healthier than every social person.",
+                "The narrator distinguishes solitude from geographical isolation."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed Officials considered widening part of the entrance and monitoring the stream afterward.; the stated limit The observations did not establish whether speed alone explained the fish distribution. still matters.",
+              "correctIndex": 2,
+              "explanation": "The author offers evaluative examples and personal conviction, not a universal comparative study of every individual's wellbeing.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             },
             {
               "id": "R08-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Hidden Stream\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which central distinction unifies the student, the farmer, and the social gathering examples?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The team measured water flow and photographed the narrow…”) while testing the concern (“The observations did not establish whether speed alone…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Meaningful engagement differs from the mere physical presence of others.",
+                "Intellectual work should replace all agricultural labor.",
+                "The worth of companionship can be measured by geographic distance.",
+                "People living in towns cannot develop an inner life."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, The observations did not establish whether speed alone explained the fish distribution., while comparing evidence from the original method, The team measured water flow and photographed the narrow entrance at different water levels..",
+              "correctIndex": 0,
+              "explanation": "Across the examples, purposeful activity and substantive exchange matter more than physical proximity or frequent meetings.",
               "passageId": "R08-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — Solitude"
             }
-          ]
+          ],
+          "source": {
+            "work": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "url": "https://www.gutenberg.org/ebooks/205",
+            "rights": "Public domain in United States",
+            "start": "I find it wholesome to be alone the greater part of the time. To be in company, even with the b",
+            "end": "heered by a like but more normal and natural society, and come to know that we are never alone."
+          },
+          "sourceReference": "ADV-08-P4"
         },
         {
           "id": "R08-P2",
