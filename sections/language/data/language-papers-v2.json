@@ -683,18 +683,18 @@
         {
           "id": "L01-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 1 astronomy full-paper case: Which evidence would best establish that a new procedure reduced errors in astronomy?",
+          "skill": "Experimental evidence",
+          "text": "The observatory reports that a new filter improves image sharpness by 18 percent. Which evidence would most directly distinguish filter performance from the effects of clearer weather?",
           "options": [
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final manuscript.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers."
+            "A technical brochure that lists its optical components.",
+            "An expert's description of the previous filter's flaws.",
+            "Images from both filters taken under matched atmospheric conditions with blinded sharpness ratings.",
+            "A chart showing image quality only after the filter replacement."
           ],
           "correctIndex": 2,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "explanation": "Comparable observing conditions and independent evaluation isolate the filter more effectively than before-after readings taken during different weather.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-C03",
@@ -1646,18 +1646,18 @@
         {
           "id": "L02-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 2 climate research full-paper case: Which evidence would best establish that a new procedure reduced errors in climate research?",
+          "skill": "Climate model validation",
+          "text": "A regional forecast model matches last year's unusually mild winter. What test best establishes whether it can predict conditions beyond the year used to tune it?",
           "options": [
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final brief.",
-            "A comparison of verified error rates under comparable conditions."
+            "Test its forecasts against independent years not used during calibration.",
+            "Increase the precision of its predictions for the same mild winter.",
+            "Ask whether forecasters found the model's interface convenient.",
+            "Compare its predictions only with the historical year that fit best."
           ],
-          "correctIndex": 3,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 0,
+          "explanation": "Out-of-sample comparisons provide evidence about generalization rather than fit to the calibration data.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L02-C03",
@@ -2609,18 +2609,18 @@
         {
           "id": "L03-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 3 literature full-paper case: Which evidence would best establish that a new procedure reduced errors in literature?",
+          "skill": "Textual criticism",
+          "text": "A critic attributes an anonymous poem to a famous author because both share unusual imagery. What evidence would most strongly test the attribution?",
           "options": [
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final dossier."
+            "A list of themes common in the author's lifetime.",
+            "A modern reader's assessment of which poem sounds better.",
+            "Proof that the author lived in the same country.",
+            "A dated manuscript or correspondence independently connecting the author with the poem."
           ],
-          "correctIndex": 0,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 3,
+          "explanation": "Independent provenance is stronger than stylistic resemblance, which other writers or imitators can share.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L03-C03",
@@ -3572,18 +3572,18 @@
         {
           "id": "L04-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 4 archives full-paper case: Which evidence would best establish that a new procedure reduced errors in archives?",
+          "skill": "Civic survey design",
+          "text": "A town survey asks, 'Do you support the mayor's sensible plan to improve traffic?' Which revision best reduces leading wording?",
           "options": [
-            "The number of pages in the final memorandum.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated."
+            "Do you support or oppose the proposed changes to traffic flow, after reviewing a neutral description of the proposal?",
+            "Why do you oppose a sensible plan that everyone needs?",
+            "Do you agree the plan will obviously reduce congestion?",
+            "Should the town improve traffic instead of wasting money?"
           ],
-          "correctIndex": 1,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 0,
+          "explanation": "The first phrasing removes value judgments and gives neutral information, reducing demand to endorse a desirable-sounding plan.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L04-C03",
@@ -4535,18 +4535,18 @@
         {
           "id": "L05-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 5 robotics full-paper case: Which evidence would best establish that a new procedure reduced errors in robotics?",
+          "skill": "Medical evidence",
+          "text": "A clinic claims that a new appointment reminder system reduced missed visits. Which comparison most directly tests that claim?",
           "options": [
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final submission.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers."
+            "Patient satisfaction after the change alone.",
+            "Missed-visit rates for similar appointment groups with and without reminders over comparable periods.",
+            "A count of reminders sent in the first week.",
+            "A testimonial from a patient who likes notifications."
           ],
-          "correctIndex": 2,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 1,
+          "explanation": "Comparable no-show rates with a relevant control group target the effect while accounting for differences between patient groups and periods.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L05-C03",
@@ -5498,18 +5498,18 @@
         {
           "id": "L06-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 6 ethics full-paper case: Which evidence would best establish that a new procedure reduced errors in ethics?",
+          "skill": "Learning research",
+          "text": "Students using a new writing app revise their essays more often. What additional measure best assesses whether the app improves writing quality rather than mere editing activity?",
           "options": [
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final account.",
-            "A comparison of verified error rates under comparable conditions."
+            "Minutes spent opening the app.",
+            "The number of button clicks per draft.",
+            "Blinded rubric scores of independently assessed essays before and after app use.",
+            "How much students enjoy the app's colors."
           ],
-          "correctIndex": 3,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 2,
+          "explanation": "Revision frequency measures behavior, but blinded writing-quality ratings directly assess the educational outcome.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L06-C03",
@@ -6461,18 +6461,18 @@
         {
           "id": "L07-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 7 ecology full-paper case: Which evidence would best establish that a new procedure reduced errors in ecology?",
+          "skill": "Transportation evaluation",
+          "text": "A city measures shorter bus travel times only on routes with dedicated lanes after construction. Which comparison would best identify the lanes' contribution?",
           "options": [
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final document."
+            "Peak-hour bus travel times on similar routes without new lanes, measured before and after the change.",
+            "The number of buses manufactured that year.",
+            "An interview with the road contractor.",
+            "Passenger opinions about bus paint colors."
           ],
           "correctIndex": 0,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "explanation": "A before-after comparison with unaffected routes helps separate lane effects from wider traffic trends.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L07-C03",
@@ -7424,18 +7424,18 @@
         {
           "id": "L08-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 8 civic planning full-paper case: Which evidence would best establish that a new procedure reduced errors in civic planning?",
+          "skill": "Environmental causal test",
+          "text": "A watershed report attributes clearer water to a recent invasive-plant removal project. Which evidence would most directly test this attribution?",
           "options": [
-            "The number of pages in the final paper.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated."
+            "A photograph of the cleanup volunteers.",
+            "A description of the invasive plant's appearance.",
+            "A count of leaflets distributed about the project.",
+            "Water clarity records upstream and downstream, before and after removal, alongside rainfall data."
           ],
-          "correctIndex": 1,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 3,
+          "explanation": "Paired water measurements and rainfall context help distinguish project impact from weather and natural upstream variation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L08-C03",
@@ -8387,18 +8387,18 @@
         {
           "id": "L09-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 9 linguistics full-paper case: Which evidence would best establish that a new procedure reduced errors in linguistics?",
+          "skill": "Journalism source verification",
+          "text": "A reporter receives an anonymous document purporting to show misuse of public funds. What would most strongly support publishing its factual allegation?",
           "options": [
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final summary.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers."
+            "The document's formatting resembles official forms.",
+            "Independent verification of transactions and authentication of the document's origin.",
+            "Several anonymous accounts repeat the identical allegation.",
+            "The reporter finds the allegation plausible."
           ],
-          "correctIndex": 2,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 1,
+          "explanation": "Corroborating records and provenance address authenticity and substance, whereas repetition of unverified material does not.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L09-C03",
@@ -9350,18 +9350,18 @@
         {
           "id": "L10-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 10 museum conservation full-paper case: Which evidence would best establish that a new procedure reduced errors in museum conservation?",
+          "skill": "Engineering reliability",
+          "text": "A safety device completes five demonstrations without failure. Which evidence best supports a reliability estimate for routine industrial use?",
           "options": [
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final document.",
-            "A comparison of verified error rates under comparable conditions."
+            "The designer's confidence in the device.",
+            "A shorter demonstration that produces the same result.",
+            "A much larger set of representative trials across expected operating stresses with recorded failures.",
+            "The absence of complaints during the five demonstrations."
           ],
-          "correctIndex": 3,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 2,
+          "explanation": "Reliability requires sufficient trials under relevant stresses and explicit failure tracking, not just a handful of successes.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L10-C03",
@@ -10313,18 +10313,18 @@
         {
           "id": "L11-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 11 medical history full-paper case: Which evidence would best establish that a new procedure reduced errors in medical history?",
+          "skill": "Historical interpretation",
+          "text": "A historian infers that crop prices caused rural migration because prices fell before a migration wave. What would most strengthen the causal argument?",
           "options": [
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final draft."
+            "Regional evidence linking price changes to household departures while assessing simultaneous political or environmental pressures.",
+            "A later novel depicting a migrating family.",
+            "A local song remembering economic hardship.",
+            "Proof that crops were grown in the region."
           ],
           "correctIndex": 0,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "explanation": "Linked region-level or household evidence and consideration of rival pressures distinguish mere timing from explanatory mechanism.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L11-C03",
@@ -11276,18 +11276,18 @@
         {
           "id": "L12-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 12 economics full-paper case: Which evidence would best establish that a new procedure reduced errors in economics?",
+          "skill": "Measurement quality",
+          "text": "A national survey's responses increased after a redesigned online form. What measure best indicates whether the change improved representation rather than only participation volume?",
           "options": [
-            "The number of pages in the final record.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated."
+            "The new form's average completion time.",
+            "The total number of clicks it received.",
+            "A comparison of respondent demographics against the target population before and after redesign.",
+            "The number of survey staff who preferred the redesign."
           ],
-          "correctIndex": 1,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 2,
+          "explanation": "Higher participation can still be skewed. Demographic comparisons directly assess coverage of the intended population.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L12-C03",
@@ -12239,18 +12239,18 @@
         {
           "id": "L13-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 13 marine science full-paper case: Which evidence would best establish that a new procedure reduced errors in marine science?",
+          "skill": "Robotics deployment",
+          "text": "A manufacturer says a warehouse robot will reduce injuries because it performs heavy lifting. Which evidence directly tests the safety claim?",
           "options": [
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final proposal.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers."
+            "The robot's maximum carrying weight.",
+            "Comparable injury and near-miss rates in workplaces before and after deployment, with task exposure measured.",
+            "A brochure describing its innovative sensors.",
+            "The number of demonstration events held."
           ],
-          "correctIndex": 2,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 1,
+          "explanation": "Injury and near-miss outcomes normalized to work exposure test safety effects, including unexpected hazards introduced by automation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L13-C03",
@@ -13202,18 +13202,18 @@
         {
           "id": "L14-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 14 public policy full-paper case: Which evidence would best establish that a new procedure reduced errors in public policy?",
+          "skill": "Archive digitization",
+          "text": "A digital archive says its search engine makes collections easier to use. Which study best tests the claim?",
           "options": [
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final review.",
-            "A comparison of verified error rates under comparable conditions."
+            "Users performing comparable document-finding tasks with old and new search tools while tracking accuracy and time.",
+            "The number of scanned files stored on its server.",
+            "The number of archive employees who like the homepage.",
+            "An estimate of the age of the paper originals."
           ],
-          "correctIndex": 3,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 0,
+          "explanation": "Task-based time and accuracy comparisons measure whether users can retrieve information more effectively.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L14-C03",
@@ -14165,18 +14165,18 @@
         {
           "id": "L15-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 15 mathematics full-paper case: Which evidence would best establish that a new procedure reduced errors in mathematics?",
+          "skill": "Museum teaching",
+          "text": "A museum says a new exhibit increases understanding of an historical controversy. What measure is strongest?",
           "options": [
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final record."
+            "Attendance counts in the first month.",
+            "The number of display panels added.",
+            "Visitor ratings of wall colors.",
+            "A well-designed pre/post understanding assessment that tests competing historical interpretations."
           ],
-          "correctIndex": 0,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 3,
+          "explanation": "Learning outcomes measured against balanced interpretive criteria establish understanding better than attendance or aesthetic ratings.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L15-C03",
@@ -15128,18 +15128,18 @@
         {
           "id": "L16-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 16 journalism full-paper case: Which evidence would best establish that a new procedure reduced errors in journalism?",
+          "skill": "Water conservation",
+          "text": "Two neighborhoods adopt water meters in different months. Which evaluation would best estimate effects on consumption?",
           "options": [
-            "The number of pages in the final report.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated."
+            "Compare only the month with the lowest recorded usage.",
+            "Ask one enthusiastic participant whether the meter helped.",
+            "Compare usage changes across neighborhoods using the staggered rollout and adjusting for weather and baseline trends.",
+            "Count the meters that were delivered."
           ],
-          "correctIndex": 1,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 2,
+          "explanation": "Staggered adoption creates a comparison over time; adjusting baseline conditions and weather reduces obvious alternative explanations.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L16-C03",
@@ -16091,18 +16091,18 @@
         {
           "id": "L17-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 17 engineering full-paper case: Which evidence would best establish that a new procedure reduced errors in engineering?",
+          "skill": "Road safety",
+          "text": "A report says protected intersections are safer because total collisions declined. Which information is necessary to interpret this change?",
           "options": [
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final transcript.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers."
+            "Exposure measures such as cyclist and driver volume, before and after, alongside crash severity.",
+            "The original paint supplier's name.",
+            "The number of people who attended a design meeting.",
+            "A photograph of the final ribbon-cutting."
           ],
-          "correctIndex": 2,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 0,
+          "explanation": "Crash counts can decline because fewer people travel; exposure and severity are needed to estimate changed risk.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L17-C03",
@@ -17054,18 +17054,18 @@
         {
           "id": "L18-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 18 environmental law full-paper case: Which evidence would best establish that a new procedure reduced errors in environmental law?",
+          "skill": "Climate health",
+          "text": "A city says its heat-alert messages prevent medical emergencies. Which evidence would best test that assertion?",
           "options": [
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final paper.",
-            "A comparison of verified error rates under comparable conditions."
+            "The number of text messages drafted by staff.",
+            "A comparison of heat-related emergency rates during comparable temperature periods with different alert exposure.",
+            "The popularity of the city website.",
+            "A survey asking whether people prefer summer to winter."
           ],
-          "correctIndex": 3,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 1,
+          "explanation": "The intended outcome is heat-related emergencies. Comparisons must account for intensity and exposure, not just communication volume.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L18-C03",
@@ -18017,18 +18017,18 @@
         {
           "id": "L19-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 19 psychology full-paper case: Which evidence would best establish that a new procedure reduced errors in psychology?",
+          "skill": "Peer review fairness",
+          "text": "A journal changes from single-blind to double-blind review and claims it reduced prestige bias. What evidence would most directly support the claim?",
           "options": [
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated.",
-            "The number of pages in the final paper."
+            "A list of reviewers' favorite scientific topics.",
+            "The journal's higher annual submission count.",
+            "The length of reviewer instructions.",
+            "Changes in review-score disparities associated with author prestige, controlling for manuscript characteristics."
           ],
-          "correctIndex": 0,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 3,
+          "explanation": "Prestige-related score disparities conditional on article quality directly test the proposed bias reduction.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L19-C03",
@@ -18980,18 +18980,18 @@
         {
           "id": "L20-C02",
           "group": "composition",
-          "skill": "Evidence quality",
-          "text": "In the day 20 urban history full-paper case: Which evidence would best establish that a new procedure reduced errors in urban history?",
+          "skill": "Language acquisition",
+          "text": "A language school reports that students taught with short daily conversations outperform students taught by memorizing lists. Which comparison best supports a causal claim?",
           "options": [
-            "The number of pages in the final finding.",
-            "A comparison of verified error rates under comparable conditions.",
-            "An announcement praising the procedure's designers.",
-            "A description of the room where the procedure originated."
+            "A poll of students who already prefer conversation.",
+            "Teacher testimonials from only the conversation classes.",
+            "Comparable learners assigned to the approaches, assessed with the same proficiency tasks under blinded scoring.",
+            "An inventory of the dialogue recordings."
           ],
-          "correctIndex": 1,
-          "explanation": "Comparable error-rate measurements directly test the alleged improvement.",
+          "correctIndex": 2,
+          "explanation": "Comparable allocation and standardized blinded assessment reduce self-selection, instructor and grading bias.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L20-C03",
