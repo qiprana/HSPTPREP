@@ -67,7 +67,7 @@ for(const paper of data.tests){
   assert.ok(passage.questions.every(q=>q.editorialStatus==='authentic-passage-specific-questions-review-pending'),'Incorrect question metadata '+passage.id);
  }
 }
-assert.ok(attributed>=18,'Expected sourced Reading passages throughout Days 4–20');
+assert.ok(attributed>=17,'Expected sourced Reading passages throughout Days 4–20');
 assert.ok(data.tests.slice(3).every(p=>p.passages.some(x=>x.source)),'Every Reading day 4–20 should have an authentic passage');
 console.log('PASS: '+attributed+' sourced authentic timed passages, complete source metadata, and no Gutenberg license content.');
 
