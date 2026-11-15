@@ -15490,9 +15490,9 @@
       "passages": [
         {
           "id": "R16-P1",
-          "title": "Mapping Urban Sound",
-          "genre": "science",
-          "text": "Students used sound meters to compare noise near roads, parks, and school courtyards. A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe team recorded sound levels at the same times of day across several locations. A low wall reduced measured street noise behind it more than students expected. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their insightful approach involved examining the available information before making the next decision.\n\nThe meters could not show how every listener experienced the sound. The class suggested placing outdoor study tables in quieter corners and repeating the survey. Designing a comfortable public space requires evidence about conditions people often overlook. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Deliberation and Executive Action",
+          "genre": "historical political argument",
+          "text": "Men often oppose a thing, merely because they have had no agency in planning it, or because it may have been planned by those whom they dislike. But if they have been consulted, and have happened to disapprove, opposition then becomes, in their estimation, an indispensable duty of self-love. They seem to think themselves bound in honor, and by all the motives of personal infallibility, to defeat the success of what has been resolved upon contrary to their sentiments. Men of upright, benevolent tempers have too many opportunities of remarking, with horror, to what desperate lengths this disposition is sometimes carried, and how often the great interests of society are sacrificed to the vanity, to the conceit, and to the obstinacy of individuals, who have credit enough to make their passions and their caprices interesting to mankind. Perhaps the question now before the public may, in its consequences, afford melancholy proofs of the effects of this despicable frailty, or rather detestable vice, in the human character.\n\nUpon the principles of a free government, inconveniences from the source just mentioned must necessarily be submitted to in the formation of the legislature; but it is unnecessary, and therefore unwise, to introduce them into the constitution of the Executive. It is here too that they may be most pernicious. In the legislature, promptitude of decision is oftener an evil than a benefit. The differences of opinion, and the jarrings of parties in that department of the government, though they may sometimes obstruct salutary plans, yet often promote deliberation and circumspection, and serve to check excesses in the majority. When a resolution too is once taken, the opposition must be at an end. That resolution is a law, and resistance to it punishable. But no favorable circumstances palliate or atone for the disadvantages of dissension in the executive department. Here, they are pure and unmixed. There is no point at which they cease to operate. They serve to embarrass and weaken the execution of the plan or measure to which they relate, from the first step to the final conclusion of it. They constantly counteract those qualities in the Executive which are the most necessary ingredients in its composition--vigor and expedition, and this without any counterbalancing good. In the conduct of war, in which the energy of the Executive is the bulwark of the national security, every thing would be to be apprehended from its plurality.\n\nIt must be confessed that these observations apply with principal weight to the first case supposed--that is, to a plurality of magistrates of equal dignity and authority a scheme, the advocates for which are not likely to form a numerous sect; but they apply, though not with equal, yet with considerable weight to the project of a council, whose concurrence is made constitutionally necessary to the operations of the ostensible Executive. An artful cabal in that council would be able to distract and to enervate the whole system of administration. If no such cabal should exist, the mere diversity of views and opinions would alone be sufficient to tincture the exercise of the executive authority with a spirit of habitual feebleness and dilatoriness.",
           "term": [
             "insightful",
             "showing understanding",
@@ -15503,165 +15503,186 @@
           "questions": [
             {
               "id": "R16-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Mapping Urban Sound\"?",
+              "type": "Psychological premise",
+              "prompt": "What motive does the writer identify behind some people's opposition to a proposal?",
               "choices": [
-                "The concern (“A park seemed quiet to visitors, but it lay within…”) leads to inquiry, but “The meters could not show how every listener experienced…” limits the inference.",
-                "The proposed response (“The class suggested placing outdoor study tables in…”) makes the original concern irrelevant.",
-                "The method (“The team recorded sound levels at the same times of day…”) rules out every possible competing explanation.",
-                "The recorded outcome (“A low wall reduced measured street noise behind it more…”) is treated as unrelated to the original investigation."
+                "A disinterested commitment to all competing evidence.",
+                "A universal belief that legislation should be abolished.",
+                "Resentment at exclusion from planning or wounded pride when one's advice is rejected.",
+                "A preference for unanimous agreement in all decisions."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The meters could not show how every listener experienced the sound. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The writer attributes resistance to personal vanity, resentment and a conviction of one's own infallibility.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Mapping Urban Sound\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Institutional distinction",
+              "prompt": "Why does the writer tolerate some disagreement in legislatures but not in executive administration?",
               "choices": [
-                "The class suggested placing outdoor study tables in quieter corners and repeating the survey.",
-                "A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue.",
-                "The team recorded sound levels at the same times of day across several locations.",
-                "A low wall reduced measured street noise behind it more than students expected."
+                "Legislative disagreement may improve deliberation, while executive division can obstruct implementation.",
+                "Legislatures must always decide more quickly than executives.",
+                "Executive officials have no duty to carry out laws.",
+                "Disagreement is never useful in any public institution."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "He assigns possible benefits to legislative friction while arguing that executive dissension only slows implementation.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Mapping Urban Sound\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Qualified concession",
+              "prompt": "What qualification does the author give to his criticism of legislative conflict?",
               "choices": [
-                "A low wall reduced measured street noise behind it more than students expected.",
-                "The meters could not show how every listener experienced the sound.",
-                "The team recorded sound levels at the same times of day across several locations.",
-                "A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue."
+                "He says conflict always prevents sound laws.",
+                "He acknowledges it can obstruct useful plans even as it sometimes checks majority excess.",
+                "He regards disagreement as legally prohibited.",
+                "He denies that lawmakers have differing opinions."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: The team recorded sound levels at the same times of day across several locations. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "He concedes obstruction can occur but says competing views also support deliberation and checks.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Mapping Urban Sound\", rather than a procedure, caution, or policy response?",
+              "type": "Argument hierarchy",
+              "prompt": "Why does the writer stress 'vigor and expedition' in the Executive?",
               "choices": [
-                "The team recorded sound levels at the same times of day across several locations.",
-                "The meters could not show how every listener experienced the sound.",
-                "The class suggested placing outdoor study tables in quieter corners and repeating the survey.",
-                "A low wall reduced measured street noise behind it more than students expected."
+                "To show that the legislature should have no role.",
+                "To prove that lawmaking requires no discussion.",
+                "To argue that speed justifies any arbitrary action.",
+                "To portray effective execution as requiring coordinated and timely decisions after policy is adopted."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: A low wall reduced measured street noise behind it more than students expected. The other statements describe different stages of the inquiry.",
+              "explanation": "The author treats the executive's role as carrying measures through, especially where delay is costly.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Mapping Urban Sound\" from being generalized beyond the available evidence?",
+              "type": "Political risk",
+              "prompt": "What example does the author use to emphasize the consequences of divided executive authority?",
               "choices": [
-                "The meters could not show how every listener experienced the sound.",
-                "A low wall reduced measured street noise behind it more than students expected.",
-                "The team recorded sound levels at the same times of day across several locations.",
-                "The class suggested placing outdoor study tables in quieter corners and repeating the survey."
+                "Wartime decisions, where delay and disunity could threaten national security.",
+                "The administration of public libraries.",
+                "The selection of school textbooks.",
+                "The design of municipal gardens."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: The meters could not show how every listener experienced the sound. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "Conduct of war is presented as a setting in which executive energy is especially important.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Mapping Urban Sound\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Scope of argument",
+              "prompt": "How does the final paragraph narrow the earlier generalization?",
               "choices": [
-                "A low wall reduced measured street noise behind it more than students expected.",
-                "The class suggested placing outdoor study tables in quieter corners and repeating the survey.",
-                "A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue.",
-                "The team recorded sound levels at the same times of day across several locations."
+                "It retracts all criticism of divided leadership.",
+                "It states that disagreement is limited to one political party.",
+                "It says the problem is strongest with equally empowered magistrates but may also affect a council whose consent is required.",
+                "It excludes every advisory body from consideration."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The class suggested placing outdoor study tables in quieter corners and repeating the survey. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The writer distinguishes two designs and states the criticism applies to both, though with different force.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Mapping Urban Sound\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Mechanism",
+              "prompt": "Why could an executive council create delays even without a deliberate conspiracy?",
               "choices": [
-                "Initial concern: “A low wall reduced measured street noise behind it more…”; method: “The class suggested placing outdoor study tables in…”.",
-                "Initial concern: “The team recorded sound levels at the same times of day…”; method: “A low wall reduced measured street noise behind it more…”.",
-                "Initial concern: “A park seemed quiet to visitors, but it lay within…”; method: “The team recorded sound levels at the same times of day…”.",
-                "Initial concern: “A park seemed quiet to visitors, but it lay within…”; method: “The meters could not show how every listener experienced…”."
+                "Council members always share identical views.",
+                "Ordinary differences of opinion might produce habitual hesitation when concurrence is constitutionally required.",
+                "The constitution forbids councils from meeting.",
+                "All councils are necessarily corrupt."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with A park seemed quiet to visitors, but it lay within hearing distance of a busy avenue. and the subsequent investigative procedure is The team recorded sound levels at the same times of day across several locations..",
+              "correctIndex": 1,
+              "explanation": "The writer says diversity of opinions alone can weaken and delay action, separately from the possibility of cabals.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Mapping Urban Sound\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Tone",
+              "prompt": "Which description best captures the author's language about pride-driven opposition?",
               "choices": [
-                "The observation (“A low wall reduced measured street noise behind it more…”) rules out every alternative cause.",
-                "The limitation (“The meters could not show how every listener experienced…”) disproves the observation itself.",
-                "The method (“The team recorded sound levels at the same times of day…”) guarantees the result before measurement.",
-                "The observation (“A low wall reduced measured street noise behind it more…”) matters, but the limit (“The meters could not show how every listener experienced…”) remains."
+                "Measured praise for personal independence.",
+                "Completely neutral technical terminology.",
+                "An affectionate portrait of political rivalry.",
+                "Severe moral condemnation using words such as 'detestable vice'."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as A low wall reduced measured street noise behind it more than students expected. but must be read alongside The meters could not show how every listener experienced the sound..",
+              "explanation": "The vivid negative diction intensifies the attack on opposition rooted in vanity or obstinacy.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Mapping Urban Sound\" relate to the strength and limits of the earlier observations?",
+              "type": "Counterargument",
+              "prompt": "What objection most directly challenges the author's reasoning?",
               "choices": [
-                "The response (“The class suggested placing outdoor study tables in…”) follows evidence but remains open to reassessment.",
-                "The response (“The class suggested placing outdoor study tables in…”) is proof of success in every setting.",
-                "The caveat (“The meters could not show how every listener experienced…”) makes the observations worthless.",
-                "The observation (“A low wall reduced measured street noise behind it more…”) shows that measurement was unnecessary."
+                "Requiring concurrence in executive decisions may protect against impulsive abuse, even if it slows action.",
+                "People never disagree about public policy.",
+                "Legislatures should never deliberate before adopting laws.",
+                "All executive councils are faster than a single decision-maker."
               ],
               "correctIndex": 0,
-              "explanation": "The findings informed The class suggested placing outdoor study tables in quieter corners and repeating the survey.; the stated limit The meters could not show how every listener experienced the sound. still matters.",
+              "explanation": "An institutional check might offer a countervailing benefit the author downplays, making this a relevant rebuttal.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             },
             {
               "id": "R16-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Mapping Urban Sound\" without ignoring its stated limitation?",
+              "type": "Main idea",
+              "prompt": "Which statement most accurately summarizes the institutional claim?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The team recorded sound levels at the same times of day…”) while testing the concern (“The meters could not show how every listener experienced…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Deliberation and execution should always use identical procedures.",
+                "Speed is harmful in both branches.",
+                "Disagreement may aid legislative scrutiny but can undermine the coordinated action the writer expects from the executive.",
+                "Opposition based on vanity is always easy to identify."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, The meters could not show how every listener experienced the sound., while comparing evidence from the original method, The team recorded sound levels at the same times of day across several locations..",
+              "correctIndex": 2,
+              "explanation": "The passage contrasts possible legislative benefits of plural voices with executive costs of necessary consensus.",
               "passageId": "R16-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — divided executive authority"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "Men often oppose a thing, merely because they have had no agency in planning it, or because it ",
+            "end": " the exercise of the executive authority with a spirit of habitual feebleness and dilatoriness."
+          },
+          "sourceReference": "ADV-16-P3",
+          "contextNote": "Historical political argument about executive organization. Questions examine the writer's reasoning and distinctions."
         },
         {
           "id": "R16-P2",
