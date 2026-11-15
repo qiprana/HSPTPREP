@@ -7629,7 +7629,7 @@
           "id": "R08-P2",
           "title": "The Village Waterwheel",
           "genre": "history",
-          "text": "Researchers studied the remains of a waterwheel beside an abandoned mill. Few written accounts described the mill's ordinary work or the people who operated it. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey examined worn stones, surviving gears, and records of grain deliveries. The grooves and delivery records suggested that the mill processed grain for several nearby farms. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their adaptable approach involved examining the available information before making the next decision.\n\nThe team could not calculate how many hours the wheel ran each day. An exhibit combined mechanical drawings with information about farming families. The history of technology becomes richer when everyday labor is considered alongside inventions. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "At the edge of a village, a ruined waterwheel stood beside a stream that no longer drove machinery. Local histories credited an enterprising mill owner with bringing efficient grain processing to the valley, but they offered few details about the people who had carried sacks, repaired gears, or waited for their grain to be ground. A museum team proposed restoring the wheel as a monument to mechanical ingenuity. A labor historian asked whether a functioning replica, however impressive, might tell a misleadingly narrow story.\n\nThe researchers examined surviving gear teeth, grooves worn into the milling stones, ledgers listing grain deliveries, and tax records from nearby farms. The ledgers showed repeated small deliveries from several households rather than a single large estate. Tool marks on some gears suggested multiple periods of repair. Neither observation proved who performed the maintenance or how evenly the mill's income was distributed, but together they complicated the familiar account of one innovator serving a passive community.\n\nThe physical evidence posed difficulties of its own. A wheel spoke displayed weathering that seemed older than its neighboring sections, perhaps because it had been salvaged from an earlier installation. The team could not infer the date of the entire machine from that piece alone. The ledger volumes also varied by season, yet the surviving records omitted many months. One volunteer calculated that the wheel had operated continuously throughout harvest season; the project director rejected the claim because deliveries recorded on particular days said little about the number of working hours between them.\n\nFor the exhibition, the team built a scale model capable of turning under a small stream of water. Alongside the model, it displayed the household delivery records and interviews with descendants who recalled milling traditions in the region. The model illustrated how moving water could transfer energy through gears, but it could not reproduce the full weight, friction, or wear of the original mechanism. Oral recollections supplied context about work routines, yet memories from later generations could not securely establish the practices of the nineteenth-century operators.\n\nVisitors initially gravitated toward the moving model. Many later lingered at an account of how grain deliveries had to be coordinated around weather, labor, and family needs. The exhibit's achievement was not to replace a story of invention with an equally simple story of communal cooperation. It was to show how a technical object can preserve traces of human relationships that no single artifact or source records completely.",
           "term": [
             "adaptable",
             "able to adjust",
@@ -7640,163 +7640,163 @@
           "questions": [
             {
               "id": "R08-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Village Waterwheel\"?",
+              "type": "Historical interpretation",
+              "prompt": "Why does the labor historian challenge the proposed focus on a functioning replica?",
               "choices": [
-                "The recorded outcome (“The grooves and delivery records suggested that the mill…”) is treated as unrelated to the original investigation.",
-                "The concern (“Few written accounts described the mill's ordinary work…”) leads to inquiry, but “The team could not calculate how many hours the wheel ran…” limits the inference.",
-                "The proposed response (“An exhibit combined mechanical drawings with information…”) makes the original concern irrelevant.",
-                "The method (“They examined worn stones, surviving gears, and records…”) rules out every possible competing explanation."
+                "A replica cannot demonstrate any mechanical principle.",
+                "A replica might emphasize ingenuity while obscuring the labor and social relationships surrounding the mill.",
+                "The mill's original owner is known to have falsified every surviving record.",
+                "Every accurate historical exhibition must avoid working objects."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The team could not calculate how many hours the wheel ran each day. prevents an overly broad conclusion.",
+              "explanation": "The historian questions a narrow account centered on invention. The later sources reconstruct deliveries, repairs and household participation without rejecting mechanical displays altogether.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Village Waterwheel\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence inference",
+              "prompt": "What do recurring small deliveries from multiple households support most directly?",
               "choices": [
-                "Few written accounts described the mill's ordinary work or the people who operated it.",
-                "They examined worn stones, surviving gears, and records of grain deliveries.",
-                "The grooves and delivery records suggested that the mill processed grain for several nearby farms.",
-                "An exhibit combined mechanical drawings with information about farming families."
+                "The mill interacted regularly with several farms rather than serving only a single large estate.",
+                "Every household received equal financial benefit from the mill.",
+                "The same laborer repaired each gear and millstone.",
+                "The wheel operated without interruption throughout the year."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Few written accounts described the mill's ordinary work or the people who operated it. The other choices describe what was done or discovered afterward.",
+              "explanation": "The ledgers document repeated grain deliveries from several households. They cannot determine ownership, profit distribution or the number of working hours.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Village Waterwheel\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Limits of sources",
+              "prompt": "Why is the weathered wheel spoke a weak basis for dating the entire installation?",
               "choices": [
-                "The team could not calculate how many hours the wheel ran each day.",
-                "They examined worn stones, surviving gears, and records of grain deliveries.",
-                "Few written accounts described the mill's ordinary work or the people who operated it.",
-                "The grooves and delivery records suggested that the mill processed grain for several nearby farms."
+                "Weathering can be measured only on wooden objects.",
+                "Weathering always occurs at the same rate on all components.",
+                "The spoke may have been reused from an earlier machine and need not share the installation's date.",
+                "The wheel was necessarily built after every surviving tax record."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: They examined worn stones, surviving gears, and records of grain deliveries. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "A reused component could be older than the assembled wheel. The inference would wrongly assume all components originated together.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Village Waterwheel\", rather than a procedure, caution, or policy response?",
+              "type": "Temporal reasoning",
+              "prompt": "Which error is involved in estimating continuous operation from surviving delivery records?",
               "choices": [
-                "The team could not calculate how many hours the wheel ran each day.",
-                "An exhibit combined mechanical drawings with information about farming families.",
-                "The grooves and delivery records suggested that the mill processed grain for several nearby farms.",
-                "They examined worn stones, surviving gears, and records of grain deliveries."
+                "The director ignores evidence that grain was ever delivered.",
+                "The volunteer treats scattered recorded events as proof of activity between those events.",
+                "Tax records definitively rule out any mill operation during harvest.",
+                "The ledgers recorded hours of operation but omitted delivery dates."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: The grooves and delivery records suggested that the mill processed grain for several nearby farms. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "Delivery entries establish some transactions, not a continuous schedule. Missing months make a complete operational estimate especially unreliable.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Village Waterwheel\" from being generalized beyond the available evidence?",
+              "type": "Methodological distinction",
+              "prompt": "What is the principal limitation of the working scale model as evidence about the original wheel?",
               "choices": [
-                "The grooves and delivery records suggested that the mill processed grain for several nearby farms.",
-                "They examined worn stones, surviving gears, and records of grain deliveries.",
-                "An exhibit combined mechanical drawings with information about farming families.",
-                "The team could not calculate how many hours the wheel ran each day."
+                "It demonstrates nothing about water-driven motion.",
+                "It proves that the original wheel had precisely the same friction losses.",
+                "It can reproduce every working condition if spectators watch long enough.",
+                "It illustrates a mechanical principle without reproducing the original machine's full physical loads and wear."
               ],
               "correctIndex": 3,
-              "explanation": "The limitation is: The team could not calculate how many hours the wheel ran each day. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "A scaled model represents energy transfer but not necessarily the original mechanical stresses and deterioration, so it supports a limited kind of explanation.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Village Waterwheel\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Oral history",
+              "prompt": "How should the descendants' recollections be used in reconstructing nineteenth-century work?",
               "choices": [
-                "An exhibit combined mechanical drawings with information about farming families.",
-                "Few written accounts described the mill's ordinary work or the people who operated it.",
-                "They examined worn stones, surviving gears, and records of grain deliveries.",
-                "The grooves and delivery records suggested that the mill processed grain for several nearby farms."
+                "As contextual testimony that may suggest routines but cannot independently establish earlier practices.",
+                "As superior evidence that invalidates all original ledgers.",
+                "As definitive measurements of the wheel's speed.",
+                "As proof that contemporary families had identical economic roles."
               ],
               "correctIndex": 0,
-              "explanation": "The subsequent response was: An exhibit combined mechanical drawings with information about farming families. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "Later memories provide cultural context but require corroboration for much earlier details. Their value and limitations are both acknowledged.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Village Waterwheel\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Concession",
+              "prompt": "Which interpretation best captures the director's attitude toward the technical exhibit?",
               "choices": [
-                "Initial concern: “They examined worn stones, surviving gears, and records…”; method: “The grooves and delivery records suggested that the mill…”.",
-                "Initial concern: “Few written accounts described the mill's ordinary work…”; method: “They examined worn stones, surviving gears, and records…”.",
-                "Initial concern: “Few written accounts described the mill's ordinary work…”; method: “The team could not calculate how many hours the wheel ran…”.",
-                "Initial concern: “The grooves and delivery records suggested that the mill…”; method: “An exhibit combined mechanical drawings with information…”."
+                "The model should be removed because mechanical history lacks human interest.",
+                "Mechanical demonstration is useful, provided it is not mistaken for a complete social history.",
+                "Only social records should appear in a mill exhibition.",
+                "Visitors who prefer the model misunderstand every aspect of history."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with Few written accounts described the mill's ordinary work or the people who operated it. and the subsequent investigative procedure is They examined worn stones, surviving gears, and records of grain deliveries..",
+              "explanation": "The team includes the model and uses it to teach mechanics while adding household records and human stories. The approach supplements rather than rejects technology.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Village Waterwheel\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Causal inference",
+              "prompt": "Why does evidence of multiple gear repairs not establish who carried them out?",
               "choices": [
-                "The limitation (“The team could not calculate how many hours the wheel ran…”) disproves the observation itself.",
-                "The method (“They examined worn stones, surviving gears, and records…”) guarantees the result before measurement.",
-                "The observation (“The grooves and delivery records suggested that the mill…”) matters, but the limit (“The team could not calculate how many hours the wheel ran…”) remains.",
-                "The observation (“The grooves and delivery records suggested that the mill…”) rules out every alternative cause."
+                "Repair marks are necessarily modern additions.",
+                "The historical records prove repairs occurred outside the valley.",
+                "Tool marks indicate interventions but do not reliably identify the people responsible.",
+                "All repairs on waterwheels are performed by their owners."
               ],
               "correctIndex": 2,
-              "explanation": "The result is reported as The grooves and delivery records suggested that the mill processed grain for several nearby farms. but must be read alongside The team could not calculate how many hours the wheel ran each day..",
+              "explanation": "Marks show repairs and perhaps distinct periods of intervention; they are not signatures of particular laborers. Identity requires independent documentation.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Village Waterwheel\" relate to the strength and limits of the earlier observations?",
+              "type": "Structure",
+              "prompt": "What purpose does the contrast between visitors' first and later interests serve?",
               "choices": [
-                "The response (“An exhibit combined mechanical drawings with information…”) is proof of success in every setting.",
-                "The caveat (“The team could not calculate how many hours the wheel ran…”) makes the observations worthless.",
-                "The observation (“The grooves and delivery records suggested that the mill…”) shows that measurement was unnecessary.",
-                "The response (“An exhibit combined mechanical drawings with information…”) follows evidence but remains open to reassessment."
+                "It establishes that the model was mechanically inaccurate.",
+                "It shows visitors became less interested in the museum.",
+                "It proves that household records are more entertaining than machinery in every case.",
+                "It illustrates how an engaging object can lead an audience toward less visible social questions."
               ],
               "correctIndex": 3,
-              "explanation": "The findings informed An exhibit combined mechanical drawings with information about farming families.; the stated limit The team could not calculate how many hours the wheel ran each day. still matters.",
+              "explanation": "The attraction of movement brings visitors to the exhibit; documents then invite deeper attention to work and community. Both parts serve the educational argument.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Village Waterwheel\" without ignoring its stated limitation?",
+              "type": "Thesis",
+              "prompt": "Which statement best represents the passage's conception of technology history?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They examined worn stones, surviving gears, and records…”) while testing the concern (“The team could not calculate how many hours the wheel ran…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Understanding machinery requires combining its mechanical features with incomplete evidence about the people who built, used, and maintained it.",
+                "Technical inventions can be understood adequately through a founder's biography.",
+                "Family recollections should replace all physical evidence.",
+                "A functioning replica proves everything important about the past."
               ],
-              "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The team could not calculate how many hours the wheel ran each day., while comparing evidence from the original method, They examined worn stones, surviving gears, and records of grain deliveries..",
+              "correctIndex": 0,
+              "explanation": "The ending emphasizes both material and human evidence and the incompleteness of each. The other choices erase that combined approach.",
               "passageId": "R08-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
