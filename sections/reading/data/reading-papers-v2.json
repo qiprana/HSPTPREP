@@ -12376,9 +12376,9 @@
       "passages": [
         {
           "id": "R13-P1",
-          "title": "A Garden for Moths",
-          "genre": "science",
-          "text": "Naturalists studied moth visits to flowers that opened after sunset. Most school garden projects counted daytime bees and overlooked insects active at night. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nVolunteers used dim red lights and recorded visits without handling the insects. Evening-blooming plants received repeated visits after the daytime pollinators had disappeared. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their thorough approach involved examining the available information before making the next decision.\n\nThe observers could not tell how much pollen each moth carried. The group recommended including night-blooming plants in future pollinator studies. An incomplete observation schedule can hide an important part of an ecosystem. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wells — Pursuit in the Dark",
+          "genre": "speculative fiction",
+          "text": "'For some way I heard nothing but the crackling twigs under my feet, the faint rustle of the breeze above, and my own breathing and the throb of the blood-vessels in my ears. Then I seemed to know of a pattering about me. I pushed on grimly. The pattering grew more distinct, and then I caught the same queer sound and voices I had heard in the Under-world. There were evidently several of the Morlocks, and they were closing in upon me. Indeed, in another minute I felt a tug at my coat, then something at my arm. And Weena shivered violently, and became quite still.\n\n'It was time for a match. But to get one I must put her down. I did so, and, as I fumbled with my pocket, a struggle began in the darkness about my knees, perfectly silent on her part and with the same peculiar cooing sounds from the Morlocks. Soft little hands, too, were creeping over my coat and back, touching even my neck. Then the match scratched and fizzed. I held it flaring, and saw the white backs of the Morlocks in flight amid the trees. I hastily took a lump of camphor from my pocket, and prepared to light it as soon as the match should wane. Then I looked at Weena. She was lying clutching my feet and quite motionless, with her face to the ground. With a sudden fright I stooped to her. She seemed scarcely to breathe. I lit the block of camphor and flung it to the ground, and as it split and flared up and drove back the Morlocks and the shadows, I knelt down and lifted her. The wood behind seemed full of the stir and murmur of a great company!\n\n'She seemed to have fainted. I put her carefully upon my shoulder and rose to push on, and then there came a horrible realization. In manoeuvring with my matches and Weena, I had turned myself about several times, and now I had not the faintest idea in what direction lay my path. For all I knew, I might be facing back towards the Palace of Green Porcelain. I found myself in a cold sweat. I had to think rapidly what to do. I determined to build a fire and encamp where we were. I put Weena, still motionless, down upon a turfy bole, and very hastily, as my first lump of camphor waned, I began collecting sticks and leaves. Here and there out of the darkness round me the Morlocks' eyes shone like carbuncles.\n\n'The camphor flickered and went out. I lit a match, and as I did so, two white forms that had been approaching Weena dashed hastily away. One was so blinded by the light that he came straight for me, and I felt his bones grind under the blow of my fist. He gave a whoop of dismay, staggered a little way, and fell down. I lit another piece of camphor, and went on gathering my bonfire. Presently I noticed how dry was some of the foliage above me, for since my arrival on the Time Machine, a matter of a week, no rain had fallen. So, instead of casting about among the trees for fallen twigs, I began leaping up and dragging down branches. Very soon I had a choking smoky fire of green wood and dry sticks, and could economize my camphor. Then I turned to where Weena lay beside my iron mace. I tried what I could to revive her, but she lay like one dead. I could not even satisfy myself whether or not she breathed.",
           "term": [
             "thorough",
             "complete and careful",
@@ -12389,165 +12389,186 @@
           "questions": [
             {
               "id": "R13-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Garden for Moths\"?",
+              "type": "Sensory detail",
+              "prompt": "What is the effect of the opening sequence of sounds heard in near darkness?",
               "choices": [
-                "The proposed response (“The group recommended including night-blooming plants in…”) makes the original concern irrelevant.",
-                "The method (“Volunteers used dim red lights and recorded visits…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Evening-blooming plants received repeated visits after…”) is treated as unrelated to the original investigation.",
-                "The concern (“Most school garden projects counted daytime bees and…”) leads to inquiry, but “The observers could not tell how much pollen each moth…” limits the inference."
+                "It establishes the exact number of pursuing Morlocks.",
+                "It gradually moves from ordinary surroundings to ambiguous signs of pursuit, heightening suspense.",
+                "It shows the narrator already recognizes every sound.",
+                "It suggests the scene is taking place indoors."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The observers could not tell how much pollen each moth carried. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The description progresses from twigs and breathing to indistinct pattering and voices, increasing tension before direct contact.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Garden for Moths\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Plot mechanics",
+              "prompt": "Why must the narrator put Weena down to strike a match?",
               "choices": [
-                "Most school garden projects counted daytime bees and overlooked insects active at night.",
-                "Volunteers used dim red lights and recorded visits without handling the insects.",
-                "Evening-blooming plants received repeated visits after the daytime pollinators had disappeared.",
-                "The group recommended including night-blooming plants in future pollinator studies."
+                "He needs a free hand to retrieve and light it while carrying her.",
+                "She asks him to leave her behind.",
+                "The Morlocks have taken all his matches.",
+                "The fire has already gone out."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Most school garden projects counted daytime bees and overlooked insects active at night. The other choices describe what was done or discovered afterward.",
+              "explanation": "The physical need to use matches interrupts movement and leaves Weena vulnerable during the encounter.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Garden for Moths\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Interpretive qualification",
+              "prompt": "Why does the narrator initially say Weena 'seemed' to have fainted?",
               "choices": [
-                "The observers could not tell how much pollen each moth carried.",
-                "Volunteers used dim red lights and recorded visits without handling the insects.",
-                "Most school garden projects counted daytime bees and overlooked insects active at night.",
-                "Evening-blooming plants received repeated visits after the daytime pollinators had disappeared."
+                "He has seen a doctor confirm unconsciousness.",
+                "He knows she has recovered already.",
+                "The language reflects uncertainty about her condition amid darkness and danger.",
+                "He is certain she is only pretending."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Volunteers used dim red lights and recorded visits without handling the insects. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The narrator cannot later verify whether she is breathing, so 'seemed' records an inference rather than a confirmed diagnosis.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Garden for Moths\", rather than a procedure, caution, or policy response?",
+              "type": "Causal relation",
+              "prompt": "How does the narrator use fire against the Morlocks?",
               "choices": [
-                "The observers could not tell how much pollen each moth carried.",
-                "The group recommended including night-blooming plants in future pollinator studies.",
-                "Evening-blooming plants received repeated visits after the daytime pollinators had disappeared.",
-                "Volunteers used dim red lights and recorded visits without handling the insects."
+                "He uses flame to guide their pursuit.",
+                "He signals a friendly settlement.",
+                "He heats the air so Weena can walk.",
+                "He takes advantage of their flight from light to create temporary protection."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Evening-blooming plants received repeated visits after the daytime pollinators had disappeared. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Both a match and camphor flame drive the Morlocks back, making light a defensive resource.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Garden for Moths\" from being generalized beyond the available evidence?",
+              "type": "Spatial reasoning",
+              "prompt": "What makes the narrator's position more dangerous after he lifts Weena?",
               "choices": [
-                "Evening-blooming plants received repeated visits after the daytime pollinators had disappeared.",
-                "Volunteers used dim red lights and recorded visits without handling the insects.",
-                "The group recommended including night-blooming plants in future pollinator studies.",
-                "The observers could not tell how much pollen each moth carried."
+                "Turning repeatedly while handling matches and Weena has disoriented him, so he no longer knows the route.",
+                "He has deliberately destroyed the path.",
+                "A river prevents all movement.",
+                "He learns his destination has already disappeared."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The observers could not tell how much pollen each moth carried. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Multiple turns leave him without a reliable direction, making continued flight potentially circular or dangerous.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Garden for Moths\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Decision making",
+              "prompt": "Why does the narrator choose to build a fire rather than continue immediately?",
               "choices": [
-                "The group recommended including night-blooming plants in future pollinator studies.",
-                "Most school garden projects counted daytime bees and overlooked insects active at night.",
-                "Volunteers used dim red lights and recorded visits without handling the insects.",
-                "Evening-blooming plants received repeated visits after the daytime pollinators had disappeared."
+                "He wishes to attract more Morlocks.",
+                "Disorientation and Weena's condition make a defensible temporary stop more feasible.",
+                "He expects the fire to transport him through time.",
+                "He has found a clearly marked safe road."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The group recommended including night-blooming plants in future pollinator studies. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "Given uncertainty about direction and Weena's apparent collapse, a protective fire offers a temporary strategic alternative.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Garden for Moths\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Resource management",
+              "prompt": "What motivates the narrator to gather branches when camphor becomes scarce?",
               "choices": [
-                "Initial concern: “Volunteers used dim red lights and recorded visits…”; method: “Evening-blooming plants received repeated visits after…”.",
-                "Initial concern: “Most school garden projects counted daytime bees and…”; method: “Volunteers used dim red lights and recorded visits…”.",
-                "Initial concern: “Most school garden projects counted daytime bees and…”; method: “The observers could not tell how much pollen each moth…”.",
-                "Initial concern: “Evening-blooming plants received repeated visits after…”; method: “The group recommended including night-blooming plants in…”."
+                "He wants a permanent structure.",
+                "He has found wet wood that burns without smoke.",
+                "He seeks a longer-lasting fire so he can conserve the limited camphor.",
+                "He plans to use branches to build a boat."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Most school garden projects counted daytime bees and overlooked insects active at night. and the subsequent investigative procedure is Volunteers used dim red lights and recorded visits without handling the insects..",
+              "correctIndex": 2,
+              "explanation": "The text explicitly says he could economize camphor by making a smoky fire with available wood.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Garden for Moths\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Narrative perspective",
+              "prompt": "Which observation best illustrates the limits of the narrator's knowledge?",
               "choices": [
-                "The limitation (“The observers could not tell how much pollen each moth…”) disproves the observation itself.",
-                "The method (“Volunteers used dim red lights and recorded visits…”) guarantees the result before measurement.",
-                "The observation (“Evening-blooming plants received repeated visits after…”) matters, but the limit (“The observers could not tell how much pollen each moth…”) remains.",
-                "The observation (“Evening-blooming plants received repeated visits after…”) rules out every alternative cause."
+                "He hears crackling twigs beneath his feet.",
+                "He sees Morlocks flee the match light.",
+                "He collects dry branches for a fire.",
+                "He cannot establish whether Weena is breathing, despite attempts to revive her."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Evening-blooming plants received repeated visits after the daytime pollinators had disappeared. but must be read alongside The observers could not tell how much pollen each moth carried..",
+              "correctIndex": 3,
+              "explanation": "The final statement conveys the inability to determine a crucial fact, keeping readers within his constrained perspective.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Garden for Moths\" relate to the strength and limits of the earlier observations?",
+              "type": "Tone",
+              "prompt": "How do repeated light-and-dark contrasts shape the scene?",
               "choices": [
-                "The response (“The group recommended including night-blooming plants in…”) is proof of success in every setting.",
-                "The caveat (“The observers could not tell how much pollen each moth…”) makes the observations worthless.",
-                "The observation (“Evening-blooming plants received repeated visits after…”) shows that measurement was unnecessary.",
-                "The response (“The group recommended including night-blooming plants in…”) follows evidence but remains open to reassessment."
+                "They alternate brief moments of safety or visibility with renewed threat and uncertainty.",
+                "They demonstrate that every threat vanishes permanently.",
+                "They turn the episode into a quiet pastoral description.",
+                "They show that the narrator prefers darkness for navigation."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The group recommended including night-blooming plants in future pollinator studies.; the stated limit The observers could not tell how much pollen each moth carried. still matters.",
+              "correctIndex": 0,
+              "explanation": "Each flame briefly exposes or repels pursuers, while darkness returns as the fire wanes.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             },
             {
               "id": "R13-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Garden for Moths\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which interpretation best captures the narrator's situation?",
               "choices": [
-                "Repeat the method (“Volunteers used dim red lights and recorded visits…”) while testing the concern (“The observers could not tell how much pollen each moth…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "He advances confidently with unlimited resources.",
+                "His choices are constrained by scarce light, limited information, a vulnerable companion, and uncertain direction.",
+                "He possesses a detailed map and clear instructions.",
+                "He concludes that the Morlocks are imaginary."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The observers could not tell how much pollen each moth carried., while comparing evidence from the original method, Volunteers used dim red lights and recorded visits without handling the insects..",
+              "correctIndex": 1,
+              "explanation": "The episode combines insufficient light, vulnerable Weena, dwindling supplies, and navigational uncertainty.",
               "passageId": "R13-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — forest encounter with the Morlocks"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Time Machine",
+            "author": "H. G. Wells",
+            "year": 1895,
+            "url": "https://www.gutenberg.org/ebooks/35",
+            "rights": "Public domain in United States",
+            "start": "'For some way I heard nothing but the crackling twigs under my feet, the faint rustle of the br",
+            "end": "ve her, but she lay like one dead. I could not even satisfy myself whether or not she breathed."
+          },
+          "sourceReference": "ADV-13-P3",
+          "contextNote": "Historical speculative fiction. This scene uses an unreliable and frightened first-person perspective; evaluate what the narrator observes versus what he infers."
         },
         {
           "id": "R13-P2",
