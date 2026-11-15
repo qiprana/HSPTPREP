@@ -37,13 +37,14 @@ const script=index.slice(start,stop);
 const api=new Function('WORDS','DAY_WORDS','state',script+'return {makeVerbalChallenge,makeQuestion};')
  (words,dayWords,{covered:{},review:{}});
 let verbalQuestions=0,vocabularyQuestions=0;
-for(let d=1;d<=50;d++)for(const mode of ['daily','cumulative']){
+// Repeated randomized draws catch collisions a single generator run may miss.
+for(let d=1;d<=50;d++)for(const mode of ['daily','cumulative'])for(let sample=1;sample<=5;sample++){
  const qs=api.makeVerbalChallenge(d,mode),groups={},questionSignatures=new Set();
  assert.equal(qs.length,60,'Day '+d+' '+mode+' question count');
  for(const q of qs){
   groups[q.category]=(groups[q.category]||0)+1;
   const sig=(q.category==='Synonyms'||q.category==='Antonyms'||q.category==='Analogies')?q.category+'|'+q.prompt.toLowerCase().trim():q.category+'|'+q.prompt.toLowerCase().trim()+'|'+q.choices.map(x=>String(x).toLowerCase().trim()).sort().join('|');
-  assert.ok(!questionSignatures.has(sig),'Duplicate question in '+mode+' Day '+d+': '+q.prompt);questionSignatures.add(sig);
+  assert.ok(!questionSignatures.has(sig),'Duplicate question in '+mode+' Day '+d+' sample '+sample+': '+q.prompt);questionSignatures.add(sig);
   assert.ok(q.answer&&q.prompt&&q.explain,'Question missing text');
   assert.ok(q.choices.includes(q.answer),'Answer not offered: '+q.prompt);
   assert.equal(new Set(q.choices.map(x=>String(x).toLowerCase())).size,q.choices.length,'Duplicate options '+q.prompt);
