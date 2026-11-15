@@ -3056,16 +3056,16 @@
         {
           "id": "LA07-C-1",
           "group": "usage",
-          "skill": "Civic survey",
-          "text": "A county distributes a transit survey exclusively through a smartphone app. Which group is most likely to be underrepresented?",
+          "skill": "Civic outreach and selection bias",
+          "text": "A city evaluates a proposed transit route by surveying residents who attended a public hearing advertised only on its commuter app. Which revision most directly improves the credibility of a claim about the views of all city residents?",
           "options": [
-            "Residents without reliable smartphone access.",
-            "Residents who already use the app daily.",
-            "Commuters who receive app notifications.",
-            "Drivers who own smartphones."
+            "Report the hearing attendees' average age alongside their responses.",
+            "Draw a stratified random sample of residents, including non-riders, and compare response patterns.",
+            "Interview more attendees after the hearing to increase the number of responses.",
+            "Exclude residents who declined to use the app, because they cannot evaluate its interface."
           ],
-          "correctIndex": 0,
-          "explanation": "App-only recruitment misses people without suitable devices or connectivity, who may have distinctive transit needs.",
+          "correctIndex": 1,
+          "explanation": "A stratified population sample reaches both riders and non-riders, addressing the selection mechanism. More attendees compound the same bias; age alone cannot fix sampling; excluding nonusers changes the target population.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -3073,16 +3073,16 @@
         {
           "id": "LA07-C-2",
           "group": "usage",
-          "skill": "Changing denominators",
-          "text": "A transit agency reports more collisions but also twice as many bus trips. Which comparison best addresses whether risk increased?",
+          "skill": "Attribution and punctuation",
+          "text": "Which revision correctly integrates a quotation from the council report into a complete sentence without creating a comma splice?",
           "options": [
-            "Collision counts without reference to service levels.",
-            "Number of vehicles in the fleet alone.",
-            "Total annual operating revenue.",
-            "Collisions per comparable unit of travel or exposure."
+            "The report described the estimate as 'provisional,' however, the mayor announced it as final.",
+            "The report described the estimate as 'provisional'; however, the mayor announced it as final.",
+            "The report described the estimate as 'provisional' however the mayor announced it as final.",
+            "The report described the estimate as 'provisional': however the mayor, announced it as final."
           ],
-          "correctIndex": 3,
-          "explanation": "Risk requires a denominator; a rise in counts with increased trips does not necessarily mean a higher collision rate.",
+          "correctIndex": 1,
+          "explanation": "Two independent clauses joined by the conjunctive adverb however require a semicolon before it and a comma after it. The other versions splice clauses or misplace essential punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -3090,16 +3090,16 @@
         {
           "id": "LA07-C-3",
           "group": "usage",
-          "skill": "Public-library hours",
-          "text": "Library checkouts increase after weekend hours expand, while the library also launches a popular book series. Which observation would most help attribute the change to hours?",
+          "skill": "Quantifiers and evidence",
+          "text": "An audit concludes, 'Every contractor who submitted complete records qualified for preliminary review.' Which proposed conclusion is NOT warranted?",
           "options": [
-            "The number of covers shown on new posters.",
-            "The director's confidence in the expansion.",
-            "Checkouts during added hours compared with baseline patterns and comparable weeks without the book campaign.",
-            "A survey exclusively of book-series fans."
+            "Submitting complete records was sufficient for eligibility for preliminary review.",
+            "At least the contractors with complete submitted records qualified for preliminary review.",
+            "Contractors lacking complete submitted records necessarily failed to qualify for preliminary review.",
+            "The audit statement alone says nothing about whether eligibility led to final approval."
           ],
           "correctIndex": 2,
-          "explanation": "Transaction timing and campaign controls distinguish the accessibility effect of new hours from increased demand for promoted books.",
+          "explanation": "The universal conditional asserts complete submission implies preliminary eligibility; it does not say incomplete submissions imply ineligibility. That would affirm the converse. No statement establishes final approval.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -3107,155 +3107,155 @@
         {
           "id": "LA07-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the civic administration challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Ambiguous modifier placement",
+          "text": "A newspaper writes, 'The mayor said on Thursday the bridge would reopen.' Which revision most clearly specifies that the announcement occurred Thursday, without making the reopening date a Thursday?",
           "options": [
-            "The measure is costly; therefore no one should examine its possible benefits.",
-            "The measure has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial."
+            "On Thursday, the mayor said that the bridge would reopen.",
+            "The mayor said that the bridge would reopen on Thursday.",
+            "The mayor said the Thursday bridge would reopen.",
+            "The mayor said that only on Thursday the bridge would reopen."
           ],
-          "correctIndex": 3,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "Moving 'On Thursday' to the beginning makes it modify the act of speaking. The other options suggest a Thursday reopening or introduce ambiguity and altered meaning.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the civic administration challenge scenario, Every approved program passed ethical review. A program passed ethical review. What follows?",
+          "skill": "Conditional reasoning",
+          "text": "City policy states: 'If floodwater reaches the lower marker, the riverside trail closes; if the trail closes, the evening event moves indoors.' Floodwater did not reach the marker. What can be concluded?",
           "options": [
-            "Approval is possible but not established by the ethical review alone.",
-            "The program must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved program passed ethical review."
+            "The evening event must remain outdoors.",
+            "The trail must remain open.",
+            "The event might still move indoors for another reason.",
+            "The city's policy has been violated."
           ],
-          "correctIndex": 0,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 2,
+          "explanation": "Failure of a sufficient condition does not establish that its consequence is false; other conditions could close the trail or move the event. The other options deny the consequent without evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the civic administration challenge scenario, Only the scientists who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Parallelism and register",
+          "text": "A grant proposal says that the program aims 'to improve access, measuring outcomes, and that costs are transparent.' Which revision preserves the three goals with parallel infinitive phrases?",
           "options": [
-            "All eligible scientists received certification.",
-            "Every certified scientist supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Scientists without certification supplied no data."
+            "to improve access, outcomes are measured, and making costs transparent",
+            "improving access, to measure outcomes, and costs will be transparent",
+            "to improve access, to measure outcomes, and to make costs transparent",
+            "to improve access, measured outcomes, and transparent costs"
           ],
-          "correctIndex": 1,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 2,
+          "explanation": "Three coordinated infinitives make the grammatical roles parallel. The distractors switch among clauses, participles, and noun phrases, making the series syntactically inconsistent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the civic administration challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Concession vs causal claim",
+          "text": "A transit report says ridership rose after fares fell, but a major employer also reopened its offices that month. Which sentence best communicates the evidence without overstating causation?",
           "options": [
-            "The reader whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the document?",
-            "Whom concluded that the evidence was incomplete?"
+            "Ridership rose after fares fell, proving that the fare policy caused the increase.",
+            "Because offices reopened, the fare change had no effect on ridership.",
+            "Ridership rose in the same month as a fare reduction and office reopening; the contribution of each change remains uncertain.",
+            "The fare reduction and office reopening must have contributed equally to ridership."
           ],
           "correctIndex": 2,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "explanation": "The simultaneous changes create confounding. The warranted summary reports the observed association and uncertainty; neither sole cause nor equal contributions follows from timing.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the civic administration challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Pronoun reference",
+          "text": "Revise this sentence so the intended meaning is unmistakable: 'After the planner met the engineer, she revised the drainage map.' The ENGINEER revised the map.",
           "options": [
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete."
+            "After meeting the engineer, the planner revised the drainage map.",
+            "After meeting the planner, the engineer revised the drainage map.",
+            "The engineer met the planner, and she revised the drainage map.",
+            "When the planner met the engineer, her drainage map was revised."
           ],
-          "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 1,
+          "explanation": "Making 'the engineer' the subject of 'revised' removes the ambiguous she. The first choice assigns the revision to the planner; the others leave the actor or ownership unclear.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the civic administration challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Corroboration of public records",
+          "text": "An article claims a newly installed traffic signal reduced intersection collisions. The reporter relies only on a vendor press release. Which evidence would most directly test the claim?",
           "options": [
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary."
+            "The vendor's description of how the signal detects vehicles.",
+            "Independent collision counts for comparable pre- and post-installation periods, adjusted for traffic volume.",
+            "A collection of positive driver comments about the signal's appearance.",
+            "The vendor's forecast of collision rates before installation."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "Independent before-and-after collision data with exposure adjustment can assess a rate change. Mechanism, satisfaction, and forecasts do not verify the reported outcome.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the civic administration challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Formal usage and agreement",
+          "text": "Which sentence correctly handles subject–verb agreement when a singular subject is followed by a plural prepositional phrase?",
           "options": [
-            "A reader describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account."
+            "The collection of council minutes have been archived.",
+            "The collection of council minutes has been archived.",
+            "The collection of council minutes are being archived yesterday.",
+            "The collection of council minutes have archived."
           ],
           "correctIndex": 1,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "explanation": "The subject is the singular collection, so has is required. 'Minutes' is part of a prepositional phrase and does not control agreement; the other options also mishandle tense or voice.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the civic administration challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Numerical comparison",
+          "text": "A town reports that emergency calls fell from 240 to 210 while its population fell from 12,000 to 10,000. Which conclusion is best supported?",
           "options": [
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial measure.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data."
+            "The calls-per-resident rate fell, because total calls fell.",
+            "The calls-per-resident rate rose from 20 to 21 per 1,000 residents.",
+            "The calls-per-resident rate stayed at 20 per 1,000 residents.",
+            "The reported figures cannot be compared even after accounting for population."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 1,
+          "explanation": "The initial rate is 240/12,000 = 20 per 1,000; the later rate is 210/10,000 = 21 per 1,000. The total count fell but the population-adjusted rate rose.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the civic administration challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Argument qualification",
+          "text": "A student writes, 'The council's trial succeeded because surveys showed approval.' Which added information would most strongly require qualifying that conclusion?",
           "options": [
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations."
+            "The trial involved several neighborhoods.",
+            "Only residents who voluntarily clicked a feedback link were surveyed, and no service-quality measures were collected.",
+            "The council published a summary of the approval figures.",
+            "The council used more than one question on the survey."
           ],
-          "correctIndex": 3,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 1,
+          "explanation": "Self-selected approval responses may not reflect the affected population, and approval alone is not a measure of operational success. The other facts do not directly undermine the inference.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
