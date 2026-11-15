@@ -115,6 +115,7 @@ async function run(){
   const readingInfo=await page.locator('#readingPilotLink').innerText();
   assert.match(readingInfo,/1\/20 practices submitted/);
   assert.match(readingInfo,/1\/20 timed papers submitted/);
+  assert.match(readingInfo,/2\/20 authentic close-reading challenges completed/);
   await page.evaluate(()=>{examSection='language';renderExam();});
   const languageInfo=await page.locator('#readingPilotLink').innerText();
   assert.match(languageInfo,/1\/20 practices submitted/);
