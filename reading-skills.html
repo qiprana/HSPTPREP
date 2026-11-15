@@ -8,7 +8,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const save=()=>{try{localStorage.setItem(storeKey,JSON.stringify(progress))}catch(e){}};
 const readingDays=()=>Array.from({length:20},(_,i)=>i+1);
 function stopClock(){if(interval!==null)clearInterval(interval);interval=null;}
-function loadProgress(d){const p=progress[d]||{};return{practice:p.practice||(typeof p.score==='number'?{score:p.score,total:5,legacy:true}:null),test:p.test};}
+function loadProgress(d){const p=progress[d]||{};return{practice:p.practice||(typeof p.score==='number'?{score:p.score,total:5,legacy:true}:null),test:p.test,advanced:p.advanced};}
 function renderDays(){
  $('days').innerHTML=readingDays().map(d=>'<button type="button" class="day '+(day===d?'active ':'')+(loadProgress(d).practice&&loadProgress(d).test?'done':(loadProgress(d).practice||loadProgress(d).test)?'partial':'')+'" data-day="'+d+'" aria-pressed="'+(d===day)+'">Day '+d+'</button>').join('');
  document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>selectDay(Number(b.dataset.day)));
@@ -28,8 +28,8 @@ function renderDashboard(){
  '<div class="two-col">'+
  '<article class="tile"><div class="kicker">01 · GUIDED PRACTICE</div><h3>Day '+day+' · Learn & practice</h3><p>One original short passage, 10 comprehension and strategy questions, and 5 separate vocabulary questions with immediate explanations.</p><button class="primary" id="practiceBtn" '+(!bank?'disabled':'')+'>Start 15-question practice →</button><span class="mini">'+(p.practice?'Last score: '+p.practice.score+'/'+p.practice.total:'No attempt yet')+'</span></article>'+
  '<article class="tile"><div class="kicker">02 · TIMED FULL TEST</div><h3>Day '+day+' · Full Reading paper</h3><p>4 passages, 40 comprehension questions and 22 vocabulary questions, including authentic-source reading where available. 62 questions in 23 minutes, with answer navigator and score breakdown.</p><button class="secondary" id="testBtn" '+(!bank?'disabled':'')+'>Open Day '+day+' full paper →</button><span class="mini">'+(p.test?'Last score: '+p.test.score+'/'+p.test.total:'No attempt yet')+'</span></article>'+
- '</div><div class="status"><b>Day '+day+' submission status:</b> Practice '+(p.practice?'✓ Completed ('+p.practice.score+'/'+p.practice.total+')':'Not submitted')+' · Full test '+(p.test?'✓ Completed ('+p.test.score+'/'+p.test.total+')':'Not submitted')+'. Reading practices completed: '+done+'/20.</div>';
- if(bank){$('practiceBtn').onclick=()=>start('practice');$('testBtn').onclick=()=>start('test');}
+ '</div><article class="tile" style="margin-top:15px"><div class="kicker">03 · ADVANCED CLOSE-READING CHALLENGE</div><h3>Authentic literature and argument · 10 questions</h3><p>A focused, untimed challenge using a historical public-domain passage and individually written analytical questions. This is a study and review route using the same passage and questions found in today\'s full paper—not a second independent question bank.</p><button class="primary" id="advancedBtn" '+(!bank?'disabled':'')+'>Start 10-question advanced challenge →</button><span class="mini">'+(p.advanced?'Last score: '+p.advanced.score+'/'+p.advanced.total:'No attempt yet')+'</span></article><div class="status"><b>Day '+day+' submission status:</b> Practice '+(p.practice?'✓ Completed ('+p.practice.score+'/'+p.practice.total+')':'Not submitted')+' · Full test '+(p.test?'✓ Completed ('+p.test.score+'/'+p.test.total+')':'Not submitted')+' · Advanced '+(p.advanced?'✓ Completed ('+p.advanced.score+'/'+p.advanced.total+')':'Not submitted')+'. Reading practices completed: '+done+'/20.</div>';
+ if(bank){$('practiceBtn').onclick=()=>start('practice');$('testBtn').onclick=()=>start('test');$('advancedBtn').onclick=()=>start('advanced');}
 }
 function renderToolkit(){
  const p=bank?.practice?.[day-1];
@@ -43,6 +43,11 @@ function prepare(kind){
  if(kind==='practice'){const set=bank.practice[day-1];passageById={practice:{id:'practice',title:set.title,text:set.passage}};return set.questions.map((q,i)=>({...q,readingPassageId:i<10?'practice':null}));}
  const paper=bank.tests[day-1];passageById={};
  for(const passage of paper.passages)passageById[passage.id]=passage;
+ if(kind==='advanced'){
+  const p=paper.passages.find(p=>p.source?.work&&p.questions.length===10);
+  if(!p)throw Error('No source-based advanced challenge for Day '+day);
+  return p.questions.map(q=>({...q,readingPassageId:p.id}));
+ }
  return [...paper.passages.flatMap(p=>p.questions.map(q=>({...q,readingPassageId:p.id}))),...paper.vocabularyQuestions.map(q=>({...q,readingPassageId:null}))];
 }
 function start(kind){
@@ -81,7 +86,7 @@ function readingPromptHtml(q){
  return esc(prompt);
 }
 function renderQuestion(){
- const q=questions[current],isPractice=mode==='practice',chosen=answers[current],show=isPractice&&chosen!==null;
+ const q=questions[current],isPractice=mode==='practice'||mode==='advanced',chosen=answers[current],show=isPractice&&chosen!==null;
  const p=q.readingPassageId?passageById[q.readingPassageId]:null;
  const sourceHtml=p?.source?.work?'<p class="mini">Source: '+esc(p.source.author||'')+', <i>'+esc(p.source.work)+'</i> ('+esc(p.source.year||'')+')'+(p.source.url?' · <a target="_blank" rel="noopener noreferrer" href="'+esc(p.source.url)+'">Original public-domain text</a>':'')+'</p>':'';
  const passageHtml=p?'<section class="reading-question-box"><span class="kicker">READ THE PASSAGE</span><h3>'+esc(p.title)+'</h3>'+sourceHtml+(p.contextNote?'<p class="mini">'+esc(p.contextNote)+'</p>':'')+'<div class="passage-box">'+esc(p.text)+'</div></section>':'';
@@ -90,12 +95,12 @@ function renderQuestion(){
  '<h3>'+readingPromptHtml(q)+'</h3><p class="mini">'+esc(q.type)+'</p>'+
  '<div class="choices">'+q.choices.map((option,i)=>'<button class="choice '+(chosen===i?'selected ':'')+(show&&i===q.correctIndex?'correct':show&&chosen===i&&i!==q.correctIndex?'wrong':'')+'" data-choice="'+i+'">'+String.fromCharCode(65+i)+'. '+esc(option)+'</button>').join('')+'</div>'+
  (show?'<div class="worked"><b>'+(chosen===q.correctIndex?'Correct answer':'Review this answer')+'</b><p>'+esc(q.explanation)+'</p></div>':'')+'</section>';
- $('workspace').innerHTML='<div class="quiz-head"><span class="badge">'+(isPractice?'Guided Reading practice · Day '+day:'Full Reading paper · Day '+day)+'</span><span class="timer" id="timer">'+(isPractice?'Untimed':clockText())+'</span></div>'+
- '<h2>Question '+(current+1)+' of '+questions.length+'</h2><div class="reading-full-tab">'+(isPractice?'10 comprehension/strategy + 5 vocabulary questions':'40 passage questions + 22 vocabulary questions')+' · Answered '+answers.filter(a=>a!==null).length+'/'+questions.length+'</div>'+
+ $('workspace').innerHTML='<div class="quiz-head"><span class="badge">'+(mode==='advanced'?'Advanced authentic-text challenge · Day '+day:isPractice?'Guided Reading practice · Day '+day:'Full Reading paper · Day '+day)+'</span><span class="timer" id="timer">'+(isPractice?'Untimed':clockText())+'</span></div>'+
+ '<h2>Question '+(current+1)+' of '+questions.length+'</h2><div class="reading-full-tab">'+(mode==='advanced'?'10 source-based analytical questions':isPractice?'10 comprehension/strategy + 5 vocabulary questions':'40 passage questions + 22 vocabulary questions')+' · Answered '+answers.filter(a=>a!==null).length+'/'+questions.length+'</div>'+
  '<div class="'+(p?'reading-quiz-layout':'')+'">'+passageHtml+body+'</div>'+
  '<div class="actions reading-navigation"><button class="secondary" id="prev" '+(current===0?'disabled':'')+'>← Previous</button>'+
  '<button class="secondary '+(flagged.has(current)?'reading-flag':'')+'" id="flag">'+(flagged.has(current)?'Unflag question':'Flag for review')+'</button>'+
- '<button class="secondary" id="next" '+(current===questions.length-1?'disabled':'')+'>Next →</button><button class="primary" id="submit">'+(isPractice?'Finish practice':'Submit Reading paper')+'</button></div>'+
+ '<button class="secondary" id="next" '+(current===questions.length-1?'disabled':'')+'>Next →</button><button class="primary" id="submit">'+(mode==='advanced'?'Finish advanced challenge':isPractice?'Finish practice':'Submit Reading paper')+'</button></div>'+
  '<div class="navgrid">'+questions.map((_,i)=>'<button type="button" data-jump="'+i+'" class="'+(answers[i]!==null?'answered ':'')+(current===i?'current ':'')+(flagged.has(i)?'reading-flag':'')+'">'+(i+1)+'</button>').join('')+'</div>';
  document.querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{answers[current]=Number(b.dataset.choice);renderQuestion()});
  $('prev').onclick=()=>{current--;renderQuestion()};$('next').onclick=()=>{current++;renderQuestion()};
@@ -110,18 +115,18 @@ function finish(auto){
  const compCorrect=questions.reduce((total,q,i)=>total+(q.readingPassageId&&answers[i]===q.correctIndex?1:0),0),vocabCorrect=score-compCorrect;
  progress[day]=progress[day]||{};progress[day][mode]={score,total:n,date:new Date().toISOString(),comprehension:compCorrect,vocabulary:vocabCorrect};save();
  renderDays();renderDashboard();
- $('workspace').innerHTML='<div class="kicker">DAY '+day+' · '+(mode==='test'?'FULL READING PAPER':'GUIDED PRACTICE')+' RESULTS</div><h2>'+score+' / '+n+' · '+Math.round(100*score/n)+'%</h2>'+
+ $('workspace').innerHTML='<div class="kicker">DAY '+day+' · '+(mode==='test'?'FULL READING PAPER':mode==='advanced'?'ADVANCED AUTHENTIC-TEXT CHALLENGE':'GUIDED PRACTICE')+' RESULTS</div><h2>'+score+' / '+n+' · '+Math.round(100*score/n)+'%</h2>'+
  '<div class="reading-score"><div><span class="mini">Comprehension</span><b>'+compCorrect+'/'+comprehension.length+'</b></div><div><span class="mini">Vocabulary</span><b>'+vocabCorrect+'/'+vocabulary.length+'</b></div><div><span class="mini">Unanswered</span><b>'+answers.filter(a=>a===null).length+'</b></div></div>'+
  '<p class="muted">'+(auto?'The timer ended and the paper was scored.':'Review each answer and the explanation below.')+' '+(mode==='test'?'Full-paper length: 62 questions in 23 minutes.':'Practice is untimed.')+'</p>'+
  '<h3>Answer review</h3>'+
  questions.map((q,i)=>'<div class="reading-review"><b>Q'+(i+1)+'. '+readingPromptHtml(q)+'</b><p>Your answer: '+(answers[i]===null?'Unanswered':esc(q.choices[answers[i]]))+'</p><p><strong>Correct:</strong> '+esc(q.choices[q.correctIndex])+'</p><p class="muted">'+esc(q.explanation)+'</p></div>').join('')+
- '<div class="actions"><button class="primary" id="again">Retake '+(mode==='test'?'full paper':'guided practice')+'</button><button class="secondary" id="back">Back to learning day</button></div>';
+ '<div class="actions"><button class="primary" id="again">Retake '+(mode==='test'?'full paper':mode==='advanced'?'advanced challenge':'guided practice')+'</button><button class="secondary" id="back">Back to learning day</button></div>';
  $('again').onclick=()=>start(mode);$('back').onclick=()=>{$('workspace').classList.add('hidden');$('dashboard').scrollIntoView({behavior:'smooth'});};
 }
 const params=new URLSearchParams(location.search),requestedDay=Number(params.get('day'));
 if(Number.isInteger(requestedDay)&&requestedDay>=1&&requestedDay<=20)day=requestedDay;
 renderDays();renderDashboard();
-fetch('./sections/reading/data/reading-papers-v2.json?v=20261114-grade10-12-v3',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
+fetch('./sections/reading/data/reading-papers-v2.json?v=20261115-authentic-v4',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
  if(!Array.isArray(data.tests)||data.tests.length!==20||!Array.isArray(data.practice)||data.practice.length!==20)throw Error('Reading data must contain 20 days');
  if(data.tests.some(p=>p.passages?.length!==4||p.passages.some(x=>x.questions?.length!==10)||p.vocabularyQuestions?.length!==22))throw Error('Invalid Reading test distribution');
  bank=data;renderDashboard();renderToolkit();if(params.get('focus')==='test')$('testBtn')?.focus();
