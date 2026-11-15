@@ -5343,154 +5343,154 @@
         {
           "id": "LA12-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the social statistics practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Interpreting proportions",
+          "text": "A report says that not every household surveyed owns a vehicle. Which statement must be true if the survey included households?",
           "options": [
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed."
+            "Most households do not own a vehicle.",
+            "At least one surveyed household does not own a vehicle.",
+            "No surveyed household owns a vehicle.",
+            "Every household without a vehicle was surveyed."
           ],
-          "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "Not every A is B means at least one observed A is not B. The claim says nothing about how many lack vehicles or which households were surveyed.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the social statistics practice scenario, The memorandum states that some review board members questioned the interpretation. Which conclusion follows?",
+          "skill": "Correcting a comparison",
+          "text": "A researcher writes, 'The unemployment rate in Harbor City exceeds Eastport.' Which revision compares the same statistic in both places?",
           "options": [
-            "Only review board members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation."
+            "Harbor City's unemployment rate exceeds the unemployment rate in Eastport.",
+            "Harbor City's unemployment rate exceeds Eastport's population.",
+            "Unemployment rate exceeds Eastport's mayor.",
+            "Harbor City's unemployment rate is more greater than Eastport."
           ],
-          "correctIndex": 1,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 0,
+          "explanation": "An unemployment rate must be compared with another unemployment rate, not with a municipality or population. The other revisions retain category or grammatical errors.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the social statistics practice scenario, Neither the director nor the researchers responsible for verification ___ willing to certify the result.",
+          "skill": "Ambiguous population",
+          "text": "A summary states, 'The mayor discussed the survey with the statistician after she had revised it.' The STATISTICIAN revised the survey. Which revision is unambiguous?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "After the statistician revised the survey, the mayor discussed it with her.",
+            "The mayor discussed the survey with the statistician after she revised it.",
+            "After she revised the survey, the mayor discussed it with the statistician.",
+            "The mayor, after revising it, discussed the survey with the statistician."
           ],
-          "correctIndex": 2,
-          "explanation": "The plural subject nearest the verb is researchers, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "The subordinate clause explicitly names the statistician as the actor. The other choices preserve uncertainty or assign the revision to the mayor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the social statistics practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Tense sequence",
+          "text": "The sampling plan was approved before interviewers began collecting responses. Which sentence best communicates the sequence?",
           "options": [
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment."
+            "The plan had been approved before interviewers began collecting responses.",
+            "The plan will have approved before the interviewers began.",
+            "The plan is approving before interviews began yesterday.",
+            "The plan has being approved prior to respondents collecting."
           ],
-          "correctIndex": 3,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "Past perfect marks approval as completed before the later past action. The other options misuse the passive or combine incompatible tenses.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the social statistics practice scenario, Which choice specifically means that the review board revised the conclusion but left all other sections unchanged?",
+          "skill": "Punctuation of contrast",
+          "text": "Which sentence correctly joins two complete clauses using the transition 'however'?",
           "options": [
-            "The review board revised only the conclusion.",
-            "Only the review board revised the conclusion.",
-            "The review board only revised the conclusion.",
-            "The review board revised the only conclusion."
+            "The sample was large, however, it excluded rural residents.",
+            "The sample was large; however, it excluded rural residents.",
+            "The sample was large however it; excluded rural residents.",
+            "The sample was large; however it, excluded rural residents."
           ],
-          "correctIndex": 0,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 1,
+          "explanation": "A semicolon separates the independent clauses and a comma follows the conjunctive adverb. The alternative forms create a comma splice or misplace punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the social statistics practice scenario, Which revision clearly makes the researcher the person who inspected the results?",
+          "skill": "Scope of only",
+          "text": "A statistical agency reports, 'Only households contacted by mail were included in the initial sample.' Which inference is warranted?",
           "options": [
-            "The discrepancy, having been inspected, was reported by the researcher.",
-            "Having inspected the results, the researcher reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The researcher reported a discrepancy after she inspected it."
+            "Every household contacted by mail was included.",
+            "Every household included in the initial sample had been contacted by mail.",
+            "No household contacted online was later studied.",
+            "All mailed households answered the questionnaire."
           ],
           "correctIndex": 1,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "explanation": "Only A were B means membership in B requires A. Mailing is necessary for initial inclusion, not sufficient, and the statement does not describe later study phases.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the social statistics practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Parallel categories",
+          "text": "Which revision lists three study procedures in parallel grammatical form?",
           "options": [
-            "If the researcher will be available, the evidence would have been checked.",
-            "If the researcher were available, the evidence had been checked last week.",
-            "If the researcher were available, the evidence could be checked today.",
-            "If the researcher had been available, the evidence will be checked yesterday."
+            "The team recruited respondents, checked records, and analyzed patterns.",
+            "The team recruited respondents, records were checked, and the analysis of patterns.",
+            "The team recruited respondents, record checking, and to analyze patterns.",
+            "The team recruited respondents, checking records, and patterns had analysis."
           ],
-          "correctIndex": 2,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 0,
+          "explanation": "Three past-tense verbs coordinate as predicates sharing the same subject. The distractors mix passive clauses, nominal phrases, and infinitives.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the social statistics practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Sampling caveat",
+          "text": "An online survey has 4,000 responses but no way to estimate how nonrespondents differ from respondents. Which statement is most defensible?",
           "options": [
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid."
+            "The survey is automatically representative because its sample exceeds 1,000.",
+            "The large response count does not eliminate possible nonresponse and selection biases.",
+            "All online surveys are useless for every question.",
+            "An exact margin of error can be calculated without assumptions about selection."
           ],
-          "correctIndex": 3,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 1,
+          "explanation": "A large nonprobability sample can still systematically miss groups. Respondent count by itself does not establish representative sampling or a design-based margin of error.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA12-C-1",
           "group": "usage",
-          "skill": "Social statistics",
-          "text": "A city estimates rental stress by asking only tenants who renewed leases last month. Who is plausibly missing from the sample?",
+          "skill": "Missing population",
+          "text": "A rental-affordability survey recruits only tenants who successfully renewed their leases last month. Which group is most clearly excluded from the sampling frame?",
           "options": [
-            "Renters displaced before renewal because they could no longer afford the rent.",
-            "Renters who were satisfied enough to renew.",
-            "Tenants with leases renewing in that month.",
-            "Respondents who remained in their homes."
+            "Tenants displaced after being unable to renew.",
+            "Tenants who renewed and paid the same rent.",
+            "Tenants whose lease renewal was recorded.",
+            "Tenants who willingly answered the survey."
           ],
           "correctIndex": 0,
-          "explanation": "Restricting the sample to renewals excludes some of the most rent-burdened households who moved or were displaced.",
+          "explanation": "Sampling successful renewals excludes some residents most affected by affordability problems, including those forced out. This is a selection bias in the sampling frame.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -5498,16 +5498,16 @@
         {
           "id": "LA12-C-2",
           "group": "composition",
-          "skill": "Small sample",
-          "text": "A poll of twelve residents finds that 75 percent support a new policy. Which statement is unjustifiably confident?",
+          "skill": "Small-sample uncertainty",
+          "text": "Nine of twelve surveyed residents support a policy. Which interpretation is most statistically cautious?",
           "options": [
-            "Nine of twelve respondents supported it.",
-            "The sample proportion is 75 percent.",
-            "A larger representative poll may yield a different estimate.",
-            "Exactly 75 percent of all residents support it."
+            "Exactly 75% of all residents support the policy.",
+            "The 75% sample fraction is based on only twelve respondents and is too imprecise to establish citywide support by itself.",
+            "The policy is opposed by precisely one quarter of the entire population.",
+            "The sample proves that future surveys will find the same fraction."
           ],
-          "correctIndex": 3,
-          "explanation": "A small, unspecified sample cannot establish the population proportion with certainty.",
+          "correctIndex": 1,
+          "explanation": "9/12 = 75% describes the sample, not a known population proportion. With so few observations and unspecified selection, population support remains highly uncertain.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -5515,16 +5515,16 @@
         {
           "id": "LA12-C-3",
           "group": "composition",
-          "skill": "Survey-response shift",
-          "text": "Customer approval rises after a business introduces a loyalty program, but dissatisfied customers also become less likely to respond. What may explain the result?",
+          "skill": "Changing response mechanisms",
+          "text": "A store introduces an online loyalty scheme, after which favorable survey responses increase, but unhappy customers stop responding. Which explanation threatens the conclusion that satisfaction actually improved?",
           "options": [
-            "The loyalty program must have improved service.",
-            "Only satisfied customers can participate in surveys.",
-            "Changing nonresponse could inflate the measured approval even if underlying opinion stayed constant.",
-            "The sample's mean necessarily falls as responses decline."
+            "Nonresponse changed the composition of survey respondents.",
+            "The store raised the prices of a product.",
+            "The store extended its opening hours.",
+            "Responses were entered into a new spreadsheet."
           ],
-          "correctIndex": 2,
-          "explanation": "Differential nonresponse systematically alters which opinions are observed and can raise the reported mean without real population change.",
+          "correctIndex": 0,
+          "explanation": "Differential nonresponse can raise the observed favorable share without changing the underlying population's satisfaction. The other changes do not directly explain selection into responses.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -5532,293 +5532,293 @@
         {
           "id": "LA12-C-4",
           "group": "composition",
-          "skill": "Concession and rebuttal",
-          "text": "In the social statistics challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession about city data",
+          "text": "A city administrator admits a pilot survey reached few elderly residents. Which sentence offers a proportionate recommendation?",
           "options": [
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The amendment is costly; therefore no one should examine its possible benefits.",
-            "The amendment has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial."
+            "Although results suggest a possible improvement, additional outreach to older residents is needed before a citywide conclusion.",
+            "The sample is incomplete; therefore every recorded answer is false.",
+            "The results prove the policy is successful for all age groups.",
+            "The elderly residents cannot have opinions unless they respond online."
           ],
           "correctIndex": 0,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "The statement acknowledges promising preliminary data but names the underrepresented group and a concrete remedy. The alternatives overclaim or dismiss observations.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-5",
           "group": "composition",
-          "skill": "Necessary versus sufficient",
-          "text": "In the social statistics challenge scenario, Every approved survey passed ethical review. A survey passed ethical review. What follows?",
+          "skill": "Percent versus percentage points",
+          "text": "Approval rises from 35% to 42% between surveys. Which statement computes the change correctly?",
           "options": [
-            "No approved survey passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The survey must have been approved.",
-            "Ethical review was unnecessary."
+            "Approval rose by seven percentage points.",
+            "Approval rose by seven percent relative to the initial approval level.",
+            "Approval rose by 42 percentage points.",
+            "Approval more than doubled."
           ],
-          "correctIndex": 1,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 0,
+          "explanation": "42 minus 35 equals 7 percentage points. Relative percent change is 7/35 = 20%, so it is not a seven-percent relative rise.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the social statistics challenge scenario, Only the researchers who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Ecological inference",
+          "text": "Neighborhoods with greater average income have lower average commute times. Which inference is not justified from neighborhood averages alone?",
           "options": [
-            "Researchers without certification supplied no data.",
-            "All eligible researchers received certification.",
-            "Every certified researcher supplied raw data.",
-            "Every raw-data supplier was certified."
+            "Higher-income neighborhoods tend to have shorter average commutes in the sample.",
+            "Every higher-income resident has a shorter commute than every lower-income resident.",
+            "Neighborhood income and commute averages are associated in the reported data.",
+            "Differences in transportation access might contribute to the pattern."
           ],
-          "correctIndex": 2,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "Group-level associations cannot establish a universal relationship among individuals. The other options either restate the observed group pattern or offer a possibility.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the social statistics challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Causal confounding",
+          "text": "A county finds fewer emergency-room visits after opening a health clinic, but a major hospital also changes its coding system. Which comparison would help assess whether care actually improved?",
           "options": [
-            "Whom concluded that the evidence was incomplete?",
-            "The evaluator whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the record?"
+            "Examine consistent patient-level outcome definitions across comparable periods and neighboring counties.",
+            "Compare only the clinic's opening-day attendance.",
+            "Ask which hospital logo respondents prefer.",
+            "Assume coded visit counts are unaffected by changes in reporting."
           ],
-          "correctIndex": 3,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "Consistent outcome definitions and comparison groups reduce threats from coding changes and regional trends. Opening attendance and preferences do not measure health effects.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the social statistics challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Misleading averages",
+          "text": "A region's mean household income rises while the median stays unchanged. Which explanation is plausible without assuming typical households became wealthier?",
           "options": [
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation."
+            "A small number of very high incomes raised the mean.",
+            "Every household gained exactly the same income.",
+            "The median is always larger than the mean.",
+            "Half of all households must have doubled their incomes."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "A right-tail rise can increase the arithmetic mean while leaving the median stable. Uniform gains would typically shift both statistics.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the social statistics challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Comparing denominators",
+          "text": "A district has 80 reported thefts per 10,000 residents in year one and 95 per 20,000 in year two. Which conclusion is sound?",
           "options": [
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention."
+            "Theft risk rose because there were more thefts.",
+            "The reported rate fell from 8 to 4.75 per thousand residents.",
+            "The per-resident rate remained exactly the same.",
+            "The second year's population doubled, so the theft count must also double."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "80/10,000 is 8 per thousand, versus 95/20,000 or 4.75 per thousand. Total reports rise while the population-adjusted rate falls.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the social statistics challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Independent corroboration",
+          "text": "Two analysts cite the same unpublished spreadsheet when claiming that a housing subsidy lowered rents. What additional evidence would most independently test the claim?",
           "options": [
-            "A later summary cites only the disputed account.",
-            "An evaluator describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph."
+            "Lease-level data from a separate source, compared against a credible control area.",
+            "A third analyst quoting the same spreadsheet.",
+            "A press release reproducing one analyst's graph.",
+            "The spreadsheet author's recollection of the graph color."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "Independent lease observations and a comparison area test the measured outcome and plausible counterfactual. Repetition of the spreadsheet is not new evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the social statistics challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Matching claims to data",
+          "text": "A survey finds a drop in reported loneliness among participants in a voluntary social program, without a comparison group. Which conclusion is best supported?",
           "options": [
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial amendment.",
-            "Run a bounded pilot with predefined measures before considering wider adoption."
+            "Participation conclusively caused the drop.",
+            "Participants reported lower loneliness after the program; self-selection and time trends remain alternative explanations.",
+            "All residents would improve by the same amount.",
+            "The finding is meaningless because it was observational."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 1,
+          "explanation": "The observed within-group improvement is describable, but voluntary participation and absent controls prevent strong causal attribution. The other choices claim causation or dismiss evidence wholesale.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the social statistics challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Policy risk tradeoff",
+          "text": "A city considers raising the sample size of a household survey, at substantial cost, while geographic coverage remains narrowly urban. Which action is likely to improve external validity more?",
           "options": [
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists."
+            "Increase only the urban sample from 10,000 to 20,000.",
+            "Expand recruitment to underserved rural and suburban strata while protecting response quality.",
+            "Remove all participants who express uncertain opinions.",
+            "Use longer response scales only among current urban participants."
           ],
-          "correctIndex": 0,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 1,
+          "explanation": "Widening geographic coverage addresses an excluded portion of the target population. Doubling an already biased urban sample does not correct its limited scope.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA12-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the social statistics test scenario, Which comparison is logically parallel?",
+          "skill": "Rate base",
+          "text": "A district records 45 complaints among 900 inspections and 60 among 2,000 inspections. What is the change in complaints per 100 inspections?",
           "options": [
-            "The revised record's conclusion is more cautious than the university.",
-            "The revised record's conclusion is more cautious than the author of the first survey.",
-            "The revised record's conclusion is more cautious than that of the earlier record.",
-            "The revised record's conclusion is more cautious than the earlier research team."
+            "It rose from 5 to 6.",
+            "It fell from 5 to 3.",
+            "It remained constant at 5.",
+            "It rose from 3 to 5."
           ],
-          "correctIndex": 2,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 1,
+          "explanation": "45/900 gives 5 complaints per hundred, whereas 60/2,000 gives 3. Counts rise while an exposure-adjusted rate declines.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA12-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the social statistics test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Precisely qualified inference",
+          "text": "A pilot survey based on voluntary responses finds high support for a traffic policy. Which reporting sentence is most precise?",
           "options": [
-            "The evaluators agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The evaluators agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The evaluators agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The evaluators agreed to examine assumptions, evaluate evidence, and revise conclusions."
+            "The surveyed volunteers largely support the policy; citywide support remains uncertain.",
+            "All city residents support the policy.",
+            "Anyone opposing the policy failed to understand the survey.",
+            "A voluntary sample is a random census of residents."
           ],
-          "correctIndex": 3,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 0,
+          "explanation": "The report can accurately describe respondents without assuming they represent the population. The other options invent universal support or confuse survey designs.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the social statistics test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Agreement with intervening nouns",
+          "text": "Which formal sentence correctly agrees with its singular head noun?",
           "options": [
-            "The record evaluated three issues: reliability, validity, and replicability.",
-            "The record evaluated: three issues, reliability, validity, and replicability.",
-            "The record evaluated three issues; reliability, validity, and replicability.",
-            "The record evaluated three issues, reliability: validity, and replicability."
+            "The proportion of respondents who support the policy have increased.",
+            "The proportion of respondents who support the policy has increased.",
+            "The proportion of respondents who support the policy are increasing yesterday.",
+            "The proportion of respondents who support the policy have been increase."
           ],
-          "correctIndex": 0,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 1,
+          "explanation": "The singular subject is proportion, requiring has. Respondents is embedded within a modifying phrase and does not govern agreement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the social statistics test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Conditional direction",
+          "text": "An agency says, 'Every published estimate has passed a reproducibility audit.' Which inference must hold?",
           "options": [
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it."
+            "Every audited estimate is published.",
+            "Any published estimate passed an audit.",
+            "An audited estimate is necessarily reliable under every assumption.",
+            "No estimate was rejected by an audit."
           ],
           "correctIndex": 1,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "Publication implies an audit, but an audit does not imply publication or infallibility. The other answers reverse or amplify the policy.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the social statistics test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Tense of prior action",
+          "text": "The team finished weighting survey responses before it published results. Which sentence clearly describes that sequence?",
           "options": [
-            "Every consent form results in review.",
-            "A rejected survey could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance."
+            "Before publishing the results, the team had completed the response weighting.",
+            "Before publishing the results, weighting will complete yesterday.",
+            "Before the team published, weighting has completed next month.",
+            "The team publishes results after weighting will have completed."
           ],
-          "correctIndex": 2,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "Past perfect describes weighting as complete before the later past publication. The other sentences combine inconsistent tense and time reference.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the social statistics test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Appropriate semicolon",
+          "text": "Choose the sentence that correctly punctuates a contrast between an increased sample size and reduced geographic coverage.",
           "options": [
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original record.",
-            "Comparable results in independently selected, diverse samples."
+            "The sample grew larger, however, it covered fewer counties.",
+            "The sample grew larger; however, it covered fewer counties.",
+            "The sample grew larger however it, covered fewer counties.",
+            "The sample grew larger; however it covered, fewer counties."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 1,
+          "explanation": "A semicolon links the two independent clauses and a comma follows however. The alternatives create comma splices or misplaced punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the social statistics test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Synthesis of inconsistent metrics",
+          "text": "A program reports increased participation but unchanged outcomes among participants. Which interpretation fits both observations?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible."
+            "The program expanded its reach without demonstrating improved outcomes per participant.",
+            "The program necessarily worsened outcomes for every participant.",
+            "Participation counts prove clinical improvement.",
+            "Outcome measures must be fraudulent if participation rises."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "Participation and measured effectiveness are different quantities. Greater reach can coexist with unchanged participant outcomes, so the data do not establish improvement in either direction.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the social statistics test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "External validity revision",
+          "text": "A researcher recruits only urban households with internet access, then proposes a national estimate. Which addition is most relevant to improve the claim?",
           "options": [
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance."
+            "A stratified probability sample including offline, rural, and suburban households.",
+            "An additional online urban poll on the same platform.",
+            "A longer introduction explaining why the researcher likes the city.",
+            "More colorful charts of the urban responses."
           ],
-          "correctIndex": 1,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "A national claim requires coverage of populations excluded from an online urban frame. Repeated sampling from the same frame does not address that omission.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
