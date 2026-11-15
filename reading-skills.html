@@ -83,7 +83,8 @@ function readingPromptHtml(q){
 function renderQuestion(){
  const q=questions[current],isPractice=mode==='practice',chosen=answers[current],show=isPractice&&chosen!==null;
  const p=q.readingPassageId?passageById[q.readingPassageId]:null;
- const passageHtml=p?'<section class="reading-question-box"><span class="kicker">READ THE PASSAGE</span><h3>'+esc(p.title)+'</h3><div class="passage-box">'+esc(p.text)+'</div></section>':'';
+ const sourceHtml=p?.source?.work?'<p class="mini">Source: '+esc(p.source.author||'')+', <i>'+esc(p.source.work)+'</i> ('+esc(p.source.year||'')+')'+(p.source.url?' · <a target="_blank" rel="noopener noreferrer" href="'+esc(p.source.url)+'">Original public-domain text</a>':'')+'</p>':'';
+ const passageHtml=p?'<section class="reading-question-box"><span class="kicker">READ THE PASSAGE</span><h3>'+esc(p.title)+'</h3>'+sourceHtml+(p.contextNote?'<p class="mini">'+esc(p.contextNote)+'</p>':'')+'<div class="passage-box">'+esc(p.text)+'</div></section>':'';
  const body='<section class="reading-question-box"><div class="reading-head"><span class="kicker">'+(p?'PASSAGE COMPREHENSION':'READING VOCABULARY')+'</span></div>'+
  '<div class="progress"><div style="width:'+((current+1)/questions.length*100)+'%"></div></div>'+
  '<h3>'+readingPromptHtml(q)+'</h3><p class="mini">'+esc(q.type)+'</p>'+
