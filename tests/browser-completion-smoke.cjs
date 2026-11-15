@@ -51,6 +51,22 @@ async function run(){
   assert.ok(await page.locator('#days .day.done').count(),'Retaken Reading test remains marked complete');
   console.log('PASS: Reading UI submit, retake, timed expiry, reload and completion state.');
 
+  // One source-based, graded advanced challenge on each Reading day; keep practice/test progress independent.
+  for(const advancedDay of [1,20]){
+   await page.goto(ROOT+'/reading-skills.html?day='+advancedDay,{waitUntil:'domcontentloaded'});
+   await page.waitForFunction(()=>document.getElementById('advancedBtn')?.disabled===false);
+   await page.locator('#advancedBtn').click();
+   assert.match(await page.locator('#workspace').innerText(),/Question 1 of 10/);
+   assert.match(await page.locator('#workspace').innerText(),/Source:/);
+   await page.evaluate(()=>{answers=questions.map(q=>(q.correctIndex+1)%4);finish(false);});
+   await page.reload();
+   await page.waitForFunction(()=>document.getElementById('advancedBtn')?.disabled===false);
+   const saved=await page.evaluate(d=>JSON.parse(localStorage.getItem('hspt-reading-v2')||'{}')[d],String(advancedDay));
+   assert.equal(saved.advanced.total,10);
+   assert.equal(saved.advanced.score,0);
+   assert.ok((await page.locator('#dashboard').innerText()).includes('Advanced ✓ Completed'));
+  }
+  console.log('PASS: Days 1 and 20 authentic Reading challenge loads, submission and persistence.');
   await page.goto(ROOT+'/language.html?day=1',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>{const b=document.getElementById('practiceBtn');return b&&!b.disabled;});
   for(const [mode,button,expected] of [['practice','#practiceBtn',23],['challenge','#challengeBtn',12],['test','#testBtn',60]]){
