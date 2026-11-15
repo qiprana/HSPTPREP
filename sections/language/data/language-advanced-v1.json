@@ -1167,155 +1167,155 @@
         {
           "id": "LA03-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the clinical research design challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession and precision",
+          "text": "Which revision makes a limited but defensible claim about a program evaluated without random assignment?",
           "options": [
-            "The program is costly; therefore no one should examine its possible benefits.",
-            "The program has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial."
+            "The improvement proves that the program benefited every participant.",
+            "Although participants improved, selection effects prevent attributing the entire change to the program.",
+            "Because selection was nonrandom, the observed improvement must be imaginary.",
+            "The program's benefit has been definitively established by the participants' testimonials."
           ],
-          "correctIndex": 3,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 1,
+          "explanation": "A nonrandom comparison may reveal improvement but cannot isolate the program's causal effect from differences in who chose to participate. The other alternatives either overclaim or dismiss the observed change.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the clinical research design challenge scenario, Every approved trial passed ethical review. A trial passed ethical review. What follows?",
+          "skill": "Conditional logic",
+          "text": "The review board will approve an intervention only if its risks are documented. The risks were documented. Which inference is warranted?",
           "options": [
-            "Approval is possible but not established by the ethical review alone.",
-            "The trial must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved trial passed ethical review."
+            "The intervention must have been approved.",
+            "Documentation was a necessary condition, but approval is not established.",
+            "The board rejected every intervention whose risks were documented.",
+            "The program had no risks worth disclosing."
           ],
-          "correctIndex": 0,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "'Only if' makes documentation necessary for approval, not sufficient. Completing that prerequisite does not guarantee the board's decision.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the clinical research design challenge scenario, Only the technicians who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Quantifier scope",
+          "text": "A summary states: 'Not all patients who received reminders attended their appointment.' Which paraphrase preserves its meaning?",
           "options": [
-            "All eligible technicians received certification.",
-            "Every certified technician supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Technicians without certification supplied no data."
+            "None of the patients receiving reminders attended.",
+            "At least one reminded patient did not attend.",
+            "A majority of reminded patients did not attend.",
+            "Every patient who attended had received a reminder."
           ],
           "correctIndex": 1,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "'Not all' negates a universal claim and entails one or more exceptions. It does not specify the proportion or the experiences of attendees outside the reminder group.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-7",
           "group": "usage",
           "skill": "Pronoun case",
-          "text": "In the clinical research design challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "text": "Which sentence uses the correct formal pronoun case after the preposition?",
           "options": [
-            "The consultant whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the dossier?",
-            "Whom concluded that the evidence was incomplete?"
+            "The coordinator asked to whom the findings should be sent.",
+            "The coordinator asked to who the findings should be sent.",
+            "The coordinator asked whom had prepared the findings.",
+            "The coordinator asked who had the board nominated as chair."
           ],
-          "correctIndex": 2,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "'Whom' is the object of the preposition 'to.' The second option uses nominative 'who' after a preposition; the third uses object case as the subject of 'had prepared'.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the clinical research design challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Reference clarity",
+          "text": "A researcher wrote: 'The physician told the technician that her interpretation was incomplete.' Which revision identifies the technician's interpretation as incomplete?",
           "options": [
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete."
+            "The physician told the technician that she had interpreted it incompletely.",
+            "The physician said the interpretation was incomplete after talking to her.",
+            "The physician told the technician, 'Your interpretation is incomplete.'",
+            "She was told by the technician that the physician's interpretation was incomplete."
           ],
-          "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 2,
+          "explanation": "Directly addressing the technician with 'your' removes the ambiguous feminine pronoun. The other revisions change the attribution or retain ambiguity.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the clinical research design challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Scope of evidence",
+          "text": "A clinic observes fewer missed appointments after moving to evening hours, but it also starts sending text reminders. Which report is defensible?",
           "options": [
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary."
+            "Evening hours alone caused the decline in missed appointments.",
+            "The decline followed two changes, so the separate contribution of evening hours is unresolved.",
+            "The reminders were useless because hours changed simultaneously.",
+            "Both changes necessarily contributed equally to the observed result."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "The changes are simultaneous, so the before-and-after association cannot apportion their separate causal effects. The other claims infer an untested causal breakdown.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the clinical research design challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Independent corroboration",
+          "text": "Which source would most independently confirm whether a disputed medication-delivery date is accurate?",
           "options": [
-            "A consultant describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account."
+            "A revised press release quoting the original disputed notice.",
+            "A staff member repeating what they remember hearing from the original author.",
+            "A contemporaneous signed delivery log kept by an independent recipient.",
+            "An editorial opinion endorsing the institution that issued the notice."
           ],
-          "correctIndex": 1,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 2,
+          "explanation": "A contemporaneous record produced by a separate recipient provides a check independent of the disputed account. Repetition and endorsement of the same claim add little independent evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the clinical research design challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Balanced recommendation",
+          "text": "A school health pilot improves access for some students, but privacy safeguards have not been evaluated. Which recommendation best addresses both findings?",
           "options": [
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial program.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data."
+            "Expand immediately to every school and postpone all privacy review.",
+            "End the pilot because any unresolved concern proves harm.",
+            "Extend the pilot only with explicit safeguards, independent privacy review, and measured access outcomes.",
+            "Treat higher attendance as proof that the privacy risks are negligible."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "explanation": "Controlled continuation with safeguards and evaluation preserves possible benefits while addressing the unresolved risk; the alternatives either ignore or overstate the uncertainty.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the clinical research design challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Competing explanations",
+          "text": "Two explanations fit the fall in clinic visits: better prevention and reduced ability to reach the clinic. Which investigation best distinguishes them?",
           "options": [
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations."
+            "Measure both health outcomes and access barriers in comparable groups over time.",
+            "Ask only staff which explanation they find more encouraging.",
+            "Repeat the total visit count without examining patient outcomes.",
+            "Assume the cause with the strongest public support is correct."
           ],
-          "correctIndex": 3,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "A decline in visits can reflect improved health or unmet need. Tracking outcomes alongside access helps discriminate between those mechanisms, whereas counts alone cannot.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
@@ -1652,155 +1652,155 @@
         {
           "id": "LA04-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the environmental policy challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession and counterargument",
+          "text": "Which sentence offers a genuine concession followed by a reasoned answer in an argument about preserving urban trees?",
           "options": [
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The project is costly; therefore no one should examine its possible benefits.",
-            "The project has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial."
+            "Although planting trees costs money, shade-related energy savings may offset some long-term expense.",
+            "Tree planting costs nothing; therefore every objection is dishonest.",
+            "Trees are good because people like them, and some people also dislike them.",
+            "All trees reduce energy use equally, so maintenance never matters."
           ],
           "correctIndex": 0,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "The first sentence acknowledges an actual cost and offers a specific potential offset, without assuming the offset is guaranteed.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the environmental policy challenge scenario, Every approved survey passed ethical review. A survey passed ethical review. What follows?",
+          "skill": "Necessary conditions",
+          "text": "A city grants construction approval only when an environmental assessment is complete. The assessment is complete. What must follow?",
           "options": [
-            "No approved survey passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The survey must have been approved.",
-            "Ethical review was unnecessary."
+            "Approval has already been granted.",
+            "The city has waived all other conditions.",
+            "One prerequisite for approval has been met, but approval is not guaranteed.",
+            "The assessment was unnecessary because the project can proceed without it."
           ],
-          "correctIndex": 1,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 2,
+          "explanation": "'Only when' states a necessary requirement. Completion of an assessment does not imply that other approval criteria are satisfied.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the environmental policy challenge scenario, Only the planners who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Evidence scope",
+          "text": "A headline says 'Most respondents prefer protected bike lanes' after a poll of visitors to a cycling club. Which correction best addresses its weakness?",
           "options": [
-            "Planners without certification supplied no data.",
-            "All eligible planners received certification.",
-            "Every certified planner supplied raw data.",
-            "Every raw-data supplier was certified."
+            "Visitors to one cycling club favored protected lanes; citywide preference remains unmeasured.",
+            "All residents must favor protected lanes because club visitors are residents.",
+            "The survey is irrelevant because cyclists cannot express preferences.",
+            "Protected lanes are proven effective by the number of survey responses."
           ],
-          "correctIndex": 2,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 0,
+          "explanation": "The sample represents club visitors, not the whole city. A properly qualified headline limits its claim to the population actually sampled.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the environmental policy challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Modifier placement",
+          "text": "Which sentence means the committee rejected the proposal but did not reject the accompanying evidence?",
           "options": [
-            "Whom concluded that the evidence was incomplete?",
-            "The scholar whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the memorandum?"
+            "The committee only rejected the proposal.",
+            "Only the committee rejected the proposal.",
+            "The committee rejected only the proposal.",
+            "The committee rejected the only proposal."
           ],
-          "correctIndex": 3,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 2,
+          "explanation": "'Only' directly modifies 'the proposal' in the third sentence, excluding other items from what was rejected. The remaining placements change or blur the intended focus.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the environmental policy challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Ambiguous attribution",
+          "text": "Which revision makes clear that the developer, not the city planner, requested a delay?",
           "options": [
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation."
+            "After the developer met the planner, she requested a delay.",
+            "The developer requested a delay after meeting with the city planner.",
+            "Meeting the developer, the planner requested her delay.",
+            "The planner and developer discussed a delay she requested."
           ],
-          "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 1,
+          "explanation": "The developer is explicitly the subject of 'requested' in the second sentence. The other choices assign the action to the planner or retain ambiguous pronouns.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the environmental policy challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Comparative logic",
+          "text": "A report says that flood damage was lower in districts with more trees, but those districts also have newer drains. Which argument is best supported?",
           "options": [
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention."
+            "Tree cover is the sole cause of lower damage.",
+            "Newer drains cannot explain any difference because trees are also present.",
+            "An observed association exists, but the independent contribution of trees has not been isolated.",
+            "The districts without trees are certain to suffer future floods."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 2,
+          "explanation": "Drain age is a plausible confounding variable. Association is defensible; exclusive causation and certain predictions are not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the environmental policy challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Source credibility",
+          "text": "Which evidence provides the strongest independent test of a contractor's claim that an air-quality sensor meets specifications?",
           "options": [
-            "A later summary cites only the disputed account.",
-            "A scholar describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph."
+            "A brochure printed by the sensor manufacturer.",
+            "The contractor's own unreviewed demonstration.",
+            "A testimonial from the contractor's preferred supplier.",
+            "Calibration results from an independent laboratory using a published protocol."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 3,
+          "explanation": "Independent standardized testing can directly evaluate performance. Marketing and affiliated testimonials do not provide equally independent verification.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the environmental policy challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Proportionate judgment",
+          "text": "A pilot road closure improves measured safety but delays emergency vehicles at one junction. Which recommendation best reflects both results?",
           "options": [
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial project.",
-            "Run a bounded pilot with predefined measures before considering wider adoption."
+            "Maintain the closure unchanged because average safety improved.",
+            "End every traffic calming program after a single adverse observation.",
+            "Revise emergency access at the junction, test the change, and continue monitoring broader safety effects.",
+            "Treat delays as irrelevant because the original project aimed to reduce traffic."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 2,
+          "explanation": "A targeted adjustment and renewed measurement address the identified harm while retaining a potentially beneficial pilot. Either blanket expansion or abandonment overstates the evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the environmental policy challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Experimental contrast",
+          "text": "How should a city test whether reflective pavement, rather than changes in traffic, caused lower road temperatures?",
           "options": [
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists."
+            "Compare similar streets with and without the treatment while measuring traffic, shade and weather.",
+            "Compare summer temperature readings with winter readings on the same treated street.",
+            "Interview residents about whether the pavement appears brighter.",
+            "Assume the lowest recorded temperature proves causation."
           ],
           "correctIndex": 0,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "explanation": "A controlled comparison with relevant environmental covariates helps isolate the treatment effect. Seasonal changes and impressions do not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
