@@ -7,6 +7,7 @@ on:
       - 'sections/language/data/language-hspt-book-spelling.json'
       - 'tests/validate-language-papers.js'
       - 'tests/validate-language-advanced.js'
+      - 'tests/report-language-repetition.js'
       - 'tests/validate-difficulty-coverage.js'
       - 'sections/language/data/language-advanced-v1.json'
       - '.github/workflows/validate-language.yml'
@@ -29,3 +30,4 @@ jobs:
           node tests/validate-language-papers.js
           node tests/validate-language-advanced.js
           node tests/validate-difficulty-coverage.js
+          node tests/report-language-repetition.js
