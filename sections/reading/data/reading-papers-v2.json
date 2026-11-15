@@ -16528,9 +16528,9 @@
       "passages": [
         {
           "id": "R17-P1",
-          "title": "After the Flood",
-          "genre": "science",
-          "text": "A river-monitoring team studied what happened to the streambed after a sudden spring flood. The current had moved stones and carved channels that did not appear in last year's map. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nResearchers photographed fixed landmarks and compared water depth at marked positions. Some shallow areas became deeper while gravel collected at bends downstream. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their constructive approach involved examining the available information before making the next decision.\n\nThe flood was only one event and might not represent the river's usual behavior. The team updated its survey maps and scheduled observations after future storms. A landscape can change quickly, which makes repeated measurements important for reliable maps. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Jane and Bingley's Engagement",
+          "genre": "literature",
+          "text": "He then shut the door, and, coming up to her, claimed the good wishes and affection of a sister. Elizabeth honestly and heartily expressed her delight in the prospect of their relationship. They shook hands with great cordiality; and then, till her sister came down, she had to listen to all he had to say of his own happiness, and of Jane's perfections; and in spite of his being a lover, Elizabeth really believed all his expectations of felicity to be rationally founded, because they had for basis the excellent understanding, and super-excellent disposition of Jane, and a general similarity of feeling and taste between her and himself.\n\nIt was an evening of no common delight to them all; the satisfaction of Miss Bennet's mind gave a glow of such sweet animation to her face, as made her look handsomer than ever. Kitty simpered and smiled, and hoped her turn was coming soon. Mrs. Bennet could not give her consent or speak her approbation in terms warm enough to satisfy her feelings, though she talked to Bingley of nothing else for half an hour; and when Mr. Bennet joined them at supper, his voice and manner plainly showed how really happy he was.\n\nNot a word, however, passed his lips in allusion to it, till their visitor took his leave for the night; but as soon as he was gone, he turned to his daughter, and said:\n\n\"Jane, I congratulate you. You will be a very happy woman.\"\n\nJane went to him instantly, kissed him, and thanked him for his goodness.\n\n\"You are a good girl;\" he replied, \"and I have great pleasure in thinking you will be so happily settled. I have not a doubt of your doing very well together. Your tempers are by no means unlike. You are each of you so complying, that nothing will ever be resolved on; so easy, that every servant will cheat you; and so generous, that you will always exceed your income.\"\n\n\"I hope not so. Imprudence or thoughtlessness in money matters would be unpardonable in me.\"\n\n\"Exceed their income! My dear Mr. Bennet,\" cried his wife, \"what are you talking of? Why, he has four or five thousand a year, and very likely more.\" Then addressing her daughter, \"Oh! my dear, dear Jane, I am so happy! I am sure I shan't get a wink of sleep all night. I knew how it would be. I always said it must be so, at last. I was sure you could not be so beautiful for nothing! I remember, as soon as ever I saw him, when he first came into Hertfordshire last year, I thought how likely it was that you should come together. Oh! he is the handsomest young man that ever was seen!\"\n\nWickham, Lydia, were all forgotten. Jane was beyond competition her favourite child. At that moment, she cared for no other. Her younger sisters soon began to make interest with her for objects of happiness which she might in future be able to dispense.",
           "term": [
             "constructive",
             "helpful in improving something",
@@ -16541,165 +16541,185 @@
           "questions": [
             {
               "id": "R17-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"After the Flood\"?",
+              "type": "Relationship inference",
+              "prompt": "Why does Elizabeth regard the couple's future happiness as rationally grounded rather than merely romantic optimism?",
               "choices": [
-                "The proposed response (“The team updated its survey maps and scheduled…”) makes the original concern irrelevant.",
-                "The method (“Researchers photographed fixed landmarks and compared…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Some shallow areas became deeper while gravel collected…”) is treated as unrelated to the original investigation.",
-                "The concern (“The current had moved stones and carved channels that did…”) leads to inquiry, but “The flood was only one event and might not represent the…” limits the inference."
+                "She is confident that shared temperament and Jane's character support their compatibility.",
+                "She knows no couple has ever disagreed.",
+                "She believes wealth alone guarantees marriage success.",
+                "She assumes Bingley will never disappoint anyone."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The flood was only one event and might not represent the river's usual behavior. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The narrator invokes Jane's judgment and disposition and the couple's similarities as evidence supporting the hope.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"After the Flood\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Tone",
+              "prompt": "What is the effect of Mr. Bennet's joke that the couple are so accommodating 'nothing will ever be resolved on'?",
               "choices": [
-                "The current had moved stones and carved channels that did not appear in last year's map.",
-                "Researchers photographed fixed landmarks and compared water depth at marked positions.",
-                "Some shallow areas became deeper while gravel collected at bends downstream.",
-                "The team updated its survey maps and scheduled observations after future storms."
+                "It shows he refuses to approve the marriage.",
+                "It is an exact prediction of future legal disputes.",
+                "It affectionately exaggerates how their shared gentleness could become a practical weakness.",
+                "It implies the couple have no common feelings."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: The current had moved stones and carved channels that did not appear in last year's map. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "His sincere congratulations are followed by teasing speculation about the consequences of their agreeable temperaments.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"After the Flood\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Character contrast",
+              "prompt": "How do Mr. and Mrs. Bennet express their happiness differently?",
               "choices": [
-                "The flood was only one event and might not represent the river's usual behavior.",
-                "Researchers photographed fixed landmarks and compared water depth at marked positions.",
-                "The current had moved stones and carved channels that did not appear in last year's map.",
-                "Some shallow areas became deeper while gravel collected at bends downstream."
+                "Both speak at length about the couple's likely financial mismanagement.",
+                "Mr. Bennet offers restrained and humorous approval, while Mrs. Bennet is exuberant and focused partly on status and fortune.",
+                "Mr. Bennet remains silent throughout; Mrs. Bennet opposes the marriage.",
+                "Both parents fear the couple will abandon Jane's family."
               ],
               "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Researchers photographed fixed landmarks and compared water depth at marked positions. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Mr. Bennet waits for a private moment and jokes, whereas Mrs. Bennet celebrates expansively and highlights Bingley's income and handsomeness.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"After the Flood\", rather than a procedure, caution, or policy response?",
+              "type": "Irony",
+              "prompt": "Why is Mrs. Bennet's claim that Jane 'could not be so beautiful for nothing' ironic?",
               "choices": [
-                "The flood was only one event and might not represent the river's usual behavior.",
-                "The team updated its survey maps and scheduled observations after future storms.",
-                "Some shallow areas became deeper while gravel collected at bends downstream.",
-                "Researchers photographed fixed landmarks and compared water depth at marked positions."
+                "It rejects the importance of marriage.",
+                "It suggests Jane is secretly unattractive.",
+                "It is a direct quotation from Bingley.",
+                "It reduces her daughter's marriage prospects to a reward for beauty rather than mutual understanding."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Some shallow areas became deeper while gravel collected at bends downstream. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The remark reveals Mrs. Bennet's priorities and contrasts with Elizabeth's more substantive rationale for compatibility.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"After the Flood\" from being generalized beyond the available evidence?",
+              "type": "Narrative method",
+              "prompt": "What role does the phrase 'in spite of his being a lover' serve?",
               "choices": [
-                "Some shallow areas became deeper while gravel collected at bends downstream.",
-                "Researchers photographed fixed landmarks and compared water depth at marked positions.",
-                "The team updated its survey maps and scheduled observations after future storms.",
-                "The flood was only one event and might not represent the river's usual behavior."
+                "It playfully recognizes that romantic enthusiasm can exaggerate while asserting that Bingley's confidence still appears justified.",
+                "It establishes that Elizabeth dislikes Bingley.",
+                "It shows Jane has rejected the proposal.",
+                "It proves the narrator considers romance always irrational."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The flood was only one event and might not represent the river's usual behavior. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Elizabeth acknowledges a lover's possible bias but judges this expectation unusually well founded.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"After the Flood\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Character development",
+              "prompt": "How does Mr. Bennet's response indicate approval despite his warnings?",
               "choices": [
-                "The team updated its survey maps and scheduled observations after future storms.",
-                "The current had moved stones and carved channels that did not appear in last year's map.",
-                "Researchers photographed fixed landmarks and compared water depth at marked positions.",
-                "Some shallow areas became deeper while gravel collected at bends downstream."
+                "He insists the wedding must be postponed indefinitely.",
+                "He speaks only to Elizabeth and ignores Jane.",
+                "He congratulates Jane sincerely before teasing her about excessive agreeableness and generosity.",
+                "He announces that their shared traits make happiness impossible."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The team updated its survey maps and scheduled observations after future storms. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The jokes are framed by clear approval and affection; the warning does not negate the blessing.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"After the Flood\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Point of view",
+              "prompt": "Why does the narrator mention that Mrs. Bennet temporarily forgets Wickham and Lydia?",
               "choices": [
-                "Initial concern: “Researchers photographed fixed landmarks and compared…”; method: “Some shallow areas became deeper while gravel collected…”.",
-                "Initial concern: “The current had moved stones and carved channels that did…”; method: “Researchers photographed fixed landmarks and compared…”.",
-                "Initial concern: “The current had moved stones and carved channels that did…”; method: “The flood was only one event and might not represent the…”.",
-                "Initial concern: “Some shallow areas became deeper while gravel collected…”; method: “The team updated its survey maps and scheduled…”."
+                "To establish that she has lost her memory.",
+                "To highlight how a socially gratifying event can abruptly redirect her maternal attention and favor.",
+                "To reveal that she has disowned them.",
+                "To demonstrate that Bingley opposes every member of the family."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with The current had moved stones and carved channels that did not appear in last year's map. and the subsequent investigative procedure is Researchers photographed fixed landmarks and compared water depth at marked positions..",
+              "explanation": "Her temporary forgetfulness and new preference for Jane register her changeable enthusiasm.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"After the Flood\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Scope and evidence",
+              "prompt": "Which statement is least supported by the passage?",
               "choices": [
-                "The limitation (“The flood was only one event and might not represent the…”) disproves the observation itself.",
-                "The method (“Researchers photographed fixed landmarks and compared…”) guarantees the result before measurement.",
-                "The observation (“Some shallow areas became deeper while gravel collected…”) matters, but the limit (“The flood was only one event and might not represent the…”) remains.",
-                "The observation (“Some shallow areas became deeper while gravel collected…”) rules out every alternative cause."
+                "Bingley admires Jane's qualities.",
+                "Jane responds warmly to her father's congratulations.",
+                "Mrs. Bennet is impressed by Bingley's financial position.",
+                "The narrator guarantees that Jane and Bingley will never have financial disagreements."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Some shallow areas became deeper while gravel collected at bends downstream. but must be read alongside The flood was only one event and might not represent the river's usual behavior..",
+              "correctIndex": 3,
+              "explanation": "The passage offers hopes and humorous predictions but does not establish any infallible forecast of married life.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"After the Flood\" relate to the strength and limits of the earlier observations?",
+              "type": "Social observation",
+              "prompt": "What do the younger sisters' requests for future favors suggest?",
               "choices": [
-                "The response (“The team updated its survey maps and scheduled…”) is proof of success in every setting.",
-                "The caveat (“The flood was only one event and might not represent the…”) makes the observations worthless.",
-                "The observation (“Some shallow areas became deeper while gravel collected…”) shows that measurement was unnecessary.",
-                "The response (“The team updated its survey maps and scheduled…”) follows evidence but remains open to reassessment."
+                "Jane's new position may be viewed as offering influence or resources to relatives.",
+                "They resent Jane's engagement and demand it be canceled.",
+                "They have been excluded from the family celebration.",
+                "The family has decided to move away immediately."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The team updated its survey maps and scheduled observations after future storms.; the stated limit The flood was only one event and might not represent the river's usual behavior. still matters.",
+              "correctIndex": 0,
+              "explanation": "They begin seeking advantages Jane may later be able to grant, connecting family affection to social opportunity.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             },
             {
               "id": "R17-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"After the Flood\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which contrast most strongly shapes the passage's celebration?",
               "choices": [
-                "Repeat the method (“Researchers photographed fixed landmarks and compared…”) while testing the concern (“The flood was only one event and might not represent the…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "The conflict between rural and urban customs.",
+                "The problem of choosing a wedding date.",
+                "Emotional compatibility and sincere affection sit beside economic calculation, social excitement and playful warnings.",
+                "All characters agree that wealth is irrelevant."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The flood was only one event and might not represent the river's usual behavior., while comparing evidence from the original method, Researchers photographed fixed landmarks and compared water depth at marked positions..",
+              "correctIndex": 2,
+              "explanation": "Elizabeth values compatibility, Mr. Bennet jokes about practical issues, and Mrs. Bennet emphasizes beauty, status and income.",
               "passageId": "R17-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Jane and Bingley's engagement"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "He then shut the door, and, coming up to her, claimed the good wishes and affection of a sister",
+            "end": " make interest with her for objects of happiness which she might in future be able to dispense."
+          },
+          "sourceReference": "ADV-17-P1"
         },
         {
           "id": "R17-P2",
