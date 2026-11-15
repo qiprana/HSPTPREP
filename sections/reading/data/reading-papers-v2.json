@@ -2200,7 +2200,7 @@
           "id": "R03-P2",
           "title": "A Bridge Built Twice",
           "genre": "history",
-          "text": "An engineering museum researched why an early wooden bridge was replaced within twenty years of construction. Local stories claimed that the first bridge collapsed during a single dramatic storm. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nResearchers checked building records, repair invoices, and newspaper reports from successive years. The records documented repeated damage over many seasons rather than one sudden collapse. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their adaptable approach involved examining the available information before making the next decision.\n\nSome early council minutes were missing, leaving the final decision partly unexplained. The exhibit described a gradual replacement process and identified the missing evidence openly. Local legends can preserve a real concern while simplifying the sequence of events. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "The first bridge across the Alden River survived for only nineteen years. In town histories, its disappearance was often attributed to a single winter storm so violent that residents supposedly heard beams snapping from their bedrooms. The engineering museum preparing an exhibition initially expected to display this dramatic story alongside a drawing of the replacement bridge. Yet its curator found an awkward fact: a newspaper published the morning after the famous storm described damage to the riverbank but made no mention of a collapsed crossing.\n\nThe museum's research team turned to municipal accounts. Over the eight years before replacement, records showed repeated purchases of timber, repairs to the upstream supports, and payments to remove debris. Some entries were terse, describing only 'river works,' but the dates corresponded to unusually high water levels recorded at a nearby mill. This evidence suggested deterioration over many seasons rather than sudden destruction. It did not identify the exact moment the bridge became unsafe, and financial records could omit work performed without municipal payment.\n\nA structural engineer explained that the bridge's original design had given it little clearance above seasonal floods. A strong current could push fallen branches against the supports, increasing pressure even during storms that did not break the crossing outright. The engineer considered the accumulated repairs consistent with this mechanism. But consistency was not confirmation: no surviving inspection report documented the supports' condition immediately before demolition. The town might also have replaced the bridge because greater commercial traffic demanded a wider roadway.\n\nThe researchers compared two later photographs, one showing a noticeably reinforced support and the other a larger replacement span. They carefully resisted reading the first image as proof that the bridge was near collapse. A reinforcement could be routine maintenance; a wider replacement could reflect changing needs as much as failure of the older structure. The museum consequently planned an exhibit with two parallel accounts: the memorable storm story and the slower pattern revealed by municipal spending and engineering constraints.\n\nOn opening day, a visitor complained that the exhibition deprived the town of its legend. The curator replied that the story remained part of local history—as evidence of what generations had believed and repeated—even if it could not stand alone as an explanation of the bridge's fate. The team's conclusion was intentionally narrower than its evidence collection: long-term vulnerability was plausible, a single catastrophic collapse was unverified, and the replacement decision may have combined safety with growing demand.",
           "term": [
             "adaptable",
             "able to adjust",
@@ -2211,163 +2211,163 @@
           "questions": [
             {
               "id": "R03-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Bridge Built Twice\"?",
+              "type": "Contradictory evidence",
+              "prompt": "Why does the newspaper report complicate the popular storm narrative?",
               "choices": [
-                "The method (“Researchers checked building records, repair invoices,…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The records documented repeated damage over many seasons…”) is treated as unrelated to the original investigation.",
-                "The concern (“Local stories claimed that the first bridge collapsed…”) leads to inquiry, but “Some early council minutes were missing, leaving the…” limits the inference.",
-                "The proposed response (“The exhibit described a gradual replacement process and…”) makes the original concern irrelevant."
+                "It describes immediate bank damage without reporting the claimed bridge collapse.",
+                "It establishes that no storm occurred that winter.",
+                "It proves the bridge was never repaired.",
+                "It names the person who designed the replacement."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some early council minutes were missing, leaving the final decision partly unexplained. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The report's silence on collapse weakens, though does not conclusively refute, the dramatic account. It does not negate the storm or later repairs.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Bridge Built Twice\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Source limitations",
+              "prompt": "What is the most responsible interpretation of the repeated municipal repair payments?",
               "choices": [
-                "The exhibit described a gradual replacement process and identified the missing evidence openly.",
-                "Local stories claimed that the first bridge collapsed during a single dramatic storm.",
-                "Researchers checked building records, repair invoices, and newspaper reports from successive years.",
-                "The records documented repeated damage over many seasons rather than one sudden collapse."
+                "They prove the bridge collapsed every winter.",
+                "They suggest recurrent problems, although records may be incomplete or nonspecific.",
+                "They demonstrate that every repair was fraudulent.",
+                "They show that the town never considered replacement."
               ],
               "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Local stories claimed that the first bridge collapsed during a single dramatic storm. The other choices describe what was done or discovered afterward.",
+              "explanation": "The payments indicate recurring maintenance across years, while 'river works' entries and unpaid work limit a fully precise reconstruction.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Bridge Built Twice\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Mechanism",
+              "prompt": "Why does the engineer discuss debris collecting against the supports?",
               "choices": [
-                "The records documented repeated damage over many seasons rather than one sudden collapse.",
-                "Some early council minutes were missing, leaving the final decision partly unexplained.",
-                "Researchers checked building records, repair invoices, and newspaper reports from successive years.",
-                "Local stories claimed that the first bridge collapsed during a single dramatic storm."
+                "To show that timber bridges always fail without warning.",
+                "To demonstrate that photographs are unreliable.",
+                "To offer a plausible causal mechanism connecting high water to cumulative structural stress.",
+                "To establish the bridge was replaced solely because of heavier commercial traffic."
               ],
               "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Researchers checked building records, repair invoices, and newspaper reports from successive years. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Debris loading provides a mechanism consistent with repair records, not conclusive proof of collapse or a unique reason for replacement.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Bridge Built Twice\", rather than a procedure, caution, or policy response?",
+              "type": "Evidence hierarchy",
+              "prompt": "Which discovery would most directly strengthen the claim that the original bridge was structurally unsafe near the time of replacement?",
               "choices": [
-                "Researchers checked building records, repair invoices, and newspaper reports from successive years.",
-                "Some early council minutes were missing, leaving the final decision partly unexplained.",
-                "The exhibit described a gradual replacement process and identified the missing evidence openly.",
-                "The records documented repeated damage over many seasons rather than one sudden collapse."
+                "A late-nineteenth-century poem celebrating the river.",
+                "A list of travelers who crossed the river decades earlier.",
+                "A photograph of the town square taken after demolition.",
+                "A dated engineering inspection identifying serious defects in the supports."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The records documented repeated damage over many seasons rather than one sudden collapse. The other statements describe different stages of the inquiry.",
+              "explanation": "An inspection close to replacement would directly document structural condition, whereas distant anecdotes and unrelated images would not.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Bridge Built Twice\" from being generalized beyond the available evidence?",
+              "type": "Inference",
+              "prompt": "Why does the curator avoid treating the photograph of a reinforced support as proof of imminent failure?",
               "choices": [
-                "Some early council minutes were missing, leaving the final decision partly unexplained.",
-                "The records documented repeated damage over many seasons rather than one sudden collapse.",
-                "Researchers checked building records, repair invoices, and newspaper reports from successive years.",
-                "The exhibit described a gradual replacement process and identified the missing evidence openly."
+                "Reinforcement might reflect precautionary or routine maintenance rather than emergency deterioration.",
+                "Photographs cannot reveal any engineering details.",
+                "The image dates from after the bridge was demolished.",
+                "Any reinforced bridge must be newly built."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: Some early council minutes were missing, leaving the final decision partly unexplained. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The same visual evidence permits multiple reasonable interpretations. The photograph supports the fact of reinforcement, not the urgency that motivated it.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Bridge Built Twice\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Alternative explanations",
+              "prompt": "How could growing commercial traffic alter the interpretation of the bridge's replacement?",
               "choices": [
-                "The records documented repeated damage over many seasons rather than one sudden collapse.",
-                "The exhibit described a gradual replacement process and identified the missing evidence openly.",
-                "Local stories claimed that the first bridge collapsed during a single dramatic storm.",
-                "Researchers checked building records, repair invoices, and newspaper reports from successive years."
+                "It would establish that the river had stopped flooding.",
+                "It could make expansion desirable even if the older bridge had not suffered a sudden collapse.",
+                "It would prove that the replacement was built from the original timber.",
+                "It would make earlier maintenance entries irrelevant."
               ],
               "correctIndex": 1,
-              "explanation": "The subsequent response was: The exhibit described a gradual replacement process and identified the missing evidence openly. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "A wider bridge may respond to increased demand, so replacement cannot automatically be equated with catastrophic failure.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Bridge Built Twice\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Historical reasoning",
+              "prompt": "What role does the local legend retain in the exhibit?",
               "choices": [
-                "Initial concern: “The records documented repeated damage over many seasons…”; method: “The exhibit described a gradual replacement process and…”.",
-                "Initial concern: “Researchers checked building records, repair invoices,…”; method: “The records documented repeated damage over many seasons…”.",
-                "Initial concern: “Local stories claimed that the first bridge collapsed…”; method: “Researchers checked building records, repair invoices,…”.",
-                "Initial concern: “Local stories claimed that the first bridge collapsed…”; method: “Some early council minutes were missing, leaving the…”."
+                "It supplies a verified cause of the demolition.",
+                "It establishes that contemporary reports were deliberately censored.",
+                "It documents a tradition of remembering the event even where its factual explanation is uncertain.",
+                "It removes the need for any engineering evidence."
               ],
               "correctIndex": 2,
-              "explanation": "The issue begins with Local stories claimed that the first bridge collapsed during a single dramatic storm. and the subsequent investigative procedure is Researchers checked building records, repair invoices, and newspaper reports from successive years..",
+              "explanation": "The curator distinguishes what people believed from what occurred; the story remains evidence of collective memory, not conclusive engineering history.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Bridge Built Twice\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Qualification",
+              "prompt": "Which conclusion most closely matches the research team's findings?",
               "choices": [
-                "The observation (“The records documented repeated damage over many seasons…”) rules out every alternative cause.",
-                "The limitation (“Some early council minutes were missing, leaving the…”) disproves the observation itself.",
-                "The method (“Researchers checked building records, repair invoices,…”) guarantees the result before measurement.",
-                "The observation (“The records documented repeated damage over many seasons…”) matters, but the limit (“Some early council minutes were missing, leaving the…”) remains."
+                "A single famous storm certainly destroyed the bridge.",
+                "Commercial development alone explains the replacement.",
+                "Municipal repair records can never establish useful historical patterns.",
+                "Recurring vulnerabilities are plausible, but the bridge's final condition and replacement motives are not conclusively established."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The records documented repeated damage over many seasons rather than one sudden collapse. but must be read alongside Some early council minutes were missing, leaving the final decision partly unexplained..",
+              "explanation": "Records and design suggest long-term risk while gaps and alternative motives prevent stronger claims.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Bridge Built Twice\" relate to the strength and limits of the earlier observations?",
+              "type": "Rhetorical structure",
+              "prompt": "What is the primary effect of contrasting the storm legend with financial and structural evidence?",
               "choices": [
-                "The response (“The exhibit described a gradual replacement process and…”) follows evidence but remains open to reassessment.",
-                "The response (“The exhibit described a gradual replacement process and…”) is proof of success in every setting.",
-                "The caveat (“Some early council minutes were missing, leaving the…”) makes the observations worthless.",
-                "The observation (“The records documented repeated damage over many seasons…”) shows that measurement was unnecessary."
+                "It moves from a dramatic single-cause story to a more conditional, multi-cause interpretation.",
+                "It argues that legends have no historical significance.",
+                "It replaces a narrative with a set of unrelated anecdotes.",
+                "It demonstrates that every written record is inherently accurate."
               ],
               "correctIndex": 0,
-              "explanation": "The findings informed The exhibit described a gradual replacement process and identified the missing evidence openly.; the stated limit Some early council minutes were missing, leaving the final decision partly unexplained. still matters.",
+              "explanation": "The contrast highlights how accumulated independent evidence can complicate a memorable simplified explanation.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Bridge Built Twice\" without ignoring its stated limitation?",
+              "type": "Methodological synthesis",
+              "prompt": "Which practice best characterizes the museum team's approach?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Researchers checked building records, repair invoices,…”) while testing the concern (“Some early council minutes were missing, leaving the…”)."
+                "Accept the oldest account because it is closest to the event.",
+                "Triangulate different sources, identify their limits, and separate plausible explanations from demonstrated facts.",
+                "Reject photographs as incapable of supporting any inference.",
+                "Choose a conclusion before examining records and preserve it despite contradictions."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, Some early council minutes were missing, leaving the final decision partly unexplained., while comparing evidence from the original method, Researchers checked building records, repair invoices, and newspaper reports from successive years..",
+              "correctIndex": 1,
+              "explanation": "The team compares newspapers, payments, photographs and engineering reasoning while acknowledging what no source can establish alone.",
               "passageId": "R03-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
