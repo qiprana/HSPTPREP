@@ -9052,9 +9052,9 @@
         },
         {
           "id": "R09-P4",
-          "title": "A Library that Stayed Open",
-          "genre": "community",
-          "text": "A rural town considered extending library hours during examination weeks. Students who traveled by bus found the afternoon opening times difficult to use. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nLibrarians surveyed students and tried opening early on two mornings each week. The early sessions were used more often than a late-evening trial. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their prudent approach involved examining the available information before making the next decision.\n\nThe results came from one exam period and might change later in the year. The town adopted a flexible timetable rather than permanently expanding every day. Service hours work best when shaped around the lives of the people who need them. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Frederick Douglass — The Sabbath School",
+          "genre": "historical memoir",
+          "text": "Henry and John were quite intelligent, and in a very little while after I went there, I succeeded in creating in them a strong desire to learn how to read. This desire soon sprang up in the others also. They very soon mustered up some old spelling-books, and nothing would do but that I must keep a Sabbath school. I agreed to do so, and accordingly devoted my Sundays to teaching these my loved fellow-slaves how to read. Neither of them knew his letters when I went there. Some of the slaves of the neighboring farms found what was going on, and also availed themselves of this little opportunity to learn to read. It was understood, among all who came, that there must be as little display about it as possible. It was necessary to keep our religious masters at St. Michael's unacquainted with the fact, that, instead of spending the Sabbath in wrestling, boxing, and drinking whisky, we were trying to learn how to read the will of God; for they had much rather see us engaged in those degrading sports, than to see us behaving like intellectual, moral, and accountable beings. My blood boils as I think of the bloody manner in which Messrs. Wright Fairbanks and Garrison West, both class-leaders, in connection with many others, rushed in upon us with sticks and stones, and broke up our virtuous little Sabbath school, at St. Michael's--all calling themselves Christians! humble followers of the Lord Jesus Christ! But I am again digressing.\n\nI held my Sabbath school at the house of a free colored man, whose name I deem it imprudent to mention; for should it be known, it might embarrass him greatly, though the crime of holding the school was committed ten years ago. I had at one time over forty scholars, and those of the right sort, ardently desiring to learn. They were of all ages, though mostly men and women. I look back to those Sundays with an amount of pleasure not to be expressed. They were great days to my soul. The work of instructing my dear fellow-slaves was the sweetest engagement with which I was ever blessed. We loved each other, and to leave them at the close of the Sabbath was a severe cross indeed. When I think that these precious souls are to-day shut up in the prison-house of slavery, my feelings overcome me, and I am almost ready to ask, \"Does a righteous God govern the universe? and for what does he hold the thunders in his right hand, if not to smite the oppressor, and deliver the spoiled out of the hand of the spoiler?\" These dear souls came not to Sabbath school because it was popular to do so, nor did I teach them because it was reputable to be thus engaged. Every moment they spent in that school, they were liable to be taken up, and given thirty-nine lashes. They came because they wished to learn. Their minds had been starved by their cruel masters. They had been shut up in mental darkness. I taught them, because it was the delight of my soul to be doing something that looked like bettering the condition of my race. I kept up my school nearly the whole year I lived with Mr. Freeland; and, beside my Sabbath school, I devoted three evenings in the week, during the winter, to teaching the slaves at home. And I have the happiness to know, that several of those who came to Sabbath school learned how to read; and that one, at least, is now free through my agency.",
           "term": [
             "prudent",
             "wise and cautious",
@@ -9065,165 +9065,185 @@
           "questions": [
             {
               "id": "R09-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Library that Stayed Open\"?",
+              "type": "Narrative development",
+              "prompt": "Why does Douglass begin with Henry and John's desire to read before describing the larger Sabbath school?",
               "choices": [
-                "The method (“Librarians surveyed students and tried opening early on…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The early sessions were used more often than a…”) is treated as unrelated to the original investigation.",
-                "The concern (“Students who traveled by bus found the afternoon opening…”) leads to inquiry, but “The results came from one exam period and might change…” limits the inference.",
-                "The proposed response (“The town adopted a flexible timetable rather than…”) makes the original concern irrelevant."
+                "To suggest that the desire to learn was imposed by the plantation owners.",
+                "To trace how a small personal act of instruction grew into a wider, self-directed effort.",
+                "To show that neighboring workers already had access to formal schools.",
+                "To argue that spelling books were impossible to obtain."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The results came from one exam period and might change later in the year. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The first two learners inspire others; the group obtains books and requests regular instruction. The sequence emphasizes learner agency and the expansion of a collective effort.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Library that Stayed Open\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Inferred motive",
+              "prompt": "Why was the Sabbath school kept deliberately inconspicuous?",
               "choices": [
-                "The town adopted a flexible timetable rather than permanently expanding every day.",
-                "Students who traveled by bus found the afternoon opening times difficult to use.",
-                "Librarians surveyed students and tried opening early on two mornings each week.",
-                "The early sessions were used more often than a late-evening trial."
+                "The learners feared the school would interrupt an official examination.",
+                "The school was limited to a private religious ceremony.",
+                "Those in power sought to suppress literacy, making the learners and helpers vulnerable to punishment.",
+                "The participants refused to admit any newcomers."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Students who traveled by bus found the afternoon opening times difficult to use. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Douglass states that enslavers had to remain unaware and later specifies the risk of whipping. Secrecy was a response to coercive suppression of education.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Library that Stayed Open\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Rhetorical contrast",
+              "prompt": "What is the primary effect of contrasting the enslavers' tolerance of degrading pastimes with their hostility to reading?",
               "choices": [
-                "The early sessions were used more often than a late-evening trial.",
-                "The results came from one exam period and might change later in the year.",
-                "Librarians surveyed students and tried opening early on two mornings each week.",
-                "Students who traveled by bus found the afternoon opening times difficult to use."
+                "It exposes how control depends on discouraging intellectual and moral agency, even among people claiming religious authority.",
+                "It proves that all enslaved people preferred entertainment to education.",
+                "It shows that religious instruction and literacy were legally identical.",
+                "It suggests that Douglass considered education unnecessary."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Librarians surveyed students and tried opening early on two mornings each week. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The masters' preference for activities Douglass portrays as degrading, rather than literacy and scriptural reading, reveals an effort to restrict independent thinking.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Library that Stayed Open\", rather than a procedure, caution, or policy response?",
+              "type": "Tone",
+              "prompt": "What is the effect of Douglass's exclamation about those who broke up the school while calling themselves Christians?",
               "choices": [
-                "Librarians surveyed students and tried opening early on two mornings each week.",
-                "The results came from one exam period and might change later in the year.",
-                "The town adopted a flexible timetable rather than permanently expanding every day.",
-                "The early sessions were used more often than a late-evening trial."
+                "It marks admiration for the aggressors' sincerity.",
+                "It changes the subject to a neutral list of local clergy.",
+                "It weakens his account by removing any moral comparison.",
+                "It condemns the contradiction between professed faith and violent repression."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The early sessions were used more often than a late-evening trial. The other statements describe different stages of the inquiry.",
+              "explanation": "The exclamatory juxtaposition identifies religious hypocrisy as a moral accusation, not merely a factual contradiction.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Library that Stayed Open\" from being generalized beyond the available evidence?",
+              "type": "Historical evidence",
+              "prompt": "Why does Douglass decline to name the free man who hosted the school?",
               "choices": [
-                "The results came from one exam period and might change later in the year.",
-                "The early sessions were used more often than a late-evening trial.",
-                "Librarians surveyed students and tried opening early on two mornings each week.",
-                "The town adopted a flexible timetable rather than permanently expanding every day."
+                "He believes the host deserves no credit.",
+                "He fears that revealing the person's identity might create consequences even years afterward.",
+                "He has forgotten the man's name.",
+                "He wishes to suggest the school met in no actual location."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The results came from one exam period and might change later in the year. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Douglass explicitly says he considers naming the host imprudent because publicity could embarrass or endanger him despite the elapsed time.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Library that Stayed Open\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Figurative language",
+              "prompt": "What does the phrase 'prison-house of slavery' contribute to the passage?",
               "choices": [
-                "The early sessions were used more often than a late-evening trial.",
-                "The town adopted a flexible timetable rather than permanently expanding every day.",
-                "Students who traveled by bus found the afternoon opening times difficult to use.",
-                "Librarians surveyed students and tried opening early on two mornings each week."
+                "It asserts that everyone described was incarcerated in a conventional jail.",
+                "It restricts the theme to architectural conditions.",
+                "It presents enslavement as confinement of body and possibility, intensifying grief over the learners' situation.",
+                "It suggests that the Sabbath school operated inside a courthouse."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The town adopted a flexible timetable rather than permanently expanding every day. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The metaphor broadens physical confinement into an indictment of oppressive conditions and lost opportunities; it does not identify a literal prison.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Library that Stayed Open\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Motivational contrast",
+              "prompt": "Why does Douglass emphasize that teaching was neither popular nor reputable?",
               "choices": [
-                "Initial concern: “The early sessions were used more often than a…”; method: “The town adopted a flexible timetable rather than…”.",
-                "Initial concern: “Librarians surveyed students and tried opening early on…”; method: “The early sessions were used more often than a…”.",
-                "Initial concern: “Students who traveled by bus found the afternoon opening…”; method: “Librarians surveyed students and tried opening early on…”.",
-                "Initial concern: “Students who traveled by bus found the afternoon opening…”; method: “The results came from one exam period and might change…”."
+                "To show that learning and teaching reflected sincere purpose despite social danger and lack of prestige.",
+                "To imply that the school was a source of financial gain.",
+                "To demonstrate that the participants were forced to attend.",
+                "To assert that none of the learners ever mastered reading."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Students who traveled by bus found the afternoon opening times difficult to use. and the subsequent investigative procedure is Librarians surveyed students and tried opening early on two mornings each week..",
+              "correctIndex": 0,
+              "explanation": "Douglass contrasts the risk of lashes and social stigma with the students' wish to learn and his delight in teaching. That contrast highlights conviction rather than external reward.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Library that Stayed Open\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Argument and emotion",
+              "prompt": "What does the rhetorical question about a righteous God reveal in context?",
               "choices": [
-                "The observation (“The early sessions were used more often than a…”) rules out every alternative cause.",
-                "The limitation (“The results came from one exam period and might change…”) disproves the observation itself.",
-                "The method (“Librarians surveyed students and tried opening early on…”) guarantees the result before measurement.",
-                "The observation (“The early sessions were used more often than a…”) matters, but the limit (“The results came from one exam period and might change…”) remains."
+                "Douglass claims to have abandoned every religious belief.",
+                "Douglass questions whether literacy is a useful form of resistance.",
+                "Douglass believes the masters' religious practices justify their conduct.",
+                "The intensity of his moral outrage at oppression exceeds calm historical description."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The early sessions were used more often than a late-evening trial. but must be read alongside The results came from one exam period and might change later in the year..",
+              "explanation": "The question arises from anguish over fellow learners still enslaved; it challenges the injustice he sees rather than functioning as a settled theological statement.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Library that Stayed Open\" relate to the strength and limits of the earlier observations?",
+              "type": "Scope of outcome",
+              "prompt": "Which conclusion about the school's results is best supported?",
               "choices": [
-                "The response (“The town adopted a flexible timetable rather than…”) follows evidence but remains open to reassessment.",
-                "The response (“The town adopted a flexible timetable rather than…”) is proof of success in every setting.",
-                "The caveat (“The results came from one exam period and might change…”) makes the observations worthless.",
-                "The observation (“The early sessions were used more often than a…”) shows that measurement was unnecessary."
+                "Every scholar learned to read and gained freedom.",
+                "Several participants learned to read, and Douglass says at least one later became free through his agency.",
+                "The school ended within the first week without making progress.",
+                "Douglass never taught students outside formal Sunday hours."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The town adopted a flexible timetable rather than permanently expanding every day.; the stated limit The results came from one exam period and might change later in the year. still matters.",
+              "correctIndex": 1,
+              "explanation": "The final lines say several learned to read and at least one became free through his agency; the passage also records three evening sessions per week in winter.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             },
             {
               "id": "R09-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Library that Stayed Open\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which statement most adequately integrates the memoir's account of literacy, community, and danger?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Librarians surveyed students and tried opening early on…”) while testing the concern (“The results came from one exam period and might change…”)."
+                "Education in slavery was chiefly an officially sponsored religious pastime.",
+                "Literacy instruction offered no benefit until every learner was freed.",
+                "Learning to read became an act of shared dignity and self-development pursued despite coercive efforts to prevent it.",
+                "The primary purpose of the school was to produce documents for the local authorities."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, The results came from one exam period and might change later in the year., while comparing evidence from the original method, Librarians surveyed students and tried opening early on two mornings each week..",
+              "correctIndex": 2,
+              "explanation": "Douglass links collective enthusiasm for literacy with the severe risk of punishment and his joy in helping others. The effort is both educational and morally consequential.",
               "passageId": "R09-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Narrative of the Life of Frederick Douglass — clandestine Sabbath school"
             }
-          ]
+          ],
+          "source": {
+            "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+            "author": "Frederick Douglass",
+            "year": 1845,
+            "url": "https://www.gutenberg.org/ebooks/23",
+            "rights": "Public domain in United States",
+            "start": "Henry and John were quite intelligent, and in a very little while after I went there",
+            "end": "e to Sabbath school learned how to read; and that one, at least, is now free through my agency."
+          },
+          "contextNote": "This historical firsthand account discusses slavery, threats of violence, and religious hypocrisy."
         }
       ],
       "vocabularyQuestions": [
