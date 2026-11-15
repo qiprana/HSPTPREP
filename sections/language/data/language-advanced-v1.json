@@ -4232,138 +4232,138 @@
         {
           "id": "LA09-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the journalism ethics test scenario, Which comparison is logically parallel?",
+          "skill": "Source independence",
+          "text": "A local paper cites two commentators as proof of an event, yet both commentators obtained their information from a single anonymous message. Which assessment is strongest?",
           "options": [
-            "The revised summary's conclusion is more cautious than the earlier research team.",
-            "The revised summary's conclusion is more cautious than the university.",
-            "The revised summary's conclusion is more cautious than the author of the first project.",
-            "The revised summary's conclusion is more cautious than that of the earlier summary."
+            "The two commentators provide fully independent corroboration.",
+            "The evidence remains dependent on one unverified original claim.",
+            "The event necessarily did not occur.",
+            "An anonymous message is always more reliable than a public record."
           ],
-          "correctIndex": 3,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 1,
+          "explanation": "Both commentators depend on the same message, so they cannot independently corroborate the event. Neither falsity nor superior reliability follows from anonymity.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA09-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the journalism ethics test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Formal diction and precision",
+          "text": "An editor wants to report that figures are tentative without suggesting they are worthless. Which revision most precisely qualifies the finding?",
           "options": [
-            "The inspectors agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The inspectors agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The inspectors agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The inspectors agreed to examining assumptions, evaluation of evidence, and conclusions revised."
+            "The figures prove everything and should not be questioned.",
+            "The figures are merely meaningless guesses.",
+            "The figures suggest an upward trend, though the limited sample leaves its magnitude uncertain.",
+            "The figures cannot have any value unless all residents were counted."
           ],
-          "correctIndex": 0,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 2,
+          "explanation": "The revision reports the observed trend while acknowledging sampling uncertainty. The alternatives assert certainty or dismiss all imperfect measurements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the journalism ethics test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Subordinate clause agreement",
+          "text": "Which sentence correctly distinguishes the timing of a completed verification from a later publication decision in a formal report?",
           "options": [
-            "The summary evaluated three issues, reliability: validity, and replicability.",
-            "The summary evaluated three issues: reliability, validity, and replicability.",
-            "The summary evaluated: three issues, reliability, validity, and replicability.",
-            "The summary evaluated three issues; reliability, validity, and replicability."
+            "After the records had been checked, the board voted to publish the story.",
+            "After the records have been checked yesterday, the board votes last week.",
+            "After the records will be checked, the board voted yesterday.",
+            "After the records checked, the board has voting to publish."
           ],
-          "correctIndex": 1,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 0,
+          "explanation": "Past perfect locates record verification before the past vote. The other options mismatch tense, sequence, or verb construction.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the journalism ethics test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Scope of evidence",
+          "text": "An article says, 'Every report reviewed by the independent panel contained at least one error.' Which conclusion is not supported?",
           "options": [
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology."
+            "Each report in the reviewed subset had an error.",
+            "The panel reviewed a subset of reports.",
+            "Every report ever produced by the agency contained an error.",
+            "The review identified errors in all of its reviewed reports."
           ],
           "correctIndex": 2,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "The universal applies only to reports the panel reviewed, not every agency report. Nothing extends the population beyond that defined subset.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the journalism ethics test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Editing for causal claims",
+          "text": "A school's media club finds higher quiz scores among students who volunteer to join its workshops. What revision best avoids overstating the result?",
           "options": [
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected project could not have had consent.",
-            "Acceptance is impossible without documented consent."
+            "Workshop attendance is associated with higher scores in this volunteer sample; differences in initial motivation may matter.",
+            "The workshops caused better scores for all students.",
+            "Volunteer students prove that all nonparticipants are less capable.",
+            "The workshop impact is guaranteed to be identical in future cohorts."
           ],
-          "correctIndex": 3,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "The measured association among volunteers is real, but self-selection offers an alternate explanation. The other claims infer broad causal effects not supported by the design.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the journalism ethics test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Comparative reference",
+          "text": "A journalist writes, 'The accuracy of the revised transcript was higher than the original.' Which revision compares like properties and keeps the meaning?",
           "options": [
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original summary."
+            "The accuracy of the revised transcript was higher than that of the original transcript.",
+            "The revised transcript had higher accuracy than the original reporter.",
+            "The accuracy of the revised transcript was higher than the original interview happened.",
+            "The transcript's accuracy was more higher than before."
           ],
           "correctIndex": 0,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "explanation": "The phrase 'that of the original transcript' compares accuracy with accuracy. The distractors compare unlike objects or use defective grammar.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the journalism ethics test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Concession and counterargument",
+          "text": "A columnist acknowledges a proposed correction policy will delay publication. Which continuation offers an evidence-focused rebuttal rather than dismissing the cost?",
           "options": [
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears."
+            "But delay never matters under any circumstances.",
+            "Nevertheless, a short verification delay may prevent errors whose later correction would undermine trust.",
+            "Therefore, every correction policy is unnecessary.",
+            "No reader has ever objected to a delayed story."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This acknowledges the cost while offering a relevant potential benefit with appropriately qualified language. The others rely on absolutes or reject the issue without analysis.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the journalism ethics test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Ambiguity resolution",
+          "text": "An editor reads, 'Alex informed Jordan that the interview recording was missing from his archive.' Which revision unequivocally makes ALEX the owner of the archive?",
           "options": [
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone."
+            "Alex informed Jordan that the recording was missing from Alex's archive.",
+            "Alex informed Jordan that the recording was missing from his archive.",
+            "He informed Jordan about a recording missing from his archive.",
+            "Alex informed Jordan that Jordan's archive was missing its recording."
           ],
-          "correctIndex": 2,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Using Alex's name in the possessive resolves whose archive was missing the recording. Other alternatives preserve ambiguity or change ownership.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
@@ -4717,138 +4717,138 @@
         {
           "id": "LA10-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the engineering safety test scenario, Which comparison is logically parallel?",
+          "skill": "Interpreting rates",
+          "text": "A site reports that faulty sensors fell from 36 to 30 while total tested sensors fell from 900 to 600. Which interpretation is supported?",
           "options": [
-            "The revised document's conclusion is more cautious than that of the earlier document.",
-            "The revised document's conclusion is more cautious than the earlier research team.",
-            "The revised document's conclusion is more cautious than the university.",
-            "The revised document's conclusion is more cautious than the author of the first review."
+            "The fault rate dropped from 4% to 3%.",
+            "The raw number fell but the fault rate rose from 4% to 5%.",
+            "The rate remained constant because both counts fell.",
+            "The data show the sensors are now fault-free."
           ],
-          "correctIndex": 0,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 1,
+          "explanation": "The original rate is 36/900 = 4%, and the later rate is 30/600 = 5%. Raw totals alone obscure an increased proportion of faulty sensors.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA10-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the engineering safety test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Agency in technical prose",
+          "text": "A report reads, 'Following the inspection, the valve was judged unsafe.' Which revision most directly identifies the inspector responsible for the judgment?",
           "options": [
-            "The reviewers agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The reviewers agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The reviewers agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The reviewers agreed to examination of assumptions, evaluate evidence, and revised conclusions."
+            "Following the inspection, the valve was judged unsafe by someone.",
+            "After inspecting the valve, the certified engineer classified it as unsafe.",
+            "The valve, having inspected the engineer, was unsafe.",
+            "It was judged that the valve was not safe."
           ],
           "correctIndex": 1,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "explanation": "The active construction names the certified engineer and directly connects inspection and judgment. Other options conceal agency or misattach the modifier.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the engineering safety test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Necessary condition",
+          "text": "A plant manual requires a signed clearance before a machine may restart. Which inference follows for a restart that complies with the manual?",
           "options": [
-            "The document evaluated three issues; reliability, validity, and replicability.",
-            "The document evaluated three issues, reliability: validity, and replicability.",
-            "The document evaluated three issues: reliability, validity, and replicability.",
-            "The document evaluated: three issues, reliability, validity, and replicability."
+            "Signed clearance is sufficient to guarantee mechanical safety.",
+            "Every signed clearance must be followed by a restart.",
+            "The restart had a signed clearance beforehand.",
+            "A restart without clearance is compliant if an operator is experienced."
           ],
           "correctIndex": 2,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "explanation": "Clearance is a necessary prerequisite, not a guarantee of safety or an instruction to restart. The other choices reverse or negate the required condition.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the engineering safety test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Precision of comparison",
+          "text": "The team claims, 'The revised component was tested more extensively than last year's report.' Which revision best fixes the faulty comparison?",
           "options": [
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology."
+            "The revised component received more tests than the previous version of the component.",
+            "The revised component was tested more than last year's report was printed.",
+            "The component's testing was larger than last year's report.",
+            "The revised component was tested more extensive than the former report."
           ],
-          "correctIndex": 3,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "The revision compares testing of two component versions rather than a physical component with a document. The other choices preserve category confusion or introduce ungrammatical forms.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the engineering safety test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Threat to validity",
+          "text": "Only experienced operators take part in a trial of a redesigned emergency control. Which statement is a defensible limitation?",
           "options": [
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected review could not have had consent."
+            "The trial guarantees performance for first-time operators.",
+            "The trial may not generalize to novice operators because their familiarity and responses were not measured.",
+            "The trial proves that novices would perform worse.",
+            "Operator experience has no possible effect on emergency response."
           ],
-          "correctIndex": 0,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 1,
+          "explanation": "The sample excludes novices, so external validity for them is uncertain. Their performance cannot be proved better or worse without evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the engineering safety test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Punctuation with transition",
+          "text": "Which version correctly connects two complete sentences with 'therefore' in a report about defective equipment?",
           "options": [
-            "An increase in the number of pages of the original document.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents."
+            "The pressure test failed, therefore the component was replaced.",
+            "The pressure test failed; therefore, the component was replaced.",
+            "The pressure test failed therefore; the component was replaced.",
+            "The pressure test failed: therefore the component, was replaced."
           ],
           "correctIndex": 1,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "explanation": "A semicolon separates the independent clauses and a comma follows 'therefore.' Other options splice or mispunctuate the sentence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-7",
           "group": "composition",
-          "skill": "Synthesis",
-          "text": "In the engineering safety test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Conditional counterexample",
+          "text": "A supervisor claims that every sensor checked after calibration met the specified tolerance. Which observation would refute that assertion?",
           "options": [
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative."
+            "One calibrated and checked sensor exceeded the permitted tolerance.",
+            "An unchecked sensor malfunctioned.",
+            "A sensor passed the tolerance test.",
+            "A sensor was replaced before calibration."
           ],
-          "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "A checked sensor after calibration that fails tolerance directly contradicts the universal claim. Unchecked sensors and successful tests do not refute it.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-T-8",
           "group": "composition",
-          "skill": "Evidence appraisal",
-          "text": "In the engineering safety test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Reporting uncertainty",
+          "text": "After a six-week pilot, incident reports fall, but the team has no control group and a major production change occurred simultaneously. Which conclusion is most responsible?",
           "options": [
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations."
+            "The pilot proves the training caused the decline.",
+            "The decrease is consistent with a benefit, but the design cannot distinguish training from the production change.",
+            "The training definitely harmed safety.",
+            "The decline must continue indefinitely if the training is retained."
           ],
-          "correctIndex": 3,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 1,
+          "explanation": "The observed association is compatible with a benefit, but concurrent changes and no control group prevent confident causal attribution. Other responses claim certainty or extrapolate indefinitely.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
