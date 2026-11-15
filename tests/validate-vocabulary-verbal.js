@@ -51,7 +51,7 @@ for(let d=1;d<=50;d++)for(const mode of ['daily','cumulative'])for(let sample=1;
   assert.equal(q.choices.length,q.category==='Verbal Logic'?3:4,'Wrong option count '+q.category);
   assert.ok(q.explain.length>=25,'Insufficient explanation '+q.category+' '+q.prompt);
   if(q.category==='Antonyms')assert.match(q.prompt,/opposite/i,'Antonym cannot be a definition question');
-  if(q.category==='Synonyms')assert.match(q.prompt,/most nearly means/i,'Synonym mislabeled');
+  if(q.category==='Synonyms')assert.match(q.prompt,/(?:most nearly means|Which studied word best means)/i,'Synonym/word-choice mislabeled');
   verbalQuestions++;
  }
  for(const [name,count] of [['Synonyms',12],['Antonyms',10],['Analogies',10],['Verbal Logic',12],['Verbal Classification',16]])
