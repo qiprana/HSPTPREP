@@ -54,6 +54,23 @@ assert.equal(guidedCount,300);
 assert.equal(total,1540);
 assert.equal(passageIds.size,80);
 assert.equal(vocabWords.size,440);
+
+let attributed=0;
+for(const paper of data.tests){
+ for(const passage of paper.passages){
+  if(!passage.source)continue;
+  attributed++;
+  assert.ok(passage.source.work&&passage.source.author&&passage.source.url&&passage.source.rights,'Missing authentic source metadata '+passage.id);
+  assert.match(passage.source.url,/^https:\/\/www\.gutenberg\.org\/ebooks\/\d+$/,'Invalid Gutenberg source link '+passage.id);
+  assert.ok(!/END OF (?:THIS )?PROJECT GUTENBERG|Project Gutenberg-tm|General Terms of Use|file should be named/i.test(passage.text),'Source licensing boilerplate leaked into '+passage.id);
+  assert.ok(passage.text.trim().split(/\s+/).length>=350,'Authentic excerpt too short '+passage.id);
+  assert.ok(passage.questions.every(q=>q.editorialStatus==='authentic-passage-specific-questions-review-pending'),'Incorrect question metadata '+passage.id);
+ }
+}
+assert.ok(attributed>=18,'Expected sourced Reading passages throughout Days 4–20');
+assert.ok(data.tests.slice(3).every(p=>p.passages.some(x=>x.source)),'Every Reading day 4–20 should have an authentic passage');
+console.log('PASS: '+attributed+' sourced authentic timed passages, complete source metadata, and no Gutenberg license content.');
+
 const authoredPassages=[...data.tests[1].passages,...data.tests[2].passages];
 for(const p of authoredPassages){
  const count=p.text.trim().split(/\s+/).length;
