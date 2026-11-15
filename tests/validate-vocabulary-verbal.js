@@ -38,14 +38,17 @@ const api=new Function('WORDS','DAY_WORDS','state',script+'return {makeVerbalCha
  (words,dayWords,{covered:{},review:{}});
 let verbalQuestions=0,vocabularyQuestions=0;
 for(let d=1;d<=50;d++)for(const mode of ['daily','cumulative']){
- const qs=api.makeVerbalChallenge(d,mode),groups={};
+ const qs=api.makeVerbalChallenge(d,mode),groups={},questionSignatures=new Set();
  assert.equal(qs.length,60,'Day '+d+' '+mode+' question count');
  for(const q of qs){
   groups[q.category]=(groups[q.category]||0)+1;
+  const sig=(q.category==='Synonyms'||q.category==='Antonyms'||q.category==='Analogies')?q.category+'|'+q.prompt.toLowerCase().trim():q.category+'|'+q.prompt.toLowerCase().trim()+'|'+q.choices.map(x=>String(x).toLowerCase().trim()).sort().join('|');
+  assert.ok(!questionSignatures.has(sig),'Duplicate question in '+mode+' Day '+d+': '+q.prompt);questionSignatures.add(sig);
   assert.ok(q.answer&&q.prompt&&q.explain,'Question missing text');
   assert.ok(q.choices.includes(q.answer),'Answer not offered: '+q.prompt);
   assert.equal(new Set(q.choices.map(x=>String(x).toLowerCase())).size,q.choices.length,'Duplicate options '+q.prompt);
   assert.equal(q.choices.length,q.category==='Verbal Logic'?3:4,'Wrong option count '+q.category);
+  assert.ok(q.explain.length>=25,'Insufficient explanation '+q.category+' '+q.prompt);
   if(q.category==='Antonyms')assert.match(q.prompt,/opposite/i,'Antonym cannot be a definition question');
   if(q.category==='Synonyms')assert.match(q.prompt,/most nearly means/i,'Synonym mislabeled');
   verbalQuestions++;
