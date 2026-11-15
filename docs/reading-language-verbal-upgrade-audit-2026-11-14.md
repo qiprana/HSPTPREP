@@ -57,3 +57,12 @@ These validate file structure, expected counts, answer-index bounds, duplicate s
 6. Review timing: high-school-level close reading may warrant a slower advanced mode while the original HSPT exam-paced tests retain their stated duration.
 
 **Status:** Large-scale content upgrade and automated structural/function QA completed; full **pedagogical** sign-off and live cross-browser sign-off remain pending.
+
+## Follow-up verification (same session)
+
+- **Chromium browser completion smoke test passed**: GitHub Actions [run 43684690733](https://github.com/qiprana/HSPTPREP/actions/runs/43684690733). Test opened the actual local static site, submitted 15/62-question Reading modes and 23/12/60-question Language modes, refreshed, verified persisted local scores and completion labels, and reopened the overview to check saved counts. It specifically tested zero-score submissions. This verifies a Chromium runner, not Safari/iPhone devices.
+- Completed a versioned no-cache JSON loader refresh and added cross-page status refresh events for return navigation.
+- Reading coverage: all 800 timed comprehension items, all 200 guided comprehension items revised; 540 vocabulary remain separate and have not been certified as advanced.
+- Language coverage: all 1,240 standard non-spelling items and 560 advanced-bank items revised; 260 spelling items remain separate.
+- **Cross-day Language question repetition remains an editorial weakness**: several templated cases preserve the same core premise and options across different days, even after changing topic labels. `tests/report-language-repetition.js` reports this explicitly in CI rather than claiming the duplicate-free structural test proves conceptual variety. A proposed bulk noun-replacement pass was rejected because it created collisions and was not deployed.
+- The phrase 'grade10-12' on a question is a targeting label, not student-normed difficulty validation. Independently authored replacements, distractor review, and blind student testing remain necessary for a fully verified grade 10–12 question bank.
