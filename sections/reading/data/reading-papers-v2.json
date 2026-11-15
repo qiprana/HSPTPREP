@@ -7804,7 +7804,7 @@
           "id": "R08-P3",
           "title": "A Map Without a Legend",
           "genre": "narrative",
-          "text": "During a hiking trip, Rohan received a trail map printed without its symbol key. The group approached a junction marked by a symbol no one recognized. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nRohan compared the terrain with the map's contour lines and checked a posted trail sign. The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their practical approach involved examining the available information before making the next decision.\n\nThe group had already spent time debating, and daylight was growing shorter. They chose a safer marked path and reported the missing legend to the ranger. Uncertainty should prompt verification when a decision affects safety. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "Rohan's hiking group reached a junction marked with three colored symbols on a weatherproof trail map. The map's legend had been torn away, and the symbol beside the shortest route looked unfamiliar. Their destination was a mountain viewpoint, but the group had only two hours of daylight left. One hiker interpreted the symbol as a shortcut to the ridge; another believed it warned of a steep descent. Neither could justify the reading from the map alone.\n\nRohan compared the contour lines near the disputed path. They were unusually close together, indicating a rapid change in elevation over a short horizontal distance. The contour pattern suggested steep terrain, but it could not reveal whether the path was slippery, blocked, or recently repaired. A faded sign a few meters ahead listed a waterfall and a lower valley trailhead. That wording made a descent more plausible than a direct climb to the ridge, though the sign might have predated recent trail changes.\n\nThe group consulted an offline trail description downloaded earlier. It mentioned a switchback route built to avoid erosion, but no map edition was listed. The description also gave distances from a parking lot that was no longer open. Some hikers argued that the downloaded guide should be trusted because it contained more text than the damaged map. Rohan replied that apparent detail did not guarantee current accuracy. A long description could be obsolete, while a brief official marker might be up to date.\n\nAt the junction, the hikers had three options. They could take the disputed route, continue along a longer clearly marked path, or turn back. The first might save time but involved a potentially hazardous descent. The second required a longer walk and made reaching the viewpoint unlikely before sunset, yet it led reliably toward a staffed visitor center. Turning back would avoid the uncertain trail but required retracing exposed ground that a forecast afternoon storm might soon reach. The decision therefore involved comparing several risks, not simply choosing between bravery and caution.\n\nThey took the marked path toward the visitor center and sent the ranger a photograph of the damaged map. On arrival, they learned that the disputed symbol indicated a steep descent to the waterfall, not a ridge shortcut. Their choice had cost them the viewpoint, but it had avoided relying on an unsupported interpretation with significant consequences. The episode illustrates that uncertainty need not be eliminated before acting; instead, the seriousness of a possible error should shape how much verification a decision requires.",
           "term": [
             "practical",
             "useful in real situations",
@@ -7815,163 +7815,163 @@
           "questions": [
             {
               "id": "R08-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Map Without a Legend\"?",
+              "type": "Topographic inference",
+              "prompt": "Why are the tightly spaced contour lines relevant to interpreting the unknown symbol?",
               "choices": [
-                "The method (“Rohan compared the terrain with the map's contour lines…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The sign confirmed that the unfamiliar symbol marked a…”) is treated as unrelated to the original investigation.",
-                "The concern (“The group approached a junction marked by a symbol no one…”) leads to inquiry, but “The group had already spent time debating, and daylight…” limits the inference.",
-                "The proposed response (“They chose a safer marked path and reported the missing…”) makes the original concern irrelevant."
+                "They show that the path is certainly shorter than the alternatives.",
+                "They indicate steep terrain, making the descent interpretation more plausible.",
+                "They establish the exact condition of the trail surface.",
+                "They show that the map is from a recent official edition."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The group had already spent time debating, and daylight was growing shorter. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Close contour spacing signals steep gradient, supporting but not proving the descent reading. It cannot settle trail condition or currency.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Map Without a Legend\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence limitation",
+              "prompt": "What remains uncertain after the group examines the contour pattern?",
               "choices": [
-                "Rohan compared the terrain with the map's contour lines and checked a posted trail sign.",
-                "The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut.",
-                "They chose a safer marked path and reported the missing legend to the ranger.",
-                "The group approached a junction marked by a symbol no one recognized."
+                "Whether the terrain changes elevation at all.",
+                "Whether the path is shown on the damaged map.",
+                "Whether the route is currently passable or hazardous for reasons other than steepness.",
+                "Whether contour maps can represent steep terrain."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The group approached a junction marked by a symbol no one recognized. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Contours describe elevation shape, not temporary obstructions, repairs or surface conditions. Those require other information.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Map Without a Legend\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Source critique",
+              "prompt": "Why does Rohan reject the argument that the downloaded guide is necessarily more reliable because it is detailed?",
               "choices": [
-                "Rohan compared the terrain with the map's contour lines and checked a posted trail sign.",
-                "The group approached a junction marked by a symbol no one recognized.",
-                "The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut.",
-                "The group had already spent time debating, and daylight was growing shorter."
+                "Length does not establish currency, and the guide includes references suggesting it may be outdated.",
+                "Long descriptions are always fictional.",
+                "The original trail map provides every detail in the downloaded guide.",
+                "Offline documents cannot include real place names."
               ],
               "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Rohan compared the terrain with the map's contour lines and checked a posted trail sign. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Unidentified edition and an obsolete parking lot undermine confidence in the guide's currency. More text does not correct outdated facts.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Map Without a Legend\", rather than a procedure, caution, or policy response?",
+              "type": "Decision analysis",
+              "prompt": "What makes turning back an imperfectly safe alternative?",
               "choices": [
-                "They chose a safer marked path and reported the missing legend to the ranger.",
-                "The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut.",
-                "Rohan compared the terrain with the map's contour lines and checked a posted trail sign.",
-                "The group had already spent time debating, and daylight was growing shorter."
+                "The group would have to cross a river lacking bridges.",
+                "It would require entering the unknown waterfall path.",
+                "The ranger had prohibited hikers from returning.",
+                "Retracing exposed terrain might increase exposure to the approaching storm."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The forecast storm adds a risk to the otherwise conservative return option. The group's choice balances multiple hazards rather than a single unknown.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Map Without a Legend\" from being generalized beyond the available evidence?",
+              "type": "Counterfactual",
+              "prompt": "If the sign had explicitly identified the unknown symbol as a steep descent, what uncertainty would still remain?",
               "choices": [
-                "Rohan compared the terrain with the map's contour lines and checked a posted trail sign.",
-                "They chose a safer marked path and reported the missing legend to the ranger.",
-                "The group had already spent time debating, and daylight was growing shorter.",
-                "The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut."
+                "Whether the contour lines show any elevation change.",
+                "Whether current trail conditions made the descent safely passable.",
+                "Whether the viewpoint was located above the valley.",
+                "Whether the hikers had enough time to read the map."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The group had already spent time debating, and daylight was growing shorter. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Knowing a route's type would not establish whether closures, erosion or weather had affected its safety.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Map Without a Legend\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Authorial purpose",
+              "prompt": "Why does the passage present the hikers as debating which source is more trustworthy?",
               "choices": [
-                "The group approached a junction marked by a symbol no one recognized.",
-                "Rohan compared the terrain with the map's contour lines and checked a posted trail sign.",
-                "The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut.",
-                "They chose a safer marked path and reported the missing legend to the ranger."
+                "To suggest that all official signage is perfectly maintained.",
+                "To make map-reading ability seem irrelevant.",
+                "To distinguish evidence quantity from evidence quality and currency.",
+                "To claim that a damaged map cannot support any conclusion."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: They chose a safer marked path and reported the missing legend to the ranger. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The comparison shows that detailed but potentially obsolete information and concise but recent evidence must be evaluated for relevance and reliability.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Map Without a Legend\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Trade-off",
+              "prompt": "What did the group sacrifice by selecting the clearly marked path?",
               "choices": [
-                "Initial concern: “The group approached a junction marked by a symbol no one…”; method: “Rohan compared the terrain with the map's contour lines…”.",
-                "Initial concern: “The group approached a junction marked by a symbol no one…”; method: “The group had already spent time debating, and daylight…”.",
-                "Initial concern: “The sign confirmed that the unfamiliar symbol marked a…”; method: “They chose a safer marked path and reported the missing…”.",
-                "Initial concern: “Rohan compared the terrain with the map's contour lines…”; method: “The sign confirmed that the unfamiliar symbol marked a…”."
+                "The chance to reach the viewpoint before dark, in exchange for a more reliable route toward help.",
+                "All opportunity to reach a staffed location.",
+                "The ability to avoid the forecast storm entirely.",
+                "The prospect of learning what the unknown symbol meant."
               ],
               "correctIndex": 0,
-              "explanation": "The issue begins with The group approached a junction marked by a symbol no one recognized. and the subsequent investigative procedure is Rohan compared the terrain with the map's contour lines and checked a posted trail sign..",
+              "explanation": "The marked path likely prevented their planned viewpoint visit but offered a dependable route to a staffed center. It did not eliminate all risks.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Map Without a Legend\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Reasoning from outcome",
+              "prompt": "Why does the ranger's confirmation not by itself prove every part of the group's decision process was optimal?",
               "choices": [
-                "The method (“Rohan compared the terrain with the map's contour lines…”) guarantees the result before measurement.",
-                "The observation (“The sign confirmed that the unfamiliar symbol marked a…”) matters, but the limit (“The group had already spent time debating, and daylight…”) remains.",
-                "The observation (“The sign confirmed that the unfamiliar symbol marked a…”) rules out every alternative cause.",
-                "The limitation (“The group had already spent time debating, and daylight…”) disproves the observation itself."
+                "The confirmation states that no waterfall exists.",
+                "The ranger changes the symbol's meaning after the hike.",
+                "A correct prediction of danger establishes the cost of every alternative.",
+                "It confirms one disputed interpretation but cannot measure all risks, travel times and possible outcomes."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The sign confirmed that the unfamiliar symbol marked a steep descent rather than a shortcut. but must be read alongside The group had already spent time debating, and daylight was growing shorter..",
+              "correctIndex": 3,
+              "explanation": "The ranger verifies the symbol's meaning, not all consequences of each choice. Evaluating a decision demands consideration of information and risk at the time.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Map Without a Legend\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "Which pair of facts most directly supports the group's preference for the marked path?",
               "choices": [
-                "The caveat (“The group had already spent time debating, and daylight…”) makes the observations worthless.",
-                "The observation (“The sign confirmed that the unfamiliar symbol marked a…”) shows that measurement was unnecessary.",
-                "The response (“They chose a safer marked path and reported the missing…”) follows evidence but remains open to reassessment.",
-                "The response (“They chose a safer marked path and reported the missing…”) is proof of success in every setting."
+                "A torn legend and the existence of a mountain viewpoint.",
+                "An uncertain potentially steep route and a marked alternative leading toward a staffed visitor center.",
+                "An older parking lot and a hiker's preference for shortcuts.",
+                "The time of day and the number of colors on the map."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed They chose a safer marked path and reported the missing legend to the ranger.; the stated limit The group had already spent time debating, and daylight was growing shorter. still matters.",
+              "correctIndex": 1,
+              "explanation": "The high consequence of an unknown descent combined with a reliable route to help underlies the risk-sensitive decision.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Map Without a Legend\" without ignoring its stated limitation?",
+              "type": "Central principle",
+              "prompt": "What general lesson does the conclusion draw from the hike?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Rohan compared the terrain with the map's contour lines…”) while testing the concern (“The group had already spent time debating, and daylight…”)."
+                "Avoid all activities for which perfect information is unavailable.",
+                "Treat the most detailed source as automatically correct.",
+                "Match the amount of verification to the consequences of being wrong, and act using the best available evidence.",
+                "Always choose the shortest available route when daylight is limited."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, The group had already spent time debating, and daylight was growing shorter., while comparing evidence from the original method, Rohan compared the terrain with the map's contour lines and checked a posted trail sign..",
+              "correctIndex": 2,
+              "explanation": "The conclusion links uncertainty, potential harm and verification requirements rather than advocating perfect certainty or automatic avoidance.",
               "passageId": "R08-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
