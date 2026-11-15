@@ -585,7 +585,7 @@ function renderSubjectResources(){
  }catch(e){}
  const statText=reading?['20 guided lessons','300 separate practice questions','20 full papers · 62 questions / 23 min']:['20 learning sessions','317 spelling words','20 full tests · 60 questions / 25 min'];
  const stats=statText.map(t=>'<span class="pill">'+safe(t)+'</span>').join('');
- const buttons=Array.from({length:20},(_,i)=>{const d=i+1;let pr={};try{pr=JSON.parse(localStorage.getItem(reading?'hspt-reading-v2':'hspt-language-v1')||'{}')?.[d]||{}}catch(e){}const label=pr.practice&&pr.test?(language&&pr.challenge?'✓ All submitted':'✓ Practice + test'):pr.test?'✓ Test submitted':pr.practice?'✓ Practice submitted':'Not submitted';return '<button type="button" class="subject-day '+(d===day?'active':'')+'" data-resource-day="'+d+'" aria-pressed="'+(d===day)+'" aria-label="'+subject+' Day '+d+' · '+label+'">Day '+d+(pr.practice||pr.test?' ✓':'')+'</button>';}).join('');
+ const buttons=Array.from({length:20},(_,i)=>{const d=i+1;let pr={};try{pr=JSON.parse(localStorage.getItem(reading?'hspt-reading-v2':'hspt-language-v1')||'{}')?.[d]||{}}catch(e){}const label=pr.practice&&pr.test?(language&&pr.challenge?'✓ All submitted':'✓ Practice + test'):pr.test?'✓ Test submitted':pr.practice?'✓ Practice submitted':'Not submitted';return '<button type="button" class="subject-day '+(d===day?'active':'')+'" data-resource-day="'+d+'" aria-pressed="'+(d===day)+'" aria-label="'+subject+' Day '+d+' · '+label+'">Day '+d+(pr.practice&&pr.test&&(!language||pr.challenge)?' ✓':(pr.practice||pr.test||pr.challenge)?' •':'')+'</button>';}).join('');
  const lessonUrl=reading?'./reading-skills.html?day='+day:'./language.html?day='+day;
  const paperUrl=reading?'./reading-skills.html?day='+day+'&focus=test':'./language.html?day='+day+'&focus=test';
  const practiceInfo=reading?'Read the Day '+day+' passage, answer 15 distinct comprehension, strategy and vocabulary questions, then review explanations.':'Review Day '+day+' grammar and composition, answer 15 distinct practice questions, and study 15–16 spelling words.';
@@ -633,6 +633,9 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)r
 document.addEventListener('change',e=>{const n=e.target;if(n.matches('[data-exam-answer]')&&examQuiz&&!examQuiz.submitted){examQuiz.answers[Number(n.dataset.examAnswer)]=n.value;}});
 
 setup();
+// Safari and other browsers can restore this page from back-forward cache without re-running setup.
+window.addEventListener('pageshow',()=>{if(currentPage==='exam'&&(examSection==='reading'||examSection==='language'))renderSubjectResources();});
+window.addEventListener('storage',e=>{if(['hspt-reading-v2','hspt-language-v1'].includes(e.key)&&currentPage==='exam'&&(examSection==='reading'||examSection==='language'))renderSubjectResources();});
 </script>
 <script src="shared/mock.js"></script>
 <script src="shared/daily-quick.js"></script>
