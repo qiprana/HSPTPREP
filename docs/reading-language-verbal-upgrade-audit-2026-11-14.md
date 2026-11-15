@@ -72,3 +72,9 @@ These validate file structure, expected counts, answer-index bounds, duplicate s
 - Reworked actors, documentary objects, and forms of evidence across repeated Language scenarios without changing answer key indices. The original pedagogical rule or inference still governs the choices.
 - Informational core-question audit after these changes: **standard bank 650 items in 152 repeated-core clusters** (previously 1,100 items / 89 clusters), **advanced bank 229 items in 76 repeated-core clusters** (previously 560 items / 28 clusters). Exact-string question uniqueness and structural checks pass, but **conceptual duplicates remain** and require individually authored prompts rather than cosmetic relabeling.
 - The Language and Chromium browser smoke-test workflows were rerun after case diversification; see Actions for the latest commit status.
+
+## Latest safe-variation audit
+
+- The earlier noun replacement introduced ungrammatical mass-noun substitutions (for example, **'records'** where the original required mass-noun **'evidence'**). This pass was replaced by a safer transformation using count- and number-compatible actors and document types, and article agreement was rechecked.
+- On the safer version, the core-duplicate report measured **759 standard-bank questions across 138 repeated clusters**, and **282 advanced-bank questions across 74 repeated clusters**. This is an improvement over the original 1,100/560 duplicated-item counts but still does not satisfy a no-conceptual-repeats editorial requirement. Do not mark those questions individually curated.
+- GitHub CI remains authoritative for structural correctness; a successful validation means the material loads and scores, **not** that each distractor or stylistic construction has been approved by a human editor.
