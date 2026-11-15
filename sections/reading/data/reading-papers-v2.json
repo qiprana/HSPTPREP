@@ -17,171 +17,191 @@
       "passages": [
         {
           "id": "R01-P1",
-          "title": "The Changing Lighthouse",
-          "text": "In the early nineteenth century, many coastal towns depended on lighthouse keepers to guide ships past dangerous rocks. A keeper's work was repetitive but essential. Each evening, the keeper cleaned the lamp's glass, checked its fuel, and lit the flame before darkness settled. During storms, the keeper sometimes climbed the tower several times to ensure that wind had not extinguished the light.\n\nAs shipping increased, inventors sought brighter and more reliable lamps. The Fresnel lens, developed in France, used rings of carefully shaped glass to concentrate light into a powerful beam. Because it could direct more light toward distant ships without requiring a much larger lamp, the lens transformed lighthouse design.\n\nBy the twentieth century, electric lights and automatic controls had reduced the need for resident keepers. Automation lowered operating costs, but it also changed the character of the stations. Buildings once filled with families and daily routines became largely unoccupied.\n\nToday, many historic lighthouses remain standing. Some still serve as navigation aids, while others operate as museums. Their towers preserve evidence of both technological ingenuity and the people whose vigilance once protected sailors.",
-          "genre": "pilot",
+          "title": "Austen — Pride, Vanity and First Impressions",
+          "text": "\"I beg you would not put it into Lizzy's head to be vexed by his ill-treatment, for he is such a disagreeable man, that it would be quite a misfortune to be liked by him. Mrs. Long told me last night that he sat close to her for half-an-hour without once opening his lips.\"\n\n\"Are you quite sure, ma'am?--is not there a little mistake?\" said Jane. \"I certainly saw Mr. Darcy speaking to her.\"\n\n\"Aye--because she asked him at last how he liked Netherfield, and he could not help answering her; but she said he seemed quite angry at being spoke to.\"\n\n\"Miss Bingley told me,\" said Jane, \"that he never speaks much, unless among his intimate acquaintances. With _them_ he is remarkably agreeable.\"\n\n\"I do not believe a word of it, my dear. If he had been so very agreeable, he would have talked to Mrs. Long. But I can guess how it was; everybody says that he is eat up with pride, and I dare say he had heard somehow that Mrs. Long does not keep a carriage, and had come to the ball in a hack chaise.\"\n\n\"I do not mind his not talking to Mrs. Long,\" said Miss Lucas, \"but I wish he had danced with Eliza.\"\n\n\"Another time, Lizzy,\" said her mother, \"I would not dance with _him_, if I were you.\"\n\n\"I believe, ma'am, I may safely promise you _never_ to dance with him.\"\n\n\"His pride,\" said Miss Lucas, \"does not offend _me_ so much as pride often does, because there is an excuse for it. One cannot wonder that so very fine a young man, with family, fortune, everything in his favour, should think highly of himself. If I may so express it, he has a _right_ to be proud.\"\n\n\"That is very true,\" replied Elizabeth, \"and I could easily forgive _his_ pride, if he had not mortified _mine_.\"\n\n\"Pride,\" observed Mary, who piqued herself upon the solidity of her reflections, \"is a very common failing, I believe. By all that I have ever read, I am convinced that it is very common indeed; that human nature is particularly prone to it, and that there are very few of us who do not cherish a feeling of self-complacency on the score of some quality or other, real or imaginary. Vanity and pride are different things, though the words are often used synonymously. A person may be proud without being vain. Pride relates more to our opinion of ourselves, vanity to what we would have others think of us.\"\n\n\"If I were as rich as Mr. Darcy,\" cried a young Lucas, who came with his sisters, \"I should not care how proud I was. I would keep a pack of foxhounds, and drink a bottle of wine a day.\"",
+          "genre": "literature",
           "questions": [
             {
               "id": "R01-C01",
-              "type": "Trade-off",
-              "prompt": "What trade-off is emphasized by placing automation beside the description of abandoned family routines?",
+              "type": "Source evaluation",
+              "prompt": "How does Jane's response to Mrs. Long's account differ from the other speaker's?",
               "choices": [
-                "Operating efficiency increased while a traditional social life at stations diminished.",
-                "Lighthouse lamps became dimmer as electric controls appeared.",
-                "Resident keepers became more numerous and less important.",
-                "Navigational safety was abandoned in favor of cheaper museums."
+                "Jane treats the report as incontrovertible.",
+                "Jane offers an observation and an alternative explanation before accepting a harsh judgment.",
+                "Jane refuses to discuss Darcy's behavior.",
+                "Jane concludes that Darcy secretly admired Mrs. Long."
               ],
-              "correctIndex": 0,
-              "explanation": "The passage explicitly connects lower operating costs with stations becoming largely unoccupied.",
+              "correctIndex": 1,
+              "explanation": "Jane recalls seeing Darcy speak and reports Miss Bingley's distinction between strangers and intimates, complicating the initial accusation.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C02",
-              "type": "Synthesis",
-              "prompt": "Why does the final sentence mention both technology and the keepers' vigilance?",
+              "type": "Inference",
+              "prompt": "What does the mother's theory about Mrs. Long arriving without a carriage reveal?",
               "choices": [
-                "It claims that modern lighthouses lack every historical feature.",
-                "It argues that historic value includes human labor as well as inventions.",
-                "It shows that automated equipment never guided ships.",
-                "It establishes that museum visitors preferred keepers to lenses."
+                "It shows that social rank and wealth color her interpretation of Darcy's behavior.",
+                "It proves Darcy discussed Mrs. Long's finances.",
+                "It explains why Darcy was absent from the ball.",
+                "It demonstrates Mrs. Long did not attend."
               ],
-              "correctIndex": 1,
-              "explanation": "The author assigns value to both technological ingenuity and the people who operated earlier stations.",
+              "correctIndex": 0,
+              "explanation": "The speaker speculates that he snubbed Mrs. Long because of status, but the passage supplies no direct evidence that he knew or cared about her carriage.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C03",
-              "type": "Scope",
-              "prompt": "Which conclusion best respects the qualification that 'some' lighthouses still aid navigation?",
+              "type": "Characterization",
+              "prompt": "Why does Miss Lucas find Darcy's pride less objectionable than pride usually is?",
               "choices": [
-                "Museums necessarily replaced all navigation systems.",
-                "Historic lighthouses never serve modern transportation.",
-                "Historical preservation and continued practical use can coexist.",
-                "Every lighthouse has become a museum."
+                "She believes that nobody can possess pride.",
+                "She knows Darcy has never spoken to her.",
+                "She considers his fortune and advantages circumstances that may explain his high opinion of himself.",
+                "She thinks he has personally apologized for his conduct."
               ],
               "correctIndex": 2,
-              "explanation": "The passage distinguishes remaining navigation aids from museum conversions rather than treating preservation as universal obsolescence.",
+              "explanation": "Miss Lucas invokes his family, fortune and social advantages to rationalize pride, not to deny its existence.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C04",
-              "type": "Cause and effect",
-              "prompt": "What made the Fresnel lens a significant engineering development?",
+              "type": "Motivation",
+              "prompt": "What does Elizabeth mean when she says she could forgive his pride if he had not 'mortified mine'?",
               "choices": [
-                "It eliminated the need for a light source of any kind.",
-                "It relied on electronic automation before electricity was in use.",
-                "It made storm-related maintenance impossible.",
-                "It increased directed illumination without requiring a proportionately larger lamp."
+                "She values pride only in wealthy people.",
+                "She has accepted his invitation to dance.",
+                "She judges him solely by his reading habits.",
+                "Her own wounded self-regard influences her reaction to what she sees as his arrogance."
               ],
               "correctIndex": 3,
-              "explanation": "The lens concentrates light into a powerful beam without a much larger lamp.",
+              "explanation": "Elizabeth acknowledges that the injury to her own pride intensifies her response.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C05",
-              "type": "Qualification",
-              "prompt": "How does the account of repeated storm checks complicate a simplistic description of the keeper's work as repetitive?",
+              "type": "Conceptual distinction",
+              "prompt": "How does Mary distinguish pride from vanity?",
               "choices": [
-                "Routine work could require responsive judgment when conditions threatened the flame.",
-                "The work was entirely predictable because storms never affected equipment.",
-                "The keeper's duties were primarily administrative and ceremonial.",
-                "Repeated inspections were unnecessary once the original lamp was cleaned."
+                "Pride concerns one's view of oneself; vanity concerns the opinion one wants others to hold.",
+                "Pride means generosity, while vanity means greed.",
+                "Pride is always public, while vanity is always private.",
+                "The two are identical in every usage."
               ],
               "correctIndex": 0,
-              "explanation": "Although routine, the work remained essential and responsive to changing conditions.",
+              "explanation": "Mary explicitly contrasts self-estimation with desire for others' esteem.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C06",
-              "type": "Assumption",
-              "prompt": "Which assumption is most necessary for lighthouse technology to improve navigation?",
+              "type": "Diction and tone",
+              "prompt": "What is the effect of Miss Lucas saying Darcy has a 'right' to be proud?",
               "choices": [
-                "Electricity must have preceded the invention of shaped lenses.",
-                "A stronger beam must remain sufficiently visible to distant vessels.",
-                "Navigation aids must always be operated by resident families.",
-                "Every dangerous coastal rock must have its own museum."
+                "It cites a legal statute about property.",
+                "It treats status as a possible social justification for an unattractive trait, inviting critical scrutiny.",
+                "It proves Elizabeth has misunderstood the conversation.",
+                "It removes all tension between characters."
               ],
               "correctIndex": 1,
-              "explanation": "More effective light can help ships only insofar as the beam reaches and can be seen by them.",
+              "explanation": "The provocative formulation suggests inherited advantages can excuse behavior, exposing a contested social standard.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C07",
-              "type": "Organization",
-              "prompt": "What is the primary structural effect of moving from the nineteenth century to the present?",
+              "type": "Narrative technique",
+              "prompt": "Why does the excerpt present several characters' interpretations rather than directly declaring Darcy's motive?",
               "choices": [
-                "To establish that every new technology was immediately rejected.",
-                "To argue that lighthouse keepers invented museum preservation.",
-                "To trace changes in function while maintaining an underlying concern with safety and preservation.",
-                "To compare independent fictional narratives that share no topic."
+                "The author has no access to any character's speech.",
+                "The scene is intended as a factual newspaper report.",
+                "The competing readings let readers see how inference, prejudice and social expectation shape judgments.",
+                "All speakers agree that Darcy is secretly generous."
               ],
               "correctIndex": 2,
-              "explanation": "The sequence follows technological developments and concludes with the surviving roles of historic stations.",
+              "explanation": "The dialogue provides different hypotheses about the same conduct, leaving room for readers to assess their evidence.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C08",
-              "type": "Unsupported generalization",
-              "prompt": "Which statement would overstate what the passage establishes about automation?",
+              "type": "Evidence and overreach",
+              "prompt": "Which conclusion most clearly exceeds what the passage establishes?",
               "choices": [
-                "Automatic controls reduced the need for resident keepers.",
-                "Operating costs declined after automation.",
-                "Many stations became largely unoccupied.",
-                "Automation eliminated every reason for human oversight in coastal navigation."
+                "Some observers found Darcy unfriendly.",
+                "Jane considered an alternative to the harsh interpretation.",
+                "Elizabeth felt personally slighted.",
+                "Darcy intentionally ignored Mrs. Long specifically because she lacked a carriage."
               ],
               "correctIndex": 3,
-              "explanation": "Reduced need for resident keepers is not the same as proving all oversight unnecessary.",
+              "explanation": "The carriage explanation is conjecture, not an observed or admitted motive.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C09",
-              "type": "Evidence selection",
-              "prompt": "What evidence would most directly test the claimed operating-cost advantage of automation?",
+              "type": "Social satire",
+              "prompt": "What does the young Lucas's remark about foxhounds and wine contribute?",
               "choices": [
-                "Comparable maintenance and staffing records from stations before and after conversion.",
-                "Descriptions of lighthouse towers in travel brochures.",
-                "The number of French lenses held in art museums.",
-                "A list of nineteenth-century maritime legends."
+                "It comically reduces abstract discussion of pride to imagined privileges of wealth.",
+                "It provides Darcy's actual daily schedule.",
+                "It refutes Mary's distinction between pride and vanity.",
+                "It proves he intends to marry Elizabeth."
               ],
               "correctIndex": 0,
-              "explanation": "To verify lower operating costs, a comparable cost record is the relevant evidence.",
+              "explanation": "His extravagant fantasy makes the conversation's status preoccupation comically concrete.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             },
             {
               "id": "R01-C10",
-              "type": "Authorial stance",
-              "prompt": "Which interpretation best captures the author's stance toward technological change?",
+              "type": "Synthesis",
+              "prompt": "What broader issue does the conversation explore?",
               "choices": [
-                "Technology never influences the communities that adopt it.",
-                "Change offers functional gains while transforming practices worth remembering.",
-                "Every innovation is harmful because it displaces tradition.",
-                "Historical preservation matters only when equipment still operates."
+                "The history of transportation in rural England.",
+                "The interaction between personal pride, social status, incomplete evidence, and judgments of character.",
+                "The legal difference between marriage and engagement.",
+                "The impossibility of distinguishing pride and vanity."
               ],
               "correctIndex": 1,
-              "explanation": "The passage credits innovations while honoring human labor and noting changes in station life.",
+              "explanation": "Each speaker filters the same limited behavior through different assumptions, emotions and class expectations.",
               "passageId": "R01-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — discussion of Darcy's pride"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "\"I beg you would not put it into Lizzy's head to be vexed by his ill-treatment, for he is such ",
+            "end": " not care how proud I was. I would keep a pack of foxhounds, and drink a bottle of wine a day.\""
+          },
+          "sourceReference": "ADV-01-P1"
         },
         {
           "id": "R01-P2",
