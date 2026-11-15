@@ -469,12 +469,12 @@ function verbalVocab(category,bank,index){
  if(category==='Synonyms'){
   const answer=w.synonym||w.meaning,choices=hardChoices(answer,'synonym',w);
   if(!choices)return null;
-  return {category,prompt:'Which choice most nearly means “'+w.word+'” in its precise usage, rather than merely sharing a broadly related idea?',answer,choices,explain:w.word+' ('+w.part+') means '+w.meaning+'; the closest listed equivalent is '+answer+'.',studyWords:[w.word]};
+  return {category,prompt:'In the sentence “'+w.example+'”, which choice most nearly means “'+w.word+'” in context?',answer,choices,explain:w.word+' ('+w.part+') means '+w.meaning+'; the closest listed equivalent is '+answer+'.',studyWords:[w.word]};
  }
  if(category==='Antonyms'){
   const answer=w.antonym,choices=hardChoices(answer,'antonym',w);
   if(!choices)return null;
-  return {category,prompt:'Which choice expresses the closest opposite of “'+w.word+'”, attending to its precise meaning?',answer,choices,explain:w.word+' means '+w.meaning+'. Its contextual opposite is '+answer+'.',studyWords:[w.word]};
+  return {category,prompt:'In the sentence “'+w.example+'”, which choice expresses the closest opposite of “'+w.word+'” as used here?',answer,choices,explain:w.word+' means '+w.meaning+'. Its contextual opposite is '+answer+'.',studyWords:[w.word]};
  }
  // Alternate analogy relationships; a synonym-only analogy bank teaches pattern guessing.
  const useOpposite=index%3===0;
