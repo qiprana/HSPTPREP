@@ -129,6 +129,6 @@ renderDays();renderDashboard();
 fetch('./sections/reading/data/reading-papers-v2.json?v=20261115-authentic-v4',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
  if(!Array.isArray(data.tests)||data.tests.length!==20||!Array.isArray(data.practice)||data.practice.length!==20)throw Error('Reading data must contain 20 days');
  if(data.tests.some(p=>p.passages?.length!==4||p.passages.some(x=>x.questions?.length!==10)||p.vocabularyQuestions?.length!==22))throw Error('Invalid Reading test distribution');
- bank=data;renderDashboard();renderToolkit();if(params.get('focus')==='test')$('testBtn')?.focus();
+ bank=data;renderDashboard();renderToolkit();if(params.get('focus')==='test')$('testBtn')?.focus();if(params.get('focus')==='advanced')$('advancedBtn')?.focus();
 }).catch(e=>{loadingError='The Reading bank could not be loaded. Reload and check the connection.';renderDashboard();renderToolkit();console.error(e);});
 </script></body></html>
