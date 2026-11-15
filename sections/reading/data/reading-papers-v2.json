@@ -3042,7 +3042,7 @@
           "id": "R04-P1",
           "title": "A Cleaner Harbor",
           "genre": "science",
-          "text": "Engineers tested floating barriers that could collect plastic litter before it moved from a canal into a harbor. Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe team placed a curved barrier near the canal outlet and counted debris captured after storms. The barrier intercepted much of the visible litter while still allowing small boats to pass. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their measured approach involved examining the available information before making the next decision.\n\nIt did not remove dissolved pollution or plastics already below the surface. City officials chose to test a second barrier and reduce litter entering the canal upstream. A local engineering tool can help, but prevention is necessary to address the wider problem. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "Every autumn storm pushed bottles, food wrappers, and fragments of packaging from a drainage canal into Ashport Harbor. Volunteers had spent years collecting litter from the docks, but their work began only after plastic had dispersed among moored boats and tidal marshes. Municipal engineers proposed installing a floating barrier near the canal outlet to intercept debris earlier. Local merchants welcomed the plan, while boat operators worried that a barrier might block navigation or divert floating waste toward private docks.\n\nThe engineers constructed a curved boom with an opening for small boats. They counted and weighed material captured after several rainfall events. The barrier collected hundreds of objects, which appeared to demonstrate success. Yet the collected weight depended on storm size: a powerful storm could carry more waste into the canal even if the barrier captured a smaller fraction of the total. To estimate effectiveness, the team needed a denominator—the amount of litter entering the canal—not just the amount recovered at the boom.\n\nA second difficulty emerged when the team inspected the contents of the collected debris. Many objects were soaked, so their weight included water. Some heavy items were branches that would have entered the harbor regardless of the city's plastic-litter campaign. Volunteers began separating categories and recording both dry mass and item counts. The two measures sometimes told different stories: a few waterlogged objects dominated the mass while numerous fragments accounted for most of the pieces. Neither measure was inherently wrong, but each represented a different aspect of the problem.\n\nDuring the next storm, fast water pressed against the boom and briefly pushed debris beneath it. An engineer proposed tightening the barrier; a harbor pilot warned that a tighter opening might create hazardous currents for small craft. The city chose to reinforce the anchoring points and observe how the revised system performed across a range of water levels. It also installed a temporary downstream net to sample escaping objects, although the net could not capture everything and required its own maintenance.\n\nThe final report avoided calling the barrier a complete solution. It had visibly reduced some litter reaching the docks under tested conditions, but long-term performance, safety, maintenance cost, and upstream disposal habits still mattered. The authors recommended pairing interception with efforts to prevent litter entering drains in the first place. A cleaner harbor, they argued, would depend not merely on how much waste could be caught at one point but on whether the city reduced the flow of waste through the entire system.",
           "term": [
             "measured",
             "carefully considered",
@@ -3053,163 +3053,163 @@
           "questions": [
             {
               "id": "R04-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Cleaner Harbor\"?",
+              "type": "Measurement",
+              "prompt": "Why does the report argue that the weight of collected debris alone cannot establish barrier efficiency?",
               "choices": [
-                "The concern (“Heavy rain pushed bottles and wrappers toward the docks…”) leads to inquiry, but “It did not remove dissolved pollution or plastics already…” limits the inference.",
-                "The proposed response (“City officials chose to test a second barrier and reduce…”) makes the original concern irrelevant.",
-                "The method (“The team placed a curved barrier near the canal outlet…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The barrier intercepted much of the visible litter while…”) is treated as unrelated to the original investigation."
+                "Weights are always less accurate than counting objects.",
+                "The collection amount must be compared with the total litter entering the canal, which varies with storms.",
+                "The barrier is legally required to capture all objects.",
+                "Material recovered after a storm has no relation to litter in the water."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification It did not remove dissolved pollution or plastics already below the surface. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Without a denominator, more recovered waste could reflect greater inflow rather than a higher interception rate.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Cleaner Harbor\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence interpretation",
+              "prompt": "How do the conflicting dry-mass and object-count results illustrate a measurement problem?",
               "choices": [
-                "City officials chose to test a second barrier and reduce litter entering the canal upstream.",
-                "Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them.",
-                "The team placed a curved barrier near the canal outlet and counted debris captured after storms.",
-                "The barrier intercepted much of the visible litter while still allowing small boats to pass."
+                "Counting objects automatically proves a higher ecological impact.",
+                "Dry mass can never be measured accurately.",
+                "Different metrics emphasize different features of the debris and can change the apparent magnitude of success.",
+                "Both metrics must yield the same ranking to be valid."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Heavy objects dominate mass, while small fragments dominate counts. Each metric is useful for a different question.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Cleaner Harbor\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Design trade-off",
+              "prompt": "Why does the harbor pilot oppose immediately tightening the opening?",
               "choices": [
-                "The barrier intercepted much of the visible litter while still allowing small boats to pass.",
-                "It did not remove dissolved pollution or plastics already below the surface.",
-                "The team placed a curved barrier near the canal outlet and counted debris captured after storms.",
-                "Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them."
+                "The proposed change could improve capture while making navigation currents more dangerous.",
+                "The original boom has already blocked every vessel.",
+                "Small boats never enter the canal.",
+                "The collected debris includes waterlogged items."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: The team placed a curved barrier near the canal outlet and counted debris captured after storms. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The pilot points to a safety cost of maximizing collection, requiring engineers to balance effectiveness against navigability.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Cleaner Harbor\", rather than a procedure, caution, or policy response?",
+              "type": "Causal limitation",
+              "prompt": "What does the temporary downstream net contribute to the evaluation?",
               "choices": [
-                "The team placed a curved barrier near the canal outlet and counted debris captured after storms.",
-                "It did not remove dissolved pollution or plastics already below the surface.",
-                "City officials chose to test a second barrier and reduce litter entering the canal upstream.",
-                "The barrier intercepted much of the visible litter while still allowing small boats to pass."
+                "It proves that all waste bypassing the barrier has been counted.",
+                "It removes the need for maintaining the barrier.",
+                "It measures upstream litter generation independently of storm size.",
+                "It offers an imperfect estimate of objects escaping interception."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The barrier intercepted much of the visible litter while still allowing small boats to pass. The other statements describe different stages of the inquiry.",
+              "explanation": "The net samples material that passes the boom but cannot catch everything. It adds a missing outcome estimate without proving total containment.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Cleaner Harbor\" from being generalized beyond the available evidence?",
+              "type": "Inference",
+              "prompt": "Why do the authors distinguish branches from plastic packaging in the collection?",
               "choices": [
-                "It did not remove dissolved pollution or plastics already below the surface.",
-                "The barrier intercepted much of the visible litter while still allowing small boats to pass.",
-                "The team placed a curved barrier near the canal outlet and counted debris captured after storms.",
-                "City officials chose to test a second barrier and reduce litter entering the canal upstream."
+                "Branches are always more dangerous to people than plastic.",
+                "A campaign targeting plastic pollution needs categories that distinguish plastic from other storm-borne material.",
+                "All tree debris is man-made pollution.",
+                "Branches and plastic behave identically in water."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: It did not remove dissolved pollution or plastics already below the surface. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Including unrelated natural debris can exaggerate the plastic-specific impact of the intervention, even if branches still require management.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Cleaner Harbor\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Scope",
+              "prompt": "Which claim exceeds the evidence available at the end of the trial?",
               "choices": [
-                "The barrier intercepted much of the visible litter while still allowing small boats to pass.",
-                "City officials chose to test a second barrier and reduce litter entering the canal upstream.",
-                "Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them.",
-                "The team placed a curved barrier near the canal outlet and counted debris captured after storms."
+                "The barrier collected floating objects after multiple storms.",
+                "The anchoring points were reinforced following fast-water observations.",
+                "The barrier permanently eliminated all harbor litter without introducing other costs.",
+                "The report considered safety and maintenance."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: City officials chose to test a second barrier and reduce litter entering the canal upstream. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "Limited observations do not establish complete, permanent elimination or absence of costs.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Cleaner Harbor\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Structural role",
+              "prompt": "What is the main function of introducing merchants and boat operators in the opening paragraph?",
               "choices": [
-                "Initial concern: “The barrier intercepted much of the visible litter while…”; method: “City officials chose to test a second barrier and reduce…”.",
-                "Initial concern: “The team placed a curved barrier near the canal outlet…”; method: “The barrier intercepted much of the visible litter while…”.",
-                "Initial concern: “Heavy rain pushed bottles and wrappers toward the docks…”; method: “The team placed a curved barrier near the canal outlet…”.",
-                "Initial concern: “Heavy rain pushed bottles and wrappers toward the docks…”; method: “It did not remove dissolved pollution or plastics already…”."
+                "To show that different stakeholders value different consequences of the same intervention.",
+                "To prove that commercial interests determine environmental outcomes.",
+                "To establish that the municipal engineers fabricated their observations.",
+                "To identify the source of every piece of plastic."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Heavy rain pushed bottles and wrappers toward the docks faster than volunteers could retrieve them. and the subsequent investigative procedure is The team placed a curved barrier near the canal outlet and counted debris captured after storms..",
+              "correctIndex": 0,
+              "explanation": "The groups represent the competing priorities—cleaner docks and safe navigation—that later shape design decisions.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Cleaner Harbor\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Policy inference",
+              "prompt": "Why does the conclusion call for upstream waste prevention?",
               "choices": [
-                "The observation (“The barrier intercepted much of the visible litter while…”) rules out every alternative cause.",
-                "The limitation (“It did not remove dissolved pollution or plastics already…”) disproves the observation itself.",
-                "The method (“The team placed a curved barrier near the canal outlet…”) guarantees the result before measurement.",
-                "The observation (“The barrier intercepted much of the visible litter while…”) matters, but the limit (“It did not remove dissolved pollution or plastics already…”) remains."
+                "Because the boom demonstrably captures no plastic.",
+                "Because downstream cleanups are legally forbidden.",
+                "Because preventing litter makes storm measurements unnecessary.",
+                "Because capture at one point leaves the underlying inflow and other pathways of pollution unresolved."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The barrier intercepted much of the visible litter while still allowing small boats to pass. but must be read alongside It did not remove dissolved pollution or plastics already below the surface..",
+              "explanation": "The barrier is only one intervention in the system; reducing entry into drains addresses the source rather than solely intercepting its consequences.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Cleaner Harbor\" relate to the strength and limits of the earlier observations?",
+              "type": "Evidence design",
+              "prompt": "Which result would best support the claim that the reinforced barrier improved performance without unacceptable safety costs?",
               "choices": [
-                "The response (“City officials chose to test a second barrier and reduce…”) follows evidence but remains open to reassessment.",
-                "The response (“City officials chose to test a second barrier and reduce…”) is proof of success in every setting.",
-                "The caveat (“It did not remove dissolved pollution or plastics already…”) makes the observations worthless.",
-                "The observation (“The barrier intercepted much of the visible litter while…”) shows that measurement was unnecessary."
+                "A photograph of the barrier at low tide.",
+                "Higher capture fractions across comparable storms, alongside documented safe boat passages.",
+                "An increased weight of wet branches after a larger storm.",
+                "More volunteers expressing approval at the harbor meeting."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed City officials chose to test a second barrier and reduce litter entering the canal upstream.; the stated limit It did not remove dissolved pollution or plastics already below the surface. still matters.",
+              "correctIndex": 1,
+              "explanation": "Capture fractions control for incoming debris, while safe passage records address the competing navigation concern.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R04-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Cleaner Harbor\" without ignoring its stated limitation?",
+              "type": "Central claim",
+              "prompt": "Which general principle most clearly informs the engineering team's recommendations?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The team placed a curved barrier near the canal outlet…”) while testing the concern (“It did not remove dissolved pollution or plastics already…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "A single positive observation proves a technological intervention should be permanent.",
+                "Environmental changes should be judged only by the amount of material collected.",
+                "An intervention must be evaluated with relevant denominators, unintended effects, and system-wide alternatives.",
+                "Safety concerns should always override environmental goals without investigation."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, It did not remove dissolved pollution or plastics already below the surface., while comparing evidence from the original method, The team placed a curved barrier near the canal outlet and counted debris captured after storms..",
+              "correctIndex": 2,
+              "explanation": "The report links comparative effectiveness, measurement choice, navigation risk, and upstream prevention.",
               "passageId": "R04-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
