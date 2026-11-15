@@ -16,6 +16,10 @@ assert.equal(count(savedLanguage,'challenge'),2,'Failed or zero-scored submissio
 assert.ok(index.includes("!!(value.practice||typeof value.score==='number')"),'Overview reads Reading and Language practice objects');
 assert.ok(index.includes('submittedTests=')&&index.includes('submittedChallenges='),'Overview counts submitted tests and challenges');
 assert.ok(index.includes('✓ CHALLENGE COMPLETED'),'Verbal completion state separated from pass/fail');
+assert.ok(index.includes('challengeAttemptStatus')&&index.includes('✓ Submitted · Retry to pass'),'Verbal sidebar shows submitted attempts that did not pass');
+assert.ok(index.includes("window.addEventListener('pageshow'")&&index.includes("window.addEventListener('storage'"),'Overview refreshes when returning from a subject page or another tab');
+assert.ok(reading.includes("?\u0027done\u0027:")||reading.includes("?'done':"),'Reading day status is derived from saved results');
+assert.ok(language.includes("'partial':'')"),'Partial Language days are distinguished from fully complete days');
 assert.ok(index.includes('submitted:true,passed:q.score>=PASS_MARK'),'Verbal attempts save submission status');
 assert.ok(reading.includes("progress[day][mode]={score,total:n,date:")&&reading.includes("Full test '+(p.test?'✓ Completed"),'Reading records and shows completed attempts');
 assert.ok(language.includes("progress[day][mode]={score,total,date:")&&language.includes("✓ Challenge submitted"),'Language records and shows challenges');
