@@ -16,7 +16,7 @@ for(let i=0;i<20;i++){
    assert.equal(new Set(q.options.map(x=>x.trim().toLowerCase())).size,4,q.id);
    assert.ok(q.correctIndex>=0&&q.correctIndex<4,q.id);
    assert.ok(q.explanation.length>=25,q.id);
-   const t=q.text.toLowerCase().replace(/\\s+/g,' ').trim();
+   const t=q.text.toLowerCase().replace(/\s+/g,' ').trim();
    assert.ok(!inDay.has(t),q.id+' repeated question in the same session');inDay.add(t);
    if(q.difficulty==='grade10-12'){
     upgraded++;
