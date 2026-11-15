@@ -7979,7 +7979,7 @@
           "id": "R08-P4",
           "title": "Community Fridge",
           "genre": "community",
-          "text": "Neighbors opened a shared refrigerator where shops could leave surplus food for people to collect. The volunteers needed a way to prevent spoiled donations from accumulating. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey established labeling rules, temperature checks and a daily cleaning rota. The fridge served more visitors while discarded food declined after the rules were introduced. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their methodical approach involved examining the available information before making the next decision.\n\nThe project still depended on reliable volunteers and could not replace broader food support. The organizers published a short guide for other communities considering similar projects. Good intentions become dependable services when practical safeguards support them. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "The first community refrigerator in Briarfield stood outside a neighborhood center, stocked with unsold bread, vegetables, and prepared meals donated by local shops. Anyone could take food without registering. Volunteers described the project as a way to reduce waste while helping residents with limited resources. During the opening month, the refrigerator served dozens of visitors, but several donations spoiled after the overnight temperature rose above the safe range. The organizers faced a tension: they wanted access to remain easy while preventing good intentions from creating preventable health risks.\n\nA volunteer proposed limiting donations to unopened factory-packaged food. That would simplify inspection but eliminate much of the produce and prepared meals that restaurants were willing to provide. Another wanted to keep the refrigerator unlocked at all times and rely on visitors to judge freshness. The coordinator argued that appearance and smell could not reliably establish food safety. She proposed a documented temperature log, item labels listing donation dates, and specific rules for prepared foods. Volunteers would inspect contents twice daily, with any uncertain products removed rather than redistributed.\n\nAfter the changes, the number of reported visits increased while the amount of food discarded declined. A local newspaper credited the rules for making the refrigerator successful. Yet the organizers noted that donations had also become more predictable when two grocery stores began regular deliveries. The weather had cooled, reducing the strain on the refrigeration system. Without separating these influences, they could not say how much the new rules alone had improved the outcome. They also lacked a reliable count of unique visitors, since one person could collect food several times.\n\nA neighborhood survey added another complication. Some residents who might have benefited from the refrigerator did not know it existed; others worried that taking food in public would attract unwanted attention. The center installed clearer signs and a screen that gave visitors some privacy without concealing the refrigerator from volunteer oversight. These changes recognized that availability and accessibility are different: an item can be offered freely and still remain effectively out of reach.\n\nAt a regional meeting, volunteers shared a guide explaining their checks, donation requirements, and limitations. They emphasized that a refrigerator could redirect usable food and ease immediate need, but it could not replace dependable grocery access or public support for families. The project was neither a failure because it required safeguards nor a complete solution because it attracted visitors. Its value depended on treating food safety, dignity, volunteer capacity, and careful evaluation as parts of the same responsibility.",
           "term": [
             "methodical",
             "systematic",
@@ -7990,163 +7990,163 @@
           "questions": [
             {
               "id": "R08-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Community Fridge\"?",
+              "type": "Policy trade-off",
+              "prompt": "Why does the proposal to accept only unopened packaged food present a significant trade-off?",
               "choices": [
-                "The proposed response (“The organizers published a short guide for other…”) makes the original concern irrelevant.",
-                "The method (“They established labeling rules, temperature checks and a…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The fridge served more visitors while discarded food…”) is treated as unrelated to the original investigation.",
-                "The concern (“The volunteers needed a way to prevent spoiled donations…”) leads to inquiry, but “The project still depended on reliable volunteers and…” limits the inference."
+                "It would ensure all food could be stored without refrigeration.",
+                "It would increase the need to recruit restaurant donors.",
+                "It could simplify screening while excluding useful produce and prepared food donations.",
+                "It would allow volunteers to discontinue inspection."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The project still depended on reliable volunteers and could not replace broader food support. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "A narrow donation rule might make checks easier but reduce the program's usable food supply. The passage does not claim packaged food needs no monitoring.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"Community Fridge\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence evaluation",
+              "prompt": "Why does the coordinator reject appearance and smell as sufficient safety checks?",
               "choices": [
-                "The fridge served more visitors while discarded food declined after the rules were introduced.",
-                "The organizers published a short guide for other communities considering similar projects.",
-                "The volunteers needed a way to prevent spoiled donations from accumulating.",
-                "They established labeling rules, temperature checks and a daily cleaning rota."
+                "Food can carry risks that cannot be detected reliably by casual sensory inspection.",
+                "Prepared foods always display visible spoilage immediately.",
+                "All vegetables are unsafe once donated.",
+                "Visitors are forbidden to examine the food they collect."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: The volunteers needed a way to prevent spoiled donations from accumulating. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The passage distinguishes visible freshness from actual food safety. Structured temperature and labeling checks address risks beyond appearance.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Community Fridge\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Causal inference",
+              "prompt": "Why is it unjustified to attribute the decline in discarded food entirely to the new safety rules?",
               "choices": [
-                "The volunteers needed a way to prevent spoiled donations from accumulating.",
-                "The fridge served more visitors while discarded food declined after the rules were introduced.",
-                "The project still depended on reliable volunteers and could not replace broader food support.",
-                "They established labeling rules, temperature checks and a daily cleaning rota."
+                "The rules were implemented after the program closed.",
+                "Visitors stopped collecting food at the time of the study.",
+                "No other changes occurred in the program.",
+                "More regular grocery deliveries and cooler weather coincided with the change."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: They established labeling rules, temperature checks and a daily cleaning rota. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Two additional changes plausibly affected supply stability and temperature control. The before–after comparison cannot isolate the rules' independent effect.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Community Fridge\", rather than a procedure, caution, or policy response?",
+              "type": "Measurement",
+              "prompt": "Why might the program's visit count overstate the number of individuals served?",
               "choices": [
-                "The fridge served more visitors while discarded food declined after the rules were introduced.",
-                "They established labeling rules, temperature checks and a daily cleaning rota.",
-                "The project still depended on reliable volunteers and could not replace broader food support.",
-                "The organizers published a short guide for other communities considering similar projects."
+                "The refrigerator was located inside a private home.",
+                "One person might visit repeatedly, and visits were not linked to unique people.",
+                "The count included visitors to every regional food bank.",
+                "The organizers recorded only the number of donated items."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The fridge served more visitors while discarded food declined after the rules were introduced. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "A visit is an event, not a distinct person; recurring users can make the total higher than the number of individuals reached.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Community Fridge\" from being generalized beyond the available evidence?",
+              "type": "Equity",
+              "prompt": "What does the residents' survey reveal that the earlier visit statistics could not?",
               "choices": [
-                "The organizers published a short guide for other communities considering similar projects.",
-                "The project still depended on reliable volunteers and could not replace broader food support.",
-                "The fridge served more visitors while discarded food declined after the rules were introduced.",
-                "They established labeling rules, temperature checks and a daily cleaning rota."
+                "The exact proportion of all food donations spoiled each month.",
+                "The financial cost of repairing the compressor.",
+                "Barriers such as lack of awareness and concern about public visibility among potential nonusers.",
+                "The total number of households in the entire region."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The project still depended on reliable volunteers and could not replace broader food support. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "Usage statistics omit people who do not attend. Survey responses identify informational and social barriers affecting access.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Community Fridge\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Design reasoning",
+              "prompt": "Why might installing a privacy screen while maintaining volunteer oversight be preferable to complete enclosure?",
               "choices": [
-                "They established labeling rules, temperature checks and a daily cleaning rota.",
-                "The fridge served more visitors while discarded food declined after the rules were introduced.",
-                "The organizers published a short guide for other communities considering similar projects.",
-                "The volunteers needed a way to prevent spoiled donations from accumulating."
+                "It addresses dignity concerns without eliminating monitoring needed for food safety.",
+                "It prevents all visitors from seeing the refrigerator.",
+                "It guarantees that no two visitors ever arrive together.",
+                "It makes refrigeration temperature checks unnecessary."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The organizers published a short guide for other communities considering similar projects. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The modification balances discretion for users with practical supervision. Complete concealment could weaken safety oversight.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Community Fridge\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Interpretive precision",
+              "prompt": "Which statement about the project's observed improvement is most defensible?",
               "choices": [
-                "Initial concern: “The volunteers needed a way to prevent spoiled donations…”; method: “The project still depended on reliable volunteers and…”.",
-                "Initial concern: “The fridge served more visitors while discarded food…”; method: “The organizers published a short guide for other…”.",
-                "Initial concern: “They established labeling rules, temperature checks and a…”; method: “The fridge served more visitors while discarded food…”.",
-                "Initial concern: “The volunteers needed a way to prevent spoiled donations…”; method: “They established labeling rules, temperature checks and a…”."
+                "All improvements were caused by the new rules.",
+                "The refrigerator had no measurable effect because weather also changed.",
+                "Its success proves that public food assistance can end.",
+                "Several indicators improved, but the relative influence of the rules, supply patterns, and weather remains unresolved."
               ],
               "correctIndex": 3,
-              "explanation": "The issue begins with The volunteers needed a way to prevent spoiled donations from accumulating. and the subsequent investigative procedure is They established labeling rules, temperature checks and a daily cleaning rota..",
+              "explanation": "The observed increase in visits and decline in waste are real reports, but concurrent changes limit causal attribution.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Community Fridge\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Argument analysis",
+              "prompt": "What misconception is challenged by the final paragraph's reference to broader grocery access?",
               "choices": [
-                "The observation (“The fridge served more visitors while discarded food…”) matters, but the limit (“The project still depended on reliable volunteers and…”) remains.",
-                "The observation (“The fridge served more visitors while discarded food…”) rules out every alternative cause.",
-                "The limitation (“The project still depended on reliable volunteers and…”) disproves the observation itself.",
-                "The method (“They established labeling rules, temperature checks and a…”) guarantees the result before measurement."
+                "Donations are always more nutritious than purchased food.",
+                "A successful local intervention should not be mistaken for a complete substitute for structural support.",
+                "A refrigerator is useless unless it serves every resident.",
+                "Volunteer labor is unrelated to running a community project."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The fridge served more visitors while discarded food declined after the rules were introduced. but must be read alongside The project still depended on reliable volunteers and could not replace broader food support..",
+              "correctIndex": 1,
+              "explanation": "The fridge can provide immediate help, yet it cannot replace sustained food access and support. The argument distinguishes complementary aid from comprehensive policy.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Community Fridge\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "Which two developments best show that accessible public services require more than opening a physical location?",
               "choices": [
-                "The observation (“The fridge served more visitors while discarded food…”) shows that measurement was unnecessary.",
-                "The response (“The organizers published a short guide for other…”) follows evidence but remains open to reassessment.",
-                "The response (“The organizers published a short guide for other…”) is proof of success in every setting.",
-                "The caveat (“The project still depended on reliable volunteers and…”) makes the observations worthless."
+                "Regular grocery deliveries and cooler temperatures.",
+                "The refrigerator's initial placement and its first month's visit count.",
+                "The discovery of spoilage risks and the survey of potential nonusers' privacy concerns.",
+                "The newspaper article and the regional meeting."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The organizers published a short guide for other communities considering similar projects.; the stated limit The project still depended on reliable volunteers and could not replace broader food support. still matters.",
+              "correctIndex": 2,
+              "explanation": "Safety checks and dignity-related changes address conditions that may prevent meaningful and safe use despite nominal availability.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R08-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Community Fridge\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which statement most accurately describes the program's broader lesson?",
               "choices": [
-                "Repeat the method (“They established labeling rules, temperature checks and a…”) while testing the concern (“The project still depended on reliable volunteers and…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Well-intended services require ongoing attention to safety, equitable access, operational capacity, and the limits of their impact.",
+                "Community donations always solve food insecurity without public support.",
+                "Any safeguard that restricts donations should be rejected as contrary to open access.",
+                "Once visitor numbers rise, further evaluation becomes unnecessary."
               ],
               "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The project still depended on reliable volunteers and could not replace broader food support., while comparing evidence from the original method, They established labeling rules, temperature checks and a daily cleaning rota..",
+              "explanation": "The passage treats the fridge as a useful but limited service whose value depends on practical checks and attention to who is and is not reached.",
               "passageId": "R08-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         }
