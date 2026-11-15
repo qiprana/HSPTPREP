@@ -30,5 +30,5 @@ for(let i=0;i<20;i++){
  assert.equal(day.challenge[0].difficulty,'grade10-12');
  assert.equal(day.test[0].difficulty,'grade10-12');
 }
-assert.equal(upgraded,40);
-console.log('PASS: 20 Language days, 560 advanced-bank questions, 40 newly authored grade 10-12 items and duplicate/answer checks.');
+assert.equal(upgraded,560);
+console.log('PASS: 20 Language days, 560 advanced-bank questions, 560 revised grade 10-12 items and duplicate/answer checks.');
