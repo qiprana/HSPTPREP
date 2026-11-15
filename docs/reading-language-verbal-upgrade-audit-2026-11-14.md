@@ -87,8 +87,8 @@ A further manual spot-check found that broad substitutions of terms such as *int
 ## November 15 follow-up (partial, not full sign-off)
 
 - Added `tests/report-reading-editorial-gaps.js` to identify short advanced-target passages, unusually unequal option lengths, and generic explanation text. It is a diagnostic report, not a certification.
-- Individually rewrote the Day 2 rain-gauge timed passage (`R02-P1`) to introduce competing causal explanations, measurement bias, sampling limitations and a measured policy response. Replaced all ten linked questions with distinct contextual reasoning prompts, justified answer keys and distractors; legacy IDs were preserved.
+- Individually rewrote two Day 2 timed passages (`R02-P1` rain gauges and `R02-P2` archival evidence). Replaced 20 linked questions with distinct contextual reasoning prompts, justified answer keys and distractors while preserving their stable IDs.
 - Extended the Chromium browser workflow to exercise Reading UI submission, retakes and timer-expiry scoring, in addition to reload and overview persistence checks.
 - Corrected an ungrammatical distractor in Language Day 1 advanced challenge (`LA01-C-1`).
-- An inventory inspection showed the conventional timed bank still has mostly very short passages; it is **not** the requested set of 80 authenticated, editorially verified 350–650-word excerpts. The revised Day 2 passage is only one of 80.
+- An inventory inspection showed the conventional timed bank still has mostly very short passages; it is **not** the requested set of 80 authenticated, editorially verified 350–650-word excerpts. The two revised Day 2 passages are only two of 80.
 - Remaining major blockers are authentic-text substitutions and rights/source mapping, individual review of the other timed comprehension items, Reading vocabulary difficulty calibration, Language conceptual repetition, Verbal stochastic quality evaluation, and live Safari/mobile sign-off. No full grade-10–12 certification is claimed.
