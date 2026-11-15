@@ -4394,9 +4394,9 @@
         },
         {
           "id": "R05-P2",
-          "title": "Letters from the Observatory",
-          "genre": "history",
-          "text": "Students catalogued notebooks kept by an astronomer who worked before digital photographs. The handwriting was difficult to read, and several symbols were unfamiliar. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe class compared dated diagrams with published star charts and consulted an astronomer. A set of repeated sketches showed how the observer tracked a comet over several weeks. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their gradual approach involved examining the available information before making the next decision.\n\nSome pages had water damage, so the full observing schedule could not be recovered. The notebooks were digitized with uncertain readings marked rather than silently corrected. Preserving historical science requires both careful interpretation and respect for uncertainty. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Wickham's Account of Darcy",
+          "genre": "literature",
+          "text": "He shook his head. \"I wish I could call her amiable. It gives me pain to speak ill of a Darcy. But she is too much like her brother--very, very proud. As a child, she was affectionate and pleasing, and extremely fond of me; and I have devoted hours and hours to her amusement. But she is nothing to me now. She is a handsome girl, about fifteen or sixteen, and, I understand, highly accomplished. Since her father's death, her home has been London, where a lady lives with her, and superintends her education.\"\n\nAfter many pauses and many trials of other subjects, Elizabeth could not help reverting once more to the first, and saying:\n\n\"I am astonished at his intimacy with Mr. Bingley! How can Mr. Bingley, who seems good humour itself, and is, I really believe, truly amiable, be in friendship with such a man? How can they suit each other? Do you know Mr. Bingley?\"\n\n\"Not at all.\"\n\n\"He is a sweet-tempered, amiable, charming man. He cannot know what Mr. Darcy is.\"\n\n\"Probably not; but Mr. Darcy can please where he chooses. He does not want abilities. He can be a conversible companion if he thinks it worth his while. Among those who are at all his equals in consequence, he is a very different man from what he is to the less prosperous. His pride never deserts him; but with the rich he is liberal-minded, just, sincere, rational, honourable, and perhaps agreeable--allowing something for fortune and figure.\"\n\nThe whist party soon afterwards breaking up, the players gathered round the other table and Mr. Collins took his station between his cousin Elizabeth and Mrs. Phillips. The usual inquiries as to his success were made by the latter. It had not been very great; he had lost every point; but when Mrs. Phillips began to express her concern thereupon, he assured her with much earnest gravity that it was not of the least importance, that he considered the money as a mere trifle, and begged that she would not make herself uneasy.\n\n\"I know very well, madam,\" said he, \"that when persons sit down to a card-table, they must take their chances of these things, and happily I am not in such circumstances as to make five shillings any object. There are undoubtedly many who could not say the same, but thanks to Lady Catherine de Bourgh, I am removed far beyond the necessity of regarding little matters.\"\n\nMr. Wickham's attention was caught; and after observing Mr. Collins for a few moments, he asked Elizabeth in a low voice whether her relation was very intimately acquainted with the family of de Bourgh.\n\n\"Lady Catherine de Bourgh,\" she replied, \"has very lately given him a living. I hardly know how Mr. Collins was first introduced to her notice, but he certainly has not known her long.\"",
           "term": [
             "gradual",
             "happening in stages",
@@ -4407,171 +4407,191 @@
           "questions": [
             {
               "id": "R05-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Letters from the Observatory\"?",
+              "type": "Unreliable testimony",
+              "prompt": "What caution should a reader apply to Wickham's account of Darcy's character?",
               "choices": [
-                "The concern (“The handwriting was difficult to read, and several…”) leads to inquiry, but “Some pages had water damage, so the full observing…” limits the inference.",
-                "The proposed response (“The notebooks were digitized with uncertain readings…”) makes the original concern irrelevant.",
-                "The method (“The class compared dated diagrams with published star…”) rules out every possible competing explanation.",
-                "The recorded outcome (“A set of repeated sketches showed how the observer…”) is treated as unrelated to the original investigation."
+                "Wickham offers interested judgments without independently verifying the events he describes.",
+                "Wickham has never met Darcy or his family.",
+                "Every description of Darcy is supplied by an impartial narrator.",
+                "The conversation contains no claims about behavior."
               ],
               "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some pages had water damage, so the full observing schedule could not be recovered. prevents an overly broad conclusion.",
+              "explanation": "Wickham presents evaluations from an apparent personal grievance, so his confident judgments are not independently substantiated in this excerpt.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"Letters from the Observatory\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Character contrast",
+              "prompt": "Why does Elizabeth find the friendship between Darcy and Bingley puzzling?",
               "choices": [
-                "The class compared dated diagrams with published star charts and consulted an astronomer.",
-                "A set of repeated sketches showed how the observer tracked a comet over several weeks.",
-                "The notebooks were digitized with uncertain readings marked rather than silently corrected.",
-                "The handwriting was difficult to read, and several symbols were unfamiliar."
+                "She believes Bingley is secretly engaged to Georgiana.",
+                "She considers their occupations incompatible.",
+                "She views Bingley as unusually agreeable and Darcy as proud and unfriendly.",
+                "She has witnessed them arguing at the card table."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The handwriting was difficult to read, and several symbols were unfamiliar. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Elizabeth contrasts Bingley's apparent warmth with her negative assessment of Darcy and asks how the two can suit each other.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Letters from the Observatory\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Social hierarchy",
+              "prompt": "How does Wickham explain Darcy's different behavior toward social equals?",
               "choices": [
-                "The class compared dated diagrams with published star charts and consulted an astronomer.",
-                "The handwriting was difficult to read, and several symbols were unfamiliar.",
-                "A set of repeated sketches showed how the observer tracked a comet over several weeks.",
-                "Some pages had water damage, so the full observing schedule could not be recovered."
+                "Darcy treats less prosperous people with greater generosity.",
+                "Darcy can be agreeable when he believes a person has comparable social standing.",
+                "Darcy speaks only to his sister.",
+                "Darcy avoids the wealthy because of their influence."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: The class compared dated diagrams with published star charts and consulted an astronomer. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "Wickham explicitly says Darcy can please where he chooses and treats those of equal consequence differently.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Letters from the Observatory\", rather than a procedure, caution, or policy response?",
+              "type": "Diction",
+              "prompt": "What does the phrase 'allowing something for fortune and figure' qualify?",
               "choices": [
-                "The notebooks were digitized with uncertain readings marked rather than silently corrected.",
-                "A set of repeated sketches showed how the observer tracked a comet over several weeks.",
-                "The class compared dated diagrams with published star charts and consulted an astronomer.",
-                "Some pages had water damage, so the full observing schedule could not be recovered."
+                "The exact number of card players.",
+                "The reliability of Mrs. Phillips's memory.",
+                "Georgiana's education.",
+                "Wickham's generous-sounding praise of Darcy among rich acquaintances."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: A set of repeated sketches showed how the observer tracked a comet over several weeks. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The aside suggests wealth and appearance may color the interpretation of supposed virtues, keeping Wickham's praise pointed.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Letters from the Observatory\" from being generalized beyond the available evidence?",
+              "type": "Characterization",
+              "prompt": "Why does Mr. Collins dismiss the loss of five shillings?",
               "choices": [
-                "The class compared dated diagrams with published star charts and consulted an astronomer.",
-                "The notebooks were digitized with uncertain readings marked rather than silently corrected.",
-                "Some pages had water damage, so the full observing schedule could not be recovered.",
-                "A set of repeated sketches showed how the observer tracked a comet over several weeks."
+                "He invokes his comfortable circumstances and Lady Catherine's patronage to display social security.",
+                "He actually won more than he lost.",
+                "He believes card playing is unlawful.",
+                "He intends to borrow the money from Wickham."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Some pages had water damage, so the full observing schedule could not be recovered. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Collins emphasizes that the loss is trivial because his benefactor has placed him beyond worrying about small sums.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Letters from the Observatory\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Narrative juxtaposition",
+              "prompt": "What is the effect of shifting from Wickham's critique of class pride to Collins's remarks about patronage?",
               "choices": [
-                "The handwriting was difficult to read, and several symbols were unfamiliar.",
-                "The class compared dated diagrams with published star charts and consulted an astronomer.",
-                "A set of repeated sketches showed how the observer tracked a comet over several weeks.",
-                "The notebooks were digitized with uncertain readings marked rather than silently corrected."
+                "It interrupts the novel to list its publication costs.",
+                "It demonstrates that Collins and Wickham are brothers.",
+                "It places another display of social status beside the conversation about privilege and character.",
+                "It proves Wickham secretly owns Collins's living."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The notebooks were digitized with uncertain readings marked rather than silently corrected. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "Collins's reliance on Lady Catherine's favor echoes the social hierarchy that Wickham has just emphasized.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Letters from the Observatory\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Information gap",
+              "prompt": "What does Wickham's question about Collins's acquaintance with the de Bourgh family suggest?",
               "choices": [
-                "Initial concern: “The handwriting was difficult to read, and several…”; method: “The class compared dated diagrams with published star…”.",
-                "Initial concern: “The handwriting was difficult to read, and several…”; method: “Some pages had water damage, so the full observing…”.",
-                "Initial concern: “A set of repeated sketches showed how the observer…”; method: “The notebooks were digitized with uncertain readings…”.",
-                "Initial concern: “The class compared dated diagrams with published star…”; method: “A set of repeated sketches showed how the observer…”."
+                "He already knows every detail of Collins's appointment.",
+                "The family's connection matters to him for reasons the conversation has not yet disclosed.",
+                "He intends to challenge Collins to a card game.",
+                "He believes Mrs. Phillips is a member of that family."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The handwriting was difficult to read, and several symbols were unfamiliar. and the subsequent investigative procedure is The class compared dated diagrams with published star charts and consulted an astronomer..",
+              "correctIndex": 1,
+              "explanation": "His sudden attention and private inquiry signal interest in the connection, without explaining its motive in the excerpt.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Letters from the Observatory\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Qualification",
+              "prompt": "Which conclusion would clearly overstate the available evidence?",
               "choices": [
-                "The method (“The class compared dated diagrams with published star…”) guarantees the result before measurement.",
-                "The observation (“A set of repeated sketches showed how the observer…”) matters, but the limit (“Some pages had water damage, so the full observing…”) remains.",
-                "The observation (“A set of repeated sketches showed how the observer…”) rules out every alternative cause.",
-                "The limitation (“Some pages had water damage, so the full observing…”) disproves the observation itself."
+                "Elizabeth finds Bingley amiable.",
+                "Mr. Collins has received a living from Lady Catherine.",
+                "Wickham speaks critically of Darcy's pride.",
+                "Wickham's account is demonstrably accurate in every claim about the Darcy family."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as A set of repeated sketches showed how the observer tracked a comet over several weeks. but must be read alongside Some pages had water damage, so the full observing schedule could not be recovered..",
+              "correctIndex": 3,
+              "explanation": "The excerpt offers Wickham's assertions and Elizabeth's reactions, not independent corroboration of every accusation.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Letters from the Observatory\" relate to the strength and limits of the earlier observations?",
+              "type": "Dialogue function",
+              "prompt": "Why does the passage rely heavily on questions and reported conversation?",
               "choices": [
-                "The caveat (“Some pages had water damage, so the full observing…”) makes the observations worthless.",
-                "The observation (“A set of repeated sketches showed how the observer…”) shows that measurement was unnecessary.",
-                "The response (“The notebooks were digitized with uncertain readings…”) follows evidence but remains open to reassessment.",
-                "The response (“The notebooks were digitized with uncertain readings…”) is proof of success in every setting."
+                "It reveals character judgments and motives as partial perspectives rather than a single neutral verdict.",
+                "It prevents readers from learning which people know each other.",
+                "It removes all social context from the scene.",
+                "It supplies an objective legal record of events."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The notebooks were digitized with uncertain readings marked rather than silently corrected.; the stated limit Some pages had water damage, so the full observing schedule could not be recovered. still matters.",
+              "correctIndex": 0,
+              "explanation": "The speakers' exchanges expose assumptions, interests and class concerns, requiring interpretive judgment.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             },
             {
               "id": "R05-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Letters from the Observatory\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which tension most strongly links the scene's conversations?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The class compared dated diagrams with published star…”) while testing the concern (“Some pages had water damage, so the full observing…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "The value of outdoor recreation.",
+                "The rivalry between two literary styles.",
+                "How wealth, patronage and social position can shape accounts of character and behavior.",
+                "The dangers of overseas travel."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, Some pages had water damage, so the full observing schedule could not be recovered., while comparing evidence from the original method, The class compared dated diagrams with published star charts and consulted an astronomer..",
+              "correctIndex": 2,
+              "explanation": "Wickham discusses Darcy's conduct toward the rich and poor, while Collins invokes his own patronage.",
               "passageId": "R05-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Austen — Wickham's Account of Darcy"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "He shook his head. \"I wish I could call her amiable. It gives me pain to speak ill of a Darcy. ",
+            "end": "w how Mr. Collins was first introduced to her notice, but he certainly has not known her long.\""
+          },
+          "sourceReference": "ADV-05-P1"
         },
         {
           "id": "R05-P3",
-          "title": "A Music Stand for Two",
-          "genre": "narrative",
-          "text": "At rehearsal, Theo discovered that the school had one fewer music stand than the orchestra needed. He and another musician both insisted they could not read comfortably from the same stand. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nTheo suggested moving the stand between them and marking their places before the piece began. Their first attempt was awkward, but after adjusting the angle, both could follow the notes. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their tentative approach involved examining the available information before making the next decision.\n\nThe arrangement was temporary and would not suit every kind of performance. They finished rehearsal and asked the director to borrow another stand for the concert. A compromise can solve an immediate problem without pretending it is a permanent solution. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wells — The Time Traveller's Testimony",
+          "genre": "speculative fiction",
+          "text": "'I'd give a shilling a line for a verbatim note,' said the Editor. The Time Traveller pushed his glass towards the Silent Man and rang it with his fingernail; at which the Silent Man, who had been staring at his face, started convulsively, and poured him wine. The rest of the dinner was uncomfortable. For my own part, sudden questions kept on rising to my lips, and I dare say it was the same with the others. The Journalist tried to relieve the tension by telling anecdotes of Hettie Potter. The Time Traveller devoted his attention to his dinner, and displayed the appetite of a tramp. The Medical Man smoked a cigarette, and watched the Time Traveller through his eyelashes. The Silent Man seemed even more clumsy than usual, and drank champagne with regularity and determination out of sheer nervousness. At last the Time Traveller pushed his plate away, and looked round us. 'I suppose I must apologize,' he said. 'I was simply starving. I've had a most amazing time.' He reached out his hand for a cigar, and cut the end. 'But come into the smoking-room. It's too long a story to tell over greasy plates.' And ringing the bell in passing, he led the way into the adjoining room.\n\n'You have told Blank, and Dash, and Chose about the machine?' he said to me, leaning back in his easy-chair and naming the three new guests.\n\n'But the thing's a mere paradox,' said the Editor.\n\n'I can't argue to-night. I don't mind telling you the story, but I can't argue. I will,' he went on, 'tell you the story of what has happened to me, if you like, but you must refrain from interruptions. I want to tell it. Badly. Most of it will sound like lying. So be it! It's true--every word of it, all the same. I was in my laboratory at four o'clock, and since then ... I've lived eight days ... such days as no human being ever lived before! I'm nearly worn out, but I shan't sleep till I've told this thing over to you. Then I shall go to bed. But no interruptions! Is it agreed?'\n\n'Agreed,' said the Editor, and the rest of us echoed 'Agreed.' And with that the Time Traveller began his story as I have set it forth. He sat back in his chair at first, and spoke like a weary man. Afterwards he got more animated. In writing it down I feel with only too much keenness the inadequacy of pen and ink--and, above all, my own inadequacy--to express its quality. You read, I will suppose, attentively enough; but you cannot see the speaker's white, sincere face in the bright circle of the little lamp, nor hear the intonation of his voice. You cannot know how his expression followed the turns of his story! Most of us hearers were in shadow, for the candles in the smoking-room had not been lighted, and only the face of the Journalist and the legs of the Silent Man from the knees downward were illuminated. At first we glanced now and again at each other. After a time we ceased to do that, and looked only at the Time Traveller's face.",
           "term": [
             "tentative",
             "not yet certain",
@@ -4582,171 +4602,191 @@
           "questions": [
             {
               "id": "R05-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Music Stand for Two\"?",
+              "type": "Scene setting",
+              "prompt": "How does the description of the dinner guests prepare readers for the extraordinary story?",
               "choices": [
-                "The recorded outcome (“Their first attempt was awkward, but after adjusting the…”) is treated as unrelated to the original investigation.",
-                "The concern (“He and another musician both insisted they could not read…”) leads to inquiry, but “The arrangement was temporary and would not suit every…” limits the inference.",
-                "The proposed response (“They finished rehearsal and asked the director to borrow…”) makes the original concern irrelevant.",
-                "The method (“Theo suggested moving the stand between them and marking…”) rules out every possible competing explanation."
+                "It shows that all guests have already accepted time travel.",
+                "It builds discomfort and curiosity through the guests' varied attempts to manage tension.",
+                "It proves the dinner is held outdoors.",
+                "It explains exactly how the machine works."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The arrangement was temporary and would not suit every kind of performance. prevents an overly broad conclusion.",
+              "explanation": "The awkward dinner, nervous guests and unasked questions stage anticipation before the testimony.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Music Stand for Two\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Narrative authority",
+              "prompt": "Why does the Time Traveller insist his story is true while admitting it will 'sound like lying'?",
               "choices": [
-                "Their first attempt was awkward, but after adjusting the angle, both could follow the notes.",
-                "They finished rehearsal and asked the director to borrow another stand for the concert.",
-                "He and another musician both insisted they could not read comfortably from the same stand.",
-                "Theo suggested moving the stand between them and marking their places before the piece began."
+                "He recognizes a gap between what listeners are likely to believe and what he claims to have experienced.",
+                "He declares that some of the story is invented.",
+                "He seeks permission to falsify the time of his return.",
+                "He has already produced a verified scientific report."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: He and another musician both insisted they could not read comfortably from the same stand. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The assertion anticipates disbelief and separates subjective credibility from the speaker's claim.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Music Stand for Two\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Temporal paradox",
+              "prompt": "What is the effect of his statement that he has 'lived eight days' since four o'clock?",
               "choices": [
-                "He and another musician both insisted they could not read comfortably from the same stand.",
-                "Their first attempt was awkward, but after adjusting the angle, both could follow the notes.",
-                "The arrangement was temporary and would not suit every kind of performance.",
-                "Theo suggested moving the stand between them and marking their places before the piece began."
+                "It identifies an ordinary eight-day holiday.",
+                "It shows the guests have misread the date.",
+                "It establishes that all clocks in the room are broken.",
+                "It dramatizes the conflict between the guests' elapsed time and his account of personal experience."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Theo suggested moving the stand between them and marking their places before the piece began. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "A seemingly impossible personal duration is contrasted with a short interval since the last known laboratory time.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Music Stand for Two\", rather than a procedure, caution, or policy response?",
+              "type": "Character condition",
+              "prompt": "How do his appetite and exhaustion contribute to the narrative?",
               "choices": [
-                "Their first attempt was awkward, but after adjusting the angle, both could follow the notes.",
-                "Theo suggested moving the stand between them and marking their places before the piece began.",
-                "The arrangement was temporary and would not suit every kind of performance.",
-                "They finished rehearsal and asked the director to borrow another stand for the concert."
+                "They establish that he has been celebrating.",
+                "They provide bodily signs consistent with an ordeal without independently proving its account.",
+                "They show he is too healthy to have traveled.",
+                "They make the journey's details irrelevant."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: Their first attempt was awkward, but after adjusting the angle, both could follow the notes. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "His starvation and fatigue lend sensory plausibility, though they do not verify extraordinary events.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Music Stand for Two\" from being generalized beyond the available evidence?",
+              "type": "Narrative control",
+              "prompt": "Why does the Time Traveller require listeners not to interrupt?",
               "choices": [
-                "They finished rehearsal and asked the director to borrow another stand for the concert.",
-                "The arrangement was temporary and would not suit every kind of performance.",
-                "Their first attempt was awkward, but after adjusting the angle, both could follow the notes.",
-                "Theo suggested moving the stand between them and marking their places before the piece began."
+                "He wants to prevent them from ever examining his claim.",
+                "He wishes to conceal the existence of the machine.",
+                "He wants to deliver a difficult, extended account before entering a dispute over plausibility.",
+                "He has no intention of completing the story."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The arrangement was temporary and would not suit every kind of performance. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "He distinguishes telling the story from arguing and postpones debate until the account is complete.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Music Stand for Two\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Metanarration",
+              "prompt": "Why does the frame narrator discuss the limitations of 'pen and ink'?",
               "choices": [
-                "Theo suggested moving the stand between them and marking their places before the piece began.",
-                "Their first attempt was awkward, but after adjusting the angle, both could follow the notes.",
-                "They finished rehearsal and asked the director to borrow another stand for the concert.",
-                "He and another musician both insisted they could not read comfortably from the same stand."
+                "To emphasize that a written transcript cannot fully convey voice, facial expression and atmosphere.",
+                "To announce that he has destroyed his notes.",
+                "To show the narrator cannot remember the plot.",
+                "To claim that no written account should ever be read."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: They finished rehearsal and asked the director to borrow another stand for the concert. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The passage draws attention to the gap between a lived performance and a later written record.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Music Stand for Two\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Perspective",
+              "prompt": "What narrative limitation results from relying on the frame narrator's retelling?",
               "choices": [
-                "Initial concern: “He and another musician both insisted they could not read…”; method: “The arrangement was temporary and would not suit every…”.",
-                "Initial concern: “Their first attempt was awkward, but after adjusting the…”; method: “They finished rehearsal and asked the director to borrow…”.",
-                "Initial concern: “Theo suggested moving the stand between them and marking…”; method: “Their first attempt was awkward, but after adjusting the…”.",
-                "Initial concern: “He and another musician both insisted they could not read…”; method: “Theo suggested moving the stand between them and marking…”."
+                "The reader directly sees every event the Traveller describes.",
+                "The story loses all temporal order.",
+                "The narrator personally witnesses every event in the other time.",
+                "The reader receives the tale through another observer's memory and language."
               ],
               "correctIndex": 3,
-              "explanation": "The issue begins with He and another musician both insisted they could not read comfortably from the same stand. and the subsequent investigative procedure is Theo suggested moving the stand between them and marking their places before the piece began..",
+              "explanation": "The account is mediated by an attentive listener who explicitly worries that transcription is inadequate.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Music Stand for Two\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Group response",
+              "prompt": "What does the shift from glancing at one another to watching only the Traveller suggest?",
               "choices": [
-                "The observation (“Their first attempt was awkward, but after adjusting the…”) matters, but the limit (“The arrangement was temporary and would not suit every…”) remains.",
-                "The observation (“Their first attempt was awkward, but after adjusting the…”) rules out every alternative cause.",
-                "The limitation (“The arrangement was temporary and would not suit every…”) disproves the observation itself.",
-                "The method (“Theo suggested moving the stand between them and marking…”) guarantees the result before measurement."
+                "The guests collectively fall asleep.",
+                "The narrative increasingly captures their attention despite initial uncertainty.",
+                "They conclude his account is false before he speaks.",
+                "The candles are extinguished deliberately to conceal the machine."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as Their first attempt was awkward, but after adjusting the angle, both could follow the notes. but must be read alongside The arrangement was temporary and would not suit every kind of performance..",
+              "correctIndex": 1,
+              "explanation": "Their attention moves from mutual skeptical reactions to concentrated observation of his face.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Music Stand for Two\" relate to the strength and limits of the earlier observations?",
+              "type": "Interpretive inference",
+              "prompt": "What do the Silent Man's nervous gestures contribute?",
               "choices": [
-                "The observation (“Their first attempt was awkward, but after adjusting the…”) shows that measurement was unnecessary.",
-                "The response (“They finished rehearsal and asked the director to borrow…”) follows evidence but remains open to reassessment.",
-                "The response (“They finished rehearsal and asked the director to borrow…”) is proof of success in every setting.",
-                "The caveat (“The arrangement was temporary and would not suit every…”) makes the observations worthless."
+                "They show that silence is a guarantee of agreement.",
+                "They demonstrate that he has also traveled through time.",
+                "They reveal tension without requiring direct statements of disbelief or fear.",
+                "They prove he is responsible for the extraordinary events."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed They finished rehearsal and asked the director to borrow another stand for the concert.; the stated limit The arrangement was temporary and would not suit every kind of performance. still matters.",
+              "correctIndex": 2,
+              "explanation": "The clumsy movements and determined drinking externalize anxiety indirectly.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             },
             {
               "id": "R05-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Music Stand for Two\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which central problem does the frame scene establish?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Theo suggested moving the stand between them and marking…”) while testing the concern (“The arrangement was temporary and would not suit every…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "How an incredible account can be communicated and assessed through imperfect testimony and audience perception.",
+                "Why journalists should never attend a dinner.",
+                "How an elaborate machine can be repaired.",
+                "Why a guest chooses to smoke cigarettes."
               ],
-              "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The arrangement was temporary and would not suit every kind of performance., while comparing evidence from the original method, Theo suggested moving the stand between them and marking their places before the piece began..",
+              "correctIndex": 0,
+              "explanation": "The scene foregrounds belief, testimony, performance and the narrator's limits in conveying what was said.",
               "passageId": "R05-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Wells — The Time Traveller's Testimony"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Time Machine",
+            "author": "H. G. Wells",
+            "year": 1895,
+            "url": "https://www.gutenberg.org/ebooks/35",
+            "rights": "Public domain in United States",
+            "start": "'I'd give a shilling a line for a verbatim note,' said the Editor. The Time Traveller pushed hi",
+            "end": "at each other. After a time we ceased to do that, and looked only at the Time Traveller's face."
+          },
+          "sourceReference": "ADV-05-P3"
         },
         {
           "id": "R05-P4",
-          "title": "The Neighborhood Walking Map",
-          "genre": "community",
-          "text": "Residents worked with city planners to create a map of safe routes to local parks. The shortest routes sometimes crossed streets without convenient signals. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nVolunteers walked several possible routes and noted crossings, sidewalks and shade. The final map included slightly longer paths that avoided the busiest intersections. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their provisional approach involved examining the available information before making the next decision.\n\nConditions could change as road repairs and construction began. The city posted a date on the map and invited residents to report updates. Useful directions account for safety and changing conditions rather than distance alone. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Douglass — Literacy and the Institution of Slavery",
+          "genre": "historical autobiography",
+          "text": "My mistress was, as I have said, a kind and tender-hearted woman; and in the simplicity of her soul she commenced, when I first went to live with her, to treat me as she supposed one human being ought to treat another. In entering upon the duties of a slaveholder, she did not seem to perceive that I sustained to her the relation of a mere chattel, and that for her to treat me as a human being was not only wrong, but dangerously so. Slavery proved as injurious to her as it did to me. When I went there, she was a pious, warm, and tender-hearted woman. There was no sorrow or suffering for which she had not a tear. She had bread for the hungry, clothes for the naked, and comfort for every mourner that came within her reach. Slavery soon proved its ability to divest her of these heavenly qualities. Under its influence, the tender heart became stone, and the lamblike disposition gave way to one of tiger-like fierceness. The first step in her downward course was in her ceasing to instruct me. She now commenced to practise her husband's precepts. She finally became even more violent in her opposition than her husband himself. She was not satisfied with simply doing as well as he had commanded; she seemed anxious to do better. Nothing seemed to make her more angry than to see me with a newspaper. She seemed to think that here lay the danger. I have had her rush at me with a face made all up of fury, and snatch from me a newspaper, in a manner that fully revealed her apprehension. She was an apt woman; and a little experience soon demonstrated, to her satisfaction, that education and slavery were incompatible with each other.\n\nFrom this time I was most narrowly watched. If I was in a separate room any considerable length of time, I was sure to be suspected of having a book, and was at once called to give an account of myself. All this, however, was too late. The first step had been taken. Mistress, in teaching me the alphabet, had given me the _inch,_ and no precaution could prevent me from taking the _ell._\n\nThe plan which I adopted, and the one by which I was most successful, was that of making friends of all the little white boys whom I met in the street. As many of these as I could, I converted into teachers. With their kindly aid, obtained at different times and in different places, I finally succeeded in learning to read. When I was sent of errands, I always took my book with me, and by going one part of my errand quickly, I found time to get a lesson before my return. I used also to carry bread with me, enough of which was always in the house, and to which I was always welcome; for I was much better off in this regard than many of the poor white children in our neighborhood. This bread I used to bestow upon the hungry little urchins, who, in return, would give me that more valuable bread of knowledge. I am strongly tempted to give the names of two or three of those little boys, as a testimonial of the gratitude and affection I bear them; but prudence forbids;--not that it would injure me, but it might embarrass them; for it is almost an unpardonable offence to teach slaves to read in this Christian country. It is enough to say of the dear little fellows, that they lived on Philpot Street, very near Durgin and Bailey's ship-yard. I used to talk this matter of slavery over with them. I would sometimes say to them, I wished I could be as free as they would be when they got to be men. \"You will be free as soon as you are twenty-one, _but I am a slave for life!_ Have not I as good a right to be free as you have?\" These words used to trouble them; they would express for me the liveliest sympathy, and console me with the hope that something would occur by which I might be free.",
           "term": [
             "provisional",
             "subject to revision",
@@ -4757,165 +4797,186 @@
           "questions": [
             {
               "id": "R05-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Neighborhood Walking Map\"?",
+              "type": "Central transformation",
+              "prompt": "How does Douglass describe the change in his mistress's conduct?",
               "choices": [
-                "The method (“Volunteers walked several possible routes and noted…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The final map included slightly longer paths that avoided…”) is treated as unrelated to the original investigation.",
-                "The concern (“The shortest routes sometimes crossed streets without…”) leads to inquiry, but “Conditions could change as road repairs and construction…” limits the inference.",
-                "The proposed response (“The city posted a date on the map and invited residents…”) makes the original concern irrelevant."
+                "The institution of slavery gradually replaces her initial kindness with harsh surveillance and hostility.",
+                "She becomes more generous once she learns to read.",
+                "She ceases to recognize Douglass after moving to Baltimore.",
+                "She volunteers to campaign openly for literacy."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Conditions could change as road repairs and construction began. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The passage traces her shift from empathy to coercion as she adopts the norms of slaveholding.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Neighborhood Walking Map\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Institutional critique",
+              "prompt": "What does the phrase 'Slavery proved as injurious to her as it did to me' mean in context?",
               "choices": [
-                "The city posted a date on the map and invited residents to report updates.",
-                "The shortest routes sometimes crossed streets without convenient signals.",
-                "Volunteers walked several possible routes and noted crossings, sidewalks and shade.",
-                "The final map included slightly longer paths that avoided the busiest intersections."
+                "The two people experienced identical physical punishments.",
+                "The mistress received no financial benefit from slavery.",
+                "The institution damaged her moral character as well as inflicting oppression on Douglass.",
+                "Douglass claims slavery benefited both parties."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: The shortest routes sometimes crossed streets without convenient signals. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Douglass argues the system corrupts the mistress's humane disposition while denying his humanity.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Neighborhood Walking Map\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Causal explanation",
+              "prompt": "Why does the mistress increasingly oppose his access to books and newspapers?",
               "choices": [
-                "The final map included slightly longer paths that avoided the busiest intersections.",
-                "Conditions could change as road repairs and construction began.",
-                "Volunteers walked several possible routes and noted crossings, sidewalks and shade.",
-                "The shortest routes sometimes crossed streets without convenient signals."
+                "They prevent him from completing errands.",
+                "She recognizes that education could weaken the control slavery depends upon.",
+                "She dislikes the physical appearance of printed material.",
+                "The newspapers contain only religious content."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Volunteers walked several possible routes and noted crossings, sidewalks and shade. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "Her treatment reflects the recognition that literacy can threaten enforced subordination.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Neighborhood Walking Map\", rather than a procedure, caution, or policy response?",
+              "type": "Metaphor",
+              "prompt": "What does Douglass mean when he says the mistress gave him 'the inch' and could not stop him from taking 'the ell'?",
               "choices": [
-                "Volunteers walked several possible routes and noted crossings, sidewalks and shade.",
-                "Conditions could change as road repairs and construction began.",
-                "The city posted a date on the map and invited residents to report updates.",
-                "The final map included slightly longer paths that avoided the busiest intersections."
+                "He is measuring the house's rooms.",
+                "He refers to the length of printed pages.",
+                "He is describing the sale of an object.",
+                "An initial lesson made further self-directed learning possible despite later restrictions."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The final map included slightly longer paths that avoided the busiest intersections. The other statements describe different stages of the inquiry.",
+              "explanation": "Teaching the alphabet opened a process of literacy that surveillance could not fully reverse.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Neighborhood Walking Map\" from being generalized beyond the available evidence?",
+              "type": "Tactical reasoning",
+              "prompt": "How does Douglass arrange to learn from the neighborhood boys?",
               "choices": [
-                "Conditions could change as road repairs and construction began.",
-                "The final map included slightly longer paths that avoided the busiest intersections.",
-                "Volunteers walked several possible routes and noted crossings, sidewalks and shade.",
-                "The city posted a date on the map and invited residents to report updates."
+                "He exchanges bread and uses intervals during errands to receive short lessons.",
+                "He asks the mistress to employ them as tutors.",
+                "He is allowed to attend the local school.",
+                "He receives books directly from the overseer."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: Conditions could change as road repairs and construction began. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "He develops informal relationships and exchanges food for knowledge during spare moments.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Neighborhood Walking Map\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Ethical comparison",
+              "prompt": "How does Douglass use his greater access to food to explain the exchange?",
               "choices": [
-                "The final map included slightly longer paths that avoided the busiest intersections.",
-                "The city posted a date on the map and invited residents to report updates.",
-                "The shortest routes sometimes crossed streets without convenient signals.",
-                "Volunteers walked several possible routes and noted crossings, sidewalks and shade."
+                "It proves the young boys have no interest in reading.",
+                "It shows that all white children were wealthy.",
+                "He contrasts material resources with the greater value of knowledge and highlights differing forms of deprivation.",
+                "He argues literacy has no practical effect."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The city posted a date on the map and invited residents to report updates. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "He uses bread to obtain lessons and describes knowledge as a more valuable kind of nourishment.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Neighborhood Walking Map\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Historical context",
+              "prompt": "Why does Douglass hesitate to name his childhood helpers?",
               "choices": [
-                "Initial concern: “The final map included slightly longer paths that avoided…”; method: “The city posted a date on the map and invited residents…”.",
-                "Initial concern: “Volunteers walked several possible routes and noted…”; method: “The final map included slightly longer paths that avoided…”.",
-                "Initial concern: “The shortest routes sometimes crossed streets without…”; method: “Volunteers walked several possible routes and noted…”.",
-                "Initial concern: “The shortest routes sometimes crossed streets without…”; method: “Conditions could change as road repairs and construction…”."
+                "He has forgotten where they lived.",
+                "Naming them could place them at social or legal risk for teaching an enslaved child.",
+                "He believes their assistance was unimportant.",
+                "He was asked by them to publish no autobiography."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with The shortest routes sometimes crossed streets without convenient signals. and the subsequent investigative procedure is Volunteers walked several possible routes and noted crossings, sidewalks and shade..",
+              "correctIndex": 1,
+              "explanation": "He expresses gratitude but says disclosure might embarrass or endanger them because literacy instruction was condemned.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Neighborhood Walking Map\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Rhetorical question",
+              "prompt": "What is the function of Douglass's question about having as much right to freedom as the white boys?",
               "choices": [
-                "The observation (“The final map included slightly longer paths that avoided…”) rules out every alternative cause.",
-                "The limitation (“Conditions could change as road repairs and construction…”) disproves the observation itself.",
-                "The method (“Volunteers walked several possible routes and noted…”) guarantees the result before measurement.",
-                "The observation (“The final map included slightly longer paths that avoided…”) matters, but the limit (“Conditions could change as road repairs and construction…”) remains."
+                "It implies that adulthood changes physical strength.",
+                "It establishes that all children share the same legal rights under slavery.",
+                "It rejects the idea that the boys will eventually be adults.",
+                "It exposes the moral inconsistency of freedom promised to some children and denied permanently to others."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The final map included slightly longer paths that avoided the busiest intersections. but must be read alongside Conditions could change as road repairs and construction began..",
+              "explanation": "The contrast between their anticipated freedom at adulthood and his enslavement for life challenges the system's justice.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Neighborhood Walking Map\" relate to the strength and limits of the earlier observations?",
+              "type": "Point of view",
+              "prompt": "Why is the passage particularly effective as firsthand testimony?",
               "choices": [
-                "The response (“The city posted a date on the map and invited residents…”) follows evidence but remains open to reassessment.",
-                "The response (“The city posted a date on the map and invited residents…”) is proof of success in every setting.",
-                "The caveat (“Conditions could change as road repairs and construction…”) makes the observations worthless.",
-                "The observation (“The final map included slightly longer paths that avoided…”) shows that measurement was unnecessary."
+                "Douglass links personal incidents to a wider analysis of how the institution shaped behavior and denied education.",
+                "It relies exclusively on statistics about neighboring plantations.",
+                "It presents the mistress's private diary as evidence.",
+                "It avoids describing any action personally witnessed."
               ],
               "correctIndex": 0,
-              "explanation": "The findings informed The city posted a date on the map and invited residents to report updates.; the stated limit Conditions could change as road repairs and construction began. still matters.",
+              "explanation": "His account moves from observed changes and lived experience to a critique of slavery's corrupting mechanisms.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             },
             {
               "id": "R05-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Neighborhood Walking Map\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which principle unifies the mistress's transformation and Douglass's efforts to learn?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Volunteers walked several possible routes and noted…”) while testing the concern (“Conditions could change as road repairs and construction…”)."
+                "Slavery requires that people remain emotionally detached from one another.",
+                "The ability to read is irrelevant to personal autonomy.",
+                "A coercive institution tries to restrict knowledge, while literacy offers tools for greater intellectual freedom.",
+                "The exchange of food and lessons removes every legal barrier to emancipation."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, Conditions could change as road repairs and construction began., while comparing evidence from the original method, Volunteers walked several possible routes and noted crossings, sidewalks and shade..",
+              "correctIndex": 2,
+              "explanation": "Surveillance of books reveals the institution's fear of literacy, while Douglass's persistence shows how learning enables agency.",
               "passageId": "R05-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Douglass — Literacy and the Institution of Slavery"
             }
-          ]
+          ],
+          "source": {
+            "work": "Narrative of the Life of Frederick Douglass, an American Slave",
+            "author": "Frederick Douglass",
+            "year": 1845,
+            "url": "https://www.gutenberg.org/ebooks/23",
+            "rights": "Public domain in United States",
+            "start": "My mistress was, as I have said, a kind and tender-hearted woman; and in the simplicity of her ",
+            "end": "est sympathy, and console me with the hope that something would occur by which I might be free."
+          },
+          "sourceReference": "ADV-05-P4",
+          "contextNote": "Firsthand nineteenth-century account of American slavery; discusses violence and the suppression of education."
         }
       ],
       "vocabularyQuestions": [
