@@ -8,6 +8,7 @@ on:
       - 'language.html'
       - 'tests/validate-subject-navigation.js'
       - 'tests/validate-completion-tracking.js'
+      - 'tests/validate-subject-completion-runtime.js'
       - '.github/workflows/validate-navigation.yml'
   pull_request:
     paths:
@@ -28,3 +29,4 @@ jobs:
         run: |
           node tests/validate-subject-navigation.js
           node tests/validate-completion-tracking.js
+          node tests/validate-subject-completion-runtime.js
