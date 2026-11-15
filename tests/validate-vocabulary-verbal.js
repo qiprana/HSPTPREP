@@ -71,7 +71,7 @@ for(const w of words){
 }
 assert.match(index,/deadline:Date\.now\(\)\+16\*60\*1000/,'Verbal timer should be 16 minutes');
 assert.ok(!index.includes('14-minute countdown')&&!quick.includes('14-minute countdown'),'Outdated Verbal timer label');
-assert.match(index,/q\.score>=PASS_MARK\)markSubjectDone/,'Passing score must be required for Verbal completion');
+assert.match(index,/q\.questions\.length\)markSubjectDone\(q\.day,'verbal','verbal-challenge'\)/,'Fully answered submissions must count as completed regardless of pass score');
 assert.match(index,/window\.speechSynthesis\.speak/,'Pronunciation support must be present');
 assert.match(index,/state\.covered/,'Word-level progress must be saved');
 assert.match(index,/state\.review/,'Needs-review mechanism must be present');
@@ -79,7 +79,7 @@ assert.ok(index.includes('No direct antonym for this meaning.'),'No-direct-anton
 const p=index.indexOf('function submitQuiz(auto=false)'),e=index.indexOf('function speak(text)',p);
 assert.ok(p>=0&&e>p,'Verbal submit handler missing');
 const quizHandler=index.slice(p,e);
-for(const [answered,correct,shouldComplete] of [[60,60,true],[60,25,false],[45,45,false]]){
+for(const [answered,correct,shouldComplete] of [[60,60,true],[60,25,true],[45,45,false]]){
  const questions=Array.from({length:60},(_,i)=>({answer:'A',prompt:'q'+i}));
  const answers={};for(let i=0;i<answered;i++)answers[i]=i<correct?'A':'B';
  const q={day:1,kind:'daily',questions,answers,submitted:false},state={quizBest:{},history:[]};
