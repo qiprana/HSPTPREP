@@ -4026,16 +4026,16 @@
         {
           "id": "LA09-C-1",
           "group": "usage",
-          "skill": "Journalism ethics",
-          "text": "A newspaper polls visitors who clicked an investigative article, then claims the entire readership supports its reporting style. What is the most direct issue?",
+          "skill": "Independent corroboration",
+          "text": "Two news sites publish the same anonymous allegation. Each cites a screenshot that originated in one unverified group chat. Which sentence describes the evidentiary problem most accurately?",
           "options": [
-            "Clicking an article produces a guaranteed neutral sample.",
-            "Interest in that article may correlate with reporting preferences, making the respondents unrepresentative.",
-            "The sample is large enough to remove every source of bias.",
-            "Editorial tone cannot be measured by any survey."
+            "Publication by two outlets makes the allegation independently verified.",
+            "Agreement between the sites rules out manipulation of the screenshot.",
+            "The reports may share a single unverified source, so their apparent agreement adds little independent confirmation.",
+            "An allegation cannot be investigated unless its original author agrees to be named."
           ],
-          "correctIndex": 1,
-          "explanation": "Self-selection into the article audience may be associated with the opinion being measured; sample size alone does not correct that.",
+          "correctIndex": 2,
+          "explanation": "Both reports trace to the same screenshot, so they are not independent corroboration. More outlets repeating one source do not establish its authenticity; anonymous claims can still be investigated using independent records.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -4043,16 +4043,16 @@
         {
           "id": "LA09-C-2",
           "group": "composition",
-          "skill": "Measurement reliability",
-          "text": "An online news survey reports that confidence in reporting rose from 3.7 to 4.1, but the question wording changed. What is the central uncertainty?",
+          "skill": "Qualified claims",
+          "text": "A paper finds that students who read more newspapers also score higher on a civic-literacy quiz, but it does not control for prior interest in politics. Which headline is defensible?",
           "options": [
-            "A mean score can never summarize opinions.",
-            "Readers are incapable of using rating scales.",
-            "The wording change may affect responses independently of true attitude shifts.",
-            "The difference mathematically proves every reader became more confident."
+            "Reading newspapers causes higher civic-literacy scores.",
+            "Students with greater newspaper readership scored higher on the quiz; causation remains uncertain.",
+            "Students who avoid newspapers are necessarily less informed.",
+            "Newspaper readership was proven to be the only predictor of civic literacy."
           ],
-          "correctIndex": 2,
-          "explanation": "Changed measurement wording makes the two scores less directly comparable.",
+          "correctIndex": 1,
+          "explanation": "The headline preserves the measured association and the study's causal limitation. The other options convert a correlation into proof, necessity, or exclusivity.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -4060,16 +4060,16 @@
         {
           "id": "LA09-C-3",
           "group": "composition",
-          "skill": "News consumption",
-          "text": "A news app reports that users who read more articles score higher on a civic quiz. Which alternative explanation is strongest?",
+          "skill": "Numerical inference",
+          "text": "A newsroom reports 18 corrections in 900 articles this quarter and 15 corrections in 500 articles last quarter. Which comparison is justified?",
           "options": [
-            "Greater prior civic interest may cause both more reading and higher quiz scores.",
-            "Articles can never teach facts.",
-            "Quiz scores are unrelated to prior knowledge.",
-            "A positive correlation establishes that the app is defective."
+            "The rate increased from 2% to 3%.",
+            "The correction count increased, but the correction rate declined from 3% to 2%.",
+            "Both the rate and the number of corrections declined.",
+            "The correction rate remained constant because both quarters had fewer than 20 corrections."
           ],
-          "correctIndex": 0,
-          "explanation": "Underlying civic motivation or knowledge can affect both usage and quiz outcomes, so the association alone does not establish the app's effect.",
+          "correctIndex": 1,
+          "explanation": "Last quarter's rate was 15/500 = 3%; this quarter's was 18/900 = 2%. The count rose while the rate fell. Looking only at totals obscures the denominator.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -4077,155 +4077,155 @@
         {
           "id": "LA09-C-4",
           "group": "composition",
-          "skill": "Concession and rebuttal",
-          "text": "In the journalism ethics challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Attribution and reported speech",
+          "text": "A witness says, 'I never saw the driver cross the line.' Which paraphrase preserves the witness's claim without adding an unsupported conclusion?",
           "options": [
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The policy is costly; therefore no one should examine its possible benefits.",
-            "The policy has no drawbacks, so opponents must be irrational."
+            "The witness confirmed that the driver never crossed the line.",
+            "The witness reported not seeing the driver cross the line.",
+            "The witness proved that no driver crossed any line.",
+            "The witness said the driver had crossed the line before the witness arrived."
           ],
           "correctIndex": 1,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "The witness describes the limit of personal observation, not proof of what happened. The other paraphrases infer an event's absence, expand the claim, or invent chronology.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the journalism ethics challenge scenario, Every approved project passed ethical review. A project passed ethical review. What follows?",
+          "skill": "Pronoun ambiguity",
+          "text": "A draft reads, 'The reporter told the editor that her notes were missing.' The REPORTER'S notes were missing. Which revision removes the ambiguity most economically?",
           "options": [
-            "Ethical review was unnecessary.",
-            "No approved project passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The project must have been approved."
+            "The reporter told the editor that the reporter's notes were missing.",
+            "The reporter told the editor that her notes were missing, which upset her.",
+            "After the reporter spoke to the editor, her notes were missing.",
+            "The editor was told by the reporter that her notes were missing."
           ],
-          "correctIndex": 2,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 0,
+          "explanation": "Repeating the specific noun identifies whose notes are missing. The other options preserve ambiguous pronouns or add an unsupported implication about timing.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the journalism ethics challenge scenario, Only the scholars who supplied raw data were eligible for certification. What must be true?",
+          "skill": "A necessary condition",
+          "text": "An editorial policy says, 'A story cannot be published without two independent confirmations.' A story has two confirmations. What follows?",
           "options": [
-            "Every raw-data supplier was certified.",
-            "Scholars without certification supplied no data.",
-            "All eligible scholars received certification.",
-            "Every certified scholar supplied raw data."
+            "It must be published immediately.",
+            "It is eligible for publication under that one rule, though other publication requirements may remain.",
+            "It cannot be published because the policy uses a negative construction.",
+            "The policy requires publication of every story with two confirmations."
           ],
-          "correctIndex": 3,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "Two confirmations satisfy a necessary condition, not a sufficient one. The rule does not guarantee publication or eliminate other editorial checks.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the journalism ethics challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Restrictive versus supplementary clause",
+          "text": "The newspaper has several fact-checkers. Which sentence identifies the specific fact-checker who verified the chart, rather than adding a nonessential detail about a person already identified?",
           "options": [
-            "Whom did the editor consult before publishing the summary?",
-            "Whom concluded that the evidence was incomplete?",
-            "The inspector whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?"
+            "The fact-checker, who verified the chart, requested a correction.",
+            "The fact-checker who verified the chart requested a correction.",
+            "The fact-checker, who verified the chart requested a correction.",
+            "The fact-checker who verified the chart, requested a correction."
           ],
-          "correctIndex": 0,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 1,
+          "explanation": "The unpunctuated restrictive relative clause selects one fact-checker from several. The comma versions suggest supplementary information or introduce improper punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the journalism ethics challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "False equivalence",
+          "text": "A columnist presents a peer-reviewed analysis and an unsupported social-media assertion as equally strong evidence because 'both are opinions.' Which objection targets the flaw?",
           "options": [
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena."
+            "Every peer-reviewed article must be correct.",
+            "The two claims should be evaluated by evidence and methods, not assigned equal credibility merely because both express positions.",
+            "Social-media sources are always false.",
+            "Readers should ignore any disagreement between sources."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Competing claims can differ substantially in evidentiary support. Peer review does not guarantee truth, and medium alone does not determine correctness; the method and evidence matter.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the journalism ethics challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Time sequence and causation",
+          "text": "A magazine claims a change in its comment policy reduced abusive posts. The same week, it also began automatically filtering flagged words. Which additional evidence would best separate the effects?",
           "options": [
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting."
+            "A comparison of similarly active comment groups exposed to different policy and filtering changes.",
+            "The editor's recollection of the week before the policy changed.",
+            "An increased number of reader compliments after the announcement.",
+            "A list of all articles published that month, without comment data."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "Separating exposure to policy and filtering changes helps distinguish their causal contributions. Recollection, compliments, and unrelated publishing counts do not identify which intervention worked.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the journalism ethics challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Logical scope of all",
+          "text": "A report states, 'Not all statements omitted from the transcript were false.' Which conclusion is logically required?",
           "options": [
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "A inspector describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event."
+            "Every omitted statement was true.",
+            "At least one omitted statement was not false.",
+            "No omitted statements were false.",
+            "The transcript contained every true statement."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 1,
+          "explanation": "Negating 'all omitted statements were false' entails at least one exception. It does not establish that all omissions were true or say anything about completeness of true statements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the journalism ethics challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Parallel attribution",
+          "text": "Which sentence maintains grammatical parallelism in a series describing the editorial board's responsibilities?",
           "options": [
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial policy."
+            "The board is responsible for checking citations, that headlines are fair, and to protect sources.",
+            "The board is responsible to check citations, fair headlines, and for protecting sources.",
+            "The board is responsible for checking citations, reviewing headlines for fairness, and protecting sources.",
+            "The board is responsible for citations checked, headlines reviewed fairly, and source protection."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 2,
+          "explanation": "Three coordinated -ing phrases follow 'responsible for' and each names an action. The other choices mix clauses, nouns, infinitives, and participles.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the journalism ethics challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Causal precision in revision",
+          "text": "An opinion piece says, 'The policy failed because complaint totals rose.' The population served grew by 50%, while complaints grew by 10%. Which revision is most accurate?",
           "options": [
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing."
+            "Complaints rose in absolute number, but the per-person complaint rate fell; totals alone do not establish failure.",
+            "The number of complaints proves that the policy failed.",
+            "Complaint rates increased by precisely 40%.",
+            "Any population change makes complaint data unusable."
           ],
-          "correctIndex": 1,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "A 10% rise in complaints divided by a 50% rise in population implies a lower per-person rate. Total counts are insufficient to establish failure, while the other claims distort or dismiss the comparison.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
@@ -4511,16 +4511,16 @@
         {
           "id": "LA10-C-1",
           "group": "usage",
-          "skill": "Engineering safety",
-          "text": "A factory tests a safety guard with experienced operators but recommends it for all new hires. Which extra trial would most strengthen the generalization?",
+          "skill": "Safety metric denominator",
+          "text": "A factory reports 12 injuries over 400,000 work hours before training and 10 injuries over 250,000 hours afterward. Which conclusion follows from these figures?",
           "options": [
-            "A product photograph taken at installation.",
-            "The guard's packaging materials.",
-            "A testimonial from the equipment supplier.",
-            "A trial involving novice workers under supervised real-use conditions."
+            "The injury rate fell because the raw number of injuries fell.",
+            "The injury rate rose from 30 to 40 injuries per million work hours.",
+            "The injury rate stayed constant because fewer hours yielded fewer injuries.",
+            "The rate cannot be calculated without knowing each worker's age."
           ],
-          "correctIndex": 3,
-          "explanation": "Skill and familiarity may change safety behavior. Trials with novice operators directly examine whether the benefit transfers.",
+          "correctIndex": 1,
+          "explanation": "Rates are 12/400,000 × 1,000,000 = 30 and 10/250,000 × 1,000,000 = 40 injuries per million hours. Counts alone obscure exposure.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -4528,16 +4528,16 @@
         {
           "id": "LA10-C-2",
           "group": "usage",
-          "skill": "Survivor bias",
-          "text": "A manufacturer surveys only machines that remain operational after five years and reports very low maintenance costs. What inference is unreliable?",
+          "skill": "Necessary and sufficient",
+          "text": "A safety manual says, 'Operating this machine requires current certification.' Which statement correctly translates the rule?",
           "options": [
-            "The surviving machines incurred the reported costs.",
-            "The sample may exclude units with costly early failures.",
-            "The study covers a five-year time span.",
-            "Operating machines can be inspected."
+            "Any certified employee must operate the machine.",
+            "If an employee operates the machine, that employee has current certification.",
+            "Current certification guarantees that operation is safe under every condition.",
+            "An employee without certification may operate the machine as long as someone watches."
           ],
           "correctIndex": 1,
-          "explanation": "Excluding failed or retired units omits potentially expensive cases and can bias lifecycle-cost estimates downward.",
+          "explanation": "Operating implies certification; certification is necessary but does not compel operation or guarantee safety. The other choices reverse or override the requirement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -4545,16 +4545,16 @@
         {
           "id": "LA10-C-3",
           "group": "usage",
-          "skill": "Industrial safety",
-          "text": "A factory's injury rate falls after replacing an assembly line, but the most hazardous jobs are outsourced at the same time. Why is attribution uncertain?",
+          "skill": "Scope of test evidence",
+          "text": "A manufacturer tests a guard under normal temperature and humidity, then declares it safe in all environments. What is the most precise criticism?",
           "options": [
-            "Outsourcing always increases injuries.",
-            "The factory may have shifted hazardous exposure outside the measured workforce.",
-            "A new assembly line cannot improve safety.",
-            "Injury rates do not depend on job type."
+            "The claim exceeds the tested conditions; extreme environments require additional evidence.",
+            "Normal-environment testing proves the guard unsafe in high humidity.",
+            "A guard tested indoors cannot protect any machine outdoors.",
+            "Because tests are limited, no safety claim can ever be made."
           ],
-          "correctIndex": 1,
-          "explanation": "Removing dangerous tasks from the denominator can reduce in-house injuries without proving safer execution of the same tasks.",
+          "correctIndex": 0,
+          "explanation": "The generalization to untested environments lacks evidence. Limited testing does not prove failure elsewhere or make all conditional safety claims impossible.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -4562,155 +4562,155 @@
         {
           "id": "LA10-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the engineering safety challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Dangling participle",
+          "text": "Which revision clearly states that the inspectors—not the machine—reviewed the incident logs before approving the repair?",
           "options": [
-            "The submission has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The submission is costly; therefore no one should examine its possible benefits."
+            "After reviewing the incident logs, the repair was approved by the inspectors.",
+            "Having reviewed the incident logs, the inspectors approved the repair.",
+            "Reviewed against the incident logs, the inspectors approved the repair.",
+            "The repair was approved, having reviewed the incident logs."
           ],
-          "correctIndex": 2,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 1,
+          "explanation": "The participial phrase must attach to the inspectors who performed the review. Passive constructions in the other choices grammatically misattach or obscure the agent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the engineering safety challenge scenario, Every approved review passed ethical review. A review passed ethical review. What follows?",
+          "skill": "Causal confounding",
+          "text": "Injuries decline after a new training program begins, but the plant also eliminates its most hazardous production shift. Which design best tests the program's contribution?",
           "options": [
-            "The review must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved review passed ethical review.",
-            "Approval is possible but not established by the ethical review alone."
+            "Compare only the safest remaining shift with itself.",
+            "Measure injury rates for comparable workers and exposure before and after training, accounting for shift elimination.",
+            "Ask managers whether they liked the new training videos.",
+            "Attribute the entire decline to whichever change occurred first."
           ],
-          "correctIndex": 3,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "Comparing matched exposure and accounting for shift removal can help isolate training effects. Preferences and mere timing do not provide causal identification.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the engineering safety challenge scenario, Only the inspectors who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Conditional exception",
+          "text": "A rule reads, 'Unless the emergency stop is functional, the line may not start.' Which inference is justified?",
           "options": [
-            "Every certified inspector supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Inspectors without certification supplied no data.",
-            "All eligible inspectors received certification."
+            "If the line starts permissibly, the emergency stop is functional.",
+            "A functional emergency stop requires that the line start.",
+            "Whenever the stop works, every other safety requirement is automatically met.",
+            "If the line does not start, the stop must be broken."
           ],
           "correctIndex": 0,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "Permissible starting requires a functioning emergency stop. The rule does not require starting when it works or imply that other requirements are satisfied.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the engineering safety challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Comparison class",
+          "text": "Which revision repairs the faulty comparison in 'The revised barrier's failure rate is lower than the old barrier'?",
           "options": [
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the document?",
-            "Whom concluded that the evidence was incomplete?",
-            "The reviewer whom presented the findings disagreed."
+            "The revised barrier's failure rate is lower than that of the old barrier.",
+            "The revised barrier's failure rate is lower than the old barrier was installed.",
+            "The revised barrier's failure rate is lower compared to the old workers.",
+            "The revised barrier's failure rate is the most lower than the old barrier."
           ],
-          "correctIndex": 1,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "'That of the old barrier' compares two failure rates rather than a rate with a physical object. The other versions are illogical or ungrammatical.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the engineering safety challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Interpreting confidence",
+          "text": "A report estimates that a redesigned component will fail in 0.8% of cycles, with a 95% confidence interval of 0.5%–1.4%. The company requires a verified failure rate below 1%. What is warranted?",
           "options": [
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete."
+            "The redesign is proven compliant because the point estimate is below 1%.",
+            "The available interval includes rates above 1%, so these results alone do not establish compliance with the threshold.",
+            "The true rate is 1.4% with 95% probability.",
+            "A 95% confidence interval means that exactly 95 out of 100 components will not fail."
           ],
-          "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 1,
+          "explanation": "The uncertainty interval crosses the 1% requirement; a below-threshold point estimate alone is insufficient. A confidence interval is not a posterior probability for one endpoint or a direct survival percentage.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the engineering safety challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Independent verification",
+          "text": "The supplier of a safety sensor provides a favorable demonstration, but an independent lab finds inconsistent readings. Which next step best resolves the disagreement?",
           "options": [
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement."
+            "Discard the independent results because the supplier designed the sensor.",
+            "Repeat blinded measurements under a prespecified protocol using calibrated reference instruments.",
+            "Average the suppliers' and lab's conclusions without reviewing the instruments.",
+            "Publicize the best result and postpone inspection of the methods."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "A controlled, repeatable protocol with calibration tests both instruments and measurement conditions. Authority, naive averaging, and selective reporting leave the disagreement unresolved.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the engineering safety challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Counterexample to universal claim",
+          "text": "A chief engineer says, 'Every inspected valve passed the pressure test.' Which observation would refute that statement?",
           "options": [
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "A reviewer describes the narrative as compelling."
+            "An uninspected valve fails the test.",
+            "One inspected valve fails the pressure test.",
+            "One inspected valve passes the test.",
+            "A valve passes an unrelated temperature test."
           ],
-          "correctIndex": 0,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 1,
+          "explanation": "A single inspected valve that fails is a counterexample to the universal assertion. Uninspected valves and other tests are outside its scope.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the engineering safety challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Punctuation of list",
+          "text": "Which sentence correctly introduces an explanation after a complete independent clause?",
           "options": [
-            "Accept only outcomes that support the initial submission.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists."
+            "The inspection identified three hazards: loose wiring, exposed gears, and an obstructed exit.",
+            "The inspection identified: three hazards, loose wiring, exposed gears, and an obstructed exit.",
+            "The inspection identified three hazards; loose wiring, exposed gears, and an obstructed exit.",
+            "The inspection identified three hazards, namely: loose wiring, exposed gears, and an obstructed exit."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "A colon appropriately follows the complete clause 'The inspection identified three hazards' to introduce an illustrative list. The alternatives place the colon after an incomplete expression or misuse the semicolon.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the engineering safety challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Restricted inference",
+          "text": "A pilot finds that experienced operators make fewer errors with a new control panel, but novice operators were excluded. Which recommendation best reflects the evidence?",
           "options": [
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first."
+            "Deploy the panel to every facility because experts' results necessarily generalize.",
+            "Reject the panel because no novices were tested.",
+            "Consider limited deployment for trained operators while conducting separate novice trials before general rollout.",
+            "Assume novices will show the same improvement after one day without testing."
           ],
           "correctIndex": 2,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "explanation": "The observed result supports a narrower recommendation for experienced operators. Expanding to novices requires evidence about a population absent from the pilot.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
