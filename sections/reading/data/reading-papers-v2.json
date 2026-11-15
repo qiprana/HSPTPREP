@@ -9263,9 +9263,9 @@
       "passages": [
         {
           "id": "R10-P1",
-          "title": "The Rooftop Telescope",
-          "genre": "science",
-          "text": "An astronomy club built a small rooftop observing station to study changes in the brightness of a star. Passing clouds caused sharp changes in the first readings, confusing the students' measurements. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nMembers added a cloud log and compared the star with a nearby reference star. After cloudy readings were excluded, the remaining measurements followed a more consistent pattern. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their collaborative approach involved examining the available information before making the next decision.\n\nThe telescope could not determine the star's distance or explain every fluctuation. The class shared its data with a larger observing network for independent comparison. Reliable results depend on recognizing sources of error as well as collecting observations. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Public Welfare and State Power",
+          "genre": "historical political argument",
+          "text": "HAVING shown that no one of the powers transferred to the federal government is unnecessary or improper, the next question to be considered is, whether the whole mass of them will be dangerous to the portion of authority left in the several States.\n\nThe adversaries to the plan of the convention, instead of considering in the first place what degree of power was absolutely necessary for the purposes of the federal government, have exhausted themselves in a secondary inquiry into the possible consequences of the proposed degree of power to the governments of the particular States. But if the Union, as has been shown, be essential to the security of the people of America against foreign danger; if it be essential to their security against contentions and wars among the different States; if it be essential to guard them against those violent and oppressive factions which embitter the blessings of liberty, and against those military establishments which must gradually poison its very fountain; if, in a word, the Union be essential to the happiness of the people of America, is it not preposterous, to urge as an objection to a government, without which the objects of the Union cannot be attained, that such a government may derogate from the importance of the governments of the individual States? Was, then, the American Revolution effected, was the American Confederacy formed, was the precious blood of thousands spilt, and the hard-earned substance of millions lavished, not that the people of America should enjoy peace, liberty, and safety, but that the government of the individual States, that particular municipal establishments, might enjoy a certain extent of power, and be arrayed with certain dignities and attributes of sovereignty? We have heard of the impious doctrine in the Old World, that the people were made for kings, not kings for the people. Is the same doctrine to be revived in the New, in another shape that the solid happiness of the people is to be sacrificed to the views of political institutions of a different form? It is too early for politicians to presume on our forgetting that the public good, the real welfare of the great body of the people, is the supreme object to be pursued; and that no form of government whatever has any other value than as it may be fitted for the attainment of this object. Were the plan of the convention adverse to the public happiness, my voice would be, Reject the plan. Were the Union itself inconsistent with the public happiness, it would be, Abolish the Union. In like manner, as far as the sovereignty of the States cannot be reconciled to the happiness of the people, the voice of every good citizen must be, Let the former be sacrificed to the latter. How far the sacrifice is necessary, has been shown. How far the unsacrificed residue will be endangered, is the question before us.",
           "term": [
             "collaborative",
             "cooperative",
@@ -9276,165 +9276,186 @@
           "questions": [
             {
               "id": "R10-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Rooftop Telescope\"?",
+              "type": "Thesis",
+              "prompt": "What principle does the writer place above the institutional prestige of either federal or state governments?",
               "choices": [
-                "The method (“Members added a cloud log and compared the star with a…”) rules out every possible competing explanation.",
-                "The recorded outcome (“After cloudy readings were excluded, the remaining…”) is treated as unrelated to the original investigation.",
-                "The concern (“Passing clouds caused sharp changes in the first…”) leads to inquiry, but “The telescope could not determine the star's distance or…” limits the inference.",
-                "The proposed response (“The class shared its data with a larger observing network…”) makes the original concern irrelevant."
+                "The preservation of every existing political office.",
+                "The maximization of taxes collected from each state.",
+                "The public good and welfare of the people whom institutions serve.",
+                "The power of military establishments."
               ],
               "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The telescope could not determine the star's distance or explain every fluctuation. prevents an overly broad conclusion.",
+              "explanation": "The author states that public welfare is the 'supreme object' and that government has value insofar as it achieves that purpose.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Rooftop Telescope\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Argument structure",
+              "prompt": "How does the writer characterize the opponents' emphasis on potential losses to state governments?",
               "choices": [
-                "Members added a cloud log and compared the star with a nearby reference star.",
-                "After cloudy readings were excluded, the remaining measurements followed a more consistent pattern.",
-                "The class shared its data with a larger observing network for independent comparison.",
-                "Passing clouds caused sharp changes in the first readings, confusing the students' measurements."
+                "As secondary to determining which powers are necessary for national security and welfare.",
+                "As the only legitimate constitutional question.",
+                "As evidence that the Union has no practical purposes.",
+                "As a demonstration that the national government already holds unlimited authority."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: Passing clouds caused sharp changes in the first readings, confusing the students' measurements. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "He criticizes opponents for foregrounding state-government effects before examining powers necessary to the Union's goals.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Rooftop Telescope\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Rhetorical technique",
+              "prompt": "Why does the writer ask whether the Revolution was fought to protect the 'dignities' of state governments?",
               "choices": [
-                "Members added a cloud log and compared the star with a nearby reference star.",
-                "Passing clouds caused sharp changes in the first readings, confusing the students' measurements.",
-                "After cloudy readings were excluded, the remaining measurements followed a more consistent pattern.",
-                "The telescope could not determine the star's distance or explain every fluctuation."
+                "To deny that the Revolution occurred.",
+                "To describe the wartime financial budget.",
+                "To recommend returning to monarchy.",
+                "To redirect the audience from institutional pride toward the people's sacrifices and intended benefits."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Members added a cloud log and compared the star with a nearby reference star. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The question contrasts sacrifice for peace and liberty with preserving governmental prestige, sharpening the normative appeal.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Rooftop Telescope\", rather than a procedure, caution, or policy response?",
+              "type": "Analogy",
+              "prompt": "What is the function of comparing a state-centered argument to the doctrine that people are made for kings?",
               "choices": [
-                "The class shared its data with a larger observing network for independent comparison.",
-                "After cloudy readings were excluded, the remaining measurements followed a more consistent pattern.",
-                "Members added a cloud log and compared the star with a nearby reference star.",
-                "The telescope could not determine the star's distance or explain every fluctuation."
+                "It shows that the federal system and monarchy are institutionally identical.",
+                "It criticizes the inversion of means and ends when political institutions are treated as more important than people.",
+                "It argues that kings should appoint state legislators.",
+                "It claims the American Revolution created a monarchy."
               ],
               "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: After cloudy readings were excluded, the remaining measurements followed a more consistent pattern. The other statements describe different stages of the inquiry.",
+              "explanation": "The analogy rejects treating institutions as ends in themselves rather than instruments for public welfare.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Rooftop Telescope\" from being generalized beyond the available evidence?",
+              "type": "Qualification",
+              "prompt": "What limits the author's support for the convention's plan?",
               "choices": [
-                "Members added a cloud log and compared the star with a nearby reference star.",
-                "The class shared its data with a larger observing network for independent comparison.",
-                "The telescope could not determine the star's distance or explain every fluctuation.",
-                "After cloudy readings were excluded, the remaining measurements followed a more consistent pattern."
+                "He says the plan should be rejected if it undermines public happiness.",
+                "He insists the plan must be retained even if it harms everyone.",
+                "He offers no criterion for evaluating government.",
+                "He supports abolishing state governments regardless of consequences."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The telescope could not determine the star's distance or explain every fluctuation. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "His explicit conditional 'Were the plan ... adverse to the public happiness ... Reject the plan' subjects institutional choices to a welfare standard.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Rooftop Telescope\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Conditional reasoning",
+              "prompt": "If the author accepts that some state authority remains compatible with public welfare, what follows from his stated principle?",
               "choices": [
-                "Passing clouds caused sharp changes in the first readings, confusing the students' measurements.",
-                "Members added a cloud log and compared the star with a nearby reference star.",
-                "After cloudy readings were excluded, the remaining measurements followed a more consistent pattern.",
-                "The class shared its data with a larger observing network for independent comparison."
+                "All state authority should nevertheless be destroyed.",
+                "Every federal power should automatically be expanded.",
+                "Only incompatible portions of state sovereignty require sacrifice under his argument.",
+                "The public should stop considering institutional design."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The class shared its data with a larger observing network for independent comparison. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "He advocates sacrificing state sovereignty only insofar as it cannot be reconciled to people's happiness, leaving a compatible residue.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Rooftop Telescope\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Tone",
+              "prompt": "Which description best captures the passage's argumentative tone?",
               "choices": [
-                "Initial concern: “Passing clouds caused sharp changes in the first…”; method: “Members added a cloud log and compared the star with a…”.",
-                "Initial concern: “Passing clouds caused sharp changes in the first…”; method: “The telescope could not determine the star's distance or…”.",
-                "Initial concern: “After cloudy readings were excluded, the remaining…”; method: “The class shared its data with a larger observing network…”.",
-                "Initial concern: “Members added a cloud log and compared the star with a…”; method: “After cloudy readings were excluded, the remaining…”."
+                "Detached reporting without evaluative language.",
+                "Forceful and morally urgent, using rhetorical questions to challenge a perceived inversion of priorities.",
+                "Humorous fiction detached from government.",
+                "A purely mathematical proof of constitutional provisions."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with Passing clouds caused sharp changes in the first readings, confusing the students' measurements. and the subsequent investigative procedure is Members added a cloud log and compared the star with a nearby reference star..",
+              "correctIndex": 1,
+              "explanation": "Terms such as 'preposterous' and repeated rhetorical questions establish a forceful persuasive stance.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Rooftop Telescope\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Counterargument",
+              "prompt": "What objection would most directly challenge the author's reasoning without misrepresenting it?",
               "choices": [
-                "The method (“Members added a cloud log and compared the star with a…”) guarantees the result before measurement.",
-                "The observation (“After cloudy readings were excluded, the remaining…”) matters, but the limit (“The telescope could not determine the star's distance or…”) remains.",
-                "The observation (“After cloudy readings were excluded, the remaining…”) rules out every alternative cause.",
-                "The limitation (“The telescope could not determine the star's distance or…”) disproves the observation itself."
+                "The public good should never enter constitutional debate.",
+                "The Revolution had no effect on state institutions.",
+                "Every political arrangement is equally effective.",
+                "The power retained by states might itself protect citizens' welfare against excessive central authority."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as After cloudy readings were excluded, the remaining measurements followed a more consistent pattern. but must be read alongside The telescope could not determine the star's distance or explain every fluctuation..",
+              "correctIndex": 3,
+              "explanation": "Because his ultimate standard is public welfare, a relevant counterargument argues that state authority may serve that same end.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Rooftop Telescope\" relate to the strength and limits of the earlier observations?",
+              "type": "Structure",
+              "prompt": "What question does the passage explicitly reserve for consideration at its end?",
               "choices": [
-                "The caveat (“The telescope could not determine the star's distance or…”) makes the observations worthless.",
-                "The observation (“After cloudy readings were excluded, the remaining…”) shows that measurement was unnecessary.",
-                "The response (“The class shared its data with a larger observing network…”) follows evidence but remains open to reassessment.",
-                "The response (“The class shared its data with a larger observing network…”) is proof of success in every setting."
+                "Whether the remaining state powers will be endangered by the proposed federal arrangement.",
+                "Whether all federal powers are unnecessary.",
+                "Whether the Revolution should have been fought.",
+                "Whether monarchy is preferable to republican government."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The class shared its data with a larger observing network for independent comparison.; the stated limit The telescope could not determine the star's distance or explain every fluctuation. still matters.",
+              "correctIndex": 0,
+              "explanation": "The conclusion distinguishes established necessity from the remaining issue of danger to unsacrificed state authority.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             },
             {
               "id": "R10-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Rooftop Telescope\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which statement best expresses the author's hierarchy of values?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Members added a cloud log and compared the star with a…”) while testing the concern (“The telescope could not determine the star's distance or…”)."
+                "State sovereignty always overrides national security.",
+                "National institutions possess inherent value regardless of citizens' lives.",
+                "Both state and federal authority are justified by their contribution to the people's well-being.",
+                "The Union must be abolished whenever a state objects."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, The telescope could not determine the star's distance or explain every fluctuation., while comparing evidence from the original method, Members added a cloud log and compared the star with a nearby reference star..",
+              "correctIndex": 2,
+              "explanation": "The author treats constitutional institutions as instruments for public happiness, rather than giving any level of government unconditional priority.",
               "passageId": "R10-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — federal authority and the welfare of citizens"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "HAVING shown that no one of the powers transferred to the federal government is unnecessary or ",
+            "end": "has been shown. How far the unsacrificed residue will be endangered, is the question before us."
+          },
+          "sourceReference": "ADV-10-P3",
+          "contextNote": "Historical constitutional argument. Evaluate the author's reasoning and rhetoric; the passage does not represent a neutral account of all competing positions."
         },
         {
           "id": "R10-P2",
