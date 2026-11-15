@@ -3215,9 +3215,9 @@
         },
         {
           "id": "R04-P2",
-          "title": "The Traveling Ceramic Bowl",
-          "genre": "history",
-          "text": "Archaeologists found a decorated bowl far from the region where its style first developed. Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nResearchers compared clay composition, trade goods, and styles from intermediate settlements. The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their cautious approach involved examining the available information before making the next decision.\n\nThe find did not reveal whether one person or many traders carried the bowl. The museum presented the object as evidence of exchange rather than proof of a particular journey. An artifact can show connections between communities without revealing every step of its movement. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Frankenstein — Creation and Revulsion",
+          "genre": "literature",
+          "text": "The different accidents of life are not so changeable as the feelings of human nature. I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body. For this I had deprived myself of rest and health. I had desired it with an ardour that far exceeded moderation; but now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart. Unable to endure the aspect of the being I had created, I rushed out of the room and continued a long time traversing my bed-chamber, unable to compose my mind to sleep. At length lassitude succeeded to the tumult I had before endured, and I threw myself on the bed in my clothes, endeavouring to seek a few moments of forgetfulness. But it was in vain; I slept, indeed, but I was disturbed by the wildest dreams. I thought I saw Elizabeth, in the bloom of health, walking in the streets of Ingolstadt. Delighted and surprised, I embraced her, but as I imprinted the first kiss on her lips, they became livid with the hue of death; her features appeared to change, and I thought that I held the corpse of my dead mother in my arms; a shroud enveloped her form, and I saw the grave-worms crawling in the folds of the flannel. I started from my sleep with horror; a cold dew covered my forehead, my teeth chattered, and every limb became convulsed; when, by the dim and yellow light of the moon, as it forced its way through the window shutters, I beheld the wretch--the miserable monster whom I had created. He held up the curtain of the bed; and his eyes, if eyes they may be called, were fixed on me. His jaws opened, and he muttered some inarticulate sounds, while a grin wrinkled his cheeks. He might have spoken, but I did not hear; one hand was stretched out, seemingly to detain me, but I escaped and rushed downstairs. I took refuge in the courtyard belonging to the house which I inhabited, where I remained during the rest of the night, walking up and down in the greatest agitation, listening attentively, catching and fearing each sound as if it were to announce the approach of the demoniacal corpse to which I had so miserably given life.\n\nOh! No mortal could support the horror of that countenance. A mummy again endued with animation could not be so hideous as that wretch. I had gazed on him while unfinished; he was ugly then, but when those muscles and joints were rendered capable of motion, it became a thing such as even Dante could not have conceived.\n\nI passed the night wretchedly. Sometimes my pulse beat so quickly and hardly that I felt the palpitation of every artery; at others, I nearly sank to the ground through languor and extreme weakness. Mingled with this horror, I felt the bitterness of disappointment; dreams that had been my food and pleasant rest for so long a space were now become a hell to me; and the change was so rapid, the overthrow so complete!",
           "term": [
             "cautious",
             "careful about risk",
@@ -3228,165 +3228,185 @@
           "questions": [
             {
               "id": "R04-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Traveling Ceramic Bowl\"?",
+              "type": "Internal conflict",
+              "prompt": "What causes the narrator's immediate emotional reversal after completing his project?",
               "choices": [
-                "The recorded outcome (“The bowl's clay matched workshops hundreds of miles away,…”) is treated as unrelated to the original investigation.",
-                "The concern (“Visitors assumed that the bowl proved an ancient merchant…”) leads to inquiry, but “The find did not reveal whether one person or many…” limits the inference.",
-                "The proposed response (“The museum presented the object as evidence of exchange…”) makes the original concern irrelevant.",
-                "The method (“Researchers compared clay composition, trade goods, and…”) rules out every possible competing explanation."
+                "He learns that his creation has been stolen.",
+                "His long-cherished ideal gives way to revulsion at the animated being's appearance.",
+                "His family publicly denounces his research.",
+                "He realizes he lacks the equipment needed to finish the experiment."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The find did not reveal whether one person or many traders carried the bowl. prevents an overly broad conclusion.",
+              "explanation": "The narrator says his dream's beauty vanished once the being was animated, replaced by horror and disgust. The text does not describe an external denunciation or missing apparatus.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Traveling Ceramic Bowl\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Narrative structure",
+              "prompt": "How does the opening sentence prepare the reader for the events that follow?",
               "choices": [
-                "Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone.",
-                "Researchers compared clay composition, trade goods, and styles from intermediate settlements.",
-                "The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes.",
-                "The museum presented the object as evidence of exchange rather than proof of a particular journey."
+                "It introduces the contrast between external events and rapidly changing inner feelings.",
+                "It argues that the natural world is too stable to affect anyone.",
+                "It forecasts a journey to a different country.",
+                "It denies that the narrator's emotions can change over time."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone. The other choices describe what was done or discovered afterward.",
+              "explanation": "The opening generalization about changing feelings anticipates the sharp reversal from ambition to disgust.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Traveling Ceramic Bowl\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Symbolism",
+              "prompt": "How does the dream involving Elizabeth and the narrator's dead mother deepen the scene?",
               "choices": [
-                "The find did not reveal whether one person or many traders carried the bowl.",
-                "Researchers compared clay composition, trade goods, and styles from intermediate settlements.",
-                "Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone.",
-                "The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes."
+                "It establishes that Elizabeth has already died.",
+                "It proves the creature deliberately caused the dream.",
+                "It merges imagined intimacy and vitality with death, reflecting the narrator's disturbed response to creation.",
+                "It shows that the narrator has forgotten his family's identity."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Researchers compared clay composition, trade goods, and styles from intermediate settlements. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The kiss turning into a corpse creates an image in which affection and life become death; the dream reflects psychological horror rather than reporting literal events.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Traveling Ceramic Bowl\", rather than a procedure, caution, or policy response?",
+              "type": "Narrative perspective",
+              "prompt": "What limits the reader's understanding of the creature's attempt to communicate?",
               "choices": [
-                "The find did not reveal whether one person or many traders carried the bowl.",
-                "The museum presented the object as evidence of exchange rather than proof of a particular journey.",
-                "The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes.",
-                "Researchers compared clay composition, trade goods, and styles from intermediate settlements."
+                "The account is written by an observer who could clearly understand the creature's words.",
+                "The narrator reports opening jaws and sounds but flees without hearing or interpreting any possible speech.",
+                "The creature is described as remaining completely silent and motionless.",
+                "An independent narrator confirms the creature intended harm."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The narrator explicitly states 'He might have spoken, but I did not hear'; fear obstructs interpretation of the creature's intention.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Traveling Ceramic Bowl\" from being generalized beyond the available evidence?",
+              "type": "Evidence and inference",
+              "prompt": "Which interpretation of the creature's outstretched hand is most defensible?",
               "choices": [
-                "The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes.",
-                "Researchers compared clay composition, trade goods, and styles from intermediate settlements.",
-                "The museum presented the object as evidence of exchange rather than proof of a particular journey.",
-                "The find did not reveal whether one person or many traders carried the bowl."
+                "It conclusively proves the creature meant to attack.",
+                "It establishes the creature recognized Elizabeth.",
+                "It shows that the creature could speak fluently.",
+                "It might indicate a wish to stop or contact the narrator, but the precise intention is uncertain."
               ],
               "correctIndex": 3,
-              "explanation": "The limitation is: The find did not reveal whether one person or many traders carried the bowl. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The narration describes the gesture as 'seemingly to detain me,' qualifying its meaning; flight prevents a clearer account.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Traveling Ceramic Bowl\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Literary allusion",
+              "prompt": "What does the narrator's reference to Dante principally accomplish?",
               "choices": [
-                "The museum presented the object as evidence of exchange rather than proof of a particular journey.",
-                "Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone.",
-                "Researchers compared clay composition, trade goods, and styles from intermediate settlements.",
-                "The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes."
+                "It intensifies the creature's apparent horror by claiming even a renowned imaginative writer could not have conceived it.",
+                "It identifies the creature's nationality.",
+                "It provides a scientific classification of the creature's anatomy.",
+                "It demonstrates the narrator values poetry over his scientific work."
               ],
               "correctIndex": 0,
-              "explanation": "The subsequent response was: The museum presented the object as evidence of exchange rather than proof of a particular journey. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The reference is hyperbolic and comparative, stressing the narrator's experience of unimaginable ugliness rather than offering scientific evidence.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Traveling Ceramic Bowl\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Diction and tone",
+              "prompt": "What is the effect of the phrases 'wretch' and 'demoniacal corpse' in the narrator's description?",
               "choices": [
-                "Initial concern: “Researchers compared clay composition, trade goods, and…”; method: “The bowl's clay matched workshops hundreds of miles away,…”.",
-                "Initial concern: “Visitors assumed that the bowl proved an ancient merchant…”; method: “Researchers compared clay composition, trade goods, and…”.",
-                "Initial concern: “Visitors assumed that the bowl proved an ancient merchant…”; method: “The find did not reveal whether one person or many…”.",
-                "Initial concern: “The bowl's clay matched workshops hundreds of miles away,…”; method: “The museum presented the object as evidence of exchange…”."
+                "They establish that the creature is legally guilty of a crime.",
+                "They replace a neutral description with language that reveals the narrator's fear and moral disgust.",
+                "They show that the creature was never alive.",
+                "They prove that the narrator has accurately inferred the creature's thoughts."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with Visitors assumed that the bowl proved an ancient merchant had traveled the entire distance alone. and the subsequent investigative procedure is Researchers compared clay composition, trade goods, and styles from intermediate settlements..",
+              "explanation": "The charged epithets reveal the speaker's emotional stance; they do not establish the creature's actions or intentions.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Traveling Ceramic Bowl\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Causal reversal",
+              "prompt": "Why is the narrator's exhaustion unable to bring restorative sleep?",
               "choices": [
-                "The limitation (“The find did not reveal whether one person or many…”) disproves the observation itself.",
-                "The method (“Researchers compared clay composition, trade goods, and…”) guarantees the result before measurement.",
-                "The observation (“The bowl's clay matched workshops hundreds of miles away,…”) matters, but the limit (“The find did not reveal whether one person or many…”) remains.",
-                "The observation (“The bowl's clay matched workshops hundreds of miles away,…”) rules out every alternative cause."
+                "He has taken a vow not to sleep.",
+                "He must continue scientific measurements through the night.",
+                "His mind remains disturbed, transforming hoped-for forgetfulness into terrifying dreams.",
+                "The creature has physically destroyed his bed."
               ],
               "correctIndex": 2,
-              "explanation": "The result is reported as The bowl's clay matched workshops hundreds of miles away, while similar objects appeared along several routes. but must be read alongside The find did not reveal whether one person or many traders carried the bowl..",
+              "explanation": "Lassitude prompts him to seek rest, but the dreams reproduce the anxiety from which he tries to escape.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Traveling Ceramic Bowl\" relate to the strength and limits of the earlier observations?",
+              "type": "Thematic tension",
+              "prompt": "Which unresolved ethical question is most strongly suggested by the narrator's retreat from his creation?",
               "choices": [
-                "The response (“The museum presented the object as evidence of exchange…”) is proof of success in every setting.",
-                "The caveat (“The find did not reveal whether one person or many…”) makes the observations worthless.",
-                "The observation (“The bowl's clay matched workshops hundreds of miles away,…”) shows that measurement was unnecessary.",
-                "The response (“The museum presented the object as evidence of exchange…”) follows evidence but remains open to reassessment."
+                "Whether artistic imagination is always better than experimentation.",
+                "Whether dreams can reliably predict real deaths.",
+                "Whether the creature is a supernatural being rather than a living body.",
+                "Whether a creator's responsibility persists even when the result inspires fear or disappointment."
               ],
               "correctIndex": 3,
-              "explanation": "The findings informed The museum presented the object as evidence of exchange rather than proof of a particular journey.; the stated limit The find did not reveal whether one person or many traders carried the bowl. still matters.",
+              "explanation": "The narrator completes a long-sought act of creation but immediately flees its consequence. The passage invites the question of responsibility without resolving it.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             },
             {
               "id": "R04-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Traveling Ceramic Bowl\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which statement most accurately captures the passage's progression?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Researchers compared clay composition, trade goods, and…”) while testing the concern (“The find did not reveal whether one person or many…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "A celebrated achievement is followed by public acclaim and deliberate reflection.",
+                "An obsessive ambition culminates in animation, then disintegrates into revulsion, dream horror, and escape.",
+                "A scientist seeks a cure for illness and discovers his effort was unnecessary.",
+                "An experiment fails completely, forcing the narrator to restart his research."
               ],
-              "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The find did not reveal whether one person or many traders carried the bowl., while comparing evidence from the original method, Researchers compared clay composition, trade goods, and styles from intermediate settlements..",
+              "correctIndex": 1,
+              "explanation": "The animation succeeds technically but becomes an emotional catastrophe. The narrator's dreams and flight complete that reversal.",
               "passageId": "R04-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Victor's account immediately after creation"
             }
-          ]
+          ],
+          "source": {
+            "work": "Frankenstein",
+            "author": "Mary Shelley",
+            "year": 1818,
+            "url": "https://www.gutenberg.org/ebooks/84",
+            "rights": "Public domain in United States",
+            "start": "The different accidents of life are not so changeable as the feelings of human nature. I had wo",
+            "end": "g a space were now become a hell to me; and the change was so rapid, the overthrow so complete!"
+          },
+          "sourceReference": "ADV-04-P1"
         },
         {
           "id": "R04-P3",
