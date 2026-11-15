@@ -69,6 +69,31 @@ async function run(){
   assert.ok((await page.locator('#dashboard').innerText()).includes('✓ Full test submitted'));
   assert.ok(await page.locator('#days .day.done').count(),'Full Language day should have completion checkmark');
   console.log('PASS: Language 23 practice, 12 challenge, and 60 test questions; reload and completed indicators.');
+
+  await page.locator('#challengeBtn').click();
+  assert.match(await page.locator('#timer').innerText(),/^8:00$/);
+  await page.locator('#submit').click();
+  assert.match(await page.locator('#workspace').innerText(),/ADVANCED CHALLENGE RESULTS/i);
+  await page.locator('#again').click();
+  await page.evaluate(()=>{seconds=1;});
+  await page.waitForFunction(()=>finished===true,{timeout:5000});
+  assert.match(await page.locator('#workspace').innerText(),/Time expired; answers were scored/i);
+  await page.reload();
+  await page.waitForFunction(()=>{const b=document.getElementById('testBtn');return b&&!b.disabled;});
+  assert.ok(await page.locator('#days .day.done').count(),'Retaking or timing out Language challenge must retain completion');
+  console.log('PASS: Language real UI submit, retake, timer expiry and persistence.');
+
+  // Boundary coverage: last configured day loads the intended number of questions.
+  await page.goto(ROOT+'/reading-skills.html?day=20',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.getElementById('testBtn')?.disabled===false);
+  await page.locator('#testBtn').click();
+  assert.match(await page.locator('#workspace').innerText(),/Question 1 of 62/);
+  await page.goto(ROOT+'/language.html?day=20',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.getElementById('testBtn')?.disabled===false);
+  await page.locator('#testBtn').click();
+  assert.match(await page.locator('#workspace').innerText(),/Question 1 of 60/);
+  console.log('PASS: Both subject day-20 paper endpoints load.');
+
   await page.goto(ROOT+'/index.html',{waitUntil:'load'});
   await page.evaluate(()=>{examSection='reading';setPage('exam');});
   const readingInfo=await page.locator('#readingPilotLink').innerText();
