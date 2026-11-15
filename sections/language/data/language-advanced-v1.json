@@ -3262,138 +3262,138 @@
         {
           "id": "LA07-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the civic administration test scenario, Which comparison is logically parallel?",
+          "skill": "Representative sampling",
+          "text": "A council holds a listening session about a new bus route exclusively at 2 p.m. on a weekday. Which proposed change most improves its ability to assess the views of evening-shift workers?",
           "options": [
-            "The revised document's conclusion is more cautious than the author of the first program.",
-            "The revised document's conclusion is more cautious than that of the earlier document.",
-            "The revised document's conclusion is more cautious than the earlier research team.",
-            "The revised document's conclusion is more cautious than the university."
+            "Extend the meeting by an hour during the same afternoon.",
+            "Recruit participants across work schedules using multiple contact methods.",
+            "Count the statements from each attendee twice.",
+            "Ask speakers to state whether they already use the bus."
           ],
           "correctIndex": 1,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "explanation": "Contacting residents across schedules addresses the exclusion mechanism directly. Longer meetings at the same inaccessible time and duplicated responses do not remedy missing representation.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA07-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the civic administration test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Competing explanations",
+          "text": "Bus delays decline immediately after the city adds express lanes; meanwhile, a major employer closes its downtown office. Which claim is defensible?",
           "options": [
-            "The readers agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The readers agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The readers agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The readers agreed to examine assumptions, evaluating evidence, and a revision of conclusions."
+            "The express lanes must have caused the entire decline.",
+            "The office closure proves the express lanes had no effect.",
+            "The decline could reflect both lower travel demand and the new lanes, so more evidence is needed to isolate effects.",
+            "Any decline in delays establishes that the bus system is financially sustainable."
           ],
           "correctIndex": 2,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "explanation": "Concurrent demand and infrastructure changes both plausibly affect delays. The measured association cannot identify a single causal contribution without additional controls.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the civic administration test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Editing numerical claims",
+          "text": "A city survey reports that support for a policy increased from 41% to 47%. Which revision makes the size of the change mathematically precise?",
           "options": [
-            "The document evaluated: three issues, reliability, validity, and replicability.",
-            "The document evaluated three issues; reliability, validity, and replicability.",
-            "The document evaluated three issues, reliability: validity, and replicability.",
-            "The document evaluated three issues: reliability, validity, and replicability."
+            "Support increased by six percentage points.",
+            "Support increased by six percent of the earlier support.",
+            "Support increased by forty-seven percentage points.",
+            "Support more than doubled in the latest survey."
           ],
-          "correctIndex": 3,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 0,
+          "explanation": "A rise from 41% to 47% equals six percentage points, whereas a percent increase relative to the baseline is approximately 14.6%. The other options confuse measures of change.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the civic administration test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Ambiguous relative clause",
+          "text": "The city employs multiple auditors. Which sentence unambiguously identifies the auditor who reviewed the revenue projections?",
           "options": [
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it."
+            "The auditor, who reviewed the projections, spoke to the board.",
+            "The auditor who reviewed the projections spoke to the board.",
+            "The auditor, who reviewed the projections spoke to the board.",
+            "The auditor who reviewed the projections, spoke to the board."
           ],
-          "correctIndex": 0,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 1,
+          "explanation": "With multiple possible auditors, a restrictive relative clause identifies one without commas. The other versions treat the clause as extra information or separate subject from verb.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the civic administration test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Defensible inference",
+          "text": "The permit policy states that any approved application includes a fire inspection certificate. Which statement is logically supported?",
           "options": [
-            "A rejected program could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review."
+            "A certificate by itself guarantees permit approval.",
+            "An approved application lacking a certificate would violate the stated policy.",
+            "Every application with a certificate is approved.",
+            "The fire department approves every application it inspects."
           ],
           "correctIndex": 1,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "explanation": "Approval entails an inspection certificate, making the certificate necessary, not sufficient. The other choices reverse the implication or invent an approval rule.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-6",
           "group": "composition",
-          "skill": "External validity",
-          "text": "In the civic administration test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Parallel construction",
+          "text": "Choose the sentence that lists the planning committee's three responsibilities in a grammatically parallel manner.",
           "options": [
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original document.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants."
+            "The committee must review forecasts, budget revisions, and it should monitor risks.",
+            "The committee must review forecasts, revise budgets, and monitor risks.",
+            "The committee must review forecasts, revision of budgets, and monitoring risks.",
+            "The committee must review forecasts, budgets revised, and risk monitoring."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 1,
+          "explanation": "Three coordinated base-form verbs follow 'must,' keeping actions parallel. The other choices mix verb phrases, clauses, and noun constructions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-7",
           "group": "composition",
-          "skill": "Synthesis",
-          "text": "In the civic administration test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Concession with evidence",
+          "text": "A proposed street design would increase construction costs but may reduce collision risk. Which sentence develops a balanced argument?",
           "options": [
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
+            "Although the design costs more initially, independent safety estimates suggest its potential benefits merit a controlled trial.",
+            "Because safety matters, cost estimates can be ignored entirely.",
+            "Higher costs prove the design is ineffective.",
+            "The design's benefits are certain because its supporters describe them confidently."
           ],
-          "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "The concession recognizes real costs while grounding possible benefits in estimates and recommending verification. The distractors rely on certainty or ignore material tradeoffs.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-T-8",
           "group": "composition",
-          "skill": "Evidence appraisal",
-          "text": "In the civic administration test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Rate rather than count",
+          "text": "A county records 25 road incidents among 5,000 annual crossings and later records 30 among 10,000 crossings. Which conclusion correctly compares risk per crossing?",
           "options": [
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph."
+            "The risk increased because the number of incidents rose.",
+            "The rate fell from 5 to 3 incidents per thousand crossings.",
+            "The risk stayed fixed because both totals increased.",
+            "The incidents provide no information about rates without the weather."
           ],
-          "correctIndex": 0,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 1,
+          "explanation": "The earlier rate is 25/5,000 = 5 per thousand crossings, versus 30/10,000 = 3 per thousand. Raw counts rise even as exposure-adjusted rates fall.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
@@ -3747,138 +3747,138 @@
         {
           "id": "LA08-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the ecological restoration test scenario, Which comparison is logically parallel?",
+          "skill": "Alternative hypothesis",
+          "text": "A team restores a wetland and observes fewer mosquitoes that summer, while the region also experiences an unusually dry season. What would best distinguish the restoration effect from weather?",
           "options": [
-            "The revised paper's conclusion is more cautious than the university.",
-            "The revised paper's conclusion is more cautious than the author of the first pilot.",
-            "The revised paper's conclusion is more cautious than that of the earlier paper.",
-            "The revised paper's conclusion is more cautious than the earlier research team."
+            "Compare similarly exposed restored and unrestored wetlands across multiple seasons.",
+            "Ask project volunteers whether they dislike mosquitoes.",
+            "Compare restored wetlands only with the previous year's photographs.",
+            "Assume weather cannot affect mosquito populations."
           ],
-          "correctIndex": 2,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 0,
+          "explanation": "Matched restored and unrestored sites across seasons can help separate restoration from regional weather. Opinions and photographs cannot isolate causal changes.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA08-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the ecological restoration test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Conditional necessity",
+          "text": "An environmental permit states that excavation may begin only after a groundwater assessment is approved. What follows if excavation begins in full compliance?",
           "options": [
-            "The critics agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The critics agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The critics agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The critics agreed to examine assumptions, evaluate evidence, and revise conclusions."
+            "An approved assessment preceded excavation.",
+            "Any approved assessment requires immediate excavation.",
+            "The permit exempts excavation from all other restrictions.",
+            "An assessment is unnecessary if excavation is brief."
           ],
-          "correctIndex": 3,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 0,
+          "explanation": "'Only after' makes the approved assessment necessary for compliant excavation. It neither compels excavation nor waives other requirements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the ecological restoration test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Punctuation of supplementary detail",
+          "text": "A report refers to a uniquely named monitoring station, Station Orion. Which sentence correctly treats its opening year as supplementary information?",
           "options": [
-            "The paper evaluated three issues: reliability, validity, and replicability.",
-            "The paper evaluated: three issues, reliability, validity, and replicability.",
-            "The paper evaluated three issues; reliability, validity, and replicability.",
-            "The paper evaluated three issues, reliability: validity, and replicability."
+            "Station Orion which opened in 2019, recorded the highest salinity.",
+            "Station Orion, which opened in 2019, recorded the highest salinity.",
+            "Station Orion, which opened in 2019 recorded, the highest salinity.",
+            "Station Orion which, opened in 2019 recorded the highest salinity."
           ],
-          "correctIndex": 0,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 1,
+          "explanation": "The nonrestrictive clause 'which opened in 2019' is enclosed by commas. The other versions omit or misplace necessary clause boundaries.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the ecological restoration test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Statistical scope",
+          "text": "Investigators find that 18 of 20 sampled plots contain native grasses after restoration. Which conclusion stays within the collected evidence?",
           "options": [
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it."
+            "All restored plots in the watershed contain native grasses.",
+            "Ninety percent of the sampled plots contained native grasses at the time of observation.",
+            "Ninety percent of all regional land will contain native grasses next year.",
+            "The restoration must have caused native grasses to appear in every observed plot."
           ],
           "correctIndex": 1,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "18/20 = 90% describes the sample at that time. Generalizing to all plots, future observations, or a unique causal explanation requires additional evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the ecological restoration test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Modifier precision",
+          "text": "The sentence 'After examining the water samples, the contamination was reported by the chemist' contains a dangling modifier. Which revision fixes the agent?",
           "options": [
-            "Every consent form results in review.",
-            "A rejected pilot could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance."
+            "After examining the water samples, the chemist reported the contamination.",
+            "After examining the water samples, the contamination received a report.",
+            "The contamination, examining the water samples, was reported.",
+            "Having examined the samples, contamination was reported."
           ],
-          "correctIndex": 2,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "The chemist, who performed the examination, directly follows the introductory participial phrase. The other versions attach the action to contamination.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the ecological restoration test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Choosing a meaningful control",
+          "text": "A scientist tests a new filtration material and wants a credible baseline for dissolved metal levels. Which comparison most directly measures the material's added effect?",
           "options": [
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original paper.",
-            "Comparable results in independently selected, diverse samples."
+            "Water filtered through the new material versus comparable water passed through an otherwise identical apparatus without the material.",
+            "Filtered water compared with photographs of the stream from a decade earlier.",
+            "The new material's retail price compared with another supplier's price.",
+            "Opinions of laboratory employees who designed the material."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 0,
+          "explanation": "An otherwise identical apparatus without the experimental material isolates the material's contribution. Historical images, price, and opinion do not measure removal of dissolved metals.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the ecological restoration test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Appropriate word choice",
+          "text": "A research summary says a new wetland channel 'proved' improved habitat quality, but only water temperature was measured. Which replacement most accurately limits the claim?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible."
+            "demonstrated unequivocally",
+            "suggested a change in one habitat-related measure",
+            "established all ecological effects permanently",
+            "confirmed the absence of measurement error"
           ],
-          "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 1,
+          "explanation": "A single measured variable may suggest an aspect of environmental change but cannot prove overall habitat quality. The remaining choices imply stronger evidence than was collected.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the ecological restoration test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Synthesis across measures",
+          "text": "A restored pond shows greater vegetation cover but lower amphibian counts after one season. Which conclusion handles both findings without forcing them into agreement?",
           "options": [
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance."
+            "The restoration succeeded in every respect.",
+            "Vegetation and amphibian outcomes moved in different directions, so the ecological effects require further investigation.",
+            "The amphibian observations must be inaccurate because vegetation increased.",
+            "Amphibian populations will certainly recover next season."
           ],
           "correctIndex": 1,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "explanation": "The evidence describes distinct outcomes and does not justify declaring overall success, dismissing a measurement, or predicting inevitable future recovery.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
