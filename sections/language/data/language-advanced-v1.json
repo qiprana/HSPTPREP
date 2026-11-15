@@ -2137,155 +2137,155 @@
         {
           "id": "LA05-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the literary criticism challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Literary concession",
+          "text": "Which sentence most effectively concedes a limitation of a novel while defending a particular literary achievement?",
           "options": [
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The draft is costly; therefore no one should examine its possible benefits.",
-            "The draft has no drawbacks, so opponents must be irrational."
+            "Although the novel's pacing falters in the middle chapters, its shifting perspectives make the final revelation ethically unsettling.",
+            "The novel is perfect even though it has no meaningful characters.",
+            "Some reviewers dislike the novel, proving that their opinions are invalid.",
+            "The novel is long and therefore objectively more sophisticated than shorter books."
           ],
-          "correctIndex": 1,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "The first choice specifies a genuine weakness and a distinct strength, establishing a nuanced judgment. The others substitute absolutism, dismissal or unsupported length-based evaluation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the literary criticism challenge scenario, Every approved project passed ethical review. A project passed ethical review. What follows?",
+          "skill": "Inference from a review",
+          "text": "A review states that an unreliable narrator's omissions become evident only after a final letter is revealed. Which inference is warranted?",
           "options": [
-            "Ethical review was unnecessary.",
-            "No approved project passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The project must have been approved."
+            "The author necessarily deceived readers about every event.",
+            "Readers may need to reinterpret earlier narration in light of later evidence.",
+            "The letter proves that first-person narrators are always dishonest.",
+            "The narrator's motives are irrelevant to the story's structure."
           ],
-          "correctIndex": 2,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "A delayed disclosure can invite reinterpretation of earlier testimony, without establishing wholesale fabrication or universal properties of narration.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the literary criticism challenge scenario, Only the historians who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Quantifier precision",
+          "text": "A report states: 'Only some students who finished the novel also completed the optional essay.' Which conclusion is justified?",
           "options": [
-            "Every raw-data supplier was certified.",
-            "Historians without certification supplied no data.",
-            "All eligible historians received certification.",
-            "Every certified historian supplied raw data."
+            "Every student completed the essay.",
+            "No student completed the essay.",
+            "At least one finisher completed the essay, but completion was not universal among finishers.",
+            "Most students who did not finish the novel completed the essay."
           ],
-          "correctIndex": 3,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 2,
+          "explanation": "'Only some' ordinarily conveys a nonempty subset short of the whole. It does not establish a majority or describe students outside that group.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the literary criticism challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Case in complex clause",
+          "text": "Which sentence uses the pronoun required by formal English grammar?",
           "options": [
-            "Whom did the editor consult before publishing the submission?",
-            "Whom concluded that the evidence was incomplete?",
-            "The planner whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?"
+            "The editor, whom the committee believed would win, declined the prize.",
+            "The editor, who the committee believed would win, declined the prize.",
+            "The editor, whom would win according to the committee, declined the prize.",
+            "The editor, who's the committee expected to win, declined the prize."
           ],
-          "correctIndex": 0,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 1,
+          "explanation": "'Who' functions as subject of 'would win,' despite the intervening 'the committee believed.' Object-case 'whom' is therefore inappropriate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-8",
           "group": "composition",
-          "skill": "Ambiguous reference",
-          "text": "In the literary criticism challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Modifier attachment",
+          "text": "Which revision states unambiguously that the critic used archival letters, not the poet, to write the biography?",
           "options": [
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena."
+            "Using archival letters, the critic reconstructed the poet's biography.",
+            "The critic reconstructed the poet's biography using her letters.",
+            "Using archival letters, the poet's biography was reconstructed by the critic.",
+            "The critic wrote the biography of the poet who used archival letters."
           ],
-          "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "The opening participial phrase modifies the immediately following subject 'the critic.' Other versions create a dangling modifier or attach the letters to the wrong person.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-9",
           "group": "composition",
-          "skill": "Claim calibration",
-          "text": "In the literary criticism challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Correlation and causation",
+          "text": "A district's literature scores improve after students receive free books, but its assessment also becomes shorter. Which conclusion is defensible?",
           "options": [
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting."
+            "The books alone caused the entire score increase.",
+            "The shorter exam could account for some score change, so the effect of book access remains uncertain.",
+            "The new exam was necessarily harder because it had fewer questions.",
+            "The books could not benefit anyone unless all students improved."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "A concurrent assessment redesign threatens comparability of scores. A causal effect of free books cannot be isolated by the before–after comparison.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-10",
           "group": "composition",
-          "skill": "Source evaluation",
-          "text": "In the literary criticism challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Evidence quality",
+          "text": "Which source best tests a claim that a translated poem preserves the original's meter?",
           "options": [
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "A planner describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event."
+            "A review written by someone who read only the translation.",
+            "A publisher's promotional tagline.",
+            "An annotated comparison of both language versions by a specialist who identifies metrical patterns.",
+            "A poll measuring which version students find more enjoyable."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 2,
+          "explanation": "A metrical claim needs evidence about rhythm and structure in both texts, not impressions of enjoyment or marketing.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-11",
           "group": "composition",
-          "skill": "Policy judgment",
-          "text": "In the literary criticism challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Curriculum policy",
+          "text": "A school finds that a difficult novel improves analytical writing but discourages some novice readers. Which recommendation best integrates both results?",
           "options": [
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial draft."
+            "Remove the novel before examining why students struggled.",
+            "Require the novel with no scaffolding because strong writers benefited.",
+            "Offer guided reading supports and monitor outcomes for both experienced and novice readers.",
+            "Replace all other reading with the same novel."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 2,
+          "explanation": "Structured support addresses accessibility while preserving potentially valuable rigor, and tracking subgroups tests whether the intervention works broadly.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-12",
           "group": "composition",
-          "skill": "Competing hypotheses",
-          "text": "In the literary criticism challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Competing explanations",
+          "text": "Students write more nuanced essays after a seminar series, but the teacher also changes the grading rubric. What study best evaluates the seminar's contribution?",
           "options": [
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing."
+            "Use the same rubric to grade comparable writing before and after the seminars, ideally with a comparison class.",
+            "Count how often the teacher mentions the seminars in feedback.",
+            "Assume the seminars worked because students say they enjoyed them.",
+            "Compare the new scores only with students' scores on unrelated subjects."
           ],
-          "correctIndex": 1,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "A stable rubric and appropriate comparison distinguish real writing changes from grading changes; popularity and unrelated marks do not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
@@ -2622,155 +2622,155 @@
         {
           "id": "LA06-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the public education challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession in argument",
+          "text": "Which statement acknowledges an important concern about an online tutoring program while offering a testable response?",
           "options": [
-            "The scheme has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The scheme is costly; therefore no one should examine its possible benefits."
+            "Although online tutoring may widen access, access gaps can be measured and addressed with loaned devices and offline alternatives.",
+            "Online tutoring always solves inequality because lessons are digital.",
+            "Any technical difficulty proves that all tutoring should stop.",
+            "Device ownership is irrelevant because grades eventually increase."
           ],
-          "correctIndex": 2,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "The first choice recognizes a plausible barrier and proposes concrete measures whose effectiveness can be observed; the alternatives rely on categorical claims.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-5",
           "group": "usage",
           "skill": "Necessary versus sufficient",
-          "text": "In the public education challenge scenario, Every approved trial passed ethical review. A trial passed ethical review. What follows?",
+          "text": "A student may graduate with honors only if the research project receives a passing evaluation. Which inference is valid?",
           "options": [
-            "The trial must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved trial passed ethical review.",
-            "Approval is possible but not established by the ethical review alone."
+            "Passing the research project guarantees graduation with honors.",
+            "Not passing the project rules out graduating with honors under this policy.",
+            "Graduating with honors allows a student to skip evaluation.",
+            "Every student who submits a project graduates with honors."
           ],
-          "correctIndex": 3,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "The evaluation is a necessary condition. Failing it rules out honors, while passing alone does not guarantee honors.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the public education challenge scenario, Only the consultants who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Quantified evidence",
+          "text": "A report finds that 'not every class receiving new textbooks had higher scores.' Which finding would satisfy that statement?",
           "options": [
-            "Every certified consultant supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Consultants without certification supplied no data.",
-            "All eligible consultants received certification."
+            "One textbook-receiving class showed unchanged scores, even if other classes improved.",
+            "Every class improved after receiving textbooks.",
+            "No classes received textbooks.",
+            "Only classes without textbooks were surveyed."
           ],
           "correctIndex": 0,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "A universal improvement claim is refuted by one receiving class without higher scores. The condition need not describe the behavior of other classes.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the public education challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Subjunctive mood",
+          "text": "Which revision maintains the correct hypothetical meaning of a present condition contrary to fact?",
           "options": [
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the account?",
-            "Whom concluded that the evidence was incomplete?",
-            "The examiner whom presented the findings disagreed."
+            "If the tutor was available yesterday, she will help tomorrow.",
+            "If the tutor were available now, she could help the student before the exam.",
+            "If the tutor had been available yesterday, she helps now.",
+            "If the tutor will be available now, she could have helped yesterday."
           ],
           "correctIndex": 1,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "explanation": "'Were' with 'could' expresses an unreal or hypothetical present condition and plausible present consequence. Other constructions mix time frames.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the public education challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Ambiguous ownership",
+          "text": "The principal told the counselor that her attendance report needed revision. Which replacement makes the principal's report the one needing revision?",
           "options": [
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete."
+            "The principal told the counselor, 'Your attendance report needs revision.'",
+            "The counselor heard that she should revise her attendance report.",
+            "The principal told the counselor, 'My attendance report needs revision.'",
+            "The principal reported that her report needed revision to the counselor."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "The principal speaking 'my' establishes ownership directly. Other formulations either assign ownership to the counselor or leave a pronoun open to interpretation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the public education challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Evidence calibration",
+          "text": "Two schools report improved grades after launching mentoring, but one also changes grading criteria. Which comparison is strongest?",
           "options": [
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement."
+            "Compare outcomes using a consistent common assessment and include schools without the mentoring change.",
+            "Use the published grade averages without considering the rule change.",
+            "Ask participating mentors whether they are proud of the program.",
+            "Conclude that the mentoring program benefited every student."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "A common instrument and comparison group reduce rubric confounding and better isolate mentoring. Grade averages measured differently are not directly comparable.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the public education challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Source independence",
+          "text": "Which document would best corroborate a disputed claim that school funding was transferred on a specific date?",
           "options": [
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "An examiner describes the narrative as compelling."
+            "A news article summarizing the superintendent's original statement.",
+            "A dated, independently generated bank transaction record showing the transfer.",
+            "An employee's repetition of the superintendent's claim.",
+            "A future budget proposal that assumes the funding exists."
           ],
-          "correctIndex": 0,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 1,
+          "explanation": "An independently generated bank record directly tests the transaction's timing. The other sources reproduce or assume the disputed statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the public education challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Equity judgment",
+          "text": "An advanced course raises average scores but sharply reduces enrollment among students lacking prior enrichment. What response best addresses both results?",
           "options": [
-            "Accept only outcomes that support the initial scheme.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists."
+            "Keep the admissions criteria unchanged because the average rose.",
+            "Close the advanced course because any disparity proves no learning benefit.",
+            "Audit prerequisites and provide accessible preparation while tracking both access and performance.",
+            "Publish only the improved average and remove enrollment figures."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 2,
+          "explanation": "The proposed review considers the benefit and access costs together; tracking both prevents the average from obscuring exclusion.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the public education challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Causal identification",
+          "text": "A tutoring program shows improved outcomes among self-selected participants. Which design most directly reduces the risk that motivated students were already more likely to improve?",
           "options": [
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first."
+            "Invite only students who earned the highest grades last term.",
+            "Compare participants with students who refused tutoring without adjusting for differences.",
+            "Evaluate only the first week of participation.",
+            "Randomly offer program places among eligible volunteers and compare outcomes."
           ],
-          "correctIndex": 2,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 3,
+          "explanation": "Random assignment among eligible volunteers makes the offered and non-offered groups more comparable than self-selection alone. It cannot establish effects for all students, but improves causal identification.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
