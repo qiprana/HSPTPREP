@@ -9250,310 +9250,354 @@
         {
           "id": "R09-V-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The comedian avoided vulgar jokes.\", the word \"vulgar\" most nearly means",
+          "prompt": "In the sentence \"The witness gave an equivocal answer, simultaneously acknowledging a meeting and denying any agreement had been reached.\" the word \"equivocal\" most nearly means",
           "choices": [
-            "weak",
-            "crude",
-            "refined",
-            "responsible"
+            "unqualified",
+            "ambiguous",
+            "accusatory",
+            "elaborate"
           ],
           "correctIndex": 1,
-          "explanation": "In the context of the sentence, vulgar means crude.",
-          "word": "vulgar"
+          "explanation": "Equivocal means open to more than one interpretation or deliberately noncommittal; the witness neither simply confirms nor straightforwardly denies the consequential claim.",
+          "word": "equivocal",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-02",
-          "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"advocate\" in this sentence: \"She advocates for safer streets.\"?",
+          "type": "Reading Vocabulary",
+          "prompt": "In the sentence \"The committee's inchoate proposal contained promising fragments but lacked a coherent sequence of actions.\" the word \"inchoate\" most nearly means",
           "choices": [
-            "oppose",
-            "support",
-            "patronize",
-            "anger"
+            "unformed",
+            "irreversible",
+            "impractical",
+            "provisional"
           ],
           "correctIndex": 0,
-          "explanation": "The opposite of advocate in context is oppose. The word means support.",
-          "word": "advocate"
+          "explanation": "Inchoate describes something only partly formed or developed. The proposal may be promising; lack of structure does not prove it unworkable.",
+          "word": "inchoate",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"Years of rivalry created animosity.\", the word \"animosity\" most nearly means",
+          "prompt": "In the sentence \"Even after independent evidence contradicted his forecast, the director remained obdurate and refused any revision.\" the word \"obdurate\" most nearly means",
           "choices": [
-            "friendship",
-            "hopelessness",
-            "scorn",
-            "hostility"
+            "scrupulous",
+            "apprehensive",
+            "unyielding",
+            "unconvinced"
           ],
-          "correctIndex": 3,
-          "explanation": "In the context of the sentence, animosity means hostility.",
-          "word": "animosity"
+          "correctIndex": 2,
+          "explanation": "Obdurate describes stubborn resistance to persuasion. Unconvinced is less forceful and does not necessarily imply the director's refusal to consider evidence.",
+          "word": "obdurate",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"Cacti thrive in arid regions.\", the word \"arid\" most nearly means",
+          "prompt": "In the sentence \"Her perfunctory inspection involved signing each form without looking at the equipment it was meant to evaluate.\" the word \"perfunctory\" most nearly means",
           "choices": [
-            "barren",
-            "harmful",
-            "dry",
-            "moist"
+            "deliberate",
+            "formal",
+            "procedural",
+            "cursory"
           ],
-          "correctIndex": 2,
-          "explanation": "In the context of the sentence, arid means dry.",
-          "word": "arid"
+          "correctIndex": 3,
+          "explanation": "Perfunctory means done with minimal effort or attention, often merely to satisfy an obligation. The inspection was not simply formal; it was superficial.",
+          "word": "perfunctory",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"She gave a candid answer.\", the word \"candid\" most nearly means",
+          "prompt": "In the sentence \"The proposal's specious rationale sounded convincing until reviewers exposed a comparison between fundamentally different populations.\" the word \"specious\" most nearly means",
           "choices": [
-            "famished",
-            "frank",
-            "evasive",
-            "cautious"
+            "superficially plausible but misleading",
+            "controversial yet well evidenced",
+            "novel but difficult to test",
+            "deliberately understated"
           ],
-          "correctIndex": 1,
-          "explanation": "In the context of the sentence, candid means frank.",
-          "word": "candid"
+          "correctIndex": 0,
+          "explanation": "Specious reasoning has the appearance of validity while being unsound. The invalid comparison exposes the gap between appearance and substance.",
+          "word": "specious",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-06",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The room became chaotic after the alarm.\", the word \"chaotic\" most nearly means",
+          "prompt": "In the sentence \"Before announcing a preliminary finding, the researcher was circumspect about which claims the evidence could support.\" the word \"circumspect\" most nearly means",
           "choices": [
-            "disorderly",
-            "orderly",
-            "malicious",
-            "impoverished"
+            "secretive",
+            "prudent",
+            "doubtful",
+            "unresponsive"
           ],
-          "correctIndex": 0,
-          "explanation": "In the context of the sentence, chaotic means disorderly.",
-          "word": "chaotic"
+          "correctIndex": 1,
+          "explanation": "Circumspect means cautious and attentive to possible consequences. The care described is not secrecy or denial of the evidence.",
+          "word": "circumspect",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-07",
-          "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"clemency\" in this sentence: \"The prisoner asked for clemency.\"?",
+          "type": "Reading Vocabulary",
+          "prompt": "In the sentence \"His laconic reply—just three words—left the committee with no explanation for his decision.\" the word \"laconic\" most nearly means",
           "choices": [
-            "mercy",
-            "bounty",
-            "composure",
-            "severity"
+            "enigmatic",
+            "dismissive",
+            "terse",
+            "unambiguous"
           ],
-          "correctIndex": 3,
-          "explanation": "The opposite of clemency in context is severity. The word means mercy.",
-          "word": "clemency"
+          "correctIndex": 2,
+          "explanation": "Laconic means using very few words. A brief reply may also be unclear, but brevity is the meaning most directly signaled.",
+          "word": "laconic",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-08",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The data were divided into discrete groups.\", the word \"discrete\" most nearly means",
+          "prompt": "In the sentence \"Although her analysis was rigorous, the diffident student hesitated to challenge the senior researchers.\" the word \"diffident\" most nearly means",
           "choices": [
-            "important",
-            "frank",
-            "separate",
-            "continuous"
+            "disinterested",
+            "combative",
+            "independent",
+            "self-doubting"
           ],
-          "correctIndex": 2,
-          "explanation": "In the context of the sentence, discrete means separate.",
-          "word": "discrete"
+          "correctIndex": 3,
+          "explanation": "Diffident describes a lack of self-confidence or assertiveness, which contrasts with the student's strong evidence.",
+          "word": "diffident",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-09",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"He gave an effusive welcome.\", the word \"effusive\" most nearly means",
+          "prompt": "In the sentence \"The report offered a cogent argument: each premise was independently supported and the conclusion followed from them.\" the word \"cogent\" most nearly means",
           "choices": [
-            "strange",
-            "enthusiastic",
-            "reserved",
-            "germ-free"
+            "logically persuasive",
+            "emotionally stirring",
+            "unexpectedly concise",
+            "forcefully delivered"
           ],
-          "correctIndex": 1,
-          "explanation": "In the context of the sentence, effusive means enthusiastic.",
-          "word": "effusive"
+          "correctIndex": 0,
+          "explanation": "Cogent reasoning is clear and convincingly logical. Emotional intensity, brevity and force are not the evidence-based strength described.",
+          "word": "cogent",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-10",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"They salvaged books from the flooded room.\", the word \"salvage\" most nearly means",
+          "prompt": "In the sentence \"The organization's ostensible mission was educational outreach, but its internal records showed that sales were its overriding concern.\" the word \"ostensible\" most nearly means",
           "choices": [
-            "save",
-            "destroy",
-            "argue",
-            "bypass"
+            "genuine",
+            "professed",
+            "secondary",
+            "unwritten"
           ],
-          "correctIndex": 0,
-          "explanation": "In the context of the sentence, salvage means save.",
-          "word": "salvage"
+          "correctIndex": 1,
+          "explanation": "Ostensible refers to the apparent or stated purpose, especially when reality may differ. The contrast with private records is decisive.",
+          "word": "ostensible",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-11",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The sudden change caused turmoil.\", the word \"turmoil\" most nearly means",
+          "prompt": "In the sentence \"New security footage might exculpate the accused by placing him at another location when the incident occurred.\" the word \"exculpate\" most nearly means",
           "choices": [
-            "calm",
-            "wordiness",
-            "parody",
-            "confusion"
+            "embarrass",
+            "temper punishment for",
+            "clear from blame",
+            "implicate"
           ],
-          "correctIndex": 3,
-          "explanation": "In the context of the sentence, turmoil means confusion.",
-          "word": "turmoil"
+          "correctIndex": 2,
+          "explanation": "To exculpate is to free someone from blame or alleged guilt. Mitigating punishment would not establish innocence.",
+          "word": "exculpate",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-12",
-          "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"undaunted\" in this sentence: \"She remained undaunted by the setback.\"?",
+          "type": "Reading Vocabulary",
+          "prompt": "In the sentence \"The revised policy used technical jargon to obfuscate rather than explain its new eligibility restrictions.\" the word \"obfuscate\" most nearly means",
           "choices": [
-            "shocking",
-            "precise",
-            "discouraged",
-            "fearless"
+            "justify",
+            "qualify",
+            "summarize",
+            "make obscure"
           ],
-          "correctIndex": 2,
-          "explanation": "The opposite of undaunted in context is discouraged. The word means fearless.",
-          "word": "undaunted"
+          "correctIndex": 3,
+          "explanation": "To obfuscate is to make something difficult to understand, deliberately or through needless complexity. The contrast with explain fixes the sense.",
+          "word": "obfuscate",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-13",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"That is a valid concern.\", the word \"valid\" most nearly means",
+          "prompt": "In the sentence \"Her prescient warning anticipated the supply shortage long before the first delays were visible.\" the word \"prescient\" most nearly means",
           "choices": [
-            "capable",
-            "legitimate",
-            "invalid",
-            "obvious"
+            "foresighted",
+            "pessimistic",
+            "intuitive",
+            "urgent"
           ],
-          "correctIndex": 1,
-          "explanation": "In the context of the sentence, valid means legitimate.",
-          "word": "valid"
+          "correctIndex": 0,
+          "explanation": "Prescient describes unusual awareness of events before they happen; the timing of the accurate warning is the central clue.",
+          "word": "prescient",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-14",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The repetitive task became wearisome.\", the word \"wearisome\" most nearly means",
+          "prompt": "In the sentence \"The spokesperson's anodyne remarks avoided every divisive issue and offered little that anyone could object to.\" the word \"anodyne\" most nearly means",
           "choices": [
-            "tiresome",
-            "refreshing",
-            "gloomy",
-            "empty"
+            "meticulous",
+            "inoffensive",
+            "condescending",
+            "consequential"
           ],
-          "correctIndex": 0,
-          "explanation": "In the context of the sentence, wearisome means tiresome.",
-          "word": "wearisome"
+          "correctIndex": 1,
+          "explanation": "Anodyne means unlikely to provoke offense or controversy; the speech may be bland, but its lack of provocation is the controlling meaning.",
+          "word": "anodyne",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-15",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"Medicine helped alleviate the pain.\", the word \"alleviate\" most nearly means",
+          "prompt": "In the sentence \"Rather than narrate a heroic adventure, the diary recorded the prosaic details of repairs, travel expenses, and errands.\" the word \"prosaic\" most nearly means",
           "choices": [
-            "worsen",
-            "change",
-            "stick",
-            "ease"
+            "figurative",
+            "sardonic",
+            "ordinary",
+            "technical"
           ],
-          "correctIndex": 3,
-          "explanation": "In the context of the sentence, alleviate means ease.",
-          "word": "alleviate"
+          "correctIndex": 2,
+          "explanation": "Prosaic denotes ordinary, commonplace or lacking imaginative grandeur. Merely being technical is not sufficient.",
+          "word": "prosaic",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-16",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The manager berated him for being careless.\", the word \"berate\" most nearly means",
+          "prompt": "In the sentence \"The negotiator faced an implacable opponent who rejected every proposed compromise, regardless of its terms.\" the word \"implacable\" most nearly means",
           "choices": [
-            "calm",
-            "assign",
-            "scold",
-            "praise"
+            "skeptical",
+            "impartial",
+            "methodical",
+            "unappeasable"
           ],
-          "correctIndex": 2,
-          "explanation": "In the context of the sentence, berate means scold.",
-          "word": "berate"
+          "correctIndex": 3,
+          "explanation": "Implacable means unable or unwilling to be placated. The repeated refusal of all compromises signals unyielding hostility rather than ordinary skepticism.",
+          "word": "implacable",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-17",
-          "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"bizarre\" in this sentence: \"The story had a bizarre ending.\"?",
+          "type": "Reading Vocabulary",
+          "prompt": "In the sentence \"The council's invidious rule imposed harsher requirements on one neighborhood without any relevant difference to justify them.\" the word \"invidious\" most nearly means",
           "choices": [
-            "bitter",
-            "ordinary",
-            "strange",
-            "bold"
+            "unfairly discriminatory",
+            "politically unpopular",
+            "financially costly",
+            "administratively complex"
           ],
-          "correctIndex": 1,
-          "explanation": "The opposite of bizarre in context is ordinary. The word means strange.",
-          "word": "bizarre"
+          "correctIndex": 0,
+          "explanation": "Invidious discrimination unfairly disadvantages a person or group. The rule's unsupported targeting is more precise than mere unpopularity.",
+          "word": "invidious",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-18",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"Her condescending tone sounded insulting.\", the word \"condescending\" most nearly means",
+          "prompt": "In the sentence \"The editor's assiduous review traced each quotation to its source and checked every revision against the original.\" the word \"assiduous\" most nearly means",
           "choices": [
-            "patronizing",
-            "respectful",
-            "hostile",
-            "glowing"
+            "impartial",
+            "diligent",
+            "imaginative",
+            "punctual"
           ],
-          "correctIndex": 0,
-          "explanation": "In the context of the sentence, condescending means patronizing.",
-          "word": "condescending"
+          "correctIndex": 1,
+          "explanation": "Assiduous means showing sustained, careful effort. Accuracy is a possible result; diligence is the underlying trait.",
+          "word": "assiduous",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-19",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The reviewer was highly critical of the film.\", the word \"critical\" most nearly means",
+          "prompt": "In the sentence \"The administrator's capricious decisions shifted with his mood despite no change in evidence or policy.\" the word \"capricious\" most nearly means",
           "choices": [
-            "approving",
-            "partly open",
-            "sly",
-            "judgmental"
+            "severe",
+            "strategic",
+            "unpredictable",
+            "temporary"
           ],
-          "correctIndex": 3,
-          "explanation": "In the context of the sentence, critical means judgmental.",
-          "word": "critical"
+          "correctIndex": 2,
+          "explanation": "Capricious describes impulsively changeable judgments. The shifts reflect whims rather than new information or a deliberate strategy.",
+          "word": "capricious",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-20",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The illness had a debilitating effect.\", the word \"debilitating\" most nearly means",
+          "prompt": "In the sentence \"When invited to help restore the archive, the students volunteered with alacrity and began immediately.\" the word \"alacrity\" most nearly means",
           "choices": [
-            "plentiful",
-            "agile",
-            "weakening",
-            "strengthening"
+            "reluctance",
+            "discretion",
+            "composure",
+            "eager readiness"
           ],
-          "correctIndex": 2,
-          "explanation": "In the context of the sentence, debilitating means weakening.",
-          "word": "debilitating"
+          "correctIndex": 3,
+          "explanation": "Alacrity means cheerful promptness or eager willingness, combining speed with enthusiasm rather than mere compliance.",
+          "word": "alacrity",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-21",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The villain used a devious plan.\", the word \"devious\" most nearly means",
+          "prompt": "In the sentence \"Instead of naming the accusation, the essay made an oblique reference to the official's unexplained absence.\" the word \"oblique\" most nearly means",
           "choices": [
-            "young",
-            "sneaky",
-            "honest",
-            "sad"
+            "indirect",
+            "sarcastic",
+            "hostile",
+            "unfounded"
           ],
-          "correctIndex": 1,
-          "explanation": "In the context of the sentence, devious means sneaky.",
-          "word": "devious"
+          "correctIndex": 0,
+          "explanation": "Oblique means indirect or not stated explicitly. A hint can be neutral or hostile; the manner of reference, not its attitude, is specified.",
+          "word": "oblique",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         },
         {
           "id": "R09-V-22",
-          "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"diligent\" in this sentence: \"The diligent student reviewed every night.\"?",
+          "type": "Reading Vocabulary",
+          "prompt": "In the sentence \"Among dozens of measurements, the salient finding was the one that directly contradicted the study's central prediction.\" the word \"salient\" most nearly means",
           "choices": [
-            "careless",
-            "hardworking",
-            "upset",
-            "believable"
+            "unexpected",
+            "most relevant",
+            "statistically certain",
+            "easily repeated"
           ],
-          "correctIndex": 0,
-          "explanation": "The opposite of diligent in context is careless. The word means hardworking.",
-          "word": "diligent"
+          "correctIndex": 1,
+          "explanation": "Salient means especially prominent or important to the matter at hand. The finding's relevance is established, but not statistical certainty.",
+          "word": "salient",
+          "difficultyBand": "grade10-12",
+          "editorialStatus": "contextual-distinction-editorial-review-pending"
         }
       ],
       "totalQuestions": 62
