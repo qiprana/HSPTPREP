@@ -163,19 +163,19 @@
         {
           "id": "LA01-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the astronomical modeling challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Selection effects",
+          "text": "The mean apparent brightness of newly catalogued stars rises after an observatory upgrades its telescope. What inference is not warranted?",
           "options": [
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved."
+            "The detected stars' mean measured brightness increased.",
+            "The instrument may have changed which stars were detected.",
+            "The true brightness of every individual star increased.",
+            "Differences in detection thresholds could influence the observed mean."
           ],
-          "correctIndex": 3,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "An instrument change can alter sample composition; a higher measured average does not imply stars physically brightened.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA01-C-3",
@@ -648,19 +648,19 @@
         {
           "id": "LA02-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the historical preservation challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Historical demographic data",
+          "text": "An archive finds that average recorded household size fell between two censuses. Which conclusion cannot follow from that average alone?",
           "options": [
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone."
+            "The two reported means differ.",
+            "Every household became smaller.",
+            "The definition of a household might have changed.",
+            "The distribution of household sizes remains unknown."
           ],
-          "correctIndex": 0,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "A decrease in the mean does not show that each household shrank, and changed census definitions may affect comparisons.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-C-3",
@@ -1133,19 +1133,19 @@
         {
           "id": "LA03-C-2",
           "group": "composition",
-          "skill": "Statistical inference",
-          "text": "In the clinical research design challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Intervention heterogeneity",
+          "text": "A trial reports that mean blood pressure improved in the treatment group, but the standard deviation increased. Which claim exceeds the evidence?",
           "options": [
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant."
+            "The group mean changed in a favorable direction.",
+            "Outcomes may have varied substantially across participants.",
+            "The intervention was equally beneficial to every participant.",
+            "The spread of measurements increased."
           ],
-          "correctIndex": 1,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "A mean improvement with greater dispersion cannot establish uniform individual benefit.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-3",
@@ -1618,19 +1618,19 @@
         {
           "id": "LA04-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the environmental policy challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Extreme values",
+          "text": "A town's average annual rainfall rises substantially although the median annual rainfall remains steady. Which explanation is plausible?",
           "options": [
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased."
+            "One or more exceptionally wet years pulled the mean upward.",
+            "Every year received exactly the same rainfall.",
+            "The median must always rise when the mean rises.",
+            "Rainfall measurements cannot have an average."
           ],
-          "correctIndex": 2,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 0,
+          "explanation": "Extreme high observations can shift the mean without changing the middle-ranked value.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-3",
@@ -2103,19 +2103,19 @@
         {
           "id": "LA05-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the literary criticism challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Publication bias",
+          "text": "Published studies of a literary teaching technique show strong gains, but unpublished studies are not examined. What remains untested?",
           "options": [
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved."
+            "Whether reading instruction involves language.",
+            "Whether the publication process favors studies with positive findings.",
+            "Whether every published study contains graphs.",
+            "Whether teachers assigned reading homework."
           ],
-          "correctIndex": 3,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "Studies with positive results may be more likely to appear in the published sample, distorting the estimated effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-3",
@@ -2588,19 +2588,19 @@
         {
           "id": "LA06-C-2",
           "group": "composition",
-          "skill": "Statistical inference",
-          "text": "In the public education challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Regression to the mean",
+          "text": "A school selects students with unusually low quiz scores for coaching, then observes higher scores the following week. Which alternative explanation should be considered?",
           "options": [
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone."
+            "Scoring higher later proves coaching had no impact.",
+            "Students cannot improve without treatment.",
+            "Extreme initial scores may partly normalize on retesting even without coaching.",
+            "Quiz scores cannot vary by chance."
           ],
-          "correctIndex": 0,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "Selecting extreme measurements creates an opportunity for regression toward typical performance independent of intervention.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-3",
@@ -3073,19 +3073,19 @@
         {
           "id": "LA07-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the civic administration challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Changing denominators",
+          "text": "A transit agency reports more collisions but also twice as many bus trips. Which comparison best addresses whether risk increased?",
           "options": [
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant."
+            "Collision counts without reference to service levels.",
+            "Number of vehicles in the fleet alone.",
+            "Total annual operating revenue.",
+            "Collisions per comparable unit of travel or exposure."
           ],
-          "correctIndex": 1,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 3,
+          "explanation": "Risk requires a denominator; a rise in counts with increased trips does not necessarily mean a higher collision rate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-3",
@@ -3558,19 +3558,19 @@
         {
           "id": "LA08-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the ecological restoration challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Ecological inference",
+          "text": "Neighborhoods with more trees report lower average summer temperatures. What conclusion is unsupported without individual-level data?",
           "options": [
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased."
+            "The neighborhood averages differ.",
+            "Every person living near a tree experiences less heat exposure than every person elsewhere.",
+            "Other neighborhood characteristics could differ.",
+            "More investigation could separate shade from building density."
           ],
-          "correctIndex": 2,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "Group averages cannot establish a strict ordering of every individual exposure, especially when housing and activities vary.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-3",
@@ -4043,19 +4043,19 @@
         {
           "id": "LA09-C-2",
           "group": "composition",
-          "skill": "Statistical inference",
-          "text": "In the journalism ethics challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Measurement reliability",
+          "text": "An online news survey reports that confidence in reporting rose from 3.7 to 4.1, but the question wording changed. What is the central uncertainty?",
           "options": [
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved."
+            "A mean score can never summarize opinions.",
+            "Readers are incapable of using rating scales.",
+            "The wording change may affect responses independently of true attitude shifts.",
+            "The difference mathematically proves every reader became more confident."
           ],
-          "correctIndex": 3,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "Changed measurement wording makes the two scores less directly comparable.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-3",
@@ -4528,19 +4528,19 @@
         {
           "id": "LA10-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the engineering safety challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Survivor bias",
+          "text": "A manufacturer surveys only machines that remain operational after five years and reports very low maintenance costs. What inference is unreliable?",
           "options": [
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone."
+            "The surviving machines incurred the reported costs.",
+            "The sample may exclude units with costly early failures.",
+            "The study covers a five-year time span.",
+            "Operating machines can be inspected."
           ],
-          "correctIndex": 0,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "Excluding failed or retired units omits potentially expensive cases and can bias lifecycle-cost estimates downward.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-3",
@@ -5013,19 +5013,19 @@
         {
           "id": "LA11-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the agricultural history challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Weighted averages",
+          "text": "The average price paid for grain increases, even though every individual grain type's price remains constant. How might this happen?",
           "options": [
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant."
+            "The market necessarily has erroneous records.",
+            "Prices must rise within at least one type.",
+            "The proportion purchased shifted toward more expensive grain types.",
+            "An average cannot change unless every constituent price changes."
           ],
-          "correctIndex": 1,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "Changing category weights can alter an aggregate average when the constituent values are unchanged.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-3",
@@ -5498,19 +5498,19 @@
         {
           "id": "LA12-C-2",
           "group": "composition",
-          "skill": "Statistical inference",
-          "text": "In the social statistics challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Small sample",
+          "text": "A poll of twelve residents finds that 75 percent support a new policy. Which statement is unjustifiably confident?",
           "options": [
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased."
+            "Nine of twelve respondents supported it.",
+            "The sample proportion is 75 percent.",
+            "A larger representative poll may yield a different estimate.",
+            "Exactly 75 percent of all residents support it."
           ],
-          "correctIndex": 2,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 3,
+          "explanation": "A small, unspecified sample cannot establish the population proportion with certainty.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-3",
@@ -5983,19 +5983,19 @@
         {
           "id": "LA13-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the robotics policy challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Baseline imbalance",
+          "text": "A robotics pilot reports higher output among teams assigned the new machines, but those teams had more experience before deployment. What cannot be inferred?",
           "options": [
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved."
+            "The machines alone caused the entire performance difference.",
+            "Experience may contribute to output.",
+            "The teams differed before deployment.",
+            "A fairer comparison should account for experience."
           ],
-          "correctIndex": 3,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 0,
+          "explanation": "Preexisting experience confounds the effect of equipment; the observed difference cannot be assigned entirely to machines.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-3",
@@ -6468,19 +6468,19 @@
         {
           "id": "LA14-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the archival practice challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Missing records",
+          "text": "A digitization project finds that average search time fell after excluding requests that never returned a result. What problem arises?",
           "options": [
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone."
+            "Search time is always independent of success.",
+            "The metric may ignore the hardest or unsuccessful searches, overstating usability.",
+            "A shorter mean proves no document was missing.",
+            "Averages cannot use time measurements."
           ],
-          "correctIndex": 0,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "Dropping failed searches conditions the average on success and hides an important component of retrieval experience.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-3",
@@ -6953,19 +6953,19 @@
         {
           "id": "LA15-C-2",
           "group": "composition",
-          "skill": "Statistical inference",
-          "text": "In the museum curation challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Median versus mean",
+          "text": "A museum raises ticket prices for special exhibits but leaves ordinary admission unchanged. Its mean ticket revenue per visitor rises. Which claim is not established?",
           "options": [
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant."
+            "The revenue mean has increased.",
+            "Special-exhibit tickets may influence the average.",
+            "Every visitor now pays more for admission.",
+            "Different ticket types may have different prices."
           ],
-          "correctIndex": 1,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "A higher mean may reflect premium-ticket purchases without changing what ordinary visitors pay.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-3",
@@ -7438,19 +7438,19 @@
         {
           "id": "LA16-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the water management challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Before-after comparison",
+          "text": "A water utility's average household use drops following new metering, during a wet year when outdoor watering also declines. What remains unresolved?",
           "options": [
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased."
+            "Whether weather contributed independently to reduced use.",
+            "Whether average household use declined.",
+            "Whether some customers have outdoor gardens.",
+            "Whether a comparison with a normal-weather year could help."
           ],
-          "correctIndex": 2,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 0,
+          "explanation": "Wet weather is a competing explanation for lower use; before-after means alone do not isolate metering.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-3",
@@ -7923,19 +7923,19 @@
         {
           "id": "LA17-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the transportation research challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Aggregation bias",
+          "text": "A transit report shows average commute time unchanged, yet times rise for suburban riders and fall for central-city riders. Which statement is accurate?",
           "options": [
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved."
+            "No individual commute changed.",
+            "The overall mean can conceal opposite subgroup trends.",
+            "Subgroup results must be fabricated.",
+            "The means cannot be computed when categories differ."
           ],
-          "correctIndex": 3,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 1,
+          "explanation": "Offsets across groups can leave the aggregate unchanged despite meaningful distributional differences.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA17-C-3",
@@ -8408,19 +8408,19 @@
         {
           "id": "LA18-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the climate adaptation challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Effect size",
+          "text": "A heat-awareness campaign yields a statistically significant reduction in self-reported discomfort of 0.1 points on a 10-point scale. Which conclusion remains uncertain?",
           "options": [
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone."
+            "The analysis detected a difference under its test.",
+            "The observed numerical difference was 0.1 points.",
+            "Whether the small change is practically important.",
+            "The scale has ten points."
           ],
-          "correctIndex": 0,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 2,
+          "explanation": "Statistical significance concerns evidence against a null effect, not the practical magnitude of a 0.1-point difference.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA18-C-3",
@@ -8893,19 +8893,19 @@
         {
           "id": "LA19-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the scientific publication challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Simpson's paradox",
+          "text": "In each of two research fields, a journal's acceptance rate improves, yet its overall acceptance rate falls. Which possibility could explain the discrepancy?",
           "options": [
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased.",
-            "Some values could have stayed constant."
+            "All acceptance counts must be wrong.",
+            "No weighted average can reverse a pattern.",
+            "Every field's number of submissions stayed constant.",
+            "The share of submissions shifted toward the field with a lower acceptance rate."
           ],
-          "correctIndex": 1,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 3,
+          "explanation": "Changes in category weights can cause the overall rate to fall even as within-field rates rise.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-3",
@@ -9378,19 +9378,19 @@
         {
           "id": "LA20-C-2",
           "group": "usage",
-          "skill": "Statistical inference",
-          "text": "In the linguistic analysis challenge scenario, An average increased after a program. Which inference remains unjustified?",
+          "skill": "Survey nonresponse",
+          "text": "A linguistic survey obtains more responses in its second wave, mostly from one college. What cannot be concluded from the larger total alone?",
           "options": [
-            "Some values could have stayed constant.",
-            "Changes in the distribution cannot be inferred from the average alone.",
-            "Every individual's outcome necessarily improved.",
-            "The group's mean increased."
+            "The second-wave results better represent all city residents.",
+            "The number of responses grew.",
+            "The respondent composition may have changed.",
+            "A response count alone does not show representativeness."
           ],
-          "correctIndex": 2,
-          "explanation": "A rising mean does not imply an increase for each individual. A shift in the mean can arise from unequal changes and cannot describe every person's trajectory.",
+          "correctIndex": 0,
+          "explanation": "A larger sample dominated by one subgroup may be less representative; size does not automatically correct selection.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-3",
