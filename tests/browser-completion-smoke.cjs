@@ -1,10 +1,13 @@
-/* Browser smoke test (Chromium, local static site). Run via GitHub Actions. */
+/* Browser smoke test (Chromium, Firefox and WebKit via BROWSER). Run via GitHub Actions. */
 'use strict';
 const assert=require('node:assert/strict');
-const {chromium}=require('playwright');
+const {chromium,firefox,webkit}=require('playwright');
+const BROWSER=process.env.BROWSER||'chromium';
+const browserType={chromium,firefox,webkit}[BROWSER];
+if(!browserType)throw new Error('Unknown browser: '+BROWSER);
 const ROOT='http://127.0.0.1:8765';
 async function run(){
- const browser=await chromium.launch({headless:true});
+ const browser=await browserType.launch({headless:true});
  const page=await browser.newPage();
  const errors=[];
  page.on('pageerror',e=>errors.push(e.message));
@@ -78,7 +81,7 @@ async function run(){
   assert.match(languageInfo,/1\/20 advanced challenges submitted/);
   console.log('PASS: Overview reads completed Reading and Language attempts after navigation.');
   assert.deepEqual(errors,[],'No uncaught page script errors');
-  console.log('PASS: Browser completion smoke test.');
+  console.log('PASS: '+BROWSER+' browser completion smoke test.');
  }finally{await browser.close();}
 }
 run().catch(e=>{console.error(e);process.exitCode=1;});
