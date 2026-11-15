@@ -180,19 +180,19 @@
         {
           "id": "LA01-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the astronomical modeling challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Astronomy selection bias",
+          "text": "A telescope's detected comet count doubles following a sensor upgrade, but the observation schedule also doubles. What would best isolate the sensor's contribution?",
           "options": [
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate."
+            "Count how many papers mention the comet survey.",
+            "Compare detections per comparable observing hour under matched sky conditions before and after upgrading.",
+            "Ask observers whether the new instrument looks modern.",
+            "Assume a doubled count proves doubled sensor sensitivity."
           ],
-          "correctIndex": 0,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 1,
+          "explanation": "Detection counts depend on time spent observing as well as sensitivity. Exposure-adjusted comparisons under similar conditions target the sensor's effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA01-C-4",
@@ -665,19 +665,19 @@
         {
           "id": "LA02-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the historical preservation challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Historic district visitation",
+          "text": "Visitor numbers rise after a historic town adds walking tours, during the same month a major festival returns. Which comparison would help separate the effects?",
           "options": [
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence."
+            "Compare similar dates with and without tours while accounting for festival attendance.",
+            "Ask tour guides to estimate how persuasive their descriptions are.",
+            "Compare the color of the tour brochures.",
+            "Treat all new visitors as tour participants."
           ],
-          "correctIndex": 1,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 0,
+          "explanation": "The concurrent festival provides a rival explanation; matched comparisons that account for festival traffic are more informative than simple before-after counts.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-C-4",
@@ -1150,19 +1150,19 @@
         {
           "id": "LA03-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the clinical research design challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Patient outcomes",
+          "text": "A clinic sees lower emergency visits after introducing follow-up calls, but simultaneously limits enrollment to healthier patients. What threatens the causal claim?",
           "options": [
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other."
+            "The number of callers rose.",
+            "Healthier enrolled patients might require fewer emergency visits regardless of the calls.",
+            "Telephone calls cannot influence health behaviors.",
+            "Emergency visits are impossible to count."
           ],
-          "correctIndex": 2,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 1,
+          "explanation": "Changing patient risk profiles can lower emergency visits independently of the intervention, creating selection confounding.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-C-4",
@@ -1635,19 +1635,19 @@
         {
           "id": "LA04-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the environmental policy challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Flood warnings",
+          "text": "A district installs a flood-alert app and reports fewer rescues during a drier-than-usual season. Which evidence would most strengthen the app's effect?",
           "options": [
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested."
+            "A photograph of the new app icon.",
+            "Total rescues without rainfall context.",
+            "Rescue rates in similarly wet periods with comparable app adoption and matched nonadopting areas.",
+            "User satisfaction with the notification sound."
           ],
-          "correctIndex": 3,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 2,
+          "explanation": "Rainfall and exposure influence rescues; comparable storm conditions and control areas help estimate the alert system's contribution.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-C-4",
@@ -2120,19 +2120,19 @@
         {
           "id": "LA05-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the literary criticism challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Literature education",
+          "text": "A school's average essay score increases after introducing a new novel, but the scoring rubric is also rewritten. Which inference remains weak?",
           "options": [
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate."
+            "Students completed essays both before and after the change.",
+            "The revised rubric could change scores without actual writing improvement.",
+            "A novel cannot affect writing skills.",
+            "Every student necessarily wrote a better essay."
           ],
-          "correctIndex": 0,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 1,
+          "explanation": "The measurement scale changed alongside instruction, so score differences cannot be assigned to reading the novel alone.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-C-4",
@@ -2605,19 +2605,19 @@
         {
           "id": "LA06-C-3",
           "group": "composition",
-          "skill": "Causal reasoning",
-          "text": "In the public education challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Classroom attendance",
+          "text": "A school installs air conditioning and records better attendance, while the district also removes a bus fee. What is the strongest next step?",
           "options": [
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence."
+            "Treat attendance growth as proof that heat was the only prior barrier.",
+            "Evaluate attendance in comparable schools with different policy changes, controlling for weather and transit effects.",
+            "Rely on teacher impressions of classroom comfort.",
+            "Assume removing bus fees discourages attendance."
           ],
           "correctIndex": 1,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "explanation": "Transit costs and temperature both affect attendance; comparisons that separate these simultaneous changes would support stronger attribution.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-C-4",
@@ -3090,19 +3090,19 @@
         {
           "id": "LA07-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the civic administration challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Public-library hours",
+          "text": "Library checkouts increase after weekend hours expand, while the library also launches a popular book series. Which observation would most help attribute the change to hours?",
           "options": [
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other."
+            "The number of covers shown on new posters.",
+            "The director's confidence in the expansion.",
+            "Checkouts during added hours compared with baseline patterns and comparable weeks without the book campaign.",
+            "A survey exclusively of book-series fans."
           ],
           "correctIndex": 2,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "explanation": "Transaction timing and campaign controls distinguish the accessibility effect of new hours from increased demand for promoted books.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-C-4",
@@ -3575,19 +3575,19 @@
         {
           "id": "LA08-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the ecological restoration challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Wildlife corridor",
+          "text": "Animal sightings in a new corridor rise after nearby forest clearing forces animals into a narrower route. What would challenge the claim that the corridor caused population recovery?",
           "options": [
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested."
+            "Sightings include repeated individuals displaced from surrounding habitat despite no increase in population estimates.",
+            "The corridor contains native plants.",
+            "Local volunteers observed deer using the path.",
+            "The path was open during daylight."
           ],
-          "correctIndex": 3,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 0,
+          "explanation": "Concentrated sightings can reflect displacement or repeated counting, not a larger population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-4",
@@ -4060,19 +4060,19 @@
         {
           "id": "LA09-C-3",
           "group": "composition",
-          "skill": "Causal reasoning",
-          "text": "In the journalism ethics challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "News consumption",
+          "text": "A news app reports that users who read more articles score higher on a civic quiz. Which alternative explanation is strongest?",
           "options": [
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate."
+            "Greater prior civic interest may cause both more reading and higher quiz scores.",
+            "Articles can never teach facts.",
+            "Quiz scores are unrelated to prior knowledge.",
+            "A positive correlation establishes that the app is defective."
           ],
           "correctIndex": 0,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "explanation": "Underlying civic motivation or knowledge can affect both usage and quiz outcomes, so the association alone does not establish the app's effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA09-C-4",
@@ -4545,19 +4545,19 @@
         {
           "id": "LA10-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the engineering safety challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Industrial safety",
+          "text": "A factory's injury rate falls after replacing an assembly line, but the most hazardous jobs are outsourced at the same time. Why is attribution uncertain?",
           "options": [
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence."
+            "Outsourcing always increases injuries.",
+            "The factory may have shifted hazardous exposure outside the measured workforce.",
+            "A new assembly line cannot improve safety.",
+            "Injury rates do not depend on job type."
           ],
           "correctIndex": 1,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "explanation": "Removing dangerous tasks from the denominator can reduce in-house injuries without proving safer execution of the same tasks.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA10-C-4",
@@ -5030,19 +5030,19 @@
         {
           "id": "LA11-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the agricultural history challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Historical migration",
+          "text": "A historian finds that railway expansion preceded increased migration between two regions. What evidence would test whether the railway was a cause?",
           "options": [
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other."
+            "Dates and fares of the railway compared with similar regions lacking a line and changes in local employment.",
+            "The number of railway-themed novels published later.",
+            "A map of the regions without dates.",
+            "An unsupported claim that every migrant used a train."
           ],
-          "correctIndex": 2,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 0,
+          "explanation": "Historical controls and evidence of access and alternative labor pressures can test causation rather than mere sequence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-4",
@@ -5515,19 +5515,19 @@
         {
           "id": "LA12-C-3",
           "group": "composition",
-          "skill": "Causal reasoning",
-          "text": "In the social statistics challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Survey-response shift",
+          "text": "Customer approval rises after a business introduces a loyalty program, but dissatisfied customers also become less likely to respond. What may explain the result?",
           "options": [
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested."
+            "The loyalty program must have improved service.",
+            "Only satisfied customers can participate in surveys.",
+            "Changing nonresponse could inflate the measured approval even if underlying opinion stayed constant.",
+            "The sample's mean necessarily falls as responses decline."
           ],
-          "correctIndex": 3,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 2,
+          "explanation": "Differential nonresponse systematically alters which opinions are observed and can raise the reported mean without real population change.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA12-C-4",
@@ -6000,19 +6000,19 @@
         {
           "id": "LA13-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the robotics policy challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Robotic productivity",
+          "text": "An engineering team introduces collaborative robots and output rises, but teams receive extra paid training during rollout. Which conclusion is justified?",
           "options": [
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate."
+            "The robots alone caused every improvement.",
+            "Both automation and training are plausible contributors; separating them requires a comparison design.",
+            "Training cannot affect output.",
+            "The gains prove labor costs fell."
           ],
-          "correctIndex": 0,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 1,
+          "explanation": "Two interventions changed together, so the observed increase cannot be uniquely attributed to robotics.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-4",
@@ -6485,19 +6485,19 @@
         {
           "id": "LA14-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the archival practice challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Archive digitization",
+          "text": "Researchers find more citations to documents after digitization, but a new catalog also improves indexing. What is the main causal limitation?",
           "options": [
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence."
+            "Digitization removes all errors from old archives.",
+            "Citation counts never reflect use.",
+            "Better discovery via indexing may account for some gains independently of scanning.",
+            "More citations prove the historical documents became more accurate."
           ],
-          "correctIndex": 1,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 2,
+          "explanation": "Searchability and digitization change together, so the additional catalog is a confounding cause of increased discovery.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-4",
@@ -6970,19 +6970,19 @@
         {
           "id": "LA15-C-3",
           "group": "composition",
-          "skill": "Causal reasoning",
-          "text": "In the museum curation challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Museum participation",
+          "text": "After a museum removes its admission fee, student visits increase, but a regional school trip subsidy begins that term. Which evidence would best disentangle their effects?",
           "options": [
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other."
+            "Ask whether the fee change was well advertised.",
+            "Compare attendance among groups eligible and ineligible for the subsidy, accounting for the timing of the fee change.",
+            "Assume free admission is always the sole influence.",
+            "Count visitors without distinguishing school trips."
           ],
-          "correctIndex": 2,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 1,
+          "explanation": "Subsidy eligibility and timing supply a basis for distinguishing a fee effect from subsidized transport.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-4",
@@ -7455,19 +7455,19 @@
         {
           "id": "LA16-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the water management challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Water restriction",
+          "text": "Residential water use falls after restrictions, but rainfall rises sharply. Which evidence most directly tests compliance-related effects?",
           "options": [
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested."
+            "A comparison of water use under similar rainfall and temperature conditions before and after restrictions.",
+            "A list of published restriction notices.",
+            "The total number of rainy days without consumption data.",
+            "A survey of the municipal office's staff."
           ],
-          "correctIndex": 3,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 0,
+          "explanation": "Weather changes outdoor water demand. Matching climatic conditions helps isolate the impact of restrictions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-4",
@@ -7940,19 +7940,19 @@
         {
           "id": "LA17-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the transportation research challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Transit congestion",
+          "text": "A bus lane opens and nearby road congestion increases. Which inference cannot be made from those observations alone?",
           "options": [
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate."
+            "Congestion changed after lane construction.",
+            "The lane's opening and congestion increase occurred near in time.",
+            "The lane necessarily caused the increase because no other traffic conditions could have changed.",
+            "Traffic volumes and roadworks could be examined for rival causes."
           ],
-          "correctIndex": 0,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 2,
+          "explanation": "Temporal correlation does not rule out construction elsewhere, demand changes, or altered measurement windows.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA17-C-4",
@@ -8425,19 +8425,19 @@
         {
           "id": "LA18-C-3",
           "group": "composition",
-          "skill": "Causal reasoning",
-          "text": "In the climate adaptation challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Heat response",
+          "text": "A hospital sees fewer heat-related admissions after opening cooling centers, but the next summer is cooler. How should the causal claim be qualified?",
           "options": [
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence."
+            "Cooling centers must have had zero effect.",
+            "Admission counts cannot be compared in any form.",
+            "A colder summer proves all centers were unnecessary.",
+            "Weather may account for part of the decline, so comparable heat exposure is needed."
           ],
-          "correctIndex": 1,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 3,
+          "explanation": "Heat intensity is a direct determinant of heat illness and changed during the same period.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA18-C-4",
@@ -8910,19 +8910,19 @@
         {
           "id": "LA19-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the scientific publication challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Scientific incentives",
+          "text": "A journal with a new review policy reports shorter turnaround, but it also excludes more manuscripts before peer review. What comparison matters?",
           "options": [
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested.",
-            "One indicator must have caused the other."
+            "Turnaround among similarly classified manuscripts across periods, including desk-rejected submissions.",
+            "The average length of the editor's welcome message.",
+            "The number of pages in the journal's website.",
+            "Only reviews that were returned on time."
           ],
-          "correctIndex": 2,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 0,
+          "explanation": "Changing which manuscripts reach review can alter average timing; like-for-like comparisons and inclusion of rejected cases matter.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-4",
@@ -9395,19 +9395,19 @@
         {
           "id": "LA20-C-3",
           "group": "usage",
-          "skill": "Causal reasoning",
-          "text": "In the linguistic analysis challenge scenario, Two indicators change together. Which statement is most defensible?",
+          "skill": "Language-program outcomes",
+          "text": "A district reports that children taking extra language lessons have higher test scores, but participation is voluntary. What conclusion is too strong?",
           "options": [
-            "One indicator must have caused the other.",
-            "There can be no common underlying influence.",
-            "Correlation demonstrates that the measurements are inaccurate.",
-            "An association is observed, but causal direction and confounding remain untested."
+            "Participant scores are higher in the observed data.",
+            "Motivation or family resources could influence both participation and scores.",
+            "The additional lessons must be the sole cause of the difference.",
+            "A controlled study could help determine the effect."
           ],
-          "correctIndex": 3,
-          "explanation": "An association alone cannot identify causation or exclude third variables. Shared movement in two variables can arise from third factors, reverse causality, or coincidental variation.",
+          "correctIndex": 2,
+          "explanation": "Volunteers may be systematically different, so the difference alone cannot uniquely identify the program's causal effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-4",
