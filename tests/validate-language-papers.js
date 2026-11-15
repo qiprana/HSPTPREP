@@ -13,6 +13,10 @@ assert.equal(allWords.length,317,'Expected 317 unique words');
 assert.equal(allWordSet.size,317,'Spelling vocabulary must not repeat');
 assert.equal(book.words.length,140,'Book spelling word count');
 assert.ok(book.words.every(w=>allWordSet.has(w.toLowerCase())),'Every photographed book word must be in the curriculum');
+function coreSignature(q){
+ const clean=s=>String(s).replace(/^In the day \d+ [^:]*? case:\s*/,'').replace(/^For a grade 10[–-]12 [^,]*? assessment,\s*/,'').replace(/^In the [^,]*? (practice|challenge|test) scenario,\s*/,'').toLowerCase().replace(/\s+/g,' ').trim();
+ return clean(q.text)+'|'+q.options.map(clean).sort().join('~');
+}
 const seen=new Set();
 let checked=0;
 for(let day=1;day<=20;day++){
@@ -24,7 +28,12 @@ for(let day=1;day<=20;day++){
  assert.equal(paper.questions.filter(x=>x.group==='spelling').length,10);
  assert.equal(paper.questions.filter(x=>x.group==='composition').length,20);
  assert.ok(sessions[day-1].words.length>=15&&sessions[day-1].words.length<=16,'Day '+day+' word count');
- for(const q of [...paper.questions,...practice.questions]){
+ for(const set of [paper.questions,practice.questions]){
+ const coreInSession=new Set();
+ for(const q of set){
+  const core=coreSignature(q);
+  assert.ok(!coreInSession.has(core),'Conceptual duplicate in same Language session: '+q.id);
+  coreInSession.add(core);
   assert.equal(q.options.length,4,q.id);
   assert.equal(new Set(q.options.map(x=>x.trim().toLowerCase())).size,4,q.id);
   assert.ok(Number.isInteger(q.correctIndex)&&q.correctIndex>=0&&q.correctIndex<4,q.id);
@@ -33,6 +42,7 @@ for(let day=1;day<=20;day++){
   const signature=q.text+'|'+[...q.options].sort().join('~');
   assert.ok(!seen.has(signature),'Repeated question: '+q.id);
   seen.add(signature);checked++;
+ }
  }
 }
 console.log('PASS: '+checked+' unique Language questions, 20 full papers, 20 guided practices and 317 distinct spelling words (140 textbook words).');
