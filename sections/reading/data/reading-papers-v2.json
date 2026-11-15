@@ -2025,7 +2025,7 @@
           "id": "R03-P1",
           "title": "How Bees Find a Flower",
           "genre": "science",
-          "text": "A biology class studied how pollinators located flowers in a garden containing several similar-looking plants. Some blossoms attracted many insects while others received few visits despite growing close together. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nStudents covered selected flowers briefly and counted visits after uncovering them at matched times. The flowers with stronger scents received more visits during the morning observation periods. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their thorough approach involved examining the available information before making the next decision.\n\nThe class had not tested whether color or temperature also influenced the insects. Their report proposed an experiment that would separate the effects of scent from those of flower color. A useful scientific explanation identifies a possible factor without mistaking correlation for proof. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "The biology club at Westbrook School planned to determine why bees visited one patch of flowering herbs more often than another. A preliminary count showed a striking difference despite the patches' similar colors and their proximity. Several students immediately concluded that bees preferred the stronger scent emitted by one variety. Their teacher suggested a narrower claim: the observed visits were consistent with a scent preference, but the students had not yet separated scent from nectar availability, flower shape, or exposure to afternoon shade.\n\nTo investigate, the club marked individual blossoms and arranged ten-minute observation intervals. Each group counted visits from the same marked position, recording temperature and cloud cover. During the morning, bees approached the strongly scented blossoms more often. The pattern weakened after noon, when the sun moved behind a nearby greenhouse and part of the garden entered shade. One student interpreted the change as proof that scent mattered only in the morning. Another noted that the shaded area was also cooler, so the change could reflect temperature or light rather than an altered preference.\n\nThe club then tried covering some flowers with mesh sleeves for a short period and uncovering them before counting visits. The method was intended to equalize recent insect traffic, but the sleeves also changed how much heat and moisture surrounded each blossom. The students could not simply treat the covered flowers as identical to uncovered ones. Worse, the varieties were planted in separate patches, so any difference between varieties was also a difference in location.\n\nTheir teacher proposed a more informative trial: arrange potted plants of both varieties in mixed, randomized positions, record whether visitors collected nectar or pollen, and repeat measurements at several times of day. The students also discussed the limitations of treating every arrival as a unique bee. Without marking individual insects, one persistent forager could contribute many recorded visits. Counting visits could still be useful, but it would not establish how many different bees chose each variety.\n\nThe club presented its original observations at a school exhibition, carefully distinguishing what it had recorded from what it hoped to test next. More visits had occurred near a particular variety under the conditions observed; the relative influence of scent remained uncertain. The exhibition's most important finding was methodological: an appealing biological explanation becomes persuasive only when the experiment can distinguish it from credible alternatives.",
           "term": [
             "thorough",
             "complete and careful",
@@ -2036,163 +2036,163 @@
           "questions": [
             {
               "id": "R03-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"How Bees Find a Flower\"?",
+              "type": "Causal inference",
+              "prompt": "Why does the teacher resist the club's initial explanation about scent?",
               "choices": [
-                "The recorded outcome (“The flowers with stronger scents received more visits…”) is treated as unrelated to the original investigation.",
-                "The concern (“Some blossoms attracted many insects while others…”) leads to inquiry, but “The class had not tested whether color or temperature…” limits the inference.",
-                "The proposed response (“Their report proposed an experiment that would separate…”) makes the original concern irrelevant.",
-                "The method (“Students covered selected flowers briefly and counted…”) rules out every possible competing explanation."
+                "The flowers' similar colors prove that scent cannot matter.",
+                "The data show a difference in visits but do not isolate scent from other characteristics or conditions.",
+                "Bee preference is impossible to investigate through observation.",
+                "The first counts show that nectar availability was identical across patches."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The class had not tested whether color or temperature also influenced the insects. prevents an overly broad conclusion.",
+              "explanation": "The initial visit difference could arise from scent, nectar, shape, or shade. Identifying a possible cause is different from testing whether it explains the effect.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"How Bees Find a Flower\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Confounding",
+              "prompt": "What makes the decline in the afternoon visit difference difficult to interpret?",
               "choices": [
-                "The flowers with stronger scents received more visits during the morning observation periods.",
-                "Their report proposed an experiment that would separate the effects of scent from those of flower color.",
-                "Some blossoms attracted many insects while others received few visits despite growing close together.",
-                "Students covered selected flowers briefly and counted visits after uncovering them at matched times."
+                "Shade and cooler conditions changed together, so either might explain the altered visit pattern.",
+                "The students had recorded no observations in the morning.",
+                "Both flower varieties were moved into an enclosed laboratory.",
+                "The bees were all marked and released elsewhere."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Some blossoms attracted many insects while others received few visits despite growing close together. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Light and temperature vary together near the greenhouse. Without separating them, the students cannot attribute the changing pattern to one variable.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"How Bees Find a Flower\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Experimental design",
+              "prompt": "What is the main weakness of planting each flower variety in a separate patch?",
               "choices": [
-                "Some blossoms attracted many insects while others received few visits despite growing close together.",
-                "The flowers with stronger scents received more visits during the morning observation periods.",
-                "The class had not tested whether color or temperature also influenced the insects.",
-                "Students covered selected flowers briefly and counted visits after uncovering them at matched times."
+                "It creates too many independent variables to count.",
+                "It guarantees that bees will select the more fragrant flowers.",
+                "Variety differences are entangled with location differences.",
+                "It prevents researchers from recording visits at intervals."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Students covered selected flowers briefly and counted visits after uncovering them at matched times. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "A site effect—such as shade, soil, or wind—could appear to be a variety effect because each variety occupies a different location.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"How Bees Find a Flower\", rather than a procedure, caution, or policy response?",
+              "type": "Method critique",
+              "prompt": "Why are the mesh sleeves an imperfect attempt to standardize flowers before observation?",
               "choices": [
-                "The flowers with stronger scents received more visits during the morning observation periods.",
-                "Students covered selected flowers briefly and counted visits after uncovering them at matched times.",
-                "The class had not tested whether color or temperature also influenced the insects.",
-                "Their report proposed an experiment that would separate the effects of scent from those of flower color."
+                "Sleeves prevent insects from visiting every flower permanently.",
+                "Sleeves remove the need for controlling environmental conditions.",
+                "Sleeves make every flower smell identical.",
+                "Sleeves may themselves change blossom temperature and humidity."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The flowers with stronger scents received more visits during the morning observation periods. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The sleeves alter the microenvironment, creating a potential treatment effect instead of solely equalizing recent insect exposure.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"How Bees Find a Flower\" from being generalized beyond the available evidence?",
+              "type": "Reasoning",
+              "prompt": "Which conclusion is best supported by the unmarked-bee limitation?",
               "choices": [
-                "Their report proposed an experiment that would separate the effects of scent from those of flower color.",
-                "The class had not tested whether color or temperature also influenced the insects.",
-                "The flowers with stronger scents received more visits during the morning observation periods.",
-                "Students covered selected flowers briefly and counted visits after uncovering them at matched times."
+                "A high visit count may include repeated visits by fewer individual bees.",
+                "No visit recorded by the students actually occurred.",
+                "The number of unique bees always exceeds the number of visits.",
+                "A single bee can never visit the same flower twice."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The class had not tested whether color or temperature also influenced the insects. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Without individual markings, visits cannot be equated with unique visitors; one bee may be recorded repeatedly.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"How Bees Find a Flower\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Evidence design",
+              "prompt": "Which modification would most directly reduce location-based confounding?",
               "choices": [
-                "Students covered selected flowers briefly and counted visits after uncovering them at matched times.",
-                "The flowers with stronger scents received more visits during the morning observation periods.",
-                "Their report proposed an experiment that would separate the effects of scent from those of flower color.",
-                "Some blossoms attracted many insects while others received few visits despite growing close together."
+                "Extend each count from ten minutes to fifteen minutes while leaving the patches unchanged.",
+                "Mix potted plants of both varieties in randomized positions across the same area.",
+                "Record only the first insect seen each morning.",
+                "Ask observers which flower they personally find more fragrant."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: Their report proposed an experiment that would separate the effects of scent from those of flower color. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "Randomized mixed positions separate variety identity from any single position's conditions. Longer counts or opinions do not fix the confound.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"How Bees Find a Flower\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Interpretation",
+              "prompt": "Why does the proposed trial distinguish nectar-collecting from pollen-collecting visits?",
               "choices": [
-                "Initial concern: “Some blossoms attracted many insects while others…”; method: “The class had not tested whether color or temperature…”.",
-                "Initial concern: “The flowers with stronger scents received more visits…”; method: “Their report proposed an experiment that would separate…”.",
-                "Initial concern: “Students covered selected flowers briefly and counted…”; method: “The flowers with stronger scents received more visits…”.",
-                "Initial concern: “Some blossoms attracted many insects while others…”; method: “Students covered selected flowers briefly and counted…”."
+                "The two activities must involve different insect species.",
+                "Only nectar collection is affected by flower shape.",
+                "Visits motivated by different resources may not be explained by scent in the same way.",
+                "Pollen visits cannot be observed outdoors."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Some blossoms attracted many insects while others received few visits despite growing close together. and the subsequent investigative procedure is Students covered selected flowers briefly and counted visits after uncovering them at matched times..",
+              "correctIndex": 2,
+              "explanation": "Recording foraging activity lets investigators test whether a pattern is linked to distinct resources rather than treating every arrival as behaviorally equivalent.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"How Bees Find a Flower\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Scope of claims",
+              "prompt": "Which statement would overstate the evidence reported at the exhibition?",
               "choices": [
-                "The observation (“The flowers with stronger scents received more visits…”) matters, but the limit (“The class had not tested whether color or temperature…”) remains.",
-                "The observation (“The flowers with stronger scents received more visits…”) rules out every alternative cause.",
-                "The limitation (“The class had not tested whether color or temperature…”) disproves the observation itself.",
-                "The method (“Students covered selected flowers briefly and counted…”) guarantees the result before measurement."
+                "The students observed unequal visit frequencies under certain conditions.",
+                "The students found reasons to control shade and temperature in later trials.",
+                "The students discussed randomized positions as a future improvement.",
+                "The students proved that stronger scent alone caused the morning preference."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The flowers with stronger scents received more visits during the morning observation periods. but must be read alongside The class had not tested whether color or temperature also influenced the insects..",
+              "correctIndex": 3,
+              "explanation": "The observations did not isolate scent; several competing explanations remain plausible. The other statements describe recorded facts or design proposals.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"How Bees Find a Flower\" relate to the strength and limits of the earlier observations?",
+              "type": "Structure",
+              "prompt": "What is the function of the paragraph discussing sleeves and separate planting locations?",
               "choices": [
-                "The observation (“The flowers with stronger scents received more visits…”) shows that measurement was unnecessary.",
-                "The response (“Their report proposed an experiment that would separate…”) follows evidence but remains open to reassessment.",
-                "The response (“Their report proposed an experiment that would separate…”) is proof of success in every setting.",
-                "The caveat (“The class had not tested whether color or temperature…”) makes the observations worthless."
+                "It introduces methodological flaws that motivate a redesigned experiment.",
+                "It establishes that the original hypothesis must be false.",
+                "It shows that observers failed to count any bee visits.",
+                "It provides the final numerical result of the study."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed Their report proposed an experiment that would separate the effects of scent from those of flower color.; the stated limit The class had not tested whether color or temperature also influenced the insects. still matters.",
+              "correctIndex": 0,
+              "explanation": "The paragraph identifies ways apparently controlled comparisons could remain biased and leads naturally to the randomized mixed-plant trial.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"How Bees Find a Flower\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which general lesson does the passage most strongly support?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Students covered selected flowers briefly and counted…”) while testing the concern (“The class had not tested whether color or temperature…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "An attractive hypothesis becomes reliable when observers agree about it.",
+                "Good experiments must distinguish a favored explanation from plausible competing causes.",
+                "Counting behavior is never a useful scientific method.",
+                "Repeated observations are unnecessary once a preliminary pattern emerges."
               ],
-              "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The class had not tested whether color or temperature also influenced the insects., while comparing evidence from the original method, Students covered selected flowers briefly and counted visits after uncovering them at matched times..",
+              "correctIndex": 1,
+              "explanation": "The final paragraph explicitly emphasizes testing causal explanations against alternatives, not merely accumulating confirming observations.",
               "passageId": "R03-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
