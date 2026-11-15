@@ -7,6 +7,7 @@ on:
       - 'reading-day1.html'
       - 'language.html'
       - 'tests/validate-subject-navigation.js'
+      - 'tests/validate-completion-tracking.js'
       - '.github/workflows/validate-navigation.yml'
   pull_request:
     paths:
@@ -24,4 +25,6 @@ jobs:
         with:
           node-version: '22'
       - name: Verify overview and subject routes
-        run: node tests/validate-subject-navigation.js
+        run: |
+          node tests/validate-subject-navigation.js
+          node tests/validate-completion-tracking.js
