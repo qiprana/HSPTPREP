@@ -3541,16 +3541,16 @@
         {
           "id": "LA08-C-1",
           "group": "usage",
-          "skill": "Ecological restoration",
-          "text": "Volunteers measure stream clarity only in the first week after a cleanup. Why is their conclusion about year-round recovery premature?",
+          "skill": "Study design",
+          "text": "A wetlands team compares treated marshes with untreated marshes, but only the treated marshes border a new reservoir. Which change most directly addresses the confounding variable?",
           "options": [
-            "Stream clarity is unrelated to water quality under any circumstance.",
-            "Cleanups never affect streams.",
-            "A short post-cleanup observation cannot establish seasonal persistence or exclude temporary runoff changes.",
-            "Water measurements become less accurate when repeated."
+            "Compare the treated marshes only with one another.",
+            "Measure reservoir proximity and match sites with similar water access across treatment groups.",
+            "Use a larger font for graphs displaying results.",
+            "Remove the untreated marshes because they lack the treatment."
           ],
-          "correctIndex": 2,
-          "explanation": "The limited window cannot establish durability across seasons or distinguish cleanup effects from transient hydrological conditions.",
+          "correctIndex": 1,
+          "explanation": "Reservoir proximity may affect the outcome independently of treatment. Matching on access helps isolate treatment differences; removing controls or changing the display does not.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -3558,16 +3558,16 @@
         {
           "id": "LA08-C-2",
           "group": "usage",
-          "skill": "Ecological inference",
-          "text": "Neighborhoods with more trees report lower average summer temperatures. What conclusion is unsupported without individual-level data?",
+          "skill": "Correlative conjunctions",
+          "text": "Which sentence correctly uses neither...nor with a verb that agrees with the closer subject?",
           "options": [
-            "The neighborhood averages differ.",
-            "Every person living near a tree experiences less heat exposure than every person elsewhere.",
-            "Other neighborhood characteristics could differ.",
-            "More investigation could separate shade from building density."
+            "Neither the ecologists nor the field coordinator are available tomorrow.",
+            "Neither the ecologists nor the field coordinator is available tomorrow.",
+            "Neither the ecologists or the field coordinator is available tomorrow.",
+            "Neither the ecologists nor the field coordinator have available tomorrow."
           ],
           "correctIndex": 1,
-          "explanation": "Group averages cannot establish a strict ordering of every individual exposure, especially when housing and activities vary.",
+          "explanation": "In a neither...nor construction, the singular nearer subject field coordinator takes is. The remaining options mismatch agreement, misuse the correlative pair, or form an ungrammatical predicate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -3575,16 +3575,16 @@
         {
           "id": "LA08-C-3",
           "group": "usage",
-          "skill": "Wildlife corridor",
-          "text": "Animal sightings in a new corridor rise after nearby forest clearing forces animals into a narrower route. What would challenge the claim that the corridor caused population recovery?",
+          "skill": "Evidence versus analogy",
+          "text": "An essay argues that restoring a river is like repairing a road and therefore will require exactly the same funding timeline. What is the strongest objection?",
           "options": [
-            "Sightings include repeated individuals displaced from surrounding habitat despite no increase in population estimates.",
-            "The corridor contains native plants.",
-            "Local volunteers observed deer using the path.",
-            "The path was open during daylight."
+            "A comparison can clarify a process but cannot establish identical costs or schedules without relevant evidence.",
+            "Any analogy between environmental and engineering work is logically invalid.",
+            "Both projects may involve public funds.",
+            "Road repairs are always more urgent than river restoration."
           ],
           "correctIndex": 0,
-          "explanation": "Concentrated sightings can reflect displacement or repeated counting, not a larger population.",
+          "explanation": "An analogy may be illustrative but cannot prove precise quantitative equivalence. The alternatives overgeneralize or fail to test the claimed inference.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -3592,155 +3592,155 @@
         {
           "id": "LA08-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the ecological restoration challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Comparative construction",
+          "text": "Which revision removes the illogical comparison in 'The biodiversity of the restored stream is higher than the neighboring valley'?",
           "options": [
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The recommendation is costly; therefore no one should examine its possible benefits.",
-            "The recommendation has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial."
+            "The biodiversity of the restored stream is higher than the biodiversity of streams in the neighboring valley.",
+            "The biodiversity of the restored stream is higher than the neighboring valley's residents.",
+            "The restored stream has a higher biodiversity than the neighboring valley was restored.",
+            "The biodiversity in the restored stream is more higher than the valley."
           ],
           "correctIndex": 0,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "The comparison must be between comparable measures of biodiversity, not between a measure and a geographical location. Only the first option compares like quantities.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the ecological restoration challenge scenario, Every approved pilot passed ethical review. A pilot passed ethical review. What follows?",
+          "skill": "Scope of only",
+          "text": "A report states: 'Only volunteers who completed safety training entered the restricted wetland.' Which inference is justified?",
           "options": [
-            "No approved pilot passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The pilot must have been approved.",
-            "Ethical review was unnecessary."
+            "Every trained volunteer entered the restricted wetland.",
+            "Any volunteer who entered the restricted wetland had completed safety training.",
+            "No paid researcher entered the restricted wetland.",
+            "Completing safety training guaranteed entry to the restricted wetland."
           ],
           "correctIndex": 1,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "explanation": "Only trained volunteers entered means entry requires training for volunteers; it does not say training guarantees entry. The wording does not address all other personnel.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the ecological restoration challenge scenario, Only the surveyors who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Concessive subordinate clause",
+          "text": "Which sentence most effectively acknowledges the weakness of a short field survey while preserving a narrowly supported finding?",
           "options": [
-            "Surveyors without certification supplied no data.",
-            "All eligible surveyors received certification.",
-            "Every certified surveyor supplied raw data.",
-            "Every raw-data supplier was certified."
+            "Because the survey was short, the stream must be completely restored.",
+            "Although the survey covered just two weeks, it documented an increase in observed amphibian activity during that period.",
+            "The stream recovered fully, despite the survey being short, and this is beyond doubt.",
+            "The survey was short; consequently amphibian activity will continue increasing forever."
           ],
-          "correctIndex": 2,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "Although introduces a concession while limiting the claim to observed activity during the sampled interval. The other choices extrapolate beyond the data.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the ecological restoration challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Measurement validity",
+          "text": "Researchers define 'river health' solely as the number of fish observed during one afternoon. Which criticism is most precise?",
           "options": [
-            "Whom concluded that the evidence was incomplete?",
-            "The critic whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the paper?"
+            "Fish counts are never relevant to river ecosystems.",
+            "A single afternoon count may be affected by detectability and fails to cover other dimensions of ecosystem condition.",
+            "All ecological metrics must be qualitative.",
+            "The metric proves that water quality cannot be measured."
           ],
-          "correctIndex": 3,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 1,
+          "explanation": "A single count is vulnerable to observation conditions and underrepresents a multidimensional construct. The other options are categorical claims not justified by the scenario.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the ecological restoration challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Punctuation of nonrestrictive clauses",
+          "text": "Which sentence correctly punctuates a nonrestrictive clause about a uniquely identified research station?",
           "options": [
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation."
+            "Station Delta which opened last spring now monitors the watershed.",
+            "Station Delta, which opened last spring, now monitors the watershed.",
+            "Station Delta, which opened last spring now monitors, the watershed.",
+            "Station Delta which opened last spring, now monitors the watershed."
           ],
-          "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 1,
+          "explanation": "The supplementary clause 'which opened last spring' is set off by a pair of commas. Other choices omit or misplace the required boundaries.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-9",
           "group": "composition",
-          "skill": "Claim calibration",
-          "text": "In the ecological restoration challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Conditional counterexample",
+          "text": "A scientist claims: 'Whenever the reeds increase, dissolved oxygen increases.' Which observation would most directly refute the claim?",
           "options": [
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention."
+            "A site where reeds decrease and oxygen decreases.",
+            "A site where reeds increase but dissolved oxygen decreases.",
+            "A site where reeds remain unchanged and oxygen increases.",
+            "A site where both reed count and oxygen rise."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A universal conditional is disproved by one case with its antecedent true and consequent false. The other observations are consistent with the claim or unrelated.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-10",
           "group": "composition",
-          "skill": "Source evaluation",
-          "text": "In the ecological restoration challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Ambiguous reference",
+          "text": "Which revision clarifies that the sampling method, not the previous report, was unreliable in 'The scientist compared the sampling method with the previous report, which was unreliable'?",
           "options": [
-            "A later summary cites only the disputed account.",
-            "A critic describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph."
+            "The scientist compared the unreliable sampling method with the previous report.",
+            "The scientist compared the sampling method with the unreliable previous report.",
+            "The scientist compared the sampling method with the previous report, which itself was unreliable.",
+            "The scientist compared both methods and the report, which were unreliable."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "Putting 'unreliable' directly before sampling method fixes its referent. The remaining options assign unreliability to the report or alter the set of objects.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-11",
           "group": "composition",
-          "skill": "Policy judgment",
-          "text": "In the ecological restoration challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Control-group interpretation",
+          "text": "During a drought, water clarity improves in both restored and unrestored streams by similar amounts. Which conclusion is best supported?",
           "options": [
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial recommendation.",
-            "Run a bounded pilot with predefined measures before considering wider adoption."
+            "Restoration uniquely caused the clarity improvement.",
+            "The parallel improvements weaken the claim that restoration alone explains the observed change.",
+            "Restoration is proven ineffective under every climate condition.",
+            "The control group must have received the restoration without researchers knowing."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 1,
+          "explanation": "Comparable improvements in treated and untreated streams suggest a shared cause, such as the drought, may explain much of the outcome. This does not prove restoration has no effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-C-12",
           "group": "composition",
-          "skill": "Competing hypotheses",
-          "text": "In the ecological restoration challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Balanced synthesis",
+          "text": "Two studies disagree: one finds short-term increases in native plants after invasive-species removal; the other detects no improvement in overall bird diversity over the same period. Which synthesis is most defensible?",
           "options": [
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists."
+            "The studies are contradictory, so neither can be trusted.",
+            "Removing invasive species improves every measure of ecosystem health.",
+            "The intervention may affect plant abundance without producing immediate gains in bird diversity; longer and broader monitoring is needed.",
+            "Bird diversity must increase because plant abundance increased."
           ],
-          "correctIndex": 0,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 2,
+          "explanation": "Different outcome measures can respond differently or on different timelines. The cautious synthesis keeps the observed results separate and identifies useful follow-up evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
