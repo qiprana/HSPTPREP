@@ -9804,9 +9804,9 @@
         },
         {
           "id": "R10-P2",
-          "title": "The Lighthouse Logbook",
-          "genre": "history",
-          "text": "Volunteers transcribed a lighthouse keeper's daily notes from the nineteenth century. Many entries recorded ordinary weather, but a few referred to ships without naming them. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe volunteers matched dates with port arrivals and official storm reports. One storm entry corresponded to a documented rescue near a dangerous reef. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their gradual approach involved examining the available information before making the next decision.\n\nThe logbook could not establish how every sailor aboard the ship experienced the event. The museum used the notes to show how routine observations could matter during emergencies. Quiet records of daily work may illuminate larger historical events. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wollstonecraft — Reason versus Decorum",
+          "genre": "historical argument",
+          "text": "If love has made some women wretched--how many more has the cold unmeaning intercourse of gallantry rendered vain and useless! yet this heartless attention to the sex is reckoned so manly, so polite, that till society is very differently organized, I fear, this vestige of gothic manners will not be done away by a more reasonable and affectionate mode of conduct. Besides, to strip it of its imaginary dignity, I must observe, that in the most civilized European states, this lip-service prevails in a very great degree, accompanied with extreme dissoluteness of morals. In Portugal, the country that I particularly allude to, it takes place of the most serious moral obligations; for a man is seldom assassinated when in the company of a woman. The savage hand of rapine is unnerved by this chivalrous spirit; and, if the stroke of vengeance cannot be stayed--the lady is entreated to pardon the rudeness and depart in peace, though sprinkled, perhaps, with her husband's or brother's blood.\n\nI shall pass over his strictures on religion, because I mean to discuss that subject in a separate chapter.\n\nThe remarks relative to behaviour, though many of them very sensible, I entirely disapprove of, because it appears to me to be beginning, as it were at the wrong end. A cultivated understanding, and an affectionate heart, will never want starched rules of decorum, something more substantial than seemliness will be the result; and, without understanding, the behaviour here recommended, would be rank affectation. Decorum, indeed, is the one thing needful! decorum is to supplant nature, and banish all simplicity and variety of character out of the female world. Yet what good end can all this superficial counsel produce? It is, however, much easier to point out this or that mode of behaviour, than to set the reason to work; but, when the mind has been stored with useful knowledge, and strengthened by being employed, the regulation of the behaviour may safely be left to its guidance.\n\nWhy, for instance, should the following caution be given, when art of every kind must contaminate the mind; and why entangle the grand motives of action, which reason and religion equally combine to enforce, with pitiful worldly shifts and slight of hand tricks to gain the applause of gaping tasteless fools? \"Be even cautious in displaying your good sense.* It will be thought you assume a superiority over the rest of the company-- But if you happen to have any learning keep it a profound secret, especially from the men, who generally look with a jealous and malignant eye on a woman of great parts, and a cultivated understanding.\" If men of real merit, as he afterwards observes, are superior to this meanness, where is the necessity that the behaviour of the whole sex should be modulated to please fools, or men, who having little claim to respect as individuals, choose to keep close in their phalanx. Men, indeed, who insist on their common superiority, having only this sexual superiority, are certainly very excusable.",
           "term": [
             "gradual",
             "happening in stages",
@@ -9817,171 +9817,190 @@
           "questions": [
             {
               "id": "R10-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Lighthouse Logbook\"?",
+              "type": "Argument",
+              "prompt": "What distinction governs Wollstonecraft's criticism of conventional gallantry?",
               "choices": [
-                "The proposed response (“The museum used the notes to show how routine…”) makes the original concern irrelevant.",
-                "The method (“The volunteers matched dates with port arrivals and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“One storm entry corresponded to a documented rescue near…”) is treated as unrelated to the original investigation.",
-                "The concern (“Many entries recorded ordinary weather, but a few…”) leads to inquiry, but “The logbook could not establish how every sailor aboard…” limits the inference."
+                "Gallantry may display outward respect while leaving moral obligations and genuine regard neglected.",
+                "Gallantry is objectionable only when it fails to follow the newest etiquette rules.",
+                "Expressions of courtesy necessarily eliminate coercion in society.",
+                "Affection is valuable only when it obeys formal codes of behavior."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The logbook could not establish how every sailor aboard the ship experienced the event. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "She contrasts lip-service and superficial politeness with serious obligations and affectionate conduct, arguing that appearances can conceal moral failure.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Lighthouse Logbook\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Illustration",
+              "prompt": "Why does she describe a violent encounter interrupted by a chivalrous appeal to a lady?",
               "choices": [
-                "One storm entry corresponded to a documented rescue near a dangerous reef.",
-                "The museum used the notes to show how routine observations could matter during emergencies.",
-                "Many entries recorded ordinary weather, but a few referred to ships without naming them.",
-                "The volunteers matched dates with port arrivals and official storm reports."
+                "To establish that gallantry reliably prevents aggression.",
+                "To show that Portuguese law allowed such encounters.",
+                "To dramatize how ceremonial politeness can coexist with grave wrongdoing.",
+                "To suggest the episode is representative of all women."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Many entries recorded ordinary weather, but a few referred to ships without naming them. The other choices describe what was done or discovered afterward.",
+              "explanation": "The contradiction between restraint toward a lady and violence against her companion exposes the limited moral substance of ostensible chivalry.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Lighthouse Logbook\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Tone",
+              "prompt": "What is the effect of 'Decorum, indeed, is the one thing needful!' in context?",
               "choices": [
-                "Many entries recorded ordinary weather, but a few referred to ships without naming them.",
-                "One storm entry corresponded to a documented rescue near a dangerous reef.",
-                "The logbook could not establish how every sailor aboard the ship experienced the event.",
-                "The volunteers matched dates with port arrivals and official storm reports."
+                "It announces her final endorsement of strict etiquette.",
+                "It satirically amplifies the excessive importance assigned to outward propriety.",
+                "It introduces a neutral definition of decorum.",
+                "It claims that every form of social convention is illegal."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: The volunteers matched dates with port arrivals and official storm reports. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The emphatic exclamation follows her criticism of decorum displacing nature and character. The tone is ironic rather than approving.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Lighthouse Logbook\", rather than a procedure, caution, or policy response?",
+              "type": "Educational theory",
+              "prompt": "Why does she favor cultivating understanding over prescribing isolated rules of behavior?",
               "choices": [
-                "One storm entry corresponded to a documented rescue near a dangerous reef.",
-                "The volunteers matched dates with port arrivals and official storm reports.",
-                "The logbook could not establish how every sailor aboard the ship experienced the event.",
-                "The museum used the notes to show how routine observations could matter during emergencies."
+                "She believes conduct cannot be influenced by learning.",
+                "She argues that all social behavior should be spontaneous and unreflective.",
+                "She wants to replace moral judgment with institutional supervision.",
+                "She holds that developed reason can guide conduct more substantially than memorized appearances."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: One storm entry corresponded to a documented rescue near a dangerous reef. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "She contrasts superficial rules with a mind strengthened by useful knowledge, which can then regulate behavior intelligently.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Lighthouse Logbook\" from being generalized beyond the available evidence?",
+              "type": "Qualification",
+              "prompt": "Which claim would overstate Wollstonecraft's position?",
               "choices": [
-                "The museum used the notes to show how routine observations could matter during emergencies.",
-                "The logbook could not establish how every sailor aboard the ship experienced the event.",
-                "One storm entry corresponded to a documented rescue near a dangerous reef.",
-                "The volunteers matched dates with port arrivals and official storm reports."
+                "She objects to behavior treated as mere affectation when understanding is absent.",
+                "She considers cultivated understanding important to moral conduct.",
+                "She believes every rule of politeness is inherently immoral in every setting.",
+                "She criticizes advice that asks educated women to conceal their abilities."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The logbook could not establish how every sailor aboard the ship experienced the event. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "Her focus is the prioritization of empty decorum over reason and honest character, not a universal legal or moral ban on courtesy.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Lighthouse Logbook\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Source reasoning",
+              "prompt": "What assumption in the quoted advice about concealing women's learning does Wollstonecraft reject?",
               "choices": [
-                "The volunteers matched dates with port arrivals and official storm reports.",
-                "One storm entry corresponded to a documented rescue near a dangerous reef.",
-                "The museum used the notes to show how routine observations could matter during emergencies.",
-                "Many entries recorded ordinary weather, but a few referred to ships without naming them."
+                "That women's learning should be hidden to avoid offending men whose approval is sought.",
+                "That learning can be acquired by reading books.",
+                "That intelligence can be demonstrated in conversation.",
+                "That people often care about social impressions."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The museum used the notes to show how routine observations could matter during emergencies. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The advice asks women to conceal their accomplishments from supposedly jealous men; she challenges why behavior should be governed by such men's prejudice.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Lighthouse Logbook\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Rhetorical question",
+              "prompt": "Why does she ask why the behavior of a whole sex should be adjusted to please 'fools'?",
               "choices": [
-                "Initial concern: “Many entries recorded ordinary weather, but a few…”; method: “The logbook could not establish how every sailor aboard…”.",
-                "Initial concern: “One storm entry corresponded to a documented rescue near…”; method: “The museum used the notes to show how routine…”.",
-                "Initial concern: “The volunteers matched dates with port arrivals and…”; method: “One storm entry corresponded to a documented rescue near…”.",
-                "Initial concern: “Many entries recorded ordinary weather, but a few…”; method: “The volunteers matched dates with port arrivals and…”."
+                "To request a statistical survey of men's opinions.",
+                "To expose the unreasonable elevation of prejudiced observers into authorities over women's conduct.",
+                "To deny that intelligence differs across individuals.",
+                "To propose that women refuse every social relationship."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Many entries recorded ordinary weather, but a few referred to ships without naming them. and the subsequent investigative procedure is The volunteers matched dates with port arrivals and official storm reports..",
+              "correctIndex": 1,
+              "explanation": "The question rejects making women regulate their learning and expression to satisfy those whose judgment she considers inadequate.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Lighthouse Logbook\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Structural shift",
+              "prompt": "How does the passage move from gallantry to advice about women's learning?",
               "choices": [
-                "The observation (“One storm entry corresponded to a documented rescue near…”) matters, but the limit (“The logbook could not establish how every sailor aboard…”) remains.",
-                "The observation (“One storm entry corresponded to a documented rescue near…”) rules out every alternative cause.",
-                "The limitation (“The logbook could not establish how every sailor aboard…”) disproves the observation itself.",
-                "The method (“The volunteers matched dates with port arrivals and…”) guarantees the result before measurement."
+                "From an account of scientific progress to an unrelated theological debate.",
+                "From praise of etiquette to a request for stricter etiquette.",
+                "From private memories to descriptions of geographic conditions.",
+                "From a critique of ceremonial conduct to a wider argument against subordinating reason to social appearance."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as One storm entry corresponded to a documented rescue near a dangerous reef. but must be read alongside The logbook could not establish how every sailor aboard the ship experienced the event..",
+              "correctIndex": 3,
+              "explanation": "The two examples support one central distinction: visible conformity is inadequate without independent moral and intellectual development.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Lighthouse Logbook\" relate to the strength and limits of the earlier observations?",
+              "type": "Contrast",
+              "prompt": "What does 'a cultivated understanding, and an affectionate heart' stand against?",
               "choices": [
-                "The observation (“One storm entry corresponded to a documented rescue near…”) shows that measurement was unnecessary.",
-                "The response (“The museum used the notes to show how routine…”) follows evidence but remains open to reassessment.",
-                "The response (“The museum used the notes to show how routine…”) is proof of success in every setting.",
-                "The caveat (“The logbook could not establish how every sailor aboard…”) makes the observations worthless."
+                "All emotional connections between people.",
+                "Serious intellectual work in society.",
+                "Rigid codes of behavior practiced without inner judgment or genuine regard.",
+                "Every form of education carried out within a family."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The museum used the notes to show how routine observations could matter during emergencies.; the stated limit The logbook could not establish how every sailor aboard the ship experienced the event. still matters.",
+              "correctIndex": 2,
+              "explanation": "Wollstonecraft pairs intellect and genuine affection as sources of conduct more substantial than the 'starched rules' she criticizes.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             },
             {
               "id": "R10-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Lighthouse Logbook\" without ignoring its stated limitation?",
+              "type": "Thesis",
+              "prompt": "Which formulation best captures the author's central argument?",
               "choices": [
-                "Repeat the method (“The volunteers matched dates with port arrivals and…”) while testing the concern (“The logbook could not establish how every sailor aboard…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Women's actions should be governed by reason and moral development, not merely by rules designed to secure superficial approval.",
+                "Social respectability is the only reliable measure of virtue.",
+                "A nation's manners improve chiefly by increasing ceremonial praise.",
+                "Learning matters only when it can be concealed successfully."
               ],
               "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The logbook could not establish how every sailor aboard the ship experienced the event., while comparing evidence from the original method, The volunteers matched dates with port arrivals and official storm reports..",
+              "explanation": "Across both examples she opposes empty social display and expectations that women suppress cultivated reason to preserve conventional appearances.",
               "passageId": "R10-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — excerpt 5"
             }
-          ]
+          ],
+          "source": {
+            "work": "A Vindication of the Rights of Woman",
+            "author": "Mary Wollstonecraft",
+            "year": 1792,
+            "url": "https://www.gutenberg.org/ebooks/3420",
+            "rights": "Public domain in United States",
+            "start": "If love has made some women wretched--how many more has the cold unmeaning intercourse of galla",
+            "end": "on their common superiority, having only this sexual superiority, are certainly very excusable."
+          }
         },
         {
           "id": "R10-P3",
-          "title": "The Lantern Festival",
-          "genre": "narrative",
-          "text": "A student committee planned lanterns for a school celebration. The original design required supplies that the school could no longer afford. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nCommittee members surveyed what materials were available and tested smaller lanterns. The new lanterns used less paper and produced a warm, even light along the walkway. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their tentative approach involved examining the available information before making the next decision.\n\nA few students missed the larger decorations described in the first proposal. Visitors enjoyed the finished display, and the committee saved the design for future events. Creative constraints can encourage solutions that are simpler but still meaningful. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist — Public Welfare and State Power",
+          "genre": "historical argument",
+          "text": "HAVING shown that no one of the powers transferred to the federal government is unnecessary or improper, the next question to be considered is, whether the whole mass of them will be dangerous to the portion of authority left in the several States.\n\nThe adversaries to the plan of the convention, instead of considering in the first place what degree of power was absolutely necessary for the purposes of the federal government, have exhausted themselves in a secondary inquiry into the possible consequences of the proposed degree of power to the governments of the particular States. But if the Union, as has been shown, be essential to the security of the people of America against foreign danger; if it be essential to their security against contentions and wars among the different States; if it be essential to guard them against those violent and oppressive factions which embitter the blessings of liberty, and against those military establishments which must gradually poison its very fountain; if, in a word, the Union be essential to the happiness of the people of America, is it not preposterous, to urge as an objection to a government, without which the objects of the Union cannot be attained, that such a government may derogate from the importance of the governments of the individual States? Was, then, the American Revolution effected, was the American Confederacy formed, was the precious blood of thousands spilt, and the hard-earned substance of millions lavished, not that the people of America should enjoy peace, liberty, and safety, but that the government of the individual States, that particular municipal establishments, might enjoy a certain extent of power, and be arrayed with certain dignities and attributes of sovereignty? We have heard of the impious doctrine in the Old World, that the people were made for kings, not kings for the people. Is the same doctrine to be revived in the New, in another shape that the solid happiness of the people is to be sacrificed to the views of political institutions of a different form? It is too early for politicians to presume on our forgetting that the public good, the real welfare of the great body of the people, is the supreme object to be pursued; and that no form of government whatever has any other value than as it may be fitted for the attainment of this object. Were the plan of the convention adverse to the public happiness, my voice would be, Reject the plan. Were the Union itself inconsistent with the public happiness, it would be, Abolish the Union. In like manner, as far as the sovereignty of the States cannot be reconciled to the happiness of the people, the voice of every good citizen must be, Let the former be sacrificed to the latter. How far the sacrifice is necessary, has been shown. How far the unsacrificed residue will be endangered, is the question before us.",
           "term": [
             "tentative",
             "not yet certain",
@@ -9992,171 +10011,190 @@
           "questions": [
             {
               "id": "R10-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Lantern Festival\"?",
+              "type": "Issue framing",
+              "prompt": "What is the question announced at the beginning of the excerpt?",
               "choices": [
-                "The concern (“The original design required supplies that the school…”) leads to inquiry, but “A few students missed the larger decorations described in…” limits the inference.",
-                "The proposed response (“Visitors enjoyed the finished display, and the committee…”) makes the original concern irrelevant.",
-                "The method (“Committee members surveyed what materials were available…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The new lanterns used less paper and produced a warm,…”) is treated as unrelated to the original investigation."
+                "Whether taxation may be levied without a national government.",
+                "Whether the combined federal powers might threaten authority left to the states.",
+                "Whether a single state can administer all interstate disputes.",
+                "Whether the Constitution transfers absolutely no powers to the federal government."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification A few students missed the larger decorations described in the first proposal. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Having addressed each transferred power separately, the author turns to whether their cumulative effect endangers the remaining authority of state governments.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Lantern Festival\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Priority of argument",
+              "prompt": "What does the author criticize about opponents' method of evaluating federal power?",
               "choices": [
-                "Visitors enjoyed the finished display, and the committee saved the design for future events.",
-                "The original design required supplies that the school could no longer afford.",
-                "Committee members surveyed what materials were available and tested smaller lanterns.",
-                "The new lanterns used less paper and produced a warm, even light along the walkway."
+                "They focus on possible effects on state institutions without first asking what power is needed for national purposes.",
+                "They insist that every state should have the same population.",
+                "They refuse to discuss any constitutional limits.",
+                "They claim the federal government needs no officers or revenue."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: The original design required supplies that the school could no longer afford. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "He argues that an inquiry into necessary federal authority should precede concern about diminished state institutional status.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Lantern Festival\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Rhetorical strategy",
+              "prompt": "Why does the author invoke the sacrifices of the Revolution?",
               "choices": [
-                "The new lanterns used less paper and produced a warm, even light along the walkway.",
-                "A few students missed the larger decorations described in the first proposal.",
-                "Committee members surveyed what materials were available and tested smaller lanterns.",
-                "The original design required supplies that the school could no longer afford."
+                "To prove the proposed government existed before independence.",
+                "To argue that the Revolution was fought chiefly to enlarge state ceremonial privileges.",
+                "To contrast the people's pursuit of peace and liberty with preserving institutions for their own sake.",
+                "To establish that military power alone is the basis of legitimacy."
               ],
               "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Committee members surveyed what materials were available and tested smaller lanterns. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "He asks whether those sacrifices were for public safety or for the dignity and prerogatives of individual state governments.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Lantern Festival\", rather than a procedure, caution, or policy response?",
+              "type": "Analogy",
+              "prompt": "What point is made by comparing 'people were made for kings' with the possible elevation of state institutions?",
               "choices": [
-                "Committee members surveyed what materials were available and tested smaller lanterns.",
-                "A few students missed the larger decorations described in the first proposal.",
-                "Visitors enjoyed the finished display, and the committee saved the design for future events.",
-                "The new lanterns used less paper and produced a warm, even light along the walkway."
+                "The author supports monarchic authority when it is locally accountable.",
+                "Kings and states must exercise identical powers.",
+                "The author argues that the American Revolution had no institutional consequences.",
+                "Political institutions should serve people rather than demand that people's welfare be subordinated to their prestige."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The new lanterns used less paper and produced a warm, even light along the walkway. The other statements describe different stages of the inquiry.",
+              "explanation": "The inversion exposes an institutional end displacing the public good. The author applies the anti-monarchic principle to debates about state power.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Lantern Festival\" from being generalized beyond the available evidence?",
+              "type": "Qualification",
+              "prompt": "What is the significance of his willingness to 'Abolish the Union' if it conflicts with public happiness?",
               "choices": [
-                "A few students missed the larger decorations described in the first proposal.",
-                "The new lanterns used less paper and produced a warm, even light along the walkway.",
-                "Committee members surveyed what materials were available and tested smaller lanterns.",
-                "Visitors enjoyed the finished display, and the committee saved the design for future events."
+                "It shows that the Union, like any governmental arrangement, is justified instrumentally by its service to people.",
+                "It proves that he regards the Union as wholly unnecessary.",
+                "It announces his withdrawal from support for the constitutional plan.",
+                "It establishes that state autonomy can never serve citizens."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: A few students missed the larger decorations described in the first proposal. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The conditional rejects treating any specific form as intrinsically sacred. Even the Union would fail his criterion if it undermined public welfare.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Lantern Festival\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Logic",
+              "prompt": "Which conclusion best preserves his qualification concerning state sovereignty?",
               "choices": [
-                "The new lanterns used less paper and produced a warm, even light along the walkway.",
-                "Visitors enjoyed the finished display, and the committee saved the design for future events.",
-                "The original design required supplies that the school could no longer afford.",
-                "Committee members surveyed what materials were available and tested smaller lanterns."
+                "Every existing state power must be abolished.",
+                "State sovereignty should yield insofar as it cannot be reconciled with the happiness of the people.",
+                "A state's authority always overrides national security.",
+                "The states may retain authority only when all citizens agree."
               ],
               "correctIndex": 1,
-              "explanation": "The subsequent response was: Visitors enjoyed the finished display, and the committee saved the design for future events. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "He specifies the extent of irreconcilability as the condition for sacrifice, not an unconditional elimination of states.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Lantern Festival\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Evidence framing",
+              "prompt": "Why does the author list foreign danger, interstate conflict, factions, and military establishments?",
               "choices": [
-                "Initial concern: “The new lanterns used less paper and produced a warm,…”; method: “Visitors enjoyed the finished display, and the committee…”.",
-                "Initial concern: “Committee members surveyed what materials were available…”; method: “The new lanterns used less paper and produced a warm,…”.",
-                "Initial concern: “The original design required supplies that the school…”; method: “Committee members surveyed what materials were available…”.",
-                "Initial concern: “The original design required supplies that the school…”; method: “A few students missed the larger decorations described in…”."
+                "To show that state governments caused every problem in the republic.",
+                "To argue for eliminating all organized defense.",
+                "To identify public harms the Union is claimed to avert and thus the ends against which its powers should be judged.",
+                "To suggest constitutional design should ignore security."
               ],
               "correctIndex": 2,
-              "explanation": "The issue begins with The original design required supplies that the school could no longer afford. and the subsequent investigative procedure is Committee members surveyed what materials were available and tested smaller lanterns..",
+              "explanation": "The list establishes the desired public outcomes of a functional union. It supports comparing institutional powers to the goals they are meant to achieve.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Lantern Festival\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Structure",
+              "prompt": "How do the extended conditional clauses shape the author's argument?",
               "choices": [
-                "The observation (“The new lanterns used less paper and produced a warm,…”) rules out every alternative cause.",
-                "The limitation (“A few students missed the larger decorations described in…”) disproves the observation itself.",
-                "The method (“Committee members surveyed what materials were available…”) guarantees the result before measurement.",
-                "The observation (“The new lanterns used less paper and produced a warm,…”) matters, but the limit (“A few students missed the larger decorations described in…”) remains."
+                "They present a sequence of unrelated hypothetical events.",
+                "They replace premises with a list of personal preferences.",
+                "They imply that the Union's usefulness is already disproved.",
+                "They accumulate asserted public benefits before asking whether state prestige can outweigh them."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The new lanterns used less paper and produced a warm, even light along the walkway. but must be read alongside A few students missed the larger decorations described in the first proposal..",
+              "explanation": "The repeated 'if' clauses frame the Union as necessary to multiple shared goods, preparing the rhetorical question about subordinating those goods.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Lantern Festival\" relate to the strength and limits of the earlier observations?",
+              "type": "Opponent's concern",
+              "prompt": "What concern is the author trying to answer rather than simply ignoring?",
               "choices": [
-                "The response (“Visitors enjoyed the finished display, and the committee…”) follows evidence but remains open to reassessment.",
-                "The response (“Visitors enjoyed the finished display, and the committee…”) is proof of success in every setting.",
-                "The caveat (“A few students missed the larger decorations described in…”) makes the observations worthless.",
-                "The observation (“The new lanterns used less paper and produced a warm,…”) shows that measurement was unnecessary."
+                "Whether federal consolidation might undermine powers remaining to the states.",
+                "Whether citizens should be allowed to read constitutional debates.",
+                "Whether monarchs must govern every new republic.",
+                "Whether the Revolution produced any historical consequences."
               ],
               "correctIndex": 0,
-              "explanation": "The findings informed Visitors enjoyed the finished display, and the committee saved the design for future events.; the stated limit A few students missed the larger decorations described in the first proposal. still matters.",
+              "explanation": "The opening and closing explicitly address risk to the residue of state authority, even as the author contests how it should be weighed.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             },
             {
               "id": "R10-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Lantern Festival\" without ignoring its stated limitation?",
+              "type": "Central principle",
+              "prompt": "Which principle supplies the standard by which the author judges governments?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Committee members surveyed what materials were available…”) while testing the concern (“A few students missed the larger decorations described in…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "The dignity of state offices is always the highest good.",
+                "Governmental arrangements should be assessed by how well they promote the welfare of the people.",
+                "Institutions are justified solely by the age of their traditions.",
+                "Political security requires eliminating every regional institution."
               ],
               "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, A few students missed the larger decorations described in the first proposal., while comparing evidence from the original method, Committee members surveyed what materials were available and tested smaller lanterns..",
+              "explanation": "The excerpt names the 'public good' and 'real welfare' as the supreme objective and treats institutional form as valuable only insofar as it serves that objective.",
               "passageId": "R10-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — excerpt 5"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "HAVING shown that no one of the powers transferred to the federal government is unnecessary or ",
+            "end": "has been shown. How far the unsacrificed residue will be endangered, is the question before us."
+          }
         },
         {
           "id": "R10-P4",
-          "title": "The Community Noticeboard",
-          "genre": "community",
-          "text": "A housing association replaced scattered handwritten announcements with one organized noticeboard. Residents sometimes missed repairs or meetings because information appeared in several places. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nA volunteer team grouped notices by category and added clear dates to every item. People reported finding maintenance updates more quickly after the change. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their provisional approach involved examining the available information before making the next decision.\n\nSome residents still preferred printed copies delivered to their doors. The association kept both methods while tracking which notices were most useful. Clear information depends on its organization as well as its availability. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Thoreau — Berries, Silence, and the Pond",
+          "genre": "literary essay",
+          "text": "Sometimes, having had a surfeit of human society and gossip, and worn out all my village friends, I rambled still farther westward than I habitually dwell, into yet more unfrequented parts of the town, \"to fresh woods and pastures new,\" or, while the sun was setting, made my supper of huckleberries and blueberries on Fair Haven Hill, and laid up a store for several days. The fruits do not yield their true flavor to the purchaser of them, nor to him who raises them for the market. There is but one way to obtain it, yet few take that way. If you would know the flavor of huckleberries, ask the cowboy or the partridge. It is a vulgar error to suppose that you have tasted huckleberries who never plucked them. A huckleberry never reaches Boston; they have not been known there since they grew on her three hills. The ambrosial and essential part of the fruit is lost with the bloom which is rubbed off in the market cart, and they become mere provender. As long as Eternal Justice reigns, not one innocent huckleberry can be transported thither from the country's hills.\n\nOccasionally, after my hoeing was done for the day, I joined some impatient companion who had been fishing on the pond since morning, as silent and motionless as a duck or a floating leaf, and, after practising various kinds of philosophy, had concluded commonly, by the time I arrived, that he belonged to the ancient sect of CA|nobites. There was one older man, an excellent fisher and skilled in all kinds of woodcraft, who was pleased to look upon my house as a building erected for the convenience of fishermen; and I was equally pleased when he sat in my doorway to arrange his lines. Once in a while we sat together on the pond, he at one end of the boat, and I at the other; but not many words passed between us, for he had grown deaf in his later years, but he occasionally hummed a psalm, which harmonized well enough with my philosophy. Our intercourse was thus altogether one of unbroken harmony, far more pleasing to remember than if it had been carried on by speech. When, as was commonly the case, I had none to commune with, I used to raise the echoes by striking with a paddle on the side of my boat, filling the surrounding woods with circling and dilating sound, stirring them up as the keeper of a menagerie his wild beasts, until I elicited a growl from every wooded vale and hillside.\n\nIn warm evenings I frequently sat in the boat playing the flute, and saw the perch, which I seem to have charmed, hovering around me, and the moon travelling over the ribbed bottom, which was strewed with the wrecks of the forest. Formerly I had come to this pond adventurously, from time to time, in dark summer nights, with a companion, and, making a fire close to the water's edge, which we thought attracted the fishes, we caught pouts with a bunch of worms strung on a thread, and when we had done, far in the night, threw the burning brands high into the air like skyrockets, which, coming down into the pond, were quenched with a loud hissing, and we were suddenly groping in total darkness. Through this, whistling a tune, we took our way to the haunts of men again. But now I had made my home by the shore.",
           "term": [
             "provisional",
             "subject to revision",
@@ -10167,165 +10205,184 @@
           "questions": [
             {
               "id": "R10-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Community Noticeboard\"?",
+              "type": "Figurative meaning",
+              "prompt": "Why does Thoreau assert that a huckleberry 'never reaches Boston'?",
               "choices": [
-                "The recorded outcome (“People reported finding maintenance updates more quickly…”) is treated as unrelated to the original investigation.",
-                "The concern (“Residents sometimes missed repairs or meetings because…”) leads to inquiry, but “Some residents still preferred printed copies delivered…” limits the inference.",
-                "The proposed response (“The association kept both methods while tracking which…”) makes the original concern irrelevant.",
-                "The method (“A volunteer team grouped notices by category and added…”) rules out every possible competing explanation."
+                "He believes berries cannot be transported over long distances.",
+                "He is making a formal botanical claim about the fruit's lifespan.",
+                "He suggests that commercial transport can remove the freshness and experiential quality he values.",
+                "He argues that urban residents categorically refuse to eat berries."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some residents still preferred printed copies delivered to their doors. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The following remarks about lost bloom and 'mere provender' show a figurative distinction between direct experience and a marketed commodity.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Community Noticeboard\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Appeal to authority",
+              "prompt": "Why does he suggest asking a cowboy or partridge about a berry's real flavor?",
               "choices": [
-                "Residents sometimes missed repairs or meetings because information appeared in several places.",
-                "A volunteer team grouped notices by category and added clear dates to every item.",
-                "People reported finding maintenance updates more quickly after the change.",
-                "The association kept both methods while tracking which notices were most useful."
+                "He values direct encounter with the landscape over secondhand purchasing experience.",
+                "He believes birds can verbally explain the chemical composition of fruit.",
+                "He aims to establish that people living in towns cannot learn anything about nature.",
+                "He regards agricultural markets as legally prohibited."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Residents sometimes missed repairs or meetings because information appeared in several places. The other choices describe what was done or discovered afterward.",
+              "explanation": "The unexpected comparison emphasizes familiarity through picking and inhabiting nature rather than consuming goods mediated by markets.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Community Noticeboard\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Connotation",
+              "prompt": "What does 'mere provender' imply about berries after transport to market?",
               "choices": [
-                "Some residents still preferred printed copies delivered to their doors.",
-                "A volunteer team grouped notices by category and added clear dates to every item.",
-                "Residents sometimes missed repairs or meetings because information appeared in several places.",
-                "People reported finding maintenance updates more quickly after the change."
+                "They become dangerous to consume.",
+                "They are transformed into a refined luxury.",
+                "They acquire a more authentic flavor.",
+                "They become reduced to ordinary provisions, losing an essential quality in the narrator's view."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: A volunteer team grouped notices by category and added clear dates to every item. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The term contrasts his prized fresh, experiential 'ambrosial' fruit with food as basic commodity.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Community Noticeboard\", rather than a procedure, caution, or policy response?",
+              "type": "Characterization",
+              "prompt": "Why is the largely silent companionship of the older fisherman especially important?",
               "choices": [
-                "Some residents still preferred printed copies delivered to their doors.",
-                "The association kept both methods while tracking which notices were most useful.",
-                "People reported finding maintenance updates more quickly after the change.",
-                "A volunteer team grouped notices by category and added clear dates to every item."
+                "It illustrates a relationship free of disagreement because no one has opinions.",
+                "It suggests shared presence can be satisfying without continuous verbal exchange.",
+                "It establishes that Thoreau no longer wants any human contact.",
+                "It demonstrates that fishing demands strict conversational prohibition."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: People reported finding maintenance updates more quickly after the change. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "Their occasional psalm and silence form a companionship Thoreau remembers as harmonious; verbal exchange is not the measure of closeness.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Community Noticeboard\" from being generalized beyond the available evidence?",
+              "type": "Tone",
+              "prompt": "What does the comparison of echoes to animals in a menagerie contribute?",
               "choices": [
-                "People reported finding maintenance updates more quickly after the change.",
-                "A volunteer team grouped notices by category and added clear dates to every item.",
-                "The association kept both methods while tracking which notices were most useful.",
-                "Some residents still preferred printed copies delivered to their doors."
+                "It portrays his paddle tapping as an act that animates the surrounding landscape in his imagination.",
+                "It describes a literal cage built beside the pond.",
+                "It shows fear of wild animals approaching the boat.",
+                "It presents the pond as silent even when he strikes it."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Some residents still preferred printed copies delivered to their doors. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "His metaphor of stirring valleys until they growl gives the landscape an active response to his playful sound.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Community Noticeboard\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Perspective",
+              "prompt": "Why does the narrator recall earlier nighttime fishing visits after describing his present evenings by the pond?",
               "choices": [
-                "The association kept both methods while tracking which notices were most useful.",
-                "Residents sometimes missed repairs or meetings because information appeared in several places.",
-                "A volunteer team grouped notices by category and added clear dates to every item.",
-                "People reported finding maintenance updates more quickly after the change."
+                "To demonstrate that his memory is unreliable.",
+                "To argue that nighttime fishing was more profitable than daytime work.",
+                "To contrast occasional adventurous visits with his later settled familiarity as someone living by the shore.",
+                "To prove that he had never visited the pond before moving there."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The association kept both methods while tracking which notices were most useful. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The final line notes he has now made his home by the shore, distinguishing the earlier excursions from a lasting relationship with the place.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Community Noticeboard\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Imagery",
+              "prompt": "How does the moon moving over the pond's 'ribbed bottom' affect the scene?",
               "choices": [
-                "Initial concern: “A volunteer team grouped notices by category and added…”; method: “People reported finding maintenance updates more quickly…”.",
-                "Initial concern: “Residents sometimes missed repairs or meetings because…”; method: “A volunteer team grouped notices by category and added…”.",
-                "Initial concern: “Residents sometimes missed repairs or meetings because…”; method: “Some residents still preferred printed copies delivered…”.",
-                "Initial concern: “People reported finding maintenance updates more quickly…”; method: “The association kept both methods while tracking which…”."
+                "It introduces a technical explanation of lunar motion.",
+                "It suggests that the narrator is unable to see beneath the boat.",
+                "It reduces the setting to an abstract geographic diagram.",
+                "It blends reflected movement, underwater texture, and quiet observation into a vivid nocturnal image."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Residents sometimes missed repairs or meetings because information appeared in several places. and the subsequent investigative procedure is A volunteer team grouped notices by category and added clear dates to every item..",
+              "correctIndex": 3,
+              "explanation": "The image combines the moon, perch and submerged wrecks to render a contemplative multisensory experience.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Community Noticeboard\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Apparent paradox",
+              "prompt": "How does Thoreau's pleasure in the fisherman's company coexist with his wish to escape gossip?",
               "choices": [
-                "The limitation (“Some residents still preferred printed copies delivered…”) disproves the observation itself.",
-                "The method (“A volunteer team grouped notices by category and added…”) guarantees the result before measurement.",
-                "The observation (“People reported finding maintenance updates more quickly…”) matters, but the limit (“Some residents still preferred printed copies delivered…”) remains.",
-                "The observation (“People reported finding maintenance updates more quickly…”) rules out every alternative cause."
+                "The passage distinguishes crowded, habitual social chatter from chosen quiet companionship.",
+                "Thoreau believes all human relationships are identical.",
+                "The fisherman has no knowledge of the natural world.",
+                "The narrator welcomes social contact only when it is commercially useful."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as People reported finding maintenance updates more quickly after the change. but must be read alongside Some residents still preferred printed copies delivered to their doors..",
+              "correctIndex": 0,
+              "explanation": "His withdrawal is from excessive social talk, not every relationship; meaningful and largely silent companionship is presented positively.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Community Noticeboard\" relate to the strength and limits of the earlier observations?",
+              "type": "Interpretation",
+              "prompt": "What is the effect of calling transported huckleberries bereft of their 'ambrosial and essential part'?",
               "choices": [
-                "The response (“The association kept both methods while tracking which…”) is proof of success in every setting.",
-                "The caveat (“Some residents still preferred printed copies delivered…”) makes the observations worthless.",
-                "The observation (“People reported finding maintenance updates more quickly…”) shows that measurement was unnecessary.",
-                "The response (“The association kept both methods while tracking which…”) follows evidence but remains open to reassessment."
+                "It establishes a measured decrease in sugar content.",
+                "It elevates the loss of direct freshness into a near-mythic deprivation, emphasizing what commerce cannot reproduce.",
+                "It declares that eating purchased berries is morally unlawful.",
+                "It argues that rural workers never sell their produce."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The association kept both methods while tracking which notices were most useful.; the stated limit Some residents still preferred printed copies delivered to their doors. still matters.",
+              "correctIndex": 1,
+              "explanation": "Mythic diction exaggerates the uniqueness of fruit gathered firsthand. The claim is literary evaluation, not a scientific measurement or legal rule.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             },
             {
               "id": "R10-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Community Noticeboard\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which theme best unites the berry gathering and the silent hours on the pond?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“A volunteer team grouped notices by category and added…”) while testing the concern (“Some residents still preferred printed copies delivered…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Nature's value can be understood through market prices and practical equipment.",
+                "Solitude is useful only when it prevents all friendships.",
+                "Immediate, attentive experience offers a kind of richness that commercial exchange and constant conversation may obscure.",
+                "Outdoor experiences must be documented to become meaningful."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, Some residents still preferred printed copies delivered to their doors., while comparing evidence from the original method, A volunteer team grouped notices by category and added clear dates to every item..",
+              "explanation": "Both episodes emphasize personal presence and unmediated attention, opposing the dulling effects of market handling and routine social exchange.",
               "passageId": "R10-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — excerpt 5"
             }
-          ]
+          ],
+          "source": {
+            "work": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "url": "https://www.gutenberg.org/ebooks/205",
+            "rights": "Public domain in United States",
+            "start": "Sometimes, having had a surfeit of human society and gossip, and worn out all my village friend",
+            "end": "ng a tune, we took our way to the haunts of men again. But now I had made my home by the shore."
+          }
         }
       ],
       "vocabularyQuestions": [
