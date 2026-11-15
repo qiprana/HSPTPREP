@@ -8664,9 +8664,9 @@
         },
         {
           "id": "R09-P2",
-          "title": "A Forgotten School Garden",
-          "genre": "history",
-          "text": "Students uncovered photographs of a school garden established during an earlier period of food shortages. The garden had vanished, and younger residents knew little about it. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey compared yearbooks, local newspapers, and handwritten notes from former pupils. Several sources mentioned students growing vegetables for a shared kitchen. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their cautious approach involved examining the available information before making the next decision.\n\nNo complete record survived of the total harvest. The class planted a small demonstration garden and displayed the original photographs. Community projects can link present action with the experiences of earlier generations. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Darwin — Shared Anatomical Patterns",
+          "genre": "historical science",
+          "text": "Nothing can be more hopeless than to attempt to explain this similarity of pattern in members of the same class, by utility or by the doctrine of final causes. The hopelessness of the attempt has been expressly admitted by Owen in his most interesting work on the 'Nature of Limbs.' On the ordinary view of the independent creation of each being, we can only say that so it is;--that it has so pleased the Creator to construct each animal and plant.\n\nThe explanation is manifest on the theory of the natural selection of successive slight modifications,--each modification being profitable in some way to the modified form, but often affecting by correlation of growth other parts of the organisation. In changes of this nature, there will be little or no tendency to modify the original pattern, or to transpose parts. The bones of a limb might be shortened and widened to any extent, and become gradually enveloped in thick membrane, so as to serve as a fin; or a webbed foot might have all its bones, or certain bones, lengthened to any extent, and the membrane connecting them increased to any extent, so as to serve as a wing: yet in all this great amount of modification there will be no tendency to alter the framework of bones or the relative connexion of the several parts. If we suppose that the ancient progenitor, the archetype as it may be called, of all mammals, had its limbs constructed on the existing general pattern, for whatever purpose they served, we can at once perceive the plain signification of the homologous construction of the limbs throughout the whole class. So with the mouths of insects, we have only to suppose that their common progenitor had an upper lip, mandibles, and two pair of maxillae, these parts being perhaps very simple in form; and then natural selection will account for the infinite diversity in structure and function of the mouths of insects. Nevertheless, it is conceivable that the general pattern of an organ might become so much obscured as to be finally lost, by the atrophy and ultimately by the complete abortion of certain parts, by the soldering together of other parts, and by the doubling or multiplication of others,--variations which we know to be within the limits of possibility. In the paddles of the extinct gigantic sea-lizards, and in the mouths of certain suctorial crustaceans, the general pattern seems to have been thus to a certain extent obscured.\n\nThere is another and equally curious branch of the present subject; namely, the comparison not of the same part in different members of a class, but of the different parts or organs in the same individual. Most physiologists believe that the bones of the skull are homologous with--that is correspond in number and in relative connexion with--the elemental parts of a certain number of vertebrae. The anterior and posterior limbs in each member of the vertebrate and articulate classes are plainly homologous. We see the same law in comparing the wonderfully complex jaws and legs in crustaceans. It is familiar to almost every one, that in a flower the relative position of the sepals, petals, stamens, and pistils, as well as their intimate structure, are intelligible on the view that they consist of metamorphosed leaves, arranged in a spire. In monstrous plants, we often get direct evidence of the possibility of one organ being transformed into another; and we can actually see in embryonic crustaceans and in many other animals, and in flowers, that organs, which when mature become extremely different, are at an early stage of growth exactly alike.",
           "term": [
             "cautious",
             "careful about risk",
@@ -8677,165 +8677,184 @@
           "questions": [
             {
               "id": "R09-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Forgotten School Garden\"?",
+              "type": "Thesis",
+              "prompt": "What principal explanatory problem does Darwin identify in the opening paragraph?",
               "choices": [
-                "The concern (“The garden had vanished, and younger residents knew…”) leads to inquiry, but “No complete record survived of the total harvest” limits the inference.",
-                "The proposed response (“The class planted a small demonstration garden and…”) makes the original concern irrelevant.",
-                "The method (“They compared yearbooks, local newspapers, and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Several sources mentioned students growing vegetables for…”) is treated as unrelated to the original investigation."
+                "How natural selection can make all organisms converge on the same function.",
+                "Why an anatomical pattern recurs across diverse organisms despite different uses of its parts.",
+                "Whether the rate of change in organs can be measured from fossils alone.",
+                "Why embryonic development always reproduces an organism's ancestral adult form."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification No complete record survived of the total harvest. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Darwin asks why members of a class retain a similar structural pattern when their organs serve divergent functions. He contrasts this with explanations based solely on utility or separate creation.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Forgotten School Garden\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Interpretation of rival view",
+              "prompt": "What does Darwin suggest is inadequate about saying that each organism was independently constructed as it is?",
               "choices": [
-                "They compared yearbooks, local newspapers, and handwritten notes from former pupils.",
-                "Several sources mentioned students growing vegetables for a shared kitchen.",
-                "The class planted a small demonstration garden and displayed the original photographs.",
-                "The garden had vanished, and younger residents knew little about it."
+                "It cannot accommodate any difference in function among organisms.",
+                "It entails that all organisms possess the same number of limbs.",
+                "It describes the observed arrangement without providing a causal account of the recurring pattern.",
+                "It incorrectly assumes that every organ is composed of bone."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The garden had vanished, and younger residents knew little about it. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Darwin presents independent creation as a statement that the arrangement exists, not as an explanation of why related forms retain homologous organization.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Forgotten School Garden\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Causal mechanism",
+              "prompt": "How do the fin and wing examples serve Darwin's argument?",
               "choices": [
-                "They compared yearbooks, local newspapers, and handwritten notes from former pupils.",
-                "The garden had vanished, and younger residents knew little about it.",
-                "Several sources mentioned students growing vegetables for a shared kitchen.",
-                "No complete record survived of the total harvest."
+                "They illustrate how substantial functional modification can occur without wholly rearranging an inherited framework.",
+                "They demonstrate that fins and wings developed directly from each other in one generation.",
+                "They show that natural selection must preserve every bone's original size.",
+                "They establish that only aquatic organisms undergo correlated growth."
               ],
               "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: They compared yearbooks, local newspapers, and handwritten notes from former pupils. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Shortening, lengthening and membrane changes transform function while leaving basic relative connections recognizable. The examples do not assert direct ancestry between fin and wing.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Forgotten School Garden\", rather than a procedure, caution, or policy response?",
+              "type": "Qualification",
+              "prompt": "Which feature of Darwin's account prevents the claim that common structural patterns can never disappear?",
               "choices": [
-                "The class planted a small demonstration garden and displayed the original photographs.",
-                "Several sources mentioned students growing vegetables for a shared kitchen.",
-                "They compared yearbooks, local newspapers, and handwritten notes from former pupils.",
-                "No complete record survived of the total harvest."
+                "He excludes extinct animals from the argument.",
+                "He acknowledges that loss, fusion and multiplication of parts can obscure the ancestral arrangement.",
+                "He regards all differences among insects as purely superficial.",
+                "He assumes that selection always favors a simpler anatomy."
               ],
               "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: Several sources mentioned students growing vegetables for a shared kitchen. The other statements describe different stages of the inquiry.",
+              "explanation": "Darwin explicitly allows atrophy, abortion, soldering and multiplication to obscure homologous patterns; he does not assert permanent visibility.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Forgotten School Garden\" from being generalized beyond the available evidence?",
+              "type": "Function of an example",
+              "prompt": "Why does Darwin discuss the mouthparts of insects after mammalian limbs?",
               "choices": [
-                "They compared yearbooks, local newspapers, and handwritten notes from former pupils.",
-                "The class planted a small demonstration garden and displayed the original photographs.",
-                "No complete record survived of the total harvest.",
-                "Several sources mentioned students growing vegetables for a shared kitchen."
+                "To claim that insect mouths are anatomically identical to mammalian limbs.",
+                "To change from natural selection to an explanation by independent creation.",
+                "To show that insects could not evolve specialized ways of feeding.",
+                "To extend the shared-ancestry argument to another anatomical system with diverse later functions."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: No complete record survived of the total harvest. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "An ancestral mouth structure with upper lip, mandibles and maxillae could be modified into diverse insect mouthparts, providing a second class of examples.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Forgotten School Garden\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Distinction",
+              "prompt": "What new comparison does the final paragraph add to the earlier discussion?",
               "choices": [
-                "The garden had vanished, and younger residents knew little about it.",
-                "They compared yearbooks, local newspapers, and handwritten notes from former pupils.",
-                "Several sources mentioned students growing vegetables for a shared kitchen.",
-                "The class planted a small demonstration garden and displayed the original photographs."
+                "Anatomical correspondence between different parts of one organism, not only equivalent parts across different organisms.",
+                "Differences in behavior among individuals with identical skeletons.",
+                "The relative survival rates of species with fins and wings.",
+                "The independent origin of every tissue within a species."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The class planted a small demonstration garden and displayed the original photographs. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The author explicitly moves from the same part in different members of a class to different organs in the same individual, such as skull and vertebral elements.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Forgotten School Garden\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Evidence",
+              "prompt": "Why are modified leaves relevant to Darwin's explanation of flower organs?",
               "choices": [
-                "Initial concern: “The garden had vanished, and younger residents knew…”; method: “They compared yearbooks, local newspapers, and…”.",
-                "Initial concern: “The garden had vanished, and younger residents knew…”; method: “No complete record survived of the total harvest”.",
-                "Initial concern: “Several sources mentioned students growing vegetables for…”; method: “The class planted a small demonstration garden and…”.",
-                "Initial concern: “They compared yearbooks, local newspapers, and…”; method: “Several sources mentioned students growing vegetables for…”."
+                "They show that petals and stamens must remain identical throughout development.",
+                "They demonstrate that floral parts are unrelated to vegetative structures.",
+                "They support the possibility of distinct mature organs deriving from a shared structural plan.",
+                "They prove that all flower variation is caused by a single environmental factor."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The garden had vanished, and younger residents knew little about it. and the subsequent investigative procedure is They compared yearbooks, local newspapers, and handwritten notes from former pupils..",
+              "correctIndex": 2,
+              "explanation": "Darwin uses the view that sepals, petals, stamens and pistils are modified leaves to illustrate homology across parts with different mature appearances.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Forgotten School Garden\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Inferential support",
+              "prompt": "What role does similarity at early developmental stages play in Darwin's argument?",
               "choices": [
-                "The method (“They compared yearbooks, local newspapers, and…”) guarantees the result before measurement.",
-                "The observation (“Several sources mentioned students growing vegetables for…”) matters, but the limit (“No complete record survived of the total harvest”) remains.",
-                "The observation (“Several sources mentioned students growing vegetables for…”) rules out every alternative cause.",
-                "The limitation (“No complete record survived of the total harvest”) disproves the observation itself."
+                "It shows that adults with different organs must inhabit identical environments.",
+                "It provides evidence that differing adult organs can originate from corresponding developmental structures.",
+                "It implies that natural selection acts only on embryos.",
+                "It establishes that mature anatomy cannot be informative about ancestry."
               ],
               "correctIndex": 1,
-              "explanation": "The result is reported as Several sources mentioned students growing vegetables for a shared kitchen. but must be read alongside No complete record survived of the total harvest..",
+              "explanation": "Early structural resemblance despite later divergence lends support to a common underlying plan; it does not make adult comparison irrelevant.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Forgotten School Garden\" relate to the strength and limits of the earlier observations?",
+              "type": "Scientific caution",
+              "prompt": "How should readers interpret Darwin's description of skull bones as homologous with vertebrae?",
               "choices": [
-                "The caveat (“No complete record survived of the total harvest”) makes the observations worthless.",
-                "The observation (“Several sources mentioned students growing vegetables for…”) shows that measurement was unnecessary.",
-                "The response (“The class planted a small demonstration garden and…”) follows evidence but remains open to reassessment.",
-                "The response (“The class planted a small demonstration garden and…”) is proof of success in every setting."
+                "As a claim he attributes to contemporary physiologists, rather than a conclusion established by the excerpt alone.",
+                "As an observation of a living animal transforming its skull into a spine.",
+                "As proof that every scientist of his time rejected homologous structures.",
+                "As a claim about the number of skull bones in all existing species."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The class planted a small demonstration garden and displayed the original photographs.; the stated limit No complete record survived of the total harvest. still matters.",
+              "correctIndex": 0,
+              "explanation": "Darwin writes that most physiologists believe the correspondence. This attribution indicates a historical scientific view, not direct experimental demonstration within the passage.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             },
             {
               "id": "R09-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Forgotten School Garden\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which interpretation most faithfully connects the essay's account of shared pattern and adaptation?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They compared yearbooks, local newspapers, and…”) while testing the concern (“No complete record survived of the total harvest”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Similarity of function is sufficient to explain identical structural arrangement.",
+                "Natural selection prevents any part from disappearing once inherited.",
+                "Shared anatomy implies that natural selection cannot produce functional novelty.",
+                "Inherited structure constrains and channels modifications, allowing diverse functions while retaining detectable relationships."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, No complete record survived of the total harvest., while comparing evidence from the original method, They compared yearbooks, local newspapers, and handwritten notes from former pupils..",
+              "correctIndex": 3,
+              "explanation": "Darwin's argument links descent from a shared pattern with gradual adaptive modifications; the pattern may persist visibly or become obscured after further changes.",
               "passageId": "R09-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — homologous construction and modifications"
             }
-          ]
+          ],
+          "source": {
+            "work": "On the Origin of Species",
+            "author": "Charles Darwin",
+            "year": 1859,
+            "url": "https://www.gutenberg.org/ebooks/1228",
+            "rights": "Public domain in United States",
+            "start": "Nothing can be more hopeless than to attempt to explain this similarity of pattern in members o",
+            "end": "s, which when mature become extremely different, are at an early stage of growth exactly alike."
+          }
         },
         {
           "id": "R09-P3",
