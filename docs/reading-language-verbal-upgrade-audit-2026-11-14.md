@@ -66,3 +66,9 @@ These validate file structure, expected counts, answer-index bounds, duplicate s
 - Language coverage: all 1,240 standard non-spelling items and 560 advanced-bank items revised; 260 spelling items remain separate.
 - **Cross-day Language question repetition remains an editorial weakness**: several templated cases preserve the same core premise and options across different days, even after changing topic labels. `tests/report-language-repetition.js` reports this explicitly in CI rather than claiming the duplicate-free structural test proves conceptual variety. A proposed bulk noun-replacement pass was rejected because it created collisions and was not deployed.
 - The phrase 'grade10-12' on a question is a targeting label, not student-normed difficulty validation. Independently authored replacements, distractor review, and blind student testing remain necessary for a fully verified grade 10–12 question bank.
+
+## Cross-day repetition remediation (post-audit)
+
+- Reworked actors, documentary objects, and forms of evidence across repeated Language scenarios without changing answer key indices. The original pedagogical rule or inference still governs the choices.
+- Informational core-question audit after these changes: **standard bank 650 items in 152 repeated-core clusters** (previously 1,100 items / 89 clusters), **advanced bank 229 items in 76 repeated-core clusters** (previously 560 items / 28 clusters). Exact-string question uniqueness and structural checks pass, but **conceptual duplicates remain** and require individually authored prompts rather than cosmetic relabeling.
+- The Language and Chromium browser smoke-test workflows were rerun after case diversification; see Actions for the latest commit status.
