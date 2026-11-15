@@ -449,7 +449,42 @@ const VERBAL_GROUPS=[
 [['congenial','affable','amiable','hostile'],'hostile','The first three describe friendliness; hostile is unfriendly.']
 ];
 function verbalClassification(){const [words,answer,explain]=VERBAL_GROUPS[Math.floor(Math.random()*VERBAL_GROUPS.length)];return{category:'Verbal Classification',prompt:'Which word does NOT belong with the others?',choices:rand(words),answer,explain};}
-function verbalVocab(category,bank,index){
+
+/* Word-choice (Synonyms) items draw solely from words assigned through this day.
+   Stems remain brief; plausible choices have the same part of speech. */
+function learnedWordChoices(word,day){
+ const learned=WORDS.filter(x=>x.day<=day&&x.part===word.part&&x.key!==word.key);
+ const normalized=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ const label=normalized(word.word),gloss=normalized(word.meaning),syn=normalized(word.synonym);
+ const tokens=s=>new Set((normalized(s).match(/[a-z]{4,}/g)||[]).filter(t=>!['with','when','that','which','from','some','very','into','about','being','having','someone','something'].includes(t)));
+ const overlap=(a,b)=>{const A=tokens(a),B=tokens(b);let count=0;for(const t of A)if(B.has(t))count++;return count;};
+ const candidates=learned.filter(x=>{
+  const head=normalized(x.word),sense=normalized(x.meaning),near=normalized(x.synonym);
+  // Avoid offering another answer explicitly listed as equivalent in source data.
+  return head!==label&&sense!==gloss&&(!syn||near!==syn)&&
+   (!syn||head!==syn)&&(!near||near!==label)&&
+   (!syn||sense!==syn)&&(!gloss||near!==gloss);
+ }).map(x=>({
+   x,
+   score:6*overlap(x.meaning,word.meaning)+
+         3*overlap(x.synonym,word.meaning)+
+         3*overlap(x.meaning,word.synonym)+
+         2*overlap(x.antonym,word.meaning)+
+         2*overlap(x.meaning,word.antonym)+
+         overlap(x.root,word.root)+
+         (Math.abs(x.word.length-word.word.length)<=3?0.5:0)+
+         Math.random()*0.3
+ })).sort((a,b)=>b.score-a.score);
+ if(candidates.length<3)return null;
+ const chosen=[],used=new Set([label]);
+ const add=item=>{if(!item)return;const key=normalized(item.x.word);if(!used.has(key)){used.add(key);chosen.push(item.x.word);}};
+ // Mix in a prior day's learned word, when available, even on daily quizzes.
+ if(day>1)add(candidates.find(item=>item.x.day<day));
+ for(const item of candidates){add(item);if(chosen.length>=3)break;}
+ return chosen.length===3?rand([word.word,...chosen]):null;
+}
+
+function verbalVocab(category,bank,index,day){
  const eligible=category==='Antonyms'?bank.filter(x=>x.antonym&&x.antonym.trim()):bank;
  if(!eligible.length)return null;
  const w=eligible[index%eligible.length];
@@ -467,9 +502,9 @@ function verbalVocab(category,bank,index){
   return rand([answer,...distract]);
  }
  if(category==='Synonyms'){
-  const answer=w.synonym||w.meaning,choices=hardChoices(answer,'synonym',w);
+  const answer=w.word,choices=learnedWordChoices(w,day);
   if(!choices)return null;
-  return {category,prompt:'In the sentence “'+w.example+'”, which choice most nearly means “'+w.word+'” in context?',answer,choices,explain:w.word+' ('+w.part+') means '+w.meaning+'; the closest listed equivalent is '+answer+'.',studyWords:[w.word]};
+  return {category,prompt:'Which studied word best means “'+w.meaning+'”?',answer,choices,explain:w.word+' ('+w.part+') means '+w.meaning+'. Example: '+w.example,studyWords:[w.word],studyWordKey:w.key};
  }
  if(category==='Antonyms'){
   const answer=w.antonym,choices=hardChoices(answer,'antonym',w);
@@ -558,7 +593,7 @@ function classificationFromBank(bank,index){
  return {category:'Verbal Classification',prompt:'Which term is semantically least consistent with the other three? Distinguish their precise connotations.',choices:rand(words),answer,explain,studyWords:words};
 }
 function challengeFingerprint(q){return String(q.prompt||'').toLowerCase().replace(/\s+/g,' ').trim()+'|'+[...(q.choices||[])].map(x=>String(x).toLowerCase().trim()).sort().join('|')}
-function makeVerbalChallenge(day,kind){const today=DAY_WORDS[day],bank=kind==='daily'?today:WORDS.filter(w=>w.day<=day);const reviewWords=bank.filter(w=>state.review[w.key]);const counts=[['Synonyms',12],['Antonyms',10],['Analogies',10],['Verbal Logic',12],['Verbal Classification',16]],used=new Set(),result=[];for(const [category,n] of counts){let made=0,attempt=0;while(made<n&&attempt<12000){attempt++;const i=made;const focused=reviewWords.length&&category!=='Verbal Logic'&&category!=='Verbal Classification'&&i%3===0?[reviewWords[(i+attempt)%reviewWords.length],...bank.filter(w=>w.key!==reviewWords[(i+attempt)%reviewWords.length].key)]:bank;const q=category==='Verbal Logic'?verbalLogic():category==='Verbal Classification'?classificationFromBank(bank,Math.floor(Math.random()*ADVANCED_CLASSIFICATION.length)):verbalVocab(category,focused,attempt+i);if(!q||!q.prompt||!Array.isArray(q.choices)||!q.choices.includes(q.answer)||new Set(q.choices).size!==q.choices.length)continue;const key=(category==='Synonyms'||category==='Antonyms'||category==='Analogies')?category+'|'+String(q.prompt).toLowerCase().replace(/\s+/g,' ').trim():challengeFingerprint(q);if(used.has(key))continue;used.add(key);result.push(q);made++;}if(made<n)console.warn('Insufficient unique '+category+' questions for Day '+day+': '+made+'/'+n);}return rand(result);}
+function makeVerbalChallenge(day,kind){const today=DAY_WORDS[day],bank=kind==='daily'?today:WORDS.filter(w=>w.day<=day);const reviewWords=bank.filter(w=>state.review[w.key]);const counts=[['Synonyms',12],['Antonyms',10],['Analogies',10],['Verbal Logic',12],['Verbal Classification',16]],used=new Set(),result=[];for(const [category,n] of counts){let made=0,attempt=0;while(made<n&&attempt<12000){attempt++;const i=made;const focused=reviewWords.length&&category!=='Verbal Logic'&&category!=='Verbal Classification'&&i%3===0?[reviewWords[(i+attempt)%reviewWords.length],...bank.filter(w=>w.key!==reviewWords[(i+attempt)%reviewWords.length].key)]:bank;const q=category==='Verbal Logic'?verbalLogic():category==='Verbal Classification'?classificationFromBank(bank,Math.floor(Math.random()*ADVANCED_CLASSIFICATION.length)):verbalVocab(category,(category==='Synonyms'&&kind==='cumulative'&&day>1?(i<4?today:bank.filter(w=>w.day<day)):focused),attempt+i,day);if(!q||!q.prompt||!Array.isArray(q.choices)||!q.choices.includes(q.answer)||new Set(q.choices).size!==q.choices.length)continue;const key=(category==='Synonyms'||category==='Antonyms'||category==='Analogies')?category+'|'+String(q.prompt).toLowerCase().replace(/\s+/g,' ').trim():challengeFingerprint(q);if(used.has(key))continue;used.add(key);result.push(q);made++;}if(made<n)console.warn('Insufficient unique '+category+' questions for Day '+day+': '+made+'/'+n);}return rand(result);}
 let quizTimerId=null;
 function stopQuizTimer(){if(quizTimerId!==null){clearInterval(quizTimerId);quizTimerId=null;}}
 function updateQuizChrome(){
