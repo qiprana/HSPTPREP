@@ -4858,154 +4858,154 @@
         {
           "id": "LA11-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the agricultural history practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Archival attribution",
+          "text": "A researcher cites a letter discovered in 1892 but written in 1831. Which sentence most precisely distinguishes the document's date from its discovery?",
           "options": [
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support."
+            "The 1892 letter, composed in 1831, was discovered.",
+            "The letter, written in 1831, was discovered in 1892.",
+            "The letter was first written when researchers found it in 1892.",
+            "The 1831 discovery established the letter's 1892 date."
           ],
-          "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "The participial phrase identifies composition in 1831, and the independent predicate dates discovery to 1892. The other choices reverse, conflate, or contradict the chronology.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the agricultural history practice scenario, The memorandum states that some audit panel members questioned the interpretation. Which conclusion follows?",
+          "skill": "Agreement with intervening phrase",
+          "text": "In a report on grain storage, which revision makes the verb agree with the singular subject despite the intervening plural noun phrase?",
           "options": [
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation.",
-            "Only audit panel members could question it."
+            "The collection of harvest ledgers reveal an unexplained gap.",
+            "The collection of harvest ledgers, together with the invoices, reveal an unexplained gap.",
+            "The collection of harvest ledgers, together with the invoices, reveals an unexplained gap.",
+            "The collection of harvest ledgers, together with the invoices, have revealed an unexplained gap."
           ],
-          "correctIndex": 0,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 2,
+          "explanation": "Collection is the singular head of the subject and requires reveals. Neither the plural ledgers nor the parenthetical invoices controls agreement, so the other options use the wrong verb form.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the agricultural history practice scenario, Neither the director nor the writers responsible for verification ___ willing to certify the result.",
+          "skill": "Quantifier implication",
+          "text": "An archive memo states, 'No surviving tax rolls identify every tenant on the estate.' Which inference necessarily follows, assuming at least one roll survives?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "Every surviving roll omits information about at least one tenant.",
+            "Every tenant is absent from every surviving roll.",
+            "At least one roll identifies every tenant.",
+            "No tax roll records the name of any tenant."
           ],
-          "correctIndex": 1,
-          "explanation": "The plural subject nearest the verb is writers, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "'No roll identifies every tenant' implies that each surviving roll lacks at least one tenant, not that it lacks every tenant. The other alternatives reverse or exaggerate the stated scope.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the agricultural history practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Ambiguous historical reference",
+          "text": "The sentence 'The farmer wrote to the landowner after he sold the mill' should say that the LANDOWNER sold it. Which revision is unambiguous?",
           "options": [
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment."
+            "After the landowner sold the mill, the farmer wrote to him.",
+            "After he sold the mill, the farmer wrote to the landowner.",
+            "The farmer wrote to the landowner after he sold the mill.",
+            "The farmer wrote after the mill was sold to the landowner."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "Naming the landowner as the subject of the selling clause resolves 'he' and retains chronology. The other choices preserve ambiguity or change who owned or sold the mill.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the agricultural history practice scenario, Which choice specifically means that the audit panel revised the conclusion but left all other sections unchanged?",
+          "skill": "Tense sequence in analysis",
+          "text": "A historian completed a transcription before discovering that the original ledger contained missing pages. Which wording expresses that sequence?",
           "options": [
-            "Only the audit panel revised the conclusion.",
-            "The audit panel only revised the conclusion.",
-            "The audit panel revised the only conclusion.",
-            "The audit panel revised only the conclusion."
+            "The historian has finished transcribing before the pages were found missing.",
+            "The historian had completed the transcription before discovering the missing pages.",
+            "The historian will complete the transcription before discovering pages that had been missing yesterday.",
+            "The historian completes the transcription, before she had discovered the missing pages."
           ],
-          "correctIndex": 3,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 1,
+          "explanation": "Past perfect 'had completed' locates transcription before the subsequent past discovery. The remaining choices mix tense or punctuation in ways that obscure the chronological relationship.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the agricultural history practice scenario, Which revision clearly makes the writer the person who inspected the results?",
+          "skill": "Distinguishing comparison bases",
+          "text": "A passage claims 'The yield of northern farms was higher than the southern farms.' Which correction compares equivalent measures?",
           "options": [
-            "Having inspected the results, the writer reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The writer reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the writer."
+            "The yield of northern farms was higher than the yields of southern farms.",
+            "The yield of northern farms was higher than the southern farmers.",
+            "Northern farms had higher yields than southern farms were farming.",
+            "The yield of northern farms was more higher than southern farms."
           ],
           "correctIndex": 0,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "explanation": "Yields must be compared with yields, not farms or farmers. The corrected sentence uses comparable quantities without a malformed comparative construction.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the agricultural history practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Evidentiary qualification",
+          "text": "A journal article relies on an unverified family diary to establish an exact regional harvest total. Which revision qualifies its conclusion appropriately?",
           "options": [
-            "If the writer were available, the evidence had been checked last week.",
-            "If the writer were available, the evidence could be checked today.",
-            "If the writer had been available, the evidence will be checked yesterday.",
-            "If the writer will be available, the evidence would have been checked."
+            "The diary proves that every farm harvested exactly the reported amount.",
+            "The diary may illuminate one family's experience, but regional totals require corroborating records.",
+            "No private diary can contain any historical information.",
+            "Because the diary survives, the stated harvest total must be correct."
           ],
           "correctIndex": 1,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "explanation": "A single family source may document its own experience but cannot by itself establish an entire region's production. The alternatives overstate certainty or reject a source categorically.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the agricultural history practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Pronoun case in formal register",
+          "text": "A historian writes, 'The commission invited the scholar who the archivist had recommended.' Which revision uses the formal object form correctly?",
           "options": [
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid."
+            "The commission invited the scholar whom the archivist had recommended.",
+            "The commission invited the scholar whose the archivist had recommended.",
+            "The commission invited the scholar whom had recommended the archivist.",
+            "The commission invited the scholar who the archivist had recommended whom."
           ],
-          "correctIndex": 2,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "Whom functions as the object of 'had recommended' within the relative clause. The other variants misuse a possessive, invert syntactic roles, or duplicate the object.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA11-C-1",
           "group": "usage",
-          "skill": "Agricultural history",
-          "text": "A historian interviews descendants of one large farming family to describe an entire region's land practices. Which objection is most relevant?",
+          "skill": "Survivorship bias",
+          "text": "A scholar studies agricultural wages using only estates whose records survive in national archives; many smaller farms left no records. Which claim requires the greatest caution?",
           "options": [
-            "Family oral histories cannot contain useful information.",
-            "One family's practices may be unrepresentative of tenant farmers and smaller landholders.",
-            "Historical field locations are irrelevant to agrarian practice.",
-            "All surviving descendants share identical memories."
+            "The surviving ledgers contain the wages listed in those documents.",
+            "The preserved estates may not represent wages across all farms in the region.",
+            "Some estates maintained written wage accounts.",
+            "The archive contains fewer records from small farms than from the preserved estates."
           ],
           "correctIndex": 1,
-          "explanation": "The selected family is one social stratum, leaving important groups outside the sample. Its testimony can remain valuable within its scope.",
+          "explanation": "Wage patterns in surviving large-estate records may be selected by preservation and institution size. Generalizing to the entire region is less defensible than describing records actually observed.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -5013,16 +5013,16 @@
         {
           "id": "LA11-C-2",
           "group": "usage",
-          "skill": "Weighted averages",
-          "text": "The average price paid for grain increases, even though every individual grain type's price remains constant. How might this happen?",
+          "skill": "Weighted averages and composition",
+          "text": "A county bought wheat for $8 per sack and rye for $4. The prices stayed fixed, but its average price paid per sack rose. Which change could explain this?",
           "options": [
-            "The market necessarily has erroneous records.",
-            "Prices must rise within at least one type.",
-            "The proportion purchased shifted toward more expensive grain types.",
-            "An average cannot change unless every constituent price changes."
+            "The county bought a larger proportion of wheat sacks.",
+            "The county bought a larger proportion of rye sacks.",
+            "The county bought fewer total sacks in exactly the same wheat-to-rye proportion.",
+            "Every wheat sack must have increased in price."
           ],
-          "correctIndex": 2,
-          "explanation": "Changing category weights can alter an aggregate average when the constituent values are unchanged.",
+          "correctIndex": 0,
+          "explanation": "A greater share of the higher-priced wheat raises the weighted mean without changing either grain's unit price. More rye lowers the mean; changing total volume alone at fixed proportions does not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -5030,16 +5030,16 @@
         {
           "id": "LA11-C-3",
           "group": "usage",
-          "skill": "Historical migration",
-          "text": "A historian finds that railway expansion preceded increased migration between two regions. What evidence would test whether the railway was a cause?",
+          "skill": "Chronology versus causation",
+          "text": "Rail traffic and rural migration both increased between 1880 and 1900. Which evidence would most strengthen the claim that rail expansion contributed to migration?",
           "options": [
-            "Dates and fares of the railway compared with similar regions lacking a line and changes in local employment.",
-            "The number of railway-themed novels published later.",
-            "A map of the regions without dates.",
-            "An unsupported claim that every migrant used a train."
+            "A speech praising railway technology in 1895.",
+            "A comparison of otherwise similar districts with different rail access, tracking migration before and after opening.",
+            "A map showing that stations and towns share names.",
+            "A record showing that railway companies also transported grain."
           ],
-          "correctIndex": 0,
-          "explanation": "Historical controls and evidence of access and alternative labor pressures can test causation rather than mere sequence.",
+          "correctIndex": 1,
+          "explanation": "Before-and-after migration comparisons in matched districts help separate rail access from broader period changes. Praise, names, and freight carriage do not independently estimate migration effects.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -5047,293 +5047,293 @@
         {
           "id": "LA11-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the agricultural history challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession in historical argument",
+          "text": "A historian admits that a landlord's letters offer only one social perspective. Which sentence best makes a defensible concession followed by a useful next step?",
           "options": [
-            "The proposal is costly; therefore no one should examine its possible benefits.",
-            "The proposal has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial."
+            "Because the letters are partial, historians should ignore them.",
+            "Although the letters give one perspective, comparing them with tenant petitions may reveal disagreements and shared events.",
+            "The letters are reliable only if the landlord was wealthy.",
+            "The landlord's account proves that tenants agreed with him."
           ],
-          "correctIndex": 3,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 1,
+          "explanation": "The sentence recognizes source perspective yet proposes cross-checking with independent testimony. The other options either discard useful evidence or mistake status and assertion for reliability.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the agricultural history challenge scenario, Every approved study passed ethical review. A study passed ethical review. What follows?",
+          "skill": "Necessary versus sufficient records",
+          "text": "A register specifies, 'Every verified land sale must have a dated witness signature.' A deed has such a signature. What is warranted?",
           "options": [
-            "Approval is possible but not established by the ethical review alone.",
-            "The study must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved study passed ethical review."
+            "The sale is verified automatically.",
+            "The signature satisfies one necessary condition but does not establish that other verification requirements were met.",
+            "The register forbids signatures on unverified deeds.",
+            "Any unsigned deed was necessarily fraudulent."
           ],
-          "correctIndex": 0,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "The signature is necessary for verification, not sufficient. The other choices affirm the converse or treat failure to verify as proof of fraud.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the agricultural history challenge scenario, Only the writers who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Inference from only",
+          "text": "A catalog says, 'Only deeds with a legible parcel boundary were mapped digitally.' Which statement is logically supported?",
           "options": [
-            "All eligible writers received certification.",
-            "Every certified writer supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Writers without certification supplied no data."
+            "All legible deeds were mapped.",
+            "Every digitally mapped deed had a legible parcel boundary.",
+            "Every uncharted deed had an illegible boundary.",
+            "No deed with a legible boundary was left unmapped."
           ],
           "correctIndex": 1,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "'Only A were B' means B implies A: mapping required legible boundaries. It does not say legibility guaranteed mapping or describe all unmapped deeds.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the agricultural history challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Editing source quotation",
+          "text": "A draft claims, 'The witness stated that all tenants welcomed the reforms,' but the quoted deposition reads, 'Several tenants welcomed the reforms.' Which correction preserves the source's scope?",
           "options": [
-            "The editor whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the draft?",
-            "Whom concluded that the evidence was incomplete?"
+            "The witness said every tenant favored the reforms.",
+            "The witness reported that several, not necessarily all, tenants welcomed the reforms.",
+            "The witness denied that anyone welcomed the reforms.",
+            "The witness proved reforms were universally popular."
           ],
-          "correctIndex": 2,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 1,
+          "explanation": "Several denotes a subset and does not support a claim about all tenants. The other versions add universal support or negate the source's testimony.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the agricultural history challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Referent clarity",
+          "text": "The sentence 'When Clara sent Rosa the revised map, she disputed its accuracy' is meant to identify ROSA as the critic. Which rewrite is clearest?",
           "options": [
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete."
+            "After Clara sent Rosa the revised map, Rosa disputed its accuracy.",
+            "When Clara sent Rosa the revised map, she disputed its accuracy strongly.",
+            "Clara sent Rosa the revised map, whose accuracy she disputed.",
+            "The revised map was sent when she disputed its accuracy."
           ],
-          "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "Repeating Rosa as subject of 'disputed' resolves the pronoun's antecedent without changing the events. The alternatives retain ambiguity about the critic.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the agricultural history challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Rate versus raw count",
+          "text": "A survey finds 48 tenant disputes among 1,200 leases in 1870, and 54 disputes among 1,800 leases in 1880. Which comparison is numerically sound?",
           "options": [
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary."
+            "The dispute rate rose from 4% to 5%.",
+            "The dispute count rose, but the dispute rate fell from 4% to 3%.",
+            "Both the dispute count and rate declined.",
+            "The dispute rate was equal in both years because each count was below 60."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "48/1,200 = 4%, while 54/1,800 = 3%. More disputes occurred in absolute terms, but fewer per lease. The alternatives ignore denominators.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-10",
           "group": "composition",
-          "skill": "Source evaluation",
-          "text": "In the agricultural history challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Corroboration independence",
+          "text": "Two local histories claim the same harvest failure occurred, but both cite the same unverified diary. What additional evidence offers the strongest independent support?",
           "options": [
-            "An editor describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account."
+            "A modern essay repeating both histories.",
+            "Weather observations and market receipts dated to the period, from separate archival collections.",
+            "A third publication quoting the identical diary.",
+            "A family story retold by descendants of the diary's writer."
           ],
           "correctIndex": 1,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "explanation": "Independent contemporary meteorological and transactional records could corroborate a crop failure. Repetition of the same diary, even across publications or descendants, is not independent confirmation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-11",
           "group": "composition",
-          "skill": "Policy judgment",
-          "text": "In the agricultural history challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Policy conclusion from limited records",
+          "text": "A researcher has payroll evidence from only three large estates and proposes a law for all tenant farmers. Which recommendation best matches the evidence?",
           "options": [
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial proposal.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data."
+            "Enact the proposed law immediately because three estates are enough.",
+            "Treat the payroll pattern as preliminary and examine a broader set of farm types before designing a region-wide measure.",
+            "Assume small farms used identical contracts to large estates.",
+            "Declare the available ledgers fraudulent because the sample is limited."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 1,
+          "explanation": "Policies for a broad population require evidence beyond a narrow, potentially atypical set of estates. A limited sample does not prove either universal patterns or fraud.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-C-12",
           "group": "composition",
-          "skill": "Competing hypotheses",
-          "text": "In the agricultural history challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Competing historical causes",
+          "text": "Grain prices rose after new export routes opened, but a drought struck in the same season. Which study would best distinguish the possible causes?",
           "options": [
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations."
+            "Compare harvest volumes, export shipments, and prices across similarly affected and differently affected areas over time.",
+            "Rely on the first newspaper that mentioned exports.",
+            "Assume whichever change began first was the sole cause.",
+            "Ask one merchant to choose the explanation he prefers."
           ],
-          "correctIndex": 3,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "Comparative time-series evidence on supply and external demand can assess the relative roles of drought and exports. Anecdote, publication order, and preference cannot isolate causal contributions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA11-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the agricultural history test scenario, Which comparison is logically parallel?",
+          "skill": "Syntactic revision",
+          "text": "Which sentence correctly introduces a historical explanation after an independent clause without separating its verb from its object?",
           "options": [
-            "The revised draft's conclusion is more cautious than the author of the first study.",
-            "The revised draft's conclusion is more cautious than that of the earlier draft.",
-            "The revised draft's conclusion is more cautious than the earlier research team.",
-            "The revised draft's conclusion is more cautious than the university."
+            "The ledger reveals a discrepancy: several wheat entries were recorded twice.",
+            "The ledger reveals: a discrepancy, several wheat entries were recorded twice.",
+            "The ledger; reveals a discrepancy because entries were doubled.",
+            "The ledger reveals a discrepancy; because several wheat entries were doubled."
           ],
-          "correctIndex": 1,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 0,
+          "explanation": "The colon follows a complete clause and introduces an explanatory statement. The other revisions split a verb from its object or join an incomplete subordinate clause incorrectly.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA11-T-2",
           "group": "composition",
-          "skill": "Parallelism",
-          "text": "In the agricultural history test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Parallel explanatory structure",
+          "text": "Which sentence uses a parallel series to describe three archival tasks performed by the research team?",
           "options": [
-            "The editors agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The editors agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The editors agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The editors agreed to examine assumptions, evaluating evidence, and a revision of conclusions."
+            "The team translated petitions, comparing wage tables, and to photograph land maps.",
+            "The team translated petitions, compared wage tables, and photographed land maps.",
+            "The team translated petitions, wage-table comparison, and photographs of maps.",
+            "The team translated petitions, had comparison of wage tables, and map photographs."
           ],
-          "correctIndex": 2,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 1,
+          "explanation": "Three parallel finite past-tense verbs share the subject team and name completed actions. The other options mix clause and noun forms or nonparallel verb constructions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the agricultural history test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Conjunctive adverb",
+          "text": "A report contrasts harvest volume with tax revenue. Which sentence correctly punctuates the conjunctive adverb 'nevertheless'?",
           "options": [
-            "The draft evaluated: three issues, reliability, validity, and replicability.",
-            "The draft evaluated three issues; reliability, validity, and replicability.",
-            "The draft evaluated three issues, reliability: validity, and replicability.",
-            "The draft evaluated three issues: reliability, validity, and replicability."
+            "Harvest output fell, nevertheless, recorded tax income increased.",
+            "Harvest output fell; nevertheless, recorded tax income increased.",
+            "Harvest output fell nevertheless tax income, increased.",
+            "Harvest output fell; nevertheless recorded, tax income increased."
           ],
-          "correctIndex": 3,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 1,
+          "explanation": "Two independent clauses joined by 'nevertheless' require a semicolon before and a comma after it. The alternatives splice or misplace punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the agricultural history test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Past counterfactual",
+          "text": "An archive was destroyed before a scholar could inspect its contracts. Which sentence correctly states an unreal past result?",
           "options": [
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it."
+            "If the archive had survived, the scholar might have inspected the contracts.",
+            "If the archive survives, the scholar might have inspected them yesterday.",
+            "If the archive would survive, the scholar had inspected the contracts.",
+            "If the archive has survived yesterday, the scholar would inspect them before destruction."
           ],
           "correctIndex": 0,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "The past-perfect condition combines with 'might have inspected' to describe an unreal past opportunity. The distractors mix conflicting times or unidiomatic conditional forms.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-5",
           "group": "usage",
           "skill": "Nested implication",
-          "text": "In the agricultural history test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "text": "A preservation policy says that publishing a transcript requires curator approval and curator approval requires verification of the original. Which conclusion is necessary if the transcript was properly published?",
           "options": [
-            "A rejected study could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review."
+            "The original had been verified.",
+            "Every verified original was published.",
+            "Verification guarantees that curators approve publication.",
+            "No unpublished transcript was ever verified."
           ],
-          "correctIndex": 1,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "Proper publication entails approval, which entails original verification. The reverse direction is not established, and no conclusion about all unpublished records follows.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the agricultural history test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Generalization from strata",
+          "text": "A study of historical wages samples equal numbers of workers from small and large farms, though large farms employed 80% of workers. Which calculation best estimates the overall worker-average wage?",
           "options": [
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original draft.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants."
+            "Take an unweighted mean of the two farm-category averages.",
+            "Weight each farm-category average by its share of all workers.",
+            "Use only the small-farm mean because it is less common.",
+            "Use the single highest wage observed in either category."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 1,
+          "explanation": "To estimate a worker-average across unequal categories, each stratum should contribute in proportion to its population share. Equal weighting misrepresents the 80/20 composition.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the agricultural history test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Synthesis and qualification",
+          "text": "One archive indicates a regional shortage of seed grain; another indicates merchants exported substantial grain that year. Which synthesis is most responsible?",
           "options": [
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
+            "The sources necessarily contradict, so both should be rejected.",
+            "Exports prove that every farm had surplus seed grain.",
+            "Both claims may hold if grain distribution differed by locality, season, or ownership; more specific records are needed.",
+            "A documented shortage means exports could not have occurred."
           ],
-          "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 2,
+          "explanation": "Shortage among some farmers can coexist with exports by merchants when access or timing differs. The alternatives impose unsupported uniformity on a heterogeneous region.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA11-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the agricultural history test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Separating evidence from inference",
+          "text": "A historian concludes that a rise in recorded livestock theft proves widespread hunger. Which additional evidence would most directly test the causal interpretation?",
           "options": [
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph."
+            "Contemporaneous food prices, harvest yields, and reports of food scarcity compared with theft records.",
+            "The number of pages in the historian's manuscript.",
+            "A modern novel depicting rural theft.",
+            "Whether the historian's conclusion is widely quoted online."
           ],
           "correctIndex": 0,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "explanation": "Independent evidence about food availability and prices can test hunger as an explanation. Literary depiction, manuscript length, and popularity do not substantiate the causal link.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
