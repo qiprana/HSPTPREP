@@ -2550,7 +2550,7 @@
           "id": "R03-P4",
           "title": "A Market with Two Languages",
           "genre": "community",
-          "text": "A neighborhood market introduced signs in two languages to help shoppers find essential goods. Some customers had trouble asking staff where unfamiliar products were stored. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nMerchants translated the main aisle labels and checked the wording with regular customers. Customers reported finding items more easily, and staff answered fewer basic location questions. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their methodical approach involved examining the available information before making the next decision.\n\nThe changes did not solve every language barrier during complex conversations. The merchants later added pictures to several signs as another guide. Accessible communication can combine words, images and the knowledge of the community. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "When the Cedar Street Market replaced its English-only aisle labels with bilingual signs, the owners expected a simple improvement: shoppers who read the second language would locate goods without having to ask for directions. An early customer survey seemed to confirm the change. Many respondents said the new labels were helpful, and clerks reported fewer requests for basic aisle directions. Yet the manager knew that a reduction in questions could mean several things. Shoppers might have found products more easily; they might also have given up searching, or avoided asking because the revised signs introduced unfamiliar wording.\n\nThe translations were not as straightforward as the owners anticipated. The term used for a type of dried bean had one common meaning in the neighborhood's immigrant community and a different meaning in a standardized dictionary. A translator proposed using the dictionary term consistently to appear professional. A stock clerk who spoke the language at home warned that the result would be technically defensible but unrecognizable to many customers. Rather than choose between professional accuracy and local familiarity as if they were mutually exclusive, the owners tested several alternatives with shoppers of different ages.\n\nThe market also learned that language was only one barrier. Several customers could read both sets of labels but could not distinguish similar packages on high shelves. Other shoppers preferred pictorial signs, particularly when the goods were unfamiliar even in their first language. The owners added clear icons to selected aisles and reorganized shelf labels so that price and product type appeared in consistent positions. These adjustments made it harder to attribute any subsequent improvement to translation alone, but they also made the shop easier to navigate.\n\nTo assess the changes, volunteers observed whether shoppers completed assigned searches, how long those searches took, and when assistance was requested. The tasks were chosen to resemble ordinary errands rather than tests of isolated vocabulary. Even so, the owners were cautious: volunteers knew they were being observed and might act more carefully than on a normal shopping trip. The sample also contained mostly regular customers, so findings might not transfer to first-time visitors.\n\nAfter two months, task completion improved among the observed shoppers, while the average search time declined. The manager announced the results with their limitations and invited additional feedback. For the owners, accessibility was no longer a matter of translating every word perfectly. It meant recognizing that language, visual design, product familiarity, and the willingness to ask for help interact. The strongest improvement came from treating signs as part of a larger communication system rather than as a one-time translation project.",
           "term": [
             "methodical",
             "systematic",
@@ -2561,163 +2561,163 @@
           "questions": [
             {
               "id": "R03-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Market with Two Languages\"?",
+              "type": "Interpretation",
+              "prompt": "Why is a decline in customer requests for help not sufficient by itself to prove easier navigation?",
               "choices": [
-                "The concern (“Some customers had trouble asking staff where unfamiliar…”) leads to inquiry, but “The changes did not solve every language barrier during…” limits the inference.",
-                "The proposed response (“The merchants later added pictures to several signs as…”) makes the original concern irrelevant.",
-                "The method (“Merchants translated the main aisle labels and checked…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Customers reported finding items more easily, and staff…”) is treated as unrelated to the original investigation."
+                "Questions could decrease because shoppers abandoned searches or avoided asking, not only because they succeeded.",
+                "Staff can never measure customer assistance requests.",
+                "Bilingual signs necessarily discourage every customer.",
+                "The survey proved all shoppers understood every translated term."
               ],
               "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The changes did not solve every language barrier during complex conversations. prevents an overly broad conclusion.",
+              "explanation": "The manager identifies multiple mechanisms for fewer questions. An outcome measure without task completion cannot distinguish them.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Market with Two Languages\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Language nuance",
+              "prompt": "What conflict arises over the dictionary translation for the dried bean?",
               "choices": [
-                "Merchants translated the main aisle labels and checked the wording with regular customers.",
-                "Customers reported finding items more easily, and staff answered fewer basic location questions.",
-                "The merchants later added pictures to several signs as another guide.",
-                "Some customers had trouble asking staff where unfamiliar products were stored."
+                "The translator refuses to use any second language.",
+                "A standardized term may be accurate yet unfamiliar in the community's everyday usage.",
+                "The bean has no name in the second language.",
+                "The clerk insists that spelling errors be included on signs."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: Some customers had trouble asking staff where unfamiliar products were stored. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "The dictionary choice is formally defensible but may fail the practical purpose of communication if shoppers do not recognize it.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Market with Two Languages\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Decision process",
+              "prompt": "How do the owners address the translation disagreement?",
               "choices": [
-                "Merchants translated the main aisle labels and checked the wording with regular customers.",
-                "Some customers had trouble asking staff where unfamiliar products were stored.",
-                "Customers reported finding items more easily, and staff answered fewer basic location questions.",
-                "The changes did not solve every language barrier during complex conversations."
+                "They remove every product name from the aisles.",
+                "They choose the standardized term without testing.",
+                "They compare alternative terms with shoppers from multiple age groups.",
+                "They ask only the original translator to evaluate the final sign."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Merchants translated the main aisle labels and checked the wording with regular customers. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "Testing with users probes both technical correctness and comprehensibility rather than privileging one untested authority.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Market with Two Languages\", rather than a procedure, caution, or policy response?",
+              "type": "Confounding",
+              "prompt": "Why is it difficult to credit translation alone for the later improvement?",
               "choices": [
-                "The merchants later added pictures to several signs as another guide.",
-                "Customers reported finding items more easily, and staff answered fewer basic location questions.",
-                "Merchants translated the main aisle labels and checked the wording with regular customers.",
-                "The changes did not solve every language barrier during complex conversations."
+                "The signs were installed after the final survey.",
+                "No bilingual customers were included.",
+                "Customers were forbidden from asking for assistance.",
+                "Icons and consistent shelf labeling were changed during the same period."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: Customers reported finding items more easily, and staff answered fewer basic location questions. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Multiple design changes occurred together, so the result cannot uniquely identify translation as the cause.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Market with Two Languages\" from being generalized beyond the available evidence?",
+              "type": "Evidence design",
+              "prompt": "What is the principal advantage of observing shoppers completing realistic searches?",
               "choices": [
-                "Merchants translated the main aisle labels and checked the wording with regular customers.",
-                "The merchants later added pictures to several signs as another guide.",
-                "The changes did not solve every language barrier during complex conversations.",
-                "Customers reported finding items more easily, and staff answered fewer basic location questions."
+                "It measures practical task success rather than only stated satisfaction with the signs.",
+                "It guarantees that no observer influences behavior.",
+                "It establishes a representative sample of all possible shoppers.",
+                "It replaces the need to note search times or requests for help."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The changes did not solve every language barrier during complex conversations. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Realistic tasks offer behavioral evidence about the stated goal—finding goods—rather than relying solely on opinions.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Market with Two Languages\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Sample limitations",
+              "prompt": "Why might the reported results not generalize to first-time market visitors?",
               "choices": [
-                "Some customers had trouble asking staff where unfamiliar products were stored.",
-                "Merchants translated the main aisle labels and checked the wording with regular customers.",
-                "Customers reported finding items more easily, and staff answered fewer basic location questions.",
-                "The merchants later added pictures to several signs as another guide."
+                "Regular customers necessarily read labels more poorly.",
+                "Regular shoppers may already know the store's arrangement, independently of the new signs.",
+                "First-time visitors are prohibited from reading pictorial icons.",
+                "The test was conducted in a language none of the shoppers understood."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The merchants later added pictures to several signs as another guide. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "Familiarity with the layout affects navigation. A sample dominated by regular customers may overestimate ease for newcomers.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Market with Two Languages\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Research method",
+              "prompt": "What possible bias arises because volunteers know they are observed?",
               "choices": [
-                "Initial concern: “Some customers had trouble asking staff where unfamiliar…”; method: “Merchants translated the main aisle labels and checked…”.",
-                "Initial concern: “Some customers had trouble asking staff where unfamiliar…”; method: “The changes did not solve every language barrier during…”.",
-                "Initial concern: “Customers reported finding items more easily, and staff…”; method: “The merchants later added pictures to several signs as…”.",
-                "Initial concern: “Merchants translated the main aisle labels and checked…”; method: “Customers reported finding items more easily, and staff…”."
+                "Observers change the height of shelves during measurement.",
+                "The dictionary automatically adjusts the labels.",
+                "Participants may alter their behavior or exert extra care during the task.",
+                "All shoppers stop recognizing familiar goods when watched."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with Some customers had trouble asking staff where unfamiliar products were stored. and the subsequent investigative procedure is Merchants translated the main aisle labels and checked the wording with regular customers..",
+              "correctIndex": 2,
+              "explanation": "The observation context can influence how participants behave, limiting transfer to ordinary unsupervised shopping.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Market with Two Languages\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Synthesis",
+              "prompt": "Which interpretation best explains why icons help even when translations are accurate?",
               "choices": [
-                "The method (“Merchants translated the main aisle labels and checked…”) guarantees the result before measurement.",
-                "The observation (“Customers reported finding items more easily, and staff…”) matters, but the limit (“The changes did not solve every language barrier during…”) remains.",
-                "The observation (“Customers reported finding items more easily, and staff…”) rules out every alternative cause.",
-                "The limitation (“The changes did not solve every language barrier during…”) disproves the observation itself."
+                "Accurate words are always useless in stores.",
+                "Pictorial signs force people to use only one language.",
+                "The market should stop offering bilingual labels.",
+                "Some barriers concern visual recognition or unfamiliar products rather than language decoding alone."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as Customers reported finding items more easily, and staff answered fewer basic location questions. but must be read alongside The changes did not solve every language barrier during complex conversations..",
+              "correctIndex": 3,
+              "explanation": "The passage describes issues with shelf height, similar packaging, and product familiarity. Icons address those nonlinguistic obstacles.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Market with Two Languages\" relate to the strength and limits of the earlier observations?",
+              "type": "Authorial argument",
+              "prompt": "How does the final paragraph broaden the notion of accessibility?",
               "choices": [
-                "The caveat (“The changes did not solve every language barrier during…”) makes the observations worthless.",
-                "The observation (“Customers reported finding items more easily, and staff…”) shows that measurement was unnecessary.",
-                "The response (“The merchants later added pictures to several signs as…”) follows evidence but remains open to reassessment.",
-                "The response (“The merchants later added pictures to several signs as…”) is proof of success in every setting."
+                "It treats communication as an interaction of language, layout, familiarity, and social behavior.",
+                "It defines accessibility exclusively as strict dictionary translation.",
+                "It argues that shoppers should memorize every aisle.",
+                "It suggests that staff assistance can never improve an experience."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The merchants later added pictures to several signs as another guide.; the stated limit The changes did not solve every language barrier during complex conversations. still matters.",
+              "correctIndex": 0,
+              "explanation": "The manager moves from word-for-word translation to an integrated system designed around how actual shoppers navigate.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Market with Two Languages\" without ignoring its stated limitation?",
+              "type": "Evidence and qualification",
+              "prompt": "Which public conclusion is most consistent with the market's data?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Merchants translated the main aisle labels and checked…”) while testing the concern (“The changes did not solve every language barrier during…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "The bilingual signs alone caused every observed improvement.",
+                "Task performance improved among observed shoppers, but multiple changes and sampling limits prevent stronger causal claims.",
+                "Every resident will find goods faster than before.",
+                "No meaningful effect can be assessed because the study was observational."
               ],
               "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, The changes did not solve every language barrier during complex conversations., while comparing evidence from the original method, Merchants translated the main aisle labels and checked the wording with regular customers..",
+              "explanation": "The reported improvement is grounded in observed tasks. The study's simultaneous interventions and regular-customer sample limit causal and population-wide generalization.",
               "passageId": "R03-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         }
