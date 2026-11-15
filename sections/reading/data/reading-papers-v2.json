@@ -205,171 +205,192 @@
         },
         {
           "id": "R01-P2",
-          "title": "The Seed Library",
-          "text": "In a small town, volunteers began collecting seeds from vegetables grown in local gardens. Their goal was not simply to store seeds but to preserve varieties that had adapted to the area's short growing season. Each autumn, gardeners dried seeds, labeled them with the plant's name and harvest year, and delivered them to the library.\n\nThe organizers soon learned that seeds cannot remain useful indefinitely. Some varieties lose their ability to sprout after only a few years, especially when exposed to heat or moisture. Volunteers therefore kept seeds in cool, dry containers and tested small samples for germination. If too few seeds sprouted, they planted the remaining seeds and collected a fresh harvest.\n\nThe library also invited residents to borrow seeds in spring. Borrowers agreed to return some seeds from the plants they raised. This arrangement worked best for plants whose seeds were easy to save. For other plants, cross-pollination could produce offspring unlike the parent variety, so volunteers offered extra instructions.\n\nAfter several seasons, the library had become more than a collection of envelopes. Gardeners exchanged advice, students learned how plants reproduce, and neighbors discovered varieties rarely sold in stores. The project showed that preserving agricultural diversity requires both careful storage and active participation.",
-          "genre": "pilot",
+          "title": "Thoreau — Work, Value and Independence",
+          "text": "For many years I was self-appointed inspector of snow-storms and rain-storms, and did my duty faithfully; surveyor, if not of highways, then of forest paths and all across-lot routes, keeping them open, and ravines bridged and passable at all seasons, where the public heel had testified to their utility.\n\nI have looked after the wild stock of the town, which give a faithful herdsman a good deal of trouble by leaping fences; and I have had an eye to the unfrequented nooks and corners of the farm; though I did not always know whether Jonas or Solomon worked in a particular field to-day; that was none of my business. I have watered the red huckleberry, the sand cherry and the nettle-tree, the red pine and the black ash, the white grape and the yellow violet, which might have withered else in dry seasons.\n\nIn short, I went on thus for a long time (I may say it without boasting), faithfully minding my business, till it became more and more evident that my townsmen would not after all admit me into the list of town officers, nor make my place a sinecure with a moderate allowance. My accounts, which I can swear to have kept faithfully, I have, indeed, never got audited, still less accepted, still less paid and settled. However, I have not set my heart on that.\n\nNot long since, a strolling Indian went to sell baskets at the house of a well-known lawyer in my neighborhood. \"Do you wish to buy any baskets?\" he asked. \"No, we do not want any,\" was the reply. \"What!\" exclaimed the Indian as he went out the gate, \"do you mean to starve us?\" Having seen his industrious white neighbors so well off--that the lawyer had only to weave arguments, and, by some magic, wealth and standing followed--he had said to himself: I will go into business; I will weave baskets; it is a thing which I can do. Thinking that when he had made the baskets he would have done his part, and then it would be the white man's to buy them. He had not discovered that it was necessary for him to make it worth the other's while to buy them, or at least make him think that it was so, or to make something else which it would be worth his while to buy. I too had woven a kind of basket of a delicate texture, but I had not made it worth any one's while to buy them. Yet not the less, in my case, did I think it worth my while to weave them, and instead of studying how to make it worth men's while to buy my baskets, I studied rather how to avoid the necessity of selling them. The life which men praise and regard as successful is but one kind. Why should we exaggerate any one kind at the expense of the others?",
+          "genre": "literary essay",
           "questions": [
             {
               "id": "R01-C11",
-              "type": "Synthesis",
-              "prompt": "What tension underlies the seed library's goal of preserving local varieties?",
+              "type": "Irony",
+              "prompt": "Why does the narrator call himself a 'self-appointed inspector' of storms and forest paths?",
               "choices": [
-                "Seeds can be preserved without planting or monitoring them.",
-                "Borrowers are prohibited from saving any seeds.",
-                "Local varieties become valuable only after commercial sales increase.",
-                "Seeds must remain viable while retaining characteristic traits across generations."
+                "He humorously dignifies informal work that his neighbors do not recognize as an official position.",
+                "He has received a formal salary from the town.",
+                "He works for a government weather office.",
+                "He intends to stop visiting the woods."
               ],
-              "correctIndex": 3,
-              "explanation": "The passage discusses germination, replenishment, and cross-pollination as distinct preservation concerns.",
+              "correctIndex": 0,
+              "explanation": "He mimics official job language for unpaid activities and later notes the town will not appoint or pay him.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C12",
-              "type": "Inference",
-              "prompt": "Why is the short growing season important to the value assigned to certain varieties?",
+              "type": "Tone",
+              "prompt": "What is the effect of describing his accounts as unaudited, unaccepted, and unpaid?",
               "choices": [
-                "Adaptation to local conditions may make them useful in ways not captured by generic seed catalogs.",
-                "All vegetables can reproduce only during brief seasons.",
-                "Short seasons eliminate the need to monitor germination.",
-                "The library wished to replace seeds after every winter regardless of viability."
+                "It proves his records were fraudulent.",
+                "It establishes that no work was actually performed.",
+                "It extends the mock-bureaucratic analogy, contrasting personal diligence with public recognition.",
+                "It shows that he refuses to keep records."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening states that varieties had adapted to the area's shorter season.",
+              "correctIndex": 2,
+              "explanation": "The repeated accounting language satirizes formal recognition while he insists the work had value to him.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C13",
-              "type": "Measurement",
-              "prompt": "What does testing a small sample for germination allow volunteers to assess?",
+              "type": "Narrative analogy",
+              "prompt": "How does the basket seller's story illuminate the narrator's own activities?",
               "choices": [
-                "Whether the seeds were originally sold at a high price.",
-                "Whether stored seeds remain likely to sprout before relying on the full supply.",
-                "Whether every resulting plant will remain genetically identical.",
-                "Whether the seeds will be popular with students."
+                "It establishes the narrator's interest in manufacturing baskets.",
+                "Both produce something they value without first ensuring that others will purchase it.",
+                "It proves the buyer has a legal duty to purchase all products.",
+                "It shows that argument-making has no economic value."
               ],
               "correctIndex": 1,
-              "explanation": "A sample germination test directly assesses viability, not genetic purity or popularity.",
+              "explanation": "The narrator compares his unpaid pursuits with baskets made without guaranteed customers, then distinguishes his own preference for independence.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C14",
-              "type": "Response to evidence",
-              "prompt": "Why would volunteers plant the remaining seeds after a poor germination test?",
+              "type": "Distinction",
+              "prompt": "What separates the narrator's response from the basket seller's?",
               "choices": [
-                "Seed labels are no longer meaningful after testing.",
-                "An annual planting prevents all cross-pollination.",
-                "A new harvest can renew a stock whose ability to sprout is declining.",
-                "Planting remaining seeds will guarantee that every seed germinates."
+                "The narrator assumes someone else must buy his work.",
+                "He abandons his pursuits once they are unpaid.",
+                "The narrator attempts to convince the town to purchase baskets.",
+                "He tries to avoid needing to sell his work rather than maximize its market appeal."
               ],
-              "correctIndex": 2,
-              "explanation": "The passage describes growing the remaining seeds to replenish aging stock.",
+              "correctIndex": 3,
+              "explanation": "The speaker says he studied how to avoid the necessity of selling his baskets, not how to persuade others to buy.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C15",
-              "type": "Causal inference",
-              "prompt": "What problem can cross-pollination create even when borrowed plants grow successfully?",
+              "type": "Philosophical claim",
+              "prompt": "What view of success does the closing question challenge?",
               "choices": [
-                "It prevents every plant from producing any seed.",
-                "It makes all storage containers too moist.",
-                "It ensures every offspring is a perfect replica.",
-                "Their descendants may differ from the variety the library intends to preserve."
+                "The assumption that socially admired or commercially rewarded careers are the only worthwhile forms of life.",
+                "The need for every individual to work in a recognized profession.",
+                "The possibility that work can have practical utility.",
+                "The existence of multiple kinds of daily labor."
               ],
-              "correctIndex": 3,
-              "explanation": "Successful growth does not ensure preservation of a variety's characteristics if pollen from other varieties changes offspring.",
+              "correctIndex": 0,
+              "explanation": "He asks why the life publicly praised as successful should overshadow other forms of living.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C16",
-              "type": "System design",
-              "prompt": "Why does the request that borrowers return seeds help sustain the collection?",
+              "type": "Characterization",
+              "prompt": "Which detail best supports the narrator's claim that he remained committed to his self-chosen tasks?",
               "choices": [
-                "It distributes the work of renewing the seed stock beyond library volunteers.",
-                "It removes any need for proper seed storage.",
-                "It guarantees all borrowed seeds are returned in identical quantities.",
-                "It converts the library into a commercial seed supplier."
+                "He reports receiving a generous town allowance.",
+                "He says he never visited the same woods twice.",
+                "He describes tending paths and plants even without official appointment or payment.",
+                "He abandons his notes after one failed inspection."
               ],
-              "correctIndex": 0,
-              "explanation": "Borrowers produce new seeds for the shared supply, supporting repeated cycles of use.",
+              "correctIndex": 2,
+              "explanation": "The repeated care for paths, trees and plants despite no salary illustrates self-directed diligence.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C17",
-              "type": "Evidence",
-              "prompt": "What additional record would best test whether library methods preserved variety identity?",
+              "type": "Economic reasoning",
+              "prompt": "What missing condition does the narrator identify in the basket seller's commercial expectation?",
               "choices": [
-                "The number of autumns in which labels were printed.",
-                "Comparisons of offspring traits with the originally recorded variety across generations.",
-                "The number of visitors who enjoyed the library's displays.",
-                "The cost of envelopes used for storage."
+                "The seller did not know how to weave.",
+                "A producer must offer something buyers value enough to purchase, rather than expecting purchase solely because work was done.",
+                "Only lawyers are allowed to sell goods.",
+                "The seller failed to ask the lawyer a question."
               ],
               "correctIndex": 1,
-              "explanation": "Tracking characteristics across generations addresses fidelity, unlike simple inventory or usage counts.",
+              "explanation": "The essay distinguishes completing labor from creating sufficient perceived value for a transaction.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C18",
-              "type": "Structure",
-              "prompt": "How does the final paragraph extend the opening definition of the project?",
+              "type": "Speaker stance",
+              "prompt": "How does the narrator's humor affect the argument about unpaid work?",
               "choices": [
-                "It concludes that seeds remain useful indefinitely without planting.",
-                "It shows that labels are unnecessary when neighbors exchange advice.",
-                "It reframes seed storage as a social and educational process sustained through exchange.",
-                "It rejects the value of locally adapted plants."
+                "It proves he considers his labor useless.",
+                "It removes the need for any example.",
+                "It implies he secretly wants to govern the town.",
+                "It makes the lack of official approval seem less decisive in judging the worth of his activities."
               ],
-              "correctIndex": 2,
-              "explanation": "The initial aim is preservation; the conclusion expands that aim into shared learning and community participation.",
+              "correctIndex": 3,
+              "explanation": "His playful job descriptions and mock accounts make external validation appear optional rather than the sole measure of value.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C19",
-              "type": "Limits",
-              "prompt": "Which claim about preservation is least defensible from the passage?",
+              "type": "Qualifier",
+              "prompt": "Which statement would most clearly overstate the narrator's position?",
               "choices": [
-                "Heat and moisture can diminish viability.",
-                "Replenishment can be necessary after low germination.",
-                "Cross-pollination may alter offspring traits.",
-                "Properly labeled seeds remain viable forever if the library has enough volunteers."
+                "He claims that accepting payment for any work is necessarily immoral.",
+                "He has sought a form of freedom from the requirement to sell.",
+                "He values some activities that the town does not officially reward.",
+                "He questions conventional criteria for success."
               ],
-              "correctIndex": 3,
-              "explanation": "The author explicitly says seeds cannot remain useful indefinitely.",
+              "correctIndex": 0,
+              "explanation": "The excerpt critiques treating market success as the exclusive standard; it does not condemn every paid activity.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             },
             {
               "id": "R01-C20",
-              "type": "Generalization",
-              "prompt": "What general lesson does the seed project illustrate?",
+              "type": "Synthesis",
+              "prompt": "Which idea best connects the narrator's outdoor labor, accounting language, and basket metaphor?",
               "choices": [
-                "Preserving living resources depends on ongoing renewal, monitoring, and informed participation.",
-                "Physical storage alone guarantees biological continuity.",
-                "Local adaptation is irrelevant to conservation.",
-                "A collection becomes sustainable only when access is permanently restricted."
+                "Public office is the ideal profession for every person.",
+                "The woods are more profitable than urban commerce.",
+                "A person's chosen activity may have meaning independent of official status or market demand.",
+                "Every successful business begins as unpaid volunteering."
               ],
-              "correctIndex": 0,
-              "explanation": "The text combines storage, germination checks, cultivation, and borrower instruction.",
+              "correctIndex": 2,
+              "explanation": "The repeated comparisons distinguish chosen purpose from institutional or commercial recognition.",
               "passageId": "R01-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "authored-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Walden — personal work and the value of a life"
             }
-          ]
+          ],
+          "source": {
+            "work": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "url": "https://www.gutenberg.org/ebooks/205",
+            "rights": "Public domain in United States",
+            "start": "For many years I was self-appointed inspector of snow-storms and rain-storms, and did my duty f",
+            "end": "successful is but one kind. Why should we exaggerate any one kind at the expense of the others?"
+          },
+          "sourceReference": "ADV-02-P4",
+          "contextNote": "Nineteenth-century essay. The passage uses historical terminology while examining how work is valued and what counts as success."
         },
         {
           "id": "R01-P3",
