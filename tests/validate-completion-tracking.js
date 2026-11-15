@@ -5,7 +5,7 @@ const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const index=read('index.html'),reading=read('reading-skills.html'),language=read('language.html');
 for(const [name,html] of [['overview',index],['reading',reading],['language',language]]){
- for(const js of [...html.matchAll(/<script(?:\\s[^>]*)?>([\\s\\S]*?)<\\/script>/g)].map(m=>m[1]).filter(Boolean))new vm.Script(js,{filename:name+'.js'});
+ for(const js of [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(m=>m[1]).filter(Boolean))new vm.Script(js,{filename:name+'.js'});
 }
 const savedReading={1:{practice:{score:12,total:15},test:{score:41,total:62}},2:{test:{score:52,total:62}},3:{practice:{score:0,total:15}}};
 const savedLanguage={1:{practice:{score:14,total:23},test:{score:45,total:60},challenge:{score:7,total:12}},2:{challenge:{score:0,total:12}}};
