@@ -2918,138 +2918,138 @@
         {
           "id": "LA07-P-1",
           "group": "composition",
-          "skill": "Quantifier scope",
-          "text": "In the civic administration practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Quantifier inference",
+          "text": "The city surveyed forty residents, and not every respondent favored the zoning proposal. Which statement follows necessarily from the survey report?",
           "options": [
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support."
+            "At least one respondent did not favor the proposal.",
+            "Most respondents opposed the proposal.",
+            "None of the respondents favored the proposal.",
+            "No resident outside the survey favored the proposal."
           ],
-          "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 0,
+          "explanation": "The negation of 'every respondent favored' guarantees at least one non-supporter within the surveyed group. It does not identify a majority or describe residents who were not sampled.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-2",
           "group": "composition",
-          "skill": "Quantified inference",
-          "text": "In the civic administration practice scenario, The memorandum states that some assembly members questioned the interpretation. Which conclusion follows?",
+          "skill": "Restrictive clause punctuation",
+          "text": "A council employs several analysts. Which sentence identifies the analyst who prepared the revised cost estimate?",
           "options": [
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation.",
-            "Only assembly members could question it."
+            "The analyst, who prepared the revised estimate, will testify tomorrow.",
+            "The analyst who prepared the revised estimate will testify tomorrow.",
+            "The analyst who prepared the revised estimate, will testify tomorrow.",
+            "The analyst, who prepared the revised estimate will testify tomorrow."
           ],
-          "correctIndex": 0,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 1,
+          "explanation": "A restrictive who-clause without commas identifies one analyst among several. The alternative punctuation either treats the clause as supplemental or incorrectly separates subject from predicate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the civic administration practice scenario, Neither the director nor the scientists responsible for verification ___ willing to certify the result.",
+          "skill": "Sampling error",
+          "text": "A county commissioner estimates public support for bus service using only comments submitted through the transit agency website. Which limitation is most consequential?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "The sample may overrepresent people already engaged with transit services.",
+            "Website responses necessarily provide a random sample of county residents.",
+            "The precise number of response categories makes the data unusable.",
+            "A larger number of website responses would automatically remove selection bias."
           ],
-          "correctIndex": 1,
-          "explanation": "The plural subject nearest the verb is scientists, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "Recruitment through a transit website selects a particular population, potentially excluding residents who do not use the service. Sample size alone cannot repair that selection mechanism.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the civic administration practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Misplaced modifier",
+          "text": "The sentence 'Walking into the chamber, the budget amendment seemed surprising' mistakenly assigns walking to the amendment. Which revision fixes the modifier?",
           "options": [
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment."
+            "Walking into the chamber, the amendment surprised the visitors.",
+            "As the visitors walked into the chamber, they were surprised by the budget amendment.",
+            "The amendment, walking into the chamber, surprised the visitors.",
+            "The budget amendment seemed surprising, walking into the chamber."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 1,
+          "explanation": "A full introductory clause naming the visitors correctly supplies the actor who walked into the chamber. The other forms still attach walking to an inanimate amendment or leave it dangling.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the civic administration practice scenario, Which choice specifically means that the assembly revised the conclusion but left all other sections unchanged?",
+          "skill": "Contrastive transition",
+          "text": "A proposal promises faster inspections; the independent pilot found no reduction in processing time. Which transition best links the second clause to the first?",
           "options": [
-            "Only the assembly revised the conclusion.",
-            "The assembly only revised the conclusion.",
-            "The assembly revised the only conclusion.",
-            "The assembly revised only the conclusion."
+            "Consequently",
+            "Similarly",
+            "Nevertheless",
+            "For example"
           ],
-          "correctIndex": 3,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 2,
+          "explanation": "'Nevertheless' highlights a discrepancy between the promise and the observed pilot result. The other transitions suggest cause, similarity, or illustration instead of contrast.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the civic administration practice scenario, Which revision clearly makes the scientist the person who inspected the results?",
+          "skill": "Conditional permission",
+          "text": "A city permits outdoor events if an organizer obtains a noise variance. Which conclusion is NOT warranted solely by that rule?",
           "options": [
-            "Having inspected the results, the scientist reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The scientist reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the scientist."
+            "Obtaining a variance is one stated path to permission.",
+            "Some other ordinance might still restrict the event.",
+            "Every event without a variance is necessarily prohibited.",
+            "A variance alone does not guarantee that all other permits are complete."
           ],
-          "correctIndex": 0,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 2,
+          "explanation": "'If variance, then permission' gives a sufficient condition and does not make variance necessary. Prohibiting all events without one illegitimately reverses the conditional.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the civic administration practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Parallel structures",
+          "text": "Which revision makes three goals of the public-health report syntactically parallel?",
           "options": [
-            "If the scientist were available, the evidence had been checked last week.",
-            "If the scientist were available, the evidence could be checked today.",
-            "If the scientist had been available, the evidence will be checked yesterday.",
-            "If the scientist will be available, the evidence would have been checked."
+            "The report aims to identify hazards, comparing neighborhoods, and that residents understand risks.",
+            "The report aims to identify hazards, compare neighborhoods, and explain risks to residents.",
+            "The report aims for hazard identification, to compare neighborhoods, and risks explained.",
+            "The report aims to identify hazards, neighborhood comparisons, and explaining risks."
           ],
           "correctIndex": 1,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "explanation": "Three base-form verbs follow 'aims to' as a parallel series. The other alternatives mix infinitival, participial, nominal, and clause structures.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA07-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the civic administration practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Conditional evidence review",
+          "text": "After a road redesign, collisions fall by 10%, but the number of vehicles using the road falls by 30%. What must an evaluator examine before claiming driving became safer?",
           "options": [
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid."
+            "Whether the per-vehicle collision rate also declined.",
+            "Whether the road received positive press coverage.",
+            "Whether the redesign cost less than expected.",
+            "Whether at least one collision occurred after the change."
           ],
-          "correctIndex": 2,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "When traffic volume drops faster than collision counts, the risk per unit of exposure may increase. An exposure-adjusted rate is needed; publicity and cost do not resolve the risk comparison.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -3403,138 +3403,138 @@
         {
           "id": "LA08-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the ecological restoration practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Drought and comparisons",
+          "text": "A restoration team counts 24 fish in 300 observations before treatment and 30 in 600 after treatment. Which statement about observed frequency is accurate?",
           "options": [
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed."
+            "It rose from 8% to 10%.",
+            "It fell from 8% to 5%.",
+            "It stayed at 8% because the observed count rose.",
+            "It cannot be calculated from counts and observations."
           ],
-          "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "The original frequency was 24/300 = 8%; the later frequency was 30/600 = 5%. Raw counts grew while the proportion of observations with fish declined.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the ecological restoration practice scenario, The memorandum states that some subcommittee members questioned the interpretation. Which conclusion follows?",
+          "skill": "Concession and limitation",
+          "text": "Which sentence acknowledges a sampling limitation without dismissing a useful observation from a watershed study?",
           "options": [
-            "Only subcommittee members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation."
+            "Although the survey lasted only ten days, it recorded a measurable decline in sediment during those ten days.",
+            "Although the survey lasted ten days, it proved permanent river recovery.",
+            "Because the study was short, the researchers must have fabricated the sediment result.",
+            "A limited survey guarantees that no useful measurement can be made."
           ],
-          "correctIndex": 1,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 0,
+          "explanation": "This wording reports an observed change for the measured interval while explicitly retaining the duration limit. The other options exaggerate or reject the result without evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the ecological restoration practice scenario, Neither the director nor the surveyors responsible for verification ___ willing to certify the result.",
+          "skill": "Relative-clause antecedent",
+          "text": "A report states, 'The ecologist examined the nest near the river that had been damaged.' Which revision clearly says the NEST was damaged?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "The ecologist examined the damaged nest near the river.",
+            "The ecologist examined the nest near the damaged river.",
+            "The damaged ecologist examined the nest near the river.",
+            "The ecologist examined the nest near the river, which had been damaged."
           ],
-          "correctIndex": 2,
-          "explanation": "The plural subject nearest the verb is surveyors, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "Placing 'damaged' directly before 'nest' removes uncertainty about the modifier's antecedent. Alternatives assign damage to the river or ecologist or retain ambiguity.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the ecological restoration practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Correlation and habitat",
+          "text": "A project finds that wetter sampling sites contain more amphibian eggs than dry sites. Which explanation must still be considered before asserting that moisture alone caused the difference?",
           "options": [
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment."
+            "Wet and dry sites could also differ in vegetation cover or predator abundance.",
+            "Every amphibian egg must have been observed.",
+            "Vegetation cover cannot affect any species.",
+            "A correlation between moisture and egg counts proves a unique cause."
           ],
-          "correctIndex": 3,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "Other ecological variables can covary with moisture and affect egg numbers. Without controls, the observed association does not isolate moisture's causal role.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the ecological restoration practice scenario, Which choice specifically means that the subcommittee revised the conclusion but left all other sections unchanged?",
+          "skill": "Complex comparative",
+          "text": "Which sentence correctly compares two water-quality measurements without comparing a measurement with the river itself?",
           "options": [
-            "The subcommittee revised only the conclusion.",
-            "Only the subcommittee revised the conclusion.",
-            "The subcommittee only revised the conclusion.",
-            "The subcommittee revised the only conclusion."
+            "The nitrate concentration at Site B was lower than that at Site A.",
+            "The nitrate concentration at Site B was lower than Site A.",
+            "The nitrate concentration at Site B was lower than the Site A's rivers.",
+            "The nitrate concentration at Site B was more lower than at Site A."
           ],
           "correctIndex": 0,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "explanation": "'That at Site A' stands for the corresponding nitrate concentration. The other choices compare unlike entities or introduce an ungrammatical double comparative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the ecological restoration practice scenario, Which revision clearly makes the surveyor the person who inspected the results?",
+          "skill": "Verb tense sequence",
+          "text": "The monitoring team installed sensors in May and published the analysis in October. Which sentence preserves that sequence clearly?",
           "options": [
-            "The discrepancy, having been inspected, was reported by the surveyor.",
-            "Having inspected the results, the surveyor reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The surveyor reported a discrepancy after she inspected it."
+            "By the time the team published its analysis in October, it had installed the sensors in May.",
+            "By the time the team publishes in October, it installed sensors in May last year, will it.",
+            "After October, the sensors will have installed themselves in May.",
+            "The sensors had installed the team before the analysis appeared."
           ],
-          "correctIndex": 1,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 0,
+          "explanation": "Past perfect 'had installed' marks the sensor installation as earlier than the October publication. The other options mix tense illogically or assign an impossible agent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the ecological restoration practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Universal claim counterexample",
+          "text": "A scientist asserts that every restored stream in the sample had higher oxygen levels than before treatment. Which finding directly refutes the assertion?",
           "options": [
-            "If the surveyor will be available, the evidence would have been checked.",
-            "If the surveyor were available, the evidence had been checked last week.",
-            "If the surveyor were available, the evidence could be checked today.",
-            "If the surveyor had been available, the evidence will be checked yesterday."
+            "One restored stream in the sample had lower oxygen levels after treatment.",
+            "One untreated stream had increased oxygen levels.",
+            "Some restored streams had higher oxygen levels.",
+            "A stream outside the sample had unchanged oxygen levels."
           ],
-          "correctIndex": 2,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 0,
+          "explanation": "One sampled restored stream without an increase contradicts the universal claim. Untreated streams and cases outside the sample are not counterexamples to that assertion.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA08-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the ecological restoration practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Coordination and punctuation",
+          "text": "Which version uses a semicolon to join two independent clauses while keeping the stated contrast intact?",
           "options": [
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid."
+            "The marsh showed increased plant cover; however, fish diversity remained unchanged.",
+            "The marsh showed increased plant cover, however, fish diversity remained unchanged.",
+            "The marsh showed increased plant cover; however fish diversity, remained unchanged.",
+            "The marsh showed increased plant cover however; fish diversity remained unchanged."
           ],
-          "correctIndex": 3,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "A semicolon separates the two complete clauses, and a comma follows 'however.' The other options contain a comma splice or misplace punctuation around the transition.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
