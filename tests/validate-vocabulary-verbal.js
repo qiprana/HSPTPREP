@@ -69,6 +69,41 @@ for(const w of words){
   vocabularyQuestions++;
  }
 }
+// Learned-word choice regression: no future-day options, concise stems and cumulative review.
+const wordByKey=new Map(words.map(w=>[w.key,w]));
+for(const day of [1,2,5,10,25,50]){
+ for(const kind of ['daily','cumulative']){
+  for(let sample=0;sample<3;sample++){
+   const questions=api.makeVerbalChallenge(day,kind).filter(q=>q.category==='Synonyms');
+   assert.equal(questions.length,12,'Exactly twelve studied-word choice questions');
+   const targetWords=questions.map(q=>wordByKey.get(q.studyWordKey));
+   assert.ok(targetWords.every(Boolean),'Word-choice questions must identify a studied word');
+   if(kind==='daily')assert.ok(targetWords.every(w=>w.day===day),'Daily word-choice target must come from current day');
+   if(kind==='cumulative'&&day>1){
+    assert.ok(targetWords.filter(w=>w.day<day).length>=7,'Cumulative choice quiz must revisit earlier words');
+    assert.ok(targetWords.filter(w=>w.day===day).length>=3,'Cumulative choice quiz must include current words');
+   }
+   for(const q of questions){
+    const answerWord=wordByKey.get(q.studyWordKey);
+    assert.equal(q.answer,answerWord.word,'Correct choice must be the studied word');
+    assert.match(q.prompt,/^Which studied word best means/,'Simple question stem');
+    assert.equal(q.choices.length,4);
+    assert.equal(new Set(q.choices.map(x=>x.toLowerCase())).size,4);
+    assert.ok(q.choices.includes(q.answer));
+    for(const choice of q.choices){
+     assert.ok(words.some(w=>w.word.toLowerCase()===choice.toLowerCase()&&w.part===answerWord.part&&w.day<=day),
+       'Word-choice distractor outside learned cumulative bank: '+choice+' day '+day);
+    }
+    if(day>1){
+     assert.ok(q.choices.some(choice=>choice!==q.answer&&words.some(w=>
+      w.word.toLowerCase()===choice.toLowerCase()&&w.part===answerWord.part&&w.day<day)),
+      'At least one choice must review a previously assigned word');
+    }
+   }
+  }
+ }
+}
+
 assert.match(index,/deadline:Date\.now\(\)\+16\*60\*1000/,'Verbal timer should be 16 minutes');
 assert.ok(!index.includes('14-minute countdown')&&!quick.includes('14-minute countdown'),'Outdated Verbal timer label');
 assert.match(index,/q\.questions\.length\)markSubjectDone\(q\.day,'verbal','verbal-challenge'\)/,'Fully answered submissions must count as completed regardless of pass score');
