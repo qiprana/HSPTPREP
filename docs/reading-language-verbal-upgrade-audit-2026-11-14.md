@@ -92,3 +92,11 @@ A further manual spot-check found that broad substitutions of terms such as *int
 - Corrected an ungrammatical distractor in Language Day 1 advanced challenge (`LA01-C-1`).
 - An inventory inspection showed the conventional timed bank still has mostly very short passages; it is **not** the requested set of 80 authenticated, editorially verified 350–650-word excerpts. The two revised Day 2 passages are only two of 80.
 - Remaining major blockers are authentic-text substitutions and rights/source mapping, individual review of the other timed comprehension items, Reading vocabulary difficulty calibration, Language conceptual repetition, Verbal stochastic quality evaluation, and live Safari/mobile sign-off. No full grade-10–12 certification is claimed.
+
+
+## November 15 — further implementation and verification
+
+- **Reading:** All four Day 2 passages (`R02-P1` through `R02-P4`) now have expanded, original 350+ word passages and 40 individually authored analytical multiple-choice questions (10 each), preserving existing question IDs. The passages are newly written, not misrepresented as authentic source excerpts. The revised Day 2 test bank is structurally validated, though answer keys and distractors still await independent editorial assessment. The other 76 timed passages do not meet the advanced length/source target.
+- **Verbal completion:** A fully answered and submitted challenge now counts toward session completion whether or not it passed. The separately displayed 70% pass result, best score, and retry continue unchanged. Vocabulary/Verbal validation was updated and passed.
+- **Cross-browser automation:** The completion smoke workflow now runs in Chromium, Firefox and WebKit, all of which passed the baseline run. This covers desktop browser engines, **not** an actual iPhone or Safari-on-macOS device.
+- **Do not sign off on grade-level content:** Language still contains conceptually repeated cases; the larger Reading bank still contains short, primarily synthetic passages and templated evidence-role questions. Verbal automated correctness does not establish nuanced synonym/distractor quality. Structural tests passing must not be represented as complete editorial certification.
