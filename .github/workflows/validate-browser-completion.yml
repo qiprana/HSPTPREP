@@ -1,0 +1,35 @@
+name: Browser Completion Smoke Test
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'language.html'
+      - 'reading-skills.html'
+      - 'sections/language/data/**'
+      - 'sections/reading/data/reading-papers-v2.json'
+      - 'tests/browser-completion-smoke.cjs'
+      - '.github/workflows/validate-browser-completion.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'language.html'
+      - 'reading-skills.html'
+      - 'tests/browser-completion-smoke.cjs'
+jobs:
+  browser-completion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test runner
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: Start static site
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/hspt-site.log 2>&1 &
+      - name: Test submission, persistence and overview
+        run: node tests/browser-completion-smoke.cjs
