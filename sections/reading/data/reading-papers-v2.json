@@ -18603,9 +18603,9 @@
       "passages": [
         {
           "id": "R19-P1",
-          "title": "Pollen on the Wind",
-          "genre": "science",
-          "text": "A science class examined how wind helps some plants distribute pollen or seeds. Students noticed that dry grasses released visible dust during breezy afternoons. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey used paper traps at measured distances from a patch of flowering grass. More particles were collected near the plants than at the farthest traps. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their measured approach involved examining the available information before making the next decision.\n\nSome trapped particles might have come from soil rather than the target plants. The class planned to examine samples under a microscope before drawing a final conclusion. Collecting material is only a first step; identifying what was collected is equally important. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Mrs. Bennet Learns of Darcy's Engagement",
+          "genre": "literature",
+          "text": "He then recollected her embarrassment a few days before, on his reading Mr. Collins's letter; and after laughing at her some time, allowed her at last to go--saying, as she quitted the room, \"If any young men come for Mary or Kitty, send them in, for I am quite at leisure.\"\n\nElizabeth's mind was now relieved from a very heavy weight; and, after half an hour's quiet reflection in her own room, she was able to join the others with tolerable composure. Every thing was too recent for gaiety, but the evening passed tranquilly away; there was no longer anything material to be dreaded, and the comfort of ease and familiarity would come in time.\n\nWhen her mother went up to her dressing-room at night, she followed her, and made the important communication. Its effect was most extraordinary; for on first hearing it, Mrs. Bennet sat quite still, and unable to utter a syllable. Nor was it under many, many minutes that she could comprehend what she heard; though not in general backward to credit what was for the advantage of her family, or that came in the shape of a lover to any of them. She began at length to recover, to fidget about in her chair, get up, sit down again, wonder, and bless herself.\n\n\"Good gracious! Lord bless me! only think! dear me! Mr. Darcy! Who would have thought it! And is it really true? Oh! my sweetest Lizzy! how rich and how great you will be! What pin-money, what jewels, what carriages you will have! Jane's is nothing to it--nothing at all. I am so pleased--so happy. Such a charming man!--so handsome! so tall!--Oh, my dear Lizzy! pray apologise for my having disliked him so much before. I hope he will overlook it. Dear, dear Lizzy. A house in town! Every thing that is charming! Three daughters married! Ten thousand a year! Oh, Lord! What will become of me. I shall go distracted.\"\n\nThis was enough to prove that her approbation need not be doubted: and Elizabeth, rejoicing that such an effusion was heard only by herself, soon went away. But before she had been three minutes in her own room, her mother followed her.\n\n\"My dearest child,\" she cried, \"I can think of nothing else! Ten thousand a year, and very likely more! 'Tis as good as a Lord! And a special licence. You must and shall be married by a special licence. But my dearest love, tell me what dish Mr. Darcy is particularly fond of, that I may have it to-morrow.\"\n\nThis was a sad omen of what her mother's behaviour to the gentleman himself might be; and Elizabeth found that, though in the certain possession of his warmest affection, and secure of her relations' consent, there was still something to be wished for. But the morrow passed off much better than she expected; for Mrs. Bennet luckily stood in such awe of her intended son-in-law that she ventured not to speak to him, unless it was in her power to offer him any attention, or mark her deference for his opinion.",
           "term": [
             "measured",
             "carefully considered",
@@ -18616,165 +18616,185 @@
           "questions": [
             {
               "id": "R19-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Pollen on the Wind\"?",
+              "type": "Character contrast",
+              "prompt": "How does Mrs. Bennet's response to news of Elizabeth's engagement differ from Elizabeth's?",
               "choices": [
-                "The recorded outcome (“More particles were collected near the plants than at the…”) is treated as unrelated to the original investigation.",
-                "The concern (“Students noticed that dry grasses released visible dust…”) leads to inquiry, but “Some trapped particles might have come from soil rather…” limits the inference.",
-                "The proposed response (“The class planned to examine samples under a microscope…”) makes the original concern irrelevant.",
-                "The method (“They used paper traps at measured distances from a patch…”) rules out every possible competing explanation."
+                "Mrs. Bennet responds with excited thoughts about wealth and status, while Elizabeth seeks composure and anticipates social discomfort.",
+                "Mrs. Bennet objects to the marriage on religious grounds.",
+                "Elizabeth is primarily concerned with the number of carriages she will own.",
+                "Both are equally reserved about the prospect."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some trapped particles might have come from soil rather than the target plants. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The mother lists jewels, income and prestige; Elizabeth first reflects quietly and then worries about her mother's conduct.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Pollen on the Wind\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Narrative irony",
+              "prompt": "What is the effect of the observation that Mrs. Bennet is usually quick to believe anything advantageous to the family?",
               "choices": [
-                "More particles were collected near the plants than at the farthest traps.",
-                "The class planned to examine samples under a microscope before drawing a final conclusion.",
-                "Students noticed that dry grasses released visible dust during breezy afternoons.",
-                "They used paper traps at measured distances from a patch of flowering grass."
+                "It proves she has never wanted her daughters to marry.",
+                "It suggests the announcement cannot be true.",
+                "It makes her unusually prolonged speechlessness comically surprising.",
+                "It reveals she already knew about the proposal."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Students noticed that dry grasses released visible dust during breezy afternoons. The other choices describe what was done or discovered afterward.",
+              "explanation": "Her initial inability to process good news is ironic in light of her habitual eagerness for advantageous matches.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Pollen on the Wind\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Diction and character",
+              "prompt": "How do repeated exclamations and fragmentary phrases characterize Mrs. Bennet?",
               "choices": [
-                "Students noticed that dry grasses released visible dust during breezy afternoons.",
-                "More particles were collected near the plants than at the farthest traps.",
-                "Some trapped particles might have come from soil rather than the target plants.",
-                "They used paper traps at measured distances from a patch of flowering grass."
+                "They reveal a carefully prepared philosophical argument.",
+                "They dramatize uncontrolled excitement and rapidly shifting thoughts.",
+                "They show a deliberate attempt to conceal her reaction.",
+                "They establish that she has forgotten Darcy's identity."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: They used paper traps at measured distances from a patch of flowering grass. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The breathless list of wealth and admiration creates a comic portrait of excess.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Pollen on the Wind\", rather than a procedure, caution, or policy response?",
+              "type": "Consistency",
+              "prompt": "What does Mrs. Bennet's request that Elizabeth apologize for her earlier dislike of Darcy suggest?",
               "choices": [
-                "More particles were collected near the plants than at the farthest traps.",
-                "They used paper traps at measured distances from a patch of flowering grass.",
-                "Some trapped particles might have come from soil rather than the target plants.",
-                "The class planned to examine samples under a microscope before drawing a final conclusion."
+                "She values consistency above her daughter's happiness.",
+                "She has become convinced Darcy never visited the family.",
+                "She still regards Darcy as unsuitable.",
+                "Her opinion shifts quickly when she discovers the material advantages of the match."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: More particles were collected near the plants than at the farthest traps. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Earlier dislike gives way to admiration linked to Darcy's fortune and social position.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Pollen on the Wind\" from being generalized beyond the available evidence?",
+              "type": "Narrator's irony",
+              "prompt": "Why does Elizabeth regard her mother's enthusiasm as a 'sad omen'?",
               "choices": [
-                "The class planned to examine samples under a microscope before drawing a final conclusion.",
-                "Some trapped particles might have come from soil rather than the target plants.",
-                "More particles were collected near the plants than at the farthest traps.",
-                "They used paper traps at measured distances from a patch of flowering grass."
+                "She fears her mother will behave embarrassingly in Darcy's presence despite his affection and the family's consent.",
+                "She believes Darcy will withdraw his proposal immediately.",
+                "She expects Jane to become jealous.",
+                "She learns that the wedding license has expired."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: Some trapped particles might have come from soil rather than the target plants. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Elizabeth anticipates awkward overattention and excessive deference, although the next day goes better than expected.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Pollen on the Wind\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Scene reversal",
+              "prompt": "How does the following day's actual encounter complicate Elizabeth's expectations?",
               "choices": [
-                "They used paper traps at measured distances from a patch of flowering grass.",
-                "More particles were collected near the plants than at the farthest traps.",
-                "The class planned to examine samples under a microscope before drawing a final conclusion.",
-                "Students noticed that dry grasses released visible dust during breezy afternoons."
+                "Mrs. Bennet refuses to speak to Darcy under any circumstances.",
+                "The marriage arrangement is canceled.",
+                "Mrs. Bennet is so awed by Darcy that she speaks little, making the meeting less embarrassing than feared.",
+                "Darcy announces a sudden reduction in income."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: The class planned to examine samples under a microscope before drawing a final conclusion. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The mother's awe restrains her rather than allowing the expected effusive display.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Pollen on the Wind\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Tone",
+              "prompt": "What is the dominant tone of the passage's presentation of Mrs. Bennet?",
               "choices": [
-                "Initial concern: “Students noticed that dry grasses released visible dust…”; method: “Some trapped particles might have come from soil rather…”.",
-                "Initial concern: “More particles were collected near the plants than at the…”; method: “The class planned to examine samples under a microscope…”.",
-                "Initial concern: “They used paper traps at measured distances from a patch…”; method: “More particles were collected near the plants than at the…”.",
-                "Initial concern: “Students noticed that dry grasses released visible dust…”; method: “They used paper traps at measured distances from a patch…”."
+                "Solemn reverence.",
+                "Affectionate but pointed comic satire of social ambition and emotional excess.",
+                "Complete indifference.",
+                "A formal legal account of engagement conditions."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Students noticed that dry grasses released visible dust during breezy afternoons. and the subsequent investigative procedure is They used paper traps at measured distances from a patch of flowering grass..",
+              "correctIndex": 1,
+              "explanation": "Her exclamations, financial calculations and abrupt changes in opinion are described with irony.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Pollen on the Wind\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Structural role",
+              "prompt": "What does Elizabeth's period of quiet reflection before telling her mother contribute?",
               "choices": [
-                "The observation (“More particles were collected near the plants than at the…”) matters, but the limit (“Some trapped particles might have come from soil rather…”) remains.",
-                "The observation (“More particles were collected near the plants than at the…”) rules out every alternative cause.",
-                "The limitation (“Some trapped particles might have come from soil rather…”) disproves the observation itself.",
-                "The method (“They used paper traps at measured distances from a patch…”) guarantees the result before measurement."
+                "It establishes that she disapproves of Darcy.",
+                "It introduces a separate mystery about Mr. Collins.",
+                "It proves she has nothing to fear from family reaction.",
+                "It contrasts Elizabeth's effort at emotional balance with the uproar the news later produces."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as More particles were collected near the plants than at the farthest traps. but must be read alongside Some trapped particles might have come from soil rather than the target plants..",
+              "correctIndex": 3,
+              "explanation": "The juxtaposition sharpens character differences and foreshadows Mrs. Bennet's extravagance.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Pollen on the Wind\" relate to the strength and limits of the earlier observations?",
+              "type": "Inference",
+              "prompt": "What does the request to learn Darcy's favorite dish most plausibly reveal?",
               "choices": [
-                "The observation (“More particles were collected near the plants than at the…”) shows that measurement was unnecessary.",
-                "The response (“The class planned to examine samples under a microscope…”) follows evidence but remains open to reassessment.",
-                "The response (“The class planned to examine samples under a microscope…”) is proof of success in every setting.",
-                "The caveat (“Some trapped particles might have come from soil rather…”) makes the observations worthless."
+                "Mrs. Bennet hopes to impress or please the wealthy prospective son-in-law through attentive hospitality.",
+                "She is planning to open a restaurant.",
+                "She expects Darcy to cook for the family.",
+                "She doubts that Darcy eats meals."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The class planned to examine samples under a microscope before drawing a final conclusion.; the stated limit Some trapped particles might have come from soil rather than the target plants. still matters.",
+              "correctIndex": 0,
+              "explanation": "Her attention shifts quickly to providing Darcy a pleasing dinner, reflecting deference and a wish to cultivate favor.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             },
             {
               "id": "R19-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Pollen on the Wind\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "What broader social theme does the family scene develop?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They used paper traps at measured distances from a patch…”) while testing the concern (“Some trapped particles might have come from soil rather…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Marriage has no relationship to money or rank.",
+                "Elizabeth's family has abandoned its former views.",
+                "An engagement can elicit sincere affection alongside powerful concern for wealth, status and public behavior.",
+                "Every member of a family reacts identically to a match."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, Some trapped particles might have come from soil rather than the target plants., while comparing evidence from the original method, They used paper traps at measured distances from a patch of flowering grass..",
+              "explanation": "The narrator contrasts Elizabeth's private emotions with her mother's calculations and social performance.",
               "passageId": "R19-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Mrs. Bennet learns of Darcy's engagement"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "He then recollected her embarrassment a few days before, on his reading Mr. Collins's letter; a",
+            "end": ", unless it was in her power to offer him any attention, or mark her deference for his opinion."
+          },
+          "sourceReference": "ADV-19-P1"
         },
         {
           "id": "R19-P2",
