@@ -667,18 +667,18 @@
         {
           "id": "L01-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 1 astronomy full-paper case: A preliminary observation in astronomy was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Argument structure",
+          "text": "An observatory replaced its sensor and reported a lower error rate. Its report also noted that the new instrument operated only on clear nights. Which revision best avoids overstating its conclusion?",
           "options": [
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible."
+            "The replacement solved the observatory's measurement problem.",
+            "The lower observed error rate may reflect instrument performance, differences in observing conditions, or both.",
+            "The new sensor cannot be useful until every night is clear.",
+            "Because error fell, the weather restriction had no effect."
           ],
           "correctIndex": 1,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "explanation": "The condition restriction changes the sample of nights; the improvement cannot be assigned solely to the sensor without comparable conditions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-C02",
@@ -1630,18 +1630,18 @@
         {
           "id": "L02-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 2 climate research full-paper case: A preliminary observation in climate research was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Causal reasoning",
+          "text": "A coastal city planted mangroves, then recorded less flood damage. The report omitted changes to seawalls and building codes. Which qualification is essential?",
           "options": [
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere."
+            "The program could not influence flooding because other changes occurred.",
+            "Only storm intensity matters to any flood-damage comparison.",
+            "The decline cannot be attributed uniquely to mangroves without considering simultaneous protective measures.",
+            "The report proves all flood barriers are ineffective."
           ],
           "correctIndex": 2,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "explanation": "Seawalls and building codes could also reduce damage, creating alternative explanations for the observed association.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L02-C02",
@@ -2593,18 +2593,18 @@
         {
           "id": "L03-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 3 literature full-paper case: A preliminary observation in literature was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Interpretive precision",
+          "text": "A literary critic writes that a narrator's silence 'may indicate complicity.' Which paraphrase preserves the original claim's degree of certainty?",
           "options": [
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing."
+            "The narrator's silence is one possible sign of complicity, though other readings remain viable.",
+            "The narrator's silence conclusively demonstrates guilt.",
+            "The critic denies that silence can have moral significance.",
+            "Every quiet character in the novel is complicit."
           ],
-          "correctIndex": 3,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 0,
+          "explanation": "'May indicate' expresses possibility rather than proof, denial, or a universal inference.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L03-C02",
@@ -3556,18 +3556,18 @@
         {
           "id": "L04-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 4 archives full-paper case: A preliminary observation in archives was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Sampling and scope",
+          "text": "A museum surveyed visitors on a Saturday about extended weekend hours and received strong support. What limitation belongs in its public announcement?",
           "options": [
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism."
+            "Weekend visitors cannot have meaningful opinions.",
+            "The museum must ignore survey results unless it contacts every resident.",
+            "Support on Saturday guarantees equal support among weekday visitors.",
+            "The sample may overrepresent people already inclined to visit on weekends."
           ],
-          "correctIndex": 0,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 3,
+          "explanation": "A sample collected during weekend hours may favor those for whom weekend access already works; it may not represent other patrons.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L04-C02",
@@ -4519,18 +4519,18 @@
         {
           "id": "L05-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 5 robotics full-paper case: A preliminary observation in robotics was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Comparison",
+          "text": "A district compared average exam scores before and after changing a curriculum, but the tested cohorts were different. Which statement is strongest?",
           "options": [
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible."
+            "The curriculum caused the difference because averages are objective.",
+            "The cohort difference prevents a straightforward causal attribution without further analysis.",
+            "The comparison cannot show that scores changed.",
+            "Every student in the later cohort must have improved."
           ],
           "correctIndex": 1,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "explanation": "A cohort shift may affect the average independently of teaching changes. The mean difference is real but its cause is not established.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L05-C02",
@@ -5482,18 +5482,18 @@
         {
           "id": "L06-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 6 ethics full-paper case: A preliminary observation in ethics was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Counterargument",
+          "text": "An editorial supports protected bicycle lanes but acknowledges reduced curbside parking. Which sentence provides the most relevant rebuttal?",
           "options": [
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere."
+            "Drivers who oppose bike lanes dislike public safety.",
+            "Because bike lanes are beneficial, parking losses should never be measured.",
+            "A limited parking study could identify loading needs while allowing the safety benefits to be assessed.",
+            "Parking concerns prove the entire proposal is infeasible."
           ],
           "correctIndex": 2,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "explanation": "This response addresses the actual trade-off with evidence and a workable adaptation, rather than dismissing or absolutizing it.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L06-C02",
@@ -6445,18 +6445,18 @@
         {
           "id": "L07-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 7 ecology full-paper case: A preliminary observation in ecology was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Qualifiers",
+          "text": "A nutrition study found an association between a dietary pattern and lower illness rates after accounting for age, but not physical activity. Which claim fits the evidence?",
           "options": [
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing."
+            "The association remained after age adjustment, but unmeasured exercise differences could still influence it.",
+            "The diet necessarily prevents illness in every age group.",
+            "Adjusting for age eliminates all confounding variables.",
+            "The findings are meaningless because exercise was not controlled."
           ],
-          "correctIndex": 3,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 0,
+          "explanation": "Age adjustment reduces one concern but does not eliminate confounding from omitted activity; the finding is suggestive, not universal or worthless.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L07-C02",
@@ -7408,18 +7408,18 @@
         {
           "id": "L08-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 8 civic planning full-paper case: A preliminary observation in civic planning was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Ambiguous attribution",
+          "text": "Two reviewers disagreed about the report, and one told the editor that the other's figures were unreliable. Which revision most clearly attributes the allegation to Reviewer A?",
           "options": [
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism."
+            "The reviewers told the editor that their figures were unreliable.",
+            "After they disagreed, the editor was told that the other's figures were unreliable.",
+            "Reviewer A told the editor that Reviewer B's figures were unreliable.",
+            "The editor heard that one reviewer's figures were unreliable."
           ],
-          "correctIndex": 0,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 2,
+          "explanation": "Naming the speaker and the criticized reviewer removes the nested pronoun ambiguity and makes the source of the allegation explicit.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L08-C02",
@@ -8371,18 +8371,18 @@
         {
           "id": "L09-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 9 linguistics full-paper case: A preliminary observation in linguistics was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Correlation",
+          "text": "Library membership rose the same year a town opened a public internet center. Which additional result would most weaken the claim that the center caused the increase?",
           "options": [
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible."
+            "The center reported a high satisfaction score.",
+            "Several nearby towns without a new internet center showed comparable membership growth.",
+            "Membership records were stored electronically.",
+            "The center offered both computers and technical classes."
           ],
           "correctIndex": 1,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "explanation": "A similar increase where no center opened suggests a wider trend rather than an effect unique to the new facility.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L09-C02",
@@ -9334,18 +9334,18 @@
         {
           "id": "L10-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 10 museum conservation full-paper case: A preliminary observation in museum conservation was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Rhetorical function",
+          "text": "An essay first describes a popular historical account, then quotes records that contradict its most dramatic detail. What is the strongest description of this structure?",
           "options": [
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere."
+            "Chronological narration followed by an unrelated example.",
+            "Definition followed by illustrative classification.",
+            "An appeal to popularity that requires no verification.",
+            "A received interpretation is introduced and then qualified by contrary primary-source evidence."
           ],
-          "correctIndex": 2,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 3,
+          "explanation": "The author contrasts a familiar account with documentary counterevidence, inviting critical revision rather than mere recitation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L10-C02",
@@ -10297,18 +10297,18 @@
         {
           "id": "L11-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 11 medical history full-paper case: A preliminary observation in medical history was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Statistical interpretation",
+          "text": "One school's average score rose while its median remained unchanged. Which conclusion is justified?",
           "options": [
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing."
+            "Every student's score increased.",
+            "At least one score changed enough to affect the mean, but the median alone does not determine how the distribution shifted.",
+            "The middle-ranked student's score must have decreased.",
+            "The change proves a recording error."
           ],
-          "correctIndex": 3,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 1,
+          "explanation": "A changed mean alongside an unchanged median is compatible with multiple distributions; it does not describe each person's trajectory.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L11-C02",
@@ -11260,18 +11260,18 @@
         {
           "id": "L12-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 12 economics full-paper case: A preliminary observation in economics was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Scientific reporting",
+          "text": "An experiment showed no statistically detectable difference between two treatments in a small sample. Which formulation is most responsible?",
           "options": [
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism."
+            "The treatments have been proved identical.",
+            "The treatments both have zero effect.",
+            "The study did not detect a difference; a small sample may leave meaningful differences unresolved.",
+            "The treatment selected first must be more effective."
           ],
-          "correctIndex": 0,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 2,
+          "explanation": "Failure to detect a difference does not prove equivalence, especially when the study may lack power.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L12-C02",
@@ -12223,18 +12223,18 @@
         {
           "id": "L13-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 13 marine science full-paper case: A preliminary observation in marine science was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Necessary conditions",
+          "text": "A journal publishes a paper only if reviewers recommend acceptance. Which sentence is logically equivalent to the stated requirement?",
           "options": [
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible."
+            "If reviewers do not recommend acceptance, the journal will not publish the paper.",
+            "If reviewers recommend acceptance, the journal must publish the paper.",
+            "A published paper may lack a recommendation.",
+            "Recommending acceptance is sufficient for publication."
           ],
-          "correctIndex": 1,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 0,
+          "explanation": "A necessary condition can be expressed by its contrapositive: no recommendation rules out publication, but a recommendation does not force it.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L13-C02",
@@ -13186,18 +13186,18 @@
         {
           "id": "L14-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 14 public policy full-paper case: A preliminary observation in public policy was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Evaluating testimony",
+          "text": "An investigator cites a witness who saw a vehicle near a warehouse but could not identify its driver. Which statement best respects the testimony?",
           "options": [
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere."
+            "The witness identified the person operating the vehicle.",
+            "The driver must have entered the warehouse.",
+            "The witness proved that the vehicle carried stolen goods.",
+            "The witness's account places a vehicle near the warehouse but does not identify who drove it."
           ],
-          "correctIndex": 2,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 3,
+          "explanation": "The observation supports proximity of a vehicle, not driver identity, purpose, or contents.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L14-C02",
@@ -14149,18 +14149,18 @@
         {
           "id": "L15-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 15 mathematics full-paper case: A preliminary observation in mathematics was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Logical consistency",
+          "text": "An article says 'all successful applicants completed training,' then claims 'training guarantees success.' What is wrong with the second claim?",
           "options": [
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing."
+            "It reverses a necessary condition into a sufficient one.",
+            "It introduces a counterexample that disproves the first claim.",
+            "It merely restates the initial claim with fewer words.",
+            "It identifies the precise success rate among trained applicants."
           ],
-          "correctIndex": 3,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 0,
+          "explanation": "Successful applicants having trained does not imply all trained people succeed; the conditional has been reversed.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L15-C02",
@@ -15112,18 +15112,18 @@
         {
           "id": "L16-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 16 journalism full-paper case: A preliminary observation in journalism was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Source reliability",
+          "text": "A history essay relies on a contemporary newspaper editorial about a labor strike. Which caveat would most strengthen its analysis?",
           "options": [
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism."
+            "An editorial is a firsthand text and therefore cannot be biased.",
+            "The editorial captures one contemporary perspective, whose claims should be checked against other records.",
+            "A newspaper written during an event is always less useful than a later novel.",
+            "Editorials never contain factual statements."
           ],
-          "correctIndex": 0,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 1,
+          "explanation": "Contemporaneity aids source relevance but does not guarantee neutrality; triangulation distinguishes viewpoint from verified fact.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L16-C02",
@@ -16075,18 +16075,18 @@
         {
           "id": "L17-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 17 engineering full-paper case: A preliminary observation in engineering was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Data presentation",
+          "text": "A chart begins its vertical axis at 95 rather than zero, making a rise from 96 to 99 look dramatic. Which caption best prevents misinterpretation?",
           "options": [
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible."
+            "The chart proves that the value tripled.",
+            "The change is too small to discuss in any context.",
+            "The axis is truncated; the numerical increase is three units, not a threefold increase.",
+            "The high baseline means every observation is invalid."
           ],
-          "correctIndex": 1,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 2,
+          "explanation": "A truncated axis can magnify visual differences; the caption should state the actual three-unit change without denying relevance.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L17-C02",
@@ -17038,18 +17038,18 @@
         {
           "id": "L18-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 18 environmental law full-paper case: A preliminary observation in environmental law was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Scientific uncertainty",
+          "text": "Researchers measured air quality for three winter weeks and announced that the city had permanently reduced pollution. What is the central error?",
           "options": [
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere."
+            "A short seasonal interval cannot establish a permanent citywide trend without longer, comparable observations.",
+            "Winter measurements are never representative of any condition.",
+            "Pollution can only be measured during summer.",
+            "All pollution reductions must be caused by weather."
           ],
-          "correctIndex": 2,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 0,
+          "explanation": "The inference extends a brief, season-specific sample into an unsupported permanent trend.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L18-C02",
@@ -18001,18 +18001,18 @@
         {
           "id": "L19-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 19 psychology full-paper case: A preliminary observation in psychology was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Ethical argument",
+          "text": "A university wants to publish survey data but risks exposing respondents because the sample is small. Which revision offers a defensible balance?",
           "options": [
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism.",
-            "The evidence is encouraging, but different settings should be tested before generalizing."
+            "Publish every response because transparency always overrides privacy.",
+            "Release only aggregate results with protective thresholds and explain the resulting limits on analysis.",
+            "Suppress all findings without explaining why.",
+            "Publish names but omit the survey questions."
           ],
-          "correctIndex": 3,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 1,
+          "explanation": "Aggregating and withholding potentially identifying small cells can protect confidentiality while communicating useful findings and their limitations.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L19-C02",
@@ -18964,18 +18964,18 @@
         {
           "id": "L20-C01",
           "group": "composition",
-          "skill": "Causal qualification",
-          "text": "In the day 20 urban history full-paper case: A preliminary observation in urban history was positive. Which conclusion is appropriately calibrated?",
+          "skill": "Interpretation and tone",
+          "text": "A review calls a proposal 'ingenious, though not yet persuasive.' Which summary most accurately represents the writer's judgment?",
           "options": [
-            "The evidence is encouraging, but different settings should be tested before generalizing.",
-            "The observation proves the technique works everywhere.",
-            "All alternative explanations are now impossible.",
-            "One positive result demonstrates a permanent causal mechanism."
+            "The writer rejects the proposal as unimaginative.",
+            "The writer regards the proposal as already proven.",
+            "The writer appreciates its creativity but finds its case insufficiently supported.",
+            "The writer withholds every evaluation of its merits."
           ],
-          "correctIndex": 0,
-          "explanation": "A preliminary observation supports a provisional inference rather than a universal conclusion.",
+          "correctIndex": 2,
+          "explanation": "The concession praises originality while the qualification denies that the argument has yet succeeded.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L20-C02",
