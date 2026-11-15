@@ -67,18 +67,18 @@ for(const paper of data.tests){
   assert.ok(passage.questions.every(q=>q.editorialStatus==='authentic-passage-specific-questions-review-pending'),'Incorrect question metadata '+passage.id);
  }
 }
-assert.ok(attributed>=17,'Expected sourced Reading passages throughout Days 4–20');
-assert.ok(data.tests.slice(3).every(p=>p.passages.some(x=>x.source)),'Every Reading day 4–20 should have an authentic passage');
+assert.ok(attributed>=21,'Expected at least 21 sourced Reading passages across the learning program');
+assert.ok(data.tests.every(p=>p.passages.some(x=>x.source)),'Every Reading day 1–20 should have an authentic passage');
 console.log('PASS: '+attributed+' sourced authentic timed passages, complete source metadata, and no Gutenberg license content.');
 
-const authoredPassages=[...data.tests[1].passages,...data.tests[2].passages];
+const authoredPassages=data.tests.slice(0,3).flatMap(p=>p.passages);
 for(const p of authoredPassages){
  const count=p.text.trim().split(/\s+/).length;
- assert.ok(count>=350,'Day 2–3 authored passage is too short: '+p.id+' has '+count+' words');
- assert.equal(new Set(p.questions.map(q=>q.type)).size,10,'Day 2–3 analytical question types should be distinct: '+p.id);
- assert.ok(p.questions.every(q=>q.editorialStatus==='individually-authored-editorial-review-pending'),'Day 2–3 authored passages must keep editorial-review metadata: '+p.id);
+ assert.ok(count>=350,'Day 1–3 passage is too short: '+p.id+' has '+count+' words');
+ assert.equal(new Set(p.questions.map(q=>q.type)).size,10,'Day 1–3 analytical question types should be distinct: '+p.id);
+ assert.ok(p.questions.every(q=>/^(?:authentic-passage-specific-questions-review-pending|individually-authored-editorial-review-pending|authored-review-pending)$/.test(q.editorialStatus||'')),'Day 1–3 questions must retain editorial status metadata: '+p.id);
 }
-console.log('PASS: All eight Day 2–3 passages reach the 350-word floor and include 80 individually authored analytical questions.');
+console.log('PASS: All 12 Day 1–3 passages meet the 350-word target and include 120 passage-specific questions.');
 assert.equal(legacy.vocabularyQuestions.length,22);
 assert.equal(new Set(legacy.vocabularyQuestions.map(x=>x.targetWord.toLowerCase())).size,22);
 console.log('PASS: 20 Reading papers, 80 passages, 1240 test questions, 300 guided questions and 440 unique full-test vocabulary targets.');
