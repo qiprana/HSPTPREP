@@ -8858,9 +8858,9 @@
         },
         {
           "id": "R09-P3",
-          "title": "The Quiet Partner",
-          "genre": "narrative",
-          "text": "Ava assumed her science partner was uninterested because he rarely spoke during planning. As the project deadline approached, she worried she would need to complete all the work. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nShe asked him to explain the notes he had been making during their experiments. His notebook contained careful observations that neither student had included in the draft report. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their resilient approach involved examining the available information before making the next decision.\n\nHe still preferred writing to speaking and did not enjoy presenting to the class. They divided the final presentation so each could contribute effectively. Participation can take different forms, and assumptions can hide useful strengths. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "H. G. Wells — Escape from the Morlocks",
+          "genre": "literature",
+          "text": "'In a moment I was clutched by several hands, and there was no mistaking that they were trying to haul me back. I struck another light, and waved it in their dazzled faces. You can scarce imagine how nauseatingly inhuman they looked--those pale, chinless faces and great, lidless, pinkish-grey eyes!--as they stared in their blindness and bewilderment. But I did not stay to look, I promise you: I retreated again, and when my second match had ended, I struck my third. It had almost burned through when I reached the opening into the shaft. I lay down on the edge, for the throb of the great pump below made me giddy. Then I felt sideways for the projecting hooks, and, as I did so, my feet were grasped from behind, and I was violently tugged backward. I lit my last match ... and it incontinently went out. But I had my hand on the climbing bars now, and, kicking violently, I disengaged myself from the clutches of the Morlocks and was speedily clambering up the shaft, while they stayed peering and blinking up at me: all but one little wretch who followed me for some way, and well-nigh secured my boot as a trophy.\n\n'That climb seemed interminable to me. With the last twenty or thirty feet of it a deadly nausea came upon me. I had the greatest difficulty in keeping my hold. The last few yards was a frightful struggle against this faintness. Several times my head swam, and I felt all the sensations of falling. At last, however, I got over the well-mouth somehow, and staggered out of the ruin into the blinding sunlight. I fell upon my face. Even the soil smelt sweet and clean. Then I remember Weena kissing my hands and ears, and the voices of others among the Eloi. Then, for a time, I was insensible.\n\n'Now, indeed, I seemed in a worse case than before. Hitherto, except during my night's anguish at the loss of the Time Machine, I had felt a sustaining hope of ultimate escape, but that hope was staggered by these new discoveries. Hitherto I had merely thought myself impeded by the childish simplicity of the little people, and by some unknown forces which I had only to understand to overcome; but there was an altogether new element in the sickening quality of the Morlocks--a something inhuman and malign. Instinctively I loathed them. Before, I had felt as a man might feel who had fallen into a pit: my concern was with the pit and how to get out of it. Now I felt like a beast in a trap, whose enemy would come upon him soon.",
           "term": [
             "resilient",
             "able to recover",
@@ -8871,165 +8871,184 @@
           "questions": [
             {
               "id": "R09-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Quiet Partner\"?",
+              "type": "Narrative pacing",
+              "prompt": "What is the chief effect of the repeated references to matches burning out?",
               "choices": [
-                "The recorded outcome (“His notebook contained careful observations that neither…”) is treated as unrelated to the original investigation.",
-                "The concern (“As the project deadline approached, she worried she would…”) leads to inquiry, but “He still preferred writing to speaking and did not enjoy…” limits the inference.",
-                "The proposed response (“They divided the final presentation so each could…”) makes the original concern irrelevant.",
-                "The method (“She asked him to explain the notes he had been making…”) rules out every possible competing explanation."
+                "They give an exact chronological measurement of the entire journey.",
+                "They explain why the narrator prefers artificial light to sunshine.",
+                "They create a diminishing resource that intensifies the urgency of the escape.",
+                "They show that the Morlocks are completely unable to perceive light."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification He still preferred writing to speaking and did not enjoy presenting to the class. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The matches provide brief opportunities to see and defend himself. Their rapid exhaustion makes each action more precarious, while the text does not establish that all Morlocks are incapable of seeing light.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Quiet Partner\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Sensory contrast",
+              "prompt": "Why does the narrator describe the soil as sweet and clean after reaching the surface?",
               "choices": [
-                "His notebook contained careful observations that neither student had included in the draft report.",
-                "They divided the final presentation so each could contribute effectively.",
-                "As the project deadline approached, she worried she would need to complete all the work.",
-                "She asked him to explain the notes he had been making during their experiments."
+                "The sensory relief emphasizes the contrast between the oppressive shaft and the apparent safety aboveground.",
+                "The detail proves that the soil was chemically different from that in the shaft.",
+                "The smell reminds him of his original laboratory.",
+                "The narrator is comparing two farming methods."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: As the project deadline approached, she worried she would need to complete all the work. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The description occurs just after the claustrophobic struggle and blinding sunlight, conveying bodily relief, not a scientific finding about the soil.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Quiet Partner\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Narrator perspective",
+              "prompt": "What does the narrator's admission of faintness contribute to the reliability of his account?",
               "choices": [
-                "As the project deadline approached, she worried she would need to complete all the work.",
-                "His notebook contained careful observations that neither student had included in the draft report.",
-                "He still preferred writing to speaking and did not enjoy presenting to the class.",
-                "She asked him to explain the notes he had been making during their experiments."
+                "It ensures that every observed event is objectively verified.",
+                "It makes him omniscient about the Morlocks' motives.",
+                "It demonstrates that he deliberately fabricated the encounter.",
+                "It reveals a limitation in perception while making his physical vulnerability vivid."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: She asked him to explain the notes he had been making during their experiments. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "He reports nausea, dizziness and eventual unconsciousness. Those details ground the account emotionally while signaling that his observations occurred under extreme strain.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Quiet Partner\", rather than a procedure, caution, or policy response?",
+              "type": "Figurative reasoning",
+              "prompt": "What is the key change between the narrator's earlier 'pit' analogy and his later 'beast in a trap' analogy?",
               "choices": [
-                "His notebook contained careful observations that neither student had included in the draft report.",
-                "She asked him to explain the notes he had been making during their experiments.",
-                "He still preferred writing to speaking and did not enjoy presenting to the class.",
-                "They divided the final presentation so each could contribute effectively."
+                "The threat moves from a difficult environment to an environment containing an active pursuer.",
+                "His earlier situation involved animals whereas the later one involves machines.",
+                "The images show that he has reached an objectively safer location.",
+                "He concludes that physical escape is impossible in any circumstance."
               ],
               "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: His notebook contained careful observations that neither student had included in the draft report. The other statements describe different stages of the inquiry.",
+              "explanation": "A pit suggests an obstacle to escape; a trap with an approaching enemy adds intentional or predatory danger. The passage marks this as a shift in his interpretation.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Quiet Partner\" from being generalized beyond the available evidence?",
+              "type": "Characterization",
+              "prompt": "Which conclusion is most justified by his description of the Morlocks as 'inhuman and malign'?",
               "choices": [
-                "They divided the final presentation so each could contribute effectively.",
-                "He still preferred writing to speaking and did not enjoy presenting to the class.",
-                "His notebook contained careful observations that neither student had included in the draft report.",
-                "She asked him to explain the notes he had been making during their experiments."
+                "The Morlocks have been independently shown to possess an unchanging moral nature.",
+                "His recent attack leads him to perceive them as active enemies rather than merely puzzling inhabitants.",
+                "The Morlocks were previously described as members of the Eloi.",
+                "The narrator has gained a complete understanding of their social institutions."
               ],
               "correctIndex": 1,
-              "explanation": "The limitation is: He still preferred writing to speaking and did not enjoy presenting to the class. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "His assessment follows the assault and reflects his frightened, limited viewpoint. The passage does not prove a comprehensive judgment about all Morlocks.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Quiet Partner\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Structure",
+              "prompt": "Why does the passage move from the immediate climbing episode to reflection on earlier hopes?",
               "choices": [
-                "She asked him to explain the notes he had been making during their experiments.",
-                "His notebook contained careful observations that neither student had included in the draft report.",
-                "They divided the final presentation so each could contribute effectively.",
-                "As the project deadline approached, she worried she would need to complete all the work."
+                "To interrupt the action with an unrelated scientific description.",
+                "To disclose the exact construction of the shaft.",
+                "To show how the incident changes the narrator's broader understanding of his predicament.",
+                "To establish that his physical injuries had already healed."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: They divided the final presentation so each could contribute effectively. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The closing paragraph reinterprets the situation from one of solvable mystery to the threat of pursuit, linking physical action with a psychological turning point.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Quiet Partner\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Inference",
+              "prompt": "Why does the narrator strike matches in the Morlocks' faces?",
               "choices": [
-                "Initial concern: “As the project deadline approached, she worried she would…”; method: “He still preferred writing to speaking and did not enjoy…”.",
-                "Initial concern: “His notebook contained careful observations that neither…”; method: “They divided the final presentation so each could…”.",
-                "Initial concern: “She asked him to explain the notes he had been making…”; method: “His notebook contained careful observations that neither…”.",
-                "Initial concern: “As the project deadline approached, she worried she would…”; method: “She asked him to explain the notes he had been making…”."
+                "He hopes the sudden light will disorient his attackers long enough to escape.",
+                "He seeks to identify the exact number of people in the underground space.",
+                "He is attempting to signal the Eloi on the surface.",
+                "He needs to test whether the shaft contains water."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with As the project deadline approached, she worried she would need to complete all the work. and the subsequent investigative procedure is She asked him to explain the notes he had been making during their experiments..",
+              "correctIndex": 0,
+              "explanation": "The light dazzles the Morlocks and buys moments for retreat; the action functions as defensive improvisation amid limited visibility.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Quiet Partner\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Symbolic contrast",
+              "prompt": "What interpretive contrast is created between the Morlocks' underground setting and the Eloi's voices above?",
               "choices": [
-                "The observation (“His notebook contained careful observations that neither…”) matters, but the limit (“He still preferred writing to speaking and did not enjoy…”) remains.",
-                "The observation (“His notebook contained careful observations that neither…”) rules out every alternative cause.",
-                "The limitation (“He still preferred writing to speaking and did not enjoy…”) disproves the observation itself.",
-                "The method (“She asked him to explain the notes he had been making…”) guarantees the result before measurement."
+                "Both environments appear equally welcoming and secure.",
+                "The distinction establishes that darkness is always morally inferior to daylight.",
+                "The contrast proves that the Eloi engineered the underground machines.",
+                "The surface offers immediate relief and familiar contact while the depths become associated with predatory fear."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as His notebook contained careful observations that neither student had included in the draft report. but must be read alongside He still preferred writing to speaking and did not enjoy presenting to the class..",
+              "correctIndex": 3,
+              "explanation": "The narrative juxtaposes the violent hands and darkness below with sunlight, fresh earth, Weena and Eloi voices. The mood difference remains a feature of the narrator's perspective.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Quiet Partner\" relate to the strength and limits of the earlier observations?",
+              "type": "Interpretation",
+              "prompt": "Which statement best characterizes the narrator's confidence after the escape?",
               "choices": [
-                "The observation (“His notebook contained careful observations that neither…”) shows that measurement was unnecessary.",
-                "The response (“They divided the final presentation so each could…”) follows evidence but remains open to reassessment.",
-                "The response (“They divided the final presentation so each could…”) is proof of success in every setting.",
-                "The caveat (“He still preferred writing to speaking and did not enjoy…”) makes the observations worthless."
+                "He believes all obstacles are now minor technical inconveniences.",
+                "His hope is shaken because he now imagines an enemy whose intentions he cannot predict.",
+                "He concludes that the Morlocks will never come aboveground.",
+                "He no longer wants to recover the Time Machine."
               ],
               "correctIndex": 1,
-              "explanation": "The findings informed They divided the final presentation so each could contribute effectively.; the stated limit He still preferred writing to speaking and did not enjoy presenting to the class. still matters.",
+              "explanation": "He explicitly says the hope of ultimate escape is 'staggered' and contrasts earlier obstacles with an actively threatening antagonist.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             },
             {
               "id": "R09-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Quiet Partner\" without ignoring its stated limitation?",
+              "type": "Theme",
+              "prompt": "What larger idea does the excerpt most strongly explore?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“She asked him to explain the notes he had been making…”) while testing the concern (“He still preferred writing to speaking and did not enjoy…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Scientific technology is always less reliable than instinct.",
+                "The future cannot contain any social organization.",
+                "New evidence can transform an unfamiliar place from a puzzle to solve into a threat to survive.",
+                "A dangerous journey is worthwhile only if no one follows the traveler."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, He still preferred writing to speaking and did not enjoy presenting to the class., while comparing evidence from the original method, She asked him to explain the notes he had been making during their experiments..",
+              "explanation": "The altered metaphors and new fear of the Morlocks show how experience reshapes the narrator's explanation of his world and the stakes of action.",
               "passageId": "R09-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — underground escape and change in perceived danger"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Time Machine",
+            "author": "H. G. Wells",
+            "year": 1895,
+            "url": "https://www.gutenberg.org/ebooks/35",
+            "rights": "Public domain in United States",
+            "start": "'In a moment I was clutched by several hands, and there was no mistaking that they were trying ",
+            "end": " how to get out of it. Now I felt like a beast in a trap, whose enemy would come upon him soon."
+          }
         },
         {
           "id": "R09-P4",
