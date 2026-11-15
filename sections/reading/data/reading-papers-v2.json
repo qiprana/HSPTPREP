@@ -6942,7 +6942,7 @@
           "id": "R07-P4",
           "title": "The Empty Lot Survey",
           "genre": "community",
-          "text": "A town asked residents what should be built on a vacant lot near a bus stop. Early discussions were dominated by people who could attend evening meetings. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nOrganizers collected paper responses at the library and visited nearby shops at different hours. The broader survey revealed strong interest in benches, trees and a small play area. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their precise approach involved examining the available information before making the next decision.\n\nNot every resident responded, and some wishes conflicted with the available space. Planners used the results to propose a modest design with room for future changes. Public planning improves when participation extends beyond those who speak first or loudest. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "A vacant lot beside the town's busiest bus stop had once held a small grocery store. After the building was demolished, officials suggested transforming the site into a public square. The first public meeting drew a standing-room-only crowd, and most speakers urged the council to build a landscaped garden. Newspaper coverage described an unmistakable community preference, but the transportation committee noted that the meeting began at seven in the evening and took place several kilometers from the bus stop.\n\nThe committee distributed questionnaires at the bus stop during the morning commute, at a nearby senior center in the afternoon, and online. Those samples revealed different priorities. Morning riders wanted sheltered seating and safer crossings; older residents mentioned level walkways and accessible restrooms; online respondents favored green space and public art. Yet the surveys were not random. People with unusually strong opinions might have been more likely to participate, and residents who never used the bus stop were poorly represented.\n\nOne council member argued that because the evening meeting had attracted the largest audience, the garden proposal had democratic legitimacy. Another insisted that the bus-stop survey should determine the outcome because transit riders would see the lot most often. The committee rejected the assumption that either one group could speak for the whole town. It also distinguished frequency of use from the intensity of need: someone who visited only twice a week might still depend on a safe, accessible route more than a daily commuter depended on decorative landscaping.\n\nThe planning team presented three designs with estimated maintenance costs. A landscaped garden offered shade but would require regular watering. An open paved plaza could accommodate markets but would become uncomfortably hot in summer. A hybrid design included trees, a shaded bench, a level passage to the bus stop, and a modest paved area. The team emphasized that none of the proposals eliminated trade-offs; choosing the hybrid would require reducing the amount of lawn and forgoing the larger market stage.\n\nBefore voting, the council arranged a temporary weekend installation with movable benches and a painted pedestrian path. It invited feedback from both users and nearby businesses while monitoring how people actually moved through the site. The trial could not predict how mature trees would shade the space years later, and weekend behavior could differ from weekday commuting. Still, it supplied evidence about circulation and accessibility that opinions alone could not. The final plan remained provisional, reflecting a view of public participation not as counting the loudest voices, but as understanding whom a design serves and what competing needs it must reconcile.",
           "term": [
             "precise",
             "exact",
@@ -6953,163 +6953,163 @@
           "questions": [
             {
               "id": "R07-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Empty Lot Survey\"?",
+              "type": "Sampling inference",
+              "prompt": "Why does the committee challenge the newspaper's claim that the meeting revealed a clear townwide preference?",
               "choices": [
-                "The concern (“Early discussions were dominated by people who could…”) leads to inquiry, but “Not every resident responded, and some wishes conflicted…” limits the inference.",
-                "The proposed response (“Planners used the results to propose a modest design with…”) makes the original concern irrelevant.",
-                "The method (“Organizers collected paper responses at the library and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The broader survey revealed strong interest in benches,…”) is treated as unrelated to the original investigation."
+                "The meeting excluded all residents who used buses.",
+                "The proposal was illegal because it included a garden.",
+                "The meeting's timing and location may have influenced which residents attended.",
+                "The council had already formally approved a public market."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Not every resident responded, and some wishes conflicted with the available space. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "Attendance at one evening meeting is a convenience sample with access constraints. A strong preference among attendees need not represent the whole town.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Empty Lot Survey\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Comparative evidence",
+              "prompt": "What is the most reasonable interpretation of the three later surveys?",
               "choices": [
-                "Organizers collected paper responses at the library and visited nearby shops at different hours.",
-                "The broader survey revealed strong interest in benches, trees and a small play area.",
-                "Planners used the results to propose a modest design with room for future changes.",
-                "Early discussions were dominated by people who could attend evening meetings."
+                "Different groups articulate different needs, but the survey design still limits generalization.",
+                "Every resident changes preferences depending on the time of day.",
+                "Online responses always provide the most reliable sample.",
+                "The three groups reached a unanimous agreement about landscaping."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: Early discussions were dominated by people who could attend evening meetings. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The surveys broaden perspectives and reveal varied priorities, but voluntary nonrandom participation leaves selection bias unresolved.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Empty Lot Survey\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Ethical reasoning",
+              "prompt": "Why is frequency of use an incomplete basis for prioritizing the lot's design?",
               "choices": [
-                "Organizers collected paper responses at the library and visited nearby shops at different hours.",
-                "Early discussions were dominated by people who could attend evening meetings.",
-                "The broader survey revealed strong interest in benches, trees and a small play area.",
-                "Not every resident responded, and some wishes conflicted with the available space."
+                "Frequency cannot be counted accurately by planners.",
+                "Some less-frequent users may face more serious accessibility needs than routine visitors.",
+                "Daily commuters have no legitimate interest in public space.",
+                "Maintenance costs never depend on patterns of use."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Organizers collected paper responses at the library and visited nearby shops at different hours. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The committee explicitly separates how often people visit from how consequential access can be for them. Frequency alone misses severity of need.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Empty Lot Survey\", rather than a procedure, caution, or policy response?",
+              "type": "Argument critique",
+              "prompt": "What questionable assumption underlies both council members' competing claims?",
               "choices": [
-                "Planners used the results to propose a modest design with room for future changes.",
-                "The broader survey revealed strong interest in benches, trees and a small play area.",
-                "Organizers collected paper responses at the library and visited nearby shops at different hours.",
-                "Not every resident responded, and some wishes conflicted with the available space."
+                "The site cannot contain any trees.",
+                "All participants favored the same design.",
+                "A single surveyed group's interests may be treated as decisive for everyone.",
+                "The design must be completed without a public vote."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The broader survey revealed strong interest in benches, trees and a small play area. The other statements describe different stages of the inquiry.",
+              "correctIndex": 2,
+              "explanation": "One member treats the largest meeting as authoritative; the other elevates frequent bus users. Both mistake a relevant subgroup for the entire affected population.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Empty Lot Survey\" from being generalized beyond the available evidence?",
+              "type": "Trade-offs",
+              "prompt": "Why is the hybrid design not presented as a perfect compromise?",
               "choices": [
-                "Organizers collected paper responses at the library and visited nearby shops at different hours.",
-                "Planners used the results to propose a modest design with room for future changes.",
-                "Not every resident responded, and some wishes conflicted with the available space.",
-                "The broader survey revealed strong interest in benches, trees and a small play area."
+                "It offers no improvements to accessibility.",
+                "It includes no maintenance obligations.",
+                "It eliminates all uses of the area other than recreation.",
+                "It combines several priorities but sacrifices a larger lawn and market stage."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Not every resident responded, and some wishes conflicted with the available space. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "The passage describes opportunity costs even in the hybrid option. That reinforces the need to make trade-offs explicit rather than claim universal satisfaction.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Empty Lot Survey\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Policy method",
+              "prompt": "What can the temporary installation establish more reliably than questionnaires alone?",
               "choices": [
-                "Early discussions were dominated by people who could attend evening meetings.",
-                "Organizers collected paper responses at the library and visited nearby shops at different hours.",
-                "The broader survey revealed strong interest in benches, trees and a small play area.",
-                "Planners used the results to propose a modest design with room for future changes."
+                "How people navigate the proposed walkways and use movable seating during the trial.",
+                "The exact shade provided by fully mature trees decades later.",
+                "The long-term annual cost of maintaining a permanent building.",
+                "The town's preferences in every season and circumstance."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: Planners used the results to propose a modest design with room for future changes. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "Observed movement and use give behavioral evidence, whereas later tree shade and seasonal use remain outside a weekend pilot's reach.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Empty Lot Survey\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Limitation",
+              "prompt": "Which inference would go beyond the pilot's stated limitations?",
               "choices": [
-                "Initial concern: “Early discussions were dominated by people who could…”; method: “Organizers collected paper responses at the library and…”.",
-                "Initial concern: “Early discussions were dominated by people who could…”; method: “Not every resident responded, and some wishes conflicted…”.",
-                "Initial concern: “The broader survey revealed strong interest in benches,…”; method: “Planners used the results to propose a modest design with…”.",
-                "Initial concern: “Organizers collected paper responses at the library and…”; method: “The broader survey revealed strong interest in benches,…”."
+                "The painted path may help reveal pedestrian behavior.",
+                "Weekend visitors and weekday commuters may use the lot differently.",
+                "The weekend trial proves that the proposed space will work equally well during every weekday rush hour.",
+                "Trial observations can supplement stated preferences."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with Early discussions were dominated by people who could attend evening meetings. and the subsequent investigative procedure is Organizers collected paper responses at the library and visited nearby shops at different hours..",
+              "correctIndex": 2,
+              "explanation": "Weekend observations do not establish weekday rush-hour performance. The passage explicitly warns that behavior may differ.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Empty Lot Survey\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Organization",
+              "prompt": "What role do the three design alternatives play after the account of public consultation?",
               "choices": [
-                "The method (“Organizers collected paper responses at the library and…”) guarantees the result before measurement.",
-                "The observation (“The broader survey revealed strong interest in benches,…”) matters, but the limit (“Not every resident responded, and some wishes conflicted…”) remains.",
-                "The observation (“The broader survey revealed strong interest in benches,…”) rules out every alternative cause.",
-                "The limitation (“Not every resident responded, and some wishes conflicted…”) disproves the observation itself."
+                "They replace the need to consider respondents' needs.",
+                "They translate competing preferences into concrete choices with measurable costs and sacrifices.",
+                "They show that the original garden advocates were dishonest.",
+                "They prove that public art has no value."
               ],
               "correctIndex": 1,
-              "explanation": "The result is reported as The broader survey revealed strong interest in benches, trees and a small play area. but must be read alongside Not every resident responded, and some wishes conflicted with the available space..",
+              "explanation": "The alternatives make the costs and compromises of each design visible, enabling reasoned evaluation beyond a popularity contest.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Empty Lot Survey\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "Which combination best reflects the committee's approach to deciding how the space should be used?",
               "choices": [
-                "The caveat (“Not every resident responded, and some wishes conflicted…”) makes the observations worthless.",
-                "The observation (“The broader survey revealed strong interest in benches,…”) shows that measurement was unnecessary.",
-                "The response (“Planners used the results to propose a modest design with…”) follows evidence but remains open to reassessment.",
-                "The response (“Planners used the results to propose a modest design with…”) is proof of success in every setting."
+                "One public meeting and the largest number of signatures.",
+                "Only the preferences of residents who never visit the area.",
+                "Reported needs from varied groups, accessibility concerns, projected costs, and observed use.",
+                "The design preferred by the most recent newspaper editorial."
               ],
               "correctIndex": 2,
-              "explanation": "The findings informed Planners used the results to propose a modest design with room for future changes.; the stated limit Not every resident responded, and some wishes conflicted with the available space. still matters.",
+              "explanation": "The committee broadens input, recognizes unequal needs, considers maintenance and tests movement. Each source supplies evidence without being treated as decisive alone.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Empty Lot Survey\" without ignoring its stated limitation?",
+              "type": "Main argument",
+              "prompt": "Which claim best summarizes the passage's account of democratic planning?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Organizers collected paper responses at the library and…”) while testing the concern (“Not every resident responded, and some wishes conflicted…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Public input should identify and reconcile affected groups' competing needs rather than simply reward the most visible participants.",
+                "The largest meeting is always the most representative.",
+                "Any design requiring compromises should be rejected.",
+                "Professional expertise should replace all community consultation."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, Not every resident responded, and some wishes conflicted with the available space., while comparing evidence from the original method, Organizers collected paper responses at the library and visited nearby shops at different hours..",
+              "correctIndex": 0,
+              "explanation": "The final paragraph rejects counting the loudest voices as the sole decision rule. Planning combines inclusive consultation with evidence and explicit trade-offs.",
               "passageId": "R07-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         }
