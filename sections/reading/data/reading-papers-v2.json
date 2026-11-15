@@ -1533,7 +1533,7 @@
           "id": "R02-P4",
           "title": "The Shared Workshop",
           "genre": "community",
-          "text": "A public library began lending small tools and providing a shared workspace for simple repairs. Some residents could not afford equipment they needed only once or twice. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nStaff surveyed neighbors and introduced short safety demonstrations before each loan. The workshop recorded more reservations for sewing machines and bicycle tools than for other items. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their precise approach involved examining the available information before making the next decision.\n\nThe first survey represented only library visitors, not every resident. The library expanded cautiously and asked new borrowers for feedback. Shared resources may widen access when organizers pay attention to safety and local needs. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "When the East Branch Library proposed lending tools, the directors described the service as an extension of their mission to share knowledge. A drill, like a book, might be needed intensely for a brief time and then sit unused for months. But the analogy had limits: a damaged book could usually be replaced without injury to its borrower, whereas a poorly maintained power tool could cause physical harm. The directors therefore resisted a proposal to make every donated tool available immediately.\n\nA volunteer committee surveyed visitors about the items they would borrow. Sewing machines and bicycle-repair equipment ranked ahead of woodworking tools. The librarian responsible for the project cautioned that the survey described library visitors, not necessarily residents who lacked transportation, reliable internet access, or confidence entering the building. If demand was measured only among existing patrons, the library might reinforce rather than remedy unequal access. A smaller survey at a neighborhood food pantry produced greater interest in hand tools, although that sample, too, was limited.\n\nThe directors began with a six-month pilot. Staff inspected every item, documented common repairs, and required short demonstrations for equipment with moving parts. Borrowers could reserve tools online or by telephone. Instead of interpreting reservations as an exact measure of social benefit, staff tracked cancellations, waiting times, damaged equipment, and whether borrowers had completed their projects. The first month showed high reservation numbers but also a substantial waiting list for the two sewing machines. Some residents reserved equipment because no other borrowing option existed; others found that the introductory sessions took longer than expected.\n\nA trustee argued that demand alone justified buying ten additional machines. A second trustee favored closing the program after a donated drill failed an inspection. The librarian treated both recommendations as premature. Buying many machines before studying the actual use of existing ones might leave expensive equipment idle; a failed inspection, on the other hand, showed why safety checks were necessary, not necessarily why lending should end. The committee purchased one additional sewing machine, revised the repair schedule, and tested evening demonstrations to accommodate people who worked during library hours.\n\nBy the pilot's end, reservations had increased, but the directors still could not say that every neighborhood benefited equally. They agreed to continue collecting information from nonusers and borrowers alike. The project had shown that wider access depends on more than ownership of shared objects. A responsible public service has to account for safety, opportunity costs, patterns of exclusion, and the limits of its own evidence.",
           "term": [
             "precise",
             "exact",
@@ -1544,163 +1544,163 @@
           "questions": [
             {
               "id": "R02-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Shared Workshop\"?",
+              "type": "Analogy",
+              "prompt": "What is the central limitation of comparing a borrowed tool with a borrowed book?",
               "choices": [
-                "The recorded outcome (“The workshop recorded more reservations for sewing…”) is treated as unrelated to the original investigation.",
-                "The concern (“Some residents could not afford equipment they needed…”) leads to inquiry, but “The first survey represented only library visitors, not…” limits the inference.",
-                "The proposed response (“The library expanded cautiously and asked new borrowers…”) makes the original concern irrelevant.",
-                "The method (“Staff surveyed neighbors and introduced short safety…”) rules out every possible competing explanation."
+                "Tools may introduce injury risks that require precautions beyond ordinary circulation rules.",
+                "Books are more expensive to replace than mechanical equipment.",
+                "Libraries never lend objects unless they are educational materials.",
+                "Borrowers rarely need tools for more than a single day."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The first survey represented only library visitors, not every resident. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The opening acknowledges short-term shared use as a parallel, then distinguishes potential physical harm. Cost or rigid institutional rules are not the identified limitation.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Shared Workshop\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Sampling",
+              "prompt": "Why does the librarian question the first visitor survey?",
               "choices": [
-                "Some residents could not afford equipment they needed only once or twice.",
-                "Staff surveyed neighbors and introduced short safety demonstrations before each loan.",
-                "The workshop recorded more reservations for sewing machines and bicycle tools than for other items.",
-                "The library expanded cautiously and asked new borrowers for feedback."
+                "The survey was conducted after all tools had already been purchased.",
+                "Visitors may not represent people facing the greatest barriers to library access.",
+                "The survey omitted the precise number of donated drills.",
+                "Survey respondents were instructed to request sewing machines."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Some residents could not afford equipment they needed only once or twice. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "Existing patrons can underrepresent residents constrained by transport or familiarity with the library. The problem is sampling coverage, not fabrication.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Shared Workshop\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Inference",
+              "prompt": "How should the different interests found at the library and food pantry most reasonably be interpreted?",
               "choices": [
-                "The first survey represented only library visitors, not every resident.",
-                "Staff surveyed neighbors and introduced short safety demonstrations before each loan.",
-                "Some residents could not afford equipment they needed only once or twice.",
-                "The workshop recorded more reservations for sewing machines and bicycle tools than for other items."
+                "The food pantry sample proves that hand tools are universally preferred.",
+                "One survey must be discarded because its results differ from the other.",
+                "Different recruitment settings may reveal different needs, though neither sample alone represents the whole community.",
+                "Libraries should discontinue sewing-machine loans immediately."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Staff surveyed neighbors and introduced short safety demonstrations before each loan. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The two samples expose possible variation across populations while remaining limited. Any citywide ranking would require more representative sampling.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Shared Workshop\", rather than a procedure, caution, or policy response?",
+              "type": "Measurement",
+              "prompt": "Why do staff monitor project completion as well as reservations?",
               "choices": [
-                "The first survey represented only library visitors, not every resident.",
-                "The library expanded cautiously and asked new borrowers for feedback.",
-                "The workshop recorded more reservations for sewing machines and bicycle tools than for other items.",
-                "Staff surveyed neighbors and introduced short safety demonstrations before each loan."
+                "Completed repairs can indicate practical benefit that a reservation count alone cannot establish.",
+                "Reservations are illegal unless each borrower submits photographs.",
+                "Waiting lists guarantee that every borrowed item is used successfully.",
+                "Project completion removes the need for safety checks."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: The workshop recorded more reservations for sewing machines and bicycle tools than for other items. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "A reservation expresses interest, not successful use. Project completion adds an outcome measure, without resolving every question of fairness or safety.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Shared Workshop\" from being generalized beyond the available evidence?",
+              "type": "Policy reasoning",
+              "prompt": "What makes the trustee's proposal to purchase ten sewing machines premature?",
               "choices": [
-                "The workshop recorded more reservations for sewing machines and bicycle tools than for other items.",
-                "Staff surveyed neighbors and introduced short safety demonstrations before each loan.",
-                "The library expanded cautiously and asked new borrowers for feedback.",
-                "The first survey represented only library visitors, not every resident."
+                "The original machines had never been reserved.",
+                "The waiting list identifies a possible shortage but does not yet show whether ten more would be used efficiently.",
+                "The library has no authority to spend funds on equipment.",
+                "Machine demand cannot change after a new demonstration schedule."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The first survey represented only library visitors, not every resident. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "High demand warrants investigation, yet the quantity and timing of purchases should reflect utilization and costs. The evidence does not justify the specific large expansion.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Shared Workshop\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Argument evaluation",
+              "prompt": "How does the failed drill inspection function in the disagreement over closing the pilot?",
               "choices": [
-                "The library expanded cautiously and asked new borrowers for feedback.",
-                "Some residents could not afford equipment they needed only once or twice.",
-                "Staff surveyed neighbors and introduced short safety demonstrations before each loan.",
-                "The workshop recorded more reservations for sewing machines and bicycle tools than for other items."
+                "It demonstrates that all donated tools are defective.",
+                "It proves the repair schedule has already eliminated every risk.",
+                "It is evidence supporting screening precautions, not by itself a decisive case against lending.",
+                "It shows that the first library visitor survey was biased."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The library expanded cautiously and asked new borrowers for feedback. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "A failure discovered through an inspection can show the safety process working. It cannot establish the overall risk-benefit balance of the program.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Shared Workshop\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Synthesis",
+              "prompt": "Which policy change most clearly combines responsiveness to demand with caution about costs?",
               "choices": [
-                "Initial concern: “Staff surveyed neighbors and introduced short safety…”; method: “The workshop recorded more reservations for sewing…”.",
-                "Initial concern: “Some residents could not afford equipment they needed…”; method: “Staff surveyed neighbors and introduced short safety…”.",
-                "Initial concern: “Some residents could not afford equipment they needed…”; method: “The first survey represented only library visitors, not…”.",
-                "Initial concern: “The workshop recorded more reservations for sewing…”; method: “The library expanded cautiously and asked new borrowers…”."
+                "Purchasing one more sewing machine while continuing to measure demand and utilization.",
+                "Acquiring ten machines solely because of the initial waiting list.",
+                "Canceling every reservation until a citywide census is completed.",
+                "Replacing safety demonstrations with a borrower signature."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Some residents could not afford equipment they needed only once or twice. and the subsequent investigative procedure is Staff surveyed neighbors and introduced short safety demonstrations before each loan..",
+              "correctIndex": 0,
+              "explanation": "The limited purchase responds to observed pressure while avoiding an untested large commitment. The remaining measures retain safeguards and further evidence.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Shared Workshop\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Equity",
+              "prompt": "Why is feedback from nonusers necessary to assess whether the service improves access?",
               "choices": [
-                "The limitation (“The first survey represented only library visitors, not…”) disproves the observation itself.",
-                "The method (“Staff surveyed neighbors and introduced short safety…”) guarantees the result before measurement.",
-                "The observation (“The workshop recorded more reservations for sewing…”) matters, but the limit (“The first survey represented only library visitors, not…”) remains.",
-                "The observation (“The workshop recorded more reservations for sewing…”) rules out every alternative cause."
+                "Nonusers can confirm that every machine has been inspected.",
+                "Nonusers will always demand more expensive equipment.",
+                "Only nonusers can accurately report machine maintenance costs.",
+                "People excluded by hours, transportation, or unfamiliarity may not appear in borrower records."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as The workshop recorded more reservations for sewing machines and bicycle tools than for other items. but must be read alongside The first survey represented only library visitors, not every resident..",
+              "correctIndex": 3,
+              "explanation": "Usage data omit people unable or unwilling to enter the service. Their experiences can identify barriers missed by surveys of current patrons.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Shared Workshop\" relate to the strength and limits of the earlier observations?",
+              "type": "Structural reasoning",
+              "prompt": "What role does the paragraph describing opposing trustees play?",
               "choices": [
-                "The response (“The library expanded cautiously and asked new borrowers…”) is proof of success in every setting.",
-                "The caveat (“The first survey represented only library visitors, not…”) makes the observations worthless.",
-                "The observation (“The workshop recorded more reservations for sewing…”) shows that measurement was unnecessary.",
-                "The response (“The library expanded cautiously and asked new borrowers…”) follows evidence but remains open to reassessment."
+                "It supplies an exact financial calculation for the entire pilot.",
+                "It tests two overconfident interpretations against the program's incomplete evidence.",
+                "It introduces the initial proposal to share books.",
+                "It establishes that surveying outside the library is unnecessary."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The library expanded cautiously and asked new borrowers for feedback.; the stated limit The first survey represented only library visitors, not every resident. still matters.",
+              "correctIndex": 1,
+              "explanation": "The proposals represent unqualified expansion and abandonment. The librarian's response demonstrates a more discriminating interpretation of demand and safety information.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R02-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Shared Workshop\" without ignoring its stated limitation?",
+              "type": "Main idea",
+              "prompt": "Which conclusion best reflects the passage's treatment of the library's mission?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Staff surveyed neighbors and introduced short safety…”) while testing the concern (“The first survey represented only library visitors, not…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Sharing equipment is valuable only when every household receives equal numbers of loans.",
+                "An increase in reservations proves that the service has met all community needs.",
+                "Effective sharing requires attention to safety, real outcomes, equitable access, and uncertainty.",
+                "Once donated goods are available, public institutions have no further responsibilities."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The first survey represented only library visitors, not every resident., while comparing evidence from the original method, Staff surveyed neighbors and introduced short safety demonstrations before each loan..",
+              "explanation": "The conclusion explicitly treats access as a public-service design problem, not simply distribution. The passage repeatedly emphasizes safeguards, outcome measures, and unrepresented groups.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         }
