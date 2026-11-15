@@ -11338,9 +11338,9 @@
       "passages": [
         {
           "id": "R12-P1",
-          "title": "Tracking a Snowpack",
-          "genre": "science",
-          "text": "A mountain science class studied how winter snow stores water that reaches streams months later. The local river rose in spring even when almost no rain fell in the valley. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nStudents measured snow depth at several elevations and compared it with downstream streamflow. Snow melted earlier at sunny lower sites than at shaded higher sites. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their constructive approach involved examining the available information before making the next decision.\n\nDepth alone did not reveal how much water each layer of snow contained. Their findings prompted the class to add snow-density measurements the following winter. Seasonal water supply can depend on stored precipitation far from the place where water is used. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wollstonecraft — Reason and Moral Education",
+          "genre": "historical philosophical argument",
+          "text": "Many of those children whose conduct has been most narrowly watched, become the weakest men, because their instructors only instill certain notions into their minds, that have no other foundation than their authority; and if they are loved or respected, the mind is cramped in its exertions and wavering in its advances. The business of education in this case, is only to conduct the shooting tendrils to a proper pole; yet after laying precept upon precept, without allowing a child to acquire judgment itself, parents expect them to act in the same manner by this borrowed fallacious light, as if they had illuminated it themselves; and be, when they enter life, what their parents are at the close. They do not consider that the tree, and even the human body, does not strengthen its fibres till it has reached its full growth.\n\nThere appears to be something analogous in the mind. The senses and the imagination give a form to the character, during childhood and youth; and the understanding as life advances, gives firmness to the first fair purposes of sensibility--till virtue, arising rather from the clear conviction of reason than the impulse of the heart, morality is made to rest on a rock against which the storms of passion vainly beat.\n\nI hope I shall not be misunderstood when I say, that religion will not have this condensing energy, unless it be founded on reason. If it be merely the refuge of weakness or wild fanaticism, and not a governing principle of conduct, drawn from self-knowledge, and a rational opinion respecting the attributes of God, what can it be expected to produce? The religion which consists in warming the affections, and exalting the imagination, is only the poetical part, and may afford the individual pleasure without rendering it a more moral being. It may be a substitute for worldly pursuits; yet narrow instead of enlarging the heart: but virtue must be loved as in itself sublime and excellent, and not for the advantages it procures or the evils it averts, if any great degree of excellence be expected. Men will not become moral when they only build airy castles in a future world to compensate for the disappointments which they meet with in this; if they turn their thoughts from relative duties to religious reveries.\n\nMost prospects in life are marred by the shuffling worldly wisdom of men, who, forgetting that they cannot serve God and mammon, endeavour to blend contradictory things. If you wish to make your son rich, pursue one course --if you are only anxious to make him virtuous, you must take another; but do not imagine that you can bound from one road to the other without losing your way.*\n\n(*Footnote. See an excellent essay on this subject by Mrs. Barbauld, in Miscellaneous pieces in Prose.)",
           "term": [
             "constructive",
             "helpful in improving something",
@@ -11351,165 +11351,186 @@
           "questions": [
             {
               "id": "R12-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Tracking a Snowpack\"?",
+              "type": "Educational critique",
+              "prompt": "What weakness does the author identify in instruction based solely on a teacher's authority?",
               "choices": [
-                "The concern (“The local river rose in spring even when almost no rain…”) leads to inquiry, but “Depth alone did not reveal how much water each layer of…” limits the inference.",
-                "The proposed response (“Their findings prompted the class to add snow-density…”) makes the original concern irrelevant.",
-                "The method (“Students measured snow depth at several elevations and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Snow melted earlier at sunny lower sites than at shaded…”) is treated as unrelated to the original investigation."
+                "Pupils may acquire borrowed rules without developing their own judgment.",
+                "Children learn too much independent reasoning.",
+                "Parents stop caring about their children's future.",
+                "The subject matter becomes too scientifically accurate."
               ],
               "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Depth alone did not reveal how much water each layer of snow contained. prevents an overly broad conclusion.",
+              "explanation": "Wollstonecraft criticizes notions founded only on authority and says children are not allowed to acquire judgment themselves.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Tracking a Snowpack\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Metaphor",
+              "prompt": "What is the function of comparing young minds to 'shooting tendrils'?",
               "choices": [
-                "Their findings prompted the class to add snow-density measurements the following winter.",
-                "The local river rose in spring even when almost no rain fell in the valley.",
-                "Students measured snow depth at several elevations and compared it with downstream streamflow.",
-                "Snow melted earlier at sunny lower sites than at shaded higher sites."
+                "To suggest children should avoid all guidance.",
+                "To prove learning is only biological development.",
+                "To portray guidance as potentially helpful but insufficient if independent strength is never developed.",
+                "To claim that children's behavior should never change."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: The local river rose in spring even when almost no rain fell in the valley. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The plant image is paired with a critique of imposed precepts, suggesting guidance must permit later independent growth.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Tracking a Snowpack\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Developmental reasoning",
+              "prompt": "How does the writer distinguish early sensibility from mature moral understanding?",
               "choices": [
-                "Snow melted earlier at sunny lower sites than at shaded higher sites.",
-                "Depth alone did not reveal how much water each layer of snow contained.",
-                "Students measured snow depth at several elevations and compared it with downstream streamflow.",
-                "The local river rose in spring even when almost no rain fell in the valley."
+                "Sensibility is always wholly false.",
+                "Early senses and imagination help form character, but reason can later stabilize moral judgment.",
+                "Moral character cannot change after childhood.",
+                "Reason is presented as incompatible with virtue."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Students measured snow depth at several elevations and compared it with downstream streamflow. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "She describes senses and imagination as shaping youthful character and understanding as giving firmness to earlier purposes.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Tracking a Snowpack\", rather than a procedure, caution, or policy response?",
+              "type": "Claim qualification",
+              "prompt": "Under what condition does the writer argue religion can strengthen moral character?",
               "choices": [
-                "Students measured snow depth at several elevations and compared it with downstream streamflow.",
-                "Depth alone did not reveal how much water each layer of snow contained.",
-                "Their findings prompted the class to add snow-density measurements the following winter.",
-                "Snow melted earlier at sunny lower sites than at shaded higher sites."
+                "Only when it promises material advantages.",
+                "Only when its expressions are emotionally intense.",
+                "Only when it replaces all practical duties.",
+                "When it rests on reason and a principle of conduct rather than simply exciting the imagination."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: Snow melted earlier at sunny lower sites than at shaded higher sites. The other statements describe different stages of the inquiry.",
+              "explanation": "The author explicitly grounds religious moral efficacy in reason, self-knowledge and active conduct rather than pleasure alone.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Tracking a Snowpack\" from being generalized beyond the available evidence?",
+              "type": "Argument distinction",
+              "prompt": "Why does she distinguish the 'poetical part' of religion from moral conduct?",
               "choices": [
-                "Depth alone did not reveal how much water each layer of snow contained.",
-                "Snow melted earlier at sunny lower sites than at shaded higher sites.",
-                "Students measured snow depth at several elevations and compared it with downstream streamflow.",
-                "Their findings prompted the class to add snow-density measurements the following winter."
+                "Emotional uplift can provide pleasure without necessarily producing responsible behavior.",
+                "Poetry is mathematically incompatible with religious belief.",
+                "Imagination always strengthens practical virtue.",
+                "Aesthetic responses can never affect anyone's thinking."
               ],
               "correctIndex": 0,
-              "explanation": "The limitation is: Depth alone did not reveal how much water each layer of snow contained. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "She argues that warmth of feeling and elevated imagination do not by themselves make a person more moral.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Tracking a Snowpack\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Ethical premise",
+              "prompt": "What motivates virtue in the highest form described by the passage?",
               "choices": [
-                "Snow melted earlier at sunny lower sites than at shaded higher sites.",
-                "Their findings prompted the class to add snow-density measurements the following winter.",
-                "The local river rose in spring even when almost no rain fell in the valley.",
-                "Students measured snow depth at several elevations and compared it with downstream streamflow."
+                "Fear of immediate public embarrassment.",
+                "Expectation of financial rewards.",
+                "Recognition of virtue as intrinsically valuable rather than merely instrumental.",
+                "Desire to avoid intellectual effort."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: Their findings prompted the class to add snow-density measurements the following winter. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The author says virtue should be loved as excellent in itself, not solely for advantages or avoidance of evils.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Tracking a Snowpack\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Rhetorical contrast",
+              "prompt": "What does the reference to serving 'God and mammon' help illustrate?",
               "choices": [
-                "Initial concern: “Snow melted earlier at sunny lower sites than at shaded…”; method: “Their findings prompted the class to add snow-density…”.",
-                "Initial concern: “Students measured snow depth at several elevations and…”; method: “Snow melted earlier at sunny lower sites than at shaded…”.",
-                "Initial concern: “The local river rose in spring even when almost no rain…”; method: “Students measured snow depth at several elevations and…”.",
-                "Initial concern: “The local river rose in spring even when almost no rain…”; method: “Depth alone did not reveal how much water each layer of…”."
+                "A plan to combine two forms of taxation.",
+                "The inconsistency of trying to follow rival guiding purposes without acknowledging their conflict.",
+                "The importance of obtaining professional wealth through prayer.",
+                "The assertion that poverty guarantees virtue."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with The local river rose in spring even when almost no rain fell in the valley. and the subsequent investigative procedure is Students measured snow depth at several elevations and compared it with downstream streamflow..",
+              "correctIndex": 1,
+              "explanation": "The phrase exemplifies efforts to blend contradictory ends, a theme repeated in the final advice about raising a wealthy versus virtuous child.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Tracking a Snowpack\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Scope",
+              "prompt": "Which claim would most seriously misrepresent the writer's position?",
               "choices": [
-                "The observation (“Snow melted earlier at sunny lower sites than at shaded…”) rules out every alternative cause.",
-                "The limitation (“Depth alone did not reveal how much water each layer of…”) disproves the observation itself.",
-                "The method (“Students measured snow depth at several elevations and…”) guarantees the result before measurement.",
-                "The observation (“Snow melted earlier at sunny lower sites than at shaded…”) matters, but the limit (“Depth alone did not reveal how much water each layer of…”) remains."
+                "Children should learn to exercise judgment.",
+                "Moral understanding can develop over time.",
+                "Excessive obedience may stunt independent thought.",
+                "The writer rejects all guidance and all forms of religious commitment."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as Snow melted earlier at sunny lower sites than at shaded higher sites. but must be read alongside Depth alone did not reveal how much water each layer of snow contained..",
+              "explanation": "She allows guidance and conditional religious moral education; she rejects reliance on authority or feeling without reason.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Tracking a Snowpack\" relate to the strength and limits of the earlier observations?",
+              "type": "Tone and technique",
+              "prompt": "How do the tree and storm metaphors reinforce the argument?",
               "choices": [
-                "The response (“Their findings prompted the class to add snow-density…”) follows evidence but remains open to reassessment.",
-                "The response (“Their findings prompted the class to add snow-density…”) is proof of success in every setting.",
-                "The caveat (“Depth alone did not reveal how much water each layer of…”) makes the observations worthless.",
-                "The observation (“Snow melted earlier at sunny lower sites than at shaded…”) shows that measurement was unnecessary."
+                "They portray genuine judgment as a slowly strengthened structure able to withstand emotional pressures.",
+                "They prove that ethical choices are physically identical to weather events.",
+                "They deny that emotions play any role in early character.",
+                "They provide the chronology of a particular person's life."
               ],
               "correctIndex": 0,
-              "explanation": "The findings informed Their findings prompted the class to add snow-density measurements the following winter.; the stated limit Depth alone did not reveal how much water each layer of snow contained. still matters.",
+              "explanation": "Growth and a rock against storms evoke gradual strengthening and resilience under passion.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             },
             {
               "id": "R12-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Tracking a Snowpack\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which idea most consistently links the discussion of parents, religion, and wealth?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Students measured snow depth at several elevations and…”) while testing the concern (“Depth alone did not reveal how much water each layer of…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Social approval is always the highest form of virtue.",
+                "Moral education is complete once a pupil memorizes correct rules.",
+                "Independently reasoned principles should govern conduct rather than borrowed authority, fleeting feeling, or inconsistent incentives.",
+                "The author regards education as unrelated to character."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, Depth alone did not reveal how much water each layer of snow contained., while comparing evidence from the original method, Students measured snow depth at several elevations and compared it with downstream streamflow..",
+              "correctIndex": 2,
+              "explanation": "Across the examples, she argues for trained judgment and a coherent moral purpose rather than external direction alone.",
               "passageId": "R12-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — education, reason and virtue"
             }
-          ]
+          ],
+          "source": {
+            "work": "A Vindication of the Rights of Woman",
+            "author": "Mary Wollstonecraft",
+            "year": 1792,
+            "url": "https://www.gutenberg.org/ebooks/3420",
+            "rights": "Public domain in United States",
+            "start": "Many of those children whose conduct has been most narrowly watched, become the weakest men, be",
+            "end": "te. See an excellent essay on this subject by Mrs. Barbauld, in Miscellaneous pieces in Prose.)"
+          },
+          "sourceReference": "ADV-12-P2",
+          "contextNote": "Historical philosophical argument (1792). Analyze the author's claims about reason, conscience, religion, and education as claims made within the text."
         },
         {
           "id": "R12-P2",
