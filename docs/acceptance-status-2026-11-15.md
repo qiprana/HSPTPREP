@@ -33,3 +33,15 @@ Updated 2026-11-15
 - Independent student difficulty trials and actual macOS Safari / mobile-device checks are outstanding.
 
 **Decision:** The enriched sections are **available for student practice and use**, with particularly strong authentic-text challenges and newly authored Language/Verbal cases. Do **not** advertise the complete question bank as uniformly advanced or declare full grade-10–12 pedagogical sign-off while the items above remain.
+
+
+## November 15 content expansion (subsequent commits)
+
+This is a content-oriented update; it does **not** change the previous rule against declaring grade-level editorial certification prematurely.
+
+- **Reading:** All 20 daily paper structures remain available and loadable. Days 1–10 now each contain four passages of at least 350 words, with all 40 passage questions per day; the latest inventory finds **50 of 80 passages at or above 350 words**, **35 of 80 carrying explicit source links**, and 30 shorter passages concentrated in Days 11–20.
+- **Reading Days 7–8:** Six previously short synthetic passages were replaced by longer original analytical texts with 60 passage-specific inference and reasoning questions; these remain clearly original, not authentic-source excerpts.
+- **Reading Days 9–10:** Day 9 now has four sourced public-domain excerpts (Austen, Darwin, Wells and Douglass), plus 22 newly authored harder lexical questions. Day 10 likewise uses four sourced public-domain excerpts with 30 new comprehension questions on Wollstonecraft, the Federalist Papers and Thoreau. A corrupted transcription in the Thoreau selection was corrected.
+- **Language:** Days 3–6 advanced challenges replaced 36 generic/recycled items with individually authored grammar, argument, bias, cause-and-effect and source-evaluation questions. Later days still require diversification; cross-day repetition is not certified resolved.
+- **Verbal:** The inference pool was expanded by 20 multi-step conditional, quantifier, and statistical reasoning cases. Full challenge counts/timing and existing progress keys were preserved.
+- **Use status:** The site is usable now, and the stronger content is available in the specified days, but the overall 20-day Reading and Language banks are **not yet fully upgraded or independently certified**. Do not advertise them as having undergone full question-by-question grade 10–12 review.
