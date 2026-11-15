@@ -5828,154 +5828,154 @@
         {
           "id": "LA13-P-1",
           "group": "composition",
-          "skill": "Quantifier scope",
-          "text": "In the robotics policy practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Quantifier and deployment",
+          "text": "A report states that not every student in the robotics trial completed the training module. What conclusion is logically required?",
           "options": [
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support."
+            "Some trial student did not complete the module.",
+            "Most students failed the module.",
+            "No student completed the module.",
+            "All untrained students were excluded from the trial."
           ],
-          "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 0,
+          "explanation": "Not every member completed the module entails at least one exception. The statement does not specify a majority, universal failure, or exclusions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-2",
           "group": "composition",
-          "skill": "Quantified inference",
-          "text": "In the robotics policy practice scenario, The memorandum states that some committee members questioned the interpretation. Which conclusion follows?",
+          "skill": "Modifier referent",
+          "text": "A summary says, 'After testing the robot, the report was written by the engineer.' Which revision correctly attaches the testing action?",
           "options": [
-            "A majority necessarily opposed the interpretation.",
-            "Only committee members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it."
+            "After testing the robot, the engineer wrote the report.",
+            "After testing the robot, the report summarized the results.",
+            "After testing the robot, a report was written.",
+            "The report, after testing the robot, was written by the engineer."
           ],
-          "correctIndex": 2,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 0,
+          "explanation": "The subject immediately following the participial phrase must be the person who tested the robot. The other options attach that action to a document or leave its agent unstated.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-3",
           "group": "composition",
-          "skill": "Complex agreement",
-          "text": "In the robotics policy practice scenario, Neither the director nor the surveyors responsible for verification ___ willing to certify the result.",
+          "skill": "Comparison bases",
+          "text": "An analyst writes, 'The accuracy of System A exceeds System B.' Which revision makes the comparison logically parallel?",
           "options": [
-            "was",
-            "is",
-            "has been",
-            "were"
+            "The accuracy of System A exceeds that of System B.",
+            "The accuracy of System A exceeds the engineers of System B.",
+            "System A's accuracy exceeds the building containing System B.",
+            "The accuracy of System A is more greater than System B."
           ],
-          "correctIndex": 3,
-          "explanation": "The plural subject nearest the verb is surveyors, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "The revision compares accuracy with accuracy rather than a measurement with an object or people. The other alternatives are categorically mismatched or ungrammatical.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-4",
           "group": "composition",
-          "skill": "Sentence boundaries",
-          "text": "In the robotics policy practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Precision in conditional rules",
+          "text": "A school says, 'A robot may enter a classroom only after its safety check is documented.' Which inference is justified for a permitted classroom entry?",
           "options": [
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment."
+            "A documented safety check preceded entry.",
+            "Every checked robot must enter a classroom.",
+            "A documented check guarantees safe operation forever.",
+            "Any robot without a check may enter if its owner is a teacher."
           ],
           "correctIndex": 0,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "explanation": "Only after makes a documented check necessary before permissible entry, not sufficient for compulsory entry or a perpetual safety guarantee.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the robotics policy practice scenario, Which choice specifically means that the committee revised the conclusion but left all other sections unchanged?",
+          "skill": "Parallel verb complements",
+          "text": "Which sentence states three research activities using parallel verbs governed by one subject?",
           "options": [
-            "The committee revised the only conclusion.",
-            "The committee revised only the conclusion.",
-            "Only the committee revised the conclusion.",
-            "The committee only revised the conclusion."
+            "The team measured response time, recorded errors, and compared results.",
+            "The team measured response time, error recording, and to compare results.",
+            "The team measured response time, errors were recorded, and compared results.",
+            "The team measured response time, recording errors, and the comparison of results."
           ],
-          "correctIndex": 1,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 0,
+          "explanation": "Measured, recorded, and compared form a parallel past-tense predicate series. The distractors mix nouns, participles, passive clauses, and infinitives.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the robotics policy practice scenario, Which revision clearly makes the surveyor the person who inspected the results?",
+          "skill": "Formal pronoun case",
+          "text": "The policy committee interviewed the technician ___ the principal had recommended. Which choice uses the formal relative-pronoun case?",
           "options": [
-            "The surveyor reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the surveyor.",
-            "Having inspected the results, the surveyor reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported."
+            "who",
+            "whom",
+            "whose",
+            "whoever"
           ],
-          "correctIndex": 2,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 1,
+          "explanation": "Whom is the object of 'had recommended' in the relative clause. Who is nominative, whose possessive, and whoever changes the clause's syntax.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the robotics policy practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Conjunctive adverb punctuation",
+          "text": "Which sentence correctly contrasts the robot's accuracy in training with its performance in an unfamiliar classroom?",
           "options": [
-            "If the surveyor had been available, the evidence will be checked yesterday.",
-            "If the surveyor will be available, the evidence would have been checked.",
-            "If the surveyor were available, the evidence had been checked last week.",
-            "If the surveyor were available, the evidence could be checked today."
+            "The robot performed well in training, however, classroom results were mixed.",
+            "The robot performed well in training; however, classroom results were mixed.",
+            "The robot performed well in training however classroom results, were mixed.",
+            "The robot performed well; in training however, classroom results were mixed."
           ],
-          "correctIndex": 3,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 1,
+          "explanation": "A semicolon connects independent clauses before however, with a comma after it. The alternatives contain a comma splice or misplaced punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the robotics policy practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Scope of association",
+          "text": "A trial finds that experienced teachers use robots more frequently than novice teachers, but participants volunteered for the project. Which conclusion is appropriately cautious?",
           "options": [
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid."
+            "Experience is conclusively proven to cause frequent robot use.",
+            "Among these volunteers, use was higher for experienced teachers; selection and context may affect the comparison.",
+            "Every novice teacher avoids robots.",
+            "The results can be generalized to every school without adjustment."
           ],
-          "correctIndex": 0,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 1,
+          "explanation": "The observed comparison concerns a self-selected sample and does not isolate causal effects of experience. The other options claim unsupported universality or causation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA13-C-1",
           "group": "usage",
-          "skill": "Robotics policy",
-          "text": "A pilot school tests classroom robots with teachers who applied for the project. What is the strongest reason not to generalize enthusiasm to all teachers?",
+          "skill": "External validity in education",
+          "text": "A pilot evaluates classroom robots only with teachers who applied for a technology grant. Which concern most directly limits generalization?",
           "options": [
-            "Robotics cannot be studied in schools.",
-            "Teachers who volunteer may have greater interest, training, or tolerance for technology.",
-            "Every volunteer favors every educational intervention.",
-            "Classroom equipment has no effect on teaching."
+            "The volunteers may be more enthusiastic and experienced with technology than typical teachers.",
+            "Volunteers cannot report genuine classroom experiences.",
+            "Robot usage necessarily reduces learning.",
+            "A grant always makes student outcomes impossible to measure."
           ],
-          "correctIndex": 1,
-          "explanation": "Self-selection can create a sample more receptive and prepared than the overall teacher population.",
+          "correctIndex": 0,
+          "explanation": "Grant volunteers can differ systematically from the broader teacher population, limiting external validity. Voluntary participation does not itself make observations meaningless.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -5984,15 +5984,15 @@
           "id": "LA13-C-2",
           "group": "usage",
           "skill": "Baseline imbalance",
-          "text": "A robotics pilot reports higher output among teams assigned the new machines, but those teams had more experience before deployment. What cannot be inferred?",
+          "text": "In a robot-assisted math trial, the robot group scored 15 points higher at the end, but had scored 14 points higher before the trial. Which additional comparison is most relevant?",
           "options": [
-            "The machines alone caused the entire performance difference.",
-            "Experience may contribute to output.",
-            "The teams differed before deployment.",
-            "A fairer comparison should account for experience."
+            "Compare changes from baseline and the uncertainty of those changes across groups.",
+            "Publish only the final 15-point difference.",
+            "Exclude the baseline scores because they were obtained earlier.",
+            "Assume that the robot produced all of the final score difference."
           ],
           "correctIndex": 0,
-          "explanation": "Preexisting experience confounds the effect of equipment; the observed difference cannot be assigned entirely to machines.",
+          "explanation": "Preexisting differences explain much of the posttest gap. Comparing gains relative to baseline helps assess whether the treatment group improved more.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6000,16 +6000,16 @@
         {
           "id": "LA13-C-3",
           "group": "usage",
-          "skill": "Robotic productivity",
-          "text": "An engineering team introduces collaborative robots and output rises, but teams receive extra paid training during rollout. Which conclusion is justified?",
+          "skill": "Multiple interventions",
+          "text": "Student writing scores improve after schools introduce AI feedback and double teacher conferencing time. Which design best isolates the feedback tool's contribution?",
           "options": [
-            "The robots alone caused every improvement.",
-            "Both automation and training are plausible contributors; separating them requires a comparison design.",
-            "Training cannot affect output.",
-            "The gains prove labor costs fell."
+            "Compare similar classrooms that differ in feedback-tool use while holding conferencing time comparable.",
+            "Ask students whether they enjoy the tool's interface.",
+            "Assume the newest tool explains the entire score increase.",
+            "Eliminate baseline measurements because they could be inconvenient."
           ],
-          "correctIndex": 1,
-          "explanation": "Two interventions changed together, so the observed increase cannot be uniquely attributed to robotics.",
+          "correctIndex": 0,
+          "explanation": "Holding conferencing time similar while varying tool exposure reduces confounding. Preference measures and temporal assumptions cannot identify the tool's impact.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6018,292 +6018,292 @@
           "id": "LA13-C-4",
           "group": "usage",
           "skill": "Concession and rebuttal",
-          "text": "In the robotics policy challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "text": "An advocate acknowledges that assistive robots sometimes misread speech. Which response is a balanced recommendation?",
           "options": [
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The motion is costly; therefore no one should examine its possible benefits.",
-            "The motion has no drawbacks, so opponents must be irrational."
+            "Although speech errors remain a concern, a supervised pilot with accessibility testing could assess whether benefits outweigh them.",
+            "Speech errors never matter if the software is innovative.",
+            "Any documented error proves no robotic assistance can be valuable.",
+            "The system should be mandated immediately because it is new."
           ],
-          "correctIndex": 1,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "The sentence concedes a documented weakness and proposes evidence collection with safeguards. The other responses leap from a single consideration to unsupported absolutes.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the robotics policy challenge scenario, Every approved trial passed ethical review. A trial passed ethical review. What follows?",
+          "skill": "Necessary rather than sufficient",
+          "text": "A district rule requires an independent safety review for any classroom robot that receives approval. A robot passed such a review. What follows?",
           "options": [
-            "Ethical review was unnecessary.",
-            "No approved trial passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The trial must have been approved."
+            "The robot must be approved.",
+            "The review satisfies one prerequisite but does not guarantee approval.",
+            "Any robot rejected by the district necessarily failed the review.",
+            "Approval is independent of safety review."
           ],
-          "correctIndex": 2,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "Review is necessary for approval, not sufficient. Approval may depend on other criteria, so passing a review cannot establish approval.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the robotics policy challenge scenario, Only the surveyors who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Scope of only",
+          "text": "A trial report states, 'Only devices that passed the privacy audit were deployed.' Which conclusion is warranted?",
           "options": [
-            "Every raw-data supplier was certified.",
-            "Surveyors without certification supplied no data.",
-            "All eligible surveyors received certification.",
-            "Every certified surveyor supplied raw data."
+            "Every privacy-audited device was deployed.",
+            "Each deployed device passed the privacy audit.",
+            "Devices outside the trial necessarily failed the audit.",
+            "All devices that passed the audit were useful."
           ],
-          "correctIndex": 3,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "Only audited devices were deployed means deployment implies passing the audit, not the converse. It does not establish the performance of nondeployed devices.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the robotics policy challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Counterexample to universal claim",
+          "text": "An engineer claims that every robot tested under low light correctly identified all objects. Which result refutes the claim?",
           "options": [
-            "Whom did the editor consult before publishing the proposal?",
-            "Whom concluded that the evidence was incomplete?",
-            "The auditor whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?"
+            "One robot tested under low light misidentified an object.",
+            "One robot tested in daylight identified an object correctly.",
+            "A robot excluded from low-light tests malfunctioned.",
+            "A low-light robot recognized every object in one trial."
           ],
           "correctIndex": 0,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "explanation": "A single failed identification during the specified low-light test is enough to contradict the universal. The other cases are consistent or outside the claimed population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the robotics policy challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Clarifying antecedent",
+          "text": "A draft says, 'The engineer warned the principal that her prototype was unsafe.' It means the ENGINEER'S prototype. Which revision resolves the ambiguity?",
           "options": [
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena."
+            "The engineer warned the principal that the engineer's prototype was unsafe.",
+            "The engineer warned the principal that her prototype was unsafe.",
+            "The principal heard the engineer's warning about her unsafe prototype.",
+            "The engineer and principal discussed her prototype's safety."
           ],
-          "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "Naming the engineer as possessor disambiguates the ownership. Remaining versions leave 'her' without a unique antecedent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the robotics policy challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Measurement versus construct",
+          "text": "A district defines 'student engagement' solely as the number of times a pupil presses a robot's touchscreen. Which criticism is most precise?",
           "options": [
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting."
+            "Touches measure one behavior but may not represent sustained attention, learning, or meaningful participation.",
+            "Touch counts are always fabricated.",
+            "Engagement cannot be measured in any useful way.",
+            "Each additional touch necessarily increases learning."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "Touch frequency is an operational metric with uncertain construct validity for broader engagement. The other options make unjustified universal assertions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the robotics policy challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Independent evaluation",
+          "text": "A vendor supplies evidence that its robot improved test scores, but the vendor also chose which schools to include. What would best test the claim independently?",
           "options": [
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "A auditor describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event."
+            "A preregistered comparison led by researchers who control school selection and assess outcomes using common measures.",
+            "Another brochure using the vendor's selected schools.",
+            "A testimonial from a teacher paid to demonstrate the product.",
+            "A summary of the robot's cosmetic design."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "Independent selection, prespecified outcomes, and comparable controls reduce conflicts and selection bias. Vendor-selected testimonials and brochures reuse potentially biased evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the robotics policy challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Balanced policy recommendation",
+          "text": "A school board has encouraging pilot results but insufficient data about disabled students' accessibility needs. Which policy is most defensible?",
           "options": [
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial motion."
+            "Authorize a limited monitored rollout while conducting targeted accessibility evaluations before broad adoption.",
+            "Deploy to all students immediately because the average score improved.",
+            "Reject accessibility testing to avoid altering the study.",
+            "Assume average results guarantee equitable effects for every subgroup."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "explanation": "A monitored, limited rollout preserves possible gains while gathering missing subgroup evidence. The alternatives overgeneralize or neglect accessibility.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the robotics policy challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Alternative explanation",
+          "text": "An AI tutor's users outperform nonusers, but users could choose whether to enroll and had higher prior motivation. Which inference is best supported?",
           "options": [
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing."
+            "Using the tutor necessarily caused the difference.",
+            "The association could partly reflect motivated students selecting into tutor use.",
+            "Motivation cannot influence educational performance.",
+            "Nonusers would perform identically if offered the tutor for one day."
           ],
           "correctIndex": 1,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "explanation": "Self-selection by motivation provides a plausible rival explanation. Without randomization or comparable baselines, a causal tutor effect cannot be isolated.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA13-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the robotics policy test scenario, Which comparison is logically parallel?",
+          "skill": "Statistical denominator",
+          "text": "A classroom robot made 36 navigation errors over 1,200 trips last month and 28 over 700 trips this month. What happened to errors per 100 trips?",
           "options": [
-            "The revised proposal's conclusion is more cautious than the earlier research team.",
-            "The revised proposal's conclusion is more cautious than the university.",
-            "The revised proposal's conclusion is more cautious than the author of the first trial.",
-            "The revised proposal's conclusion is more cautious than that of the earlier proposal."
+            "The rate fell from 3 to 2.",
+            "The rate rose from 3 to 4.",
+            "The rate stayed at 3.",
+            "The rate cannot be calculated without classroom size."
           ],
-          "correctIndex": 3,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 1,
+          "explanation": "36/1,200 is 3 per 100 trips, while 28/700 is 4. The count fell, but the per-trip error rate increased.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA13-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the robotics policy test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Past counterfactual",
+          "text": "A robot's software patch was not installed before a demonstration failed. Which sentence correctly expresses an unreal past possibility?",
           "options": [
-            "The auditors agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The auditors agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The auditors agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The auditors agreed to examining assumptions, evaluation of evidence, and conclusions revised."
+            "If the patch had been installed, the demonstration might have succeeded.",
+            "If the patch would be installed, the demonstration had succeeded.",
+            "If the patch installs tomorrow, the demonstration succeeded yesterday.",
+            "If the patch installed, the demonstration will have succeeded yesterday."
           ],
           "correctIndex": 0,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "explanation": "Past perfect in the condition and might have in the result describe an unreal past scenario. The alternatives mismatch tense and conditional structures.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the robotics policy test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Clear agency in reports",
+          "text": "Which sentence makes the safety engineer the explicit agent of the inspection and approval?",
           "options": [
-            "The proposal evaluated three issues, reliability: validity, and replicability.",
-            "The proposal evaluated three issues: reliability, validity, and replicability.",
-            "The proposal evaluated: three issues, reliability, validity, and replicability.",
-            "The proposal evaluated three issues; reliability, validity, and replicability."
+            "After inspecting the robot, the safety engineer approved its use.",
+            "After inspecting the robot, its use was approved.",
+            "The robot, having inspected the engineer, was approved.",
+            "The approval, inspecting the robot, was issued."
           ],
-          "correctIndex": 1,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 0,
+          "explanation": "The active sentence names the safety engineer as the subject of both actions. The other versions obscure or misattach who inspected the robot.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the robotics policy test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Colon in technical prose",
+          "text": "Which sentence correctly uses a colon to introduce the listed causes after a complete clause?",
           "options": [
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology."
+            "The audit identified three weaknesses: weak encryption, missing logs, and delayed security updates.",
+            "The audit identified: weak encryption, missing logs, and delayed security updates.",
+            "The audit identified three; weaknesses: encryption, logs, and updates.",
+            "The audit: identified three weaknesses, encryption and logs."
           ],
-          "correctIndex": 2,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "A complete independent clause before the colon supports an explanatory list. The other alternatives put a colon after an incomplete verb phrase or split clause elements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the robotics policy test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Causal attribution",
+          "text": "A school reports higher literacy scores after installing a reading robot, but it simultaneously added a daily tutoring hour. Which claim is defensible?",
           "options": [
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected trial could not have had consent.",
-            "Acceptance is impossible without documented consent."
+            "The robot alone caused the score increase.",
+            "Both the robot and tutoring are plausible contributors, so the available comparison does not isolate the robot's effect.",
+            "The tutoring change proves the robot had no benefit.",
+            "The score increase establishes that every pupil improved."
           ],
-          "correctIndex": 3,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 1,
+          "explanation": "Concurrent interventions prevent identification of the robot's effect from the before-after result alone. The distractors assume unique causation or universal improvement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the robotics policy test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Conjunctive adverb",
+          "text": "Which revision correctly links the independent clauses 'The sensor was precise' and 'its casing was not waterproof' with nevertheless?",
           "options": [
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original proposal."
+            "The sensor was precise, nevertheless its casing was not waterproof.",
+            "The sensor was precise; nevertheless, its casing was not waterproof.",
+            "The sensor was precise nevertheless, its casing was not waterproof.",
+            "The sensor was precise; nevertheless its casing, was not waterproof."
           ],
-          "correctIndex": 0,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 1,
+          "explanation": "The semicolon separates independent clauses, and the comma follows the conjunctive adverb. The other choices create a comma splice or misplaced punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the robotics policy test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Scope of evidence",
+          "text": "The robot-assisted group improved by eight points, while the control group improved by seven points. Which interpretation best respects the comparison?",
           "options": [
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears."
+            "The raw gains differ by one point; uncertainty and baseline comparability must be examined before attributing the difference to the robot.",
+            "The robot necessarily caused all eight points of improvement.",
+            "The control group's gain has no relevance.",
+            "A one-point difference proves the intervention will always be effective."
           ],
-          "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "A one-point difference in gains is not automatically a credible treatment effect without statistical uncertainty and design checks. The other answers ignore the control or overclaim.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA13-T-8",
           "group": "composition",
-          "skill": "Evidence appraisal",
-          "text": "In the robotics policy test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Source reliability",
+          "text": "A company tests its own classroom robot and reports high student satisfaction. Which addition would best reduce concerns about sponsor bias?",
           "options": [
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone."
+            "Independent evaluation with disclosed sampling methods, response rates, and anonymized outcome data.",
+            "Another advertisement quoting the same summary.",
+            "Removing all unfavorable survey responses before reporting.",
+            "Keeping the method private so competitors cannot respond."
           ],
-          "correctIndex": 2,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Independent methods, transparency, and inspectable outcomes help assess sponsor influence. Promotional repetition, selective exclusion, and secrecy heighten bias.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
