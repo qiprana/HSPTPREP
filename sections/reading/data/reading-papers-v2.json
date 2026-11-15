@@ -3492,9 +3492,9 @@
         },
         {
           "id": "R04-P3",
-          "title": "The Unsent Letter",
-          "genre": "narrative",
-          "text": "Mina wrote a sharp complaint after a teammate failed to finish an agreed task. She felt certain the teammate had been careless and wanted to send the message immediately. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nMina reread the project notes and asked whether anything unexpected had happened. She learned the teammate had been caring for a younger sibling while a parent was away. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their resilient approach involved examining the available information before making the next decision.\n\nThe missed deadline remained a real difficulty even after Mina understood the reason. The pair divided the remaining work differently and agreed to communicate earlier next time. Listening to context does not erase responsibility, but it can help people find a fair response. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Can a Large Republic Function?",
+          "genre": "historical political argument",
+          "text": "As the natural limit of a democracy is that distance from the central point which will just permit the most remote citizens to assemble as often as their public functions demand, and will include no greater number than can join in those functions; so the natural limit of a republic is that distance from the centre which will barely allow the representatives to meet as often as may be necessary for the administration of public affairs. Can it be said that the limits of the United States exceed this distance? It will not be said by those who recollect that the Atlantic coast is the longest side of the Union, that during the term of thirteen years, the representatives of the States have been almost continually assembled, and that the members from the most distant States are not chargeable with greater intermissions of attendance than those from the States in the neighborhood of Congress.\n\nThat we may form a juster estimate with regard to this interesting subject, let us resort to the actual dimensions of the Union. The limits, as fixed by the treaty of peace, are: on the east the Atlantic, on the south the latitude of thirty-one degrees, on the west the Mississippi, and on the north an irregular line running in some instances beyond the forty-fifth degree, in others falling as low as the forty-second. The southern shore of Lake Erie lies below that latitude. Computing the distance between the thirty-first and forty-fifth degrees, it amounts to nine hundred and seventy-three common miles; computing it from thirty-one to forty-two degrees, to seven hundred and sixty-four miles and a half. Taking the mean for the distance, the amount will be eight hundred and sixty-eight miles and three-fourths. The mean distance from the Atlantic to the Mississippi does not probably exceed seven hundred and fifty miles. On a comparison of this extent with that of several countries in Europe, the practicability of rendering our system commensurate to it appears to be demonstrable. It is not a great deal larger than Germany, where a diet representing the whole empire is continually assembled; or than Poland before the late dismemberment, where another national diet was the depositary of the supreme power. Passing by France and Spain, we find that in Great Britain, inferior as it may be in size, the representatives of the northern extremity of the island have as far to travel to the national council as will be required of those of the most remote parts of the Union.\n\nFavorable as this view of the subject may be, some observations remain which will place it in a light still more satisfactory.\n\nIn the first place it is to be remembered that the general government is not to be charged with the whole power of making and administering laws. Its jurisdiction is limited to certain enumerated objects, which concern all the members of the republic, but which are not to be attained by the separate provisions of any. The subordinate governments, which can extend their care to all those other subjects which can be separately provided for, will retain their due authority and activity. Were it proposed by the plan of the convention to abolish the governments of the particular States, its adversaries would have some ground for their objection; though it would not be difficult to show that if they were abolished the general government would be compelled, by the principle of self-preservation, to reinstate them in their proper jurisdiction.",
           "term": [
             "resilient",
             "able to recover",
@@ -3505,171 +3505,191 @@
           "questions": [
             {
               "id": "R04-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Unsent Letter\"?",
+              "type": "Foundational distinction",
+              "prompt": "How does the author distinguish the geographical limits of direct democracy from those of a republic?",
               "choices": [
-                "The method (“Mina reread the project notes and asked whether anything…”) rules out every possible competing explanation.",
-                "The recorded outcome (“She learned the teammate had been caring for a younger…”) is treated as unrelated to the original investigation.",
-                "The concern (“She felt certain the teammate had been careless and…”) leads to inquiry, but “The missed deadline remained a real difficulty even after…” limits the inference.",
-                "The proposed response (“The pair divided the remaining work differently and…”) makes the original concern irrelevant."
+                "A direct democracy depends on citizens assembling, whereas a republic depends on representatives being able to meet.",
+                "A republic requires every citizen to travel to its capital.",
+                "The two forms have identical participation requirements.",
+                "Direct democracy is limited only by the amount of tax collected."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The missed deadline remained a real difficulty even after Mina understood the reason. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The author contrasts all citizens attending public functions with representatives convening for legislative work.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Unsent Letter\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Evidence evaluation",
+              "prompt": "What is the purpose of citing thirteen years of representatives' attendance?",
               "choices": [
-                "Mina reread the project notes and asked whether anything unexpected had happened.",
-                "She learned the teammate had been caring for a younger sibling while a parent was away.",
-                "The pair divided the remaining work differently and agreed to communicate earlier next time.",
-                "She felt certain the teammate had been careless and wanted to send the message immediately."
+                "To prove that travel within the republic was always comfortable.",
+                "To show that state legislatures met less often than European ones.",
+                "To provide practical historical evidence that distance had not prevented repeated representation.",
+                "To establish that all citizens attended Congress."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: She felt certain the teammate had been careless and wanted to send the message immediately. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Past attendance from distant states is offered as evidence against a geographical objection to representative government.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Unsent Letter\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Argument by comparison",
+              "prompt": "Why does the writer refer to Germany, Poland and Great Britain?",
               "choices": [
-                "Mina reread the project notes and asked whether anything unexpected had happened.",
-                "She felt certain the teammate had been careless and wanted to send the message immediately.",
-                "She learned the teammate had been caring for a younger sibling while a parent was away.",
-                "The missed deadline remained a real difficulty even after Mina understood the reason."
+                "To recommend adopting their monarchies.",
+                "To argue that political assemblies in other territories provide relevant comparisons of geographical practicality.",
+                "To demonstrate that their citizens all voted directly.",
+                "To show that travel times were identical in every country."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Mina reread the project notes and asked whether anything unexpected had happened. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "He uses other political territories and representatives' journeys to challenge the assumption that the United States is uniquely too large.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Unsent Letter\", rather than a procedure, caution, or policy response?",
+              "type": "Quantitative role",
+              "prompt": "How does estimating the Union's north–south and east–west distances support the argument?",
               "choices": [
-                "The pair divided the remaining work differently and agreed to communicate earlier next time.",
-                "She learned the teammate had been caring for a younger sibling while a parent was away.",
-                "Mina reread the project notes and asked whether anything unexpected had happened.",
-                "The missed deadline remained a real difficulty even after Mina understood the reason."
+                "The estimates determine the precise population of each state.",
+                "The distances prove trade between states was impossible.",
+                "The figures establish constitutional legality by themselves.",
+                "They supply measurable dimensions against which claims of unmanageable size can be assessed."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: She learned the teammate had been caring for a younger sibling while a parent was away. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The geographic figures offer a concrete basis for comparative arguments, not independent proof of legitimacy.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Unsent Letter\" from being generalized beyond the available evidence?",
+              "type": "Qualification",
+              "prompt": "What does the author acknowledge about a proposal to abolish state governments?",
               "choices": [
-                "Mina reread the project notes and asked whether anything unexpected had happened.",
-                "The pair divided the remaining work differently and agreed to communicate earlier next time.",
-                "The missed deadline remained a real difficulty even after Mina understood the reason.",
-                "She learned the teammate had been caring for a younger sibling while a parent was away."
+                "Opponents would have a stronger objection if the federal system proposed eliminating those governments.",
+                "Eliminating states is necessary for practical representation.",
+                "The existing proposal had already abolished them.",
+                "State governments never perform independent functions."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The missed deadline remained a real difficulty even after Mina understood the reason. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "He explicitly grants that abolition would give opponents 'some ground,' then notes subordinate governments retain functions.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Unsent Letter\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Federal structure",
+              "prompt": "Why does the passage emphasize enumerated national responsibilities?",
               "choices": [
-                "She felt certain the teammate had been careless and wanted to send the message immediately.",
-                "Mina reread the project notes and asked whether anything unexpected had happened.",
-                "She learned the teammate had been caring for a younger sibling while a parent was away.",
-                "The pair divided the remaining work differently and agreed to communicate earlier next time."
+                "To show that states will have no public duties.",
+                "To demonstrate that every local decision requires Congress.",
+                "To argue the national government has limited shared functions while states retain other responsibilities.",
+                "To establish that representatives can meet only once every year."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The pair divided the remaining work differently and agreed to communicate earlier next time. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The final paragraph contrasts national objects with subjects that subordinate governments can separately address.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Unsent Letter\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Counterargument",
+              "prompt": "What criticism of the geographical comparisons would most directly test the author's conclusion?",
               "choices": [
-                "Initial concern: “She felt certain the teammate had been careless and…”; method: “Mina reread the project notes and asked whether anything…”.",
-                "Initial concern: “She felt certain the teammate had been careless and…”; method: “The missed deadline remained a real difficulty even after…”.",
-                "Initial concern: “She learned the teammate had been caring for a younger…”; method: “The pair divided the remaining work differently and…”.",
-                "Initial concern: “Mina reread the project notes and asked whether anything…”; method: “She learned the teammate had been caring for a younger…”."
+                "The author has not listed every river in the United States.",
+                "Differences in transportation reliability, frequency of required meetings and administrative demands could make surface area alone misleading.",
+                "European countries should never be mentioned in historical arguments.",
+                "Comparative distances cannot be expressed numerically."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with She felt certain the teammate had been careless and wanted to send the message immediately. and the subsequent investigative procedure is Mina reread the project notes and asked whether anything unexpected had happened..",
+              "correctIndex": 1,
+              "explanation": "Comparisons of size and selected journeys may omit practical constraints affecting stable representation.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Unsent Letter\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Rhetorical approach",
+              "prompt": "What is achieved by the opening sequence of definitions followed by the rhetorical question about distance?",
               "choices": [
-                "The method (“Mina reread the project notes and asked whether anything…”) guarantees the result before measurement.",
-                "The observation (“She learned the teammate had been caring for a younger…”) matters, but the limit (“The missed deadline remained a real difficulty even after…”) remains.",
-                "The observation (“She learned the teammate had been caring for a younger…”) rules out every alternative cause.",
-                "The limitation (“The missed deadline remained a real difficulty even after…”) disproves the observation itself."
+                "It proves that all political opponents are ignorant.",
+                "It denies that distance matters for government.",
+                "It changes the topic from geography to taxation.",
+                "It establishes a criterion and then frames the United States as a test case for that criterion."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as She learned the teammate had been caring for a younger sibling while a parent was away. but must be read alongside The missed deadline remained a real difficulty even after Mina understood the reason..",
+              "correctIndex": 3,
+              "explanation": "The argument defines feasible participation and then asks whether the proposed republic exceeds that limit.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Unsent Letter\" relate to the strength and limits of the earlier observations?",
+              "type": "Inference",
+              "prompt": "Which conclusion would exceed the evidence cited?",
               "choices": [
-                "The caveat (“The missed deadline remained a real difficulty even after…”) makes the observations worthless.",
-                "The observation (“She learned the teammate had been caring for a younger…”) shows that measurement was unnecessary.",
-                "The response (“The pair divided the remaining work differently and…”) follows evidence but remains open to reassessment.",
-                "The response (“The pair divided the remaining work differently and…”) is proof of success in every setting."
+                "A United States representative had never missed a session for any reason.",
+                "Members from distant states had attended repeatedly.",
+                "The author thinks the Union's size is administratively manageable.",
+                "The proposed structure leaves some responsibilities to states."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The pair divided the remaining work differently and agreed to communicate earlier next time.; the stated limit The missed deadline remained a real difficulty even after Mina understood the reason. still matters.",
+              "correctIndex": 0,
+              "explanation": "Repeated attendance does not imply perfect attendance by every representative; the source refers to comparative interruptions.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             },
             {
               "id": "R04-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Unsent Letter\" without ignoring its stated limitation?",
+              "type": "Thesis",
+              "prompt": "Which statement best represents the passage's argument?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Mina reread the project notes and asked whether anything…”) while testing the concern (“The missed deadline remained a real difficulty even after…”)."
+                "Representatives should be chosen only from major cities.",
+                "Distance automatically destroys the legitimacy of every republic.",
+                "The Union's geographic extent does not by itself make representative governance impractical, especially when authority is divided between governments.",
+                "A republican government requires every citizen to travel to Congress."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, The missed deadline remained a real difficulty even after Mina understood the reason., while comparing evidence from the original method, Mina reread the project notes and asked whether anything unexpected had happened..",
+              "correctIndex": 2,
+              "explanation": "The author combines attendance history, geographic comparisons and distributed jurisdiction to defend feasibility.",
               "passageId": "R04-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Can a Large Republic Function?"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "As the natural limit of a democracy is that distance from the central point which will just per",
+            "end": "mpelled, by the principle of self-preservation, to reinstate them in their proper jurisdiction."
+          },
+          "sourceReference": "ADV-02-P3"
         },
         {
           "id": "R04-P4",
-          "title": "The School Breakfast Trial",
-          "genre": "community",
-          "text": "A school tested whether an earlier breakfast service helped students reach class on time. Several pupils arrived late because the cafeteria opened only shortly before lessons began. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe school opened one serving line earlier and recorded arrival patterns for a month. More students finished breakfast before the first bell during the trial. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their prudent approach involved examining the available information before making the next decision.\n\nThe study could not determine whether attendance changed for every reason. Administrators continued the early service while collecting more feedback. Small scheduling adjustments may improve routines without requiring a complete redesign. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Thoreau — The Cost of Living",
+          "genre": "literary essay",
+          "text": "So that all the pecuniary outgoes, excepting for washing and mending, which for the most part were done out of the house, and their bills have not yet been received--and these are all and more than all the ways by which money necessarily goes out in this part of the world--were\n\nHouse................................. $ 28.12-1/2 Farm one year........................... 14.72-1/2 Food eight months....................... 8.74 Clothing, etc., eight months............ 8.40-3/4 Oil, etc., eight months................. 2.00 ------------ In all............................ $ 61.99-3/4\n\nI address myself now to those of my readers who have a living to get. And to meet this I have for farm produce sold\n\n$23.44 Earned by day-labor.................... 13.34 -------- In all............................. $36.78,\n\nwhich subtracted from the sum of the outgoes leaves a balance of $25.21-3/4 on the one side--this being very nearly the means with which I started, and the measure of expenses to be incurred--and on the other, beside the leisure and independence and health thus secured, a comfortable house for me as long as I choose to occupy it.\n\nThese statistics, however accidental and therefore uninstructive they may appear, as they have a certain completeness, have a certain value also. Nothing was given me of which I have not rendered some account. It appears from the above estimate, that my food alone cost me in money about twenty-seven cents a week. It was, for nearly two years after this, rye and Indian meal without yeast, potatoes, rice, a very little salt pork, molasses, and salt; and my drink, water. It was fit that I should live on rice, mainly, who love so well the philosophy of India. To meet the objections of some inveterate cavillers, I may as well state, that if I dined out occasionally, as I always had done, and I trust shall have opportunities to do again, it was frequently to the detriment of my domestic arrangements. But the dining out, being, as I have stated, a constant element, does not in the least affect a comparative statement like this.\n\nI learned from my two years' experience that it would cost incredibly little trouble to obtain one's necessary food, even in this latitude; that a man may use as simple a diet as the animals, and yet retain health and strength. I have made a satisfactory dinner, satisfactory on several accounts, simply off a dish of purslane (_Portulaca oleracea_) which I gathered in my cornfield, boiled and salted. I give the Latin on account of the savoriness of the trivial name. And pray what more can a reasonable man desire, in peaceful times, in ordinary noons, than a sufficient number of ears of green sweet corn boiled, with the addition of salt? Even the little variety which I used was a yielding to the demands of appetite, and not of health. Yet men have come to such a pass that they frequently starve, not for want of necessaries, but for want of luxuries; and I know a good woman who thinks that her son lost his life because he took to drinking water only.",
           "term": [
             "prudent",
             "wise and cautious",
@@ -3680,165 +3700,185 @@
           "questions": [
             {
               "id": "R04-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The School Breakfast Trial\"?",
+              "type": "Argument by evidence",
+              "prompt": "Why does Thoreau include unusually precise financial figures?",
               "choices": [
-                "The proposed response (“Administrators continued the early service while…”) makes the original concern irrelevant.",
-                "The method (“The school opened one serving line earlier and recorded…”) rules out every possible competing explanation.",
-                "The recorded outcome (“More students finished breakfast before the first bell…”) is treated as unrelated to the original investigation.",
-                "The concern (“Several pupils arrived late because the cafeteria opened…”) leads to inquiry, but “The study could not determine whether attendance changed…” limits the inference."
+                "To show that his accounts are inherently comprehensive for every household.",
+                "To make his claim about modest material needs concrete and open to scrutiny.",
+                "To establish that no money was ever spent outside the listed categories.",
+                "To persuade readers that an income must always equal expenses."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The study could not determine whether attendance changed for every reason. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The ledger supports his argument about low-cost living while he acknowledges exceptions and limitations.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The School Breakfast Trial\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Accounting qualification",
+              "prompt": "What does the opening admission about washing and mending imply?",
               "choices": [
-                "More students finished breakfast before the first bell during the trial.",
-                "Administrators continued the early service while collecting more feedback.",
-                "Several pupils arrived late because the cafeteria opened only shortly before lessons began.",
-                "The school opened one serving line earlier and recorded arrival patterns for a month."
+                "Every expense was incurred within the house.",
+                "The narrator kept no records.",
+                "Some costs had not yet been billed, so the list is not literally exhaustive.",
+                "Food was the sole expense for the period."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Several pupils arrived late because the cafeteria opened only shortly before lessons began. The other choices describe what was done or discovered afterward.",
+              "explanation": "He says those expenses were largely performed elsewhere and the bills had not yet arrived.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The School Breakfast Trial\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Comparison",
+              "prompt": "What distinction does the author draw between material outgo and the value gained from the experiment?",
               "choices": [
-                "Several pupils arrived late because the cafeteria opened only shortly before lessons began.",
-                "More students finished breakfast before the first bell during the trial.",
-                "The study could not determine whether attendance changed for every reason.",
-                "The school opened one serving line earlier and recorded arrival patterns for a month."
+                "He presents a cash balance alongside leisure, independence and health as additional benefits.",
+                "He says the experiment yielded only monetary profit.",
+                "He concludes that leisure cannot matter without a salary.",
+                "He treats all nonmonetary benefits as imaginary."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: The school opened one serving line earlier and recorded arrival patterns for a month. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "He explicitly values independence, leisure, health and shelter beyond the accounting statement.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The School Breakfast Trial\", rather than a procedure, caution, or policy response?",
+              "type": "Reasoning limitations",
+              "prompt": "Why does the narrator insist occasional dining out does not invalidate his comparison?",
               "choices": [
-                "More students finished breakfast before the first bell during the trial.",
-                "The school opened one serving line earlier and recorded arrival patterns for a month.",
-                "The study could not determine whether attendance changed for every reason.",
-                "Administrators continued the early service while collecting more feedback."
+                "Because eating outside is prohibited by his principles.",
+                "Because every meal was paid for by a friend.",
+                "Because dining out is more expensive than any grocery bill.",
+                "Because it was an ongoing practice before and during the experiment, rather than a new unexplained change."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: More students finished breakfast before the first bell during the trial. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "He portrays dining out as a constant feature that does not distort a relative before-and-after comparison in the manner critics suggest.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The School Breakfast Trial\" from being generalized beyond the available evidence?",
+              "type": "Rhetorical detail",
+              "prompt": "Why does the author name the plant purslane and supply its Latin designation?",
               "choices": [
-                "Administrators continued the early service while collecting more feedback.",
-                "The study could not determine whether attendance changed for every reason.",
-                "More students finished breakfast before the first bell during the trial.",
-                "The school opened one serving line earlier and recorded arrival patterns for a month."
+                "To imply ordinary ingredients cannot be nutritious.",
+                "To lend playful specificity and dignity to a humble meal.",
+                "To claim that botanical names determine food costs.",
+                "To argue that dinner should always consist of plants."
               ],
               "correctIndex": 1,
-              "explanation": "The limitation is: The study could not determine whether attendance changed for every reason. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "He jokes about the 'savoriness' of the unglamorous plant's name, mixing botanical precision with satire.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The School Breakfast Trial\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Inference",
+              "prompt": "Which claim is least justified by the author's personal accounts?",
               "choices": [
-                "The school opened one serving line earlier and recorded arrival patterns for a month.",
-                "More students finished breakfast before the first bell during the trial.",
-                "Administrators continued the early service while collecting more feedback.",
-                "Several pupils arrived late because the cafeteria opened only shortly before lessons began."
+                "He found a simple diet manageable in his circumstances.",
+                "He valued independence as an outcome.",
+                "Every person in every climate can live on precisely his diet and budget.",
+                "He kept records of several sources of income."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: Administrators continued the early service while collecting more feedback. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "A personal trial under one person's circumstances cannot establish a universal budget or nutritional standard.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The School Breakfast Trial\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Tone",
+              "prompt": "What does the phrase 'inveterate cavillers' reveal about the author's attitude toward critics?",
               "choices": [
-                "Initial concern: “Several pupils arrived late because the cafeteria opened…”; method: “The study could not determine whether attendance changed…”.",
-                "Initial concern: “More students finished breakfast before the first bell…”; method: “Administrators continued the early service while…”.",
-                "Initial concern: “The school opened one serving line earlier and recorded…”; method: “More students finished breakfast before the first bell…”.",
-                "Initial concern: “Several pupils arrived late because the cafeteria opened…”; method: “The school opened one serving line earlier and recorded…”."
+                "Mildly mocking impatience with objections he views as unpersuasive.",
+                "An admission that every criticism is correct.",
+                "A purely neutral enumeration of household income.",
+                "Fear that his figures will be ignored by all readers."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Several pupils arrived late because the cafeteria opened only shortly before lessons began. and the subsequent investigative procedure is The school opened one serving line earlier and recorded arrival patterns for a month..",
+              "correctIndex": 0,
+              "explanation": "The derisive term conveys impatience and humor in addressing objections.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The School Breakfast Trial\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Causal claim",
+              "prompt": "How does the passage connect luxury to perceived scarcity?",
               "choices": [
-                "The observation (“More students finished breakfast before the first bell…”) matters, but the limit (“The study could not determine whether attendance changed…”) remains.",
-                "The observation (“More students finished breakfast before the first bell…”) rules out every alternative cause.",
-                "The limitation (“The study could not determine whether attendance changed…”) disproves the observation itself.",
-                "The method (“The school opened one serving line earlier and recorded…”) guarantees the result before measurement."
+                "It says expensive items can never be purchased.",
+                "It argues expensive desires always increase health.",
+                "It treats necessities and luxuries as interchangeable categories.",
+                "It suggests that people may feel deprived because they demand comforts beyond basic needs."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as More students finished breakfast before the first bell during the trial. but must be read alongside The study could not determine whether attendance changed for every reason..",
+              "correctIndex": 3,
+              "explanation": "His closing paradox contrasts genuine necessities with the pursuit of luxuries.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The School Breakfast Trial\" relate to the strength and limits of the earlier observations?",
+              "type": "Argument structure",
+              "prompt": "What is the sequence of the author's reasoning?",
               "choices": [
-                "The observation (“More students finished breakfast before the first bell…”) shows that measurement was unnecessary.",
-                "The response (“Administrators continued the early service while…”) follows evidence but remains open to reassessment.",
-                "The response (“Administrators continued the early service while…”) is proof of success in every setting.",
-                "The caveat (“The study could not determine whether attendance changed…”) makes the observations worthless."
+                "A historical quotation followed by an unrelated poem.",
+                "An account of costs and earnings, followed by interpretation of the experiment and a challenge to conventional wants.",
+                "A discussion of civic law followed by a technological solution.",
+                "A fictional dialogue in which characters dispute the price of food."
               ],
               "correctIndex": 1,
-              "explanation": "The findings informed Administrators continued the early service while collecting more feedback.; the stated limit The study could not determine whether attendance changed for every reason. still matters.",
+              "explanation": "The financial report supports a reflection on independence and the difference between wants and needs.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             },
             {
               "id": "R04-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The School Breakfast Trial\" without ignoring its stated limitation?",
+              "type": "Counterargument",
+              "prompt": "Which objection would most directly test the generalizability of the author's conclusions?",
               "choices": [
-                "Repeat the method (“The school opened one serving line earlier and recorded…”) while testing the concern (“The study could not determine whether attendance changed…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "His food list is not arranged alphabetically.",
+                "His botanical vocabulary is insufficiently technical.",
+                "Health, disability, housing, family responsibilities and access to land may make his experience unrepresentative.",
+                "He did not record the name of every shopkeeper."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The study could not determine whether attendance changed for every reason., while comparing evidence from the original method, The school opened one serving line earlier and recorded arrival patterns for a month..",
+              "correctIndex": 2,
+              "explanation": "The feasibility of simple living may depend on resources, responsibilities and health that differ across readers.",
               "passageId": "R04-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — The Cost of Living"
             }
-          ]
+          ],
+          "source": {
+            "work": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "url": "https://www.gutenberg.org/ebooks/205",
+            "rights": "Public domain in United States",
+            "start": "So that all the pecuniary outgoes, excepting for washing and mending, which for the most part w",
+            "end": "know a good woman who thinks that her son lost his life because he took to drinking water only."
+          },
+          "sourceReference": "ADV-04-P4"
         }
       ],
       "vocabularyQuestions": [
