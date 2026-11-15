@@ -476,12 +476,15 @@ function verbalVocab(category,bank,index){
   if(!choices)return null;
   return {category,prompt:'Which choice expresses the closest opposite of “'+w.word+'”, attending to its precise meaning?',answer,choices,explain:w.word+' means '+w.meaning+'. Its contextual opposite is '+answer+'.',studyWords:[w.word]};
  }
- const partners=other.filter(x=>x.synonym&&x.synonym.trim()&&x.synonym.trim().split(/\s+/).length===1);
- if(!partners.length)return null;
- const partner=partners[index%partners.length],answer=partner.synonym;
- const choices=hardChoices(answer,'synonym',partner);
+ // Alternate analogy relationships; a synonym-only analogy bank teaches pattern guessing.
+ const useOpposite=index%3===0;
+ const partners=other.filter(x=>(useOpposite?x.antonym:x.synonym)&&String(useOpposite?x.antonym:x.synonym).trim().split(/\s+/).length===1);
+ const lead=useOpposite?(w.antonym?w:null):w;
+ if(!partners.length||!lead)return null;
+ const partner=partners[index%partners.length],field=useOpposite?'antonym':'synonym',answer=partner[field];
+ const choices=hardChoices(answer,field,partner);
  if(!choices)return null;
- return {category,prompt:'Choose the term that best preserves the same precise synonym relationship: '+w.word.toUpperCase()+' : '+(w.synonym||w.meaning).toUpperCase()+' :: '+partner.word.toUpperCase()+' : ___',answer,choices,explain:'The first pair expresses near-equivalence in meaning; '+partner.word+' means '+partner.meaning+' and its closest equivalent among the choices is '+answer+'.',studyWords:[w.word,partner.word]};
+ return {category,prompt:'Complete the analogy, preserving the '+(useOpposite?'opposition':'near-equivalence')+' between the first pair: '+w.word.toUpperCase()+' : '+String(w[field]||w.meaning).toUpperCase()+' :: '+partner.word.toUpperCase()+' : ___',answer,choices,explain:'The first pair is a '+(useOpposite?'contrast in meaning':'synonym relationship')+'. '+partner.word+' means '+partner.meaning+'; the '+(useOpposite?'opposite':'near-equivalent')+' is '+answer+'.',studyWords:[w.word,partner.word]};
 }
 const ADVANCED_CLASSIFICATION=[
 [['equivocal','ambiguous','cryptic','unequivocal'],'unequivocal','The first three can obscure precise meaning; unequivocal is unambiguous.'],
