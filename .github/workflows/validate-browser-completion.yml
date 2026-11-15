@@ -18,7 +18,11 @@ on:
 jobs:
   browser-completion:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,9 +31,11 @@ jobs:
       - name: Install browser test runner
         run: |
           npm install --no-save playwright@1.57.0
-          npx playwright install --with-deps chromium
+          npx playwright install --with-deps ${{ matrix.browser }}
       - name: Start static site
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/hspt-site.log 2>&1 &
       - name: Test submission, persistence and overview
+        env:
+          BROWSER: ${{ matrix.browser }}
         run: node tests/browser-completion-smoke.cjs
