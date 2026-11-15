@@ -4077,9 +4077,9 @@
       "passages": [
         {
           "id": "R05-P1",
-          "title": "Listening to Forest Soil",
-          "genre": "science",
-          "text": "A forest research team investigated how fallen leaves affect moisture in the soil beneath young trees. A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nResearchers placed sensors in paired plots and measured moisture without disturbing the roots. Plots covered in fallen leaves retained more moisture during warm afternoons. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their collaborative approach involved examining the available information before making the next decision.\n\nDifferent tree species and soil types might have influenced the comparison. The team planned longer monitoring before recommending changes to a large restoration program. The forest floor is an active part of the ecosystem rather than simply a place where leaves accumulate. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Darwin — Fertility and Changing Conditions",
+          "genre": "historical scientific argument",
+          "text": "In regard to the sterility of hybrids, in which the sexual elements are imperfectly developed, the case is very different. I have more than once alluded to a large body of facts, which I have collected, showing that when animals and plants are removed from their natural conditions, they are extremely liable to have their reproductive systems seriously affected. This, in fact, is the great bar to the domestication of animals. Between the sterility thus superinduced and that of hybrids, there are many points of similarity. In both cases the sterility is independent of general health, and is often accompanied by excess of size or great luxuriance. In both cases, the sterility occurs in various degrees; in both, the male element is the most liable to be affected; but sometimes the female more than the male. In both, the tendency goes to a certain extent with systematic affinity, for whole groups of animals and plants are rendered impotent by the same unnatural conditions; and whole groups of species tend to produce sterile hybrids. On the other hand, one species in a group will sometimes resist great changes of conditions with unimpaired fertility; and certain species in a group will produce unusually fertile hybrids. No one can tell, till he tries, whether any particular animal will breed under confinement or any plant seed freely under culture; nor can he tell, till he tries, whether any two species of a genus will produce more or less sterile hybrids. Lastly, when organic beings are placed during several generations under conditions not natural to them, they are extremely liable to vary, which is due, as I believe, to their reproductive systems having been specially affected, though in a lesser degree than when sterility ensues. So it is with hybrids, for hybrids in successive generations are eminently liable to vary, as every experimentalist has observed.\n\nThus we see that when organic beings are placed under new and unnatural conditions, and when hybrids are produced by the unnatural crossing of two species, the reproductive system, independently of the general state of health, is affected by sterility in a very similar manner. In the one case, the conditions of life have been disturbed, though often in so slight a degree as to be inappreciable by us; in the other case, or that of hybrids, the external conditions have remained the same, but the organisation has been disturbed by two different structures and constitutions having been blended into one. For it is scarcely possible that two organisations should be compounded into one, without some disturbance occurring in the development, or periodical action, or mutual relation of the different parts and organs one to another, or to the conditions of life. When hybrids are able to breed inter se, they transmit to their offspring from generation to generation the same compounded organisation, and hence we need not be surprised that their sterility, though in some degree variable, rarely diminishes.",
           "term": [
             "collaborative",
             "cooperative",
@@ -4090,165 +4090,185 @@
           "questions": [
             {
               "id": "R05-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Listening to Forest Soil\"?",
+              "type": "Analogy of mechanisms",
+              "prompt": "Which comparison forms the basis of Darwin's reasoning?",
               "choices": [
-                "The proposed response (“The team planned longer monitoring before recommending…”) makes the original concern irrelevant.",
-                "The method (“Researchers placed sensors in paired plots and measured…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Plots covered in fallen leaves retained more moisture…”) is treated as unrelated to the original investigation.",
-                "The concern (“A dry spring had left exposed soil hard while nearby…”) leads to inquiry, but “Different tree species and soil types might have…” limits the inference."
+                "Both hybrid organisms and organisms in altered environments may show reproductive impairment despite otherwise vigorous health.",
+                "Hybrid organisms are always smaller than their parents.",
+                "A domesticated animal and a hybrid necessarily share the same ancestry.",
+                "Fertility is unaffected by either new environments or hybridization."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Different tree species and soil types might have influenced the comparison. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Darwin argues the two situations share degrees and patterns of sterility, sometimes independent of outward health.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Listening to Forest Soil\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Qualification",
+              "prompt": "Why does Darwin emphasize that one species may resist changed conditions while another retains unusual hybrid fertility?",
               "choices": [
-                "A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft.",
-                "Researchers placed sensors in paired plots and measured moisture without disturbing the roots.",
-                "Plots covered in fallen leaves retained more moisture during warm afternoons.",
-                "The team planned longer monitoring before recommending changes to a large restoration program."
+                "To prove that species within one genus behave identically.",
+                "To claim that environmental change can never affect fertility.",
+                "To show that broad similarities do not allow precise predictions for every species or cross.",
+                "To deny the existence of reproductive differences."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Exceptions qualify the analogy and support the statement that outcomes must be tested experimentally.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Listening to Forest Soil\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Evidence type",
+              "prompt": "What is the function of the phrase 'No one can tell, till he tries'?",
               "choices": [
-                "Different tree species and soil types might have influenced the comparison.",
-                "Researchers placed sensors in paired plots and measured moisture without disturbing the roots.",
-                "A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft.",
-                "Plots covered in fallen leaves retained more moisture during warm afternoons."
+                "It dismisses all experimental investigation.",
+                "It stresses that particular fertility outcomes require observation rather than confident extrapolation.",
+                "It claims the reproductive system is impossible to study.",
+                "It establishes that all species are equally infertile in captivity."
               ],
               "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Researchers placed sensors in paired plots and measured moisture without disturbing the roots. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "The phrase marks the limits of general rules and the need to test individual cases.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Listening to Forest Soil\", rather than a procedure, caution, or policy response?",
+              "type": "Distinct causes",
+              "prompt": "According to the passage, how do the two categories of reproductive disturbance differ?",
               "choices": [
-                "Different tree species and soil types might have influenced the comparison.",
-                "The team planned longer monitoring before recommending changes to a large restoration program.",
-                "Plots covered in fallen leaves retained more moisture during warm afternoons.",
-                "Researchers placed sensors in paired plots and measured moisture without disturbing the roots."
+                "Both always result from cold temperatures.",
+                "Hybrid sterility is always caused by lack of food.",
+                "Organisms moved from nature retain exactly the same conditions as before.",
+                "Environmental change disturbs life conditions, whereas hybridization blends distinct inherited organizations."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Plots covered in fallen leaves retained more moisture during warm afternoons. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Darwin distinguishes altered external conditions from blended internal organization, while arguing their effects can resemble one another.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Listening to Forest Soil\" from being generalized beyond the available evidence?",
+              "type": "Logical limitation",
+              "prompt": "Which inference would go beyond Darwin's evidence in the passage?",
               "choices": [
-                "Plots covered in fallen leaves retained more moisture during warm afternoons.",
-                "Researchers placed sensors in paired plots and measured moisture without disturbing the roots.",
-                "The team planned longer monitoring before recommending changes to a large restoration program.",
-                "Different tree species and soil types might have influenced the comparison."
+                "A superficially healthy organism may nevertheless have impaired fertility.",
+                "Every hybrid necessarily becomes fully fertile after several generations.",
+                "The male reproductive element may sometimes be more vulnerable.",
+                "Variation can occur alongside reproductive disturbance."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Different tree species and soil types might have influenced the comparison. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Darwin describes variable fertility and says hybrid sterility rarely diminishes; he does not claim universal recovery.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Listening to Forest Soil\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Rhetorical structure",
+              "prompt": "What role does the paragraph beginning 'Thus we see' play?",
               "choices": [
-                "The team planned longer monitoring before recommending changes to a large restoration program.",
-                "A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft.",
-                "Researchers placed sensors in paired plots and measured moisture without disturbing the roots.",
-                "Plots covered in fallen leaves retained more moisture during warm afternoons."
+                "It introduces an unrelated account of taxonomy.",
+                "It rejects the earlier comparison as misleading.",
+                "It synthesizes the evidence and offers distinct explanatory pathways for similar observed outcomes.",
+                "It switches from scientific argument to personal memoir."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The team planned longer monitoring before recommending changes to a large restoration program. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The paragraph restates the analogy and contrasts disturbed life conditions with compounded organization.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Listening to Forest Soil\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Claim and evidence",
+              "prompt": "Why is Darwin's observation that sterility can occur with 'great luxuriance' significant?",
               "choices": [
-                "Initial concern: “Researchers placed sensors in paired plots and measured…”; method: “Plots covered in fallen leaves retained more moisture…”.",
-                "Initial concern: “A dry spring had left exposed soil hard while nearby…”; method: “Researchers placed sensors in paired plots and measured…”.",
-                "Initial concern: “A dry spring had left exposed soil hard while nearby…”; method: “Different tree species and soil types might have…”.",
-                "Initial concern: “Plots covered in fallen leaves retained more moisture…”; method: “The team planned longer monitoring before recommending…”."
+                "It challenges the assumption that visible vigor guarantees reproductive health.",
+                "It establishes that sterile species are always bigger.",
+                "It proves that growth and reproduction have no biological connection.",
+                "It identifies a treatment that restores fertility."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with A dry spring had left exposed soil hard while nearby patches under leaf litter remained soft. and the subsequent investigative procedure is Researchers placed sensors in paired plots and measured moisture without disturbing the roots..",
+              "correctIndex": 0,
+              "explanation": "A plant or animal may look vigorous while reproduction is impaired, separating outward health from fertility.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Listening to Forest Soil\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Interpretive precision",
+              "prompt": "What does Darwin mean by describing effects as occurring 'in various degrees'?",
               "choices": [
-                "The limitation (“Different tree species and soil types might have…”) disproves the observation itself.",
-                "The method (“Researchers placed sensors in paired plots and measured…”) guarantees the result before measurement.",
-                "The observation (“Plots covered in fallen leaves retained more moisture…”) matters, but the limit (“Different tree species and soil types might have…”) remains.",
-                "The observation (“Plots covered in fallen leaves retained more moisture…”) rules out every alternative cause."
+                "Only two mutually exclusive outcomes are possible.",
+                "Every organism experiences precisely the same reduction.",
+                "Fertility outcomes can differ in severity rather than appearing as a single uniform condition.",
+                "Any measurement of fertility is inherently meaningless."
               ],
               "correctIndex": 2,
-              "explanation": "The result is reported as Plots covered in fallen leaves retained more moisture during warm afternoons. but must be read alongside Different tree species and soil types might have influenced the comparison..",
+              "explanation": "The phrase qualifies claims about sterility as a continuum with exceptions and varied degrees.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Listening to Forest Soil\" relate to the strength and limits of the earlier observations?",
+              "type": "Scientific status",
+              "prompt": "How should a modern reader approach the explanation Darwin proposes in this excerpt?",
               "choices": [
-                "The response (“The team planned longer monitoring before recommending…”) is proof of success in every setting.",
-                "The caveat (“Different tree species and soil types might have…”) makes the observations worthless.",
-                "The observation (“Plots covered in fallen leaves retained more moisture…”) shows that measurement was unnecessary.",
-                "The response (“The team planned longer monitoring before recommending…”) follows evidence but remains open to reassessment."
+                "Treat it as a historically situated scientific hypothesis to analyze rather than automatically adopt as current consensus.",
+                "Assume historical scientific prose cannot contain reasoning worth examining.",
+                "Interpret all historical observations as deliberate fabrication.",
+                "Treat each nineteenth-century mechanism as immune to later evidence."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The team planned longer monitoring before recommending changes to a large restoration program.; the stated limit Different tree species and soil types might have influenced the comparison. still matters.",
+              "correctIndex": 0,
+              "explanation": "The excerpt is a nineteenth-century argument combining observations and proposed mechanisms; modern scientific validity requires evidence beyond its age or rhetorical confidence.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             },
             {
               "id": "R05-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Listening to Forest Soil\" without ignoring its stated limitation?",
+              "type": "Central argument",
+              "prompt": "Which summary most faithfully represents the author's conclusion?",
               "choices": [
-                "Repeat the method (“Researchers placed sensors in paired plots and measured…”) while testing the concern (“Different tree species and soil types might have…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Hybrid sterility and environmental infertility are identical in every cause and detail.",
+                "Reproductive impairment under changed conditions and in hybrids shows meaningful parallels, though the disturbances arise through different circumstances.",
+                "Visible health is the sole reliable predictor of fertility.",
+                "Crosses between related species never produce fertile descendants."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, Different tree species and soil types might have influenced the comparison., while comparing evidence from the original method, Researchers placed sensors in paired plots and measured moisture without disturbing the roots..",
+              "correctIndex": 1,
+              "explanation": "The passage emphasizes comparable reproductive effects while preserving distinct explanatory origins and numerous exceptions.",
               "passageId": "R05-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "On the Origin of Species — discussion of hybrid sterility and altered conditions"
             }
-          ]
+          ],
+          "source": {
+            "work": "On the Origin of Species",
+            "author": "Charles Darwin",
+            "year": 1859,
+            "url": "https://www.gutenberg.org/ebooks/1228",
+            "rights": "Public domain in United States",
+            "start": "In regard to the sterility of hybrids, in which the sexual elements are imperfectly developed, ",
+            "end": " need not be surprised that their sterility, though in some degree variable, rarely diminishes."
+          },
+          "sourceReference": "ADV-05-P2"
         },
         {
           "id": "R05-P2",
