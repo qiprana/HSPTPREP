@@ -18,7 +18,7 @@ function advStats(){
  adv$('overallBar').style.width=(ids.length?100*marked.length/ids.length:0)+'%';
 }
 function advRender(){
- adv$('dayPicker').innerHTML=ADV_DAYS.map(day=>'<button class="tab '+(day===advDay?'active':'')+'" data-adv-day="'+day+'">Day '+day+'</button>').join('');
+ adv$('dayPicker').innerHTML=ADV_DAYS.map(day=>{const prefix='ADV-D'+String(day).padStart(2,'0')+'-P';const marked=Object.entries(advProgress).filter(([id,rec])=>id.startsWith(prefix)&&['understood','review'].includes(rec?.status)).length;return '<button class="tab '+(day===advDay?'active':'')+'" data-adv-day="'+day+'" title="'+marked+' of 40 responses reviewed">Day '+day+(marked===40?' ✓':marked?' · '+marked+'/40':'')+'</button>';}).join('');
  adv$('dayPicker').querySelectorAll('[data-adv-day]').forEach(b=>b.onclick=()=>advLoadDay(Number(b.dataset.advDay)));
 
  if(!advPassages.length)return;
