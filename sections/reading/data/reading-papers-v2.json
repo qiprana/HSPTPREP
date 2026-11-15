@@ -19640,9 +19640,9 @@
       "passages": [
         {
           "id": "R20-P1",
-          "title": "A Map of the Stars",
-          "genre": "science",
-          "text": "An astronomy workshop helped younger students notice how constellations appear to shift during the night. Visitors expected the bright stars to remain in one fixed position above the horizon. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nInstructors sketched the same group of stars at several hours and compared the drawings. The star pattern stayed recognizable even as its apparent position changed. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their collaborative approach involved examining the available information before making the next decision.\n\nClouds prevented measurements on several nights, and the group did not measure exact distances. The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night. Repeated observation can turn an apparently confusing pattern into a useful scientific clue. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wells — Can Time Be a Dimension?",
+          "genre": "speculative fiction / philosophical dialogue",
+          "text": "'But,' said the Medical Man, staring hard at a coal in the fire, 'if Time is really only a fourth dimension of Space, why is it, and why has it always been, regarded as something different? And why cannot we move in Time as we move about in the other dimensions of Space?'\n\nThe Time Traveller smiled. 'Are you sure we can move freely in Space? Right and left we can go, backward and forward freely enough, and men always have done so. I admit we move freely in two dimensions. But how about up and down? Gravitation limits us there.'\n\n'Not exactly,' said the Medical Man. 'There are balloons.'\n\n'But before the balloons, save for spasmodic jumping and the inequalities of the surface, man had no freedom of vertical movement.'\n\n'Still they could move a little up and down,' said the Medical Man.\n\n'Easier, far easier down than up.'\n\n'And you cannot move at all in Time, you cannot get away from the present moment.'\n\n'My dear sir, that is just where you are wrong. That is just where the whole world has gone wrong. We are always getting away from the present moment. Our mental existences, which are immaterial and have no dimensions, are passing along the Time-Dimension with a uniform velocity from the cradle to the grave. Just as we should travel _down_ if we began our existence fifty miles above the earth's surface.'\n\n'But the great difficulty is this,' interrupted the Psychologist. 'You _can_ move about in all directions of Space, but you cannot move about in Time.'\n\n'That is the germ of my great discovery. But you are wrong to say that we cannot move about in Time. For instance, if I am recalling an incident very vividly I go back to the instant of its occurrence: I become absent-minded, as you say. I jump back for a moment. Of course we have no means of staying back for any length of Time, any more than a savage or an animal has of staying six feet above the ground. But a civilized man is better off than the savage in this respect. He can go up against gravitation in a balloon, and why should he not hope that ultimately he may be able to stop or accelerate his drift along the Time-Dimension, or even turn about and travel the other way?'\n\n'Oh, _this_,' began Filby, 'is all--'\n\n'Why not?' said the Time Traveller.\n\n'It's against reason,' said Filby.\n\n'What reason?' said the Time Traveller.\n\n'You can show black is white by argument,' said Filby, 'but you will never convince me.'\n\n'Possibly not,' said the Time Traveller. 'But now you begin to see the object of my investigations into the geometry of Four Dimensions. Long ago I had a vague inkling of a machine--'",
           "term": [
             "collaborative",
             "cooperative",
@@ -19653,165 +19653,186 @@
           "questions": [
             {
               "id": "R20-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Map of the Stars\"?",
+              "type": "Opening objection",
+              "prompt": "What central question does the Medical Man initially raise?",
               "choices": [
-                "The concern (“Visitors expected the bright stars to remain in one fixed…”) leads to inquiry, but “Clouds prevented measurements on several nights, and the…” limits the inference.",
-                "The proposed response (“The workshop used the drawings to explain Earth's…”) makes the original concern irrelevant.",
-                "The method (“Instructors sketched the same group of stars at several…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The star pattern stayed recognizable even as its apparent…”) is treated as unrelated to the original investigation."
+                "Whether gravity is stronger in time than space.",
+                "Why time is considered different from spatial dimensions if it is another dimension, and why movement seems restricted.",
+                "Whether balloons can move faster than the Earth.",
+                "Why memory is less reliable than scientific instruments."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Clouds prevented measurements on several nights, and the group did not measure exact distances. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "He asks why time is treated differently and why one cannot move through it as freely as through space.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Map of the Stars\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Analogy",
+              "prompt": "Why does the Time Traveller introduce the example of gravitation restricting vertical movement?",
               "choices": [
-                "The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night.",
-                "Visitors expected the bright stars to remain in one fixed position above the horizon.",
-                "Instructors sketched the same group of stars at several hours and compared the drawings.",
-                "The star pattern stayed recognizable even as its apparent position changed."
+                "To refute the existence of gravity.",
+                "To suggest horizontal travel is impossible.",
+                "To show that apparently natural restrictions on motion can sometimes be overcome with technology.",
+                "To demonstrate that time is not a dimension."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Visitors expected the bright stars to remain in one fixed position above the horizon. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "He contrasts the difficulty of vertical motion with balloons as a technological workaround, preparing the time-travel analogy.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Map of the Stars\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Counterexample",
+              "prompt": "How does the Medical Man's reference to balloons challenge the Time Traveller's claim?",
               "choices": [
-                "The star pattern stayed recognizable even as its apparent position changed.",
-                "Clouds prevented measurements on several nights, and the group did not measure exact distances.",
-                "Instructors sketched the same group of stars at several hours and compared the drawings.",
-                "Visitors expected the bright stars to remain in one fixed position above the horizon."
+                "It points out that humans can move vertically despite gravity's constraints.",
+                "It argues that time has a measurable fourth direction.",
+                "It proves that no human has ever moved up or down.",
+                "It establishes that balloons permit travel to the past."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Instructors sketched the same group of stars at several hours and compared the drawings. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "Balloons are offered as a counterexample to the claim that gravity confines vertical motion, which the Time Traveller then incorporates.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Map of the Stars\", rather than a procedure, caution, or policy response?",
+              "type": "Distinction",
+              "prompt": "What distinction does the Psychologist insist upon?",
               "choices": [
-                "Instructors sketched the same group of stars at several hours and compared the drawings.",
-                "Clouds prevented measurements on several nights, and the group did not measure exact distances.",
-                "The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night.",
-                "The star pattern stayed recognizable even as its apparent position changed."
+                "The difference between memory and physical health.",
+                "The impossibility of moving horizontally.",
+                "The special status of gravity in three dimensions.",
+                "The ability to move in multiple spatial directions versus the inability to choose direction in time."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The star pattern stayed recognizable even as its apparent position changed. The other statements describe different stages of the inquiry.",
+              "explanation": "The Psychologist accepts spatial mobility but treats time's one-way flow as a categorical difference.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Map of the Stars\" from being generalized beyond the available evidence?",
+              "type": "Redefinition",
+              "prompt": "How does the Time Traveller reinterpret ordinary passage through time?",
               "choices": [
-                "Clouds prevented measurements on several nights, and the group did not measure exact distances.",
-                "The star pattern stayed recognizable even as its apparent position changed.",
-                "Instructors sketched the same group of stars at several hours and compared the drawings.",
-                "The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night."
+                "As evidence that people remain fixed at one instant forever.",
+                "As continuous motion along a time dimension, though not under voluntary control.",
+                "As proof that time is merely imaginary.",
+                "As a process that occurs only while remembering childhood."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: Clouds prevented measurements on several nights, and the group did not measure exact distances. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "He claims mental existence moves uniformly from birth to death, recasting unavoidable aging as movement through time.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Map of the Stars\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Reasoning limitation",
+              "prompt": "Why is vivid recollection an imperfect demonstration of travel into the past?",
               "choices": [
-                "The star pattern stayed recognizable even as its apparent position changed.",
-                "The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night.",
-                "Visitors expected the bright stars to remain in one fixed position above the horizon.",
-                "Instructors sketched the same group of stars at several hours and compared the drawings."
+                "Memory proves people can remain physically in earlier years indefinitely.",
+                "Recollection always produces an identical external environment.",
+                "Remembering an event changes one's attention, but does not by itself demonstrate bodily relocation into an earlier time.",
+                "All memories are necessarily false."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The Time Traveller uses memory as an analogy, but mental experience does not establish physical movement back into the past.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Map of the Stars\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Projection",
+              "prompt": "What possibility does the Time Traveller infer from the historical development of balloons?",
               "choices": [
-                "Initial concern: “The star pattern stayed recognizable even as its apparent…”; method: “The workshop used the drawings to explain Earth's…”.",
-                "Initial concern: “Instructors sketched the same group of stars at several…”; method: “The star pattern stayed recognizable even as its apparent…”.",
-                "Initial concern: “Visitors expected the bright stars to remain in one fixed…”; method: “Instructors sketched the same group of stars at several…”.",
-                "Initial concern: “Visitors expected the bright stars to remain in one fixed…”; method: “Clouds prevented measurements on several nights, and the…”."
+                "A future technology might control, slow, or reverse what currently seems an inescapable direction of travel.",
+                "Every difficulty in physics has already been solved.",
+                "All passengers in balloons inevitably travel backward in time.",
+                "Mental recollection is equivalent to engineering a machine."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Visitors expected the bright stars to remain in one fixed position above the horizon. and the subsequent investigative procedure is Instructors sketched the same group of stars at several hours and compared the drawings..",
+              "correctIndex": 0,
+              "explanation": "The balloon analogy motivates the speculation that technology may one day alter time's apparently fixed motion.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Map of the Stars\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Dialogic structure",
+              "prompt": "What is the effect of Filby's claim that the theory is 'against reason'?",
               "choices": [
-                "The observation (“The star pattern stayed recognizable even as its apparent…”) rules out every alternative cause.",
-                "The limitation (“Clouds prevented measurements on several nights, and the…”) disproves the observation itself.",
-                "The method (“Instructors sketched the same group of stars at several…”) guarantees the result before measurement.",
-                "The observation (“The star pattern stayed recognizable even as its apparent…”) matters, but the limit (“Clouds prevented measurements on several nights, and the…”) remains."
+                "It supplies a mathematical refutation.",
+                "It introduces evidence that time has only three dimensions.",
+                "It establishes the narrator's scientific credentials.",
+                "It contrasts a dismissive appeal to common sense with the Time Traveller's demand for a specific argument."
               ],
               "correctIndex": 3,
-              "explanation": "The result is reported as The star pattern stayed recognizable even as its apparent position changed. but must be read alongside Clouds prevented measurements on several nights, and the group did not measure exact distances..",
+              "explanation": "Filby asserts disbelief without giving detailed reasoning, and the Time Traveller challenges him to state what reason rules it out.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Map of the Stars\" relate to the strength and limits of the earlier observations?",
+              "type": "Authorial technique",
+              "prompt": "What is the role of having several speakers challenge the Time Traveller?",
               "choices": [
-                "The response (“The workshop used the drawings to explain Earth's…”) follows evidence but remains open to reassessment.",
-                "The response (“The workshop used the drawings to explain Earth's…”) is proof of success in every setting.",
-                "The caveat (“Clouds prevented measurements on several nights, and the…”) makes the observations worthless.",
-                "The observation (“The star pattern stayed recognizable even as its apparent…”) shows that measurement was unnecessary."
+                "To ensure all agree that the machine already exists.",
+                "To stage objections that force the speculative claim to be clarified and developed.",
+                "To establish that the discussion happened in a laboratory experiment.",
+                "To prevent readers from recognizing the central hypothesis."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The workshop used the drawings to explain Earth's rotation without claiming stars themselves were moving around the planet each night.; the stated limit Clouds prevented measurements on several nights, and the group did not measure exact distances. still matters.",
+              "correctIndex": 1,
+              "explanation": "The alternating objections draw out limits and analogies in the Time Traveller's developing argument.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             },
             {
               "id": "R20-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Map of the Stars\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which characterization best captures the passage's intellectual tension?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Instructors sketched the same group of stars at several…”) while testing the concern (“Clouds prevented measurements on several nights, and the…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "The Time Traveller proves the physical possibility of time travel experimentally.",
+                "The Medical Man rejects every kind of motion through space.",
+                "The Time Traveller treats present restrictions as potentially technological rather than absolute, while others question whether the analogy works.",
+                "All speakers agree that ordinary memory is literal time travel."
               ],
-              "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, Clouds prevented measurements on several nights, and the group did not measure exact distances., while comparing evidence from the original method, Instructors sketched the same group of stars at several hours and compared the drawings..",
+              "correctIndex": 2,
+              "explanation": "The dialogue contrasts speculative extrapolation from technological progress with objections about a genuine asymmetry between spatial and temporal motion.",
               "passageId": "R20-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Time Machine — opening debate about time as a dimension"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Time Machine",
+            "author": "H. G. Wells",
+            "year": 1895,
+            "url": "https://www.gutenberg.org/ebooks/35",
+            "rights": "Public domain in United States",
+            "start": "'But,' said the Medical Man, staring hard at a coal in the fire, 'if Time is really only a four",
+            "end": "stigations into the geometry of Four Dimensions. Long ago I had a vague inkling of a machine--'"
+          },
+          "sourceReference": "ADV-01-P3",
+          "contextNote": "Fictional dialogue exploring a speculative analogy between time and space. The Time Traveller's claims are literary arguments, not established physics."
         },
         {
           "id": "R20-P2",
