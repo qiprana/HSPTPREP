@@ -6,6 +6,8 @@ on:
       - 'sections/language/data/language-20day-curriculum-spelling.json'
       - 'sections/language/data/language-hspt-book-spelling.json'
       - 'tests/validate-language-papers.js'
+      - 'tests/validate-language-advanced.js'
+      - 'sections/language/data/language-advanced-v1.json'
       - '.github/workflows/validate-language.yml'
   pull_request:
     paths:
@@ -22,4 +24,6 @@ jobs:
         with:
           node-version: '22'
       - name: Validate 20 full papers and spelling coverage
-        run: node tests/validate-language-papers.js
+        run: |
+          node tests/validate-language-papers.js
+          node tests/validate-language-advanced.js
