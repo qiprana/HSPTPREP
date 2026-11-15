@@ -13414,9 +13414,9 @@
       "passages": [
         {
           "id": "R14-P1",
-          "title": "The Shape of a Bridge",
-          "genre": "science",
-          "text": "An engineering club compared two model bridges built with the same amount of cardboard. Both bridges held light loads, but one bent sharply when extra weights were added. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe students changed the arrangement of folded supports while keeping the material quantity constant. The triangular support pattern carried a heavier load before bending. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their measured approach involved examining the available information before making the next decision.\n\nScale models cannot reproduce every property of a full-size bridge. The club documented the result and asked a civil engineer to review the design. How material is arranged can matter as much as how much material is used. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Costs of Unstable Laws",
+          "genre": "historical political argument",
+          "text": "In the first place, it forfeits the respect and confidence of other nations, and all the advantages connected with national character. An individual who is observed to be inconstant to his plans, or perhaps to carry on his affairs without any plan at all, is marked at once, by all prudent people, as a speedy victim to his own unsteadiness and folly. His more friendly neighbors may pity him, but all will decline to connect their fortunes with his; and not a few will seize the opportunity of making their fortunes out of his. One nation is to another what one individual is to another; with this melancholy distinction perhaps, that the former, with fewer of the benevolent emotions than the latter, are under fewer restraints also from taking undue advantage from the indiscretions of each other. Every nation, consequently, whose affairs betray a want of wisdom and stability, may calculate on every loss which can be sustained from the more systematic policy of their wiser neighbors. But the best instruction on this subject is unhappily conveyed to America by the example of her own situation. She finds that she is held in no respect by her friends; that she is the derision of her enemies; and that she is a prey to every nation which has an interest in speculating on her fluctuating councils and embarrassed affairs.\n\nThe internal effects of a mutable policy are still more calamitous. It poisons the blessing of liberty itself. It will be of little avail to the people, that the laws are made by men of their own choice, if the laws be so voluminous that they cannot be read, or so incoherent that they cannot be understood; if they be repealed or revised before they are promulgated, or undergo such incessant changes that no man, who knows what the law is to-day, can guess what it will be to-morrow. Law is defined to be a rule of action; but how can that be a rule, which is little known, and less fixed?\n\nAnother effect of public instability is the unreasonable advantage it gives to the sagacious, the enterprising, and the moneyed few over the industrious and uniformed mass of the people. Every new regulation concerning commerce or revenue, or in any way affecting the value of the different species of property, presents a new harvest to those who watch the change, and can trace its consequences; a harvest, reared not by themselves, but by the toils and cares of the great body of their fellow-citizens. This is a state of things in which it may be said with some truth that laws are made for the FEW, not for the MANY.\n\nIn another point of view, great injury results from an unstable government. The want of confidence in the public councils damps every useful undertaking, the success and profit of which may depend on a continuance of existing arrangements. What prudent merchant will hazard his fortunes in any new branch of commerce when he knows not but that his plans may be rendered unlawful before they can be executed? What farmer or manufacturer will lay himself out for the encouragement given to any particular cultivation or establishment, when he can have no assurance that his preparatory labors and advances will not render him a victim to an inconstant government? In a word, no great improvement or laudable enterprise can go forward which requires the auspices of a steady system of national policy.",
           "term": [
             "measured",
             "carefully considered",
@@ -13427,165 +13427,186 @@
           "questions": [
             {
               "id": "R14-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Shape of a Bridge\"?",
+              "type": "Analogy",
+              "prompt": "Why does the author compare an inconsistent nation to an individual who repeatedly changes plans?",
               "choices": [
-                "The method (“The students changed the arrangement of folded supports…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The triangular support pattern carried a heavier load…”) is treated as unrelated to the original investigation.",
-                "The concern (“Both bridges held light loads, but one bent sharply when…”) leads to inquiry, but “Scale models cannot reproduce every property of a…” limits the inference.",
-                "The proposed response (“The club documented the result and asked a civil engineer…”) makes the original concern irrelevant."
+                "To claim nations are literally single people.",
+                "To suggest unreliable behavior undermines trust and exposes the actor to exploitation.",
+                "To show individuals have greater military power than states.",
+                "To argue friendship has no role in international relations."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Scale models cannot reproduce every property of a full-size bridge. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Both figures lose others' confidence, and the author argues nations may face even fewer restraints on opportunistic treatment.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Shape of a Bridge\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Claim structure",
+              "prompt": "How does the passage organize the costs of unstable policy?",
               "choices": [
-                "The students changed the arrangement of folded supports while keeping the material quantity constant.",
-                "The triangular support pattern carried a heavier load before bending.",
-                "The club documented the result and asked a civil engineer to review the design.",
-                "Both bridges held light loads, but one bent sharply when extra weights were added."
+                "By moving from external reputation to internal legal certainty, unequal advantage, and long-term investment.",
+                "By discussing only the cost of foreign wars.",
+                "By presenting one personal story with no general argument.",
+                "By comparing the details of two constitutions clause by clause."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: Both bridges held light loads, but one bent sharply when extra weights were added. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The successive paragraphs address international respect, comprehensibility of laws, unequal gains, and investment confidence.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Shape of a Bridge\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Conceptual definition",
+              "prompt": "What is the point of calling law a 'rule of action'?",
               "choices": [
-                "The students changed the arrangement of folded supports while keeping the material quantity constant.",
-                "Both bridges held light loads, but one bent sharply when extra weights were added.",
-                "The triangular support pattern carried a heavier load before bending.",
-                "Scale models cannot reproduce every property of a full-size bridge."
+                "To insist all statutes must be short.",
+                "To argue every law is easy to understand.",
+                "To show that a rule fails its purpose when people cannot know or rely on what it requires.",
+                "To demand that laws never be amended in any circumstance."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: The students changed the arrangement of folded supports while keeping the material quantity constant. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The rhetorical question challenges laws whose frequent changes prevent people from using them to guide conduct.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Shape of a Bridge\", rather than a procedure, caution, or policy response?",
+              "type": "Distributional effect",
+              "prompt": "Why may frequent regulatory change favor the 'moneyed few'?",
               "choices": [
-                "The club documented the result and asked a civil engineer to review the design.",
-                "The triangular support pattern carried a heavier load before bending.",
-                "The students changed the arrangement of folded supports while keeping the material quantity constant.",
-                "Scale models cannot reproduce every property of a full-size bridge."
+                "Wealthy individuals always write every regulation.",
+                "Poor citizens never engage in commerce.",
+                "New rules have no effect on property values.",
+                "Those with resources and information can anticipate changes and benefit before others adjust."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The triangular support pattern carried a heavier load before bending. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The passage says attentive and well-resourced actors can trace consequences of new regulations, gaining advantages produced by others' labor.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Shape of a Bridge\" from being generalized beyond the available evidence?",
+              "type": "Causal chain",
+              "prompt": "How can uncertainty about future law discourage investment?",
               "choices": [
-                "The students changed the arrangement of folded supports while keeping the material quantity constant.",
-                "The club documented the result and asked a civil engineer to review the design.",
-                "Scale models cannot reproduce every property of a full-size bridge.",
-                "The triangular support pattern carried a heavier load before bending."
+                "A merchant may avoid committing capital if a project could become impermissible before completion.",
+                "Every investment requires immediate government subsidies.",
+                "Farmers necessarily oppose every new technology.",
+                "Manufacturers cannot understand the language of any statute."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Scale models cannot reproduce every property of a full-size bridge. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The merchant and farmer examples link the risk of altered rules to reluctance to make preparatory investments.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Shape of a Bridge\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Rhetorical effect",
+              "prompt": "What is the role of the phrase 'laws are made for the FEW, not for the MANY'?",
               "choices": [
-                "Both bridges held light loads, but one bent sharply when extra weights were added.",
-                "The students changed the arrangement of folded supports while keeping the material quantity constant.",
-                "The triangular support pattern carried a heavier load before bending.",
-                "The club documented the result and asked a civil engineer to review the design."
+                "It is a literal constitutional provision.",
+                "It summarizes the unequal gains that can arise when policy changes reward a small, informed group.",
+                "It proves that only a few citizens vote.",
+                "It marks the beginning of a different topic unrelated to legislation."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The club documented the result and asked a civil engineer to review the design. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The phrase distills the previous argument about disproportionate advantage from regulation changes.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Shape of a Bridge\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Qualification",
+              "prompt": "Which statement would overstate the author's argument?",
               "choices": [
-                "Initial concern: “Both bridges held light loads, but one bent sharply when…”; method: “The students changed the arrangement of folded supports…”.",
-                "Initial concern: “Both bridges held light loads, but one bent sharply when…”; method: “Scale models cannot reproduce every property of a…”.",
-                "Initial concern: “The triangular support pattern carried a heavier load…”; method: “The club documented the result and asked a civil engineer…”.",
-                "Initial concern: “The students changed the arrangement of folded supports…”; method: “The triangular support pattern carried a heavier load…”."
+                "Predictability can matter for commerce.",
+                "Inconsistent laws can undermine their usefulness.",
+                "Any revision to a law is necessarily harmful and illegitimate.",
+                "Foreign governments may exploit instability."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with Both bridges held light loads, but one bent sharply when extra weights were added. and the subsequent investigative procedure is The students changed the arrangement of folded supports while keeping the material quantity constant..",
+              "correctIndex": 2,
+              "explanation": "The author condemns incessant or incoherent change, not every possible justified modification of law.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Shape of a Bridge\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Evidence evaluation",
+              "prompt": "What kind of information would most directly test the claim that unstable rules discourage enterprise?",
               "choices": [
-                "The method (“The students changed the arrangement of folded supports…”) guarantees the result before measurement.",
-                "The observation (“The triangular support pattern carried a heavier load…”) matters, but the limit (“Scale models cannot reproduce every property of a…”) remains.",
-                "The observation (“The triangular support pattern carried a heavier load…”) rules out every alternative cause.",
-                "The limitation (“Scale models cannot reproduce every property of a…”) disproves the observation itself."
+                "A list of government building colors.",
+                "The number of words in a single speech.",
+                "The popularity of a political slogan.",
+                "Investment decisions before and after comparable regulatory shifts, accounting for other economic conditions."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The triangular support pattern carried a heavier load before bending. but must be read alongside Scale models cannot reproduce every property of a full-size bridge..",
+              "correctIndex": 3,
+              "explanation": "Behavioral investment evidence controls for competing economic causes and addresses the proposed effect of instability.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Shape of a Bridge\" relate to the strength and limits of the earlier observations?",
+              "type": "Audience appeal",
+              "prompt": "How does the author connect institutional design to ordinary citizens' interests?",
               "choices": [
-                "The caveat (“Scale models cannot reproduce every property of a…”) makes the observations worthless.",
-                "The observation (“The triangular support pattern carried a heavier load…”) shows that measurement was unnecessary.",
-                "The response (“The club documented the result and asked a civil engineer…”) follows evidence but remains open to reassessment.",
-                "The response (“The club documented the result and asked a civil engineer…”) is proof of success in every setting."
+                "He describes how uncertainty affects people's ability to understand laws, protect earnings, and make plans.",
+                "He argues only elite investors deserve predictable rules.",
+                "He focuses exclusively on the dignity of public officials.",
+                "He treats legal stability as unrelated to daily life."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The club documented the result and asked a civil engineer to review the design.; the stated limit Scale models cannot reproduce every property of a full-size bridge. still matters.",
+              "correctIndex": 0,
+              "explanation": "The argument emphasizes practical consequences for workers, merchants, farmers and the broader public.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             },
             {
               "id": "R14-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Shape of a Bridge\" without ignoring its stated limitation?",
+              "type": "Central argument",
+              "prompt": "Which principle most accurately captures the passage's thesis?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The students changed the arrangement of folded supports…”) while testing the concern (“Scale models cannot reproduce every property of a…”)."
+                "A state earns trust chiefly by changing its laws every week.",
+                "Stable and intelligible public policy supports trust, fairness, and the planning needed for productive activity.",
+                "Only foreign perceptions matter when designing laws.",
+                "Private industry should operate without any rules."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, Scale models cannot reproduce every property of a full-size bridge., while comparing evidence from the original method, The students changed the arrangement of folded supports while keeping the material quantity constant..",
+              "correctIndex": 1,
+              "explanation": "The author connects consistency to national credibility, usable law, equitable opportunity and long-term enterprise.",
               "passageId": "R14-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — instability of public policy"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "In the first place, it forfeits the respect and confidence of other nations, and all the advant",
+            "end": "le enterprise can go forward which requires the auspices of a steady system of national policy."
+          },
+          "sourceReference": "ADV-14-P3",
+          "contextNote": "Historical constitutional argument. Questions assess the reasoning of the author, not endorsement of a political position."
         },
         {
           "id": "R14-P2",
