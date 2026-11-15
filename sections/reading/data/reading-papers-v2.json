@@ -1183,7 +1183,7 @@
           "id": "R02-P2",
           "title": "The Archive in the Attic",
           "genre": "history",
-          "text": "A small historical society discovered boxes of letters while renovating a century-old town hall. Several envelopes lacked dates, making it difficult to arrange the correspondence. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nArchivists compared names in the letters with census entries, newspapers, and old maps. A letter referring to a newly opened railway station helped place several documents within the same decade. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their deliberate approach involved examining the available information before making the next decision.\n\nThe evidence could not establish exactly who wrote every unsigned letter. The society organized a public exhibit that distinguished confirmed dates from educated estimates. Historical investigation grows stronger when researchers separate what records prove from what they only suggest. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "During the renovation of a century-old town hall, a historical society uncovered two boxes of letters whose envelopes had lost their dates. A curator initially proposed arranging the documents according to the apparent age of the paper. Her colleague objected: paper can remain unused for decades, and storage conditions can make a newer letter look older than an earlier one. The society wanted a chronological exhibit, but the condition of the artifacts could not, by itself, provide a chronology.\n\nThe archivists began with references inside the letters. One writer mentioned a railway station that newspapers reported opening in 1894; another described a mayor whose term ended in 1901. The station reference supplied a possible earliest date for that letter, provided the writer was describing an already opened station rather than a proposed one. The mayor's name narrowed a different letter's likely period, although a retired official could still have been mentioned years later. Rather than treating either clue as a precise date, the archivists searched census registers, local maps, and contemporary advertisements for corroboration.\n\nTheir work revealed a more difficult problem. Three letters appeared to be in the same handwriting and mentioned the same family, but one carried a signature that another source attributed to a different individual. The archivists considered whether a family member had written on someone else's behalf or whether their handwriting comparison was mistaken. A volunteer suggested using the repeated phrases in the letters as proof of common authorship. The lead archivist replied that family members or business partners often copy one another's wording, so verbal similarity, like handwriting, could be suggestive without being decisive.\n\nWhen the exhibit opened, the society used three labels: documented dates, probable date ranges, and dates unknown. It placed a short explanation beside each provisional attribution and invited visitors to offer family records that might clarify the collection. Some trustees worried that openly acknowledging uncertainty would undermine the museum's authority. The curators argued that concealing uncertainty would be worse: visitors might mistake a plausible reconstruction for an established fact.\n\nA month later, a descendant produced a diary entry that resolved the date of one letter but contradicted the proposed authorship of another. The staff revised both labels without removing the exhibit. The collection had not become less historically useful because an inference had changed. Instead, the correction illustrated why the society had distinguished surviving evidence from the stories it could responsibly tell about that evidence.",
           "term": [
             "deliberate",
             "intentional",
@@ -1193,164 +1193,164 @@
           ],
           "questions": [
             {
+              "type": "Methodology",
+              "prompt": "Why is the curator's proposal to order letters by the apparent age of their paper rejected?",
+              "choices": [
+                "The letters are all known to have been written on the same day.",
+                "Paper appearance can reflect storage and reuse rather than writing date.",
+                "Only signed documents can be placed in chronological order.",
+                "Census registers always identify the exact date of a letter."
+              ],
+              "correctIndex": 1,
+              "explanation": "Unused paper and varying storage conditions break the assumed link between appearance and date. The criticism concerns the reliability of an indicator, not a rule excluding unsigned letters.",
               "id": "R02-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Archive in the Attic\"?",
-              "choices": [
-                "The proposed response (“The society organized a public exhibit that distinguished…”) makes the original concern irrelevant.",
-                "The method (“Archivists compared names in the letters with census…”) rules out every possible competing explanation.",
-                "The recorded outcome (“A letter referring to a newly opened railway station…”) is treated as unrelated to the original investigation.",
-                "The concern (“Several envelopes lacked dates, making it difficult to…”) leads to inquiry, but “The evidence could not establish exactly who wrote every…” limits the inference."
-              ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The evidence could not establish exactly who wrote every unsigned letter. prevents an overly broad conclusion.",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
+              "type": "Interpretation",
+              "prompt": "Why does the railway-station reference establish a conditional rather than certain earliest date?",
+              "choices": [
+                "The local newspapers may have described only the cost of construction.",
+                "A railway opening never helps to date a historical document.",
+                "The letter might describe a planned opening instead of one that had already occurred.",
+                "All references to public buildings were necessarily written decades afterward."
+              ],
+              "correctIndex": 2,
+              "explanation": "The 1894 opening can provide a lower bound only if the writer refers to an event already completed. If it was a future plan, the letter could predate the opening.",
               "id": "R02-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Archive in the Attic\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
-              "choices": [
-                "A letter referring to a newly opened railway station helped place several documents within the same decade.",
-                "The society organized a public exhibit that distinguished confirmed dates from educated estimates.",
-                "Several envelopes lacked dates, making it difficult to arrange the correspondence.",
-                "Archivists compared names in the letters with census entries, newspapers, and old maps."
-              ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Several envelopes lacked dates, making it difficult to arrange the correspondence. The other choices describe what was done or discovered afterward.",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
+              "type": "Inference",
+              "prompt": "What does the example of the mayor's name reveal about dating evidence?",
+              "choices": [
+                "A named person's period in office narrows possibilities but does not automatically fix the date.",
+                "A mayor's term can be established only by comparing handwriting.",
+                "Retired officials are never mentioned in later correspondence.",
+                "Public records are generally less useful than the condition of an envelope."
+              ],
+              "correctIndex": 0,
+              "explanation": "The name helps identify a likely period, yet reference to a former officeholder could occur much later. The clue supports a bounded inference, not a definitive timestamp.",
               "id": "R02-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Archive in the Attic\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "passageId": "R02-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "individually-authored-editorial-review-pending"
+            },
+            {
+              "type": "Source evaluation",
+              "prompt": "Which evidence would best help resolve whether one person wrote all three similar-looking letters?",
               "choices": [
-                "Several envelopes lacked dates, making it difficult to arrange the correspondence.",
-                "A letter referring to a newly opened railway station helped place several documents within the same decade.",
-                "The evidence could not establish exactly who wrote every unsigned letter.",
-                "Archivists compared names in the letters with census entries, newspapers, and old maps."
+                "A visitor's preference for a single-author narrative.",
+                "The fact that every letter belonged to the same discovered box.",
+                "A comparison of the letters' most frequently repeated phrases alone.",
+                "Authenticated writing samples and records showing who corresponded with the named family."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Archivists compared names in the letters with census entries, newspapers, and old maps. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
-              "passageId": "R02-P2",
-              "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
-            },
-            {
+              "explanation": "Independent authenticated samples and correspondence records directly test handwriting and authorship. Box proximity and shared phrases can reflect archival grouping or social connections rather than one writer.",
               "id": "R02-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Archive in the Attic\", rather than a procedure, caution, or policy response?",
-              "choices": [
-                "A letter referring to a newly opened railway station helped place several documents within the same decade.",
-                "Archivists compared names in the letters with census entries, newspapers, and old maps.",
-                "The evidence could not establish exactly who wrote every unsigned letter.",
-                "The society organized a public exhibit that distinguished confirmed dates from educated estimates."
-              ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: A letter referring to a newly opened railway station helped place several documents within the same decade. The other statements describe different stages of the inquiry.",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Archive in the Attic\" from being generalized beyond the available evidence?",
+              "type": "Argument analysis",
+              "prompt": "What assumption underlies the volunteer's proposal about repeated phrases?",
               "choices": [
-                "The society organized a public exhibit that distinguished confirmed dates from educated estimates.",
-                "The evidence could not establish exactly who wrote every unsigned letter.",
-                "A letter referring to a newly opened railway station helped place several documents within the same decade.",
-                "Archivists compared names in the letters with census entries, newspapers, and old maps."
+                "The letters were all addressed to the railway company.",
+                "Shared wording is sufficiently distinctive to establish shared authorship.",
+                "Different writers never had access to the same family records.",
+                "The handwritten signature is more trustworthy than census data."
               ],
               "correctIndex": 1,
-              "explanation": "The limitation is: The evidence could not establish exactly who wrote every unsigned letter. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The volunteer infers an identity of writer from similarity of wording. The lead archivist challenges that assumption by explaining how related people might use the same phrasing.",
+              "id": "R02-P2-05",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Archive in the Attic\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Rhetoric",
+              "prompt": "Why does the author include the trustees' concern about acknowledging uncertainty?",
               "choices": [
-                "Archivists compared names in the letters with census entries, newspapers, and old maps.",
-                "A letter referring to a newly opened railway station helped place several documents within the same decade.",
-                "The society organized a public exhibit that distinguished confirmed dates from educated estimates.",
-                "Several envelopes lacked dates, making it difficult to arrange the correspondence."
+                "To show that the curators deliberately hid conflicting evidence.",
+                "To prove that visitors refuse to read museum labels.",
+                "To introduce a competing conception of credibility that the curators reject.",
+                "To establish that the family letters had no historical value."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: The society organized a public exhibit that distinguished confirmed dates from educated estimates. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The trustees equate visible uncertainty with diminished authority, while the curators argue that careful qualification strengthens trust. The opposition clarifies the passage's central standard for responsible history.",
+              "id": "R02-P2-06",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Archive in the Attic\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Classification",
+              "prompt": "Which exhibit label would be most appropriate for a letter dated only by a plausible but unconfirmed mayoral reference?",
               "choices": [
-                "Initial concern: “Several envelopes lacked dates, making it difficult to…”; method: “The evidence could not establish exactly who wrote every…”.",
-                "Initial concern: “A letter referring to a newly opened railway station…”; method: “The society organized a public exhibit that distinguished…”.",
-                "Initial concern: “Archivists compared names in the letters with census…”; method: “A letter referring to a newly opened railway station…”.",
-                "Initial concern: “Several envelopes lacked dates, making it difficult to…”; method: “Archivists compared names in the letters with census…”."
+                "Documented date, because all references to elected officials are decisive.",
+                "Date unknown, because tentative clues must never be published.",
+                "Documented date, if a curator believes the story sounds plausible.",
+                "Probable date range, with the reference and its limitation explained."
               ],
               "correctIndex": 3,
-              "explanation": "The issue begins with Several envelopes lacked dates, making it difficult to arrange the correspondence. and the subsequent investigative procedure is Archivists compared names in the letters with census entries, newspapers, and old maps..",
+              "explanation": "A mayor's term may narrow the letter's likely period without proving its precise date. The exhibit's middle category explicitly preserves that distinction.",
+              "id": "R02-P2-07",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Archive in the Attic\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Revision of claims",
+              "prompt": "What is demonstrated by the diary entry's conflicting effects on two letters?",
               "choices": [
-                "The observation (“A letter referring to a newly opened railway station…”) matters, but the limit (“The evidence could not establish exactly who wrote every…”) remains.",
-                "The observation (“A letter referring to a newly opened railway station…”) rules out every alternative cause.",
-                "The limitation (“The evidence could not establish exactly who wrote every…”) disproves the observation itself.",
-                "The method (“Archivists compared names in the letters with census…”) guarantees the result before measurement."
+                "New evidence can confirm one inference while overturning another, requiring targeted revision.",
+                "A single discovery invalidates the entire archival collection.",
+                "The archivists should remove every letter that lacks a signature.",
+                "A revised attribution proves that earlier researchers acted dishonestly."
               ],
               "correctIndex": 0,
-              "explanation": "The result is reported as A letter referring to a newly opened railway station helped place several documents within the same decade. but must be read alongside The evidence could not establish exactly who wrote every unsigned letter..",
+              "explanation": "The diary supports dating one letter and contradicts attribution of another. The staff corrects both labels rather than treating every earlier inference as equally unreliable.",
+              "id": "R02-P2-08",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Archive in the Attic\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "Which comparison best captures the passage's treatment of paper appearance and verbal similarity?",
               "choices": [
-                "The observation (“A letter referring to a newly opened railway station…”) shows that measurement was unnecessary.",
-                "The response (“The society organized a public exhibit that distinguished…”) follows evidence but remains open to reassessment.",
-                "The response (“The society organized a public exhibit that distinguished…”) is proof of success in every setting.",
-                "The caveat (“The evidence could not establish exactly who wrote every…”) makes the observations worthless."
+                "Both are definitive chronological indicators if repeated often enough.",
+                "Both are suggestive clues whose significance depends on independent corroboration.",
+                "The first is always useful, while the second is always meaningless.",
+                "Both are irrelevant because written sources cannot preserve reliable evidence."
               ],
               "correctIndex": 1,
-              "explanation": "The findings informed The society organized a public exhibit that distinguished confirmed dates from educated estimates.; the stated limit The evidence could not establish exactly who wrote every unsigned letter. still matters.",
+              "explanation": "The narrative cautions against treating either paper aging or repeated language as decisive. The problem is not that clues lack value, but that alternative explanations must be considered.",
+              "id": "R02-P2-09",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Archive in the Attic\" without ignoring its stated limitation?",
+              "type": "Central claim",
+              "prompt": "Which principle most closely unites the exhibit labels and the later correction?",
               "choices": [
-                "Repeat the method (“Archivists compared names in the letters with census…”) while testing the concern (“The evidence could not establish exactly who wrote every…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Historical museums should display only evidence that yields certainty.",
+                "The most attractive narrative should prevail when records disagree.",
+                "Scholarly credibility requires distinguishing documented facts from revisable interpretations.",
+                "A public exhibit must preserve its first set of conclusions to retain authority."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The evidence could not establish exactly who wrote every unsigned letter., while comparing evidence from the original method, Archivists compared names in the letters with census entries, newspapers, and old maps..",
+              "correctIndex": 2,
+              "explanation": "The tiered labels disclose levels of confidence, and the later correction demonstrates willingness to revise claims. Both practices distinguish evidence from an interpretation that might change.",
+              "id": "R02-P2-10",
               "passageId": "R02-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
