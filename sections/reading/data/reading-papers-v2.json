@@ -2375,7 +2375,7 @@
           "id": "R03-P3",
           "title": "A Seat at the Table",
           "genre": "narrative",
-          "text": "Jonah joined a school club whose members had already worked together for years. At the first meeting, a discussion moved so quickly that he could not contribute a single idea. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nHe spent the week learning the club's project and prepared one specific question for the next meeting. His question revealed a problem in the schedule that several older members had overlooked. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their practical approach involved examining the available information before making the next decision.\n\nJonah still spoke cautiously and did not suddenly become the loudest person in the room. The group adjusted the plan and invited him to help coordinate a small task. A useful contribution does not require dominating a conversation. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "Jonah entered the student policy club halfway through the semester. At his first meeting, members moved easily between names of committees, deadlines, and documents that meant nothing to him. The president asked whether anyone objected to the schedule for a neighborhood recycling campaign; silence followed, and the group approved it. Jonah had noticed that the proposed printing deadline came before the school board's decision on the campaign design, but he was reluctant to interrupt a discussion he barely understood.\n\nAfter the meeting, the club secretary sent Jonah a folder of earlier minutes. He spent an evening reconstructing the sequence of approvals and learned that the board occasionally requested revisions. If that happened now, the club would have paid to print hundreds of flyers that it could no longer use. When Jonah asked the secretary whether the printing date was fixed, she replied that the printer offered a discount only until Friday. The conflict was therefore not simply a clerical mistake; delaying might cost money, while printing early risked waste.\n\nAt the next meeting, Jonah avoided announcing that the schedule was wrong. Instead, he asked what the club would do if the board requested changes after printing. The treasurer calculated that replacing the flyers would cost more than losing the discount. Another member noted that the board had approved similar campaigns without changes, but could not say how often. The club agreed to request a written design review before placing the order, even if the discount expired. The president thanked Jonah and explained that a new perspective had exposed an assumption the longtime members had stopped questioning.\n\nThe incident did not make Jonah an immediate leader. During subsequent meetings, he still struggled to follow procedural shorthand and sometimes needed someone to explain the history behind a vote. Nor did the club abandon its established habits because of one useful question. Instead, members began adding brief rationale notes to the minutes so that new volunteers could understand why decisions had been made. The modification helped experienced members as well: when two proposed events competed for the same equipment, old notes clarified which commitments were firm and which had only been tentative.\n\nJonah later reflected that he had mistaken fluency for competence. The veteran members spoke quickly because they shared context; their speed did not guarantee that every assumption was sound. His own hesitation had protected him from making an uninformed declaration, but it had nearly kept him from posing an important question. The experience suggested a more useful distinction: informed participation does not require pretending to know everything, but it does require enough preparation to identify the uncertainty worth bringing into a room.",
           "term": [
             "practical",
             "useful in real situations",
@@ -2386,163 +2386,163 @@
           "questions": [
             {
               "id": "R03-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Seat at the Table\"?",
+              "type": "Character motivation",
+              "prompt": "Why does Jonah remain silent at the first meeting despite spotting a possible scheduling problem?",
               "choices": [
-                "The proposed response (“The group adjusted the plan and invited him to help…”) makes the original concern irrelevant.",
-                "The method (“He spent the week learning the club's project and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“His question revealed a problem in the schedule that…”) is treated as unrelated to the original investigation.",
-                "The concern (“At the first meeting, a discussion moved so quickly that…”) leads to inquiry, but “Jonah still spoke cautiously and did not suddenly become…” limits the inference."
+                "He has confirmed the printer will extend the discount.",
+                "He is reluctant to challenge a group whose procedures he does not yet understand.",
+                "He believes all campaign schedules are irrelevant.",
+                "He already knows the school board will approve the design."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Jonah still spoke cautiously and did not suddenly become the loudest person in the room. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Jonah observes a mismatch but lacks the contextual confidence to interrupt. His reluctance does not mean he knows the risk is unimportant.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Seat at the Table\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Trade-off",
+              "prompt": "What tension complicates the decision to postpone flyer printing?",
               "choices": [
-                "At the first meeting, a discussion moved so quickly that he could not contribute a single idea.",
-                "He spent the week learning the club's project and prepared one specific question for the next meeting.",
-                "His question revealed a problem in the schedule that several older members had overlooked.",
-                "The group adjusted the plan and invited him to help coordinate a small task."
+                "Waiting may lose a discount, but printing early may create expensive waste if revisions are required.",
+                "The secretary refuses to send minutes to new members.",
+                "The school board has permanently rejected the campaign.",
+                "The club is prohibited from using external printers."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: At the first meeting, a discussion moved so quickly that he could not contribute a single idea. The other choices describe what was done or discovered afterward.",
+              "explanation": "A lower current price competes with the potential cost of reprinting. The group's choice requires comparing contingent costs.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Seat at the Table\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Evidence limitations",
+              "prompt": "Why does the statement that the board approved earlier campaigns without changes fail to settle the matter?",
               "choices": [
-                "Jonah still spoke cautiously and did not suddenly become the loudest person in the room.",
-                "He spent the week learning the club's project and prepared one specific question for the next meeting.",
-                "At the first meeting, a discussion moved so quickly that he could not contribute a single idea.",
-                "His question revealed a problem in the schedule that several older members had overlooked."
+                "Earlier approvals are unrelated to the board's authority.",
+                "Only written minutes can be evidence in school clubs.",
+                "Without a reliable frequency or guarantee, prior approvals do not rule out revisions now.",
+                "The printer's discount proves the board must approve the design."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: He spent the week learning the club's project and prepared one specific question for the next meeting. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "A history of approvals may inform probability but cannot guarantee an outcome, especially when the member cannot quantify the record.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Seat at the Table\", rather than a procedure, caution, or policy response?",
+              "type": "Question strategy",
+              "prompt": "Why is Jonah's second-meeting question more productive than declaring the schedule wrong?",
               "choices": [
-                "Jonah still spoke cautiously and did not suddenly become the loudest person in the room.",
-                "The group adjusted the plan and invited him to help coordinate a small task.",
-                "His question revealed a problem in the schedule that several older members had overlooked.",
-                "He spent the week learning the club's project and prepared one specific question for the next meeting."
+                "It makes the president solely responsible for costs.",
+                "It avoids mentioning any actual scheduling issue.",
+                "It demonstrates that Jonah has superior authority over the board.",
+                "It invites the group to examine the consequence of an uncertain assumption."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: His question revealed a problem in the schedule that several older members had overlooked. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "By asking about a plausible revision, Jonah prompts the treasurer's cost comparison and broader reasoning without claiming certainty.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Seat at the Table\" from being generalized beyond the available evidence?",
+              "type": "Inference",
+              "prompt": "What does the president's reaction imply about group familiarity?",
               "choices": [
-                "His question revealed a problem in the schedule that several older members had overlooked.",
-                "He spent the week learning the club's project and prepared one specific question for the next meeting.",
-                "The group adjusted the plan and invited him to help coordinate a small task.",
-                "Jonah still spoke cautiously and did not suddenly become the loudest person in the room."
+                "Established routines can conceal assumptions from those who share them.",
+                "Experienced members are generally less intelligent than newcomers.",
+                "Every new member will identify the same scheduling risk.",
+                "The president had intentionally hidden the printing schedule."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Jonah still spoke cautiously and did not suddenly become the loudest person in the room. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The remark suggests shared habits can go unexamined. It does not deny the experienced members' expertise or impute deception.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Seat at the Table\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Organizational change",
+              "prompt": "What is the purpose of adding rationale notes to meeting minutes?",
               "choices": [
-                "The group adjusted the plan and invited him to help coordinate a small task.",
-                "At the first meeting, a discussion moved so quickly that he could not contribute a single idea.",
-                "He spent the week learning the club's project and prepared one specific question for the next meeting.",
-                "His question revealed a problem in the schedule that several older members had overlooked."
+                "To replace all deliberation with fixed written instructions.",
+                "To preserve the reasoning behind decisions for later readers and reconsideration.",
+                "To prevent new volunteers from proposing revisions.",
+                "To make all tentative commitments legally binding."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The group adjusted the plan and invited him to help coordinate a small task. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "Documenting reasons helps both newcomers and veterans distinguish assumptions, commitments and choices.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Seat at the Table\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Counterfactual",
+              "prompt": "If the printing discount had lasted another month, what would change most directly in the club's decision?",
               "choices": [
-                "Initial concern: “He spent the week learning the club's project and…”; method: “His question revealed a problem in the schedule that…”.",
-                "Initial concern: “At the first meeting, a discussion moved so quickly that…”; method: “He spent the week learning the club's project and…”.",
-                "Initial concern: “At the first meeting, a discussion moved so quickly that…”; method: “Jonah still spoke cautiously and did not suddenly become…”.",
-                "Initial concern: “His question revealed a problem in the schedule that…”; method: “The group adjusted the plan and invited him to help…”."
+                "The risk of board revisions would disappear.",
+                "Flyers could no longer be printed.",
+                "The immediate financial cost of postponing the order would be reduced.",
+                "The president would lose the authority to set deadlines."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with At the first meeting, a discussion moved so quickly that he could not contribute a single idea. and the subsequent investigative procedure is He spent the week learning the club's project and prepared one specific question for the next meeting..",
+              "correctIndex": 2,
+              "explanation": "Extending the discount removes one cost of waiting while leaving approval uncertainty intact.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Seat at the Table\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Theme",
+              "prompt": "Which belief does Jonah most explicitly revise?",
               "choices": [
-                "The limitation (“Jonah still spoke cautiously and did not suddenly become…”) disproves the observation itself.",
-                "The method (“He spent the week learning the club's project and…”) guarantees the result before measurement.",
-                "The observation (“His question revealed a problem in the schedule that…”) matters, but the limit (“Jonah still spoke cautiously and did not suddenly become…”) remains.",
-                "The observation (“His question revealed a problem in the schedule that…”) rules out every alternative cause."
+                "Preparation is useful only for senior officers.",
+                "Every hesitation indicates intellectual weakness.",
+                "Fast meetings always produce poor decisions.",
+                "Speaking fluently within a group is not the same as reasoning well about its assumptions."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as His question revealed a problem in the schedule that several older members had overlooked. but must be read alongside Jonah still spoke cautiously and did not suddenly become the loudest person in the room..",
+              "correctIndex": 3,
+              "explanation": "Jonah sees that speed reflects shared context but does not guarantee sound judgment; his preparation enables a valuable question.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Seat at the Table\" relate to the strength and limits of the earlier observations?",
+              "type": "Structure",
+              "prompt": "Why does the author describe later meetings after Jonah's useful intervention?",
               "choices": [
-                "The response (“The group adjusted the plan and invited him to help…”) is proof of success in every setting.",
-                "The caveat (“Jonah still spoke cautiously and did not suddenly become…”) makes the observations worthless.",
-                "The observation (“His question revealed a problem in the schedule that…”) shows that measurement was unnecessary.",
-                "The response (“The group adjusted the plan and invited him to help…”) follows evidence but remains open to reassessment."
+                "To show that a single success did not erase his adjustment difficulties or transform the whole club instantly.",
+                "To reveal that the printing order was eventually canceled.",
+                "To prove that the club stopped using meeting minutes.",
+                "To imply that the first discussion was imagined."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The group adjusted the plan and invited him to help coordinate a small task.; the stated limit Jonah still spoke cautiously and did not suddenly become the loudest person in the room. still matters.",
+              "correctIndex": 0,
+              "explanation": "The later details qualify a simplistic triumph narrative and show gradual mutual adaptation.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R03-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"A Seat at the Table\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which conclusion best captures the passage's understanding of participation?",
               "choices": [
-                "Repeat the method (“He spent the week learning the club's project and…”) while testing the concern (“Jonah still spoke cautiously and did not suddenly become…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Effective membership requires unanimous agreement.",
+                "Useful participation combines preparation, intellectual humility, and willingness to question assumptions.",
+                "A newcomer should never speak without complete historical knowledge.",
+                "An outsider's perspective automatically outweighs an experienced member's judgment."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, Jonah still spoke cautiously and did not suddenly become the loudest person in the room., while comparing evidence from the original method, He spent the week learning the club's project and prepared one specific question for the next meeting..",
+              "correctIndex": 1,
+              "explanation": "Jonah gains enough context to ask a bounded, consequential question while admitting uncertainty. The passage neither glorifies ignorance nor demands total mastery.",
               "passageId": "R03-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
