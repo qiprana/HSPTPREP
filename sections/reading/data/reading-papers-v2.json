@@ -8226,9 +8226,9 @@
       "passages": [
         {
           "id": "R09-P1",
-          "title": "Where the Sand Goes",
-          "genre": "science",
-          "text": "Coastal students investigated why one beach lost sand while a neighboring beach grew wider. Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe students compared dated images and measured sand movement with marked stakes. Their records showed that seasonal waves moved sand along the coast in both directions. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their measured approach involved examining the available information before making the next decision.\n\nThe group had only one year's measurements and could not rule out long-term human effects. They presented the evidence without claiming that the pier was either harmless or solely responsible. Careful explanations distinguish observable patterns from conclusions not yet supported by the evidence. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Darcy and Elizabeth Debate Sociability",
+          "genre": "literature",
+          "text": "Elizabeth laughed heartily at this picture of herself, and said to Colonel Fitzwilliam, \"Your cousin will give you a very pretty notion of me, and teach you not to believe a word I say. I am particularly unlucky in meeting with a person so able to expose my real character, in a part of the world where I had hoped to pass myself off with some degree of credit. Indeed, Mr. Darcy, it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire--and, give me leave to say, very impolitic too--for it is provoking me to retaliate, and such things may come out as will shock your relations to hear.\"\n\n\"I am not afraid of you,\" said he, smilingly.\n\n\"Pray let me hear what you have to accuse him of,\" cried Colonel Fitzwilliam. \"I should like to know how he behaves among strangers.\"\n\n\"You shall hear then--but prepare yourself for something very dreadful. The first time of my ever seeing him in Hertfordshire, you must know, was at a ball--and at this ball, what do you think he did? He danced only four dances, though gentlemen were scarce; and, to my certain knowledge, more than one young lady was sitting down in want of a partner. Mr. Darcy, you cannot deny the fact.\"\n\n\"I had not at that time the honour of knowing any lady in the assembly beyond my own party.\"\n\n\"True; and nobody can ever be introduced in a ball-room. Well, Colonel Fitzwilliam, what do I play next? My fingers wait your orders.\"\n\n\"Perhaps,\" said Darcy, \"I should have judged better, had I sought an introduction; but I am ill-qualified to recommend myself to strangers.\"\n\n\"Shall we ask your cousin the reason of this?\" said Elizabeth, still addressing Colonel Fitzwilliam. \"Shall we ask him why a man of sense and education, and who has lived in the world, is ill qualified to recommend himself to strangers?\"\n\n\"I can answer your question,\" said Fitzwilliam, \"without applying to him. It is because he will not give himself the trouble.\"\n\n\"I certainly have not the talent which some people possess,\" said Darcy, \"of conversing easily with those I have never seen before. I cannot catch their tone of conversation, or appear interested in their concerns, as I often see done.\"\n\n\"My fingers,\" said Elizabeth, \"do not move over this instrument in the masterly manner which I see so many women's do. They have not the same force or rapidity, and do not produce the same expression. But then I have always supposed it to be my own fault--because I will not take the trouble of practising. It is not that I do not believe _my_ fingers as capable as any other woman's of superior execution.\"\n\nDarcy smiled and said, \"You are perfectly right. You have employed your time much better. No one admitted to the privilege of hearing you can think anything wanting. We neither of us perform to strangers.\"",
           "term": [
             "measured",
             "carefully considered",
@@ -8239,165 +8239,185 @@
           "questions": [
             {
               "id": "R09-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Where the Sand Goes\"?",
+              "type": "Dramatic irony",
+              "prompt": "How does Elizabeth's warning that she may expose Darcy's faults function in the conversation?",
               "choices": [
-                "The proposed response (“They presented the evidence without claiming that the…”) makes the original concern irrelevant.",
-                "The method (“The students compared dated images and measured sand…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Their records showed that seasonal waves moved sand along…”) is treated as unrelated to the original investigation.",
-                "The concern (“Residents blamed a new pier, but older photographs…”) leads to inquiry, but “The group had only one year's measurements and could not…” limits the inference."
+                "It introduces a playful threat that masks a substantive criticism of his manners.",
+                "It demonstrates that she has already written a public denunciation.",
+                "It proves Colonel Fitzwilliam intends to abandon Darcy.",
+                "It establishes that Darcy has no social acquaintances."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The group had only one year's measurements and could not rule out long-term human effects. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Elizabeth's mock seriousness prepares her report of the ball and gives the exchange teasing energy while raising a real complaint.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Where the Sand Goes\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Social criticism",
+              "prompt": "Why is Elizabeth's remark that 'nobody can ever be introduced in a ball-room' sarcastic?",
               "choices": [
-                "Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier.",
-                "The students compared dated images and measured sand movement with marked stakes.",
-                "Their records showed that seasonal waves moved sand along the coast in both directions.",
-                "They presented the evidence without claiming that the pier was either harmless or solely responsible."
+                "She believes ballrooms have laws against introductions.",
+                "She means the ball was entirely empty.",
+                "She exposes the implausibility of Darcy's treating unfamiliarity as an absolute obstacle to dancing.",
+                "She is asking Colonel Fitzwilliam to arrange an introduction."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The sentence contradicts its literal meaning: ballrooms are precisely places where people can be introduced.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Where the Sand Goes\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Motivation",
+              "prompt": "What explanation does Darcy give for his limited sociability?",
               "choices": [
-                "The group had only one year's measurements and could not rule out long-term human effects.",
-                "The students compared dated images and measured sand movement with marked stakes.",
-                "Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier.",
-                "Their records showed that seasonal waves moved sand along the coast in both directions."
+                "He considers all other guests beneath him.",
+                "He finds it difficult to converse naturally with strangers or adapt to unfamiliar social exchanges.",
+                "He secretly disliked every woman at the ball.",
+                "He was forbidden by his family to dance."
               ],
               "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: The students compared dated images and measured sand movement with marked stakes. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Darcy cites his difficulty catching strangers' conversational tone and showing interest in their concerns.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Where the Sand Goes\", rather than a procedure, caution, or policy response?",
+              "type": "Counterclaim",
+              "prompt": "How does Colonel Fitzwilliam explain Darcy's conduct differently?",
               "choices": [
-                "The group had only one year's measurements and could not rule out long-term human effects.",
-                "They presented the evidence without claiming that the pier was either harmless or solely responsible.",
-                "Their records showed that seasonal waves moved sand along the coast in both directions.",
-                "The students compared dated images and measured sand movement with marked stakes."
+                "He thinks Darcy's manners are the result of illness.",
+                "He attributes the issue to a lack of formal schooling.",
+                "He argues that Darcy has never attended a ball.",
+                "He suggests Darcy will not make the effort required."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Their records showed that seasonal waves moved sand along the coast in both directions. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Fitzwilliam says Darcy does not 'give himself the trouble,' shifting the account from inability to unwillingness.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Where the Sand Goes\" from being generalized beyond the available evidence?",
+              "type": "Extended analogy",
+              "prompt": "What is the purpose of Elizabeth's comparison with her piano playing?",
               "choices": [
-                "Their records showed that seasonal waves moved sand along the coast in both directions.",
-                "The students compared dated images and measured sand movement with marked stakes.",
-                "They presented the evidence without claiming that the pier was either harmless or solely responsible.",
-                "The group had only one year's measurements and could not rule out long-term human effects."
+                "She suggests social skill, like musical skill, can be improved by practice rather than dismissed as an innate lack of talent.",
+                "She asks Darcy to teach her the piano.",
+                "She claims strangers cannot judge music.",
+                "She argues that piano practice is less demanding than conversation."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The group had only one year's measurements and could not rule out long-term human effects. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "She says her playing suffers because she does not take the trouble to practise, directly paralleling Darcy's reluctance.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Where the Sand Goes\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Tone",
+              "prompt": "How does Darcy's final reply affect the tone of their disagreement?",
               "choices": [
-                "They presented the evidence without claiming that the pier was either harmless or solely responsible.",
-                "Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier.",
-                "The students compared dated images and measured sand movement with marked stakes.",
-                "Their records showed that seasonal waves moved sand along the coast in both directions."
+                "It intensifies into an explicit insult.",
+                "It refuses to acknowledge her comparison.",
+                "It responds with courteous wit, gently converting criticism into shared social awkwardness.",
+                "It ends all communication between them."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: They presented the evidence without claiming that the pier was either harmless or solely responsible. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "Darcy smiles and says neither performs to strangers, turning the analogy into a playful mutual acknowledgment.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Where the Sand Goes\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Interpretation",
+              "prompt": "Which reading best captures the contrast between Darcy's explanation and Elizabeth's?",
               "choices": [
-                "Initial concern: “The students compared dated images and measured sand…”; method: “Their records showed that seasonal waves moved sand along…”.",
-                "Initial concern: “Residents blamed a new pier, but older photographs…”; method: “The students compared dated images and measured sand…”.",
-                "Initial concern: “Residents blamed a new pier, but older photographs…”; method: “The group had only one year's measurements and could not…”.",
-                "Initial concern: “Their records showed that seasonal waves moved sand along…”; method: “They presented the evidence without claiming that the…”."
+                "Darcy believes all sociability is impossible; Elizabeth believes all music is easy.",
+                "Darcy emphasizes difficulty or temperament, while Elizabeth stresses the role of deliberate practice.",
+                "Darcy disavows education, while Elizabeth rejects it.",
+                "Both insist no improvement is ever possible."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with Residents blamed a new pier, but older photographs suggested shoreline changes had begun earlier. and the subsequent investigative procedure is The students compared dated images and measured sand movement with marked stakes..",
+              "explanation": "Darcy frames the problem as lacking a particular talent, while Elizabeth's piano analogy attributes similar limitations to effort.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Where the Sand Goes\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Narrative technique",
+              "prompt": "What is the effect of presenting the disagreement chiefly through dialogue?",
               "choices": [
-                "The limitation (“The group had only one year's measurements and could not…”) disproves the observation itself.",
-                "The method (“The students compared dated images and measured sand…”) guarantees the result before measurement.",
-                "The observation (“Their records showed that seasonal waves moved sand along…”) matters, but the limit (“The group had only one year's measurements and could not…”) remains.",
-                "The observation (“Their records showed that seasonal waves moved sand along…”) rules out every alternative cause."
+                "The passage provides an objective sociological survey.",
+                "The narrator prevents readers from judging either speaker.",
+                "Every motive is given in a direct authorial explanation.",
+                "Readers infer personality, defensiveness, and attraction from verbal sparring rather than explicit description."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Their records showed that seasonal waves moved sand along the coast in both directions. but must be read alongside The group had only one year's measurements and could not rule out long-term human effects..",
+              "correctIndex": 3,
+              "explanation": "The scene's quick exchanges and irony reveal relationships indirectly.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Where the Sand Goes\" relate to the strength and limits of the earlier observations?",
+              "type": "Scope",
+              "prompt": "Which conclusion is least justified by the passage?",
               "choices": [
-                "The response (“They presented the evidence without claiming that the…”) is proof of success in every setting.",
-                "The caveat (“The group had only one year's measurements and could not…”) makes the observations worthless.",
-                "The observation (“Their records showed that seasonal waves moved sand along…”) shows that measurement was unnecessary.",
-                "The response (“They presented the evidence without claiming that the…”) follows evidence but remains open to reassessment."
+                "Elizabeth and Darcy disagree about how to explain his behavior.",
+                "Colonel Fitzwilliam contributes his own criticism.",
+                "Darcy conclusively admits he intentionally snubbed every woman for reasons of rank.",
+                "The characters use humor while disputing social expectations."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed They presented the evidence without claiming that the pier was either harmless or solely responsible.; the stated limit The group had only one year's measurements and could not rule out long-term human effects. still matters.",
+              "correctIndex": 2,
+              "explanation": "Darcy admits difficulty with strangers but not a deliberate universal class-based insult; that inference goes beyond his words.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             },
             {
               "id": "R09-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Where the Sand Goes\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "What central tension does the conversation explore?",
               "choices": [
-                "Repeat the method (“The students compared dated images and measured sand…”) while testing the concern (“The group had only one year's measurements and could not…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Whether social grace reflects natural disposition or a willingness to practise skills and attend to others.",
+                "Whether music should be prohibited at social gatherings.",
+                "Whether Colonel Fitzwilliam should choose Elizabeth's next piece.",
+                "Whether private family letters are more reliable than first impressions."
               ],
               "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The group had only one year's measurements and could not rule out long-term human effects., while comparing evidence from the original method, The students compared dated images and measured sand movement with marked stakes..",
+              "explanation": "The passage repeatedly contrasts asserted lack of skill with responsibility to make social efforts.",
               "passageId": "R09-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Darcy converse with Colonel Fitzwilliam"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "Elizabeth laughed heartily at this picture of herself, and said to Colonel Fitzwilliam, \"Your c",
+            "end": "he privilege of hearing you can think anything wanting. We neither of us perform to strangers.\""
+          },
+          "sourceReference": "ADV-09-P1"
         },
         {
           "id": "R09-P2",
