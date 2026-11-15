@@ -10301,9 +10301,9 @@
       "passages": [
         {
           "id": "R11-P1",
-          "title": "Inside the Compost Pile",
-          "genre": "science",
-          "text": "Garden volunteers tested how turning a compost pile affected the breakdown of food scraps. The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey turned one pile weekly and left a second pile undisturbed for comparison. The turned pile warmed more evenly and produced finer material by the end of the trial. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their insightful approach involved examining the available information before making the next decision.\n\nRainfall and differences in scrap sizes could have affected the results. The garden adopted a turning schedule while continuing to record temperature and moisture. The pace of decomposition depends on several interacting conditions, not a single secret ingredient. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Jane Responds to Darcy's Letter",
+          "genre": "literature",
+          "text": "Elizabeth's impatience to acquaint Jane with what had happened could no longer be overcome; and at length, resolving to suppress every particular in which her sister was concerned, and preparing her to be surprised, she related to her the next morning the chief of the scene between Mr. Darcy and herself.\n\nMiss Bennet's astonishment was soon lessened by the strong sisterly partiality which made any admiration of Elizabeth appear perfectly natural; and all surprise was shortly lost in other feelings. She was sorry that Mr. Darcy should have delivered his sentiments in a manner so little suited to recommend them; but still more was she grieved for the unhappiness which her sister's refusal must have given him.\n\n\"His being so sure of succeeding was wrong,\" said she, \"and certainly ought not to have appeared; but consider how much it must increase his disappointment!\"\n\n\"Indeed,\" replied Elizabeth, \"I am heartily sorry for him; but he has other feelings, which will probably soon drive away his regard for me. You do not blame me, however, for refusing him?\"\n\n\"Blame you! Oh, no.\"\n\n\"But you blame me for having spoken so warmly of Wickham?\"\n\n\"No--I do not know that you were wrong in saying what you did.\"\n\n\"But you _will_ know it, when I tell you what happened the very next day.\"\n\nShe then spoke of the letter, repeating the whole of its contents as far as they concerned George Wickham. What a stroke was this for poor Jane! who would willingly have gone through the world without believing that so much wickedness existed in the whole race of mankind, as was here collected in one individual. Nor was Darcy's vindication, though grateful to her feelings, capable of consoling her for such discovery. Most earnestly did she labour to prove the probability of error, and seek to clear the one without involving the other.\n\n\"This will not do,\" said Elizabeth; \"you never will be able to make both of them good for anything. Take your choice, but you must be satisfied with only one. There is but such a quantity of merit between them; just enough to make one good sort of man; and of late it has been shifting about pretty much. For my part, I am inclined to believe it all Darcy's; but you shall do as you choose.\"\n\nIt was some time, however, before a smile could be extorted from Jane.\n\n\"I do not know when I have been more shocked,\" said she. \"Wickham so very bad! It is almost past belief. And poor Mr. Darcy! Dear Lizzy, only consider what he must have suffered. Such a disappointment! and with the knowledge of your ill opinion, too! and having to relate such a thing of his sister! It is really too distressing. I am sure you must feel it so.\"",
           "term": [
             "insightful",
             "showing understanding",
@@ -10314,165 +10314,185 @@
           "questions": [
             {
               "id": "R11-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Inside the Compost Pile\"?",
+              "type": "Character motive",
+              "prompt": "Why does Elizabeth initially omit details that directly concern Jane?",
               "choices": [
-                "The recorded outcome (“The turned pile warmed more evenly and produced finer…”) is treated as unrelated to the original investigation.",
-                "The concern (“The center of one pile warmed quickly, but its edges…”) leads to inquiry, but “Rainfall and differences in scrap sizes could have…” limits the inference.",
-                "The proposed response (“The garden adopted a turning schedule while continuing to…”) makes the original concern irrelevant.",
-                "The method (“They turned one pile weekly and left a second pile…”) rules out every possible competing explanation."
+                "She wants to protect her sister from needlessly painful information.",
+                "She has forgotten what Darcy said.",
+                "Jane has already read Darcy's letter.",
+                "She wishes to make Darcy appear dishonest."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Rainfall and differences in scrap sizes could have affected the results. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Elizabeth resolves to suppress particulars concerning Jane before recounting the proposal scene.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Inside the Compost Pile\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Character contrast",
+              "prompt": "How does Jane respond to Darcy's unsuccessful proposal?",
               "choices": [
-                "The turned pile warmed more evenly and produced finer material by the end of the trial.",
-                "The garden adopted a turning schedule while continuing to record temperature and moisture.",
-                "The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly.",
-                "They turned one pile weekly and left a second pile undisturbed for comparison."
+                "She insists Elizabeth must have accepted him.",
+                "She dismisses Darcy's unhappiness entirely.",
+                "She respects Elizabeth's refusal but sympathizes with the disappointment Darcy must feel.",
+                "She argues that Darcy's manner of speaking was flawless."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly. The other choices describe what was done or discovered afterward.",
+              "explanation": "Jane criticizes his confident manner while recognizing the hurt caused by rejection; she does not blame Elizabeth.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Inside the Compost Pile\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Narrative voice",
+              "prompt": "What does 'strong sisterly partiality' suggest about Jane's first reaction to Darcy's admiration?",
               "choices": [
-                "The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly.",
-                "The turned pile warmed more evenly and produced finer material by the end of the trial.",
-                "Rainfall and differences in scrap sizes could have affected the results.",
-                "They turned one pile weekly and left a second pile undisturbed for comparison."
+                "Jane cannot understand Elizabeth's character.",
+                "Jane's affection makes admiration for Elizabeth seem unsurprising.",
+                "Jane is primarily concerned about wealth.",
+                "Jane has already promised Elizabeth to Darcy."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: They turned one pile weekly and left a second pile undisturbed for comparison. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "Her positive view of her sister makes Darcy's attraction appear natural, reducing surprise.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Inside the Compost Pile\", rather than a procedure, caution, or policy response?",
+              "type": "Conflict of evidence",
+              "prompt": "Why does Darcy's defense fail to bring Jane simple relief?",
               "choices": [
-                "The turned pile warmed more evenly and produced finer material by the end of the trial.",
-                "They turned one pile weekly and left a second pile undisturbed for comparison.",
-                "Rainfall and differences in scrap sizes could have affected the results.",
-                "The garden adopted a turning schedule while continuing to record temperature and moisture."
+                "The letter contains only trivial details.",
+                "Jane is unable to read the letter.",
+                "Elizabeth refuses to explain Wickham's role.",
+                "Vindicating Darcy implies a disturbing discovery about Wickham, whom Jane wants to regard kindly."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The turned pile warmed more evenly and produced finer material by the end of the trial. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Jane is distressed at the alleged wickedness of Wickham and tries to preserve a favorable interpretation of both men.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Inside the Compost Pile\" from being generalized beyond the available evidence?",
+              "type": "Cognitive bias",
+              "prompt": "What habit is revealed by Jane's effort to 'clear the one without involving the other'?",
               "choices": [
-                "The garden adopted a turning schedule while continuing to record temperature and moisture.",
-                "Rainfall and differences in scrap sizes could have affected the results.",
-                "The turned pile warmed more evenly and produced finer material by the end of the trial.",
-                "They turned one pile weekly and left a second pile undisturbed for comparison."
+                "A preference for charitable explanations, even when the accounts place the two men's credibility in tension.",
+                "A refusal to acknowledge any possibility of error.",
+                "A desire to punish Elizabeth for refusing Darcy.",
+                "An assumption that all written letters are accurate."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: Rainfall and differences in scrap sizes could have affected the results. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Jane tries to save both reputations, showing her benevolent inclination and discomfort with choosing between conflicting accounts.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Inside the Compost Pile\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Irony",
+              "prompt": "What is the effect of Elizabeth's claim that there is enough merit between Darcy and Wickham for 'one good sort of man'?",
               "choices": [
-                "They turned one pile weekly and left a second pile undisturbed for comparison.",
-                "The turned pile warmed more evenly and produced finer material by the end of the trial.",
-                "The garden adopted a turning schedule while continuing to record temperature and moisture.",
-                "The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly."
+                "It states a literal numerical division of virtue.",
+                "It proves the men are physically identical.",
+                "It humorously compresses her shifting assessment of their characters into a mock calculation.",
+                "It suggests they should share a professional appointment."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: The garden adopted a turning schedule while continuing to record temperature and moisture. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The playful arithmetic captures how her evaluation has changed and how Jane cannot comfortably praise both.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Inside the Compost Pile\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Qualification",
+              "prompt": "Which claim is most consistent with Elizabeth's description of her current judgment?",
               "choices": [
-                "Initial concern: “The center of one pile warmed quickly, but its edges…”; method: “Rainfall and differences in scrap sizes could have…”.",
-                "Initial concern: “The turned pile warmed more evenly and produced finer…”; method: “The garden adopted a turning schedule while continuing to…”.",
-                "Initial concern: “They turned one pile weekly and left a second pile…”; method: “The turned pile warmed more evenly and produced finer…”.",
-                "Initial concern: “The center of one pile warmed quickly, but its edges…”; method: “They turned one pile weekly and left a second pile…”."
+                "She remains certain Wickham is entirely innocent.",
+                "She has become inclined to credit Darcy's character more strongly, though Jane may decide for herself.",
+                "She claims to possess public proof beyond all dispute.",
+                "She refuses to discuss the letter's contents."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with The center of one pile warmed quickly, but its edges remained cool and the material decomposed unevenly. and the subsequent investigative procedure is They turned one pile weekly and left a second pile undisturbed for comparison..",
+              "correctIndex": 1,
+              "explanation": "Elizabeth says she is 'inclined to believe it all Darcy's' while allowing Jane to form her own view.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Inside the Compost Pile\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Emotional complexity",
+              "prompt": "How does Jane's concern shift in her final speech?",
               "choices": [
-                "The observation (“The turned pile warmed more evenly and produced finer…”) matters, but the limit (“Rainfall and differences in scrap sizes could have…”) remains.",
-                "The observation (“The turned pile warmed more evenly and produced finer…”) rules out every alternative cause.",
-                "The limitation (“Rainfall and differences in scrap sizes could have…”) disproves the observation itself.",
-                "The method (“They turned one pile weekly and left a second pile…”) guarantees the result before measurement."
+                "She forgets Wickham and praises the engagement.",
+                "She blames Elizabeth for writing the letter.",
+                "She celebrates Darcy's embarrassment.",
+                "She combines shock at Wickham's alleged conduct with pity for Darcy's distress and his difficult disclosure."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The turned pile warmed more evenly and produced finer material by the end of the trial. but must be read alongside Rainfall and differences in scrap sizes could have affected the results..",
+              "correctIndex": 3,
+              "explanation": "Her remarks mention both Wickham's possible badness and Darcy's emotional suffering, including revealing a matter involving his sister.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Inside the Compost Pile\" relate to the strength and limits of the earlier observations?",
+              "type": "Structural purpose",
+              "prompt": "Why does the narrator note that it took some time to draw a smile from Jane?",
               "choices": [
-                "The observation (“The turned pile warmed more evenly and produced finer…”) shows that measurement was unnecessary.",
-                "The response (“The garden adopted a turning schedule while continuing to…”) follows evidence but remains open to reassessment.",
-                "The response (“The garden adopted a turning schedule while continuing to…”) is proof of success in every setting.",
-                "The caveat (“Rainfall and differences in scrap sizes could have…”) makes the observations worthless."
+                "It emphasizes that Elizabeth's humor has not removed the moral and emotional disturbance caused by the news.",
+                "It shows that Jane is angry about the weather.",
+                "It indicates she misunderstood every sentence.",
+                "It foreshadows her immediate marriage to Darcy."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The garden adopted a turning schedule while continuing to record temperature and moisture.; the stated limit Rainfall and differences in scrap sizes could have affected the results. still matters.",
+              "correctIndex": 0,
+              "explanation": "The difficulty of smiling conveys the depth of Jane's dismay despite Elizabeth's playful attempt to lighten the exchange.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             },
             {
               "id": "R11-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Inside the Compost Pile\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "What difference between the sisters most strongly shapes the conversation?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They turned one pile weekly and left a second pile…”) while testing the concern (“Rainfall and differences in scrap sizes could have…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Jane prizes reputation above family; Elizabeth rejects moral judgment.",
+                "Jane relies exclusively on wealth; Elizabeth relies on titles.",
+                "Jane seeks to reconcile competing claims with generosity, while Elizabeth is increasingly willing to choose between contradictory accounts.",
+                "Both refuse to consider any evidence that challenges first impressions."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, Rainfall and differences in scrap sizes could have affected the results., while comparing evidence from the original method, They turned one pile weekly and left a second pile undisturbed for comparison..",
+              "explanation": "Jane's characteristic benevolence collides with Elizabeth's more discriminating reassessment of Darcy and Wickham.",
               "passageId": "R11-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Elizabeth and Jane discuss Darcy and Wickham"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "Elizabeth's impatience to acquaint Jane with what had happened could no longer be overcome; and",
+            "end": "elate such a thing of his sister! It is really too distressing. I am sure you must feel it so.\""
+          },
+          "sourceReference": "ADV-11-P1"
         },
         {
           "id": "R11-P2",
