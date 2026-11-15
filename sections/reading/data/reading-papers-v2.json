@@ -1572,9 +1572,9 @@
         },
         {
           "id": "R02-P4",
-          "title": "The Shared Workshop",
-          "genre": "community",
-          "text": "When the East Branch Library proposed lending tools, the directors described the service as an extension of their mission to share knowledge. A drill, like a book, might be needed intensely for a brief time and then sit unused for months. But the analogy had limits: a damaged book could usually be replaced without injury to its borrower, whereas a poorly maintained power tool could cause physical harm. The directors therefore resisted a proposal to make every donated tool available immediately.\n\nA volunteer committee surveyed visitors about the items they would borrow. Sewing machines and bicycle-repair equipment ranked ahead of woodworking tools. The librarian responsible for the project cautioned that the survey described library visitors, not necessarily residents who lacked transportation, reliable internet access, or confidence entering the building. If demand was measured only among existing patrons, the library might reinforce rather than remedy unequal access. A smaller survey at a neighborhood food pantry produced greater interest in hand tools, although that sample, too, was limited.\n\nThe directors began with a six-month pilot. Staff inspected every item, documented common repairs, and required short demonstrations for equipment with moving parts. Borrowers could reserve tools online or by telephone. Instead of interpreting reservations as an exact measure of social benefit, staff tracked cancellations, waiting times, damaged equipment, and whether borrowers had completed their projects. The first month showed high reservation numbers but also a substantial waiting list for the two sewing machines. Some residents reserved equipment because no other borrowing option existed; others found that the introductory sessions took longer than expected.\n\nA trustee argued that demand alone justified buying ten additional machines. A second trustee favored closing the program after a donated drill failed an inspection. The librarian treated both recommendations as premature. Buying many machines before studying the actual use of existing ones might leave expensive equipment idle; a failed inspection, on the other hand, showed why safety checks were necessary, not necessarily why lending should end. The committee purchased one additional sewing machine, revised the repair schedule, and tested evening demonstrations to accommodate people who worked during library hours.\n\nBy the pilot's end, reservations had increased, but the directors still could not say that every neighborhood benefited equally. They agreed to continue collecting information from nonusers and borrowers alike. The project had shown that wider access depends on more than ownership of shared objects. A responsible public service has to account for safety, opportunity costs, patterns of exclusion, and the limits of its own evidence.",
+          "title": "Shelley — The Stranger on the Ship",
+          "genre": "literature",
+          "text": "This aroused the stranger's attention, and he asked a multitude of questions concerning the route which the demon, as he called him, had pursued. Soon after, when he was alone with me, he said, \"I have, doubtless, excited your curiosity, as well as that of these good people; but you are too considerate to make inquiries.\"\n\n\"Certainly; it would indeed be very impertinent and inhuman in me to trouble you with any inquisitiveness of mine.\"\n\n\"And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.\"\n\nSoon after this he inquired if I thought that the breaking up of the ice had destroyed the other sledge. I replied that I could not answer with any degree of certainty, for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge. From this time a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness to be upon deck to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. I have promised that someone should watch for him and give him instant notice if any new object should appear in sight.\n\nSuch is my journal of what relates to this strange occurrence up to the present day. The stranger has gradually improved in health but is very silent and appears uneasy when anyone except myself enters his cabin. Yet his manners are so conciliating and gentle that the sailors are all interested in him, although they have had very little communication with him. For my own part, I begin to love him as a brother, and his constant and deep grief fills me with sympathy and compassion. He must have been a noble creature in his better days, being even now in wreck so attractive and amiable. I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been happy to have possessed as the brother of my heart.\n\nI shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record.\n\nAugust 13th, 17--",
           "term": [
             "precise",
             "exact",
@@ -1585,165 +1585,185 @@
           "questions": [
             {
               "id": "R02-P4-01",
-              "type": "Analogy",
-              "prompt": "What is the central limitation of comparing a borrowed tool with a borrowed book?",
+              "type": "Narrative perspective",
+              "prompt": "How does the narrator qualify his account of whether the other sledge survived?",
               "choices": [
-                "Tools may introduce injury risks that require precautions beyond ordinary circulation rules.",
-                "Books are more expensive to replace than mechanical equipment.",
-                "Libraries never lend objects unless they are educational materials.",
-                "Borrowers rarely need tools for more than a single day."
+                "He reports seeing it destroyed.",
+                "He refuses to admit that it existed.",
+                "He states that the ice broke later and the traveler might have reached safety, but he cannot know.",
+                "He has personally interviewed the other driver."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening acknowledges short-term shared use as a parallel, then distinguishes potential physical harm. Cost or rigid institutional rules are not the identified limitation.",
+              "correctIndex": 2,
+              "explanation": "The speaker offers temporal context and a possibility while acknowledging lack of direct knowledge.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-02",
-              "type": "Sampling",
-              "prompt": "Why does the librarian question the first visitor survey?",
+              "type": "Character motivation",
+              "prompt": "Why does the stranger become animated when he hears about the other sledge?",
               "choices": [
-                "The survey was conducted after all tools had already been purchased.",
-                "Visitors may not represent people facing the greatest barriers to library access.",
-                "The survey omitted the precise number of donated drills.",
-                "Survey respondents were instructed to request sewing machines."
+                "The news renews his urgent interest in pursuing or locating the other traveler.",
+                "He wishes to abandon the voyage at once.",
+                "He has forgotten the purpose of the journey.",
+                "He is eager to join the ship's crew."
               ],
-              "correctIndex": 1,
-              "explanation": "Existing patrons can underrepresent residents constrained by transport or familiarity with the library. The problem is sampling coverage, not fabrication.",
+              "correctIndex": 0,
+              "explanation": "His revived energy and desire to watch the deck follow questions about the sledge, suggesting intense concern with its fate.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-03",
-              "type": "Inference",
-              "prompt": "How should the different interests found at the library and food pantry most reasonably be interpreted?",
+              "type": "Practical reasoning",
+              "prompt": "Why does the narrator persuade the stranger to remain in the cabin?",
               "choices": [
-                "The food pantry sample proves that hand tools are universally preferred.",
-                "One survey must be discarded because its results differ from the other.",
-                "Different recruitment settings may reveal different needs, though neither sample alone represents the whole community.",
-                "Libraries should discontinue sewing-machine loans immediately."
+                "The stranger has been arrested.",
+                "The crew fears he will steal a boat.",
+                "The cabin has no view of the deck.",
+                "His weakened health makes exposure to the cold dangerous, so the crew can watch on his behalf."
               ],
-              "correctIndex": 2,
-              "explanation": "The two samples expose possible variation across populations while remaining limited. Any citywide ranking would require more representative sampling.",
+              "correctIndex": 3,
+              "explanation": "He says the stranger is too weak for the cold atmosphere and promises a lookout.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-04",
-              "type": "Measurement",
-              "prompt": "Why do staff monitor project completion as well as reservations?",
+              "type": "Tone",
+              "prompt": "Which description best captures the narrator's attitude toward the stranger?",
               "choices": [
-                "Completed repairs can indicate practical benefit that a reservation count alone cannot establish.",
-                "Reservations are illegal unless each borrower submits photographs.",
-                "Waiting lists guarantee that every borrowed item is used successfully.",
-                "Project completion removes the need for safety checks."
+                "Hostile suspicion based on the man's silence.",
+                "Growing affection mixed with sympathy for his distress.",
+                "Professional indifference.",
+                "Admiration solely for the stranger's wealth."
               ],
-              "correctIndex": 0,
-              "explanation": "A reservation expresses interest, not successful use. Project completion adds an outcome measure, without resolving every question of fairness or safety.",
+              "correctIndex": 1,
+              "explanation": "The narrator calls him a potential brotherly friend and feels compassion for his grief.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-05",
-              "type": "Policy reasoning",
-              "prompt": "What makes the trustee's proposal to purchase ten sewing machines premature?",
+              "type": "Evidence and inference",
+              "prompt": "Why might the narrator's account of the stranger's former nobility be considered an inference?",
               "choices": [
-                "The original machines had never been reserved.",
-                "The waiting list identifies a possible shortage but does not yet show whether ten more would be used efficiently.",
-                "The library has no authority to spend funds on equipment.",
-                "Machine demand cannot change after a new demonstration schedule."
+                "He has a full written biography of the man.",
+                "Several independent witnesses confirm the man's prior reputation.",
+                "He extrapolates from the man's present gentle manner despite knowing little of his past.",
+                "The stranger explicitly describes his childhood accomplishments."
               ],
-              "correctIndex": 1,
-              "explanation": "High demand warrants investigation, yet the quantity and timing of purchases should reflect utilization and costs. The evidence does not justify the specific large expansion.",
+              "correctIndex": 2,
+              "explanation": "The speaker says the man 'must have been a noble creature' based on how attractive and amiable he remains while suffering.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-06",
-              "type": "Argument evaluation",
-              "prompt": "How does the failed drill inspection function in the disagreement over closing the pilot?",
+              "type": "Character complexity",
+              "prompt": "How does the stranger's behavior toward the crew differ from his behavior toward the narrator?",
               "choices": [
-                "It demonstrates that all donated tools are defective.",
-                "It proves the repair schedule has already eliminated every risk.",
-                "It is evidence supporting screening precautions, not by itself a decisive case against lending.",
-                "It shows that the first library visitor survey was biased."
+                "He is gentle yet avoids most visitors, while showing more openness in private with the narrator.",
+                "He speaks freely with everyone but refuses to talk to the narrator.",
+                "He threatens the crew and destroys their equipment.",
+                "He is described as cheerful among all visitors."
               ],
-              "correctIndex": 2,
-              "explanation": "A failure discovered through an inspection can show the safety process working. It cannot establish the overall risk-benefit balance of the program.",
+              "correctIndex": 0,
+              "explanation": "The passage notes his conciliatory manners and the sailors' interest despite limited contact, with the narrator as a particular exception.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-07",
-              "type": "Synthesis",
-              "prompt": "Which policy change most clearly combines responsiveness to demand with caution about costs?",
+              "type": "Narrative structure",
+              "prompt": "What effect is created by the final promise to continue the journal?",
               "choices": [
-                "Purchasing one more sewing machine while continuing to measure demand and utilization.",
-                "Acquiring ten machines solely because of the initial waiting list.",
-                "Canceling every reservation until a citywide census is completed.",
-                "Replacing safety demonstrations with a borrower signature."
+                "It establishes that all mysteries have been solved.",
+                "It changes the work into a formal medical report.",
+                "It proves the stranger has recovered completely.",
+                "It frames the episode as an unfolding account whose later significance remains unknown."
               ],
-              "correctIndex": 0,
-              "explanation": "The limited purchase responds to observed pressure while avoiding an untested large commitment. The remaining measures retain safeguards and further evidence.",
+              "correctIndex": 3,
+              "explanation": "The journal promises future incidents and keeps the story's central questions open.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-08",
-              "type": "Equity",
-              "prompt": "Why is feedback from nonusers necessary to assess whether the service improves access?",
+              "type": "Social restraint",
+              "prompt": "Why does the narrator decline to question the stranger despite curiosity?",
               "choices": [
-                "Nonusers can confirm that every machine has been inspected.",
-                "Nonusers will always demand more expensive equipment.",
-                "Only nonusers can accurately report machine maintenance costs.",
-                "People excluded by hours, transportation, or unfamiliarity may not appear in borrower records."
+                "He finds the stranger too dull to be interesting.",
+                "He regards intrusive questioning of someone in distress as inconsiderate.",
+                "He has been ordered never to speak.",
+                "He already knows the full story."
               ],
-              "correctIndex": 3,
-              "explanation": "Usage data omit people unable or unwilling to enter the service. Their experiences can identify barriers missed by surveys of current patrons.",
+              "correctIndex": 1,
+              "explanation": "The narrator says it would be impertinent and inhuman to trouble him with curiosity.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-09",
-              "type": "Structural reasoning",
-              "prompt": "What role does the paragraph describing opposing trustees play?",
+              "type": "Diction",
+              "prompt": "What does the phrase 'decaying frame' principally emphasize?",
               "choices": [
-                "It supplies an exact financial calculation for the entire pilot.",
-                "It tests two overconfident interpretations against the program's incomplete evidence.",
-                "It introduces the initial proposal to share books.",
-                "It establishes that surveying outside the library is unnecessary."
+                "The stranger's lack of emotional feeling.",
+                "The construction of the ship.",
+                "The stranger's physical frailty in contrast with signs of revived purpose.",
+                "The narrator's uncertainty about the weather."
               ],
-              "correctIndex": 1,
-              "explanation": "The proposals represent unqualified expansion and abandonment. The librarian's response demonstrates a more discriminating interpretation of demand and safety information.",
+              "correctIndex": 2,
+              "explanation": "Physical weakness coexists with renewed urgency when the other sledge is discussed.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             },
             {
               "id": "R02-P4-10",
-              "type": "Main idea",
-              "prompt": "Which conclusion best reflects the passage's treatment of the library's mission?",
+              "type": "Synthesis",
+              "prompt": "Which contrast most strongly shapes the portrait of the stranger?",
               "choices": [
-                "Sharing equipment is valuable only when every household receives equal numbers of loans.",
-                "An increase in reservations proves that the service has met all community needs.",
-                "Effective sharing requires attention to safety, real outcomes, equitable access, and uncertainty.",
-                "Once donated goods are available, public institutions have no further responsibilities."
+                "His vulnerability and grief coexist with compelling gentleness and intense determination.",
+                "His wealth contrasts with the crew's poverty.",
+                "His official authority contrasts with the captain's rank.",
+                "His enjoyment of the sea contrasts with a lifelong fear of travel."
               ],
-              "correctIndex": 2,
-              "explanation": "The conclusion explicitly treats access as a public-service design problem, not simply distribution. The passage repeatedly emphasizes safeguards, outcome measures, and unrepresented groups.",
+              "correctIndex": 0,
+              "explanation": "The narrator repeatedly juxtaposes profound suffering and weakness with amiability, attachment and urgent interest in the sledge.",
               "passageId": "R02-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "individually-authored-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Frankenstein — Walton's journal and the rescued stranger"
             }
-          ]
+          ],
+          "source": {
+            "work": "Frankenstein",
+            "author": "Mary Shelley",
+            "year": 1818,
+            "url": "https://www.gutenberg.org/ebooks/84",
+            "rights": "Public domain in United States",
+            "start": "This aroused the stranger's attention, and he asked a multitude of questions concerning the rou",
+            "end": "ning the stranger at intervals, should I have any fresh incidents to record.\n\nAugust 13th, 17--"
+          },
+          "sourceReference": "ADV-02-P1"
         }
       ],
       "vocabularyQuestions": [
