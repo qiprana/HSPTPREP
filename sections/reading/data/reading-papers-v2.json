@@ -17565,9 +17565,9 @@
       "passages": [
         {
           "id": "R18-P1",
-          "title": "The Long-Lived Battery",
-          "genre": "science",
-          "text": "A student team compared battery life in two identical devices used at different brightness settings. One device shut off much sooner even though both had been charged overnight. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThe team ran repeated trials while keeping the same applications open on both devices. The brighter screen consistently drained its battery faster during the tests. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their thorough approach involved examining the available information before making the next decision.\n\nTemperature and battery age were not varied in the experiment. The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate. A simple controlled comparison can suggest a practical habit while leaving other factors unexplored. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Judicial Independence",
+          "genre": "historical political argument",
+          "text": "NEXT to permanency in office, nothing can contribute more to the independence of the judges than a fixed provision for their support. The remark made in relation to the President is equally applicable here. In the general course of human nature, a power over a man's subsistence amounts to a power over his will. And we can never hope to see realized in practice, the complete separation of the judicial from the legislative power, in any system which leaves the former dependent for pecuniary resources on the occasional grants of the latter. The enlightened friends to good government in every State, have seen cause to lament the want of precise and explicit precautions in the State constitutions on this head. Some of these indeed have declared that permanent(1) salaries should be established for the judges; but the experiment has in some instances shown that such expressions are not sufficiently definite to preclude legislative evasions. Something still more positive and unequivocal has been evinced to be requisite. The plan of the convention accordingly has provided that the judges of the United States \"shall at stated times receive for their services a compensation which shall not be diminished during their continuance in office.\"\n\nThis, all circumstances considered, is the most eligible provision that could have been devised. It will readily be understood that the fluctuations in the value of money and in the state of society rendered a fixed rate of compensation in the Constitution inadmissible. What might be extravagant to-day, might in half a century become penurious and inadequate. It was therefore necessary to leave it to the discretion of the legislature to vary its provisions in conformity to the variations in circumstances, yet under such restrictions as to put it out of the power of that body to change the condition of the individual for the worse. A man may then be sure of the ground upon which he stands, and can never be deterred from his duty by the apprehension of being placed in a less eligible situation. The clause which has been quoted combines both advantages. The salaries of judicial officers may from time to time be altered, as occasion shall require, yet so as never to lessen the allowance with which any particular judge comes into office, in respect to him. It will be observed that a difference has been made by the convention between the compensation of the President and of the judges, That of the former can neither be increased nor diminished; that of the latter can only not be diminished. This probably arose from the difference in the duration of the respective offices. As the President is to be elected for no more than four years, it can rarely happen that an adequate salary, fixed at the commencement of that period, will not continue to be such to its end. But with regard to the judges, who, if they behave properly, will be secured in their places for life, it may well happen, especially in the early stages of the government, that a stipend, which would be very sufficient at their first appointment, would become too small in the progress of their service.",
           "term": [
             "thorough",
             "complete and careful",
@@ -17578,165 +17578,186 @@
           "questions": [
             {
               "id": "R18-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Long-Lived Battery\"?",
+              "type": "Central premise",
+              "prompt": "What concern motivates the proposal to protect judges' compensation?",
               "choices": [
-                "The method (“The team ran repeated trials while keeping the same…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The brighter screen consistently drained its battery…”) is treated as unrelated to the original investigation.",
-                "The concern (“One device shut off much sooner even though both had been…”) leads to inquiry, but “Temperature and battery age were not varied in the…” limits the inference.",
-                "The proposed response (“The students advised conserving screen brightness but…”) makes the original concern irrelevant."
+                "Control over a person's livelihood may influence willingness to exercise independent judgment.",
+                "Judges cannot perform their duties if every salary is identical.",
+                "Legislatures should have no role in determining government spending.",
+                "Judges should receive no compensation at all."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Temperature and battery age were not varied in the experiment. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The opening links economic dependence to vulnerability to another branch's influence.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Long-Lived Battery\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Institutional reasoning",
+              "prompt": "Why does the writer consider a vague promise of 'permanent' salaries insufficient?",
               "choices": [
-                "The team ran repeated trials while keeping the same applications open on both devices.",
-                "The brighter screen consistently drained its battery faster during the tests.",
-                "The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate.",
-                "One device shut off much sooner even though both had been charged overnight."
+                "It necessarily requires all judges to retire.",
+                "It prohibits any future legislation.",
+                "Legislators may evade provisions that lack precise restrictions.",
+                "It automatically guarantees excessive salaries."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: One device shut off much sooner even though both had been charged overnight. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The passage says experience exposed legislative evasions despite broad declarations, prompting more explicit protections.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Long-Lived Battery\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Trade-off",
+              "prompt": "Why does the proposed system allow judicial pay to increase but not decrease during a judge's term?",
               "choices": [
-                "The team ran repeated trials while keeping the same applications open on both devices.",
-                "One device shut off much sooner even though both had been charged overnight.",
-                "The brighter screen consistently drained its battery faster during the tests.",
-                "Temperature and battery age were not varied in the experiment."
+                "Judges are entitled to identical purchasing power in every year.",
+                "It accommodates changing economic conditions while limiting financial retaliation against serving judges.",
+                "The Constitution predicts no changes in the value of money.",
+                "It makes judicial salaries unrelated to public budgets."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: The team ran repeated trials while keeping the same applications open on both devices. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "Flexibility addresses inflation and changing circumstances, while the no-decrease rule protects an individual's position.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Long-Lived Battery\", rather than a procedure, caution, or policy response?",
+              "type": "Policy comparison",
+              "prompt": "How does the passage distinguish the President's compensation from judges' compensation?",
               "choices": [
-                "The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate.",
-                "The brighter screen consistently drained its battery faster during the tests.",
-                "The team ran repeated trials while keeping the same applications open on both devices.",
-                "Temperature and battery age were not varied in the experiment."
+                "Neither can ever be altered under any circumstance.",
+                "Both may be reduced during a current term.",
+                "Judicial compensation is fixed permanently at appointment.",
+                "Presidential pay may neither increase nor decrease during the term, whereas judicial pay is protected against reductions."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The brighter screen consistently drained its battery faster during the tests. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The text explicitly contrasts the two clauses and relates the difference to term duration.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Long-Lived Battery\" from being generalized beyond the available evidence?",
+              "type": "Causal explanation",
+              "prompt": "Why does tenure length matter in the argument?",
               "choices": [
-                "The team ran repeated trials while keeping the same applications open on both devices.",
-                "The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate.",
-                "Temperature and battery age were not varied in the experiment.",
-                "The brighter screen consistently drained its battery faster during the tests."
+                "A lifetime judgeship makes it more likely that a previously sufficient salary will become inadequate as conditions change.",
+                "A four-year term always produces greater judicial independence.",
+                "Judges are required to change careers every four years.",
+                "The author assumes money never changes in value."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Temperature and battery age were not varied in the experiment. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "A salary adequate at appointment can lose adequacy over a much longer term.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Long-Lived Battery\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Logical qualification",
+              "prompt": "Which claim is most consistent with the passage's reasoning?",
               "choices": [
-                "One device shut off much sooner even though both had been charged overnight.",
-                "The team ran repeated trials while keeping the same applications open on both devices.",
-                "The brighter screen consistently drained its battery faster during the tests.",
-                "The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate."
+                "Financial independence guarantees judges will always rule correctly.",
+                "Only elected officials can be financially influenced.",
+                "Salary safeguards remove one source of pressure but do not by themselves prove perfect judicial behavior.",
+                "A no-reduction clause prevents all forms of legislative oversight."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The argument focuses specifically on protection from compensation-based pressure, not infallibility or total independence from checks.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Long-Lived Battery\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Rhetorical emphasis",
+              "prompt": "What is the purpose of the aphorism that power over subsistence amounts to power over will?",
               "choices": [
-                "Initial concern: “One device shut off much sooner even though both had been…”; method: “The team ran repeated trials while keeping the same…”.",
-                "Initial concern: “One device shut off much sooner even though both had been…”; method: “Temperature and battery age were not varied in the…”.",
-                "Initial concern: “The brighter screen consistently drained its battery…”; method: “The students advised conserving screen brightness but…”.",
-                "Initial concern: “The team ran repeated trials while keeping the same…”; method: “The brighter screen consistently drained its battery…”."
+                "To defend unrestricted salary cuts.",
+                "To condense the causal claim that economic leverage can undermine independent decision-making.",
+                "To claim individuals cannot survive without political office.",
+                "To prove every salaried worker is dishonest."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with One device shut off much sooner even though both had been charged overnight. and the subsequent investigative procedure is The team ran repeated trials while keeping the same applications open on both devices..",
+              "correctIndex": 1,
+              "explanation": "The line succinctly links control of livelihood to potential control of conduct.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Long-Lived Battery\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Counterargument",
+              "prompt": "What response would most directly challenge the adequacy of the proposed safeguard?",
               "choices": [
-                "The method (“The team ran repeated trials while keeping the same…”) guarantees the result before measurement.",
-                "The observation (“The brighter screen consistently drained its battery…”) matters, but the limit (“Temperature and battery age were not varied in the…”) remains.",
-                "The observation (“The brighter screen consistently drained its battery…”) rules out every alternative cause.",
-                "The limitation (“Temperature and battery age were not varied in the…”) disproves the observation itself."
+                "A judge's salary should be set by lottery.",
+                "Judges should never receive public funds.",
+                "Money cannot influence any decision.",
+                "Other mechanisms besides salary reductions may threaten judicial independence."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The brighter screen consistently drained its battery faster during the tests. but must be read alongside Temperature and battery age were not varied in the experiment..",
+              "correctIndex": 3,
+              "explanation": "The proposal addresses one incentive; a relevant critique asks whether other sources of pressure remain.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Long-Lived Battery\" relate to the strength and limits of the earlier observations?",
+              "type": "Evidence from text",
+              "prompt": "Why does the author reject writing a single permanent salary figure into the Constitution?",
               "choices": [
-                "The caveat (“Temperature and battery age were not varied in the…”) makes the observations worthless.",
-                "The observation (“The brighter screen consistently drained its battery…”) shows that measurement was unnecessary.",
-                "The response (“The students advised conserving screen brightness but…”) follows evidence but remains open to reassessment.",
-                "The response (“The students advised conserving screen brightness but…”) is proof of success in every setting."
+                "A fixed amount could become extravagant or inadequate as the economy changes.",
+                "Salaries are unimportant to judges.",
+                "Money has no measurable purchasing value.",
+                "The legislature can never calculate compensation."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The students advised conserving screen brightness but cautioned against claiming a universal battery-life estimate.; the stated limit Temperature and battery age were not varied in the experiment. still matters.",
+              "correctIndex": 0,
+              "explanation": "Changes in money value and society make a fixed nominal rate unsuitable across time.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             },
             {
               "id": "R18-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Long-Lived Battery\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which interpretation best captures the constitutional design argument?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“The team ran repeated trials while keeping the same…”) while testing the concern (“Temperature and battery age were not varied in the…”)."
+                "Complete stability requires freezing every government expense forever.",
+                "Courts should set all taxes independently.",
+                "A useful safeguard balances flexibility in funding with a firm limit on punitive manipulation.",
+                "Judicial offices should be filled only through elections."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, Temperature and battery age were not varied in the experiment., while comparing evidence from the original method, The team ran repeated trials while keeping the same applications open on both devices..",
+              "correctIndex": 2,
+              "explanation": "The provision preserves the ability to adjust salaries while prohibiting reductions for a sitting judge.",
               "passageId": "R18-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — salary protections for federal judges"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "NEXT to permanency in office, nothing can contribute more to the independence of the judges tha",
+            "end": "sufficient at their first appointment, would become too small in the progress of their service."
+          },
+          "sourceReference": "ADV-18-P3",
+          "contextNote": "Historical constitutional argument. Evaluate claims about institutional design and checks on authority."
         },
         {
           "id": "R18-P2",
