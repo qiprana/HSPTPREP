@@ -5493,9 +5493,9 @@
         },
         {
           "id": "R06-P2",
-          "title": "The Railway Station Clock",
-          "genre": "history",
-          "text": "A museum traced the history of a station clock donated by the descendants of a railway worker. The clock had been altered repeatedly, and no original manual survived. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nConservators examined the gears, photographs of the station, and maintenance receipts. A receipt mentioned a replacement mechanism installed shortly after the station expanded. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their systematic approach involved examining the available information before making the next decision.\n\nThe evidence did not show whether every visible part had been replaced at that time. The museum restored the clock's safe operation while documenting its different historical layers. Old machines can reveal several generations of change rather than one untouched moment. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Shelley — Victor's Silence and Guilt",
+          "genre": "literature",
+          "text": "No one can conceive the anguish I suffered during the remainder of the night, which I spent, cold and wet, in the open air. But I did not feel the inconvenience of the weather; my imagination was busy in scenes of evil and despair. I considered the being whom I had cast among mankind, and endowed with the will and power to effect purposes of horror, such as the deed which he had now done, nearly in the light of my own vampire, my own spirit let loose from the grave, and forced to destroy all that was dear to me.\n\nDay dawned; and I directed my steps towards the town. The gates were open, and I hastened to my father's house. My first thought was to discover what I knew of the murderer, and cause instant pursuit to be made. But I paused when I reflected on the story that I had to tell. A being whom I myself had formed, and endued with life, had met me at midnight among the precipices of an inaccessible mountain. I remembered also the nervous fever with which I had been seized just at the time that I dated my creation, and which would give an air of delirium to a tale otherwise so utterly improbable. I well knew that if any other had communicated such a relation to me, I should have looked upon it as the ravings of insanity. Besides, the strange nature of the animal would elude all pursuit, even if I were so far credited as to persuade my relatives to commence it. And then of what use would be pursuit? Who could arrest a creature capable of scaling the overhanging sides of Mont Saleve? These reflections determined me, and I resolved to remain silent.\n\nIt was about five in the morning when I entered my father's house. I told the servants not to disturb the family, and went into the library to attend their usual hour of rising.\n\nSix years had elapsed, passed in a dream but for one indelible trace, and I stood in the same place where I had last embraced my father before my departure for Ingolstadt. Beloved and venerable parent! He still remained to me. I gazed on the picture of my mother, which stood over the mantel-piece. It was an historical subject, painted at my father's desire, and represented Caroline Beaufort in an agony of despair, kneeling by the coffin of her dead father. Her garb was rustic, and her cheek pale; but there was an air of dignity and beauty, that hardly permitted the sentiment of pity. Below this picture was a miniature of William; and my tears flowed when I looked upon it. While I was thus engaged, Ernest entered: he had heard me arrive, and hastened to welcome me: \"Welcome, my dearest Victor,\" said he. \"Ah! I wish you had come three months ago, and then you would have found us all joyous and delighted. You come to us now to share a misery which nothing can alleviate; yet your presence will, I hope, revive our father, who seems sinking under his misfortune; and your persuasions will induce poor Elizabeth to cease her vain and tormenting self-accusations.--Poor William! he was our darling and our pride!\"",
           "term": [
             "systematic",
             "following a plan",
@@ -5506,171 +5506,191 @@
           "questions": [
             {
               "id": "R06-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Railway Station Clock\"?",
+              "type": "Narrative perspective",
+              "prompt": "Why does Victor hesitate to accuse the being he has created?",
               "choices": [
-                "The proposed response (“The museum restored the clock's safe operation while…”) makes the original concern irrelevant.",
-                "The method (“Conservators examined the gears, photographs of the…”) rules out every possible competing explanation.",
-                "The recorded outcome (“A receipt mentioned a replacement mechanism installed…”) is treated as unrelated to the original investigation.",
-                "The concern (“The clock had been altered repeatedly, and no original…”) leads to inquiry, but “The evidence did not show whether every visible part had…” limits the inference."
+                "He has forgotten its appearance.",
+                "He fears his extraordinary account will sound delusional, especially given his previous illness.",
+                "He has a sworn agreement to protect it.",
+                "He knows another person has confessed."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The evidence did not show whether every visible part had been replaced at that time. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Victor considers his history of nervous fever and the implausibility of his story, anticipating disbelief.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Railway Station Clock\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Practical reasoning",
+              "prompt": "What additional reason does Victor give for believing pursuit would fail?",
               "choices": [
-                "A receipt mentioned a replacement mechanism installed shortly after the station expanded.",
-                "The museum restored the clock's safe operation while documenting its different historical layers.",
-                "The clock had been altered repeatedly, and no original manual survived.",
-                "Conservators examined the gears, photographs of the station, and maintenance receipts."
+                "The creature's extraordinary mobility could enable it to evade ordinary pursuers.",
+                "No one in the family is interested in the crime.",
+                "The weather is too warm to travel.",
+                "The town has no open roads."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: The clock had been altered repeatedly, and no original manual survived. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Victor recalls the being scaling precipitous mountains and doubts any search could apprehend it.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Railway Station Clock\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Metaphor",
+              "prompt": "How does Victor's comparison of the being to 'my own vampire' deepen the conflict?",
               "choices": [
-                "The clock had been altered repeatedly, and no original manual survived.",
-                "A receipt mentioned a replacement mechanism installed shortly after the station expanded.",
-                "The evidence did not show whether every visible part had been replaced at that time.",
-                "Conservators examined the gears, photographs of the station, and maintenance receipts."
+                "It establishes the being is literally supernatural.",
+                "It proves the being can transform into a bat.",
+                "It expresses Victor's sense that a creation from himself has become a destroyer of what he loves.",
+                "It implies Victor has no moral connection to his creation."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Conservators examined the gears, photographs of the station, and maintenance receipts. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The metaphor links his authorship of the creature to fear and responsibility for harm.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Railway Station Clock\", rather than a procedure, caution, or policy response?",
+              "type": "Character motive",
+              "prompt": "What is the immediate consequence of Victor's reasoning about disbelief and pursuit?",
               "choices": [
-                "A receipt mentioned a replacement mechanism installed shortly after the station expanded.",
-                "Conservators examined the gears, photographs of the station, and maintenance receipts.",
-                "The evidence did not show whether every visible part had been replaced at that time.",
-                "The museum restored the clock's safe operation while documenting its different historical layers."
+                "He sends a public warning.",
+                "He asks the police to arrest his brother.",
+                "He abandons the town without visiting family.",
+                "He resolves to say nothing about what he believes he knows."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: A receipt mentioned a replacement mechanism installed shortly after the station expanded. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "His reflections explicitly determine his decision to remain silent.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Railway Station Clock\" from being generalized beyond the available evidence?",
+              "type": "Emotional contrast",
+              "prompt": "What tension is created by Victor's return to his father's home?",
               "choices": [
-                "The museum restored the clock's safe operation while documenting its different historical layers.",
-                "The evidence did not show whether every visible part had been replaced at that time.",
-                "A receipt mentioned a replacement mechanism installed shortly after the station expanded.",
-                "Conservators examined the gears, photographs of the station, and maintenance receipts."
+                "A familiar setting of love and memory contrasts with his fear, grief and suspicion.",
+                "He finds everyone celebrating a new birth.",
+                "The house has become unfamiliar after only one night.",
+                "He is relieved to discover no death occurred."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The evidence did not show whether every visible part had been replaced at that time. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The maternal portrait and William's miniature evoke affection and loss while the family suffers.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Railway Station Clock\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Evidence limits",
+              "prompt": "Which claim can the passage establish most securely?",
               "choices": [
-                "Conservators examined the gears, photographs of the station, and maintenance receipts.",
-                "A receipt mentioned a replacement mechanism installed shortly after the station expanded.",
-                "The museum restored the clock's safe operation while documenting its different historical layers.",
-                "The clock had been altered repeatedly, and no original manual survived."
+                "The creature's guilt has been verified through an independent trial.",
+                "Victor believes the being committed the deed but has not presented evidence others could examine.",
+                "Every family member knows of the being's existence.",
+                "The police have already dismissed the case."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The museum restored the clock's safe operation while documenting its different historical layers. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The narration reports Victor's belief and rationale for silence; it does not provide external confirmation.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Railway Station Clock\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Tone",
+              "prompt": "How do the images of the dead mother and William's miniature function?",
               "choices": [
-                "Initial concern: “The clock had been altered repeatedly, and no original…”; method: “The evidence did not show whether every visible part had…”.",
-                "Initial concern: “A receipt mentioned a replacement mechanism installed…”; method: “The museum restored the clock's safe operation while…”.",
-                "Initial concern: “Conservators examined the gears, photographs of the…”; method: “A receipt mentioned a replacement mechanism installed…”.",
-                "Initial concern: “The clock had been altered repeatedly, and no original…”; method: “Conservators examined the gears, photographs of the…”."
+                "They distract from the story without contributing to meaning.",
+                "They imply the house is a public museum.",
+                "They give the narrator's remorse a personal, familial setting.",
+                "They demonstrate that Victor is indifferent to loss."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with The clock had been altered repeatedly, and no original manual survived. and the subsequent investigative procedure is Conservators examined the gears, photographs of the station, and maintenance receipts..",
+              "correctIndex": 2,
+              "explanation": "The images focus his anguish on specific loved ones rather than abstract fear.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Railway Station Clock\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Characterization",
+              "prompt": "What does Ernest's greeting reveal about the family?",
               "choices": [
-                "The observation (“A receipt mentioned a replacement mechanism installed…”) matters, but the limit (“The evidence did not show whether every visible part had…”) remains.",
-                "The observation (“A receipt mentioned a replacement mechanism installed…”) rules out every alternative cause.",
-                "The limitation (“The evidence did not show whether every visible part had…”) disproves the observation itself.",
-                "The method (“Conservators examined the gears, photographs of the…”) guarantees the result before measurement."
+                "They refuse Victor's presence.",
+                "They do not know about William.",
+                "They expect Victor to solve every problem immediately.",
+                "They hope his arrival may comfort a father overwhelmed by grief and an Elizabeth blaming herself."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as A receipt mentioned a replacement mechanism installed shortly after the station expanded. but must be read alongside The evidence did not show whether every visible part had been replaced at that time..",
+              "correctIndex": 3,
+              "explanation": "Ernest expresses hope that Victor's return will ease their misery, though it cannot erase the tragedy.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Railway Station Clock\" relate to the strength and limits of the earlier observations?",
+              "type": "Causal analysis",
+              "prompt": "Why is Victor's earlier fever important to his decision?",
               "choices": [
-                "The observation (“A receipt mentioned a replacement mechanism installed…”) shows that measurement was unnecessary.",
-                "The response (“The museum restored the clock's safe operation while…”) follows evidence but remains open to reassessment.",
-                "The response (“The museum restored the clock's safe operation while…”) is proof of success in every setting.",
-                "The caveat (“The evidence did not show whether every visible part had…”) makes the observations worthless."
+                "It might make his already extraordinary testimony appear unreliable to listeners.",
+                "It provides direct evidence of the creature's guilt.",
+                "It guarantees his family will believe him.",
+                "It prevents him from physically entering the town."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The museum restored the clock's safe operation while documenting its different historical layers.; the stated limit The evidence did not show whether every visible part had been replaced at that time. still matters.",
+              "correctIndex": 0,
+              "explanation": "He predicts observers will associate his story with a known episode of mental or physical disturbance.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             },
             {
               "id": "R06-P2-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Railway Station Clock\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which conflict best organizes the passage?",
               "choices": [
-                "Repeat the method (“Conservators examined the gears, photographs of the…”) while testing the concern (“The evidence did not show whether every visible part had…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "The difficulty of finding a comfortable home.",
+                "A creator's private sense of guilt and knowledge collides with the apparent impossibility of credible public disclosure.",
+                "The rivalry between two scientific institutions.",
+                "A traveler's wish to escape his family."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The evidence did not show whether every visible part had been replaced at that time., while comparing evidence from the original method, Conservators examined the gears, photographs of the station, and maintenance receipts..",
+              "correctIndex": 1,
+              "explanation": "Victor weighs perceived knowledge, responsibility, fear of disbelief and the futility of action.",
               "passageId": "R06-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Shelley — Victor's Silence and Guilt"
             }
-          ]
+          ],
+          "source": {
+            "work": "Frankenstein",
+            "author": "Mary Shelley",
+            "year": 1818,
+            "url": "https://www.gutenberg.org/ebooks/84",
+            "rights": "Public domain in United States",
+            "start": "No one can conceive the anguish I suffered during the remainder of the night, which I spent, co",
+            "end": "ase her vain and tormenting self-accusations.--Poor William! he was our darling and our pride!\""
+          },
+          "sourceReference": "ADV-06-P1"
         },
         {
           "id": "R06-P3",
-          "title": "The Missing Recipe Card",
-          "genre": "narrative",
-          "text": "Sana promised to prepare a family dish for a neighborhood gathering. When she opened the recipe box, the card containing the instructions was missing. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nShe called her grandmother, who described the method but could not recall every measurement. Sana prepared a small batch, recorded her adjustments, and asked family members to taste it. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their credible approach involved examining the available information before making the next decision.\n\nThe finished dish was not identical to the version she remembered from childhood. Her grandmother praised the careful effort and helped Sana write a new recipe card. Tradition can be preserved through patient adaptation rather than perfect imitation. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "The Federalist Papers — Revenue and National Authority",
+          "genre": "historical political argument",
+          "text": "In the Ottoman or Turkish empire, the sovereign, though in other respects absolute master of the lives and fortunes of his subjects, has no right to impose a new tax. The consequence is that he permits the bashaws or governors of provinces to pillage the people without mercy; and, in turn, squeezes out of them the sums of which he stands in need, to satisfy his own exigencies and those of the state. In America, from a like cause, the government of the Union has gradually dwindled into a state of decay, approaching nearly to annihilation. Who can doubt, that the happiness of the people in both countries would be promoted by competent authorities in the proper hands, to provide the revenues which the necessities of the public might require?\n\nThe present Confederation, feeble as it is intended to repose in the United States, an unlimited power of providing for the pecuniary wants of the Union. But proceeding upon an erroneous principle, it has been done in such a manner as entirely to have frustrated the intention. Congress, by the articles which compose that compact (as has already been stated), are authorized to ascertain and call for any sums of money necessary, in their judgment, to the service of the United States; and their requisitions, if conformable to the rule of apportionment, are in every constitutional sense obligatory upon the States. These have no right to question the propriety of the demand; no discretion beyond that of devising the ways and means of furnishing the sums demanded. But though this be strictly and truly the case; though the assumption of such a right would be an infringement of the articles of Union; though it may seldom or never have been avowedly claimed, yet in practice it has been constantly exercised, and would continue to be so, as long as the revenues of the Confederacy should remain dependent on the intermediate agency of its members. What the consequences of this system have been, is within the knowledge of every man the least conversant in our public affairs, and has been amply unfolded in different parts of these inquiries. It is this which has chiefly contributed to reduce us to a situation, which affords ample cause both of mortification to ourselves, and of triumph to our enemies.\n\nWhat remedy can there be for this situation, but in a change of the system which has produced it in a change of the fallacious and delusive system of quotas and requisitions? What substitute can there be imagined for this ignis fatuus in finance, but that of permitting the national government to raise its own revenues by the ordinary methods of taxation authorized in every well-ordered constitution of civil government? Ingenious men may declaim with plausibility on any subject; but no human ingenuity can point out any other expedient to rescue us from the inconveniences and embarrassments naturally resulting from defective supplies of the public treasury.",
           "term": [
             "credible",
             "believable",
@@ -5681,171 +5701,191 @@
           "questions": [
             {
               "id": "R06-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Missing Recipe Card\"?",
+              "type": "Argument by analogy",
+              "prompt": "Why does the author introduce revenue practices in the Ottoman Empire?",
               "choices": [
-                "The concern (“When she opened the recipe box, the card containing the…”) leads to inquiry, but “The finished dish was not identical to the version she…” limits the inference.",
-                "The proposed response (“Her grandmother praised the careful effort and helped…”) makes the original concern irrelevant.",
-                "The method (“She called her grandmother, who described the method but…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Sana prepared a small batch, recorded her adjustments,…”) is treated as unrelated to the original investigation."
+                "To demonstrate that all empires collect taxes identically.",
+                "To praise arbitrary provincial exactions.",
+                "To argue that denying lawful central taxing power may encourage indirect extraction and abusive substitutes.",
+                "To prove American states were provinces of Turkey."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The finished dish was not identical to the version she remembered from childhood. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The analogy portrays a government unable to tax directly and therefore reliant on predatory intermediaries.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Missing Recipe Card\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Institutional problem",
+              "prompt": "What does the author consider the central weakness of the Confederation's revenue system?",
               "choices": [
-                "Her grandmother praised the careful effort and helped Sana write a new recipe card.",
-                "When she opened the recipe box, the card containing the instructions was missing.",
-                "She called her grandmother, who described the method but could not recall every measurement.",
-                "Sana prepared a small batch, recorded her adjustments, and asked family members to taste it."
+                "Congress has no authority to request money.",
+                "States can withhold or delay funds despite formally binding requisitions.",
+                "Every state uses an identical tax code.",
+                "The Union has more money than it needs."
               ],
               "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: When she opened the recipe box, the card containing the instructions was missing. The other choices describe what was done or discovered afterward.",
+              "explanation": "He distinguishes the formal obligation to comply from the actual practice of states exercising discretion.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Missing Recipe Card\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Distinction",
+              "prompt": "How can Congressional requisitions be legally binding yet ineffective in practice?",
               "choices": [
-                "Sana prepared a small batch, recorded her adjustments, and asked family members to taste it.",
-                "The finished dish was not identical to the version she remembered from childhood.",
-                "She called her grandmother, who described the method but could not recall every measurement.",
-                "When she opened the recipe box, the card containing the instructions was missing."
+                "The law and its enforcement differ: state intermediaries still control whether money is supplied.",
+                "The author denies the existence of the Articles of Confederation.",
+                "A binding obligation is always enforced automatically.",
+                "Congress is forbidden from estimating its needs."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: She called her grandmother, who described the method but could not recall every measurement. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "Legal duty does not eliminate reliance on states to collect and remit funds.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Missing Recipe Card\", rather than a procedure, caution, or policy response?",
+              "type": "Causal chain",
+              "prompt": "According to the author, what does the quota system contribute to?",
               "choices": [
-                "She called her grandmother, who described the method but could not recall every measurement.",
-                "The finished dish was not identical to the version she remembered from childhood.",
-                "Her grandmother praised the careful effort and helped Sana write a new recipe card.",
-                "Sana prepared a small batch, recorded her adjustments, and asked family members to taste it."
+                "A system of stable direct taxation.",
+                "Complete national autonomy from state governments.",
+                "The disappearance of state trade disputes.",
+                "Unreliable national revenue and governmental weakness."
               ],
               "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: Sana prepared a small batch, recorded her adjustments, and asked family members to taste it. The other statements describe different stages of the inquiry.",
+              "explanation": "Dependence on state remittances leaves the treasury vulnerable to noncompliance and shortages.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Missing Recipe Card\" from being generalized beyond the available evidence?",
+              "type": "Rhetorical term",
+              "prompt": "Why is the quota system described as an 'ignis fatuus' in finance?",
               "choices": [
-                "The finished dish was not identical to the version she remembered from childhood.",
-                "Sana prepared a small batch, recorded her adjustments, and asked family members to taste it.",
-                "She called her grandmother, who described the method but could not recall every measurement.",
-                "Her grandmother praised the careful effort and helped Sana write a new recipe card."
+                "It is a reliable map of future tax revenue.",
+                "It is an illusory guide that promises a solution but misleads policymakers.",
+                "It relies on literal fire to collect taxes.",
+                "It records the names of every taxpayer."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The finished dish was not identical to the version she remembered from childhood. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "The will-o'-the-wisp metaphor characterizes the system as deceptive rather than dependable.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Missing Recipe Card\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Proposed remedy",
+              "prompt": "What institutional change does the writer advocate?",
               "choices": [
-                "Sana prepared a small batch, recorded her adjustments, and asked family members to taste it.",
-                "Her grandmother praised the careful effort and helped Sana write a new recipe card.",
-                "When she opened the recipe box, the card containing the instructions was missing.",
-                "She called her grandmother, who described the method but could not recall every measurement."
+                "Abolishing all public services.",
+                "Delegating foreign treaties to provincial governors.",
+                "Allowing the national government to raise revenue through ordinary taxation rather than relying solely on state requisitions.",
+                "Replacing all taxes with voluntary donations."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: Her grandmother praised the careful effort and helped Sana write a new recipe card. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The conclusion calls for central authority to collect its own revenues.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Missing Recipe Card\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Rhetorical strategy",
+              "prompt": "How does the passage use repeated rhetorical questions near the end?",
               "choices": [
-                "Initial concern: “Sana prepared a small batch, recorded her adjustments,…”; method: “Her grandmother praised the careful effort and helped…”.",
-                "Initial concern: “She called her grandmother, who described the method but…”; method: “Sana prepared a small batch, recorded her adjustments,…”.",
-                "Initial concern: “When she opened the recipe box, the card containing the…”; method: “She called her grandmother, who described the method but…”.",
-                "Initial concern: “When she opened the recipe box, the card containing the…”; method: “The finished dish was not identical to the version she…”."
+                "It presents the proposed remedy as the only plausible alternative after detailing the current system's failures.",
+                "It records unanswered questions from a public meeting.",
+                "It avoids stating a policy position.",
+                "It argues that revenue collection is unnecessary."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with When she opened the recipe box, the card containing the instructions was missing. and the subsequent investigative procedure is She called her grandmother, who described the method but could not recall every measurement..",
+              "correctIndex": 0,
+              "explanation": "The questions lead readers from criticism of quotas toward direct taxation.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Missing Recipe Card\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Counterargument",
+              "prompt": "Which consideration would most directly challenge the author's confidence in the remedy?",
               "choices": [
-                "The observation (“Sana prepared a small batch, recorded her adjustments,…”) rules out every alternative cause.",
-                "The limitation (“The finished dish was not identical to the version she…”) disproves the observation itself.",
-                "The method (“She called her grandmother, who described the method but…”) guarantees the result before measurement.",
-                "The observation (“Sana prepared a small batch, recorded her adjustments,…”) matters, but the limit (“The finished dish was not identical to the version she…”) remains."
+                "Whether central taxing authority might create different risks of unequal burdens or insufficient accountability.",
+                "Whether the treasury has an official building.",
+                "Whether national officials can write formal letters.",
+                "Whether tax records use alphabetical names."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as Sana prepared a small batch, recorded her adjustments, and asked family members to taste it. but must be read alongside The finished dish was not identical to the version she remembered from childhood..",
+              "correctIndex": 0,
+              "explanation": "A relevant challenge examines costs and constraints of centralized revenue, rather than denying the current system's problems.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Missing Recipe Card\" relate to the strength and limits of the earlier observations?",
+              "type": "Scope",
+              "prompt": "Which conclusion cannot be established by the passage alone?",
               "choices": [
-                "The response (“Her grandmother praised the careful effort and helped…”) follows evidence but remains open to reassessment.",
-                "The response (“Her grandmother praised the careful effort and helped…”) is proof of success in every setting.",
-                "The caveat (“The finished dish was not identical to the version she…”) makes the observations worthless.",
-                "The observation (“Sana prepared a small batch, recorded her adjustments,…”) shows that measurement was unnecessary."
+                "The author considers the existing arrangement weak.",
+                "State compliance has been unreliable in practice.",
+                "Direct federal taxation would guarantee perfect fairness and eliminate all fiscal problems.",
+                "The argument distinguishes legal authority from actual behavior."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed Her grandmother praised the careful effort and helped Sana write a new recipe card.; the stated limit The finished dish was not identical to the version she remembered from childhood. still matters.",
+              "correctIndex": 2,
+              "explanation": "The writer argues for improved reliability, not demonstrable perfection of every future tax.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             },
             {
               "id": "R06-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Missing Recipe Card\" without ignoring its stated limitation?",
+              "type": "Main claim",
+              "prompt": "Which statement best summarizes the author's argument?",
               "choices": [
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“She called her grandmother, who described the method but…”) while testing the concern (“The finished dish was not identical to the version she…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives."
+                "Financial obligations should never be enforceable.",
+                "A government's assigned responsibilities require revenue mechanisms it can reliably control.",
+                "State governments should administer every national treaty alone.",
+                "Raising revenue is irrelevant to governmental independence."
               ],
               "correctIndex": 1,
-              "explanation": "A focused follow-up must examine the stated limitation, The finished dish was not identical to the version she remembered from childhood., while comparing evidence from the original method, She called her grandmother, who described the method but could not recall every measurement..",
+              "explanation": "The core issue is the mismatch between national responsibilities and dependence on other governments for resources.",
               "passageId": "R06-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "The Federalist Papers — Revenue and National Authority"
             }
-          ]
+          ],
+          "source": {
+            "work": "The Federalist Papers",
+            "author": "James Madison, Alexander Hamilton and John Jay",
+            "year": 1787,
+            "url": "https://www.gutenberg.org/ebooks/1404",
+            "rights": "Public domain in United States",
+            "start": "In the Ottoman or Turkish empire, the sovereign, though in other respects absolute master of th",
+            "end": "eniences and embarrassments naturally resulting from defective supplies of the public treasury."
+          },
+          "sourceReference": "ADV-06-P3"
         },
         {
           "id": "R06-P4",
-          "title": "The Repair Cafe",
-          "genre": "community",
-          "text": "A community center invited volunteers to help neighbors repair broken household objects. Many visitors would otherwise have thrown away lamps, clothing or small appliances. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nOrganizers assigned tables by skill and asked volunteers to explain each repair. The event restored several items and taught visitors basic maintenance steps. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their reasonable approach involved examining the available information before making the next decision.\n\nSome objects were too damaged to repair safely. The center scheduled another event and began recording the types of repairs requested. Repair programs can reduce waste while helping people share practical knowledge. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Thoreau — Deliberate Living and the Price of Progress",
+          "genre": "literary essay",
+          "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life, to cut a broad swath and shave close, to drive life into a corner, and reduce it to its lowest terms, and, if it proved to be mean, why then to get the whole and genuine meanness of it, and publish its meanness to the world; or if it were sublime, to know it by experience, and be able to give a true account of it in my next excursion. For most men, it appears to me, are in a strange uncertainty about it, whether it is of the devil or of God, and have _somewhat hastily_ concluded that it is the chief end of man here to \"glorify God and enjoy him forever.\"\n\nStill we live meanly, like ants; though the fable tells us that we were long ago changed into men; like pygmies we fight with cranes; it is error upon error, and clout upon clout, and our best virtue has for its occasion a superfluous and evitable wretchedness. Our life is frittered away by detail. An honest man has hardly need to count more than his ten fingers, or in extreme cases he may add his ten toes, and lump the rest. Simplicity, simplicity, simplicity! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail. In the midst of this chopping sea of civilized life, such are the clouds and storms and quicksands and thousand-and-one items to be allowed for, that a man has to live, if he would not founder and go to the bottom and not make his port at all, by dead reckoning, and he must be a great calculator indeed who succeeds. Simplify, simplify. Instead of three meals a day, if it be necessary eat but one; instead of a hundred dishes, five; and reduce other things in proportion. Our life is like a German Confederacy, made up of petty states, with its boundary forever fluctuating, so that even a German cannot tell you how it is bounded at any moment. The nation itself, with all its so-called internal improvements, which, by the way are all external and superficial, is just such an unwieldy and overgrown establishment, cluttered with furniture and tripped up by its own traps, ruined by luxury and heedless expense, by want of calculation and a worthy aim, as the million households in the land; and the only cure for it, as for them, is in a rigid economy, a stern and more than Spartan simplicity of life and elevation of purpose. It lives too fast. Men think that it is essential that the _Nation_ have commerce, and export ice, and talk through a telegraph, and ride thirty miles an hour, without a doubt, whether _they_ do or not; but whether we should live like baboons or like men, is a little uncertain. If we do not get out sleepers, and forge rails, and devote days and nights to the work, but go to tinkering upon our _lives_ to improve _them_, who will build railroads? And if railroads are not built, how shall we get to heaven in season? But if we stay at home and mind our business, who will want railroads? We do not ride on the railroad; it rides upon us. Did you ever think what those sleepers are that underlie the railroad? Each one is a man, an Irishman, or a Yankee man. The rails are laid on them, and they are covered with sand, and the cars run smoothly over them. They are sound sleepers, I assure you. And every few years a new lot is laid down and run over; so that, if some have the pleasure of riding on a rail, others have the misfortune to be ridden upon. And when they run over a man that is walking in his sleep, a supernumerary sleeper in the wrong position, and wake him up, they suddenly stop the cars, and make a hue and cry about it, as if this were an exception. I am glad to know that it takes a gang of men for every five miles to keep the sleepers down and level in their beds as it is, for this is a sign that they may sometime get up again.",
           "term": [
             "reasonable",
             "supported by good judgment",
@@ -5856,165 +5896,185 @@
           "questions": [
             {
               "id": "R06-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Repair Cafe\"?",
+              "type": "Philosophical aim",
+              "prompt": "Why does Thoreau say he went to the woods?",
               "choices": [
-                "The recorded outcome (“The event restored several items and taught visitors…”) is treated as unrelated to the original investigation.",
-                "The concern (“Many visitors would otherwise have thrown away lamps,…”) leads to inquiry, but “Some objects were too damaged to repair safely” limits the inference.",
-                "The proposed response (“The center scheduled another event and began recording…”) makes the original concern irrelevant.",
-                "The method (“Organizers assigned tables by skill and asked volunteers…”) rules out every possible competing explanation."
+                "To retreat from all thought.",
+                "To simplify life so he could confront what he considered essential and know through experience what living meant.",
+                "To establish a commercial railway.",
+                "To escape a legal sentence."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some objects were too damaged to repair safely. prevents an overly broad conclusion.",
+              "explanation": "He seeks deliberate experience of life's essential facts rather than distraction by unnecessary activity.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Repair Cafe\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Metaphor",
+              "prompt": "What is suggested by the demand to 'suck out all the marrow of life'?",
               "choices": [
-                "Many visitors would otherwise have thrown away lamps, clothing or small appliances.",
-                "Organizers assigned tables by skill and asked volunteers to explain each repair.",
-                "The event restored several items and taught visitors basic maintenance steps.",
-                "The center scheduled another event and began recording the types of repairs requested."
+                "A literal preference for a particular diet.",
+                "A rejection of all personal effort.",
+                "An intense wish to experience life's substance instead of its superficial distractions.",
+                "An attempt to predict longevity mathematically."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Many visitors would otherwise have thrown away lamps, clothing or small appliances. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The forceful image conveys concentration on essential experience.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Repair Cafe\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Social criticism",
+              "prompt": "What does the description of life as 'frittered away by detail' condemn?",
               "choices": [
-                "Some objects were too damaged to repair safely.",
-                "Organizers assigned tables by skill and asked volunteers to explain each repair.",
-                "Many visitors would otherwise have thrown away lamps, clothing or small appliances.",
-                "The event restored several items and taught visitors basic maintenance steps."
+                "The proliferation of obligations and possessions that consume attention without fulfilling deeper purposes.",
+                "Every form of precise observation.",
+                "The use of written accounts.",
+                "All relationships between neighbors."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Organizers assigned tables by skill and asked volunteers to explain each repair. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "He sees excessive details as dispersing energy and obscuring intentional living.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Repair Cafe\", rather than a procedure, caution, or policy response?",
+              "type": "Analogy",
+              "prompt": "Why does Thoreau compare personal life to an unwieldy confederacy?",
               "choices": [
-                "Some objects were too damaged to repair safely.",
-                "The center scheduled another event and began recording the types of repairs requested.",
-                "The event restored several items and taught visitors basic maintenance steps.",
-                "Organizers assigned tables by skill and asked volunteers to explain each repair."
+                "To praise complicated political organization.",
+                "To propose electing household representatives.",
+                "To recommend that individuals avoid voting.",
+                "To portray excessive fragmentation, overgrowth and difficulty governing one's own affairs."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: The event restored several items and taught visitors basic maintenance steps. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Both the individual and nation are shown struggling with excessive subdivisions and needless complications.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Repair Cafe\" from being generalized beyond the available evidence?",
+              "type": "Rhetorical pattern",
+              "prompt": "What does the repeated injunction 'Simplify, simplify' accomplish?",
               "choices": [
-                "The event restored several items and taught visitors basic maintenance steps.",
-                "Organizers assigned tables by skill and asked volunteers to explain each repair.",
-                "The center scheduled another event and began recording the types of repairs requested.",
-                "Some objects were too damaged to repair safely."
+                "It provides a numerical budget.",
+                "It emphasizes the thesis through urgent repetition and concrete examples.",
+                "It lists the names of new technologies.",
+                "It signals that the author is undecided."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Some objects were too damaged to repair safely. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "The anaphora makes simplicity both the principle and the emotional force of the passage.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Repair Cafe\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Industrial critique",
+              "prompt": "What is the force of the claim that the railroad 'rides upon us'?",
               "choices": [
-                "The center scheduled another event and began recording the types of repairs requested.",
-                "Many visitors would otherwise have thrown away lamps, clothing or small appliances.",
-                "Organizers assigned tables by skill and asked volunteers to explain each repair.",
-                "The event restored several items and taught visitors basic maintenance steps."
+                "Railways are powered by human feet.",
+                "The narrator misunderstands the engine's design.",
+                "Technological systems may demand labor and sacrifices from people who supposedly benefit from them.",
+                "Trains can never transport passengers."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The center scheduled another event and began recording the types of repairs requested. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The inversion questions who serves whom in a supposedly liberating infrastructure system.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Repair Cafe\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Metaphorical pun",
+              "prompt": "How does the image of workers as railroad 'sleepers' sharpen the critique?",
               "choices": [
-                "Initial concern: “Organizers assigned tables by skill and asked volunteers…”; method: “The event restored several items and taught visitors…”.",
-                "Initial concern: “Many visitors would otherwise have thrown away lamps,…”; method: “Organizers assigned tables by skill and asked volunteers…”.",
-                "Initial concern: “Many visitors would otherwise have thrown away lamps,…”; method: “Some objects were too damaged to repair safely”.",
-                "Initial concern: “The event restored several items and taught visitors…”; method: “The center scheduled another event and began recording…”."
+                "It turns the physical railway support into an image of laborers bearing the social costs of progress.",
+                "It proposes using people literally as railway ties.",
+                "It shows all workers are asleep on the job.",
+                "It denies that railroad construction involves human labor."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Many visitors would otherwise have thrown away lamps, clothing or small appliances. and the subsequent investigative procedure is Organizers assigned tables by skill and asked volunteers to explain each repair..",
+              "correctIndex": 0,
+              "explanation": "The wordplay overlays material infrastructure with the workers whose effort is absorbed into it.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Repair Cafe\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Qualification",
+              "prompt": "Which interpretation most accurately preserves the author's purpose?",
               "choices": [
-                "The limitation (“Some objects were too damaged to repair safely”) disproves the observation itself.",
-                "The method (“Organizers assigned tables by skill and asked volunteers…”) guarantees the result before measurement.",
-                "The observation (“The event restored several items and taught visitors…”) matters, but the limit (“Some objects were too damaged to repair safely”) remains.",
-                "The observation (“The event restored several items and taught visitors…”) rules out every alternative cause."
+                "Thoreau proves that trains have no practical uses.",
+                "He maintains that anyone who rides a train is immoral.",
+                "He advocates abolishing every form of cooperation.",
+                "He challenges the assumption that speed and commerce are automatically better than a carefully chosen life."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as The event restored several items and taught visitors basic maintenance steps. but must be read alongside Some objects were too damaged to repair safely..",
+              "correctIndex": 3,
+              "explanation": "His argument questions priorities and social costs rather than proving that all technology is useless.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Repair Cafe\" relate to the strength and limits of the earlier observations?",
+              "type": "Argument evaluation",
+              "prompt": "Which objection would most directly test the universality of Thoreau's proposed simplicity?",
               "choices": [
-                "The response (“The center scheduled another event and began recording…”) is proof of success in every setting.",
-                "The caveat (“Some objects were too damaged to repair safely”) makes the observations worthless.",
-                "The observation (“The event restored several items and taught visitors…”) shows that measurement was unnecessary.",
-                "The response (“The center scheduled another event and began recording…”) follows evidence but remains open to reassessment."
+                "Some people have care responsibilities, disabilities or economic constraints that make radical simplification less feasible.",
+                "The passage uses imagery rather than legal definitions.",
+                "The writer has no interest in food.",
+                "Railroads move in only one direction."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The center scheduled another event and began recording the types of repairs requested.; the stated limit Some objects were too damaged to repair safely. still matters.",
+              "correctIndex": 0,
+              "explanation": "A fair challenge addresses practical differences in freedom and resources available to choose an austere life.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             },
             {
               "id": "R06-P4-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Repair Cafe\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which tension unifies the examples of food, accounts and railroads?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Organizers assigned tables by skill and asked volunteers…”) while testing the concern (“Some objects were too damaged to repair safely”).",
-                "Repeat the observation without recording any relevant conditions."
+                "Whether poetry can be read without dictionaries.",
+                "Whether apparent material progress serves human ends or makes life captive to its own machinery.",
+                "Whether trade should be taxed at a fixed rate.",
+                "Whether the forest is geographically close to a town."
               ],
-              "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, Some objects were too damaged to repair safely., while comparing evidence from the original method, Organizers assigned tables by skill and asked volunteers to explain each repair..",
+              "correctIndex": 1,
+              "explanation": "Thoreau repeatedly asks whether means of comfort, commerce and efficiency have displaced purpose.",
               "passageId": "R06-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Thoreau — Deliberate Living and the Price of Progress"
             }
-          ]
+          ],
+          "source": {
+            "work": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "url": "https://www.gutenberg.org/ebooks/205",
+            "rights": "Public domain in United States",
+            "start": "I went to the woods because I wished to live deliberately, to front only the essential facts of",
+            "end": " down and level in their beds as it is, for this is a sign that they may sometime get up again."
+          },
+          "sourceReference": "ADV-06-P4"
         }
       ],
       "vocabularyQuestions": [
