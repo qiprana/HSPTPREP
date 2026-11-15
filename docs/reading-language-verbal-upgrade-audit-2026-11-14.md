@@ -82,3 +82,13 @@ These validate file structure, expected counts, answer-index bounds, duplicate s
 ## Final meaning-preserving Language audit
 
 A further manual spot-check found that broad substitutions of terms such as *interpretation* and *claim* caused unnatural constructions in some stems, despite structural tests passing. The latest Language banks were rebuilt from the pre-variation baseline with a conservative set of actor/document replacements that preserves the original abstract reasoning. Latest CI repetition report: **759 of 1,500 standard Language questions in 122 repeated-core clusters**, and **348 of 560 advanced Language items in 64 repeated-core clusters**. The increase in repeated advanced cores versus the more aggressive replacement is intentional: meaning and grammatical accuracy take priority over cosmetic uniqueness. Both QA checks and sample browser submission tests remain part of CI. Editorial sign-off stays open.
+
+
+## November 15 follow-up (partial, not full sign-off)
+
+- Added `tests/report-reading-editorial-gaps.js` to identify short advanced-target passages, unusually unequal option lengths, and generic explanation text. It is a diagnostic report, not a certification.
+- Individually rewrote the Day 2 rain-gauge timed passage (`R02-P1`) to introduce competing causal explanations, measurement bias, sampling limitations and a measured policy response. Replaced all ten linked questions with distinct contextual reasoning prompts, justified answer keys and distractors; legacy IDs were preserved.
+- Extended the Chromium browser workflow to exercise Reading UI submission, retakes and timer-expiry scoring, in addition to reload and overview persistence checks.
+- Corrected an ungrammatical distractor in Language Day 1 advanced challenge (`LA01-C-1`).
+- An inventory inspection showed the conventional timed bank still has mostly very short passages; it is **not** the requested set of 80 authenticated, editorially verified 350–650-word excerpts. The revised Day 2 passage is only one of 80.
+- Remaining major blockers are authentic-text substitutions and rights/source mapping, individual review of the other timed comprehension items, Reading vocabulary difficulty calibration, Language conceptual repetition, Verbal stochastic quality evaluation, and live Safari/mobile sign-off. No full grade-10–12 certification is claimed.
