@@ -6767,7 +6767,7 @@
           "id": "R07-P3",
           "title": "The Empty Exhibit Case",
           "genre": "narrative",
-          "text": "A museum volunteer noticed that an exhibit case had been left empty before a school tour. The scheduled object was still being restored, and the guide had little time to redesign the visit. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nShe placed photographs of the object's repair process in the case and prepared questions about conservation. Students asked why the object needed cleaning and how experts decided what to restore. These observations mattered because they gave the people involved something specific to consider rather than relying only on an initial impression. Their limited approach involved examining the available information before making the next decision.\n\nThe photographs could not replace the experience of seeing the artifact itself. The museum kept the temporary display even after the object returned. An unexpected absence can become an opportunity to teach a different part of the story. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "Two hours before a school visit, a museum guide discovered that the central display case in the conservation gallery was empty. The nineteenth-century clock normally exhibited there had been removed for emergency treatment after corrosion appeared on its internal gears. A sign on the case said only, \"Temporarily unavailable.\" The guide initially considered moving the class to another room, reasoning that an absent object could teach little about its own history.\n\nThe conservator suggested a different approach. She supplied photographs showing the clock before dismantling, diagrams of the gear assembly, and a short account of how humidity had accelerated corrosion. The guide placed the images around the empty case and asked students to identify what evidence they would need to decide whether the clock could safely run again. Some proposed polishing the exterior, while others wondered whether the internal gears might be too fragile to turn. The discussion revealed a distinction between making the artifact attractive and preserving its physical integrity.\n\nBefore the visit, the museum's exhibit labels had described the clock as an example of skilled mechanical design. They said nothing about the uncertainty of restoration or the decisions that conservators make. The temporary display made those decisions visible. Yet the conservator cautioned against a popular misunderstanding: a photograph of a damaged gear cannot establish that the entire mechanism is beyond repair. It records one condition at one moment. Even a set of images may omit details that a physical examination would reveal.\n\nDuring the tour, students argued about whether replacing the corroded gears would preserve the original clock or transform it into a reconstruction. One student insisted that any replacement destroyed authenticity; another said that the clock's value depended solely on its ability to keep time. The guide presented a third possibility: preserving the damaged original parts while documenting any replacements, so future viewers could distinguish historic components from modern interventions. The proposal did not settle every philosophical question, but it required the museum to make its choices explicit.\n\nThe museum kept the temporary display after the clock returned. Visitors could now see both the functioning object and an account of the uncertainty, research, and judgment involved in its care. The empty case had not been an adequate substitute for the clock's appearance or sound. It had, however, become a way to examine how museums construct knowledge, what preservation costs, and why the authority of a display depends partly on what it admits it cannot show.",
           "term": [
             "limited",
             "restricted in scope",
@@ -6778,163 +6778,163 @@
           "questions": [
             {
               "id": "R07-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Empty Exhibit Case\"?",
+              "type": "Contrast",
+              "prompt": "Why does the guide's initial response differ from the conservator's proposal?",
               "choices": [
-                "The proposed response (“The museum kept the temporary display even after the…”) makes the original concern irrelevant.",
-                "The method (“She placed photographs of the object's repair process in…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Students asked why the object needed cleaning and how…”) is treated as unrelated to the original investigation.",
-                "The concern (“The scheduled object was still being restored, and the…”) leads to inquiry, but “The photographs could not replace the experience of…” limits the inference."
+                "The guide prioritizes the missing object's absence, while the conservator sees an opportunity to explore the process of preservation.",
+                "The guide wants to restore the clock personally, while the conservator wants to discard it.",
+                "The guide doubts the clock existed, while the conservator proves that it did.",
+                "The guide objects to mechanical exhibits, while the conservator prefers them to paintings."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The photographs could not replace the experience of seeing the artifact itself. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The guide assumes the display needs the clock; the conservator proposes using repair documentation to investigate its care. Neither questions the artifact's existence.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Empty Exhibit Case\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Interpretation",
+              "prompt": "What distinction is illustrated by the students' contrasting repair suggestions?",
               "choices": [
-                "The scheduled object was still being restored, and the guide had little time to redesign the visit.",
-                "She placed photographs of the object's repair process in the case and prepared questions about conservation.",
-                "Students asked why the object needed cleaning and how experts decided what to restore.",
-                "The museum kept the temporary display even after the object returned."
+                "Exterior polish always protects internal mechanisms.",
+                "Restoration is necessarily faster than cleaning.",
+                "A visually improved artifact is not necessarily structurally safe or historically well preserved.",
+                "A clock without corrosion must be completely original."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: The scheduled object was still being restored, and the guide had little time to redesign the visit. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Polishing an exterior may improve appearance while doing little to address gear fragility and mechanical safety. The passage treats these as different conservation goals.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Empty Exhibit Case\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Scope",
+              "prompt": "Why does the conservator warn against conclusions based on a photograph of a damaged gear?",
               "choices": [
-                "The photographs could not replace the experience of seeing the artifact itself.",
-                "She placed photographs of the object's repair process in the case and prepared questions about conservation.",
-                "The scheduled object was still being restored, and the guide had little time to redesign the visit.",
-                "Students asked why the object needed cleaning and how experts decided what to restore."
+                "A single image cannot capture all relevant physical conditions or support a judgment about the entire mechanism.",
+                "Photographic evidence is always manipulated by museum staff.",
+                "Damaged components cannot be shown in public exhibitions.",
+                "A photograph establishes that every gear has an identical defect."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: She placed photographs of the object's repair process in the case and prepared questions about conservation. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "An image records a limited view at a particular time; the whole mechanism requires additional examination. The stronger claims are not warranted.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Empty Exhibit Case\", rather than a procedure, caution, or policy response?",
+              "type": "Ethical reasoning",
+              "prompt": "Which conservation policy best reflects the guide's third position on replacement parts?",
               "choices": [
-                "The photographs could not replace the experience of seeing the artifact itself.",
-                "The museum kept the temporary display even after the object returned.",
-                "Students asked why the object needed cleaning and how experts decided what to restore.",
-                "She placed photographs of the object's repair process in the case and prepared questions about conservation."
+                "Replace damaged parts without recording the changes.",
+                "Leave every mechanical defect untouched regardless of danger.",
+                "Remove historic components permanently once the mechanism can run.",
+                "Retain original components and document replacements so authenticity claims remain transparent."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Students asked why the object needed cleaning and how experts decided what to restore. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The proposal preserves evidence of original material while distinguishing new interventions. It rejects both unrecorded replacement and an absolute ban on repair.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Empty Exhibit Case\" from being generalized beyond the available evidence?",
+              "type": "Evidence",
+              "prompt": "Which additional source would most help determine whether the corroded clock could operate safely?",
               "choices": [
-                "Students asked why the object needed cleaning and how experts decided what to restore.",
-                "She placed photographs of the object's repair process in the case and prepared questions about conservation.",
-                "The museum kept the temporary display even after the object returned.",
-                "The photographs could not replace the experience of seeing the artifact itself."
+                "A visitor's ranking of attractive clock designs.",
+                "A mechanical examination documenting gear wear and structural integrity.",
+                "A general history of school excursions.",
+                "A photograph of an unrelated clock from the same century."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The photographs could not replace the experience of seeing the artifact itself. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Direct inspection of the clock's mechanism addresses functional condition. Appearance ratings and unrelated comparisons do not.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Empty Exhibit Case\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Rhetorical function",
+              "prompt": "Why does the passage present two extreme student positions before the guide's response?",
               "choices": [
-                "The museum kept the temporary display even after the object returned.",
-                "The scheduled object was still being restored, and the guide had little time to redesign the visit.",
-                "She placed photographs of the object's repair process in the case and prepared questions about conservation.",
-                "Students asked why the object needed cleaning and how experts decided what to restore."
+                "To demonstrate that conservation is resolved by majority vote.",
+                "To show that either authentic material or function must always be sacrificed.",
+                "To make a nuanced approach visible between absolute nonintervention and purely functional restoration.",
+                "To suggest that children cannot reason about historical artifacts."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The museum kept the temporary display even after the object returned. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The competing positions each elevate one value exclusively. The documented-replacement option acknowledges both material history and possible function.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Empty Exhibit Case\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Inference",
+              "prompt": "What does the museum's decision to retain the temporary display suggest?",
               "choices": [
-                "Initial concern: “She placed photographs of the object's repair process in…”; method: “Students asked why the object needed cleaning and how…”.",
-                "Initial concern: “The scheduled object was still being restored, and the…”; method: “She placed photographs of the object's repair process in…”.",
-                "Initial concern: “The scheduled object was still being restored, and the…”; method: “The photographs could not replace the experience of…”.",
-                "Initial concern: “Students asked why the object needed cleaning and how…”; method: “The museum kept the temporary display even after the…”."
+                "Interpretive evidence about conservation can add value even when the physical artifact is once again available.",
+                "The museum has concluded that actual objects are unnecessary.",
+                "Every visitor prefers photographs to objects.",
+                "The original gears were certainly replaced during treatment."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with The scheduled object was still being restored, and the guide had little time to redesign the visit. and the subsequent investigative procedure is She placed photographs of the object's repair process in the case and prepared questions about conservation..",
+              "correctIndex": 0,
+              "explanation": "Keeping the conservation account after the clock returns shows that process information enriches interpretation. It does not disclose the final repair details.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Empty Exhibit Case\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Conceptual understanding",
+              "prompt": "Which claim would be least consistent with the passage's treatment of museum authority?",
               "choices": [
-                "The limitation (“The photographs could not replace the experience of…”) disproves the observation itself.",
-                "The method (“She placed photographs of the object's repair process in…”) guarantees the result before measurement.",
-                "The observation (“Students asked why the object needed cleaning and how…”) matters, but the limit (“The photographs could not replace the experience of…”) remains.",
-                "The observation (“Students asked why the object needed cleaning and how…”) rules out every alternative cause."
+                "Exhibit labels should distinguish findings from unresolved questions.",
+                "Restoration decisions may affect how visitors understand authenticity.",
+                "A transparent explanation of intervention can strengthen trust.",
+                "Museum credibility requires concealing uncertainty from visitors."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Students asked why the object needed cleaning and how experts decided what to restore. but must be read alongside The photographs could not replace the experience of seeing the artifact itself..",
+              "correctIndex": 3,
+              "explanation": "The conclusion argues that authority partly depends on acknowledging omissions and uncertainties, directly opposing concealment.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Empty Exhibit Case\" relate to the strength and limits of the earlier observations?",
+              "type": "Synthesis",
+              "prompt": "How are the empty case and the clock related in the revised exhibit?",
               "choices": [
-                "The response (“The museum kept the temporary display even after the…”) is proof of success in every setting.",
-                "The caveat (“The photographs could not replace the experience of…”) makes the observations worthless.",
-                "The observation (“Students asked why the object needed cleaning and how…”) shows that measurement was unnecessary.",
-                "The response (“The museum kept the temporary display even after the…”) follows evidence but remains open to reassessment."
+                "They offer interchangeable experiences and identical evidence.",
+                "The clock supplies direct material experience, while the empty case's documentation exposes conservation choices.",
+                "The empty case invalidates every claim made about the restored clock.",
+                "The original object serves only as a decorative background."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The museum kept the temporary display even after the object returned.; the stated limit The photographs could not replace the experience of seeing the artifact itself. still matters.",
+              "correctIndex": 1,
+              "explanation": "The passage explicitly says documents cannot replace the object's appearance or sound, but they explain care and interpretation in a complementary way.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R07-P3-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Empty Exhibit Case\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "What broader question does the incident encourage visitors to ask about museum displays?",
               "choices": [
-                "Repeat the method (“She placed photographs of the object's repair process in…”) while testing the concern (“The photographs could not replace the experience of…”).",
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data."
+                "Whether museums should close whenever one artifact requires treatment.",
+                "Whether every object can be restored to its original appearance.",
+                "How evidence, conservation decisions, and acknowledged limitations shape what a display claims to know.",
+                "How museums can eliminate all disagreements about authenticity."
               ],
-              "correctIndex": 0,
-              "explanation": "A focused follow-up must examine the stated limitation, The photographs could not replace the experience of seeing the artifact itself., while comparing evidence from the original method, She placed photographs of the object's repair process in the case and prepared questions about conservation..",
+              "correctIndex": 2,
+              "explanation": "The final paragraph centers the production and qualification of museum knowledge rather than a merely operational inconvenience.",
               "passageId": "R07-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
