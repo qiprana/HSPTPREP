@@ -14452,9 +14452,9 @@
       "passages": [
         {
           "id": "R15-P1",
-          "title": "Keeping a Seed Alive",
-          "genre": "science",
-          "text": "A seed bank tested how storage temperature affected the germination of a local wildflower. Several packets from a previous season sprouted poorly, raising concerns about storage conditions. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nTechnicians divided fresh seeds into labeled batches and kept them at different temperatures. A cooler batch produced more seedlings when planted under the same conditions. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their collaborative approach involved examining the available information before making the next decision.\n\nThe experiment did not test humidity or guarantee that all species respond alike. The staff adjusted the wildflower storage plan and began a broader set of tests. Preserving living material requires matching storage methods to the needs of individual species. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Austen — Lydia Returns Married",
+          "genre": "literature",
+          "text": "Their sister's wedding day arrived; and Jane and Elizabeth felt for her probably more than she felt for herself. The carriage was sent to meet them at ----, and they were to return in it by dinner-time. Their arrival was dreaded by the elder Miss Bennets, and Jane more especially, who gave Lydia the feelings which would have attended herself, had she been the culprit, and was wretched in the thought of what her sister must endure.\n\nThey came. The family were assembled in the breakfast room to receive them. Smiles decked the face of Mrs. Bennet as the carriage drove up to the door; her husband looked impenetrably grave; her daughters, alarmed, anxious, uneasy.\n\nLydia's voice was heard in the vestibule; the door was thrown open, and she ran into the room. Her mother stepped forwards, embraced her, and welcomed her with rapture; gave her hand, with an affectionate smile, to Wickham, who followed his lady; and wished them both joy with an alacrity which shewed no doubt of their happiness.\n\nTheir reception from Mr. Bennet, to whom they then turned, was not quite so cordial. His countenance rather gained in austerity; and he scarcely opened his lips. The easy assurance of the young couple, indeed, was enough to provoke him. Elizabeth was disgusted, and even Miss Bennet was shocked. Lydia was Lydia still; untamed, unabashed, wild, noisy, and fearless. She turned from sister to sister, demanding their congratulations; and when at length they all sat down, looked eagerly round the room, took notice of some little alteration in it, and observed, with a laugh, that it was a great while since she had been there.\n\nWickham was not at all more distressed than herself, but his manners were always so pleasing, that had his character and his marriage been exactly what they ought, his smiles and his easy address, while he claimed their relationship, would have delighted them all. Elizabeth had not before believed him quite equal to such assurance; but she sat down, resolving within herself to draw no limits in future to the impudence of an impudent man. She blushed, and Jane blushed; but the cheeks of the two who caused their confusion suffered no variation of colour.\n\nThere was no want of discourse. The bride and her mother could neither of them talk fast enough; and Wickham, who happened to sit near Elizabeth, began inquiring after his acquaintance in that neighbourhood, with a good humoured ease which she felt very unable to equal in her replies. They seemed each of them to have the happiest memories in the world. Nothing of the past was recollected with pain; and Lydia led voluntarily to subjects which her sisters would not have alluded to for the world.\n\n\"Only think of its being three months,\" she cried, \"since I went away; it seems but a fortnight I declare; and yet there have been things enough happened in the time. Good gracious! when I went away, I am sure I had no more idea of being married till I came back again! though I thought it would be very good fun if I was.\"",
           "term": [
             "collaborative",
             "cooperative",
@@ -14465,165 +14465,186 @@
           "questions": [
             {
               "id": "R15-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Keeping a Seed Alive\"?",
+              "type": "Character contrast",
+              "prompt": "What difference between Jane and Lydia is suggested at the beginning?",
               "choices": [
-                "The recorded outcome (“A cooler batch produced more seedlings when planted under…”) is treated as unrelated to the original investigation.",
-                "The concern (“Several packets from a previous season sprouted poorly,…”) leads to inquiry, but “The experiment did not test humidity or guarantee that…” limits the inference.",
-                "The proposed response (“The staff adjusted the wildflower storage plan and began…”) makes the original concern irrelevant.",
-                "The method (“Technicians divided fresh seeds into labeled batches and…”) rules out every possible competing explanation."
+                "Jane imagines the shame she would feel in Lydia's position, while Lydia appears untroubled by it.",
+                "Jane has no concern about Lydia's arrival.",
+                "Lydia worries more about the family than Jane does.",
+                "Both sisters are equally relieved and ashamed."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The experiment did not test humidity or guarantee that all species respond alike. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Jane projects her own moral embarrassment onto Lydia, whose later conduct reveals little corresponding anxiety.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"Keeping a Seed Alive\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Social irony",
+              "prompt": "What is the effect of Mrs. Bennet's joyful welcome contrasted with Mr. Bennet's grave reserve?",
               "choices": [
-                "A cooler batch produced more seedlings when planted under the same conditions.",
-                "The staff adjusted the wildflower storage plan and began a broader set of tests.",
-                "Several packets from a previous season sprouted poorly, raising concerns about storage conditions.",
-                "Technicians divided fresh seeds into labeled batches and kept them at different temperatures."
+                "It proves the wedding has been canceled.",
+                "It shows that neither parent recognizes the couple.",
+                "It dramatizes conflicting family judgments of the same event.",
+                "It reveals that Wickham has confessed wrongdoing."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Several packets from a previous season sprouted poorly, raising concerns about storage conditions. The other choices describe what was done or discovered afterward.",
+              "explanation": "Mrs. Bennet celebrates openly, while Mr. Bennet's silence and austerity convey disapproval.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Keeping a Seed Alive\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Narrator's judgment",
+              "prompt": "How does the phrase 'Lydia was Lydia still' function?",
               "choices": [
-                "Several packets from a previous season sprouted poorly, raising concerns about storage conditions.",
-                "A cooler batch produced more seedlings when planted under the same conditions.",
-                "The experiment did not test humidity or guarantee that all species respond alike.",
-                "Technicians divided fresh seeds into labeled batches and kept them at different temperatures."
+                "It reveals a new personality formed through hardship.",
+                "It stresses her unchanged impulsiveness and lack of embarrassment despite recent events.",
+                "It suggests Lydia has become notably reserved.",
+                "It identifies Lydia as a different character from the bride."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Technicians divided fresh seeds into labeled batches and kept them at different temperatures. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The following adjectives 'untamed, unabashed, wild, noisy, and fearless' reinforce the absence of moral transformation.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Keeping a Seed Alive\", rather than a procedure, caution, or policy response?",
+              "type": "Conditional irony",
+              "prompt": "Why does the narrator say Wickham's pleasant manners would have delighted everyone if his character and marriage had been 'what they ought'?",
               "choices": [
-                "A cooler batch produced more seedlings when planted under the same conditions.",
-                "Technicians divided fresh seeds into labeled batches and kept them at different temperatures.",
-                "The experiment did not test humidity or guarantee that all species respond alike.",
-                "The staff adjusted the wildflower storage plan and began a broader set of tests."
+                "To show the family dislikes any cheerful person.",
+                "To argue outward politeness is sufficient evidence of good conduct.",
+                "To suggest Wickham's behavior has become timid.",
+                "To distinguish attractive manners from the moral concerns that make them offensive in context."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: A cooler batch produced more seedlings when planted under the same conditions. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The conditional exposes the gap between social charm and conduct, heightening the family's discomfort.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Keeping a Seed Alive\" from being generalized beyond the available evidence?",
+              "type": "Emotional contrast",
+              "prompt": "What is the significance of the sisters blushing while Lydia and Wickham do not?",
               "choices": [
-                "The staff adjusted the wildflower storage plan and began a broader set of tests.",
-                "The experiment did not test humidity or guarantee that all species respond alike.",
-                "A cooler batch produced more seedlings when planted under the same conditions.",
-                "Technicians divided fresh seeds into labeled batches and kept them at different temperatures."
+                "Those most troubled by the impropriety are not the people who caused the embarrassment.",
+                "The sisters are excited about new dresses.",
+                "Lydia has secretly apologized.",
+                "The couple are prevented from speaking."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The experiment did not test humidity or guarantee that all species respond alike. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The contrast shows shame borne by observers rather than by those whose behavior occasioned it.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Keeping a Seed Alive\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Tone",
+              "prompt": "How should the assertion that the couple have 'the happiest memories in the world' be read?",
               "choices": [
-                "Technicians divided fresh seeds into labeled batches and kept them at different temperatures.",
-                "A cooler batch produced more seedlings when planted under the same conditions.",
-                "The staff adjusted the wildflower storage plan and began a broader set of tests.",
-                "Several packets from a previous season sprouted poorly, raising concerns about storage conditions."
+                "As proof of perfect family harmony.",
+                "As the narrator's reliable medical assessment.",
+                "As ironic commentary on their selective indifference to painful recent events.",
+                "As an announcement of the author's own marriage."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: The staff adjusted the wildflower storage plan and began a broader set of tests. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The immediate elaboration that nothing is recalled with pain underscores their lack of remorse or reflection.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Keeping a Seed Alive\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Characterization",
+              "prompt": "What does Lydia's comment that marriage would have been 'very good fun' suggest?",
               "choices": [
-                "Initial concern: “Several packets from a previous season sprouted poorly,…”; method: “The experiment did not test humidity or guarantee that…”.",
-                "Initial concern: “A cooler batch produced more seedlings when planted under…”; method: “The staff adjusted the wildflower storage plan and began…”.",
-                "Initial concern: “Technicians divided fresh seeds into labeled batches and…”; method: “A cooler batch produced more seedlings when planted under…”.",
-                "Initial concern: “Several packets from a previous season sprouted poorly,…”; method: “Technicians divided fresh seeds into labeled batches and…”."
+                "She views marriage chiefly as a solemn duty.",
+                "She treats it with playful self-centered excitement rather than apparent awareness of its consequences.",
+                "She regrets returning to her family.",
+                "She has revised her understanding of responsibility."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Several packets from a previous season sprouted poorly, raising concerns about storage conditions. and the subsequent investigative procedure is Technicians divided fresh seeds into labeled batches and kept them at different temperatures..",
+              "correctIndex": 1,
+              "explanation": "Her casual delight is consistent with the passage's depiction of her unchanged impulsiveness.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Keeping a Seed Alive\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Narrative technique",
+              "prompt": "How does Austen allow readers to judge Wickham without providing a long new description of his past?",
               "choices": [
-                "The observation (“A cooler batch produced more seedlings when planted under…”) matters, but the limit (“The experiment did not test humidity or guarantee that…”) remains.",
-                "The observation (“A cooler batch produced more seedlings when planted under…”) rules out every alternative cause.",
-                "The limitation (“The experiment did not test humidity or guarantee that…”) disproves the observation itself.",
-                "The method (“Technicians divided fresh seeds into labeled batches and…”) guarantees the result before measurement."
+                "She asks the reader to ignore all contextual clues.",
+                "She lists his achievements as a public official.",
+                "She presents his private thoughts in direct speech.",
+                "She juxtaposes his agreeable performance with the family's unease and explicitly conditional approval."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as A cooler batch produced more seedlings when planted under the same conditions. but must be read alongside The experiment did not test humidity or guarantee that all species respond alike..",
+              "correctIndex": 3,
+              "explanation": "The gap between charm and the reaction it produces carries moral judgment without retelling his history.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Keeping a Seed Alive\" relate to the strength and limits of the earlier observations?",
+              "type": "Evidence and inference",
+              "prompt": "Which conclusion is not warranted by the excerpt?",
               "choices": [
-                "The observation (“A cooler batch produced more seedlings when planted under…”) shows that measurement was unnecessary.",
-                "The response (“The staff adjusted the wildflower storage plan and began…”) follows evidence but remains open to reassessment.",
-                "The response (“The staff adjusted the wildflower storage plan and began…”) is proof of success in every setting.",
-                "The caveat (“The experiment did not test humidity or guarantee that…”) makes the observations worthless."
+                "The wedding has produced identical feelings of pride in every family member.",
+                "Mr. Bennet expresses reserve.",
+                "Mrs. Bennet congratulates the couple enthusiastically.",
+                "Elizabeth finds Wickham's assurance offensive."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The staff adjusted the wildflower storage plan and began a broader set of tests.; the stated limit The experiment did not test humidity or guarantee that all species respond alike. still matters.",
+              "correctIndex": 0,
+              "explanation": "The family reactions are sharply divergent, so unanimous pride contradicts the scene.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             },
             {
               "id": "R15-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"Keeping a Seed Alive\" without ignoring its stated limitation?",
+              "type": "Central idea",
+              "prompt": "Which theme is most strongly developed through the homecoming?",
               "choices": [
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“Technicians divided fresh seeds into labeled batches and…”) while testing the concern (“The experiment did not test humidity or guarantee that…”).",
-                "Repeat the observation without recording any relevant conditions."
+                "The practical inconvenience of long journeys.",
+                "The impossibility of reconciling family members.",
+                "The contrast between outward social performance and inward moral judgment.",
+                "The complete transformation of impulsive characters after marriage."
               ],
               "correctIndex": 2,
-              "explanation": "A focused follow-up must examine the stated limitation, The experiment did not test humidity or guarantee that all species respond alike., while comparing evidence from the original method, Technicians divided fresh seeds into labeled batches and kept them at different temperatures..",
+              "explanation": "Charm and celebration sit beside shame and disapproval, emphasizing how appearances conceal divergent ethical assessments.",
               "passageId": "R15-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "Pride and Prejudice — Lydia's return after the wedding"
             }
-          ]
+          ],
+          "source": {
+            "work": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "url": "https://www.gutenberg.org/ebooks/1342",
+            "rights": "Public domain in United States",
+            "start": "Their sister's wedding day arrived; and Jane and Elizabeth felt for her probably more than she ",
+            "end": " of being married till I came back again! though I thought it would be very good fun if I was.\""
+          },
+          "sourceReference": "ADV-15-P1",
+          "contextNote": "Excerpt from a nineteenth-century novel. The irony depends on tension between Lydia and Wickham's easy confidence and the family's knowledge of their earlier conduct."
         },
         {
           "id": "R15-P2",
