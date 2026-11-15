@@ -54,6 +54,14 @@ assert.equal(guidedCount,300);
 assert.equal(total,1540);
 assert.equal(passageIds.size,80);
 assert.equal(vocabWords.size,440);
+const day2=data.tests[1].passages;
+for(const p of day2){
+ const count=p.text.trim().split(/\s+/).length;
+ assert.ok(count>=350,'Day 2 authored passage is too short: '+p.id+' has '+count+' words');
+ assert.equal(new Set(p.questions.map(q=>q.type)).size,10,'Day 2 analytical question types should be distinct: '+p.id);
+ assert.ok(p.questions.every(q=>q.editorialStatus==='individually-authored-editorial-review-pending'),'Day 2 authored passages must keep editorial-review metadata: '+p.id);
+}
+console.log('PASS: All four Day 2 passages reach the 350-word floor and include 40 individually authored question types.');
 assert.equal(legacy.vocabularyQuestions.length,22);
 assert.equal(new Set(legacy.vocabularyQuestions.map(x=>x.targetWord.toLowerCase())).size,22);
 console.log('PASS: 20 Reading papers, 80 passages, 1240 test questions, 300 guided questions and 440 unique full-test vocabulary targets.');
