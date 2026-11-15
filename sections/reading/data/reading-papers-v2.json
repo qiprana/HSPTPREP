@@ -5114,9 +5114,9 @@
       "passages": [
         {
           "id": "R06-P1",
-          "title": "An Island of Birds",
-          "genre": "science",
-          "text": "Conservation workers tracked seabirds nesting on a small island that had recently become accessible to tourists. The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey mapped nesting sites and marked a visitor route away from the most crowded areas. More chicks survived near the protected sites during the following season. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their insightful approach involved examining the available information before making the next decision.\n\nStorms and food supply also varied, so the route could not be credited with every improvement. The island council kept the path and funded another year of careful counts. Protecting wildlife often begins with observing how human routines overlap with animal needs. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "title": "Wollstonecraft — Education and Social Expectations",
+          "genre": "historical argument",
+          "text": "In the middle rank of life, to continue the comparison, men, in their youth, are prepared for professions, and marriage is not considered as the grand feature in their lives; whilst women, on the contrary, have no other scheme to sharpen their faculties. It is not business, extensive plans, or any of the excursive flights of ambition, that engross their attention; no, their thoughts are not employed in rearing such noble structures. To rise in the world, and have the liberty of running from pleasure to pleasure, they must marry advantageously, and to this object their time is sacrificed, and their persons often legally prostituted. A man, when he enters any profession, has his eye steadily fixed on some future advantage (and the mind gains great strength by having all its efforts directed to one point) and, full of his business, pleasure is considered as mere relaxation; whilst women seek for pleasure as the main purpose of existence. In fact, from the education which they receive from society, the love of pleasure may be said to govern them all; but does this prove that there is a sex in souls? It would be just as rational to declare, that the courtiers in France, when a destructive system of despotism had formed their character, were not men, because liberty, virtue, and humanity, were sacrificed to pleasure and vanity. Fatal passions, which have ever domineered over the WHOLE race!\n\nThe same love of pleasure, fostered by the whole tendency of their education, gives a trifling turn to the conduct of women in most circumstances: for instance, they are ever anxious about secondary things; and on the watch for adventures, instead of being occupied by duties.\n\nA man, when he undertakes a journey, has, in general the end in view; a woman thinks more of the incidental occurrences, the strange things that may possibly occur on the road; the impression that she may make on her fellow travellers; and, above all, she is anxiously intent on the care of the finery that she carries with her, which is more than ever a part of herself, when going to figure on a new scene; when, to use an apt French turn of expression, she is going to produce a sensation. Can dignity of mind exist with such trivial cares?\n\nIn short, women, in general, as well as the rich of both sexes, have acquired all the follies and vices of civilization, and missed the useful fruit. It is not necessary for me always to premise, that I speak of the condition of the whole sex, leaving exceptions out of the question. Their senses are inflamed, and their understandings neglected; consequently they become the prey of their senses, delicately termed sensibility, and are blown about by every momentary gust of feeling. They are, therefore, in a much worse condition than they would be in, were they in a state nearer to nature. Ever restless and anxious, their over exercised sensibility not only renders them uncomfortable themselves, but troublesome, to use a soft phrase, to others. All their thoughts turn on things calculated to excite emotion; and, feeling, when they should reason, their conduct is unstable, and their opinions are wavering, not the wavering produced by deliberation or progressive views, but by contradictory emotions. By fits and starts they are warm in many pursuits; yet this warmth, never concentrated into perseverance, soon exhausts itself; exhaled by its own heat, or meeting with some other fleeting passion, to which reason has never given any specific gravity, neutrality ensues. Miserable, indeed, must be that being whose cultivation of mind has only tended to inflame its passions! A distinction should be made between inflaming and strengthening them. The passions thus pampered, whilst the judgment is left unformed, what can be expected to ensue? Undoubtedly, a mixture of madness and folly!",
           "term": [
             "insightful",
             "showing understanding",
@@ -5127,165 +5127,186 @@
           "questions": [
             {
               "id": "R06-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"An Island of Birds\"?",
+              "type": "Central argument",
+              "prompt": "What explanation does the writer offer for the difference she observes between the ambitions of men and women?",
               "choices": [
-                "The method (“They mapped nesting sites and marked a visitor route away…”) rules out every possible competing explanation.",
-                "The recorded outcome (“More chicks survived near the protected sites during the…”) is treated as unrelated to the original investigation.",
-                "The concern (“The workers feared that foot traffic near nests could…”) leads to inquiry, but “Storms and food supply also varied, so the route could…” limits the inference.",
-                "The proposed response (“The island council kept the path and funded another year…”) makes the original concern irrelevant."
+                "Women are naturally incapable of professional dedication.",
+                "Men have no interest in pleasure or social status.",
+                "Education and social expectations direct the sexes toward different aims.",
+                "All differences arise from physical strength."
               ],
               "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Storms and food supply also varied, so the route could not be credited with every improvement. prevents an overly broad conclusion.",
+              "explanation": "She contrasts professional preparation for men with marriage-centered training for women and later explicitly invokes education as a cause.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"An Island of Birds\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Rhetorical question",
+              "prompt": "What is the purpose of asking whether social patterns prove 'that there is a sex in souls'?",
               "choices": [
-                "They mapped nesting sites and marked a visitor route away from the most crowded areas.",
-                "More chicks survived near the protected sites during the following season.",
-                "The island council kept the path and funded another year of careful counts.",
-                "The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring."
+                "To challenge the assumption that socially produced behavior reveals an innate difference in human nature.",
+                "To argue that women cannot experience strong feelings.",
+                "To deny that education influences ambition.",
+                "To assert that French courtiers and women share biological traits."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The rhetorical question rejects deriving innate nature from conditions produced by unequal social institutions.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"An Island of Birds\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Analogy",
+              "prompt": "Why does the author compare women to courtiers shaped by French despotism?",
               "choices": [
-                "They mapped nesting sites and marked a visitor route away from the most crowded areas.",
-                "The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring.",
-                "More chicks survived near the protected sites during the following season.",
-                "Storms and food supply also varied, so the route could not be credited with every improvement."
+                "To suggest that courtiers received the same professional education as men elsewhere.",
+                "To show that a corrupt social arrangement can encourage vanity and pleasure-seeking in either sex.",
+                "To argue that French court life was identical to domestic life.",
+                "To prove that all political systems encourage reason."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: They mapped nesting sites and marked a visitor route away from the most crowded areas. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The analogy makes social formation, rather than sex, the explanatory factor behind a tendency toward trivial pursuits.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"An Island of Birds\", rather than a procedure, caution, or policy response?",
+              "type": "Causal chain",
+              "prompt": "Which sequence best represents the author's explanation of unstable judgment?",
               "choices": [
-                "The island council kept the path and funded another year of careful counts.",
-                "More chicks survived near the protected sites during the following season.",
-                "They mapped nesting sites and marked a visitor route away from the most crowded areas.",
-                "Storms and food supply also varied, so the route could not be credited with every improvement."
+                "Reason is strengthened by education, which produces indecision.",
+                "Professional ambition necessarily leads to excessive vanity.",
+                "Marriage removes all emotional capacities.",
+                "Education emphasizes feeling and display while neglecting judgment, fostering shifting pursuits."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: More chicks survived near the protected sites during the following season. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The final paragraph links inflamed sensibility and neglected understanding to inconsistent conduct.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"An Island of Birds\" from being generalized beyond the available evidence?",
+              "type": "Qualification",
+              "prompt": "How does the writer qualify her broad statements about women?",
               "choices": [
-                "They mapped nesting sites and marked a visitor route away from the most crowded areas.",
-                "The island council kept the path and funded another year of careful counts.",
-                "Storms and food supply also varied, so the route could not be credited with every improvement.",
-                "More chicks survived near the protected sites during the following season."
+                "She states that she speaks about the condition of the sex generally, acknowledging exceptions.",
+                "She says every woman without exception acts in the same way.",
+                "She limits the claim to professional women only.",
+                "She refuses to consider differences in education."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Storms and food supply also varied, so the route could not be credited with every improvement. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The explicit acknowledgment of exceptions narrows an otherwise sweeping generalization; it does not remove the need to evaluate its assumptions.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"An Island of Birds\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Distinction",
+              "prompt": "What distinction does the author make between 'inflaming' and 'strengthening' passions?",
               "choices": [
-                "The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring.",
-                "They mapped nesting sites and marked a visitor route away from the most crowded areas.",
-                "More chicks survived near the protected sites during the following season.",
-                "The island council kept the path and funded another year of careful counts."
+                "Both terms describe precisely the same education.",
+                "Strong feelings alone prove careful reasoning.",
+                "Unregulated emotional intensity differs from disciplined development alongside judgment.",
+                "Passions should be removed entirely from human life."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The island council kept the path and funded another year of careful counts. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "She criticizes intense sensibility left without trained judgment, implying cultivation rather than mere suppression.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"An Island of Birds\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Historical perspective",
+              "prompt": "How should the passage's generalizations about women's travel and interests be interpreted in a close reading?",
               "choices": [
-                "Initial concern: “The workers feared that foot traffic near nests could…”; method: “They mapped nesting sites and marked a visitor route away…”.",
-                "Initial concern: “The workers feared that foot traffic near nests could…”; method: “Storms and food supply also varied, so the route could…”.",
-                "Initial concern: “More chicks survived near the protected sites during the…”; method: “The island council kept the path and funded another year…”.",
-                "Initial concern: “They mapped nesting sites and marked a visitor route away…”; method: “More chicks survived near the protected sites during the…”."
+                "As direct scientific measurements of every woman's behavior.",
+                "As historically situated rhetoric advancing an argument about social conditioning.",
+                "As proof that the writer rejects education for women.",
+                "As instructions for how contemporary women should behave."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The workers feared that foot traffic near nests could reduce the number of chicks surviving each spring. and the subsequent investigative procedure is They mapped nesting sites and marked a visitor route away from the most crowded areas..",
+              "correctIndex": 1,
+              "explanation": "The generalizations function within a polemical eighteenth-century argument; the writer's causal claim centers on unequal social and educational expectations.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"An Island of Birds\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Argument structure",
+              "prompt": "What is the function of the comparison between a professional man and a woman focused on marriage?",
               "choices": [
-                "The method (“They mapped nesting sites and marked a visitor route away…”) guarantees the result before measurement.",
-                "The observation (“More chicks survived near the protected sites during the…”) matters, but the limit (“Storms and food supply also varied, so the route could…”) remains.",
-                "The observation (“More chicks survived near the protected sites during the…”) rules out every alternative cause.",
-                "The limitation (“Storms and food supply also varied, so the route could…”) disproves the observation itself."
+                "It provides a contrast intended to reveal how the available life goals shape sustained attention.",
+                "It establishes that marriage is always chosen freely by both sexes.",
+                "It demonstrates that all professional men possess equal opportunities.",
+                "It proves that pursuits of pleasure are always harmless."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as More chicks survived near the protected sites during the following season. but must be read alongside Storms and food supply also varied, so the route could not be credited with every improvement..",
+              "correctIndex": 0,
+              "explanation": "The contrast links sustained intellectual purpose to the goals society makes available, rather than establishing universal traits.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"An Island of Birds\" relate to the strength and limits of the earlier observations?",
+              "type": "Counterargument",
+              "prompt": "Which objection most directly challenges the sufficiency of the author's evidence without misrepresenting her thesis?",
               "choices": [
-                "The caveat (“Storms and food supply also varied, so the route could…”) makes the observations worthless.",
-                "The observation (“More chicks survived near the protected sites during the…”) shows that measurement was unnecessary.",
-                "The response (“The island council kept the path and funded another year…”) follows evidence but remains open to reassessment.",
-                "The response (“The island council kept the path and funded another year…”) is proof of success in every setting."
+                "Women and men are never influenced by social expectations.",
+                "Passion is inherently incompatible with reasoning.",
+                "All women in the era received professional education.",
+                "The examples may be selective and may not adequately represent the varied circumstances of women."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The island council kept the path and funded another year of careful counts.; the stated limit Storms and food supply also varied, so the route could not be credited with every improvement. still matters.",
+              "correctIndex": 3,
+              "explanation": "A representative-evidence challenge questions the breadth of her generalization without claiming she argues for innate female inferiority.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             },
             {
               "id": "R06-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"An Island of Birds\" without ignoring its stated limitation?",
+              "type": "Synthesis",
+              "prompt": "Which summary most closely captures the argument's broader implication?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They mapped nesting sites and marked a visitor route away…”) while testing the concern (“Storms and food supply also varied, so the route could…”)."
+                "Unequal educational incentives can shape habits and ambitions that observers may mistake for natural differences.",
+                "Intellectual ambition is biologically unavailable to women.",
+                "The author believes only aristocrats should enter professions.",
+                "Feelings and judgment can never coexist."
               ],
-              "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, Storms and food supply also varied, so the route could not be credited with every improvement., while comparing evidence from the original method, They mapped nesting sites and marked a visitor route away from the most crowded areas..",
+              "correctIndex": 0,
+              "explanation": "Throughout the excerpt, education and institutional incentives are offered as causes of observed conduct, pushing against an innateness explanation.",
               "passageId": "R06-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "authentic-passage-specific-questions-review-pending",
+              "evidenceQuoteOrLocation": "A Vindication of the Rights of Woman — discussion of education and marriage"
             }
-          ]
+          ],
+          "source": {
+            "work": "A Vindication of the Rights of Woman",
+            "author": "Mary Wollstonecraft",
+            "year": 1792,
+            "url": "https://www.gutenberg.org/ebooks/3420",
+            "rights": "Public domain in United States",
+            "start": "In the middle rank of life, to continue the comparison, men, in their youth, are prepared for p",
+            "end": "t is left unformed, what can be expected to ensue? Undoubtedly, a mixture of madness and folly!"
+          },
+          "sourceReference": "ADV-06-P2",
+          "contextNote": "Historical argument (1792). The writer critiques unequal education and social incentives; generalizations about women reflect the era and her rhetorical strategy."
         },
         {
           "id": "R06-P2",
