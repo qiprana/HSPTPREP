@@ -23,143 +23,163 @@
           "questions": [
             {
               "id": "R01-C01",
-              "type": "General",
-              "prompt": "Which title best captures the passage as a whole?",
+              "type": "Trade-off",
+              "prompt": "What trade-off is emphasized by placing automation beside the description of abandoned family routines?",
               "choices": [
-                "Lighthouses: From Keepers to Automation",
-                "How to Build a Fresnel Lens",
-                "The Most Dangerous Coastal Storms",
-                "The History of French Shipping"
+                "Operating efficiency increased while a traditional social life at stations diminished.",
+                "Lighthouse lamps became dimmer as electric controls appeared.",
+                "Resident keepers became more numerous and less important.",
+                "Navigational safety was abandoned in favor of cheaper museums."
               ],
               "correctIndex": 0,
-              "explanation": "The passage traces lighthouse operation from human keepers through lens improvements and automation to preservation.",
-              "passageId": "R01-P1"
+              "explanation": "The passage explicitly connects lower operating costs with stations becoming largely unoccupied.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C02",
-              "type": "General",
-              "prompt": "What is the main purpose of the passage?",
+              "type": "Synthesis",
+              "prompt": "Why does the final sentence mention both technology and the keepers' vigilance?",
               "choices": [
-                "To argue that modern navigation is unsafe",
-                "To explain how lighthouses changed over time",
-                "To describe a single keeper's childhood",
-                "To compare French and American ports"
+                "It claims that modern lighthouses lack every historical feature.",
+                "It argues that historic value includes human labor as well as inventions.",
+                "It shows that automated equipment never guided ships.",
+                "It establishes that museum visitors preferred keepers to lenses."
               ],
               "correctIndex": 1,
-              "explanation": "The paragraphs follow developments in lighthouse technology and staffing across time.",
-              "passageId": "R01-P1"
+              "explanation": "The author assigns value to both technological ingenuity and the people who operated earlier stations.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C03",
-              "type": "Specific",
-              "prompt": "What did keepers check before lighting the lamp?",
+              "type": "Scope",
+              "prompt": "Which conclusion best respects the qualification that 'some' lighthouses still aid navigation?",
               "choices": [
-                "The museum schedule",
-                "The ship's cargo",
-                "The lamp's fuel",
-                "The electric controls"
+                "Museums necessarily replaced all navigation systems.",
+                "Historic lighthouses never serve modern transportation.",
+                "Historical preservation and continued practical use can coexist.",
+                "Every lighthouse has become a museum."
               ],
               "correctIndex": 2,
-              "explanation": "The first paragraph explicitly states that keepers checked the lamp's fuel.",
-              "passageId": "R01-P1"
+              "explanation": "The passage distinguishes remaining navigation aids from museum conversions rather than treating preservation as universal obsolescence.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C04",
-              "type": "Specific",
-              "prompt": "Why might a keeper climb the tower repeatedly during storms?",
+              "type": "Cause and effect",
+              "prompt": "What made the Fresnel lens a significant engineering development?",
               "choices": [
-                "To repair the surrounding road",
-                "To make sure the light remained lit",
-                "To watch visitors enter the museum",
-                "To replace the Fresnel lens each night"
+                "It eliminated the need for a light source of any kind.",
+                "It relied on electronic automation before electricity was in use.",
+                "It made storm-related maintenance impossible.",
+                "It increased directed illumination without requiring a proportionately larger lamp."
               ],
-              "correctIndex": 1,
-              "explanation": "Storm winds might extinguish the flame, requiring repeated checks.",
-              "passageId": "R01-P1"
+              "correctIndex": 3,
+              "explanation": "The lens concentrates light into a powerful beam without a much larger lamp.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C05",
-              "type": "Vocabulary",
-              "prompt": "In paragraph 1, 'extinguished' most nearly means",
+              "type": "Qualification",
+              "prompt": "How does the account of repeated storm checks complicate a simplistic description of the keeper's work as repetitive?",
               "choices": [
-                "brightened",
-                "hidden",
-                "put out",
-                "reflected"
+                "Routine work could require responsive judgment when conditions threatened the flame.",
+                "The work was entirely predictable because storms never affected equipment.",
+                "The keeper's duties were primarily administrative and ceremonial.",
+                "Repeated inspections were unnecessary once the original lamp was cleaned."
               ],
-              "correctIndex": 2,
-              "explanation": "A wind-extinguished flame has been put out.",
-              "passageId": "R01-P1"
+              "correctIndex": 0,
+              "explanation": "Although routine, the work remained essential and responsive to changing conditions.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C06",
-              "type": "Specific",
-              "prompt": "What advantage did the Fresnel lens provide?",
+              "type": "Assumption",
+              "prompt": "Which assumption is most necessary for lighthouse technology to improve navigation?",
               "choices": [
-                "It eliminated all fuel use",
-                "It concentrated light without needing a much larger lamp",
-                "It prevented every shipwreck",
-                "It made towers unnecessary"
+                "Electricity must have preceded the invention of shaped lenses.",
+                "A stronger beam must remain sufficiently visible to distant vessels.",
+                "Navigation aids must always be operated by resident families.",
+                "Every dangerous coastal rock must have its own museum."
               ],
               "correctIndex": 1,
-              "explanation": "The lens focused light into a powerful beam without requiring a much larger lamp.",
-              "passageId": "R01-P1"
+              "explanation": "More effective light can help ships only insofar as the beam reaches and can be seen by them.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C07",
-              "type": "General",
-              "prompt": "Which statement best describes the organization of the passage?",
+              "type": "Organization",
+              "prompt": "What is the primary structural effect of moving from the nineteenth century to the present?",
               "choices": [
-                "A problem followed by unrelated anecdotes",
-                "A chronological account of change",
-                "An argument followed by a rebuttal",
-                "A list of instructions for visitors"
+                "To establish that every new technology was immediately rejected.",
+                "To argue that lighthouse keepers invented museum preservation.",
+                "To trace changes in function while maintaining an underlying concern with safety and preservation.",
+                "To compare independent fictional narratives that share no topic."
               ],
-              "correctIndex": 1,
-              "explanation": "The passage moves from the nineteenth century to the twentieth century and then today.",
-              "passageId": "R01-P1"
+              "correctIndex": 2,
+              "explanation": "The sequence follows technological developments and concludes with the surviving roles of historic stations.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C08",
-              "type": "General",
-              "prompt": "Which inference is best supported by the passage?",
+              "type": "Unsupported generalization",
+              "prompt": "Which statement would overstate what the passage establishes about automation?",
               "choices": [
-                "All historic lighthouses are now museums",
-                "Automatic controls made keeper duties less necessary",
-                "The Fresnel lens was invented after electric lighting",
-                "Storms no longer affect coastal navigation"
+                "Automatic controls reduced the need for resident keepers.",
+                "Operating costs declined after automation.",
+                "Many stations became largely unoccupied.",
+                "Automation eliminated every reason for human oversight in coastal navigation."
               ],
-              "correctIndex": 1,
-              "explanation": "Automation reduced the need for resident keepers.",
-              "passageId": "R01-P1"
+              "correctIndex": 3,
+              "explanation": "Reduced need for resident keepers is not the same as proving all oversight unnecessary.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C09",
-              "type": "Specific",
-              "prompt": "What happened to many lighthouse stations after automation?",
+              "type": "Evidence selection",
+              "prompt": "What evidence would most directly test the claimed operating-cost advantage of automation?",
               "choices": [
-                "They became more crowded",
-                "They moved inland",
-                "They became largely unoccupied",
-                "They stopped using glass"
+                "Comparable maintenance and staffing records from stations before and after conversion.",
+                "Descriptions of lighthouse towers in travel brochures.",
+                "The number of French lenses held in art museums.",
+                "A list of nineteenth-century maritime legends."
               ],
-              "correctIndex": 2,
-              "explanation": "The third paragraph says stations became largely unoccupied.",
-              "passageId": "R01-P1"
+              "correctIndex": 0,
+              "explanation": "To verify lower operating costs, a comparable cost record is the relevant evidence.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C10",
-              "type": "General",
-              "prompt": "What attitude does the author convey toward historic lighthouses?",
+              "type": "Authorial stance",
+              "prompt": "Which interpretation best captures the author's stance toward technological change?",
               "choices": [
-                "Respectful of their technological and human history",
-                "Dismissive of their usefulness",
-                "Angry about their French origins",
-                "Uninterested in their preservation"
+                "Technology never influences the communities that adopt it.",
+                "Change offers functional gains while transforming practices worth remembering.",
+                "Every innovation is harmful because it displaces tradition.",
+                "Historical preservation matters only when equipment still operates."
               ],
-              "correctIndex": 0,
-              "explanation": "The closing sentence values both technological ingenuity and the vigilance of keepers.",
-              "passageId": "R01-P1"
+              "correctIndex": 1,
+              "explanation": "The passage credits innovations while honoring human labor and noting changes in station life.",
+              "passageId": "R01-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             }
           ]
         },
@@ -171,143 +191,163 @@
           "questions": [
             {
               "id": "R01-C11",
-              "type": "General",
-              "prompt": "What is the central idea of the passage?",
+              "type": "Synthesis",
+              "prompt": "What tension underlies the seed library's goal of preserving local varieties?",
               "choices": [
-                "Seed libraries depend on both preservation and community participation",
-                "All seeds remain viable for centuries",
-                "Gardeners should avoid unusual vegetables",
-                "Seed libraries are mainly commercial businesses"
+                "Seeds can be preserved without planting or monitoring them.",
+                "Borrowers are prohibited from saving any seeds.",
+                "Local varieties become valuable only after commercial sales increase.",
+                "Seeds must remain viable while retaining characteristic traits across generations."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: Seed libraries depend on both preservation and community participation. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 3,
+              "explanation": "The passage discusses germination, replenishment, and cross-pollination as distinct preservation concerns.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C12",
-              "type": "Specific",
-              "prompt": "Why were some varieties especially valuable to the town?",
+              "type": "Inference",
+              "prompt": "Why is the short growing season important to the value assigned to certain varieties?",
               "choices": [
-                "They grew only in tropical weather",
-                "They were adapted to a short growing season",
-                "They required no water",
-                "They were imported every spring"
+                "Adaptation to local conditions may make them useful in ways not captured by generic seed catalogs.",
+                "All vegetables can reproduce only during brief seasons.",
+                "Short seasons eliminate the need to monitor germination.",
+                "The library wished to replace seeds after every winter regardless of viability."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: They were adapted to a short growing season. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 0,
+              "explanation": "The opening states that varieties had adapted to the area's shorter season.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C13",
-              "type": "Specific",
-              "prompt": "What information did volunteers place on labels?",
+              "type": "Measurement",
+              "prompt": "What does testing a small sample for germination allow volunteers to assess?",
               "choices": [
-                "The gardener's favorite recipe",
-                "The seed's price",
-                "Plant name and harvest year",
-                "The number of leaves"
+                "Whether the seeds were originally sold at a high price.",
+                "Whether stored seeds remain likely to sprout before relying on the full supply.",
+                "Whether every resulting plant will remain genetically identical.",
+                "Whether the seeds will be popular with students."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Plant name and harvest year. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 1,
+              "explanation": "A sample germination test directly assesses viability, not genetic purity or popularity.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C14",
-              "type": "Vocabulary",
-              "prompt": "In paragraph 2, 'germination' refers to",
+              "type": "Response to evidence",
+              "prompt": "Why would volunteers plant the remaining seeds after a poor germination test?",
               "choices": [
-                "seed sprouting",
-                "seed shipping",
-                "plant harvesting",
-                "soil freezing"
+                "Seed labels are no longer meaningful after testing.",
+                "An annual planting prevents all cross-pollination.",
+                "A new harvest can renew a stock whose ability to sprout is declining.",
+                "Planting remaining seeds will guarantee that every seed germinates."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: seed sprouting. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 2,
+              "explanation": "The passage describes growing the remaining seeds to replenish aging stock.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C15",
-              "type": "Specific",
-              "prompt": "What did volunteers do when too few seeds sprouted?",
+              "type": "Causal inference",
+              "prompt": "What problem can cross-pollination create even when borrowed plants grow successfully?",
               "choices": [
-                "Discard every envelope",
-                "Plant remaining seeds to collect new ones",
-                "Raise storage temperatures",
-                "Stop accepting borrowers"
+                "It prevents every plant from producing any seed.",
+                "It makes all storage containers too moist.",
+                "It ensures every offspring is a perfect replica.",
+                "Their descendants may differ from the variety the library intends to preserve."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: Plant remaining seeds to collect new ones. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 3,
+              "explanation": "Successful growth does not ensure preservation of a variety's characteristics if pollen from other varieties changes offspring.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C16",
-              "type": "General",
-              "prompt": "Which conclusion is supported by the passage?",
+              "type": "System design",
+              "prompt": "Why does the request that borrowers return seeds help sustain the collection?",
               "choices": [
-                "All plants can be saved with identical methods",
-                "Cross-pollination is always harmful",
-                "Seed preservation may require growing plants periodically",
-                "Seeds should be kept in warm damp places"
+                "It distributes the work of renewing the seed stock beyond library volunteers.",
+                "It removes any need for proper seed storage.",
+                "It guarantees all borrowed seeds are returned in identical quantities.",
+                "It converts the library into a commercial seed supplier."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Seed preservation may require growing plants periodically. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 0,
+              "explanation": "Borrowers produce new seeds for the shared supply, supporting repeated cycles of use.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C17",
-              "type": "Specific",
-              "prompt": "What were borrowers asked to return?",
+              "type": "Evidence",
+              "prompt": "What additional record would best test whether library methods preserved variety identity?",
               "choices": [
-                "Some seeds from the plants they grew",
-                "A monthly cash fee",
-                "All of their harvested vegetables",
-                "The original envelopes unopened"
+                "The number of autumns in which labels were printed.",
+                "Comparisons of offspring traits with the originally recorded variety across generations.",
+                "The number of visitors who enjoyed the library's displays.",
+                "The cost of envelopes used for storage."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: Some seeds from the plants they grew. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 1,
+              "explanation": "Tracking characteristics across generations addresses fidelity, unlike simple inventory or usage counts.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C18",
-              "type": "General",
-              "prompt": "Why does the author mention cross-pollination?",
+              "type": "Structure",
+              "prompt": "How does the final paragraph extend the opening definition of the project?",
               "choices": [
-                "To explain why some borrowers needed special guidance",
-                "To show why plants cannot reproduce",
-                "To argue that all seeds are identical",
-                "To describe how labels were printed"
+                "It concludes that seeds remain useful indefinitely without planting.",
+                "It shows that labels are unnecessary when neighbors exchange advice.",
+                "It reframes seed storage as a social and educational process sustained through exchange.",
+                "It rejects the value of locally adapted plants."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: To explain why some borrowers needed special guidance. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 2,
+              "explanation": "The initial aim is preservation; the conclusion expands that aim into shared learning and community participation.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C19",
-              "type": "General",
-              "prompt": "How is the final paragraph related to the first?",
+              "type": "Limits",
+              "prompt": "Which claim about preservation is least defensible from the passage?",
               "choices": [
-                "It rejects the library's original purpose",
-                "It shows how the project expanded beyond storage",
-                "It introduces a completely different town",
-                "It lists the costs of the program"
+                "Heat and moisture can diminish viability.",
+                "Replenishment can be necessary after low germination.",
+                "Cross-pollination may alter offspring traits.",
+                "Properly labeled seeds remain viable forever if the library has enough volunteers."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: It shows how the project expanded beyond storage. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 3,
+              "explanation": "The author explicitly says seeds cannot remain useful indefinitely.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C20",
-              "type": "General",
-              "prompt": "Which tone best describes the passage?",
+              "type": "Generalization",
+              "prompt": "What general lesson does the seed project illustrate?",
               "choices": [
-                "Mocking",
-                "Alarmed",
-                "Informative and appreciative",
-                "Bitter"
+                "Preserving living resources depends on ongoing renewal, monitoring, and informed participation.",
+                "Physical storage alone guarantees biological continuity.",
+                "Local adaptation is irrelevant to conservation.",
+                "A collection becomes sustainable only when access is permanently restricted."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Informative and appreciative. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P2"
+              "correctIndex": 0,
+              "explanation": "The text combines storage, germination checks, cultivation, and borrower instruction.",
+              "passageId": "R01-P2",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             }
           ]
         },
@@ -319,143 +359,163 @@
           "questions": [
             {
               "id": "R01-C21",
-              "type": "General",
-              "prompt": "What problem prompted the proposed wildlife bridge?",
+              "type": "Multiple objectives",
+              "prompt": "Which competing goals make the proposed highway bridge more than an ordinary transportation project?",
               "choices": [
-                "A river flooded the highway",
-                "The highway divided habitat and caused dangerous crossings",
-                "The towns had no pedestrian paths",
-                "The forest lacked vegetation"
+                "Replacing highway traffic with walking tourism.",
+                "Eliminating all fences while guaranteeing animals never move.",
+                "Reducing road hazards while reconnecting fragmented animal habitat.",
+                "Increasing traffic speeds while eliminating every crossing."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: The highway divided habitat and caused dangerous crossings. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 2,
+              "explanation": "The bridge addresses wildlife mobility and driver safety together.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C22",
-              "type": "Specific",
-              "prompt": "What covered the proposed crossing?",
+              "type": "System mechanism",
+              "prompt": "Why do the fences matter even though the central structure is a bridge?",
               "choices": [
-                "Glass panels",
-                "Metal tracks",
-                "Soil, shrubs, and small trees",
-                "Painted road markings"
+                "They prevent all wildlife from moving between habitats.",
+                "They provide the main habitat required by all species.",
+                "They allow vehicles to travel directly over the vegetated surface.",
+                "They channel animal movement toward the safer crossing rather than the road surface."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Soil, shrubs, and small trees. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 3,
+              "explanation": "The text says roadside fences guide animals to the bridge.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C23",
-              "type": "Specific",
-              "prompt": "What was the purpose of roadside fences?",
+              "type": "Research design",
+              "prompt": "What role do the preconstruction cameras play in evaluating the project?",
               "choices": [
-                "To direct animals toward the bridge",
-                "To keep people out of both towns",
-                "To block all wildlife movement",
-                "To reduce the bridge's height"
+                "They provide baseline evidence of animal movement before the crossing exists.",
+                "They prove that animals will never use the bridge.",
+                "They directly measure every future traffic collision.",
+                "They replace all later monitoring of the crossing."
               ],
               "correctIndex": 0,
-              "explanation": "Evidence: To direct animals toward the bridge. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "explanation": "Cameras established which species traveled in the area and when before construction.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C24",
-              "type": "General",
-              "prompt": "Why did some residents question the project?",
+              "type": "Causal qualification",
+              "prompt": "Why is the change in fox sightings suggestive but not conclusive?",
               "choices": [
-                "They doubted animals would use an expensive bridge",
-                "They wanted a larger highway",
-                "They believed deer never crossed roads",
-                "They opposed all scientific monitoring"
+                "Vegetation density is unrelated to animal behavior under all circumstances.",
+                "More sightings coincide with denser vegetation, but the passage does not isolate vegetation as the only cause.",
+                "Every fox sighting proves a collision was prevented.",
+                "The foxes used the bridge more frequently before it was built."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: They doubted animals would use an expensive bridge. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 1,
+              "explanation": "The timing suggests an association, but other influences are not ruled out.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C25",
-              "type": "Specific",
-              "prompt": "What did researchers do before construction?",
+              "type": "Evidence relevance",
+              "prompt": "Which result would most directly address residents' uncertainty about whether animals would use the structure?",
               "choices": [
-                "Remove every animal trail",
-                "Install cameras along existing animal trails",
-                "Move the deer to another state",
-                "Close the highway permanently"
+                "More highway warning signs without wildlife observations.",
+                "Surveys of drivers' favorite scenic routes.",
+                "Camera records showing repeated crossings by target species after construction.",
+                "A higher estimate of the bridge's construction cost."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: Install cameras along existing animal trails. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 2,
+              "explanation": "Repeated animal crossings directly address use; the other options do not.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C26",
-              "type": "Vocabulary",
-              "prompt": "In paragraph 3, 'denser' most nearly means",
+              "type": "Comparison",
+              "prompt": "What is the clearest limitation of speed limits and warning signs identified in the passage?",
               "choices": [
-                "more crowded or thick",
-                "more brightly colored",
-                "more expensive",
-                "less natural"
+                "They cannot be installed near forest roads.",
+                "They immediately prevent every animal collision.",
+                "They are more expensive than all possible bridge designs.",
+                "They may reduce traffic hazards without physically reconnecting the divided habitat."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: more crowded or thick. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 3,
+              "explanation": "The text explains that none of those alternatives alone reconnects habitat.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C27",
-              "type": "Specific",
-              "prompt": "Which animals appeared increasingly often as vegetation grew?",
+              "type": "Inference",
+              "prompt": "Which inference about design best fits the delayed increase in fox use?",
               "choices": [
-                "Deer only",
-                "Birds only",
-                "Foxes",
-                "Domestic horses"
+                "Different species may respond to the crossing's habitat features at different rates.",
+                "All species always adopt new structures at the same moment.",
+                "Vegetation growth prevents deer from using crossings.",
+                "The initial camera records must have been inaccurate."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Foxes. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 0,
+              "explanation": "Deer use was regular while foxes appeared more as plant cover grew, suggesting variation by species.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C28",
-              "type": "General",
-              "prompt": "Why did researchers avoid claiming that photos proved every benefit?",
+              "type": "Limits of evidence",
+              "prompt": "Why do the researchers refrain from equating camera photographs with a proven collision reduction?",
               "choices": [
-                "Other factors might influence collision numbers",
-                "The cameras never recorded wildlife",
-                "The bridge was not yet open",
-                "The forest was completely unchanged"
+                "A crossing can have value only if no animals are ever photographed.",
+                "Collision rates may also respond to changes in traffic, migration, and nearby development.",
+                "Cameras record no useful information about animals.",
+                "Photographs always exaggerate animal numbers by the same amount."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: Other factors might influence collision numbers. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 1,
+              "explanation": "The passage explicitly identifies potential confounding factors.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C29",
-              "type": "General",
-              "prompt": "Which statement is best supported?",
+              "type": "Experimental design",
+              "prompt": "Which comparison would best strengthen a claim that the bridge reduced collisions?",
               "choices": [
-                "A single crossing guarantees zero collisions",
-                "Wildlife crossings can improve connectivity while safety outcomes require evaluation",
-                "Fences are never useful",
-                "Animals always avoid human structures"
+                "The bridge's construction price compared with a tourism campaign.",
+                "A comparison of nearby mountain elevations without collision records.",
+                "Collision trends before and after construction adjusted for traffic and seasonal migration.",
+                "A list of photographs without timing information."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: Wildlife crossings can improve connectivity while safety outcomes require evaluation. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 2,
+              "explanation": "A controlled time comparison addresses the outcome and plausible confounders.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C30",
-              "type": "General",
-              "prompt": "What is the author's primary purpose?",
+              "type": "Authorial qualification",
+              "prompt": "Which conclusion most accurately expresses the passage's position?",
               "choices": [
-                "To describe a proposed solution and evidence about its use",
-                "To entertain with an animal fable",
-                "To persuade readers to stop driving",
-                "To list mountain-town restaurants"
+                "The project has been proven entirely successful in every respect.",
+                "There is no evidence that any wildlife used the bridge.",
+                "The structure eliminated all conflict between development and ecology.",
+                "The crossing is promising, but its full effects require evidence beyond animal-use photographs."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: To describe a proposed solution and evidence about its use. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P3"
+              "correctIndex": 3,
+              "explanation": "The ending endorses the approach cautiously, not absolutely.",
+              "passageId": "R01-P3",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             }
           ]
         },
@@ -467,143 +527,163 @@
           "questions": [
             {
               "id": "R01-C31",
-              "type": "General",
-              "prompt": "How does Leena's attitude change?",
+              "type": "Character development",
+              "prompt": "What shift in Leena's understanding organizes the passage?",
               "choices": [
-                "From enthusiasm for records to dislike of astronomy",
-                "From disappointment about sketching to appreciation of records",
-                "From fear of telescopes to fear of clouds",
-                "From confidence to refusal to observe"
+                "She concludes that cloud cover makes scientific work impossible.",
+                "She moves from valuing impressive views alone to recognizing the value of systematic records.",
+                "She abandons astronomy because telescopes are unreliable.",
+                "She decides that drawing is always superior to observation."
               ],
               "correctIndex": 1,
-              "explanation": "Evidence: From disappointment about sketching to appreciation of records. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "explanation": "The opening contrasts her expectations with the later appreciation of recordkeeping.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C32",
-              "type": "Specific",
-              "prompt": "What did the adviser first ask Leena to do?",
+              "type": "Purpose",
+              "prompt": "Why is the adviser's insistence on dated sketches pedagogically significant?",
               "choices": [
-                "Build a telescope",
-                "Sketch the Moon three evenings each week",
-                "Write about the planets every day",
-                "Photograph a comet"
+                "It eliminates any need to view celestial objects again.",
+                "It makes changing illumination irrelevant to observation.",
+                "It turns isolated observations into data that can be compared across time.",
+                "It guarantees every student will draw the Moon at identical scale."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: Sketch the Moon three evenings each week. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 2,
+              "explanation": "Dated, consistent observations let students recognize and compare changes.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C33",
-              "type": "Specific",
-              "prompt": "Why could Leena not observe on two evenings?",
+              "type": "Inference",
+              "prompt": "What does the shifting boundary between bright and dark lunar regions enable Leena to notice?",
               "choices": [
-                "She misplaced her notebook",
-                "The telescope broke",
-                "Clouds obscured the sky",
-                "The club canceled meetings"
+                "The Moon physically loses its craters between observations.",
+                "The telescope changes the Moon's surface during the week.",
+                "The date labels force the Moon to rotate toward Earth.",
+                "Features previously obscured by shadow become visible under different illumination."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Clouds obscured the sky. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 3,
+              "explanation": "The passage says the shifted line revealed craters previously hidden in shadow.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C34",
-              "type": "Vocabulary",
-              "prompt": "In paragraph 2, 'obscured' most nearly means",
+              "type": "Narrative detail",
+              "prompt": "Why does the passage include the two cloudy evenings?",
               "choices": [
-                "hidden from view",
-                "made brighter",
-                "measured carefully",
-                "moved closer"
+                "They establish that observation is contingent on conditions and that the record develops across incomplete opportunities.",
+                "They prove Leena never saw the Moon.",
+                "They demonstrate that sketches were fabricated.",
+                "They establish that the adviser predicted the clouds precisely."
               ],
               "correctIndex": 0,
-              "explanation": "Evidence: hidden from view. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "explanation": "Clouds interrupt the schedule, making later observations and careful dates more meaningful.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C35",
-              "type": "Specific",
-              "prompt": "What changed between Leena's Moon sketches?",
+              "type": "Information quality",
+              "prompt": "What makes a consistently dated drawing more useful than an equally detailed but undated one?",
               "choices": [
-                "The Moon disappeared forever",
-                "The bright-dark boundary shifted",
-                "The telescope changed color",
-                "All craters became larger"
+                "It proves the student used the most advanced telescope.",
+                "Its place in a chronological sequence can be established and compared.",
+                "It must contain more accurate crater positions by definition.",
+                "It automatically corrects any changes of scale."
               ],
               "correctIndex": 1,
-              "explanation": "Evidence: The bright-dark boundary shifted. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "explanation": "Dates permit temporal comparison, which is central to the club's exercise.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C36",
-              "type": "General",
-              "prompt": "Why were Leena's sketches easier to compare?",
+              "type": "Measurement",
+              "prompt": "Why would inconsistent drawing scale create an interpretive problem?",
               "choices": [
-                "She used consistent dates and labels",
-                "She drew only planets",
-                "She omitted all details",
-                "She used different paper sizes each time"
+                "An inconsistent sketch cannot contain any valid observation.",
+                "Scale variation automatically removes all craters from an image.",
+                "Apparent differences could reflect representation rather than changes in what was observed.",
+                "The Moon's real size depends on the student's paper."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: She used consistent dates and labels. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 2,
+              "explanation": "Changes in scale may obscure whether observed differences are real or artifacts of recording.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C37",
-              "type": "Specific",
-              "prompt": "What did some other students forget?",
+              "type": "Narrative structure",
+              "prompt": "How does Leena's initial disappointment contribute to the passage's meaning?",
               "choices": [
-                "The Moon's existence",
-                "Their notebooks at home",
-                "Dates on their sketches",
-                "How to use pencils"
+                "It demonstrates her permanent unwillingness to learn.",
+                "It shows that the adviser considered telescopes unnecessary.",
+                "It proves that drawings are inherently unscientific.",
+                "It sets up a contrast between the excitement of equipment and the discipline needed for discovery."
               ],
-              "correctIndex": 2,
-              "explanation": "Evidence: Dates on their sketches. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 3,
+              "explanation": "Her later acceptance reverses the assumptions that made the notebook initially seem dull.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C38",
-              "type": "General",
-              "prompt": "Which statement best expresses the lesson Leena learned?",
+              "type": "Synthesis",
+              "prompt": "What relationship between telescopes and notebooks does the ending establish?",
               "choices": [
-                "Exciting instruments make records unnecessary",
-                "Patterns become easier to notice through consistent observations",
-                "Astronomy can only be learned indoors",
-                "Sketches are always more accurate than photographs"
+                "They serve complementary roles: instruments supply observations, and records enable comparisons.",
+                "They compete, and notebooks make telescopes obsolete.",
+                "The adviser discourages students from observing planets.",
+                "Writing down observations prevents recognizing patterns."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: Patterns become easier to notice through consistent observations. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 0,
+              "explanation": "She retains enthusiasm for telescopes while recognizing the value of preserved observations.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C39",
-              "type": "General",
-              "prompt": "Which word best describes the adviser's approach?",
+              "type": "Counterfactual",
+              "prompt": "What would be most weakened if Leena omitted dates from otherwise careful sketches?",
               "choices": [
-                "Patient and methodical",
-                "Careless and impulsive",
-                "Hostile and secretive",
-                "Indifferent and confused"
+                "The visual appearance of each isolated drawing.",
+                "The ability to establish the sequence of lunar changes.",
+                "The possibility of recognizing any lunar features at all.",
+                "The light-gathering capacity of the telescope."
               ],
-              "correctIndex": 0,
-              "explanation": "Evidence: Patient and methodical. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 1,
+              "explanation": "Without dates, the order of observations is difficult to verify, weakening a temporal comparison.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             },
             {
               "id": "R01-C40",
-              "type": "General",
-              "prompt": "Which title best fits the passage?",
+              "type": "General inference",
+              "prompt": "Which claim is most defensible from Leena's experience?",
               "choices": [
-                "The Disappearing Telescope",
-                "A Notebook That Revealed Patterns",
-                "The History of Planet Names",
-                "A School Without Clouds"
+                "Sketching replaces the need for accurate observations.",
+                "Cloudy weather makes a month-long astronomy project futile.",
+                "Careful documentation can reveal patterns not evident in a single exciting observation.",
+                "An expensive instrument guarantees a reliable scientific conclusion."
               ],
-              "correctIndex": 1,
-              "explanation": "Evidence: A Notebook That Revealed Patterns. Refer to the passage for the supporting detail.",
-              "passageId": "R01-P4"
+              "correctIndex": 2,
+              "explanation": "Her dated sketches made patterns visible when ordered and compared.",
+              "passageId": "R01-P4",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "authored-review-pending"
             }
           ]
         }
