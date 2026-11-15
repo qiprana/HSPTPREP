@@ -146,18 +146,18 @@
         {
           "id": "LA01-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the astronomical modeling challenge scenario, A survey of volunteers supports a plan. Which finding would most reduce concern about sampling bias?",
+          "skill": "Astronomy observations",
+          "text": "A public observatory surveys only visitors who attend its late-night sessions about whether the city should extend its operating hours. Which additional evidence would most directly address the sample's selection bias?",
           "options": [
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers express greater confidence in their views."
+            "A larger poll of the same late-night visitors.",
+            "A survey of residents sampled across neighborhoods and different availability schedules.",
+            "A description of the observatory's most popular telescope.",
+            "An editorial written by the program director."
           ],
-          "correctIndex": 2,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "Late-night attendees are already able and motivated to visit at those hours. A broader probability-based survey can represent nonvisitors whose scheduling needs differ.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -631,18 +631,18 @@
         {
           "id": "LA02-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the historical preservation challenge scenario, A survey of volunteers supports an initiative. Which finding would most reduce concern about sampling bias?",
+          "skill": "Preservation policy",
+          "text": "A town asks owners of protected historic houses whether restoration grants are sufficient. What is the principal weakness in inferring all older-property owners' needs from the replies?",
           "options": [
-            "The volunteers brief greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses."
+            "Protected-property owners may differ from owners who lack protected status or awareness of the grants.",
+            "The postal service cannot deliver surveys to historic properties.",
+            "Grant recipients are guaranteed to be neutral about funding.",
+            "Every older building requires identical repairs."
           ],
-          "correctIndex": 3,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 0,
+          "explanation": "Selecting already protected properties excludes owners outside that designation, whose needs may be different.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -1116,18 +1116,18 @@
         {
           "id": "LA03-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the clinical research design challenge scenario, A survey of volunteers supports a program. Which finding would most reduce concern about sampling bias?",
+          "skill": "Clinical volunteer sample",
+          "text": "Participants in an optional wellness workshop report lower stress after four sessions. Which comparison would best assess whether attendance caused the improvement?",
           "options": [
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers dossier greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion."
+            "The final workshop satisfaction scores.",
+            "The instructor's account of their teaching style.",
+            "Comparable eligible participants assigned to workshop and non-workshop conditions with similar measurement periods.",
+            "The number of people who completed the initial signup."
           ],
-          "correctIndex": 0,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 2,
+          "explanation": "Assignment and comparable baseline/follow-up measurements help distinguish intervention effects from self-selection and the passage of time.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -1601,18 +1601,18 @@
         {
           "id": "LA04-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the environmental policy challenge scenario, A survey of volunteers supports a project. Which finding would most reduce concern about sampling bias?",
+          "skill": "Environmental policy",
+          "text": "A city surveys only people who filed complaints about tree removal and finds overwhelming opposition. Which conclusion is best justified?",
           "options": [
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers memorandum greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes."
+            "Every resident opposes tree removal.",
+            "Complaint filers oppose the policy, but their responses cannot alone represent the full city.",
+            "The complaint records are invalid because the respondents have strong opinions.",
+            "The policy must have increased air pollution."
           ],
           "correctIndex": 1,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "explanation": "A complaint sample systematically overrepresents affected or motivated opponents; their views are real but not representative by default.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -2086,18 +2086,18 @@
         {
           "id": "LA05-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the literary criticism challenge scenario, A survey of volunteers supports a draft. Which finding would most reduce concern about sampling bias?",
+          "skill": "Book review survey",
+          "text": "A publisher uses early purchasers' ratings to claim a novel appeals equally to reluctant readers. What evidence would most directly test this?",
           "options": [
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers submission greater confidence in their views."
+            "The number of copies printed in the first edition.",
+            "The author's own description of the intended audience.",
+            "The average rating among enthusiastic fans who preordered.",
+            "Responses from a separately recruited sample that includes reluctant readers."
           ],
-          "correctIndex": 2,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 3,
+          "explanation": "Preorder and early purchaser samples may skew toward fans, so testing reluctant readers requires including that population.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -2571,18 +2571,18 @@
         {
           "id": "LA06-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the public education challenge scenario, A survey of volunteers supports a scheme. Which finding would most reduce concern about sampling bias?",
+          "skill": "Education program",
+          "text": "A tutoring service compares students who enrolled voluntarily with those who did not and reports higher final grades among participants. What remains uncontrolled?",
           "options": [
-            "The volunteers account greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses."
+            "The number of pages in the tutoring handbook.",
+            "Preexisting motivation or academic readiness that influenced enrollment.",
+            "Whether the service used an online logo.",
+            "The length of the final certificate."
           ],
-          "correctIndex": 3,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "Volunteer enrollment can correlate with motivation and readiness, each of which also affects grades. The comparison alone cannot isolate tutoring.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -3056,18 +3056,18 @@
         {
           "id": "LA07-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the civic administration challenge scenario, A survey of volunteers supports a measure. Which finding would most reduce concern about sampling bias?",
+          "skill": "Civic survey",
+          "text": "A county distributes a transit survey exclusively through a smartphone app. Which group is most likely to be underrepresented?",
           "options": [
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers document greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion."
+            "Residents without reliable smartphone access.",
+            "Residents who already use the app daily.",
+            "Commuters who receive app notifications.",
+            "Drivers who own smartphones."
           ],
           "correctIndex": 0,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "explanation": "App-only recruitment misses people without suitable devices or connectivity, who may have distinctive transit needs.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -3541,18 +3541,18 @@
         {
           "id": "LA08-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the ecological restoration challenge scenario, A survey of volunteers supports a recommendation. Which finding would most reduce concern about sampling bias?",
+          "skill": "Ecological restoration",
+          "text": "Volunteers measure stream clarity only in the first week after a cleanup. Why is their conclusion about year-round recovery premature?",
           "options": [
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers paper greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes."
+            "Stream clarity is unrelated to water quality under any circumstance.",
+            "Cleanups never affect streams.",
+            "A short post-cleanup observation cannot establish seasonal persistence or exclude temporary runoff changes.",
+            "Water measurements become less accurate when repeated."
           ],
-          "correctIndex": 1,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 2,
+          "explanation": "The limited window cannot establish durability across seasons or distinguish cleanup effects from transient hydrological conditions.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -4026,18 +4026,18 @@
         {
           "id": "LA09-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the journalism ethics challenge scenario, A survey of volunteers supports a policy. Which finding would most reduce concern about sampling bias?",
+          "skill": "Journalism ethics",
+          "text": "A newspaper polls visitors who clicked an investigative article, then claims the entire readership supports its reporting style. What is the most direct issue?",
           "options": [
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers summary greater confidence in their views."
+            "Clicking an article produces a guaranteed neutral sample.",
+            "Interest in that article may correlate with reporting preferences, making the respondents unrepresentative.",
+            "The sample is large enough to remove every source of bias.",
+            "Editorial tone cannot be measured by any survey."
           ],
-          "correctIndex": 2,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "Self-selection into the article audience may be associated with the opinion being measured; sample size alone does not correct that.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -4511,18 +4511,18 @@
         {
           "id": "LA10-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the engineering safety challenge scenario, A survey of volunteers supports a submission. Which finding would most reduce concern about sampling bias?",
+          "skill": "Engineering safety",
+          "text": "A factory tests a safety guard with experienced operators but recommends it for all new hires. Which extra trial would most strengthen the generalization?",
           "options": [
-            "The volunteers document greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses."
+            "A product photograph taken at installation.",
+            "The guard's packaging materials.",
+            "A testimonial from the equipment supplier.",
+            "A trial involving novice workers under supervised real-use conditions."
           ],
           "correctIndex": 3,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "explanation": "Skill and familiarity may change safety behavior. Trials with novice operators directly examine whether the benefit transfers.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -4996,18 +4996,18 @@
         {
           "id": "LA11-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the agricultural history challenge scenario, A survey of volunteers supports a proposal. Which finding would most reduce concern about sampling bias?",
+          "skill": "Agricultural history",
+          "text": "A historian interviews descendants of one large farming family to describe an entire region's land practices. Which objection is most relevant?",
           "options": [
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers draft greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion."
+            "Family oral histories cannot contain useful information.",
+            "One family's practices may be unrepresentative of tenant farmers and smaller landholders.",
+            "Historical field locations are irrelevant to agrarian practice.",
+            "All surviving descendants share identical memories."
           ],
-          "correctIndex": 0,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "The selected family is one social stratum, leaving important groups outside the sample. Its testimony can remain valuable within its scope.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -5481,18 +5481,18 @@
         {
           "id": "LA12-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the social statistics challenge scenario, A survey of volunteers supports a amendment. Which finding would most reduce concern about sampling bias?",
+          "skill": "Social statistics",
+          "text": "A city estimates rental stress by asking only tenants who renewed leases last month. Who is plausibly missing from the sample?",
           "options": [
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers record greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes."
+            "Renters displaced before renewal because they could no longer afford the rent.",
+            "Renters who were satisfied enough to renew.",
+            "Tenants with leases renewing in that month.",
+            "Respondents who remained in their homes."
           ],
-          "correctIndex": 1,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 0,
+          "explanation": "Restricting the sample to renewals excludes some of the most rent-burdened households who moved or were displaced.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -5966,18 +5966,18 @@
         {
           "id": "LA13-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the robotics policy challenge scenario, A survey of volunteers supports a motion. Which finding would most reduce concern about sampling bias?",
+          "skill": "Robotics policy",
+          "text": "A pilot school tests classroom robots with teachers who applied for the project. What is the strongest reason not to generalize enthusiasm to all teachers?",
           "options": [
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers proposal greater confidence in their views."
+            "Robotics cannot be studied in schools.",
+            "Teachers who volunteer may have greater interest, training, or tolerance for technology.",
+            "Every volunteer favors every educational intervention.",
+            "Classroom equipment has no effect on teaching."
           ],
-          "correctIndex": 2,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "Self-selection can create a sample more receptive and prepared than the overall teacher population.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -6451,18 +6451,18 @@
         {
           "id": "LA14-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the archival practice challenge scenario, A survey of volunteers supports a project. Which finding would most reduce concern about sampling bias?",
+          "skill": "Archival practice",
+          "text": "An archive tests a new search interface using only staff archivists, then claims novices will find it intuitive. Which additional evaluation is most informative?",
           "options": [
-            "The volunteers review greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses."
+            "The staff's average years of service.",
+            "The color of the search interface.",
+            "A usability test with first-time visitors attempting realistic retrieval tasks.",
+            "The number of documents in the archive."
           ],
-          "correctIndex": 3,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 2,
+          "explanation": "Expert users possess vocabulary and workflow knowledge novices lack. Direct novice task testing assesses the actual claim.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -6936,18 +6936,18 @@
         {
           "id": "LA15-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the museum curation challenge scenario, A survey of volunteers supports a strategy. Which finding would most reduce concern about sampling bias?",
+          "skill": "Museum access",
+          "text": "A museum asks people who bought online tickets whether its ticket system is accessible. Which missing group matters most?",
           "options": [
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers record greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion."
+            "Visitors who succeeded in purchasing tickets.",
+            "Visitors who abandoned the purchase because of accessibility barriers.",
+            "People who visited the museum shop afterward.",
+            "Visitors who printed their successful tickets."
           ],
-          "correctIndex": 0,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "A survey of successful purchasers omits the people most affected by barriers preventing purchase.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -7421,18 +7421,18 @@
         {
           "id": "LA16-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the water management challenge scenario, A survey of volunteers supports an initiative. Which finding would most reduce concern about sampling bias?",
+          "skill": "Water conservation",
+          "text": "Households voluntarily enrolled in a water-saving program use less water afterward. Which design best separates program effects from prior conservation motivation?",
           "options": [
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers report greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes."
+            "Compare pre- and post-use of enrolled households only.",
+            "Ask participants whether they like conserving water.",
+            "Recruit comparable households and use randomized enrollment timing while tracking prior usage.",
+            "Measure only total citywide water bills."
           ],
-          "correctIndex": 1,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 2,
+          "explanation": "Randomized timing and baseline usage comparisons help test whether consumption changes result from the program rather than motivated self-selection.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -7906,18 +7906,18 @@
         {
           "id": "LA17-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the transportation research challenge scenario, A survey of volunteers supports a plan. Which finding would most reduce concern about sampling bias?",
+          "skill": "Transportation research",
+          "text": "A study of bike-lane safety interviews only cyclists who still commute on that route. What phenomenon could make safety appear better than it is?",
           "options": [
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers transcript greater confidence in their views."
+            "Cyclists who stopped using the route after incidents or near-misses are excluded.",
+            "Only long-distance commuters wear helmets.",
+            "The interviews include too many former cyclists.",
+            "Bicycle trips have no measurable risk."
           ],
-          "correctIndex": 2,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 0,
+          "explanation": "Survivorship bias excludes riders who abandoned the route because they felt unsafe or experienced incidents.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -8391,18 +8391,18 @@
         {
           "id": "LA18-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the climate adaptation challenge scenario, A survey of volunteers supports an intervention. Which finding would most reduce concern about sampling bias?",
+          "skill": "Climate adaptation",
+          "text": "A coastal community evaluates a cooling-center program using attendance records alone. Which additional evidence most directly tests access for people at greatest heat risk?",
           "options": [
-            "The volunteers paper greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses."
+            "A list of decorative features at the centers.",
+            "The brand of drinking fountains installed.",
+            "The number of chairs purchased before summer.",
+            "Population-level outreach and barrier data from residents who could not attend."
           ],
           "correctIndex": 3,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "explanation": "Attendance describes users, not excluded residents; information on nonattendance barriers is necessary to assess equitable access.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -8876,18 +8876,18 @@
         {
           "id": "LA19-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the scientific publication challenge scenario, A survey of volunteers supports a policy. Which finding would most reduce concern about sampling bias?",
+          "skill": "Scientific publication",
+          "text": "A journal claims its manuscript review process is fair because successful authors rate it highly. Which weakness is most direct?",
           "options": [
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers paper greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes.",
-            "The original author repeats the survey's conclusion."
+            "Authors' opinions are irrelevant to fairness.",
+            "Rejected authors may have experiences absent from the successful-author sample.",
+            "The rating scale has only five points.",
+            "Peer review can never be studied empirically."
           ],
-          "correctIndex": 0,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 1,
+          "explanation": "Conditioning on acceptance excludes researchers who experienced rejection, potentially biasing perceptions of procedural fairness.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
@@ -9361,18 +9361,18 @@
         {
           "id": "LA20-C-1",
           "group": "usage",
-          "skill": "Research design",
-          "text": "In the linguistic analysis challenge scenario, A survey of volunteers supports a measure. Which finding would most reduce concern about sampling bias?",
+          "skill": "Linguistic analysis",
+          "text": "A linguist records speech only from volunteers at a university and uses the result to describe an entire city's dialect. Which added sample would best test the claim?",
           "options": [
-            "The original author repeats the survey's conclusion.",
-            "A comparable randomly selected sample produces similar responses.",
-            "The volunteers finding greater confidence in their views.",
-            "The questionnaire is distributed in more colorful envelopes."
+            "Another cohort of students enrolled in the same department.",
+            "More recordings from one professor.",
+            "Participants recruited across neighborhoods, ages, and social settings beyond the university.",
+            "The linguist's preferred dictionary entries."
           ],
-          "correctIndex": 1,
-          "explanation": "A randomly selected comparison addresses whether the volunteer group differs systematically from the population. Popularity and repetition among the same volunteers do not address whether respondents represent nonparticipants.",
+          "correctIndex": 2,
+          "explanation": "University volunteers may differ in age, education, and social setting from the city as a whole; broader recruitment addresses coverage.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
