@@ -47,162 +47,162 @@
         {
           "id": "L01-U01",
           "group": "usage",
-          "skill": "Correlative agreement",
-          "text": "In the day 1 astronomy full-paper case: Neither the chair nor the scholars who drafted the manuscript ___ prepared to endorse it.",
+          "skill": "Sentence coordination",
+          "text": "The researchers confirmed that the telescope had been calibrated ___ the data, however, remained too noisy for a reliable estimate.",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "and,",
+            ";",
+            "; however,",
+            "because"
           ],
           "correctIndex": 1,
-          "explanation": "The nearer plural noun requires the plural verb were.",
+          "explanation": "The sentence already uses 'however' as a parenthetical transition after the blank. A semicolon separates the complete independent clauses; adding another however duplicates the transition.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U02",
           "group": "usage",
-          "skill": "Agreement",
-          "text": "In the day 1 astronomy full-paper case: Each of the findings that the scholars discussed ___ supported by independent evidence.",
+          "skill": "Parallelism",
+          "text": "Which revision most clearly preserves grammatical parallelism without changing the research team's three goals?",
           "options": [
-            "were",
-            "have been",
-            "is",
-            "are"
+            "The team hoped to reduce error, increasing precision, and that it could verify the readings.",
+            "The team hoped that error could be reduced, precision increased, and to verify the readings.",
+            "The team hoped to reduce error, increase precision, and verify the readings.",
+            "The team hoped for reducing error, to increase precision, and the verification of readings."
           ],
           "correctIndex": 2,
-          "explanation": "The singular distributive head each governs is despite the intervening plural phrase.",
+          "explanation": "Three coordinated infinitives—reduce, increase, verify—share 'to' and describe the team's goals in parallel.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U03",
           "group": "usage",
-          "skill": "Tense sequence",
-          "text": "In the day 1 astronomy full-paper case: By the time Anika presented the manuscript, the review team ___ its sources.",
+          "skill": "Modifiers",
+          "text": "Which sentence makes it unmistakable that the observers, not the telescope, were standing on the roof?",
           "options": [
-            "has already checked",
-            "will check",
-            "is checking",
-            "had already checked"
+            "Standing on the roof, the telescope allowed the observers to photograph Jupiter.",
+            "The telescope photographed Jupiter while standing on the roof with observers.",
+            "The observers used the telescope to photograph Jupiter while it stood on the roof.",
+            "Standing on the roof, the observers used the telescope to photograph Jupiter."
           ],
           "correctIndex": 3,
-          "explanation": "Past perfect marks a completed event before another past event.",
+          "explanation": "The opening participial phrase must modify the grammatical subject, 'the observers.' The other choices attach the modifier to the telescope or leave 'it' ambiguous.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U04",
           "group": "usage",
-          "skill": "Dangling modifier",
-          "text": "In the day 1 astronomy full-paper case: After reviewing the contradictory evidence, ___.",
+          "skill": "Concession and logic",
+          "text": "Which sentence acknowledges that the observation was statistically significant without exaggerating what it established?",
           "options": [
-            "the scholars revised their interpretation",
-            "a discrepancy became apparent",
-            "the manuscript was amended",
-            "the result seemed doubtful"
+            "Although the difference was statistically significant, the small sample limited claims about the wider population.",
+            "The significant finding proved that the treatment worked for every participant.",
+            "Because statistical significance occurred, sampling bias could no longer affect the results.",
+            "The difference was significant only if all measurements were identical."
           ],
           "correctIndex": 0,
-          "explanation": "The people who performed the reviewing must immediately follow the opening modifier.",
+          "explanation": "Statistical significance does not remove sampling limits or prove universal effects. The concessive clause distinguishes a measured result from generalizability.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U05",
           "group": "usage",
-          "skill": "Logical comparison",
-          "text": "In the day 1 astronomy full-paper case: The revised interpretation was more comprehensive than ___.",
+          "skill": "Reference ambiguity",
+          "text": "Which revision most clearly states that the senior researcher, rather than the assistant, had misread the graph?",
           "options": [
-            "the archive that stored the document",
-            "that in the earlier manuscript",
-            "the previous chair",
-            "the original scholars"
+            "When the senior researcher questioned the assistant, she admitted the graph was wrong.",
+            "The assistant informed the senior researcher that she had misread the graph.",
+            "The senior researcher acknowledged her own misreading of the graph while speaking with the assistant.",
+            "The senior researcher told the assistant about her misreading, which surprised her."
           ],
-          "correctIndex": 1,
-          "explanation": "The construction compares interpretations with interpretations, not people or institutions.",
+          "correctIndex": 2,
+          "explanation": "'Her own' directly assigns the error to the senior researcher; bare 'she' and 'her' can point to either person.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U06",
           "group": "usage",
-          "skill": "Subjunctive",
-          "text": "In the day 1 astronomy full-paper case: If Anika ___ responsible for the manuscript, the chair would seek independent confirmation.",
+          "skill": "Conditional structure",
+          "text": "The grant committee will release the funds only if the ethics board approves the protocol. Which conclusion follows?",
           "options": [
-            "has been",
-            "is",
-            "were",
-            "will be"
+            "Approval guarantees that the funds will be released.",
+            "A rejection by the ethics board rules out release under the stated rule.",
+            "The grant committee approves the ethics board's own procedures.",
+            "The committee will release the funds whenever the project produces results."
           ],
-          "correctIndex": 2,
-          "explanation": "Were expresses an unreal present condition in conventional formal usage.",
+          "correctIndex": 1,
+          "explanation": "'Only if' expresses a necessary condition. Without board approval, release cannot occur, but approval alone does not guarantee release.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U07",
           "group": "usage",
-          "skill": "Conditional reasoning",
-          "text": "In the day 1 astronomy full-paper case: The manuscript may be accepted only if the scholars approve it. What can be inferred?",
+          "skill": "Comparative logic",
+          "text": "Which sentence avoids comparing a measurement with a scientist?",
           "options": [
-            "Their approval guarantees acceptance.",
-            "Acceptance may precede approval under the stated rule.",
-            "No unapproved plan has ever been submitted.",
-            "Their approval is necessary, not necessarily sufficient."
+            "The second telescope's resolution is sharper than Dr. Chen.",
+            "Unlike Dr. Chen, the resolution of the second telescope is sharper.",
+            "The second telescope achieved sharper resolution than Dr. Chen's analysis.",
+            "The second telescope's resolution is sharper than that of the instrument Dr. Chen used."
           ],
           "correctIndex": 3,
-          "explanation": "Only if specifies a necessary condition and does not guarantee success.",
+          "explanation": "Both sides of the comparison are telescope resolutions. The other sentences compare resolution against a person, analysis, or another unlike category.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U08",
           "group": "usage",
-          "skill": "Pronoun reference",
-          "text": "In the day 1 astronomy full-paper case: Which sentence identifies Anika as the person who actually inspected the evidence?",
+          "skill": "Tense and sequence",
+          "text": "By the time the outside reviewers requested the original images, the research group ___ its preliminary conclusions twice.",
           "options": [
-            "After inspecting the evidence, Anika informed the chair.",
-            "Anika informed the chair after she inspected it.",
-            "After she inspected it, Anika informed the chair.",
-            "The chair and Anika discussed the findings after she inspected it."
+            "had revised",
+            "has revised",
+            "will revise",
+            "revises"
           ],
           "correctIndex": 0,
-          "explanation": "The introductory modifier clearly identifies its agent in the first sentence; the other references are ambiguous.",
+          "explanation": "Past perfect marks revisions completed before another event already located in the past.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U09",
           "group": "usage",
-          "skill": "Modifier scope",
-          "text": "In the day 1 astronomy full-paper case: Which sentence means that the scholars revised no section except the conclusion?",
+          "skill": "Scope and precision",
+          "text": "Which claim follows from the sentence 'Not every trial produced the same result'?",
           "options": [
-            "The scholars revised the only conclusion of the manuscript.",
-            "The scholars revised only the conclusion of the manuscript.",
-            "Only the scholars revised the conclusion of the manuscript.",
-            "The scholars only revised the conclusion of the manuscript."
+            "None of the trials produced matching results.",
+            "All trials produced different results from one another.",
+            "At least two trials differed in result; complete uniformity did not occur.",
+            "A majority of the trials yielded inaccurate findings."
           ],
-          "correctIndex": 1,
-          "explanation": "Only immediately before the object narrows what was revised.",
+          "correctIndex": 2,
+          "explanation": "Negating 'every trial produced the same result' establishes at least one difference, not universal disagreement or a conclusion about accuracy.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U10",
           "group": "usage",
-          "skill": "Punctuation",
-          "text": "In the day 1 astronomy full-paper case: Which sentence correctly connects two independent clauses with a conjunctive adverb?",
+          "skill": "Punctuation and attribution",
+          "text": "Which version most clearly distinguishes an independent claim from a contrasting observation?",
           "options": [
-            "The manuscript was persuasive; nevertheless the chair requested more evidence.",
-            "The manuscript was persuasive nevertheless; the chair requested more evidence.",
-            "The manuscript was persuasive; nevertheless, the chair requested more evidence.",
-            "The manuscript was persuasive, nevertheless, the chair requested more evidence."
+            "The model predicted a stable orbit, nevertheless the observations shifted.",
+            "The model predicted a stable orbit; nevertheless, the observations shifted.",
+            "The model predicted a stable orbit; nevertheless the observations, shifted.",
+            "The model predicted a stable orbit nevertheless; the observations shifted."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon separates the independent clauses and a comma follows nevertheless.",
+          "correctIndex": 1,
+          "explanation": "A semicolon separates two independent clauses and a comma follows the conjunctive adverb 'nevertheless.' A comma alone would form a comma splice.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "rules-checked-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "L01-U11",
