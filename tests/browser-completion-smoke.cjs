@@ -33,6 +33,21 @@ async function run(){
   assert.ok((await page.locator('#dashboard').innerText()).includes('Full test ✓ Completed'));
   assert.match(await page.locator('#days').innerText(),/Day 1/);
   console.log('PASS: Reading practice and 62-question test submission, reload, and completed indicators.');
+  // Exercise the real UI for retake, timed expiry and persistence (not just direct finish calls).
+  await page.locator('#testBtn').click();
+  assert.match(await page.locator('#timer').innerText(),/^23:00$/);
+  await page.locator('[data-choice="0"]').first().click();
+  await page.locator('#submit').click(); // dialog handler accepts incomplete submission
+  assert.match(await page.locator('#workspace').innerText(),/FULL READING PAPER RESULTS/i);
+  await page.locator('#again').click();
+  await page.evaluate(()=>{seconds=1;});
+  await page.waitForFunction(()=>finished===true,{timeout:5000});
+  assert.match(await page.locator('#workspace').innerText(),/timer ended and the paper was scored/i);
+  await page.reload();
+  await page.waitForFunction(()=>{const b=document.getElementById('testBtn');return b&&!b.disabled;});
+  assert.ok(await page.locator('#days .day.done').count(),'Retaken Reading test remains marked complete');
+  console.log('PASS: Reading UI submit, retake, timed expiry, reload and completion state.');
+
   await page.goto(ROOT+'/language.html?day=1',{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>{const b=document.getElementById('practiceBtn');return b&&!b.disabled;});
   for(const [mode,button,expected] of [['practice','#practiceBtn',23],['challenge','#challengeBtn',12],['test','#testBtn',60]]){
