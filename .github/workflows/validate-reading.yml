@@ -4,11 +4,13 @@ on:
     paths:
       - 'sections/reading/**'
       - 'tests/validate-reading-papers.js'
+      - 'tests/validate-difficulty-coverage.js'
       - '.github/workflows/validate-reading.yml'
   pull_request:
     paths:
       - 'sections/reading/**'
       - 'tests/validate-reading-papers.js'
+      - 'tests/validate-difficulty-coverage.js'
 jobs:
   validate-reading:
     runs-on: ubuntu-latest
@@ -18,4 +20,6 @@ jobs:
         with:
           node-version: '22'
       - name: Validate Reading question bank, passage counts and explanations
-        run: node tests/validate-reading-papers.js
+        run: |
+          node tests/validate-reading-papers.js
+          node tests/validate-difficulty-coverage.js
