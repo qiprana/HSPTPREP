@@ -9,15 +9,15 @@
           "id": "LA01-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the astronomical modeling practice scenario, Which inference is logically equivalent to saying that not every reviewed position was supported?",
+          "text": "In the astronomical modeling practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "All unsupported claims were reviewed.",
-            "At least one reviewed position lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed position lacked support."
+            "Every reviewed claim lacked support."
           ],
           "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial position into a position about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -26,15 +26,15 @@
           "id": "LA01-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the astronomical modeling practice scenario, The memorandum states that some panel members questioned the explanation. Which conclusion follows?",
+          "text": "In the astronomical modeling practice scenario, The memorandum states that some panel members questioned the interpretation. Which conclusion follows?",
           "options": [
-            "A majority necessarily opposed the explanation.",
+            "A majority necessarily opposed the interpretation.",
             "Only panel members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it."
           ],
           "correctIndex": 2,
-          "explanation": "Some is existential, not a position about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -128,7 +128,7 @@
           "id": "LA01-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the astronomical modeling practice scenario, A license remains valid unless annual verification fails. Which position preserves that conditional meaning?",
+          "text": "In the astronomical modeling practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "If annual verification does not fail, the license remains valid.",
             "Verification failure guarantees the license always remains valid.",
@@ -266,15 +266,15 @@
           "id": "LA01-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the astronomical modeling challenge scenario, The statement 'Mira told Elena that her explanation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the astronomical modeling challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira spoke to Elena about her incomplete explanation.",
-            "Mira told Elena that Elena's explanation was incomplete.",
-            "Mira told Elena that her explanation was incomplete.",
-            "Her explanation was incomplete when Mira spoke to Elena."
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose explanation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -283,7 +283,7 @@
           "id": "LA01-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the astronomical modeling challenge scenario, Which position most accurately reports a limited observational result?",
+          "text": "In the astronomical modeling challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Every apparent improvement was caused entirely by the intervention.",
             "Because improvement occurred, further observation is unnecessary.",
@@ -291,7 +291,7 @@
             "The intervention always produces improvement in every setting."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded position avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -458,12 +458,12 @@
           "text": "In the astronomical modeling test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal position is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No explanation can be offered until all uncertainty disappears."
+            "No interpretation can be offered until all uncertainty disappears."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every explanation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -494,15 +494,15 @@
           "id": "LA02-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the historical preservation practice scenario, Which inference is logically equivalent to saying that not every reviewed inference was supported?",
+          "text": "In the historical preservation practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "Every reviewed inference lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed inference lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support."
           ],
           "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial inference into an inference about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -511,15 +511,15 @@
           "id": "LA02-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the historical preservation practice scenario, The memorandum states that some council members questioned the reading. Which conclusion follows?",
+          "text": "In the historical preservation practice scenario, The memorandum states that some council members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Every member questioned it.",
-            "A majority necessarily opposed the reading.",
+            "A majority necessarily opposed the interpretation.",
             "Only council members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did."
           ],
           "correctIndex": 3,
-          "explanation": "Some is existential, not an inference about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -613,7 +613,7 @@
           "id": "LA02-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the historical preservation practice scenario, A license remains valid unless annual verification fails. Which inference preserves that conditional meaning?",
+          "text": "In the historical preservation practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Every verification failure automatically proves a past license was never valid.",
             "If annual verification does not fail, the license remains valid.",
@@ -751,15 +751,15 @@
           "id": "LA02-C-8",
           "group": "composition",
           "skill": "Ambiguous reference",
-          "text": "In the historical preservation challenge scenario, The statement 'Mira told Elena that her reading was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the historical preservation challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Her reading was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete reading.",
-            "Mira told Elena that Elena's reading was incomplete.",
-            "Mira told Elena that her reading was incomplete."
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose reading was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -768,7 +768,7 @@
           "id": "LA02-C-9",
           "group": "composition",
           "skill": "Claim calibration",
-          "text": "In the historical preservation challenge scenario, Which inference most accurately reports a limited observational result?",
+          "text": "In the historical preservation challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "The intervention always produces improvement in every setting.",
             "Every apparent improvement was caused entirely by the intervention.",
@@ -776,7 +776,7 @@
             "Under the conditions studied, the intervention was associated with a measurable improvement."
           ],
           "correctIndex": 3,
-          "explanation": "A bounded inference avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -942,13 +942,13 @@
           "skill": "Synthesis",
           "text": "In the historical preservation test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "No reading can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal inference is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative."
           ],
           "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every reading or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -979,15 +979,15 @@
           "id": "LA03-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the clinical research design practice scenario, Which inference is logically equivalent to saying that not every reviewed conclusion was supported?",
+          "text": "In the clinical research design practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "No reviewed claims had support.",
-            "Every reviewed conclusion lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed conclusion lacked support."
+            "At least one reviewed claim lacked support."
           ],
           "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial conclusion into a conclusion about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -996,15 +996,15 @@
           "id": "LA03-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the clinical research design practice scenario, The memorandum states that some board members questioned the conclusion. Which conclusion follows?",
+          "text": "In the clinical research design practice scenario, The memorandum states that some board members questioned the interpretation. Which conclusion follows?",
           "options": [
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the conclusion.",
+            "A majority necessarily opposed the interpretation.",
             "Only board members could question it."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a conclusion about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1098,7 +1098,7 @@
           "id": "LA03-P-8",
           "group": "composition",
           "skill": "Conditional interpretation",
-          "text": "In the clinical research design practice scenario, A license remains valid unless annual verification fails. Which conclusion preserves that conditional meaning?",
+          "text": "In the clinical research design practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "A license is valid only during a year with no verification.",
             "Every verification failure automatically proves a past license was never valid.",
@@ -1236,15 +1236,15 @@
           "id": "LA03-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the clinical research design challenge scenario, The statement 'Mira told Elena that her conclusion was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the clinical research design challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that her conclusion was incomplete.",
-            "Her conclusion was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete conclusion.",
-            "Mira told Elena that Elena's conclusion was incomplete."
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete."
           ],
           "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose conclusion was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1253,7 +1253,7 @@
           "id": "LA03-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the clinical research design challenge scenario, Which conclusion most accurately reports a limited observational result?",
+          "text": "In the clinical research design challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
             "The intervention always produces improvement in every setting.",
@@ -1261,7 +1261,7 @@
             "Because improvement occurred, further observation is unnecessary."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded conclusion avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1428,12 +1428,12 @@
           "text": "In the clinical research design test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The observation immediately invalidates every alternative.",
-            "No conclusion can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal conclusion is established."
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
           ],
           "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every conclusion or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1464,15 +1464,15 @@
           "id": "LA04-P-1",
           "group": "composition",
           "skill": "Quantifier scope",
-          "text": "In the environmental policy practice scenario, Which inference is logically equivalent to saying that not every reviewed proposition was supported?",
+          "text": "In the environmental policy practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "At least one reviewed proposition lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed proposition lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed."
           ],
           "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial proposition into a proposition about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1481,15 +1481,15 @@
           "id": "LA04-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the environmental policy practice scenario, The memorandum states that some jury members questioned the assessment. Which conclusion follows?",
+          "text": "In the environmental policy practice scenario, The memorandum states that some jury members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Only jury members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the assessment."
+            "A majority necessarily opposed the interpretation."
           ],
           "correctIndex": 1,
-          "explanation": "Some is existential, not a proposition about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1583,7 +1583,7 @@
           "id": "LA04-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the environmental policy practice scenario, A license remains valid unless annual verification fails. Which proposition preserves that conditional meaning?",
+          "text": "In the environmental policy practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Verification failure guarantees the license always remains valid.",
             "A license is valid only during a year with no verification.",
@@ -1721,15 +1721,15 @@
           "id": "LA04-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the environmental policy challenge scenario, The statement 'Mira told Elena that her assessment was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the environmental policy challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that Elena's assessment was incomplete.",
-            "Mira told Elena that her assessment was incomplete.",
-            "Her assessment was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete assessment."
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose assessment was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1738,7 +1738,7 @@
           "id": "LA04-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the environmental policy challenge scenario, Which proposition most accurately reports a limited observational result?",
+          "text": "In the environmental policy challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Because improvement occurred, further observation is unnecessary.",
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
@@ -1746,7 +1746,7 @@
             "Every apparent improvement was caused entirely by the intervention."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded proposition avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1912,13 +1912,13 @@
           "skill": "Synthesis",
           "text": "In the environmental policy test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal proposition is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No assessment can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every assessment or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1949,15 +1949,15 @@
           "id": "LA05-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the literary criticism practice scenario, Which inference is logically equivalent to saying that not every reviewed thesis was supported?",
+          "text": "In the literary criticism practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "All unsupported claims were reviewed.",
-            "At least one reviewed thesis lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed thesis lacked support."
+            "Every reviewed claim lacked support."
           ],
           "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial thesis into a thesis about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -1966,15 +1966,15 @@
           "id": "LA05-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the literary criticism practice scenario, The memorandum states that some commission members questioned the account. Which conclusion follows?",
+          "text": "In the literary criticism practice scenario, The memorandum states that some commission members questioned the interpretation. Which conclusion follows?",
           "options": [
-            "A majority necessarily opposed the account.",
+            "A majority necessarily opposed the interpretation.",
             "Only commission members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it."
           ],
           "correctIndex": 2,
-          "explanation": "Some is existential, not a thesis about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2068,7 +2068,7 @@
           "id": "LA05-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the literary criticism practice scenario, A license remains valid unless annual verification fails. Which thesis preserves that conditional meaning?",
+          "text": "In the literary criticism practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "If annual verification does not fail, the license remains valid.",
             "Verification failure guarantees the license always remains valid.",
@@ -2206,15 +2206,15 @@
           "id": "LA05-C-8",
           "group": "composition",
           "skill": "Ambiguous reference",
-          "text": "In the literary criticism challenge scenario, The statement 'Mira told Elena that her account was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the literary criticism challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira spoke to Elena about her incomplete account.",
-            "Mira told Elena that Elena's account was incomplete.",
-            "Mira told Elena that her account was incomplete.",
-            "Her account was incomplete when Mira spoke to Elena."
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose account was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2223,7 +2223,7 @@
           "id": "LA05-C-9",
           "group": "composition",
           "skill": "Claim calibration",
-          "text": "In the literary criticism challenge scenario, Which thesis most accurately reports a limited observational result?",
+          "text": "In the literary criticism challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Every apparent improvement was caused entirely by the intervention.",
             "Because improvement occurred, further observation is unnecessary.",
@@ -2231,7 +2231,7 @@
             "The intervention always produces improvement in every setting."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded thesis avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2398,12 +2398,12 @@
           "text": "In the literary criticism test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal thesis is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No account can be offered until all uncertainty disappears."
+            "No interpretation can be offered until all uncertainty disappears."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every account or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2434,15 +2434,15 @@
           "id": "LA06-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the public education practice scenario, Which inference is logically equivalent to saying that not every reviewed hypothesis was supported?",
+          "text": "In the public education practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "Every reviewed hypothesis lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed hypothesis lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support."
           ],
           "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial hypothesis into a hypothesis about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2451,15 +2451,15 @@
           "id": "LA06-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the public education practice scenario, The memorandum states that some faculty panel members questioned the hypothesis. Which conclusion follows?",
+          "text": "In the public education practice scenario, The memorandum states that some faculty panel members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Every member questioned it.",
-            "A majority necessarily opposed the hypothesis.",
+            "A majority necessarily opposed the interpretation.",
             "Only faculty panel members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did."
           ],
           "correctIndex": 3,
-          "explanation": "Some is existential, not a hypothesis about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2553,7 +2553,7 @@
           "id": "LA06-P-8",
           "group": "composition",
           "skill": "Conditional interpretation",
-          "text": "In the public education practice scenario, A license remains valid unless annual verification fails. Which hypothesis preserves that conditional meaning?",
+          "text": "In the public education practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Every verification failure automatically proves a past license was never valid.",
             "If annual verification does not fail, the license remains valid.",
@@ -2691,15 +2691,15 @@
           "id": "LA06-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the public education challenge scenario, The statement 'Mira told Elena that her hypothesis was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the public education challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Her hypothesis was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete hypothesis.",
-            "Mira told Elena that Elena's hypothesis was incomplete.",
-            "Mira told Elena that her hypothesis was incomplete."
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose hypothesis was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2708,7 +2708,7 @@
           "id": "LA06-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the public education challenge scenario, Which hypothesis most accurately reports a limited observational result?",
+          "text": "In the public education challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "The intervention always produces improvement in every setting.",
             "Every apparent improvement was caused entirely by the intervention.",
@@ -2716,7 +2716,7 @@
             "Under the conditions studied, the intervention was associated with a measurable improvement."
           ],
           "correctIndex": 3,
-          "explanation": "A bounded hypothesis avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2882,13 +2882,13 @@
           "skill": "Synthesis",
           "text": "In the public education test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "No hypothesis can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal hypothesis is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative."
           ],
           "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every hypothesis or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2919,15 +2919,15 @@
           "id": "LA07-P-1",
           "group": "composition",
           "skill": "Quantifier scope",
-          "text": "In the civic administration practice scenario, Which inference is logically equivalent to saying that not every reviewed statement was supported?",
+          "text": "In the civic administration practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "No reviewed claims had support.",
-            "Every reviewed statement lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed statement lacked support."
+            "At least one reviewed claim lacked support."
           ],
           "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial statement into a statement about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -2936,15 +2936,15 @@
           "id": "LA07-P-2",
           "group": "composition",
           "skill": "Quantified inference",
-          "text": "In the civic administration practice scenario, The memorandum states that some assembly members questioned the analysis. Which conclusion follows?",
+          "text": "In the civic administration practice scenario, The memorandum states that some assembly members questioned the interpretation. Which conclusion follows?",
           "options": [
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the analysis.",
+            "A majority necessarily opposed the interpretation.",
             "Only assembly members could question it."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a statement about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3038,7 +3038,7 @@
           "id": "LA07-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the civic administration practice scenario, A license remains valid unless annual verification fails. Which statement preserves that conditional meaning?",
+          "text": "In the civic administration practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "A license is valid only during a year with no verification.",
             "Every verification failure automatically proves a past license was never valid.",
@@ -3176,15 +3176,15 @@
           "id": "LA07-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the civic administration challenge scenario, The statement 'Mira told Elena that her analysis was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the civic administration challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that her analysis was incomplete.",
-            "Her analysis was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete analysis.",
-            "Mira told Elena that Elena's analysis was incomplete."
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete."
           ],
           "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose analysis was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3193,7 +3193,7 @@
           "id": "LA07-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the civic administration challenge scenario, Which statement most accurately reports a limited observational result?",
+          "text": "In the civic administration challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
             "The intervention always produces improvement in every setting.",
@@ -3201,7 +3201,7 @@
             "Because improvement occurred, further observation is unnecessary."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded statement avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3368,12 +3368,12 @@
           "text": "In the civic administration test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The observation immediately invalidates every alternative.",
-            "No analysis can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal statement is established."
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
           ],
           "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every analysis or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3404,15 +3404,15 @@
           "id": "LA08-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the ecological restoration practice scenario, Which inference is logically equivalent to saying that not every reviewed judgment was supported?",
+          "text": "In the ecological restoration practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "At least one reviewed judgment lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed judgment lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed."
           ],
           "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial judgment into a judgment about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3421,15 +3421,15 @@
           "id": "LA08-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the ecological restoration practice scenario, The memorandum states that some subcommittee members questioned the conclusion. Which conclusion follows?",
+          "text": "In the ecological restoration practice scenario, The memorandum states that some subcommittee members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Only subcommittee members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the conclusion."
+            "A majority necessarily opposed the interpretation."
           ],
           "correctIndex": 1,
-          "explanation": "Some is existential, not a judgment about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3523,7 +3523,7 @@
           "id": "LA08-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the ecological restoration practice scenario, A license remains valid unless annual verification fails. Which judgment preserves that conditional meaning?",
+          "text": "In the ecological restoration practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Verification failure guarantees the license always remains valid.",
             "A license is valid only during a year with no verification.",
@@ -3661,15 +3661,15 @@
           "id": "LA08-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the ecological restoration challenge scenario, The statement 'Mira told Elena that her conclusion was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the ecological restoration challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that Elena's conclusion was incomplete.",
-            "Mira told Elena that her conclusion was incomplete.",
-            "Her conclusion was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete conclusion."
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose conclusion was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3678,7 +3678,7 @@
           "id": "LA08-C-9",
           "group": "composition",
           "skill": "Claim calibration",
-          "text": "In the ecological restoration challenge scenario, Which judgment most accurately reports a limited observational result?",
+          "text": "In the ecological restoration challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Because improvement occurred, further observation is unnecessary.",
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
@@ -3686,7 +3686,7 @@
             "Every apparent improvement was caused entirely by the intervention."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded judgment avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3852,13 +3852,13 @@
           "skill": "Synthesis",
           "text": "In the ecological restoration test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal judgment is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No conclusion can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every conclusion or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3889,15 +3889,15 @@
           "id": "LA09-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the journalism ethics practice scenario, Which inference is logically equivalent to saying that not every reviewed interpretation was supported?",
+          "text": "In the journalism ethics practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "All unsupported claims were reviewed.",
-            "At least one reviewed interpretation lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed interpretation lacked support."
+            "Every reviewed claim lacked support."
           ],
           "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial interpretation into a interpretation about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -3906,15 +3906,15 @@
           "id": "LA09-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the journalism ethics practice scenario, The memorandum states that some cabinet members questioned the reading. Which conclusion follows?",
+          "text": "In the journalism ethics practice scenario, The memorandum states that some cabinet members questioned the interpretation. Which conclusion follows?",
           "options": [
-            "A majority necessarily opposed the reading.",
+            "A majority necessarily opposed the interpretation.",
             "Only cabinet members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it."
           ],
           "correctIndex": 2,
-          "explanation": "Some is existential, not a interpretation about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4008,7 +4008,7 @@
           "id": "LA09-P-8",
           "group": "composition",
           "skill": "Conditional interpretation",
-          "text": "In the journalism ethics practice scenario, A license remains valid unless annual verification fails. Which interpretation preserves that conditional meaning?",
+          "text": "In the journalism ethics practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "If annual verification does not fail, the license remains valid.",
             "Verification failure guarantees the license always remains valid.",
@@ -4146,15 +4146,15 @@
           "id": "LA09-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the journalism ethics challenge scenario, The statement 'Mira told Elena that her reading was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the journalism ethics challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira spoke to Elena about her incomplete reading.",
-            "Mira told Elena that Elena's reading was incomplete.",
-            "Mira told Elena that her reading was incomplete.",
-            "Her reading was incomplete when Mira spoke to Elena."
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose reading was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4163,7 +4163,7 @@
           "id": "LA09-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the journalism ethics challenge scenario, Which interpretation most accurately reports a limited observational result?",
+          "text": "In the journalism ethics challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Every apparent improvement was caused entirely by the intervention.",
             "Because improvement occurred, further observation is unnecessary.",
@@ -4171,7 +4171,7 @@
             "The intervention always produces improvement in every setting."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded interpretation avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4338,12 +4338,12 @@
           "text": "In the journalism ethics test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal interpretation is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No reading can be offered until all uncertainty disappears."
+            "No interpretation can be offered until all uncertainty disappears."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every reading or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4374,15 +4374,15 @@
           "id": "LA10-P-1",
           "group": "composition",
           "skill": "Quantifier scope",
-          "text": "In the engineering safety practice scenario, Which inference is logically equivalent to saying that not every reviewed position was supported?",
+          "text": "In the engineering safety practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "Every reviewed position lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed position lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support."
           ],
           "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial position into a position about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4391,15 +4391,15 @@
           "id": "LA10-P-2",
           "group": "composition",
           "skill": "Quantified inference",
-          "text": "In the engineering safety practice scenario, The memorandum states that some task force members questioned the assessment. Which conclusion follows?",
+          "text": "In the engineering safety practice scenario, The memorandum states that some task force members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Every member questioned it.",
-            "A majority necessarily opposed the assessment.",
+            "A majority necessarily opposed the interpretation.",
             "Only task force members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did."
           ],
           "correctIndex": 3,
-          "explanation": "Some is existential, not a position about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4493,7 +4493,7 @@
           "id": "LA10-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the engineering safety practice scenario, A license remains valid unless annual verification fails. Which position preserves that conditional meaning?",
+          "text": "In the engineering safety practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Every verification failure automatically proves a past license was never valid.",
             "If annual verification does not fail, the license remains valid.",
@@ -4631,15 +4631,15 @@
           "id": "LA10-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the engineering safety challenge scenario, The statement 'Mira told Elena that her assessment was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the engineering safety challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Her assessment was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete assessment.",
-            "Mira told Elena that Elena's assessment was incomplete.",
-            "Mira told Elena that her assessment was incomplete."
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose assessment was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4648,7 +4648,7 @@
           "id": "LA10-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the engineering safety challenge scenario, Which position most accurately reports a limited observational result?",
+          "text": "In the engineering safety challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "The intervention always produces improvement in every setting.",
             "Every apparent improvement was caused entirely by the intervention.",
@@ -4656,7 +4656,7 @@
             "Under the conditions studied, the intervention was associated with a measurable improvement."
           ],
           "correctIndex": 3,
-          "explanation": "A bounded position avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4822,13 +4822,13 @@
           "skill": "Synthesis",
           "text": "In the engineering safety test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "No assessment can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal position is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative."
           ],
           "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every assessment or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4859,15 +4859,15 @@
           "id": "LA11-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the agricultural history practice scenario, Which inference is logically equivalent to saying that not every reviewed argument was supported?",
+          "text": "In the agricultural history practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "No reviewed claims had support.",
-            "Every reviewed argument lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed argument lacked support."
+            "At least one reviewed claim lacked support."
           ],
           "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial argument into a argument about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4884,7 +4884,7 @@
             "Only audit panel members could question it."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a argument about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -4978,7 +4978,7 @@
           "id": "LA11-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the agricultural history practice scenario, A license remains valid unless annual verification fails. Which argument preserves that conditional meaning?",
+          "text": "In the agricultural history practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "A license is valid only during a year with no verification.",
             "Every verification failure automatically proves a past license was never valid.",
@@ -5133,7 +5133,7 @@
           "id": "LA11-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the agricultural history challenge scenario, Which argument most accurately reports a limited observational result?",
+          "text": "In the agricultural history challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
             "The intervention always produces improvement in every setting.",
@@ -5141,7 +5141,7 @@
             "Because improvement occurred, further observation is unnecessary."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded argument avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5310,7 +5310,7 @@
             "The observation immediately invalidates every alternative.",
             "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal argument is established."
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
           ],
           "correctIndex": 3,
           "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
@@ -5344,15 +5344,15 @@
           "id": "LA12-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the social statistics practice scenario, Which inference is logically equivalent to saying that not every reviewed account was supported?",
+          "text": "In the social statistics practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "At least one reviewed account lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed account lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed."
           ],
           "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial account into an account about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5361,15 +5361,15 @@
           "id": "LA12-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the social statistics practice scenario, The memorandum states that some review board members questioned the inference. Which conclusion follows?",
+          "text": "In the social statistics practice scenario, The memorandum states that some review board members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Only review board members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the inference."
+            "A majority necessarily opposed the interpretation."
           ],
           "correctIndex": 1,
-          "explanation": "Some is existential, not an account about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5463,7 +5463,7 @@
           "id": "LA12-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the social statistics practice scenario, A license remains valid unless annual verification fails. Which account preserves that conditional meaning?",
+          "text": "In the social statistics practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Verification failure guarantees the license always remains valid.",
             "A license is valid only during a year with no verification.",
@@ -5601,15 +5601,15 @@
           "id": "LA12-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the social statistics challenge scenario, The statement 'Mira told Elena that her inference was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the social statistics challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that Elena's inference was incomplete.",
-            "Mira told Elena that her inference was incomplete.",
-            "Her inference was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete inference."
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose inference was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5618,7 +5618,7 @@
           "id": "LA12-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the social statistics challenge scenario, Which account most accurately reports a limited observational result?",
+          "text": "In the social statistics challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Because improvement occurred, further observation is unnecessary.",
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
@@ -5626,7 +5626,7 @@
             "Every apparent improvement was caused entirely by the intervention."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded account avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5792,13 +5792,13 @@
           "skill": "Synthesis",
           "text": "In the social statistics test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal account is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No inference can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every inference or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5829,15 +5829,15 @@
           "id": "LA13-P-1",
           "group": "composition",
           "skill": "Quantifier scope",
-          "text": "In the robotics policy practice scenario, Which inference is logically equivalent to saying that not every reviewed reading was supported?",
+          "text": "In the robotics policy practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "All unsupported claims were reviewed.",
-            "At least one reviewed reading lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed reading lacked support."
+            "Every reviewed claim lacked support."
           ],
           "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial reading into a reading about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5846,15 +5846,15 @@
           "id": "LA13-P-2",
           "group": "composition",
           "skill": "Quantified inference",
-          "text": "In the robotics policy practice scenario, The memorandum states that some committee members questioned the hypothesis. Which conclusion follows?",
+          "text": "In the robotics policy practice scenario, The memorandum states that some committee members questioned the interpretation. Which conclusion follows?",
           "options": [
-            "A majority necessarily opposed the hypothesis.",
+            "A majority necessarily opposed the interpretation.",
             "Only committee members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it."
           ],
           "correctIndex": 2,
-          "explanation": "Some is existential, not a reading about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -5948,7 +5948,7 @@
           "id": "LA13-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the robotics policy practice scenario, A license remains valid unless annual verification fails. Which reading preserves that conditional meaning?",
+          "text": "In the robotics policy practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "If annual verification does not fail, the license remains valid.",
             "Verification failure guarantees the license always remains valid.",
@@ -6086,15 +6086,15 @@
           "id": "LA13-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the robotics policy challenge scenario, The statement 'Mira told Elena that her hypothesis was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the robotics policy challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira spoke to Elena about her incomplete hypothesis.",
-            "Mira told Elena that Elena's hypothesis was incomplete.",
-            "Mira told Elena that her hypothesis was incomplete.",
-            "Her hypothesis was incomplete when Mira spoke to Elena."
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose hypothesis was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6103,7 +6103,7 @@
           "id": "LA13-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the robotics policy challenge scenario, Which reading most accurately reports a limited observational result?",
+          "text": "In the robotics policy challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Every apparent improvement was caused entirely by the intervention.",
             "Because improvement occurred, further observation is unnecessary.",
@@ -6111,7 +6111,7 @@
             "The intervention always produces improvement in every setting."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded reading avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6278,12 +6278,12 @@
           "text": "In the robotics policy test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal reading is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No hypothesis can be offered until all uncertainty disappears."
+            "No interpretation can be offered until all uncertainty disappears."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every hypothesis or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6314,15 +6314,15 @@
           "id": "LA14-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the archival practice practice scenario, Which inference is logically equivalent to saying that not every reviewed conclusion was supported?",
+          "text": "In the archival practice practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "Every reviewed conclusion lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed conclusion lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support."
           ],
           "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial conclusion into a conclusion about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6331,15 +6331,15 @@
           "id": "LA14-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the archival practice practice scenario, The memorandum states that some planning panel members questioned the judgment. Which conclusion follows?",
+          "text": "In the archival practice practice scenario, The memorandum states that some planning panel members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Every member questioned it.",
-            "A majority necessarily opposed the judgment.",
+            "A majority necessarily opposed the interpretation.",
             "Only planning panel members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did."
           ],
           "correctIndex": 3,
-          "explanation": "Some is existential, not a conclusion about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6433,7 +6433,7 @@
           "id": "LA14-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the archival practice practice scenario, A license remains valid unless annual verification fails. Which conclusion preserves that conditional meaning?",
+          "text": "In the archival practice practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Every verification failure automatically proves a past license was never valid.",
             "If annual verification does not fail, the license remains valid.",
@@ -6571,15 +6571,15 @@
           "id": "LA14-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the archival practice challenge scenario, The statement 'Mira told Elena that her judgment was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the archival practice challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Her judgment was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete judgment.",
-            "Mira told Elena that Elena's judgment was incomplete.",
-            "Mira told Elena that her judgment was incomplete."
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose judgment was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6588,7 +6588,7 @@
           "id": "LA14-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the archival practice challenge scenario, Which conclusion most accurately reports a limited observational result?",
+          "text": "In the archival practice challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "The intervention always produces improvement in every setting.",
             "Every apparent improvement was caused entirely by the intervention.",
@@ -6596,7 +6596,7 @@
             "Under the conditions studied, the intervention was associated with a measurable improvement."
           ],
           "correctIndex": 3,
-          "explanation": "A bounded conclusion avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6762,13 +6762,13 @@
           "skill": "Synthesis",
           "text": "In the archival practice test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "No judgment can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal conclusion is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative."
           ],
           "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every judgment or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6799,15 +6799,15 @@
           "id": "LA15-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the museum curation practice scenario, Which inference is logically equivalent to saying that not every reviewed assertion was supported?",
+          "text": "In the museum curation practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "No reviewed claims had support.",
-            "Every reviewed assertion lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed assertion lacked support."
+            "At least one reviewed claim lacked support."
           ],
           "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial assertion into an assertion about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6816,15 +6816,15 @@
           "id": "LA15-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the museum curation practice scenario, The memorandum states that some research council members questioned the proposal. Which conclusion follows?",
+          "text": "In the museum curation practice scenario, The memorandum states that some research council members questioned the interpretation. Which conclusion follows?",
           "options": [
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the proposal.",
+            "A majority necessarily opposed the interpretation.",
             "Only research council members could question it."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not an assertion about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -6918,7 +6918,7 @@
           "id": "LA15-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the museum curation practice scenario, A license remains valid unless annual verification fails. Which assertion preserves that conditional meaning?",
+          "text": "In the museum curation practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "A license is valid only during a year with no verification.",
             "Every verification failure automatically proves a past license was never valid.",
@@ -7056,15 +7056,15 @@
           "id": "LA15-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the museum curation challenge scenario, The statement 'Mira told Elena that her proposal was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the museum curation challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that her proposal was incomplete.",
-            "Her proposal was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete proposal.",
-            "Mira told Elena that Elena's proposal was incomplete."
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete."
           ],
           "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose proposal was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7073,7 +7073,7 @@
           "id": "LA15-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the museum curation challenge scenario, Which assertion most accurately reports a limited observational result?",
+          "text": "In the museum curation challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
             "The intervention always produces improvement in every setting.",
@@ -7081,7 +7081,7 @@
             "Because improvement occurred, further observation is unnecessary."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded assertion avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7248,12 +7248,12 @@
           "text": "In the museum curation test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The observation immediately invalidates every alternative.",
-            "No proposal can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal assertion is established."
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
           ],
           "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every proposal or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7284,15 +7284,15 @@
           "id": "LA16-P-1",
           "group": "composition",
           "skill": "Quantifier scope",
-          "text": "In the water management practice scenario, Which inference is logically equivalent to saying that not every reviewed proposal was supported?",
+          "text": "In the water management practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "At least one reviewed proposal lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed proposal lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed."
           ],
           "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial proposal into a proposal about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7301,15 +7301,15 @@
           "id": "LA16-P-2",
           "group": "composition",
           "skill": "Quantified inference",
-          "text": "In the water management practice scenario, The memorandum states that some faculty council members questioned the explanation. Which conclusion follows?",
+          "text": "In the water management practice scenario, The memorandum states that some faculty council members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Only faculty council members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the explanation."
+            "A majority necessarily opposed the interpretation."
           ],
           "correctIndex": 1,
-          "explanation": "Some is existential, not a proposal about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7403,7 +7403,7 @@
           "id": "LA16-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the water management practice scenario, A license remains valid unless annual verification fails. Which proposal preserves that conditional meaning?",
+          "text": "In the water management practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Verification failure guarantees the license always remains valid.",
             "A license is valid only during a year with no verification.",
@@ -7541,15 +7541,15 @@
           "id": "LA16-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the water management challenge scenario, The statement 'Mira told Elena that her explanation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the water management challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that Elena's explanation was incomplete.",
-            "Mira told Elena that her explanation was incomplete.",
-            "Her explanation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete explanation."
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose explanation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7558,7 +7558,7 @@
           "id": "LA16-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the water management challenge scenario, Which proposal most accurately reports a limited observational result?",
+          "text": "In the water management challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Because improvement occurred, further observation is unnecessary.",
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
@@ -7566,7 +7566,7 @@
             "Every apparent improvement was caused entirely by the intervention."
           ],
           "correctIndex": 1,
-          "explanation": "A bounded proposal avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7732,13 +7732,13 @@
           "skill": "Synthesis",
           "text": "In the water management test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal proposal is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No explanation can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every explanation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7769,15 +7769,15 @@
           "id": "LA17-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the transportation research practice scenario, Which inference is logically equivalent to saying that not every reviewed position was supported?",
+          "text": "In the transportation research practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "All unsupported claims were reviewed.",
-            "At least one reviewed position lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support.",
-            "Every reviewed position lacked support."
+            "Every reviewed claim lacked support."
           ],
           "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial position into a position about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7786,15 +7786,15 @@
           "id": "LA17-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the transportation research practice scenario, The memorandum states that some governing board members questioned the account. Which conclusion follows?",
+          "text": "In the transportation research practice scenario, The memorandum states that some governing board members questioned the interpretation. Which conclusion follows?",
           "options": [
-            "A majority necessarily opposed the account.",
+            "A majority necessarily opposed the interpretation.",
             "Only governing board members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it."
           ],
           "correctIndex": 2,
-          "explanation": "Some is existential, not a position about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -7888,7 +7888,7 @@
           "id": "LA17-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the transportation research practice scenario, A license remains valid unless annual verification fails. Which position preserves that conditional meaning?",
+          "text": "In the transportation research practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "If annual verification does not fail, the license remains valid.",
             "Verification failure guarantees the license always remains valid.",
@@ -8026,15 +8026,15 @@
           "id": "LA17-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the transportation research challenge scenario, The statement 'Mira told Elena that her account was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the transportation research challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira spoke to Elena about her incomplete account.",
-            "Mira told Elena that Elena's account was incomplete.",
-            "Mira told Elena that her account was incomplete.",
-            "Her account was incomplete when Mira spoke to Elena."
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena."
           ],
           "correctIndex": 1,
-          "explanation": "Repeating Elena's name identifies whose account was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8043,7 +8043,7 @@
           "id": "LA17-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the transportation research challenge scenario, Which position most accurately reports a limited observational result?",
+          "text": "In the transportation research challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Every apparent improvement was caused entirely by the intervention.",
             "Because improvement occurred, further observation is unnecessary.",
@@ -8051,7 +8051,7 @@
             "The intervention always produces improvement in every setting."
           ],
           "correctIndex": 2,
-          "explanation": "A bounded position avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8218,12 +8218,12 @@
           "text": "In the transportation research test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal position is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No account can be offered until all uncertainty disappears."
+            "No interpretation can be offered until all uncertainty disappears."
           ],
           "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every account or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8254,15 +8254,15 @@
           "id": "LA18-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the climate adaptation practice scenario, Which inference is logically equivalent to saying that not every reviewed statement was supported?",
+          "text": "In the climate adaptation practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
-            "Every reviewed statement lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed statement lacked support.",
+            "At least one reviewed claim lacked support.",
             "No reviewed claims had support."
           ],
           "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial statement into a statement about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8271,15 +8271,15 @@
           "id": "LA18-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the climate adaptation practice scenario, The memorandum states that some working group members questioned the theory. Which conclusion follows?",
+          "text": "In the climate adaptation practice scenario, The memorandum states that some working group members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Every member questioned it.",
-            "A majority necessarily opposed the theory.",
+            "A majority necessarily opposed the interpretation.",
             "Only working group members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did."
           ],
           "correctIndex": 3,
-          "explanation": "Some is existential, not a statement about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8373,7 +8373,7 @@
           "id": "LA18-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the climate adaptation practice scenario, A license remains valid unless annual verification fails. Which statement preserves that conditional meaning?",
+          "text": "In the climate adaptation practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "Every verification failure automatically proves a past license was never valid.",
             "If annual verification does not fail, the license remains valid.",
@@ -8511,15 +8511,15 @@
           "id": "LA18-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the climate adaptation challenge scenario, The statement 'Mira told Elena that her theory was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the climate adaptation challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Her theory was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete theory.",
-            "Mira told Elena that Elena's theory was incomplete.",
-            "Mira told Elena that her theory was incomplete."
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose theory was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8528,7 +8528,7 @@
           "id": "LA18-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the climate adaptation challenge scenario, Which statement most accurately reports a limited observational result?",
+          "text": "In the climate adaptation challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "The intervention always produces improvement in every setting.",
             "Every apparent improvement was caused entirely by the intervention.",
@@ -8536,7 +8536,7 @@
             "Under the conditions studied, the intervention was associated with a measurable improvement."
           ],
           "correctIndex": 3,
-          "explanation": "A bounded statement avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8702,13 +8702,13 @@
           "skill": "Synthesis",
           "text": "In the climate adaptation test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
-            "No theory can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal statement is established.",
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative."
           ],
           "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every theory or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8739,15 +8739,15 @@
           "id": "LA19-P-1",
           "group": "usage",
           "skill": "Quantifier scope",
-          "text": "In the scientific publication practice scenario, Which inference is logically equivalent to saying that not every reviewed theory was supported?",
+          "text": "In the scientific publication practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
           "options": [
             "No reviewed claims had support.",
-            "Every reviewed theory lacked support.",
+            "Every reviewed claim lacked support.",
             "All unsupported claims were reviewed.",
-            "At least one reviewed theory lacked support."
+            "At least one reviewed claim lacked support."
           ],
           "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial theory into a theory about none, all, or a different population.",
+          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8756,15 +8756,15 @@
           "id": "LA19-P-2",
           "group": "composition",
           "skill": "Quantified inference",
-          "text": "In the scientific publication practice scenario, The memorandum states that some review panel members questioned the position. Which conclusion follows?",
+          "text": "In the scientific publication practice scenario, The memorandum states that some review panel members questioned the interpretation. Which conclusion follows?",
           "options": [
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the position.",
+            "A majority necessarily opposed the interpretation.",
             "Only review panel members could question it."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a theory about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -8858,7 +8858,7 @@
           "id": "LA19-P-8",
           "group": "usage",
           "skill": "Conditional interpretation",
-          "text": "In the scientific publication practice scenario, A license remains valid unless annual verification fails. Which theory preserves that conditional meaning?",
+          "text": "In the scientific publication practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
           "options": [
             "A license is valid only during a year with no verification.",
             "Every verification failure automatically proves a past license was never valid.",
@@ -8996,15 +8996,15 @@
           "id": "LA19-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the scientific publication challenge scenario, The statement 'Mira told Elena that her position was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the scientific publication challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that her position was incomplete.",
-            "Her position was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete position.",
-            "Mira told Elena that Elena's position was incomplete."
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation.",
+            "Mira told Elena that Elena's interpretation was incomplete."
           ],
           "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose position was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -9013,7 +9013,7 @@
           "id": "LA19-C-9",
           "group": "usage",
           "skill": "Claim calibration",
-          "text": "In the scientific publication challenge scenario, Which theory most accurately reports a limited observational result?",
+          "text": "In the scientific publication challenge scenario, Which claim most accurately reports a limited observational result?",
           "options": [
             "Under the conditions studied, the intervention was associated with a measurable improvement.",
             "The intervention always produces improvement in every setting.",
@@ -9021,7 +9021,7 @@
             "Because improvement occurred, further observation is unnecessary."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded theory avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -9188,12 +9188,12 @@
           "text": "In the scientific publication test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
           "options": [
             "The observation immediately invalidates every alternative.",
-            "No position can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal theory is established."
+            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
           ],
           "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every position or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -9241,12 +9241,12 @@
           "id": "LA20-P-2",
           "group": "usage",
           "skill": "Quantified inference",
-          "text": "In the linguistic analysis practice scenario, The memorandum states that some oversight board members questioned the conclusion. Which conclusion follows?",
+          "text": "In the linguistic analysis practice scenario, The memorandum states that some oversight board members questioned the interpretation. Which conclusion follows?",
           "options": [
             "Only oversight board members could question it.",
             "At least one member questioned it, but the text does not tell us whether most members did.",
             "Every member questioned it.",
-            "A majority necessarily opposed the conclusion."
+            "A majority necessarily opposed the interpretation."
           ],
           "correctIndex": 1,
           "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
@@ -9481,15 +9481,15 @@
           "id": "LA20-C-8",
           "group": "usage",
           "skill": "Ambiguous reference",
-          "text": "In the linguistic analysis challenge scenario, The statement 'Mira told Elena that her conclusion was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "text": "In the linguistic analysis challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
           "options": [
-            "Mira told Elena that Elena's conclusion was incomplete.",
-            "Mira told Elena that her conclusion was incomplete.",
-            "Her conclusion was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete conclusion."
+            "Mira told Elena that Elena's interpretation was incomplete.",
+            "Mira told Elena that her interpretation was incomplete.",
+            "Her interpretation was incomplete when Mira spoke to Elena.",
+            "Mira spoke to Elena about her incomplete interpretation."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose conclusion was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
@@ -9674,11 +9674,11 @@
           "options": [
             "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
             "The observation immediately invalidates every alternative.",
-            "No conclusion can be offered until all uncertainty disappears.",
+            "No interpretation can be offered until all uncertainty disappears.",
             "The finding demonstrates that the alternative explanation is impossible."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every conclusion or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "authored-requires-independent-review"
