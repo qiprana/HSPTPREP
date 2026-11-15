@@ -1008,7 +1008,7 @@
           "id": "R02-P1",
           "title": "The Rain Gauge Network",
           "genre": "science",
-          "text": "A group of students installed rain gauges at a hilltop, a schoolyard, and a riverside park to compare local storms. One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why. At first the situation did not offer an obvious answer. A response would require paying attention to both the immediate difficulty and the circumstances surrounding it.\n\nThey measured rainfall at the same hour and compared the readings with slope and drainage maps. The hilltop gauge recorded less rain than the riverside gauge during several storms. These observations mattered because they gave the participants something specific to consider rather than relying only on an initial impression. Their constructive approach involved examining the available information before making the next decision.\n\nA month's records could not explain every season or the effects of wind on the gauges. The students recommended keeping the network in place for another year before changing the city's drainage plans. Small measurements can reveal local patterns, but dependable conclusions require repeated observations. The story therefore points beyond a single successful result: the way a conclusion is reached can be just as important as the conclusion itself.",
+          "text": "The city council's drainage committee pointed to a photograph of a flooded riverside park as evidence that its storm drains were inadequate. A student environmental club questioned whether the photograph could establish the cause. During the same storm, a schoolyard less than two kilometers away had remained dry. The contrast might reflect different rainfall, different ground conditions, or both; a photograph alone could not distinguish them.\n\nThe students installed three identical rain gauges: one on a hilltop, one in the schoolyard, and one beside the river. They recorded readings at the same time each day and compared them with topographic maps. During several storms, the riverside gauge measured more rainfall than the hilltop gauge. That finding challenged the assumption that one citywide rainfall total could represent every neighborhood. It did not, however, demonstrate that rainfall differences alone had caused the flooding. Water also flows downhill, and the condition of drains may determine whether a heavy shower becomes a damaging one.\n\nThe students then inspected the locations of their instruments. The hilltop gauge was exposed to strong winds, which could have carried some rain past its opening. The riverside gauge stood near a building that might have altered wind flow. Neither location was ideal. Furthermore, the club had only a month's observations, and the worst flood had occurred before measurements began. The resulting pattern was suggestive, not a reconstruction of that particular flood.\n\nAt a public meeting, one council member argued that the higher riverside readings justified immediate excavation of the park's drainage channels. Another insisted that, because the gauges were imperfect, the measurements were worthless. The students rejected both conclusions. They proposed maintaining the network through different seasons, relocating the gauges to reduce exposure differences, and pairing rainfall records with water-level and drain-capacity measurements. Their proposal would delay an expensive decision, but it would also reduce the chance of repairing the wrong part of the system.\n\nThe committee agreed to fund the additional monitoring while arranging a limited inspection of blocked drains. The students' central contribution was therefore neither a definitive diagnosis nor an argument for inaction. They had shown how a plausible explanation could be tested, how measurement limitations could matter, and how uncertainty could support a more discriminating response rather than a premature verdict.",
           "term": [
             "constructive",
             "helpful in improving something",
@@ -1018,164 +1018,164 @@
           ],
           "questions": [
             {
+              "type": "Inference",
+              "prompt": "Why does the opening contrast between the flooded park and the dry schoolyard matter to the students' inquiry?",
+              "choices": [
+                "It shows that a photograph cannot by itself separate rainfall variation from drainage conditions.",
+                "It establishes that the hilltop receives more rain than either other location.",
+                "It proves that the drainage committee misreported the extent of the flood.",
+                "It demonstrates that the two sites had identical runoff and soil conditions."
+              ],
+              "correctIndex": 0,
+              "explanation": "The first paragraph identifies at least two competing causal explanations for the contrast. The photograph establishes the outcome, not which factor produced it; claiming identical conditions or an error by the committee exceeds the evidence.",
               "id": "R02-P1-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Rain Gauge Network\"?",
-              "choices": [
-                "The method (“They measured rainfall at the same hour and compared the…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The hilltop gauge recorded less rain than the riverside…”) is treated as unrelated to the original investigation.",
-                "The concern (“One large storm had left the riverside flooded while…”) leads to inquiry, but “A month's records could not explain every season or the…” limits the inference.",
-                "The proposed response (“The students recommended keeping the network in place for…”) makes the original concern irrelevant."
-              ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification A month's records could not explain every season or the effects of wind on the gauges. prevents an overly broad conclusion.",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
+              "type": "Causal reasoning",
+              "prompt": "Which finding would most directly weaken the claim that rainfall differences were the principal cause of flooding?",
+              "choices": [
+                "The riverside gauge recorded greater rainfall than the schoolyard during several storms.",
+                "The gauges were installed after the most severe documented flood.",
+                "Comparable rainfall was followed by flooding only where drain capacity was restricted.",
+                "Strong hilltop winds may have reduced the accuracy of its rain readings."
+              ],
+              "correctIndex": 2,
+              "explanation": "If flooding varies with drain capacity despite similar rainfall, drainage conditions become the more persuasive explanation. The other facts affect measurement quality or background context but do not provide the same controlled comparison.",
               "id": "R02-P1-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Rain Gauge Network\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
-              "choices": [
-                "They measured rainfall at the same hour and compared the readings with slope and drainage maps.",
-                "The hilltop gauge recorded less rain than the riverside gauge during several storms.",
-                "The students recommended keeping the network in place for another year before changing the city's drainage plans.",
-                "One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why."
-              ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why. The other choices describe what was done or discovered afterward.",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
+              "type": "Methodological critique",
+              "prompt": "Why does the passage mention both wind exposure and the building near the riverside gauge?",
+              "choices": [
+                "To show that buildings always increase recorded rainfall by a predictable amount.",
+                "To demonstrate that unequal measuring conditions may imitate or exaggerate a geographic rainfall pattern.",
+                "To prove that topographic maps are unnecessary when instruments are identical.",
+                "To establish that no outdoor rainfall measurement can ever be reliable."
+              ],
+              "correctIndex": 1,
+              "explanation": "The placement of ostensibly identical gauges introduces different possible measurement biases. It complicates interpretation without establishing that all observations are unusable, which is the more extreme distractor.",
               "id": "R02-P1-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Rain Gauge Network\" most directly describes the method of investigation, as distinct from the evidence it produced?",
-              "choices": [
-                "They measured rainfall at the same hour and compared the readings with slope and drainage maps.",
-                "One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why.",
-                "The hilltop gauge recorded less rain than the riverside gauge during several storms.",
-                "A month's records could not explain every season or the effects of wind on the gauges."
-              ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: They measured rainfall at the same hour and compared the readings with slope and drainage maps. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
+              "type": "Qualification",
+              "prompt": "What is the most defensible conclusion from the month's gauge readings?",
+              "choices": [
+                "The riverside flood was caused exclusively by inadequate storm drains.",
+                "The recorded differences prove that river proximity determines local rainfall in every season.",
+                "The flood photograph and the later measurements capture exactly the same storm conditions.",
+                "Rainfall appeared to vary across monitored sites, but the data cannot isolate the earlier flood's cause."
+              ],
+              "correctIndex": 3,
+              "explanation": "The readings describe several later storms and suggest local variability. They cannot reconstruct the earlier event or distinguish runoff and drainage effects; the other choices assert unsupported exclusivity, universality or temporal equivalence.",
               "id": "R02-P1-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Rain Gauge Network\", rather than a procedure, caution, or policy response?",
-              "choices": [
-                "The students recommended keeping the network in place for another year before changing the city's drainage plans.",
-                "The hilltop gauge recorded less rain than the riverside gauge during several storms.",
-                "They measured rainfall at the same hour and compared the readings with slope and drainage maps.",
-                "A month's records could not explain every season or the effects of wind on the gauges."
-              ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The hilltop gauge recorded less rain than the riverside gauge during several storms. The other statements describe different stages of the inquiry.",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P1-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Rain Gauge Network\" from being generalized beyond the available evidence?",
+              "type": "Argument evaluation",
+              "prompt": "What reasoning error is shared by the council member urging excavation and the member dismissing every measurement?",
               "choices": [
-                "They measured rainfall at the same hour and compared the readings with slope and drainage maps.",
-                "The students recommended keeping the network in place for another year before changing the city's drainage plans.",
-                "A month's records could not explain every season or the effects of wind on the gauges.",
-                "The hilltop gauge recorded less rain than the riverside gauge during several storms."
+                "Both confuse the students' proposed additional monitoring with a finding of no risk.",
+                "Both treat the cost of gathering evidence as greater than the cost of excavating.",
+                "Both make a categorical policy judgment from evidence that warrants a more qualified response.",
+                "Both assume that higher rainfall necessarily produces lower river levels."
               ],
               "correctIndex": 2,
-              "explanation": "The limitation is: A month's records could not explain every season or the effects of wind on the gauges. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "One member infers a specific repair from inconclusive readings; the other treats limitations as a reason to discard all evidence. Each converts uncertainty into an unjustified absolute, while the students propose limited action and further testing.",
+              "id": "R02-P1-05",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P1-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Rain Gauge Network\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Evidence design",
+              "prompt": "Which additional measurement would best help distinguish heavy rainfall from poor drainage as explanations for flooding?",
               "choices": [
-                "One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why.",
-                "They measured rainfall at the same hour and compared the readings with slope and drainage maps.",
-                "The hilltop gauge recorded less rain than the riverside gauge during several storms.",
-                "The students recommended keeping the network in place for another year before changing the city's drainage plans."
-              ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The students recommended keeping the network in place for another year before changing the city's drainage plans. The other details give the initial issue, investigative approach, or finding.",
-              "passageId": "R02-P1",
-              "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
-            },
-            {
-              "id": "R02-P1-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Rain Gauge Network\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
-              "choices": [
-                "Initial concern: “One large storm had left the riverside flooded while…”; method: “They measured rainfall at the same hour and compared the…”.",
-                "Initial concern: “One large storm had left the riverside flooded while…”; method: “A month's records could not explain every season or the…”.",
-                "Initial concern: “The hilltop gauge recorded less rain than the riverside…”; method: “The students recommended keeping the network in place for…”.",
-                "Initial concern: “They measured rainfall at the same hour and compared the…”; method: “The hilltop gauge recorded less rain than the riverside…”."
+                "Water levels and drain flow measured alongside rainfall at the same sites and times.",
+                "The number of council members who had previously visited the riverside park.",
+                "Annual citywide precipitation averages without neighborhood-level observations.",
+                "A repeat photograph of the flooded park without any accompanying measurements."
               ],
               "correctIndex": 0,
-              "explanation": "The issue begins with One large storm had left the riverside flooded while nearby streets stayed dry, and the students wondered why. and the subsequent investigative procedure is They measured rainfall at the same hour and compared the readings with slope and drainage maps..",
+              "explanation": "Matched rainfall, water-level and drain-flow readings connect the possible causes to the outcome and permit comparisons across sites. Citywide averages and photographs omit that causal link.",
+              "id": "R02-P1-06",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P1-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Rain Gauge Network\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Synthesis",
+              "prompt": "How does the committee's final decision reflect the students' proposed approach?",
               "choices": [
-                "The method (“They measured rainfall at the same hour and compared the…”) guarantees the result before measurement.",
-                "The observation (“The hilltop gauge recorded less rain than the riverside…”) matters, but the limit (“A month's records could not explain every season or the…”) remains.",
-                "The observation (“The hilltop gauge recorded less rain than the riverside…”) rules out every alternative cause.",
-                "The limitation (“A month's records could not explain every season or the…”) disproves the observation itself."
+                "It approves immediate full excavation because the gauge pattern identifies the defective drains.",
+                "It balances targeted inspection with further observation before committing to a costly intervention.",
+                "It suspends all maintenance until a full year of rainfall data is collected.",
+                "It rejects the rainfall data and relies entirely on the original photograph."
               ],
               "correctIndex": 1,
-              "explanation": "The result is reported as The hilltop gauge recorded less rain than the riverside gauge during several storms. but must be read alongside A month's records could not explain every season or the effects of wind on the gauges..",
+              "explanation": "The committee funds extended monitoring while arranging a limited inspection of blocked drains. That combination addresses a possible immediate problem without assuming that a complete excavation is already justified.",
+              "id": "R02-P1-07",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P1-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Rain Gauge Network\" relate to the strength and limits of the earlier observations?",
+              "type": "Scope of evidence",
+              "prompt": "Which statement would the passage's account of the strongest flood least support?",
               "choices": [
-                "The caveat (“A month's records could not explain every season or the…”) makes the observations worthless.",
-                "The observation (“The hilltop gauge recorded less rain than the riverside…”) shows that measurement was unnecessary.",
-                "The response (“The students recommended keeping the network in place for…”) follows evidence but remains open to reassessment.",
-                "The response (“The students recommended keeping the network in place for…”) is proof of success in every setting."
+                "The flood took place before the gauges were installed.",
+                "The later gauge records contain evidence of possible local rainfall differences.",
+                "The most severe flood was definitely caused by the same rainfall pattern observed later.",
+                "The placement of gauges can influence the reliability of comparisons."
               ],
               "correctIndex": 2,
-              "explanation": "The findings informed The students recommended keeping the network in place for another year before changing the city's drainage plans.; the stated limit A month's records could not explain every season or the effects of wind on the gauges. still matters.",
+              "explanation": "Because no gauges recorded the worst flood, later patterns cannot establish what caused that event. The other options are either stated directly or follow from the documented measurement concerns.",
+              "id": "R02-P1-08",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
-              "id": "R02-P1-10",
-              "type": "Study design",
-              "prompt": "Which follow-up study would most directly strengthen the interpretation in \"The Rain Gauge Network\" without ignoring its stated limitation?",
+              "type": "Structure",
+              "prompt": "What is the main function of the public-meeting exchange in the passage?",
               "choices": [
-                "Repeat the observation without recording any relevant conditions.",
-                "Implement the response everywhere before checking alternatives.",
-                "Treat the method as proof without collecting additional data.",
-                "Repeat the method (“They measured rainfall at the same hour and compared the…”) while testing the concern (“A month's records could not explain every season or the…”)."
+                "It introduces the geography of the three monitoring locations.",
+                "It supplies the first direct measurement of drain capacity.",
+                "It proves that the students' instruments were perfectly calibrated.",
+                "It contrasts two premature interpretations before showing an evidence-sensitive alternative."
               ],
               "correctIndex": 3,
-              "explanation": "A focused follow-up must examine the stated limitation, A month's records could not explain every season or the effects of wind on the gauges., while comparing evidence from the original method, They measured rainfall at the same hour and compared the readings with slope and drainage maps..",
+              "explanation": "The opposing council responses dramatize overconfidence and outright dismissal. The subsequent student proposal occupies a reasoned middle position; the scene does not add calibrated data or establish locations.",
+              "id": "R02-P1-09",
               "passageId": "R02-P1",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
+            },
+            {
+              "type": "Central idea",
+              "prompt": "Which statement most accurately captures the passage's broader claim about uncertainty?",
+              "choices": [
+                "Uncertainty should prompt better-designed inquiry and proportionate action, not automatic paralysis or certainty.",
+                "An inconclusive measurement should be excluded from any public decision.",
+                "Local environmental patterns can be established reliably from one dramatic event.",
+                "Policy disagreements disappear once participants collect numerical data."
+              ],
+              "correctIndex": 0,
+              "explanation": "The students acknowledge the gauge evidence and its limitations, then recommend improved monitoring together with limited inspection. The other choices suppress one half of that balanced response.",
+              "id": "R02-P1-10",
+              "passageId": "R02-P1",
+              "difficultyBand": "grade10-12",
+              "editorialStatus": "individually-authored-editorial-review-pending"
             }
           ]
         },
