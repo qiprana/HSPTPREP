@@ -71,4 +71,17 @@ for(const q of allLanguageQuestions){
 }
 assert.equal(spellingQuestions,260,'Expected 200 timed-paper + 60 guided spelling questions');
 
+const compositionItems=allLanguageQuestions.filter(q=>q.group==='composition');
+let compositionCorrectLongest=0;
+for(const q of compositionItems){
+ const correctLength=q.options[q.correctIndex].length;
+ const rivalLongest=Math.max(...q.options.filter((_,i)=>i!==q.correctIndex).map(x=>x.length));
+ if(correctLength>rivalLongest)compositionCorrectLongest++;
+}
+assert.equal(compositionItems.length,480,'Expected 400 timed composition + 80 guided questions');
+assert.ok(compositionCorrectLongest/compositionItems.length<0.5,
+ 'Composition correct-answer length bias: '+compositionCorrectLongest+' of '+compositionItems.length+' answers are strictly longest');
+console.log('CHOICE QUALITY: '+compositionCorrectLongest+' / '+compositionItems.length+' composition keys are strictly the longest answer (threshold <50%). This is a structural screen, not proof of distractor quality.');
+
+
 console.log('PASS: '+checked+' unique Language questions, 20 full papers, 20 guided practices and 317 distinct spelling words and zero repeated conceptual cores (140 textbook words).');
