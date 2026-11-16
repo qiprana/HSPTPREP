@@ -1463,19 +1463,19 @@
         {
           "id": "LA04-P-1",
           "group": "composition",
-          "skill": "Quantifier scope",
-          "text": "In the environmental policy practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Evidence scope in policy",
+          "text": "The city sampled eight neighborhoods, and six reported increased tree canopy. Which statement is supported without overstating the sample?",
           "options": [
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed."
+            "Every neighborhood in the city gained canopy.",
+            "Six of the eight sampled neighborhoods reported an increase.",
+            "All other neighborhoods lost canopy.",
+            "Canopy increase was caused by the city's new ordinance."
           ],
-          "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "The evidence establishes the reported result for six of eight sampled neighborhoods, not every location or a unique causal explanation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-P-2",
@@ -1514,19 +1514,19 @@
         {
           "id": "LA04-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the environmental policy practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Punctuation of a concession",
+          "text": "Which sentence correctly uses 'nevertheless' to contrast a legal obligation with limited resources?",
           "options": [
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment."
+            "The ordinance was mandatory; nevertheless, funding was uncertain.",
+            "The ordinance was mandatory, nevertheless, funding was uncertain.",
+            "The ordinance was mandatory nevertheless funding, was uncertain.",
+            "The ordinance; was mandatory nevertheless funding was uncertain."
           ],
-          "correctIndex": 3,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "A semicolon separates the two independent clauses and a comma follows 'nevertheless.' The other options create a splice or split a clause.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-P-5",
@@ -1582,19 +1582,19 @@
         {
           "id": "LA04-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the environmental policy practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Permit validity",
+          "text": "A building permit automatically expires after one year unless construction has begun. Construction has not begun and one year has elapsed. Which inference follows?",
           "options": [
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid."
+            "The permit expired under the stated condition.",
+            "The permit remains valid indefinitely.",
+            "The permit was never originally issued.",
+            "All permits expire at the beginning of their first month."
           ],
-          "correctIndex": 3,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "The exception that preserves validity did not occur, and the one-year term ended. Nothing in the policy addresses initial issuance or other permits.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -1858,19 +1858,19 @@
         {
           "id": "LA04-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the environmental policy test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Conditional past perfect",
+          "text": "Inspectors did not test the water before a spill was detected. Which counterfactual is grammatically correct?",
           "options": [
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it."
+            "Had they tested the water earlier, they might have detected the contaminant sooner.",
+            "If they would test earlier, they had detected it sooner.",
+            "If they test it tomorrow, they detected it yesterday.",
+            "Had they test earlier, the contaminant might be detected yesterday."
           ],
-          "correctIndex": 1,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "Past-perfect inversion 'Had they tested' and 'might have detected' describe a hypothetical earlier test and possible past consequence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-T-5",
@@ -1909,36 +1909,36 @@
         {
           "id": "LA04-T-7",
           "group": "composition",
-          "skill": "Synthesis",
-          "text": "In the environmental policy test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Balancing competing environmental findings",
+          "text": "A new park preserves wetlands but reduces available parking nearby. Which synthesis most responsibly handles both findings?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible."
+            "The project offers a habitat benefit while creating an access trade-off that needs assessment.",
+            "Environmental benefits make access irrelevant.",
+            "Reduced parking proves habitat was not preserved.",
+            "All visitors will abandon the park because parking changed."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "Habitat and access are distinct outcomes, and improvements in one need not remove trade-offs in the other.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA04-T-8",
           "group": "composition",
-          "skill": "Evidence appraisal",
-          "text": "In the environmental policy test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Judging an ecological causal claim",
+          "text": "A city credits fertilizer restrictions for improved lake clarity but did not measure agricultural runoff. Which further evidence most directly tests the claim?",
           "options": [
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance."
+            "Runoff measurements and matched lake comparisons across policy changes.",
+            "The mayor's confidence in the restrictions.",
+            "The count of news reports that repeat the claim.",
+            "The color of the new warning signs near the lake."
           ],
-          "correctIndex": 1,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Runoff data and comparison sites can test the mechanism and alternative influences. Repeated claims and advocacy do not establish causal evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
@@ -1948,19 +1948,19 @@
         {
           "id": "LA05-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the literary criticism practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Authorial point of view",
+          "text": "A critic calls a narrator unreliable because the narrator's description contradicts facts independently shown in the novel. Which inference is supported?",
           "options": [
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support."
+            "At least one statement by the narrator conflicts with independently established story information.",
+            "Every statement by the narrator is false.",
+            "The novelist intended readers to distrust every character.",
+            "No interpretation of the narrator is possible."
           ],
-          "correctIndex": 1,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 0,
+          "explanation": "A specific contradiction supports unreliability in at least one respect; it does not make every assertion false or establish the author's complete intentions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-P-2",
@@ -1999,19 +1999,19 @@
         {
           "id": "LA05-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the literary criticism practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Coordinating independent clauses",
+          "text": "Choose the sentence that correctly joins a critical claim and a contrasting qualification using 'however.'",
           "options": [
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment."
+            "The poem seems celebratory; however, its final image introduces grief.",
+            "The poem seems celebratory, however, its final image introduces grief.",
+            "The poem seems celebratory however its final image, introduces grief.",
+            "The poem seems; celebratory however, its final image introduces grief."
           ],
           "correctIndex": 0,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "explanation": "The semicolon connects two complete independent clauses; a comma follows however. Other choices introduce a comma splice or misplaced punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-P-5",
@@ -2067,19 +2067,19 @@
         {
           "id": "LA05-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the literary criticism practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Literary convention and exception",
+          "text": "The competition accepts poems unless the author has previously won the grand prize. An author won that prize last year. What follows?",
           "options": [
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid."
+            "The author is ineligible under the stated competition rule.",
+            "The author's poem is guaranteed to win again.",
+            "The competition must accept every other author.",
+            "The author's earlier poem was never eligible."
           ],
           "correctIndex": 0,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "explanation": "A past grand-prize win triggers the stated exclusion. No conclusion follows about other entrants or the legitimacy of the prior award.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -2343,36 +2343,36 @@
         {
           "id": "LA05-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the literary criticism test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Unreal past reading",
+          "text": "A lost chapter was not published with a novel. Which sentence correctly expresses a hypothetical past outcome?",
           "options": [
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology."
+            "Had the chapter appeared in the first edition, readers might have interpreted the ending differently.",
+            "If the chapter would appear yesterday, readers had interpreted the ending.",
+            "If the chapter appears tomorrow, readers had interpreted the first edition.",
+            "Had the chapter appear, readers interpreted the ending last week."
           ],
-          "correctIndex": 2,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "Inverted past perfect and modal perfect accurately express an unreal past publication and possible past interpretation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the literary criticism test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Publication requirements",
+          "text": "A journal accepts an essay only after peer review, and peer review requires anonymous copies. Which must hold for a properly accepted essay?",
           "options": [
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected project could not have had consent.",
-            "Acceptance is impossible without documented consent."
+            "Anonymous copies were prepared before review.",
+            "Every anonymously submitted essay was accepted.",
+            "Reviewers necessarily agreed with the essay's argument.",
+            "Any rejected essay lacked an anonymous copy."
           ],
-          "correctIndex": 3,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "Acceptance entails review, and review entails anonymous copies. Neither prerequisite guarantees acceptance or reviewer agreement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-T-6",
@@ -2394,36 +2394,36 @@
         {
           "id": "LA05-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the literary criticism test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Contrasting interpretations",
+          "text": "One critic reads a poem's winter imagery as despair; another sees it as renewal. Which response best evaluates their disagreement?",
           "options": [
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears."
+            "Compare how each reading accounts for diction, structure, and the closing stanza.",
+            "Assume the better-known critic must be correct.",
+            "Reject both interpretations because they differ.",
+            "Count online votes without examining the poem."
           ],
-          "correctIndex": 1,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "Textual evidence and explanatory completeness can weigh competing readings. Reputation and popularity cannot substitute for analysis.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA05-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the literary criticism test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Evidence for intended audience",
+          "text": "A reviewer claims a nineteenth-century novel was written chiefly for children. Which evidence would most directly assess the claim?",
           "options": [
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone."
+            "Contemporary advertisements, publication records, and letters discussing intended readers.",
+            "Present-day social-media reactions to an adaptation.",
+            "The total length of the author's surname.",
+            "The number of copies displayed in modern bookstores."
           ],
-          "correctIndex": 2,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Contemporaneous marketing and correspondence directly address intended readership. Modern popularity and irrelevant counts do not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
@@ -2433,19 +2433,19 @@
         {
           "id": "LA06-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the public education practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Restricted conclusion from classroom data",
+          "text": "A pilot school reports that 18 of its 24 participating students completed an optional writing exercise. Which statement is guaranteed?",
           "options": [
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support."
+            "Three quarters of participants completed the exercise.",
+            "Every student in the school completed it.",
+            "All nonparticipants would have completed it.",
+            "The exercise caused students to write better."
           ],
-          "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 0,
+          "explanation": "18/24 is 75% of participants. This does not describe excluded students, predict counterfactual completion, or establish learning effects.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-P-2",
@@ -2484,19 +2484,19 @@
         {
           "id": "LA06-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the public education practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Sentence boundary in instructional report",
+          "text": "Which sentence correctly joins two independent clauses with 'therefore'?",
           "options": [
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment."
+            "The rubric was revised; therefore, teachers repeated the scoring exercise.",
+            "The rubric was revised, therefore, teachers repeated the scoring exercise.",
+            "The rubric was revised therefore teachers, repeated the exercise.",
+            "The rubric was; revised therefore, teachers repeated the exercise."
           ],
-          "correctIndex": 1,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "A semicolon and comma appropriately mark the conjunctive adverb between independent clauses. The other revisions contain a splice or break grammatical constituents.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-P-5",
@@ -2552,19 +2552,19 @@
         {
           "id": "LA06-P-8",
           "group": "composition",
-          "skill": "Conditional interpretation",
-          "text": "In the public education practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Attendance policy interpretation",
+          "text": "A course remains available to students unless the registration deadline has passed. The deadline passed yesterday. Which statement is most accurate?",
           "options": [
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification."
+            "The stated rule no longer guarantees availability, and additional late-registration policies would be needed to determine access.",
+            "The rule guarantees admission today.",
+            "Every student who registered earlier loses admission.",
+            "The course never existed before the deadline."
           ],
-          "correctIndex": 1,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "Once the exception occurs, the stated default no longer establishes access; it does not by itself describe any late-registration allowance or earlier enrollment status.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -2828,36 +2828,36 @@
         {
           "id": "LA06-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the public education test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Past unreal educational choice",
+          "text": "A student missed an earlier tutoring session. Which sentence correctly expresses a possible unreal past consequence?",
           "options": [
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology."
+            "If the student had attended, the tutor might have identified the misconception earlier.",
+            "If the student would attend, the tutor had identified it.",
+            "If the student attends next week, the tutor identified it yesterday.",
+            "Had the student attend yesterday, the tutor will identify it last week."
           ],
-          "correctIndex": 3,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "Past perfect 'had attended' and modal perfect 'might have identified' express an unreal past condition and its possible result.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the public education test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Course eligibility chain",
+          "text": "A student may earn course credit only after a final assessment, and the assessment requires completion of safety training. What follows if credit was awarded properly?",
           "options": [
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected trial could not have had consent."
+            "The student completed safety training.",
+            "Any student completing training earns course credit.",
+            "Every assessed student necessarily passed.",
+            "Safety training is unrelated to the course assessment."
           ],
           "correctIndex": 0,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "explanation": "Credit entails the assessment, which entails prior safety training. The other choices reverse the logical dependencies.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-T-6",
@@ -2879,36 +2879,36 @@
         {
           "id": "LA06-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the public education test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Separating classroom outcomes",
+          "text": "After a new reading program, students read more books but comprehension scores remain stable. What conclusion best handles both results?",
           "options": [
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative."
+            "Reading volume increased, without measured improvement in comprehension during the study.",
+            "The program made every student a better reader.",
+            "The two results cannot be true together.",
+            "A stable comprehension score proves no extra books were read."
           ],
-          "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "Number of books read and assessed comprehension are distinct outcomes; changes in volume do not guarantee changes in understanding.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA06-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the public education test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Evaluating a writing improvement claim",
+          "text": "A school claims an automated writing assistant improves originality because essays become longer. Which evidence is most pertinent?",
           "options": [
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations."
+            "Blind assessment of originality and reasoning using a reliable rubric, with a comparable control group.",
+            "Average essay length alone.",
+            "A list of the assistant's software features.",
+            "The school principal's enthusiasm for artificial intelligence."
           ],
-          "correctIndex": 3,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Originality and reasoning require direct valid measurement; length is not a sufficient proxy for either.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
