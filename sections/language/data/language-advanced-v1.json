@@ -9223,154 +9223,154 @@
         {
           "id": "LA20-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the linguistic analysis practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Conjunctive adverb punctuation",
+          "text": "Which sentence correctly contrasts a dialect's recorded frequency with the size of the sample?",
           "options": [
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed."
+            "The feature occurred frequently, however, the sample was small.",
+            "The feature occurred frequently; however, the sample was small.",
+            "The feature occurred frequently however the sample, was small.",
+            "The feature occurred; frequently however, the sample was small."
           ],
-          "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "'However' between two independent clauses requires a semicolon before it and a comma after it. The other versions splice clauses or insert punctuation in the wrong place.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the linguistic analysis practice scenario, The memorandum states that some oversight board members questioned the interpretation. Which conclusion follows?",
+          "skill": "Agreement under neither nor",
+          "text": "A field note states, 'Neither the interviewer nor the participants ___ certain which regional label was preferred.' Which verb agrees with the nearer subject?",
           "options": [
-            "Only oversight board members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation."
+            "was",
+            "is",
+            "has been",
+            "were"
           ],
-          "correctIndex": 1,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 3,
+          "explanation": "Under the standard proximity rule for neither...nor, the verb agrees with the nearer plural subject participants and takes were.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the linguistic analysis practice scenario, Neither the director nor the specialists responsible for verification ___ willing to certify the result.",
+          "skill": "Clear modifier placement",
+          "text": "A linguist wants to say she recorded dialect speakers during the festival, not that she analyzed them during the festival. Which revision is unambiguous?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "During the festival, the linguist recorded speakers whose interviews she analyzed later.",
+            "The linguist analyzed the speakers during the festival who she recorded.",
+            "The linguist later analyzed speakers during the festival.",
+            "Recording speakers, the festival was later analyzed by the linguist."
           ],
-          "correctIndex": 2,
-          "explanation": "The plural subject nearest the verb is specialists, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "The introductory time phrase explicitly modifies 'recorded,' and later locates analysis afterward. The other sentences ambiguously attach the time phrase or contain dangling modifiers.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the linguistic analysis practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Quantifier logic",
+          "text": "A report says, 'Not every expression used by the participants appeared in the official dictionary.' Which inference follows?",
           "options": [
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment."
+            "No participant used a dictionary entry.",
+            "At least one used expression did not appear in the dictionary.",
+            "Most expressions were missing.",
+            "Every expression outside the dictionary was used in the study."
           ],
-          "correctIndex": 3,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 1,
+          "explanation": "Not every establishes one or more expressions outside the dictionary; it does not specify a majority or anything about other unobserved expressions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the linguistic analysis practice scenario, Which choice specifically means that the oversight board revised the conclusion but left all other sections unchanged?",
+          "skill": "Mandative subjunctive",
+          "text": "The language committee recommended that each transcription ___ checked by a second annotator before release. Which form is correct?",
           "options": [
-            "The oversight board revised only the conclusion.",
-            "Only the oversight board revised the conclusion.",
-            "The oversight board only revised the conclusion.",
-            "The oversight board revised the only conclusion."
+            "is",
+            "was",
+            "be",
+            "has been"
           ],
-          "correctIndex": 0,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 2,
+          "explanation": "The clause following 'recommended that' calls for base-form subjunctive be. The other options use indicative tense or aspect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the linguistic analysis practice scenario, Which revision clearly makes the specialist the person who inspected the results?",
+          "skill": "Pronoun antecedent",
+          "text": "The sentence 'When the teacher spoke to the translator, she revised the lesson plan' refers to the TRANSLATOR as reviser. Which version removes ambiguity?",
           "options": [
-            "The discrepancy, having been inspected, was reported by the specialist.",
-            "Having inspected the results, the specialist reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The specialist reported a discrepancy after she inspected it."
+            "After speaking with the teacher, the translator revised the lesson plan.",
+            "When the teacher spoke to the translator, she revised the lesson plan.",
+            "The teacher spoke with the translator and revised the lesson plan.",
+            "After their discussion, she revised the lesson plan."
           ],
-          "correctIndex": 1,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 0,
+          "explanation": "The translator explicitly becomes the subject of 'revised.' The others preserve ambiguous she or assign the action to the teacher.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the linguistic analysis practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Comparative construction",
+          "text": "An essay reads, 'The vocabulary diversity in School A exceeds School B.' Which revision compares like measures?",
           "options": [
-            "If the specialist will be available, the evidence would have been checked.",
-            "If the specialist were available, the evidence had been checked last week.",
-            "If the specialist were available, the evidence could be checked today.",
-            "If the specialist had been available, the evidence will be checked yesterday."
+            "Vocabulary diversity in School A exceeds that in School B.",
+            "School A's vocabulary diversity exceeds School B's principal.",
+            "Vocabulary diversity in School A exceeds the School B building.",
+            "Vocabulary diversity in School A is more greater than School B."
           ],
-          "correctIndex": 2,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 0,
+          "explanation": "'That in School B' refers to the corresponding vocabulary-diversity measure. The other options compare unlike entities or contain a double comparative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the linguistic analysis practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Parallel data procedures",
+          "text": "Which sentence lists three actions performed by the language researchers with consistent past-tense verbs?",
           "options": [
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid."
+            "They transcribed speech, coded phrases, and compared frequencies.",
+            "They transcribed speech, phrase coding, and to compare frequencies.",
+            "They transcribed speech, coding phrases, and the comparison of frequencies.",
+            "They transcribed speech, phrases were coded, and frequency comparisons."
           ],
-          "correctIndex": 3,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "Transcribed, coded, and compared form a grammatically parallel predicate series. The alternatives mix nominal, participial, and passive forms.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA20-C-1",
           "group": "usage",
-          "skill": "Linguistic analysis",
-          "text": "A linguist records speech only from volunteers at a university and uses the result to describe an entire city's dialect. Which added sample would best test the claim?",
+          "skill": "Representativeness of dialect sampling",
+          "text": "A survey of city dialects recruits only university volunteers, most of whom are ages 18–22. Which design most improves citywide representativeness?",
           "options": [
-            "Another cohort of students enrolled in the same department.",
-            "More recordings from one professor.",
-            "Participants recruited across neighborhoods, ages, and social settings beyond the university.",
-            "The linguist's preferred dictionary entries."
+            "Recruit a stratified sample spanning neighborhoods, age groups, and educational backgrounds.",
+            "Increase the number of university volunteers without changing recruitment.",
+            "Ask the existing volunteers to rate their own accents.",
+            "Exclude residents who use nonstandard dialects."
           ],
-          "correctIndex": 2,
-          "explanation": "University volunteers may differ in age, education, and social setting from the city as a whole; broader recruitment addresses coverage.",
+          "correctIndex": 0,
+          "explanation": "Coverage of ages, neighborhoods, and schooling reduces the sampling-frame bias. A larger but narrowly recruited university group need not represent the city.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -9378,16 +9378,16 @@
         {
           "id": "LA20-C-2",
           "group": "usage",
-          "skill": "Survey nonresponse",
-          "text": "A linguistic survey obtains more responses in its second wave, mostly from one college. What cannot be concluded from the larger total alone?",
+          "skill": "Sampling and nonresponse",
+          "text": "The second wave of a language survey contains twice as many responses, mostly from one college. What cannot be concluded from the larger count alone?",
           "options": [
-            "The second-wave results better represent all city residents.",
-            "The number of responses grew.",
-            "The respondent composition may have changed.",
-            "A response count alone does not show representativeness."
+            "More total questionnaires were received.",
+            "The additional responses may change the composition of the sample.",
+            "The survey now represents the whole city's dialects more accurately.",
+            "Researchers should examine which groups responded."
           ],
-          "correctIndex": 0,
-          "explanation": "A larger sample dominated by one subgroup may be less representative; size does not automatically correct selection.",
+          "correctIndex": 2,
+          "explanation": "Sample size alone does not ensure population representativeness when additional participants come from one narrow group.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -9395,16 +9395,16 @@
         {
           "id": "LA20-C-3",
           "group": "usage",
-          "skill": "Language-program outcomes",
-          "text": "A district reports that children taking extra language lessons have higher test scores, but participation is voluntary. What conclusion is too strong?",
+          "skill": "Self-selection into language lessons",
+          "text": "Children voluntarily taking optional language lessons earn higher scores on a later comprehension test. Which interpretation is most cautious?",
           "options": [
-            "Participant scores are higher in the observed data.",
-            "Motivation or family resources could influence both participation and scores.",
-            "The additional lessons must be the sole cause of the difference.",
-            "A controlled study could help determine the effect."
+            "The lessons necessarily caused the entire score difference.",
+            "The association may partly reflect students' prior motivation or family support.",
+            "No child could benefit from additional lessons.",
+            "Every child in the program improved by the same amount."
           ],
-          "correctIndex": 2,
-          "explanation": "Volunteers may be systematically different, so the difference alone cannot uniquely identify the program's causal effect.",
+          "correctIndex": 1,
+          "explanation": "Voluntary participation can correlate with preexisting motivation or support, so the group difference does not uniquely establish a causal lesson effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -9412,293 +9412,293 @@
         {
           "id": "LA20-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the linguistic analysis challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Appropriate concession",
+          "text": "A linguist admits that audio recordings miss some gestures that shape conversational meaning. Which sentence best handles the limitation?",
           "options": [
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The measure is costly; therefore no one should examine its possible benefits.",
-            "The measure has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial."
+            "Although the recordings preserve speech patterns, complementary video or observation may be needed to interpret gestures.",
+            "Because audio misses gestures, it contains no useful linguistic evidence.",
+            "Gestures never affect the meaning of spoken language.",
+            "Recorded conversations always reveal every aspect of communication."
           ],
           "correctIndex": 0,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "The statement recognizes the value of audio while specifying a missing channel and a proportionate follow-up method. The alternatives make unsupportable absolutes.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the linguistic analysis challenge scenario, Every approved study passed ethical review. A study passed ethical review. What follows?",
+          "skill": "Language-policy prerequisite",
+          "text": "A district says every approved translation used in official notices must pass a comprehension check. A notice translation passed that check. What follows?",
           "options": [
-            "No approved study passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The study must have been approved.",
-            "Ethical review was unnecessary."
+            "The translation is automatically approved.",
+            "It satisfies one necessary requirement, but further approval criteria may remain.",
+            "Comprehension checks are only administered after approval.",
+            "Any translation not approved must have failed comprehension."
           ],
           "correctIndex": 1,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "explanation": "Passing the check is necessary under the policy, not sufficient. The other answers reverse the implication or invent a restriction on unapproved translations.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the linguistic analysis challenge scenario, Only the specialists who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Only and logical scope",
+          "text": "A language archive states, 'Only recordings with verified consent were made publicly searchable.' Which conclusion is warranted?",
           "options": [
-            "Specialists without certification supplied no data.",
-            "All eligible specialists received certification.",
-            "Every certified specialist supplied raw data.",
-            "Every raw-data supplier was certified."
+            "Every consented recording was searchable.",
+            "Every publicly searchable recording had verified consent.",
+            "All nonsearchable recordings lacked consent.",
+            "Verified consent guarantees linguistic accuracy."
           ],
-          "correctIndex": 2,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "Public searchability implies verified consent. Consent does not guarantee public release or accuracy, nor does absence from search imply missing consent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the linguistic analysis challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Subgroup trends and aggregation",
+          "text": "A district's mean language score stays constant although newly enrolled bilingual students improve and another subgroup declines. Which explanation is sound?",
           "options": [
-            "Whom concluded that the evidence was incomplete?",
-            "The technician whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the finding?"
+            "Opposing subgroup changes can cancel in the weighted average.",
+            "Every student's score must be unchanged.",
+            "The average is necessarily a calculation error.",
+            "Both subgroups must contain exactly the same number of students."
           ],
-          "correctIndex": 3,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "Weighted averages can remain stable while subgroups change in opposite directions. This does not imply individual stability or equal group sizes.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the linguistic analysis challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Removing pronoun ambiguity",
+          "text": "A note reads, 'Nadia told Mira that her translation confused students.' Nadia wrote the translation. Which revision is clearest?",
           "options": [
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation."
+            "Nadia told Mira that Nadia's translation confused students.",
+            "Nadia told Mira that her translation confused students.",
+            "Mira learned that her translation confused students.",
+            "Nadia discussed with Mira a translation that confused her."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "Naming Nadia as the translation's owner resolves 'her' without changing the stated facts. The alternatives shift ownership or leave ambiguity.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the linguistic analysis challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Validation of a reading measure",
+          "text": "A school treats the number of pages students finish as its sole measure of reading comprehension. Which weakness is most precise?",
           "options": [
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention."
+            "Page count measures volume, not necessarily comprehension or inference quality.",
+            "A page count can never be measured accurately.",
+            "Finishing more pages always guarantees perfect understanding.",
+            "Comprehension cannot be assessed in any manner."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "Volume read is not equivalent to comprehension. Independent assessments of meaning and inference are needed to validate that construct.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the linguistic analysis challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Independent verification of a translation",
+          "text": "Two websites use the same machine-translated transcript as evidence for an ancient inscription's meaning. What most directly adds independent support?",
           "options": [
-            "A later summary cites only the disputed account.",
-            "A technician describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph."
+            "A specialist's independent translation from the original inscription with documented alternative readings.",
+            "A third website reprinting the same transcript.",
+            "An advertisement praising the translation software.",
+            "A count of how often the websites are shared."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "A translation made independently from original evidence can test the meaning. Reprints and popularity are not independent linguistic corroboration.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the linguistic analysis challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Measured versus inferred outcomes",
+          "text": "A bilingual-education program reports higher attendance but no measurable change in writing proficiency. Which conclusion is justified?",
           "options": [
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial measure.",
-            "Run a bounded pilot with predefined measures before considering wider adoption."
+            "Attendance improved in the sample, but proficiency did not show the same improvement.",
+            "Higher attendance proves that every student's writing improved.",
+            "Writing proficiency must have declined because attendance rose.",
+            "The attendance and proficiency results are logically incompatible."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "Attendance and writing proficiency are distinct outcomes; one can change while the other does not. The reported evidence does not demonstrate individual gains.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the linguistic analysis challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Decision on contested terminology",
+          "text": "A public agency must decide whether to replace a community label that some residents consider exclusionary. Which method best balances accuracy and respect?",
           "options": [
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists."
+            "Consult diverse community members, research usage, and clearly explain the agency's editorial choice.",
+            "Assume one speaker's preference represents the entire community.",
+            "Select the oldest recorded term regardless of current harms.",
+            "Avoid documenting the choice so it cannot be questioned."
           ],
           "correctIndex": 0,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "explanation": "Evidence on usage combined with broad community input offers a transparent, respectful process. The alternatives overgeneralize or disregard current context.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA20-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the linguistic analysis test scenario, Which comparison is logically parallel?",
+          "skill": "Past counterfactual",
+          "text": "A translation error was discovered only after publication. Which sentence correctly states an unreal past possibility?",
           "options": [
-            "The revised finding's conclusion is more cautious than the university.",
-            "The revised finding's conclusion is more cautious than the author of the first study.",
-            "The revised finding's conclusion is more cautious than that of the earlier finding.",
-            "The revised finding's conclusion is more cautious than the earlier research team."
+            "If the proof had been checked by a second translator, the error might have been found earlier.",
+            "If the proof would be checked, the error had been found.",
+            "If the proof is checked tomorrow, the error was found yesterday.",
+            "If the proof has checked last week, publication will have been corrected."
           ],
-          "correctIndex": 2,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 0,
+          "explanation": "The past-perfect condition and 'might have been' consequence form an unreal past conditional. The other combinations mismatch time and voice.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA20-T-2",
           "group": "composition",
-          "skill": "Parallelism",
-          "text": "In the linguistic analysis test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Active agency",
+          "text": "Which sentence makes the linguist the person who evaluated the disputed recording?",
           "options": [
-            "The technicians agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The technicians agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The technicians agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The technicians agreed to examine assumptions, evaluate evidence, and revise conclusions."
+            "After examining the disputed recording, the linguist revised the transcription.",
+            "After examining the recording, the transcription was revised.",
+            "The transcription, examining the recording, was revised.",
+            "After examining the recording, discrepancies were discovered."
           ],
-          "correctIndex": 3,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 0,
+          "explanation": "The introductory participle attaches to the linguist, who performed the examination. Other versions hide or misassign the actor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-3",
           "group": "composition",
-          "skill": "Colon usage",
-          "text": "In the linguistic analysis test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Comparison of equivalent quantities",
+          "text": "A researcher writes, 'The frequency of a construction in Region A exceeds Region B.' Which revision is accurate?",
           "options": [
-            "The finding evaluated three issues: reliability, validity, and replicability.",
-            "The finding evaluated: three issues, reliability, validity, and replicability.",
-            "The finding evaluated three issues; reliability, validity, and replicability.",
-            "The finding evaluated three issues, reliability: validity, and replicability."
+            "Its frequency in Region A exceeds that in Region B.",
+            "Its frequency in Region A exceeds Region B's residents.",
+            "The construction's frequency exceeds Region B's schools.",
+            "Its frequency in Region A is more greater than Region B."
           ],
           "correctIndex": 0,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "explanation": "'That in Region B' compares frequencies, not a frequency with a location or its population. Other choices compare unlike categories.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-4",
           "group": "composition",
-          "skill": "Counterfactual past",
-          "text": "In the linguistic analysis test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Colon for an explanatory list",
+          "text": "Which sentence correctly introduces the survey's three validation stages?",
           "options": [
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it."
+            "The survey has three stages: pilot testing, calibration, and independent review.",
+            "The survey has: pilot testing, calibration, and independent review.",
+            "The survey has three; stages including pilot testing.",
+            "The survey has three stages; including calibration and review."
           ],
-          "correctIndex": 1,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "A complete independent clause precedes a colon introducing the list. The other punctuation breaks the clause or introduces a fragment.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-5",
           "group": "composition",
-          "skill": "Nested implication",
-          "text": "In the linguistic analysis test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Inference across conditions",
+          "text": "For a survey to be published, translators must sign off; sign-off requires access to the original recordings. Which fact follows if publication complied?",
           "options": [
-            "Every consent form results in review.",
-            "A rejected study could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance."
+            "Translators had access to the original recordings.",
+            "Access to recordings automatically requires publication.",
+            "Every approved translator must publish the survey.",
+            "Recordings are unnecessary if a transcript exists."
           ],
-          "correctIndex": 2,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "Compliant publication implies sign-off and thus access to original recordings. The reverse implications do not hold.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the linguistic analysis test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Sampling-bias qualification",
+          "text": "A language program's results come only from one selective school. Which generalization is defensible?",
           "options": [
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original finding.",
-            "Comparable results in independently selected, diverse samples."
+            "Results describe this school; broader effectiveness should be tested in varied settings.",
+            "Every school will achieve identical outcomes.",
+            "Selective schools represent all students automatically.",
+            "The observed results must be invalid because they come from one school."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 0,
+          "explanation": "A single selective setting can generate evidence but does not establish effects for all populations. Broader sampling is needed.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the linguistic analysis test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Correct conjunctive transition",
+          "text": "Which sentence correctly links two complete conclusions with the conjunctive adverb 'however'?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible."
+            "The recordings were clear; however, the translations remained disputed.",
+            "The recordings were clear, however, the translations remained disputed.",
+            "The recordings were clear however translations, remained disputed.",
+            "The recordings were clear; however the translations, remained disputed."
           ],
           "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "explanation": "Two independent clauses require a semicolon and a comma following 'however.' Other options splice the clauses or misplace punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA20-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the linguistic analysis test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Synthesis of language change",
+          "text": "A survey finds increasing use of a new expression among teens while overall citywide use remains stable. What explanation is possible?",
           "options": [
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance."
+            "Teenage adoption may be offset by lower use in other age groups.",
+            "The two findings necessarily contradict each other.",
+            "Every teenager must use the expression.",
+            "Stable citywide use proves no subgroup changed."
           ],
-          "correctIndex": 1,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "An aggregate trend can conceal opposing changes across groups. Stable overall prevalence does not imply all age groups are unchanged.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     }
