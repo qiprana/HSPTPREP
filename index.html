@@ -593,7 +593,54 @@ function classificationFromBank(bank,index){
  return {category:'Verbal Classification',prompt:'Which term is semantically least consistent with the other three? Distinguish their precise connotations.',choices:rand(words),answer,explain,studyWords:words};
 }
 function challengeFingerprint(q){return String(q.prompt||'').toLowerCase().replace(/\s+/g,' ').trim()+'|'+[...(q.choices||[])].map(x=>String(x).toLowerCase().trim()).sort().join('|')}
-function makeVerbalChallenge(day,kind){const today=DAY_WORDS[day],bank=kind==='daily'?today:WORDS.filter(w=>w.day<=day);const reviewWords=bank.filter(w=>state.review[w.key]);const counts=[['Synonyms',12],['Antonyms',10],['Analogies',10],['Verbal Logic',12],['Verbal Classification',16]],used=new Set(),result=[];for(const [category,n] of counts){let made=0,attempt=0;while(made<n&&attempt<12000){attempt++;const i=made;const focused=reviewWords.length&&category!=='Verbal Logic'&&category!=='Verbal Classification'&&i%3===0?[reviewWords[(i+attempt)%reviewWords.length],...bank.filter(w=>w.key!==reviewWords[(i+attempt)%reviewWords.length].key)]:bank;const q=category==='Verbal Logic'?verbalLogic():category==='Verbal Classification'?classificationFromBank(bank,Math.floor(Math.random()*ADVANCED_CLASSIFICATION.length)):verbalVocab(category,(category==='Synonyms'&&kind==='cumulative'&&day>1?(i<4?today:bank.filter(w=>w.day<day)):focused),attempt+i,day);if(!q||!q.prompt||!Array.isArray(q.choices)||!q.choices.includes(q.answer)||new Set(q.choices).size!==q.choices.length)continue;const key=(category==='Synonyms'||category==='Antonyms'||category==='Analogies')?category+'|'+String(q.prompt).toLowerCase().replace(/\s+/g,' ').trim():challengeFingerprint(q);if(used.has(key))continue;used.add(key);result.push(q);made++;}if(made<n)console.warn('Insufficient unique '+category+' questions for Day '+day+': '+made+'/'+n);}return rand(result);}
+function makeVerbalChallenge(day,kind){
+ const today=DAY_WORDS[day],bank=kind==='daily'?today:WORDS.filter(w=>w.day<=day);
+ const reviewWords=bank.filter(w=>state.review[w.key]);
+ const counts=[['Synonyms',12],['Antonyms',10],['Analogies',10],['Verbal Logic',12],['Verbal Classification',16]];
+ // Randomly select targets, instead of repeatedly taking the first words in
+ // the bank (which caused late cumulative quizzes to overuse Days 1–2).
+ const promoteReview=(items)=>{const flagged=items.filter(w=>state.review[w.key]).slice(0,2);
+   const flaggedKeys=new Set(flagged.map(w=>w.key));return [...flagged,...items.filter(w=>!flaggedKeys.has(w.key))];};
+ const currentTargets=promoteReview(rand(today));
+ const earlier=WORDS.filter(w=>w.day<day),earlierByDay=new Map();
+ for(const w of earlier){if(!earlierByDay.has(w.day))earlierByDay.set(w.day,[]);earlierByDay.get(w.day).push(w);}
+ // Take one randomized word per previous day first, to spread review across
+ // the full learning history rather than only the oldest or newest words.
+ const perDay=rand([...earlierByDay.keys()]).map(d=>rand(earlierByDay.get(d))[0]);
+ const firstKeys=new Set(perDay.map(w=>w.key));
+ const previousTargets=promoteReview(perDay).concat(rand(earlier.filter(w=>!firstKeys.has(w.key))));
+ let currentIndex=0,previousIndex=0;
+ const used=new Set(),result=[];
+ for(const [category,n] of counts){
+  let made=0,attempt=0;
+  while(made<n&&attempt<12000){
+   attempt++;
+   let q;
+   if(category==='Synonyms'){
+    // Daily: 12 current words. Cumulative: four current + eight older words.
+    const fromEarlier=kind==='cumulative'&&day>1&&made>=4;
+    const targetPool=fromEarlier?previousTargets:currentTargets;
+    const idx=fromEarlier?previousIndex++:currentIndex++;
+    if(!targetPool.length)continue;
+    q=verbalVocab(category,[targetPool[idx%targetPool.length]],0,day);
+   }else{
+    const i=made;
+    const focused=reviewWords.length&&category!=='Verbal Logic'&&category!=='Verbal Classification'&&i%3===0?
+     [reviewWords[(i+attempt)%reviewWords.length],...bank.filter(w=>w.key!==reviewWords[(i+attempt)%reviewWords.length].key)]:bank;
+    q=category==='Verbal Logic'?verbalLogic():
+      category==='Verbal Classification'?classificationFromBank(bank,Math.floor(Math.random()*ADVANCED_CLASSIFICATION.length)):
+      verbalVocab(category,focused,attempt+i,day);
+   }
+   if(!q||!q.prompt||!Array.isArray(q.choices)||!q.choices.includes(q.answer)||new Set(q.choices).size!==q.choices.length)continue;
+   const key=(category==='Synonyms'||category==='Antonyms'||category==='Analogies')?
+      category+'|'+String(q.prompt).toLowerCase().replace(/\s+/g,' ').trim():challengeFingerprint(q);
+   if(used.has(key))continue;
+   used.add(key);result.push(q);made++;
+  }
+  if(made<n)console.warn('Insufficient unique '+category+' questions for Day '+day+': '+made+'/'+n);
+ }
+ return rand(result);
+}
 let quizTimerId=null;
 function stopQuizTimer(){if(quizTimerId!==null){clearInterval(quizTimerId);quizTimerId=null;}}
 function updateQuizChrome(){
