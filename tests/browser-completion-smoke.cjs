@@ -123,6 +123,32 @@ async function run(){
   assert.match(languageInfo,/1\/20 advanced challenges submitted/);
   console.log('PASS: Overview reads completed Reading and Language attempts after navigation.');
 
+  // Final Language day must support complete real submissions and keep completion
+  // status after refresh for all three independent modes.
+  await page.goto(ROOT+'/language.html?day=20',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>document.getElementById('practiceBtn')?.disabled===false);
+  for(const [mode,selector,expected] of [
+   ['practice','#practiceBtn',23],
+   ['challenge','#challengeBtn',12],
+   ['test','#testBtn',60]
+  ]){
+   await page.locator(selector).click();
+   assert.match(await page.locator('#workspace').innerText(),new RegExp('Question 1 of '+expected));
+   await page.evaluate(()=>{answers=questions.map(q=>(q.correct+1)%4);finish(false);});
+   await page.reload();
+   await page.waitForFunction(()=>document.getElementById('testBtn')?.disabled===false);
+   const record=await page.evaluate(()=>JSON.parse(localStorage.getItem('hspt-language-v1')||'{}')['20']);
+   assert.equal(record[mode].score,0,'Day 20 '+mode+' zero-score submission should persist');
+   assert.equal(record[mode].total,expected,'Day 20 '+mode+' expected question count');
+  }
+  const languageDay20=await page.locator('#dashboard').innerText();
+  for(const label of ['✓ Practice submitted','✓ Challenge submitted','✓ Full test submitted']){
+   assert.ok(languageDay20.includes(label),'Day 20 missing dashboard status: '+label);
+  }
+  assert.ok(await page.locator('#days .day.done').count(),'Day 20 Language completion marker after refresh');
+  console.log('PASS: Language Day 20 all three modes submit, persist scores and display completion after reload.');
+
+
   // Vocabulary word-choice UI: short stems, studied-only options, and
   // cumulative mixing across the actual rendered quiz (not only generator tests).
   await page.evaluate(()=>{selectedDay=50;activeKind='cumulative';setPage('challenges');startQuiz();});
