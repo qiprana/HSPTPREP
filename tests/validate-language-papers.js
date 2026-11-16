@@ -17,7 +17,7 @@ function coreSignature(q){
  const clean=s=>String(s).replace(/^In the day \d+ [^:]*? case:\s*/,'').replace(/^For a grade 10[–-]12 [^,]*? assessment,\s*/,'').replace(/^In the [^,]*? (practice|challenge|test) scenario,\s*/,'').toLowerCase().replace(/\s+/g,' ').trim();
  return clean(q.text)+'|'+q.options.map(clean).sort().join('~');
 }
-const seen=new Set();
+const seen=new Set(),conceptualSeen=new Map();
 let checked=0;
 for(let day=1;day<=20;day++){
  const paper=data.tests[day-1],practice=data.practice[day-1];
@@ -40,9 +40,33 @@ for(let day=1;day<=20;day++){
   assert.ok(q.text.length>15&&q.explanation.length>20,q.id);
   assert.ok(!/\{[A-Za-z]+\}/.test(q.text+q.options.join(' ')),q.id);
   const signature=q.text+'|'+[...q.options].sort().join('~');
+  const previousConcept=conceptualSeen.get(core);
+  assert.ok(!previousConcept,'Repeated conceptual core between '+previousConcept+' and '+q.id);
+  conceptualSeen.set(core,q.id);
   assert.ok(!seen.has(signature),'Repeated question: '+q.id);
   seen.add(signature);checked++;
  }
  }
 }
-console.log('PASS: '+checked+' unique Language questions, 20 full papers, 20 guided practices and 317 distinct spelling words (140 textbook words).');
+// Spell-check distractor consistency, including 'No mistakes' choices, against
+// all taught spellings plus verified ordinary vocabulary that also appears.
+const spellingWords=new Set([...allWordSet,'board']);
+const allLanguageQuestions=[...data.tests,...data.practice].flatMap(session=>session.questions);
+let spellingQuestions=0;
+for(const q of allLanguageQuestions){
+ const named=q.explanation.match(/\b(?:the )?(first|second|third|fourth) (?:sentence|option|choice|answer)\b/i);
+ if(named){
+  const i={first:0,second:1,third:2,fourth:3}[named[1].toLowerCase()];
+  assert.equal(q.correctIndex,i,'Explanation references wrong answer position: '+q.id);
+ }
+ if(q.group!=='spelling')continue;
+ spellingQuestions++;
+ assert.ok(q.options.includes('No mistakes.'),'Spelling question missing no-error alternative '+q.id);
+ const correct=q.options[q.correctIndex];
+ const invalid=q.options.filter(x=>x!=='No mistakes.'&&!spellingWords.has(x.toLowerCase()));
+ if(correct==='No mistakes.')assert.equal(invalid.length,0,'No-mistakes item includes a misspelling: '+q.id);
+ else assert.deepEqual(invalid,[correct],'Spelling key or distractors inconsistent with taught spelling list: '+q.id);
+}
+assert.equal(spellingQuestions,260,'Expected 200 timed-paper + 60 guided spelling questions');
+
+console.log('PASS: '+checked+' unique Language questions, 20 full papers, 20 guided practices and 317 distinct spelling words and zero repeated conceptual cores (140 textbook words).');
