@@ -151,6 +151,7 @@ async function run(){
 
   // Vocabulary word-choice UI: short stems, studied-only options, and
   // cumulative mixing across the actual rendered quiz (not only generator tests).
+  await page.goto(ROOT+'/index.html',{waitUntil:'load'});
   await page.evaluate(()=>{selectedDay=50;activeKind='cumulative';setPage('challenges');startQuiz();});
   const vocabSnapshot=await page.evaluate(()=>{
    const qs=currentQuiz.questions.filter(q=>q.category==='Synonyms');
