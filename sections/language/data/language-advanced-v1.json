@@ -6313,154 +6313,154 @@
         {
           "id": "LA14-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the archival practice practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Agreement across intervening phrases",
+          "text": "A report says, 'The series of nineteenth-century invoices, together with the receipts, ___ incomplete.' Which verb completes the sentence correctly?",
           "options": [
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support."
+            "are",
+            "is",
+            "were being",
+            "have been"
           ],
-          "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "The head noun 'series' is singular in this context, so 'is' agrees with it. The plural nouns in prepositional and parenthetical phrases do not determine the verb.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the archival practice practice scenario, The memorandum states that some planning panel members questioned the interpretation. Which conclusion follows?",
+          "skill": "Restrictive relative clause",
+          "text": "An archive employs five conservators. Which sentence specifies the one conservator who authenticated the manuscript?",
           "options": [
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation.",
-            "Only planning panel members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did."
+            "The conservator, who authenticated the manuscript, signed the report.",
+            "The conservator who authenticated the manuscript signed the report.",
+            "The conservator who authenticated the manuscript, signed the report.",
+            "The conservator, who authenticated the manuscript signed the report."
           ],
-          "correctIndex": 3,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 1,
+          "explanation": "A restrictive clause without commas distinguishes one conservator from several. The other options make the clause supplementary or incorrectly separate the subject from its verb.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the archival practice practice scenario, Neither the director nor the curators responsible for verification ___ willing to certify the result.",
+          "skill": "Historical date precision",
+          "text": "A letter was written in 1864 but was not found until 1921. Which sentence preserves both dates without suggesting it was composed when discovered?",
           "options": [
-            "were",
-            "was",
-            "is",
-            "has been"
+            "The 1921 letter was written after its discovery in 1864.",
+            "The letter, written in 1864, was discovered in 1921.",
+            "The 1864 letter was discovered before it was written in 1921.",
+            "The letter was written when it was discovered in 1921."
           ],
-          "correctIndex": 0,
-          "explanation": "The plural subject nearest the verb is curators, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 1,
+          "explanation": "The participial phrase dates composition to 1864 and the main clause dates discovery to 1921. The remaining sentences reverse or conflate these distinct events.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the archival practice practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Comparison of equivalent measures",
+          "text": "A draft says, 'The cost of preserving the original maps exceeds the digitized collection.' Which revision compares like quantities?",
           "options": [
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment."
+            "The cost of preserving the original maps exceeds the cost of digitizing the collection.",
+            "The original maps cost more than the staff who digitized them.",
+            "The cost of preserving the original maps exceeds the digital archive's visitors.",
+            "The cost of preserving maps is more greater than the digitized collection."
           ],
-          "correctIndex": 1,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "Two costs are comparable; a cost is not comparable with a collection, employees, or visitors. The last choice also contains a defective comparative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the archival practice practice scenario, Which choice specifically means that the planning panel revised the conclusion but left all other sections unchanged?",
+          "skill": "Dangling modifier",
+          "text": "Which revision makes clear that the archivist, not the discrepancies, compared the catalogs?",
           "options": [
-            "The planning panel only revised the conclusion.",
-            "The planning panel revised the only conclusion.",
-            "The planning panel revised only the conclusion.",
-            "Only the planning panel revised the conclusion."
+            "After comparing the catalogs, discrepancies were noted by the archivist.",
+            "After comparing the catalogs, the archivist documented several discrepancies.",
+            "Compared against the catalogs, the archivist noted discrepancies.",
+            "The discrepancies, comparing the catalogs, were documented."
           ],
-          "correctIndex": 2,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 1,
+          "explanation": "The introductory participle must modify the person who performed the comparison. Only the second sentence names the archivist immediately as the actor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the archival practice practice scenario, Which revision clearly makes the curator the person who inspected the results?",
+          "skill": "Qualified conclusion",
+          "text": "A scanned document's handwriting is illegible in several places. Which sentence reports a finding without claiming certainty about missing words?",
           "options": [
-            "Having inspected the results, a discrepancy was reported.",
-            "The curator reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the curator.",
-            "Having inspected the results, the curator reported a discrepancy."
+            "Although some passages are unclear, the legible sections suggest a dispute over rent.",
+            "Because passages are unclear, the writer certainly never discussed rent.",
+            "The entire document proves the tenant was guilty of fraud.",
+            "The unclear words are irrelevant because the document has a date."
           ],
-          "correctIndex": 3,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 0,
+          "explanation": "The concession acknowledges transcription limits and keeps the inference tied to readable evidence. The others make unsupported definitive claims or dismiss material missing information.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the archival practice practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Conditional verification rule",
+          "text": "An archive states that a newly donated document may be displayed only after staff verify its provenance. Which inference follows for a permitted display?",
           "options": [
-            "If the curator were available, the evidence could be checked today.",
-            "If the curator had been available, the evidence will be checked yesterday.",
-            "If the curator will be available, the evidence would have been checked.",
-            "If the curator were available, the evidence had been checked last week."
+            "Its provenance was verified before display.",
+            "Verification guarantees that every donated document will be displayed.",
+            "Provenance verification is unnecessary when the exhibit is small.",
+            "Every verified document must be displayed immediately."
           ],
           "correctIndex": 0,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "explanation": "'Only after' makes verification a necessary prerequisite for lawful display, not a promise that verified material will be displayed. The other options reverse or waive the condition.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the archival practice practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Colon after a complete clause",
+          "text": "Which sentence properly introduces a list of defects found in an archival audit with a colon?",
           "options": [
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification."
+            "The audit found three problems: missing dates, duplicate entries, and inconsistent names.",
+            "The audit found: missing dates, duplicate entries, and inconsistent names.",
+            "The audit found three: problems, missing dates and inconsistent names.",
+            "The audit found three problems; including missing dates and duplicate entries."
           ],
-          "correctIndex": 1,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "A colon can introduce the list after the complete clause 'The audit found three problems.' The other choices place punctuation after an incomplete phrase or create a fragment.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA14-C-1",
           "group": "usage",
-          "skill": "Archival practice",
-          "text": "An archive tests a new search interface using only staff archivists, then claims novices will find it intuitive. Which additional evaluation is most informative?",
+          "skill": "Surviving-document bias",
+          "text": "A historian reconstructs ordinary household spending from journals preserved by wealthy families. Which limitation most directly affects the regional claim?",
           "options": [
-            "The staff's average years of service.",
-            "The color of the search interface.",
-            "A usability test with first-time visitors attempting realistic retrieval tasks.",
-            "The number of documents in the archive."
+            "Preservation favors households that kept and could donate journals, potentially excluding less wealthy families.",
+            "Every wealthy household must have maintained false accounts.",
+            "Handwritten evidence is never suitable for historical research.",
+            "More photographs of the same journals would remove selection bias."
           ],
-          "correctIndex": 2,
-          "explanation": "Expert users possess vocabulary and workflow knowledge novices lack. Direct novice task testing assesses the actual claim.",
+          "correctIndex": 0,
+          "explanation": "The preserved collection overrepresents families with resources and surviving documents. That threatens representativeness; it does not establish fraud or invalidate all manuscript evidence.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -6468,16 +6468,16 @@
         {
           "id": "LA14-C-2",
           "group": "usage",
-          "skill": "Missing records",
-          "text": "A digitization project finds that average search time fell after excluding requests that never returned a result. What problem arises?",
+          "skill": "Conditioning on successful retrieval",
+          "text": "An online archive claims searches have become faster after removing all unsuccessful searches from its timing data. What is the strongest objection?",
           "options": [
-            "Search time is always independent of success.",
-            "The metric may ignore the hardest or unsuccessful searches, overstating usability.",
-            "A shorter mean proves no document was missing.",
-            "Averages cannot use time measurements."
+            "Successful searches cannot be timed accurately.",
+            "Excluding failed searches conceals an important part of usability and may lower the reported average.",
+            "Any decrease in search time demonstrates that the index became smaller.",
+            "Unsuccessful searches should be counted as zero seconds instead."
           ],
           "correctIndex": 1,
-          "explanation": "Dropping failed searches conditions the average on success and hides an important component of retrieval experience.",
+          "explanation": "Users experience failed searches as failures, often after substantial time. Reporting only successful requests can make overall retrieval appear better than it is.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6485,16 +6485,16 @@
         {
           "id": "LA14-C-3",
           "group": "usage",
-          "skill": "Archive digitization",
-          "text": "Researchers find more citations to documents after digitization, but a new catalog also improves indexing. What is the main causal limitation?",
+          "skill": "Separating parallel interventions",
+          "text": "Following both faster scanning and a redesigned keyword index, researchers retrieve more historical letters. Which comparison would best isolate the index's contribution?",
           "options": [
-            "Digitization removes all errors from old archives.",
-            "Citation counts never reflect use.",
-            "Better discovery via indexing may account for some gains independently of scanning.",
-            "More citations prove the historical documents became more accurate."
+            "Compare otherwise identical scanned collections with and without the redesigned index.",
+            "Ask whether the scanners were purchased recently.",
+            "Count how many staff members attended the launch celebration.",
+            "Treat every post-launch increase as evidence that scanning alone caused it."
           ],
-          "correctIndex": 2,
-          "explanation": "Searchability and digitization change together, so the additional catalog is a confounding cause of increased discovery.",
+          "correctIndex": 0,
+          "explanation": "Holding scan quality and collection constant while changing only indexing most directly tests the index. Purchasing dates, attendance, and unsupported attribution cannot isolate the effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6502,293 +6502,293 @@
         {
           "id": "LA14-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the archival practice challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Authenticity and transcription",
+          "text": "A printed edition quotes a letter differently from a photographed original. Which next step best resolves whether the quotation is accurate?",
           "options": [
-            "The project has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The project is costly; therefore no one should examine its possible benefits."
+            "Compare the exact disputed lines against the original image and document the edition's editorial conventions.",
+            "Choose whichever version appears in more websites.",
+            "Assume the printed editor intentionally fabricated the quotation.",
+            "Ignore the discrepancy because both sources concern the same author."
           ],
-          "correctIndex": 2,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "Direct comparison with the original and editorial rules identifies possible misreading or modernization. Popularity alone is not verification and the discrepancy does not prove intent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the archival practice challenge scenario, Every approved project passed ethical review. A project passed ethical review. What follows?",
+          "skill": "Interpreting digitization rates",
+          "text": "An archive scanned 90 of 300 fragile items in Year 1 and 120 of 600 in Year 2. Which statement correctly distinguishes totals from proportions?",
           "options": [
-            "The project must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved project passed ethical review.",
-            "Approval is possible but not established by the ethical review alone."
+            "More items were scanned in Year 2, but the share fell from 30% to 20%.",
+            "The share rose from 30% to 40% because 120 exceeds 90.",
+            "Both count and percentage were lower in Year 2.",
+            "The scanning percentage stayed constant because both years exceeded 50 items."
           ],
-          "correctIndex": 3,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 0,
+          "explanation": "90/300 is 30%, whereas 120/600 is 20%. The raw number rises despite the smaller fraction of each year's inventory being digitized.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the archival practice challenge scenario, Only the curators who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Independent corroboration",
+          "text": "Three museum catalogs repeat a date for a medieval manuscript, but all copied the date from one nineteenth-century catalog. Which evidence would most independently test it?",
           "options": [
-            "Every certified curator supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Curators without certification supplied no data.",
-            "All eligible curators received certification."
+            "A dated colophon and a paleographic assessment obtained independently of the three copied catalogs.",
+            "A fourth catalog quoting the same nineteenth-century catalog.",
+            "A blog post reproducing the date from one museum website.",
+            "The number of search results containing the asserted date."
           ],
           "correctIndex": 0,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "Material evidence in the manuscript and independent handwriting analysis provide distinct grounds for dating. Repetition from one catalog creates the appearance, not the reality, of corroboration.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the archival practice challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Accessibility and selection",
+          "text": "An archive evaluates its handwriting-transcription tool only with professional paleographers. Which change best tests usability for school students?",
           "options": [
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the review?",
-            "Whom concluded that the evidence was incomplete?",
-            "The researcher whom presented the findings disagreed."
+            "Recruit students with varied prior experience and assign realistic transcription tasks.",
+            "Increase the professional group from 20 to 200 without changing recruitment.",
+            "Use the paleographers' titles as a proxy for student ability.",
+            "Exclude students who need accessibility accommodations."
           ],
-          "correctIndex": 1,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "Actual students and realistic tasks address the target population and accessibility. A larger expert sample cannot test novice comprehension or support needs.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the archival practice challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Indexing and causal inference",
+          "text": "Staff training and a new catalog system begin in the same month; retrieval errors fall afterward. Which conclusion is justified without additional comparison data?",
           "options": [
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete."
+            "The new catalog alone eliminated the errors.",
+            "The training alone eliminated the errors.",
+            "The errors declined after both changes, but their individual contributions remain uncertain.",
+            "The changes must have had exactly equal effects."
           ],
           "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "A before-after comparison with simultaneous interventions cannot isolate either effect. The fact of decline does not prove a sole cause or equal contributions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the archival practice challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Catalog timestamp meaning",
+          "text": "A record lists 'date modified: 2024,' although its letter was written in 1790. Which inference about the letter is warranted?",
           "options": [
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement."
+            "The letter itself was composed in 2024.",
+            "The record may have been edited in 2024; that field does not establish the letter's composition date.",
+            "The 1790 date must be false because databases use modern timestamps.",
+            "Both dates prove two distinct authors wrote the letter."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 1,
+          "explanation": "A metadata edit timestamp usually describes a catalog record or file, not the creation of the historical artifact. The two fields refer to different events.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the archival practice challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Privacy and access judgment",
+          "text": "An archive digitizes intimate letters from people whose descendants remain identifiable. Which policy best balances scholarly access and reasonable privacy concerns?",
           "options": [
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account.",
-            "A researcher describes the narrative as compelling."
+            "Publish all details immediately because the letters are old.",
+            "Refuse access to every historical letter indefinitely.",
+            "Apply consistent sensitivity and legal reviews, document any redactions, and preserve access to non-sensitive material.",
+            "Allow access only to donors who agree with the archive's interpretation."
           ],
-          "correctIndex": 0,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 2,
+          "explanation": "A documented review and narrowly tailored restriction can balance research value with potential harm. Blanket disclosure, permanent prohibition, and viewpoint-based access are disproportionate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-11",
           "group": "composition",
-          "skill": "Policy judgment",
-          "text": "In the archival practice challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Reconciling conflicting dates",
+          "text": "A diary dates a flood to April 17, while a municipal register reports April 18. Which approach best handles the discrepancy?",
           "options": [
-            "Accept only outcomes that support the initial project.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists."
+            "Compare the entries with independent newspapers, weather records, and possible differences between event and reporting dates.",
+            "Choose the government record automatically because it is official.",
+            "Assume the diary must be fabricated because the dates differ.",
+            "Conclude that two floods certainly occurred on consecutive days."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "Independent contemporaneous sources and differing reporting conventions may explain a one-day discrepancy. The status of a source alone does not settle chronology.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-C-12",
           "group": "composition",
-          "skill": "Competing hypotheses",
-          "text": "In the archival practice challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Preservation versus access",
+          "text": "A collection of brittle maps is frequently requested, and repeated handling accelerates damage. Which policy is the strongest compromise?",
           "options": [
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first."
+            "Provide high-resolution digital surrogates by default and supervised original access when research requires it.",
+            "Permanently prohibit every form of access to the collection.",
+            "Continue unlimited unsupervised handling until all maps fail.",
+            "Discard the originals as soon as digital copies are created."
           ],
-          "correctIndex": 2,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "Digital access reduces wear while controlled original access preserves legitimate material-research needs. The alternatives sacrifice either preservation or access unnecessarily.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA14-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the archival practice test scenario, Which comparison is logically parallel?",
+          "skill": "Relative pronoun case",
+          "text": "A scholarly note reads, 'The historian interviewed the donor who the archivist had contacted.' Which revision uses the formal object case correctly?",
           "options": [
-            "The revised review's conclusion is more cautious than that of the earlier review.",
-            "The revised review's conclusion is more cautious than the earlier research team.",
-            "The revised review's conclusion is more cautious than the university.",
-            "The revised review's conclusion is more cautious than the author of the first project."
+            "The historian interviewed the donor whom the archivist had contacted.",
+            "The historian interviewed the donor whose the archivist had contacted.",
+            "The historian interviewed the donor whom had contacted the archivist.",
+            "The historian interviewed the donor who had contacted whom the archivist."
           ],
           "correctIndex": 0,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "explanation": "'Whom' is the object of 'had contacted' within the relative clause. The other revisions confuse the possessive or subject roles or duplicate the object.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA14-T-2",
           "group": "composition",
-          "skill": "Parallelism",
-          "text": "In the archival practice test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Subjunctive after recommendation",
+          "text": "The curator recommended that every fragile document ___ placed in acid-free storage before the exhibition. Which form completes the sentence?",
           "options": [
-            "The researchers agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The researchers agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The researchers agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The researchers agreed to examination of assumptions, evaluate evidence, and revised conclusions."
+            "is",
+            "be",
+            "was",
+            "has been"
           ],
           "correctIndex": 1,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "explanation": "The mandative subjunctive after 'recommended that' uses base-form 'be.' The other forms are indicative tense/aspect and do not express the recommendation in this construction.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-3",
           "group": "composition",
-          "skill": "Colon usage",
-          "text": "In the archival practice test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Error rates with denominators",
+          "text": "An optical reader made 45 transcription mistakes in 300 lines, then 60 mistakes in 600 lines after retraining. What happened to errors per 100 lines?",
           "options": [
-            "The review evaluated three issues; reliability, validity, and replicability.",
-            "The review evaluated three issues, reliability: validity, and replicability.",
-            "The review evaluated three issues: reliability, validity, and replicability.",
-            "The review evaluated: three issues, reliability, validity, and replicability."
+            "They increased from 15 to 20.",
+            "They fell from 15 to 10.",
+            "They stayed at 15.",
+            "They fell from 10 to 6."
           ],
-          "correctIndex": 2,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 1,
+          "explanation": "45/300 equals 15 errors per 100 lines; 60/600 equals 10. Mistake totals rose while the rate per line decreased.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the archival practice test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Resolve a pronoun antecedent",
+          "text": "In 'The curator showed the researcher her annotations,' the annotations belong to the CURATOR. Which revision conveys that precisely?",
           "options": [
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology."
+            "The curator showed the researcher the curator's annotations.",
+            "The curator showed the researcher her annotations.",
+            "The researcher was shown her annotations by the curator.",
+            "The curator's researcher showed her the annotations."
           ],
-          "correctIndex": 3,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "Repeating 'the curator's' names the intended possessor without adding facts. The other versions retain pronoun ambiguity or change the relationship among actors.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the archival practice test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Primary versus repeated evidence",
+          "text": "Two books cite the same translated inventory to claim that a painting was sold in 1835. Which additional source would most directly evaluate that claim?",
           "options": [
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected project could not have had consent."
+            "An independently located sale receipt from 1835 naming the artwork and buyer.",
+            "A third book quoting the same translation.",
+            "A museum brochure repeating the date from the first book.",
+            "An unsourced website with a large number of readers."
           ],
           "correctIndex": 0,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "explanation": "A contemporaneous sale receipt provides independent transactional evidence. Additional publications that merely reproduce the same translation do not independently establish the sale.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the archival practice test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Chain of necessary conditions",
+          "text": "A museum's rules say online publication requires permission, and permission requires documented ownership. Which fact must hold if publication complied with both rules?",
           "options": [
-            "An increase in the number of pages of the original review.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents."
+            "Ownership was documented before compliant publication.",
+            "Ownership documentation automatically forces publication.",
+            "Every item with permission was published online.",
+            "All unpublished items have disputed ownership."
           ],
-          "correctIndex": 1,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 0,
+          "explanation": "Publication implies permission, which in turn implies documented ownership. Neither condition requires publication, and nothing follows about the ownership of unpublished items.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the archival practice test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Contrast with whereas",
+          "text": "Which version best connects two independent clauses to contrast physical and digital access without making either clause a fragment?",
           "options": [
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative."
+            "Original maps require supervised handling, whereas digital copies can be viewed remotely.",
+            "Original maps require supervised handling, whereas, digital copies can be viewed remotely.",
+            "Original maps require supervised handling; whereas digital copies can be viewed remotely.",
+            "Whereas original maps require supervised handling; digital copies can be viewed remotely."
           ],
-          "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "'Whereas' is a subordinating conjunction introducing a contrastive clause joined by a comma. The other versions add a stray comma or semicolon that breaks the sentence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA14-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the archival practice test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Synthesis of differing records",
+          "text": "A land register shows a property transfer in June, but a personal letter mentions the buyer occupying it in May. Which synthesis is defensible?",
           "options": [
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations."
+            "The records necessarily contradict, so at least one is fraudulent.",
+            "Occupancy may have preceded formal registration; dated contracts and local recording practice would clarify the sequence.",
+            "The transfer must have been recorded in May because the buyer was present.",
+            "The letter proves that a formal deed was never executed."
           ],
-          "correctIndex": 3,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 1,
+          "explanation": "Physical occupation can precede registration of ownership. The two sources describe different acts, so further documentary context can reconcile them without assuming fraud.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
