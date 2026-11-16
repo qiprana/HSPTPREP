@@ -122,6 +122,32 @@ async function run(){
   assert.match(languageInfo,/1\/20 tests submitted/);
   assert.match(languageInfo,/1\/20 advanced challenges submitted/);
   console.log('PASS: Overview reads completed Reading and Language attempts after navigation.');
+
+  // Vocabulary word-choice UI: short stems, studied-only options, and
+  // cumulative mixing across the actual rendered quiz (not only generator tests).
+  await page.evaluate(()=>{selectedDay=50;activeKind='cumulative';setPage('challenges');startQuiz();});
+  const vocabSnapshot=await page.evaluate(()=>{
+   const qs=currentQuiz.questions.filter(q=>q.category==='Synonyms');
+   return {
+    count:currentQuiz.questions.length,
+    visible:document.querySelectorAll('#challengeBody .quiz-question').length,
+    shortStems:qs.every(q=>q.prompt.startsWith('Which studied word best means')),
+    current:qs.filter(q=>WORDS.find(w=>w.key===q.studyWordKey)?.day===50).length,
+    earlier:qs.filter(q=>WORDS.find(w=>w.key===q.studyWordKey)?.day<50).length,
+    earlierDays:[...new Set(qs.map(q=>WORDS.find(w=>w.key===q.studyWordKey)?.day).filter(d=>d<50))].length,
+    learnedChoices:qs.every(q=>q.choices.every(c=>WORDS.some(w=>w.word===c&&w.day<=50))),
+    distinctChoices:qs.every(q=>q.choices.length===4&&new Set(q.choices).size===4)
+   };
+  });
+  assert.equal(vocabSnapshot.count,60);
+  assert.equal(vocabSnapshot.visible,60);
+  assert.equal(vocabSnapshot.current,4);
+  assert.equal(vocabSnapshot.earlier,8);
+  assert.ok(vocabSnapshot.earlierDays>=5);
+  assert.ok(vocabSnapshot.shortStems&&vocabSnapshot.learnedChoices&&vocabSnapshot.distinctChoices);
+  await page.evaluate(()=>{stopQuizTimer();currentQuiz=null;});
+  console.log('PASS: Day 50 Vocabulary cumulative challenge renders 60 questions with 4 current and 8 broadly distributed previous synonym-choice targets.');
+
   assert.deepEqual(errors,[],'No uncaught page script errors');
   console.log('PASS: '+BROWSER+' browser completion smoke test.');
  }finally{await browser.close();}
