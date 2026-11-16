@@ -36,5 +36,22 @@ for(let i=0;i<20;i++){
  assert.equal(day.challenge[0].difficulty,'grade10-12');
  assert.equal(day.test[0].difficulty,'grade10-12');
 }
+// Catch the cross-day copy/paste patterns obscured by topic wrappers in the bank.
+const byConcept=new Map();
+for(const day of bank.days){
+ for(const type of ['practice','challenge','test']){
+  for(const q of day[type]){
+   const signature=coreSignature(q);
+   const ids=byConcept.get(signature)||[];
+   ids.push(q.id);
+   byConcept.set(signature,ids);
+  }
+ }
+}
+const repeatedConcepts=[...byConcept.values()].filter(ids=>ids.length>1);
+const lateRepeats=repeatedConcepts.filter(ids=>ids.some(id=>Number(id.slice(2,4))>=7));
+assert.equal(lateRepeats.length,0,'Reauthored Days 7–20 must not repeat conceptual question/answer combinations from earlier days: '+JSON.stringify(lateRepeats.slice(0,5)));
+console.log('EDITORIAL AUDIT: '+repeatedConcepts.length+' repeated advanced question cores across all days (currently concentrated in Days 1–6); individual editorial review is still required.');
+
 assert.equal(upgraded,560);
 console.log('PASS: 20 Language days, 560 advanced-bank questions, 560 revised grade 10-12 items and duplicate/answer checks.');
