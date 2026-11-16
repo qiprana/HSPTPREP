@@ -52,5 +52,12 @@ const repeatedConcepts=[...byConcept.values()].filter(ids=>ids.length>1);
 assert.equal(repeatedConcepts.length,0,'Repeated advanced question cores remain across days: '+JSON.stringify(repeatedConcepts.slice(0,5)));
 console.log('EDITORIAL AUDIT: zero repeated advanced question cores across all 20 days; independent educational calibration remains a separate requirement.');
 
+
+const answerPositions=[0,0,0,0];
+for(const day of bank.days)for(const mode of ['practice','challenge','test'])
+ for(const q of day[mode])answerPositions[q.correctIndex]++;
+assert.deepEqual(answerPositions,[140,140,140,140],
+ 'Advanced Language choices should not favor one correct-answer letter');
+
 assert.equal(upgraded,560);
 console.log('PASS: 20 Language days, 560 advanced-bank questions, 560 revised grade 10-12 items and duplicate/answer checks.');
