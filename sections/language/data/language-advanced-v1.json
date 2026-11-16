@@ -493,19 +493,19 @@
         {
           "id": "LA02-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the historical preservation practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Historical scope",
+          "text": "A preservation ordinance applies to every building built before 1900 that lies within the district. A house was built in 1885 but lies outside the district. Which inference is justified?",
           "options": [
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support."
+            "The ordinance definitely applies to the house.",
+            "The house meets the age condition, but its location prevents this particular ordinance from applying.",
+            "Every house outside the district was built after 1900.",
+            "The house can never qualify for any preservation protection."
           ],
-          "correctIndex": 2,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "The ordinance has two conditions, age and location, and this house fails the location condition. Its age cannot override that boundary; other preservation rules are not described.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-P-2",
@@ -544,19 +544,19 @@
         {
           "id": "LA02-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the historical preservation practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Punctuation in an archival report",
+          "text": "Which sentence correctly links two independent clauses about a damaged archive with 'nonetheless'?",
           "options": [
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment."
+            "The water damaged the ledgers, nonetheless, the catalog remained readable.",
+            "The water damaged the ledgers; nonetheless, the catalog remained readable.",
+            "The water damaged the ledgers nonetheless the catalog, remained readable.",
+            "The water damaged; the ledgers nonetheless, the catalog remained readable."
           ],
           "correctIndex": 1,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "explanation": "The semicolon marks the boundary between complete clauses, and a comma follows the conjunctive adverb. The other choices misuse comma and semicolon boundaries.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-P-5",
@@ -612,19 +612,19 @@
         {
           "id": "LA02-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the historical preservation practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Documentary inference",
+          "text": "A deed is accepted as genuine only if its seal can be authenticated. A deed has an authentic seal. What is the strongest inference?",
           "options": [
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification."
+            "The deed must be accepted as genuine.",
+            "Seal authentication satisfies a necessary requirement, but other authenticity checks may remain.",
+            "Every deed without a seal was fraudulent.",
+            "A genuine deed never contains an authentic seal."
           ],
           "correctIndex": 1,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "explanation": "An authentic seal is a necessary condition for acceptance under this rule, not sufficient proof of the document's overall genuineness.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -750,36 +750,36 @@
         {
           "id": "LA02-C-8",
           "group": "composition",
-          "skill": "Ambiguous reference",
-          "text": "In the historical preservation challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Clear referent in records",
+          "text": "A museum note says, 'When Lila sent Ruth the conservation notes, she challenged their accuracy.' RUTH made the challenge. Which version is unambiguous?",
           "options": [
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete."
+            "After Lila sent the notes, Ruth challenged their accuracy.",
+            "Lila sent Ruth the conservation notes, and she challenged their accuracy.",
+            "Ruth received the notes from Lila, who challenged their accuracy.",
+            "After the notes were sent, she challenged their accuracy."
           ],
-          "correctIndex": 2,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "The revision names Ruth as the actor who challenged the notes. Other versions preserve ambiguity or reassign the action to Lila.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-C-9",
           "group": "composition",
-          "skill": "Claim calibration",
-          "text": "In the historical preservation challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Qualified material analysis",
+          "text": "A conservator identifies a pigment common in the eighteenth century in one painting. Which claim stays within the evidence?",
           "options": [
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement."
+            "The pigment is consistent with an eighteenth-century origin, but it does not by itself prove the painting's date.",
+            "The pigment proves the painting was completed in precisely 1750.",
+            "No later artist ever used the pigment.",
+            "Every eighteenth-century painting used this pigment."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "A historically common material may support a possible date without establishing uniqueness or an exact year. The remaining claims overgeneralize.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-C-10",
@@ -818,19 +818,19 @@
         {
           "id": "LA02-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the historical preservation challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Competing provenance hypotheses",
+          "text": "A painting may have entered a collection through either a gift or a purchase. Which evidence would best discriminate between the hypotheses?",
           "options": [
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first."
+            "A donor letter or payment receipt directly documenting the transfer.",
+            "An opinion that paintings are generally beautiful.",
+            "A higher-resolution image of the painting's frame.",
+            "The popularity of the collection's modern website."
           ],
-          "correctIndex": 2,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "A contemporary gift record or sale receipt directly distinguishes transfer mechanisms. Appearance and popularity do not document how ownership changed.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
@@ -888,36 +888,36 @@
         {
           "id": "LA02-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the historical preservation test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Unreal past condition",
+          "text": "A flood destroyed the register before a research team could photograph it. Which sentence describes an unreal past possibility correctly?",
           "options": [
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology."
+            "Had the register survived, the team could have photographed its entries.",
+            "If the register will survive, the team photographed it.",
+            "Had the register survive, the team could photograph it yesterday.",
+            "If the register survives tomorrow, the team might have photographed it already."
           ],
-          "correctIndex": 3,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 0,
+          "explanation": "Past-perfect inversion 'Had the register survived' pairs with 'could have photographed' to describe an unreal past possibility.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the historical preservation test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Preservation prerequisite chain",
+          "text": "A loan requires proof of ownership, and proof of ownership requires a signed transfer record. Which condition must hold for a loan approved under the rule?",
           "options": [
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review.",
-            "A rejected survey could not have had consent."
+            "A signed transfer record is available.",
+            "A signed transfer record always guarantees the loan.",
+            "Every documented owner must request a loan.",
+            "Any unapproved loan application lacks a signed transfer record."
           ],
           "correctIndex": 0,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "explanation": "Loan approval requires proof of ownership, which requires a signed record. The reverse implications do not follow.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-T-6",
@@ -939,36 +939,36 @@
         {
           "id": "LA02-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the historical preservation test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Handling two historic sources",
+          "text": "A census reports a household of six, while a school register lists four children at the same address. What is the most responsible interpretation?",
           "options": [
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative."
+            "The records may describe different categories of household members and need not be inconsistent.",
+            "One of the sources must have been fabricated.",
+            "The census proves that exactly six children lived there.",
+            "The school register proves no adults lived in the household."
           ],
-          "correctIndex": 2,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "A household count includes adults and children, while the school register might cover only enrolled children. The scopes differ.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA02-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the historical preservation test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Verification of an attribution",
+          "text": "An auction catalog attributes a sculpture to an artist without citing records. Which evidence would most directly test that attribution?",
           "options": [
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations."
+            "Documented workshop records and independent examination of materials and technique.",
+            "The number of online pages repeating the catalog.",
+            "The museum gift shop's description of the sculpture.",
+            "The seller's claim that the artist was famous."
           ],
-          "correctIndex": 3,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Documented provenance and independent material analysis address authenticity. Repetition and promotional statements do not independently establish attribution.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
@@ -978,19 +978,19 @@
         {
           "id": "LA03-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the clinical research design practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Quantified safety result",
+          "text": "In a clinical trial, 17 of 20 participants reported improvement, but the remaining three did not. Which summary is strictly supported?",
           "options": [
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support."
+            "All participants improved.",
+            "Most, but not all, participants reported improvement.",
+            "Improvement was impossible for the remaining participants.",
+            "The trial proves the intervention always works."
           ],
-          "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "Seventeen of twenty is a majority, but three exceptions rule out universal improvement. The result alone does not establish a causal mechanism.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-P-2",
@@ -1029,19 +1029,19 @@
         {
           "id": "LA03-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the clinical research design practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Combining clinical findings",
+          "text": "Which sentence correctly separates independent clauses using 'therefore' when the evidence is complete?",
           "options": [
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment."
+            "The measurements were inconsistent, therefore, the analysis was repeated.",
+            "The measurements were inconsistent; therefore, the analysis was repeated.",
+            "The measurements were inconsistent therefore the analysis, was repeated.",
+            "The measurements; were inconsistent therefore, the analysis was repeated."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 1,
+          "explanation": "A semicolon marks the independent-clause boundary, and a comma follows therefore. The other options splice or divide clauses incorrectly.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-P-5",
@@ -1097,19 +1097,19 @@
         {
           "id": "LA03-P-8",
           "group": "composition",
-          "skill": "Conditional interpretation",
-          "text": "In the clinical research design practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Eligibility rule",
+          "text": "A medical study enrolls patients unless a previous severe allergy is documented. Which statement best preserves its enrollment restriction?",
           "options": [
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid."
+            "Documented prior severe allergy prevents enrollment under the stated rule.",
+            "Every enrolled patient must have experienced an allergy.",
+            "A documented allergy guarantees enrollment.",
+            "The rule requires every eligible person to participate."
           ],
-          "correctIndex": 2,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "The unless clause supplies an exclusion condition. It does not compel participation by otherwise eligible people.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
@@ -1373,19 +1373,19 @@
         {
           "id": "LA03-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the clinical research design test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Counterfactual with interrupted monitoring",
+          "text": "A sensor stopped recording before the patient's episode began. Which statement expresses a possible unreal past result?",
           "options": [
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it."
+            "If the sensor had continued recording, clinicians might have observed the episode.",
+            "If the sensor continues tomorrow, clinicians observed the episode yesterday.",
+            "If the sensor would continue, clinicians had observed the episode.",
+            "If the sensor was recording next week, the episode was already observed."
           ],
           "correctIndex": 0,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "Past perfect 'had continued' and 'might have observed' correctly describe a hypothetical past opportunity.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-T-5",
@@ -1424,36 +1424,36 @@
         {
           "id": "LA03-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the clinical research design test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Conflicting medical endpoints",
+          "text": "One trial shows reduced symptom intensity but no change in hospital admissions. Which synthesis is justified?",
           "options": [
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
+            "The intervention may affect reported symptoms without measurably changing hospital admissions in this trial.",
+            "The data prove every patient avoided hospitalization.",
+            "The trial results are logically contradictory.",
+            "No symptom improvement could have occurred because admissions were unchanged."
           ],
-          "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "Symptom severity and admissions are distinct outcomes and may respond differently. No contradiction is inherent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA03-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the clinical research design test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Clinical generalization limit",
+          "text": "A trial excludes patients with chronic illness but claims equal effectiveness for those patients. What evidence most directly tests that extension?",
           "options": [
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph."
+            "A properly monitored study including patients with relevant chronic illnesses.",
+            "A repetition of the original trial's publicity statement.",
+            "A description of how large the hospital building is.",
+            "The researchers' biographies without patient results."
           ],
           "correctIndex": 0,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "explanation": "Evidence from the excluded population is needed to test whether effects generalize. Publicity, infrastructure, and credentials do not supply outcome data.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
