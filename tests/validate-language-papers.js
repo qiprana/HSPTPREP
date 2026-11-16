@@ -55,6 +55,8 @@ const allLanguageQuestions=[...data.tests,...data.practice].flatMap(session=>ses
 let spellingQuestions=0;
 for(const q of allLanguageQuestions){
  const named=q.explanation.match(/\b(?:the )?(first|second|third|fourth) (?:sentence|option|choice|answer)\b/i);
+ assert.doesNotMatch(q.explanation,/\b(?:first|second|third|fourth) (?:sentence|option|choice|answer|thesis|interpretation|synthesis|phrasing)\b/i,
+  'Explanation must not depend on a possibly shuffled answer position: '+q.id);
  if(named){
   const i={first:0,second:1,third:2,fourth:3}[named[1].toLowerCase()];
   assert.equal(q.correctIndex,i,'Explanation references wrong answer position: '+q.id);
