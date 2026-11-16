@@ -8738,154 +8738,154 @@
         {
           "id": "LA19-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the scientific publication practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Mandative subjunctive",
+          "text": "The journal's editor requested that each disputed result ___ independently reproduced before publication. Which form completes the sentence?",
           "options": [
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support."
+            "is",
+            "was",
+            "be",
+            "has been"
           ],
-          "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 2,
+          "explanation": "A mandative that-clause after 'requested' calls for the bare subjunctive 'be.' The indicative alternatives describe status rather than a requirement.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-2",
           "group": "composition",
-          "skill": "Quantified inference",
-          "text": "In the scientific publication practice scenario, The memorandum states that some review panel members questioned the interpretation. Which conclusion follows?",
+          "skill": "Restrictive clause identification",
+          "text": "The laboratory employs several statisticians. Which sentence identifies the one who verified the confidence intervals?",
           "options": [
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation.",
-            "Only review panel members could question it."
+            "The statistician who verified the intervals signed the report.",
+            "The statistician, who verified the intervals, signed the report.",
+            "The statistician who verified the intervals, signed the report.",
+            "The statistician, who verified the intervals signed the report."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "A restrictive who-clause without commas selects a particular statistician; other punctuation changes the meaning or splits the subject and predicate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-3",
           "group": "composition",
-          "skill": "Complex agreement",
-          "text": "In the scientific publication practice scenario, Neither the director nor the reviewers responsible for verification ___ willing to certify the result.",
+          "skill": "Ambiguous reference",
+          "text": "A review states, 'The editor told the author that her analysis was incomplete.' The AUTHOR wrote the analysis. Which revision is clear?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "The editor told the author that the author's analysis was incomplete.",
+            "The editor told the author that her analysis was incomplete.",
+            "The author was told that her analysis was incomplete by her editor.",
+            "The editor and author discussed her analysis."
           ],
-          "correctIndex": 1,
-          "explanation": "The plural subject nearest the verb is reviewers, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "Explicitly naming the author's analysis prevents the pronoun from referring to the editor. The other versions retain unclear reference.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-4",
           "group": "composition",
-          "skill": "Sentence boundaries",
-          "text": "In the scientific publication practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Comparative parallelism",
+          "text": "A report says, 'The accuracy of the new method exceeds the previous method.' Which revision compares like quantities?",
           "options": [
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment."
+            "The new method's accuracy exceeds that of the previous method.",
+            "The accuracy of the new method exceeds the previous laboratory.",
+            "The accuracy of the new method exceeds its former technicians.",
+            "The new method has more greater accuracy than the previous."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "'That of' stands for accuracy, producing an accurate like-for-like comparison. Other answers compare different categories or use ungrammatical forms.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-5",
           "group": "composition",
-          "skill": "Modifier focus",
-          "text": "In the scientific publication practice scenario, Which choice specifically means that the review panel revised the conclusion but left all other sections unchanged?",
+          "skill": "Introductory modifier",
+          "text": "Which revision makes the reviewer, not the manuscript, the person who checked the supporting data?",
           "options": [
-            "Only the review panel revised the conclusion.",
-            "The review panel only revised the conclusion.",
-            "The review panel revised the only conclusion.",
-            "The review panel revised only the conclusion."
+            "After checking the supporting data, the reviewer questioned the manuscript's conclusion.",
+            "After checking the supporting data, the manuscript's conclusion was questioned.",
+            "Having checked the data, the manuscript drew criticism.",
+            "The manuscript, after checking the data, drew criticism."
           ],
-          "correctIndex": 3,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 0,
+          "explanation": "The reviewer directly follows the participial phrase, identifying who checked the data. The distractors misattach the action.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-6",
           "group": "composition",
-          "skill": "Modifier attachment",
-          "text": "In the scientific publication practice scenario, Which revision clearly makes the reviewer the person who inspected the results?",
+          "skill": "Meaning of not all",
+          "text": "A committee states that not all of the articles it reviewed presented reproducible methods. Which statement must follow?",
           "options": [
-            "Having inspected the results, the reviewer reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The reviewer reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the reviewer."
+            "At least one reviewed article did not present reproducible methods.",
+            "Most reviewed articles failed to reproduce.",
+            "Every article lacked a methods section.",
+            "No reviewed articles presented reproducible methods."
           ],
           "correctIndex": 0,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "explanation": "Negating 'all' entails one or more exceptions, but says nothing about a majority or universal absence of methods.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the scientific publication practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Tense sequence",
+          "text": "The researchers completed data collection before the journal accepted the manuscript. Which sentence correctly indicates that order?",
           "options": [
-            "If the reviewer were available, the evidence had been checked last week.",
-            "If the reviewer were available, the evidence could be checked today.",
-            "If the reviewer had been available, the evidence will be checked yesterday.",
-            "If the reviewer will be available, the evidence would have been checked."
+            "They had completed collection before the journal accepted the manuscript.",
+            "They will have completed collection before the journal accepted it yesterday.",
+            "They completed collection after the manuscript had been accepted.",
+            "They have completing data before the journal accepted it."
           ],
-          "correctIndex": 1,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 0,
+          "explanation": "Past perfect indicates collection preceded the later past action of acceptance. The other options alter the sequence or mismatch tenses.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the scientific publication practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Sentence boundary",
+          "text": "Which sentence uses 'nevertheless' to connect two independent clauses without creating a comma splice?",
           "options": [
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid."
+            "The findings were promising; nevertheless, the reviewers requested replication.",
+            "The findings were promising, nevertheless, the reviewers requested replication.",
+            "The findings were promising nevertheless reviewers, requested replication.",
+            "The findings were promising; nevertheless the reviewers, requested replication."
           ],
-          "correctIndex": 2,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "The semicolon separates independent clauses, and a comma follows 'nevertheless.' The other versions misplace punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA19-C-1",
           "group": "usage",
-          "skill": "Scientific publication",
-          "text": "A journal claims its manuscript review process is fair because successful authors rate it highly. Which weakness is most direct?",
+          "skill": "Survivorship in peer-review ratings",
+          "text": "An academic journal asks only accepted authors to evaluate the fairness of its review process. Why might this be misleading?",
           "options": [
-            "Authors' opinions are irrelevant to fairness.",
-            "Rejected authors may have experiences absent from the successful-author sample.",
-            "The rating scale has only five points.",
-            "Peer review can never be studied empirically."
+            "Rejected and withdrawn authors may report different experiences and are excluded.",
+            "Accepted authors are unable to evaluate any editorial procedure.",
+            "Acceptance proves every review decision was correct.",
+            "Fairness is measured only by the total number of accepted papers."
           ],
-          "correctIndex": 1,
-          "explanation": "Conditioning on acceptance excludes researchers who experienced rejection, potentially biasing perceptions of procedural fairness.",
+          "correctIndex": 0,
+          "explanation": "Only surveying successful authors omits others with potentially different experiences, biasing estimates of review fairness.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -8894,15 +8894,15 @@
           "id": "LA19-C-2",
           "group": "usage",
           "skill": "Simpson's paradox",
-          "text": "In each of two research fields, a journal's acceptance rate improves, yet its overall acceptance rate falls. Which possibility could explain the discrepancy?",
+          "text": "A journal's acceptance rate rises separately in biology and physics, but its combined rate falls. Which change could produce this pattern?",
           "options": [
-            "All acceptance counts must be wrong.",
-            "No weighted average can reverse a pattern.",
-            "Every field's number of submissions stayed constant.",
-            "The share of submissions shifted toward the field with a lower acceptance rate."
+            "The share of submissions shifted toward the lower-acceptance field.",
+            "Both fields must secretly have lower acceptance rates.",
+            "A combined rate must always rise when every subgroup rate rises.",
+            "The count of accepted papers must equal the count of submitted papers."
           ],
-          "correctIndex": 3,
-          "explanation": "Changes in category weights can cause the overall rate to fall even as within-field rates rise.",
+          "correctIndex": 0,
+          "explanation": "Weighted averages can decline when submissions shift toward a lower-rate group, despite improvements within each field. This is an aggregation effect.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -8910,16 +8910,16 @@
         {
           "id": "LA19-C-3",
           "group": "usage",
-          "skill": "Scientific incentives",
-          "text": "A journal with a new review policy reports shorter turnaround, but it also excludes more manuscripts before peer review. What comparison matters?",
+          "skill": "Changing review denominator",
+          "text": "A journal reports faster peer review after rejecting more papers at the initial editorial screening stage. What additional comparison matters most?",
           "options": [
-            "Turnaround among similarly classified manuscripts across periods, including desk-rejected submissions.",
-            "The average length of the editor's welcome message.",
-            "The number of pages in the journal's website.",
-            "Only reviews that were returned on time."
+            "Time from submission to final decision for all submitted manuscripts, including desk rejections.",
+            "The number of words in the editor's welcome message.",
+            "Only the average time for manuscripts sent to external reviewers.",
+            "The prestige of the journal's cover artwork."
           ],
           "correctIndex": 0,
-          "explanation": "Changing which manuscripts reach review can alter average timing; like-for-like comparisons and inclusion of rejected cases matter.",
+          "explanation": "A time metric restricted to externally reviewed manuscripts can mask increased desk rejection. Full submission-to-decision time better describes the author experience.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -8927,293 +8927,293 @@
         {
           "id": "LA19-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the scientific publication challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Independent replication",
+          "text": "A laboratory announces that a new technique doubles cell survival based on a single proprietary dataset. Which follow-up most directly corroborates the finding?",
           "options": [
-            "The policy is costly; therefore no one should examine its possible benefits.",
-            "The policy has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial."
+            "Preregistered replication by independent teams using new samples and disclosed methods.",
+            "A second advertisement repeating the original percentage.",
+            "A citation from a press release written by the laboratory.",
+            "A longer description of why the technique might work."
           ],
-          "correctIndex": 3,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 0,
+          "explanation": "Independent new measurements with transparent protocols test reproducibility. Repeating the original claim is not corroboration.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the scientific publication challenge scenario, Every approved program passed ethical review. A program passed ethical review. What follows?",
+          "skill": "Publication requires conditions",
+          "text": "An editor says every published clinical paper must pass ethics review. A paper has passed ethics review. What is justified?",
           "options": [
-            "Approval is possible but not established by the ethical review alone.",
-            "The program must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved program passed ethical review."
+            "It must be published.",
+            "Ethics review is one prerequisite; it does not guarantee publication.",
+            "Passing ethics review proves the results are correct.",
+            "Only published papers may be reviewed ethically."
           ],
-          "correctIndex": 0,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "correctIndex": 1,
+          "explanation": "The condition makes ethics approval necessary for publication, not sufficient, and it says nothing about validity of findings.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the scientific publication challenge scenario, Only the reviewers who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Only and implication",
+          "text": "An archive states that only studies with available raw data qualify for its transparency badge. Which follows?",
           "options": [
-            "All eligible reviewers received certification.",
-            "Every certified reviewer supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Reviewers without certification supplied no data."
+            "Every study with available data gets a badge.",
+            "A badged study has available raw data.",
+            "All studies without badges withheld their data.",
+            "Any publicly shared dataset proves a study was peer reviewed."
           ],
           "correctIndex": 1,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "explanation": "Qualification implies available raw data, not vice versa. The other options reverse the condition or invent causal claims.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the scientific publication challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Responding to a limitation",
+          "text": "A reviewer notes that a study uses only one hospital. Which response is scientifically appropriate?",
           "options": [
-            "The editor whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the paper?",
-            "Whom concluded that the evidence was incomplete?"
+            "Acknowledge that the results may not generalize and propose a multisite replication.",
+            "Declare the hospital's observations meaningless.",
+            "Claim one hospital necessarily represents every health system.",
+            "Remove the methods description to prevent criticism."
           ],
-          "correctIndex": 2,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "A single site may yield useful evidence but limits external validity. Multisite replication tests broader applicability.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the scientific publication challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Ambiguous statement of author",
+          "text": "A proof reads, 'When Dr. Shah called Dr. Lin, she withdrew the manuscript.' Dr. LIN withdrew it. Which revision is unambiguous?",
           "options": [
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete."
+            "After Dr. Shah called, Dr. Lin withdrew the manuscript.",
+            "When Dr. Shah called Dr. Lin, she withdrew the manuscript.",
+            "After their call, she withdrew the manuscript.",
+            "Dr. Shah called Dr. Lin and withdrew the manuscript."
           ],
-          "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "The first version names Dr. Lin as the actor of withdrawal; the other versions are ambiguous or attribute the action to Dr. Shah.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the scientific publication challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Correlation and causation",
+          "text": "High-performing laboratories publish more papers, but they also receive more funding. Which claim cannot be determined from this association alone?",
           "options": [
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary."
+            "Whether publication volume and performance are associated.",
+            "Whether funding may be a confounding factor.",
+            "Whether publishing more papers itself caused the higher performance.",
+            "Whether laboratory funding differs across the sample."
           ],
-          "correctIndex": 0,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 2,
+          "explanation": "More publications may reflect funding and preexisting capacity rather than cause high performance. The observed association cannot isolate causal direction.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the scientific publication challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Confidence interval interpretation",
+          "text": "An estimate of treatment benefit is 3 units with a 95% confidence interval from -1 to 7. What is a sound interpretation?",
           "options": [
-            "An editor describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account."
+            "The data are consistent with both a small negative effect and a positive effect, under the interval's assumptions.",
+            "There is precisely a 95% probability that the effect equals 3.",
+            "Every patient improved by at least 3 units.",
+            "The interval proves that the treatment has zero effect."
           ],
-          "correctIndex": 1,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "The interval includes both negative and positive effects. It does not assign a probability to a specific parameter value or demonstrate every patient's outcome.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the scientific publication challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Decision amid uncertainty",
+          "text": "A new editorial checklist appears to reduce errors in a small pilot, but it increases reviewer workload. Which policy is most responsible?",
           "options": [
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial policy.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data."
+            "Expand cautiously with tracked error rates and reviewer workload, then reassess.",
+            "Require universal use immediately without measuring costs.",
+            "Abandon it because the sample was small regardless of its results.",
+            "Assume the checklist will eliminate every future correction."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "Tracking both intended benefits and costs during expansion preserves evidence-based decisions without claiming certainty.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the scientific publication challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Outcomes versus inputs",
+          "text": "A publisher claims that its quality improved because the number of reviewers per manuscript doubled. Which criticism is strongest?",
           "options": [
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations."
+            "Reviewer count is a process input; independently measured error rates or validity outcomes are needed.",
+            "More reviewers always make findings less reliable.",
+            "Reviewer count cannot be recorded.",
+            "Quality is identical to the number of pages in an article."
           ],
-          "correctIndex": 3,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "Process volume alone cannot establish accuracy or editorial quality. Outcome evidence is needed.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA19-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the scientific publication test scenario, Which comparison is logically parallel?",
+          "skill": "Rates and raw totals",
+          "text": "A journal published 36 corrections among 900 articles and later 40 corrections among 2,000 articles. Which statement is accurate?",
           "options": [
-            "The revised paper's conclusion is more cautious than the author of the first program.",
-            "The revised paper's conclusion is more cautious than that of the earlier paper.",
-            "The revised paper's conclusion is more cautious than the earlier research team.",
-            "The revised paper's conclusion is more cautious than the university."
+            "The correction rate rose from 4% to 5%.",
+            "The count rose, but the rate fell from 4% to 2%.",
+            "Both count and rate declined.",
+            "The correction rate remained at 4%."
           ],
           "correctIndex": 1,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "explanation": "36/900 equals 4%, whereas 40/2,000 equals 2%. Comparing only the counts conceals the lower rate.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA19-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the scientific publication test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Nested requirements",
+          "text": "To publish patient data, a journal requires consent; granting valid consent requires an approved information sheet. Which follows if publication complied?",
           "options": [
-            "The editors agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The editors agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The editors agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The editors agreed to examine assumptions, evaluating evidence, and a revision of conclusions."
+            "An approved information sheet was used.",
+            "An approved information sheet guarantees publication.",
+            "Any patient who reads the sheet must consent.",
+            "Consent can be skipped if the study is influential."
           ],
-          "correctIndex": 2,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 0,
+          "explanation": "Compliant publication implies consent, which implies an approved information sheet. Neither condition forces publication or consent.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the scientific publication test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Comparison with matching objects",
+          "text": "Which sentence compares two accuracy estimates rather than an estimate with a scientist?",
           "options": [
-            "The paper evaluated: three issues, reliability, validity, and replicability.",
-            "The paper evaluated three issues; reliability, validity, and replicability.",
-            "The paper evaluated three issues, reliability: validity, and replicability.",
-            "The paper evaluated three issues: reliability, validity, and replicability."
+            "The revised estimate was more precise than that in the earlier report.",
+            "The revised estimate was more precise than the earlier researcher.",
+            "The revised estimate was more precise than the laboratory staff.",
+            "The revised estimate was more precisely than the earlier report."
           ],
-          "correctIndex": 3,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 0,
+          "explanation": "'That in the earlier report' stands for the earlier estimate; the alternatives compare different things or misuse an adverb.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the scientific publication test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Colon and complete clause",
+          "text": "Which version introduces a list after a complete independent clause?",
           "options": [
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it."
+            "The replication required three controls: random assignment, blinding, and stable measurements.",
+            "The replication required: random assignment, blinding, and stable measurements.",
+            "The replication required three; controls including random assignment.",
+            "The replication required three controls; including blinding."
           ],
           "correctIndex": 0,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "The colon follows the complete clause and introduces its list. Other alternatives split a verb and object or leave fragments.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the scientific publication test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Past counterfactual",
+          "text": "An instrument failed before its scheduled recalibration. Which sentence correctly describes an unreal past result?",
           "options": [
-            "A rejected program could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review."
+            "If the instrument had been recalibrated earlier, the failure might have been detected.",
+            "If the instrument would recalibrate, the failure had detected.",
+            "If the instrument is recalibrated tomorrow, the failure was detected yesterday.",
+            "If recalibration happened next week, the failure will have been detected last month."
           ],
-          "correctIndex": 1,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "Past perfect with 'might have been' expresses an unreal past possibility. The other forms mix unrelated tenses and times.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the scientific publication test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Qualified causation",
+          "text": "A review-time policy began while an automated screening system was introduced; median handling time fell. Which conclusion is defensible?",
           "options": [
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original paper.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants."
+            "The decline followed both changes, and further comparison is needed to isolate effects.",
+            "The policy alone caused the full decline.",
+            "The screening tool alone caused the full decline.",
+            "A lower median proves every paper was handled faster."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 0,
+          "explanation": "Two interventions occurred simultaneously, making the individual effects unidentified. A lower median need not imply improvement for every case.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the scientific publication test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Who versus whom",
+          "text": "The principal investigator ___ the committee appointed had previously coordinated three trials. Which relative pronoun uses formal object case?",
           "options": [
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
+            "who",
+            "whom",
+            "whose",
+            "whoever"
           ],
-          "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 1,
+          "explanation": "Whom serves as the object of 'appointed' in the relative clause. Who is subject case, whose possessive and whoever incompatible with the syntax.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA19-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the scientific publication test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Concessive syntax",
+          "text": "Which sentence acknowledges a small sample and expresses a suitably narrow inference?",
           "options": [
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph."
+            "Although the pilot included only one laboratory, its observations justify further testing rather than universal adoption.",
+            "Although it included one laboratory, the method must work in every laboratory.",
+            "The single laboratory proves all future applications safe.",
+            "Because the sample was small, no useful result could have been observed."
           ],
           "correctIndex": 0,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "explanation": "The concession preserves the preliminary observation while avoiding unsupported generalization. The other options overclaim or dismiss all evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
