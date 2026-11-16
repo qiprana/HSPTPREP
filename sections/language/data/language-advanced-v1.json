@@ -6798,154 +6798,154 @@
         {
           "id": "LA15-P-1",
           "group": "usage",
-          "skill": "Quantifier scope",
-          "text": "In the museum curation practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Noun-pronoun agreement",
+          "text": "A museum's newsletter reads, 'Each of the conservators submitted ___ condition report.' Which choice is grammatically correct in traditional formal singular agreement?",
           "options": [
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed.",
-            "At least one reviewed claim lacked support."
+            "their",
+            "his or her",
+            "them",
+            "themselves"
           ],
-          "correctIndex": 3,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "correctIndex": 1,
+          "explanation": "'Each' is grammatically singular; in traditional formal usage 'his or her' agrees with that singular antecedent. Singular 'their' is also accepted in contemporary English, so the style requirement here is essential to the intended answer.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-2",
           "group": "usage",
-          "skill": "Quantified inference",
-          "text": "In the museum curation practice scenario, The memorandum states that some research council members questioned the interpretation. Which conclusion follows?",
+          "skill": "Appositive punctuation",
+          "text": "A museum employs several education directors. Which sentence uses a restrictive description to identify the one who developed the audio tour?",
           "options": [
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation.",
-            "Only research council members could question it."
+            "The director who developed the audio tour will address the visitors.",
+            "The director, who developed the audio tour, will address the visitors.",
+            "The director who developed the audio tour, will address the visitors.",
+            "The director, who developed the audio tour will address the visitors."
           ],
           "correctIndex": 0,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "explanation": "The unpunctuated who-clause identifies one director among several. Commas would make the information supplemental rather than identifying, while the other punctuations are invalid.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-3",
           "group": "usage",
-          "skill": "Complex agreement",
-          "text": "In the museum curation practice scenario, Neither the director nor the evaluators responsible for verification ___ willing to certify the result.",
+          "skill": "Precision of chronology",
+          "text": "A sculpture was carved in 1710, acquired in 1882, and restored in 2019. Which sentence preserves those three distinct events?",
           "options": [
-            "has been",
-            "were",
-            "was",
-            "is"
+            "The sculpture carved in 1882 was acquired in 1710 and restored in 2019.",
+            "Carved in 1710 and acquired in 1882, the sculpture underwent restoration in 2019.",
+            "The sculpture was carved after being acquired and before it was restored in 1710.",
+            "The sculpture was first acquired in 2019 when it was carved."
           ],
           "correctIndex": 1,
-          "explanation": "The plural subject nearest the verb is evaluators, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "explanation": "The introductory participles correctly date carving and acquisition before the 2019 restoration. The other choices reverse or conflate the events.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-4",
           "group": "usage",
-          "skill": "Sentence boundaries",
-          "text": "In the museum curation practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Parallel museum objectives",
+          "text": "Which sentence expresses three museum goals with grammatically parallel infinitive phrases?",
           "options": [
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment.",
-            "The evidence was limited, consequently, the panel postponed judgment."
+            "The gallery aims to preserve artifacts, to explain contexts, and to improve accessibility.",
+            "The gallery aims to preserve artifacts, explaining contexts, and accessibility improvements.",
+            "The gallery aims for preservation, to explain contexts, and improving access.",
+            "The gallery aims to preserve artifacts, contexts explained, and to improve access."
           ],
-          "correctIndex": 2,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 0,
+          "explanation": "Three infinitive phrases share parallel structure after 'aims.' The others mix infinitives with participles, nouns, or passive phrases.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-5",
           "group": "usage",
-          "skill": "Modifier focus",
-          "text": "In the museum curation practice scenario, Which choice specifically means that the research council revised the conclusion but left all other sections unchanged?",
+          "skill": "Agent of participial phrase",
+          "text": "A label says, 'While examining the painting, several scratches were found by the curator.' Which correction removes the dangling modifier?",
           "options": [
-            "Only the research council revised the conclusion.",
-            "The research council only revised the conclusion.",
-            "The research council revised the only conclusion.",
-            "The research council revised only the conclusion."
+            "While examining the painting, the curator found several scratches.",
+            "While examining the painting, several scratches were identified.",
+            "Examining the painting, scratches appeared to the curator.",
+            "The scratches, examining the painting, were identified by the curator."
           ],
-          "correctIndex": 3,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "correctIndex": 0,
+          "explanation": "The curator must be the subject of the examining action; the other choices leave 'scratches' as the implied examiner or obscure the actor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the museum curation practice scenario, Which revision clearly makes the evaluator the person who inspected the results?",
+          "skill": "Comparing measurements",
+          "text": "Which revision makes the two objects of comparison alike in 'The attendance of the new exhibition exceeded the old gallery'?",
           "options": [
-            "Having inspected the results, the evaluator reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The evaluator reported a discrepancy after she inspected it.",
-            "The discrepancy, having been inspected, was reported by the evaluator."
+            "Attendance at the new exhibition exceeded attendance at the old gallery.",
+            "Attendance at the new exhibition exceeded the old gallery's architect.",
+            "The new exhibition's attendance exceeded the old gallery building.",
+            "The new exhibition's attendance was more greater than the old gallery."
           ],
           "correctIndex": 0,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "explanation": "Attendance must be compared to attendance rather than an architect or building. The remaining versions retain faulty comparisons or introduce a double comparative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the museum curation practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Subjunctive recommendation",
+          "text": "A conservation committee recommends that every light-sensitive textile ___ stored away from direct sunlight. Which completion fits formal English?",
           "options": [
-            "If the evaluator were available, the evidence had been checked last week.",
-            "If the evaluator were available, the evidence could be checked today.",
-            "If the evaluator had been available, the evidence will be checked yesterday.",
-            "If the evaluator will be available, the evidence would have been checked."
+            "is",
+            "was",
+            "be",
+            "has been"
           ],
-          "correctIndex": 1,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 2,
+          "explanation": "A recommendation governing a that-clause calls for the mandative subjunctive base form 'be.' The indicative choices shift the clause into descriptions of current or past states.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the museum curation practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Restricting the claim",
+          "text": "A pilot study finds that a digital exhibit improves visitor recall among 40 volunteers. Which summary respects the limitations of the evidence?",
           "options": [
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid.",
-            "Verification failure guarantees the license always remains valid."
+            "The exhibit raised recall in the volunteer sample; broader effectiveness needs additional evaluation.",
+            "The exhibit will improve recall for every museum visitor.",
+            "Forty volunteers are sufficient to prove benefits in every age group.",
+            "The study demonstrates that traditional exhibits can never improve memory."
           ],
-          "correctIndex": 2,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 0,
+          "explanation": "The finding concerns a limited volunteer sample and does not establish universal effects. Other options extrapolate beyond the observed group.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA15-C-1",
           "group": "usage",
-          "skill": "Museum access",
-          "text": "A museum asks people who bought online tickets whether its ticket system is accessible. Which missing group matters most?",
+          "skill": "Accessibility sampling",
+          "text": "A museum surveys only customers who completed an online ticket purchase when assessing website accessibility. Which additional group is most informative?",
           "options": [
-            "Visitors who succeeded in purchasing tickets.",
-            "Visitors who abandoned the purchase because of accessibility barriers.",
-            "People who visited the museum shop afterward.",
-            "Visitors who printed their successful tickets."
+            "People who abandoned the transaction because controls were inaccessible.",
+            "Customers who purchased the highest-priced ticket.",
+            "Visitors who viewed the museum's exterior architecture.",
+            "People who received an email receipt after purchase."
           ],
-          "correctIndex": 1,
-          "explanation": "A survey of successful purchasers omits the people most affected by barriers preventing purchase.",
+          "correctIndex": 0,
+          "explanation": "Surveying successful customers omits those blocked by accessibility problems, so their experience is essential for assessing barriers.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -6953,16 +6953,16 @@
         {
           "id": "LA15-C-2",
           "group": "composition",
-          "skill": "Median versus mean",
-          "text": "A museum raises ticket prices for special exhibits but leaves ordinary admission unchanged. Its mean ticket revenue per visitor rises. Which claim is not established?",
+          "skill": "Mean versus typical cost",
+          "text": "A museum raises the price of a small number of premium exhibitions but leaves general entry unchanged. Mean ticket revenue per visitor rises. What is NOT established?",
           "options": [
-            "The revenue mean has increased.",
-            "Special-exhibit tickets may influence the average.",
-            "Every visitor now pays more for admission.",
-            "Different ticket types may have different prices."
+            "Some tickets may generate more revenue than others.",
+            "Premium ticket prices can affect the overall average.",
+            "Every visitor now pays more for general admission.",
+            "The mix of ticket types can influence mean revenue."
           ],
           "correctIndex": 2,
-          "explanation": "A higher mean may reflect premium-ticket purchases without changing what ordinary visitors pay.",
+          "explanation": "The mean can rise because of a minority of higher-priced sales. It does not imply an increase in the price paid by each visitor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6970,16 +6970,16 @@
         {
           "id": "LA15-C-3",
           "group": "composition",
-          "skill": "Museum participation",
-          "text": "After a museum removes its admission fee, student visits increase, but a regional school trip subsidy begins that term. Which evidence would best disentangle their effects?",
+          "skill": "Policy attribution",
+          "text": "A museum eliminates admission charges as a school district simultaneously introduces free museum transportation. Student visits increase. Which conclusion is justified?",
           "options": [
-            "Ask whether the fee change was well advertised.",
-            "Compare attendance among groups eligible and ineligible for the subsidy, accounting for the timing of the fee change.",
-            "Assume free admission is always the sole influence.",
-            "Count visitors without distinguishing school trips."
+            "Eliminating admission alone caused the increase.",
+            "The transportation program alone caused the increase.",
+            "Both policies could have contributed; a comparison is needed to separate their effects.",
+            "The increase proves students prefer museums to all other activities."
           ],
-          "correctIndex": 1,
-          "explanation": "Subsidy eligibility and timing supply a basis for distinguishing a fee effect from subsidized transport.",
+          "correctIndex": 2,
+          "explanation": "Because two plausible causes changed together, a simple before-and-after increase cannot isolate either intervention. The other choices assert causal certainty without evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -6987,293 +6987,293 @@
         {
           "id": "LA15-C-4",
           "group": "composition",
-          "skill": "Concession and rebuttal",
-          "text": "In the museum curation challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Counterfactual inference",
+          "text": "The gallery's policy says that every artifact cleared for public handling must pass a conservation inspection. An artifact passes inspection. What follows?",
           "options": [
-            "The strategy is costly; therefore no one should examine its possible benefits.",
-            "The strategy has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial.",
-            "Although implementation is costly, measured long-term savings may justify a limited trial."
+            "It automatically receives public-handling clearance.",
+            "It has met a prerequisite but may still lack clearance for other reasons.",
+            "Conservation inspections are optional for handling clearance.",
+            "Any inspected artifact will remain safe forever."
           ],
-          "correctIndex": 3,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "correctIndex": 1,
+          "explanation": "Inspection is necessary for clearance under the stated policy, not sufficient. Other safety or security requirements may prevent public handling.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-5",
           "group": "composition",
-          "skill": "Necessary versus sufficient",
-          "text": "In the museum curation challenge scenario, Every approved program passed ethical review. A program passed ethical review. What follows?",
+          "skill": "Sampling proportions",
+          "text": "A visitor study records 72 positive responses out of 90 surveys at one exhibit and 100 out of 200 at another. Which comparison is correct?",
           "options": [
-            "Approval is possible but not established by the ethical review alone.",
-            "The program must have been approved.",
-            "Ethical review was unnecessary.",
-            "No approved program passed ethical review."
+            "The first exhibit has 80% positive responses and the second 50%.",
+            "The first exhibit has 72% positive responses and the second 100%.",
+            "The larger response count implies the second exhibit is more positively received.",
+            "Both exhibits have identical positive-response percentages."
           ],
           "correctIndex": 0,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "explanation": "72 divided by 90 is 80%; 100 divided by 200 is 50%. Counts alone cannot be compared without denominators.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-6",
           "group": "composition",
-          "skill": "Logical scope",
-          "text": "In the museum curation challenge scenario, Only the evaluators who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Independent provenance",
+          "text": "A museum catalog attributes a painting to a particular workshop because three publications agree, but all copy one unverified auction description. Which evidence best adds independent support?",
           "options": [
-            "All eligible evaluators received certification.",
-            "Every certified evaluator supplied raw data.",
-            "Every raw-data supplier was certified.",
-            "Evaluators without certification supplied no data."
+            "Material analysis and workshop records whose provenance is independently documented.",
+            "Another article quoting the same auction description.",
+            "A social-media post repeating all three publications.",
+            "The number of times the auction description is reposted."
           ],
-          "correctIndex": 1,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 0,
+          "explanation": "Independent materials and documentary evidence can test the attribution. Repetition of one auction description is not independent corroboration.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the museum curation challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Ambiguous pronoun",
+          "text": "A display description says, 'After Lucia spoke with Priya, she revised the exhibition label.' Lucia revised it. Which revision is unambiguous?",
           "options": [
-            "The reviewer whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the record?",
-            "Whom concluded that the evidence was incomplete?"
+            "After speaking with Priya, Lucia revised the exhibition label.",
+            "After Lucia spoke with Priya, she revised the exhibition label.",
+            "Lucia spoke with Priya and her exhibition label was revised.",
+            "When they spoke, she revised the exhibition label."
           ],
-          "correctIndex": 2,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "Naming Lucia as the subject of the revision removes any ambiguity about who acted. The alternatives retain unclear referents or obscure the actor.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the museum curation challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Synthesis of survey outcomes",
+          "text": "After a redesigned exhibit opens, dwell time increases but factual recall scores remain unchanged. Which synthesis reflects both observations?",
           "options": [
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation.",
-            "Mira told Elena that Elena's interpretation was incomplete."
+            "Visitors spent longer in the exhibit, but there is no measured improvement in recall.",
+            "Longer dwell time proves all visitors learned more.",
+            "Unchanged recall scores prove the exhibit discouraged every visitor.",
+            "Both measurements must be erroneous because they differ."
           ],
-          "correctIndex": 3,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "correctIndex": 0,
+          "explanation": "Time spent and demonstrated recall measure distinct outcomes. Increased dwell time can coexist with no measurable recall change.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the museum curation challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Ethical interpretation of artifacts",
+          "text": "An exhibit includes a ceremonial item from a living community that disputes its public display. Which response most directly addresses the ethical concern?",
           "options": [
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention.",
-            "Because improvement occurred, further observation is unnecessary."
+            "Consult the community and provenance records before deciding on access and interpretive context.",
+            "Ignore the community because the museum owns the item.",
+            "Replace context with a shorter display label.",
+            "Assume all community members share exactly the same view."
           ],
           "correctIndex": 0,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "explanation": "Consultation and documented provenance help address consent, interpretation, and representation. Ownership alone does not resolve ethical questions, and a community should not be treated as uniform.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the museum curation challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Misleading growth percentages",
+          "text": "Museum membership increases from 250 to 300 while total annual visitors increase from 5,000 to 7,500. What happens to the share of visitors represented by memberships?",
           "options": [
-            "A reviewer describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph.",
-            "A later summary cites only the disputed account."
+            "It rises from 5% to 6%.",
+            "It falls from 5% to 4%.",
+            "It remains 5% because both counts increased.",
+            "It doubles because membership increased."
           ],
           "correctIndex": 1,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "explanation": "Memberships represented 250/5,000 = 5% initially and 300/7,500 = 4% afterward. Raw membership growth coincided with a smaller proportion of visitors.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the museum curation challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Generalizing from expert users",
+          "text": "Professional curators find a new collection-search interface easy to use. Which next study best supports a claim about general visitor usability?",
           "options": [
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial strategy.",
-            "Run a bounded pilot with predefined measures before considering wider adoption.",
-            "Adopt it universally before collecting data."
+            "Recruit novice visitors with varied accessibility needs to perform realistic collection searches.",
+            "Invite more curators who designed the software.",
+            "Count the number of collections in the database.",
+            "Ask only visitors who already completed a successful search."
           ],
-          "correctIndex": 2,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "Testing realistic tasks with novices and varied access needs addresses the intended population. Expert-only and successful-user samples systematically exclude likely difficulties.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the museum curation challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Preservation and public access",
+          "text": "A fragile exhibit can be handled by visitors, but repeated handling causes measurable deterioration. Which plan best balances competing goals?",
           "options": [
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists.",
-            "Identify a measurement that could distinguish the two explanations."
+            "Provide a tactile replica for routine access and controlled original handling when justified.",
+            "Prohibit every form of access, including digital viewing.",
+            "Allow unrestricted handling until the original deteriorates completely.",
+            "Discard the original as soon as a replica is available."
           ],
-          "correctIndex": 3,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 0,
+          "explanation": "A replica can meet routine tactile access needs while limiting damage to the original. The alternatives needlessly sacrifice accessibility or preservation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA15-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the museum curation test scenario, Which comparison is logically parallel?",
+          "skill": "Conjunctive transition",
+          "text": "The museum published a high-resolution image; the original manuscript remained too fragile for display. Which sentence correctly uses 'nevertheless' to mark this contrast?",
           "options": [
-            "The revised record's conclusion is more cautious than the author of the first program.",
-            "The revised record's conclusion is more cautious than that of the earlier record.",
-            "The revised record's conclusion is more cautious than the earlier research team.",
-            "The revised record's conclusion is more cautious than the university."
+            "The museum published an image, nevertheless, the manuscript remained too fragile.",
+            "The museum published an image; nevertheless, the manuscript remained too fragile.",
+            "The museum published an image nevertheless the manuscript, remained too fragile.",
+            "The museum published an image; nevertheless the manuscript, remained too fragile."
           ],
           "correctIndex": 1,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "explanation": "The semicolon separates independent clauses, and a comma follows the conjunctive adverb. The other versions misuse commas or omit necessary punctuation.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA15-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the museum curation test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Pronoun case in relative clause",
+          "text": "The curator introduced the researcher ___ the museum had commissioned to examine the sculpture. Which relative pronoun fits formal object case?",
           "options": [
-            "The reviewers agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The reviewers agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The reviewers agreed to examine assumptions, evaluate evidence, and revise conclusions.",
-            "The reviewers agreed to examine assumptions, evaluating evidence, and a revision of conclusions."
+            "who",
+            "whose",
+            "whom",
+            "whoever"
           ],
           "correctIndex": 2,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "explanation": "Whom functions as the object of 'had commissioned' within the relative clause. Who is subject case, whose is possessive, and whoever does not fit the structure.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the museum curation test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Rate rather than count",
+          "text": "A museum records 36 safety incidents among 12,000 visits, followed by 40 incidents among 20,000 visits. Which comparison is correct?",
           "options": [
-            "The record evaluated: three issues, reliability, validity, and replicability.",
-            "The record evaluated three issues; reliability, validity, and replicability.",
-            "The record evaluated three issues, reliability: validity, and replicability.",
-            "The record evaluated three issues: reliability, validity, and replicability."
+            "The rate rose from 3 to 4 incidents per thousand visits.",
+            "The rate fell from 3 to 2 incidents per thousand visits.",
+            "The rate remained 3 per thousand because both counts increased.",
+            "Incident rates cannot be estimated from these data."
           ],
-          "correctIndex": 3,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "correctIndex": 1,
+          "explanation": "36/12,000 is 3 per thousand visits, while 40/20,000 is 2 per thousand. The absolute count increased despite a lower exposure-adjusted rate.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the museum curation test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Concise appositive",
+          "text": "A gallery has one named director, Dr. Moreno. Which sentence correctly encloses an explanatory appositive without treating it as restrictive?",
           "options": [
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it.",
-            "If the records survived tomorrow, historians had reconstructed it."
+            "Dr. Moreno the gallery's director, delivered the lecture.",
+            "Dr. Moreno, the gallery's director, delivered the lecture.",
+            "Dr. Moreno, the gallery's director delivered, the lecture.",
+            "Dr. Moreno the gallery's director delivered the lecture."
           ],
-          "correctIndex": 0,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "correctIndex": 1,
+          "explanation": "A nonessential appositive identifying an already named director requires commas on both sides. The other choices omit or misplace a boundary.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the museum curation test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Chain of requirements",
+          "text": "To lend an artifact, a museum requires the borrower's insurance certificate; obtaining that certificate requires a security inspection. Which conclusion follows if the artifact was lent under the rules?",
           "options": [
-            "A rejected program could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance.",
-            "Every consent form results in review."
+            "The borrower had completed a required security inspection.",
+            "Every inspected borrower is entitled to receive a loan.",
+            "An insurance certificate guarantees that the object will be lent.",
+            "No lender may require additional paperwork."
           ],
-          "correctIndex": 1,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "A compliant loan entails the certificate and therefore an inspection. Neither prerequisite guarantees a loan, nor does the rule exclude additional requirements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the museum curation test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Balanced historical attribution",
+          "text": "Two early catalogs attribute a portrait to different artists, and neither provides a source. Which label is most responsible?",
           "options": [
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original record.",
-            "Comparable results in independently selected, diverse samples.",
-            "Greater enthusiasm among the original participants."
+            "Portrait by Artist A, unquestionably.",
+            "Portrait by Artist B, unquestionably.",
+            "Portrait, artist uncertain; historical catalogs disagree and the attribution is under review.",
+            "Portrait forged by an unknown artist, as proved by disagreement."
           ],
           "correctIndex": 2,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "explanation": "The conflicting unsourced claims warrant uncertainty, not definitive authorship or a conclusion of forgery. A transparent label records the evidentiary limitation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the museum curation test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Tense sequence",
+          "text": "The conservators completed climate testing before opening the redesigned exhibit. Which sentence makes the completed earlier action clear?",
           "options": [
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible.",
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established."
+            "The conservators had completed climate testing before they opened the exhibit.",
+            "The conservators will have completed testing before they opened yesterday.",
+            "The conservators complete testing after opening the exhibit earlier.",
+            "The conservators has completed the testing before opening next year."
           ],
-          "correctIndex": 3,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 0,
+          "explanation": "Past perfect 'had completed' places testing before the later opening. The alternatives mix incompatible tenses or contain agreement errors.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA15-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the museum curation test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Competing causes and design",
+          "text": "Following new labels and guided tours, visitor understanding improves. Which evaluation is best suited to determine whether the labels helped beyond the tours?",
           "options": [
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance.",
-            "The emotional appeal of the concluding paragraph."
+            "Compare groups with comparable tours but different label conditions, using the same understanding measure.",
+            "Compare the labels' font sizes with the museum's annual budget.",
+            "Ask the guides whether they liked the new labels.",
+            "Assume the first intervention announced produced the whole change."
           ],
           "correctIndex": 0,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "explanation": "Holding tour access constant while varying labels separates their effects more effectively than preferences, irrelevant comparisons, or temporal guesses.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
