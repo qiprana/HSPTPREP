@@ -19482,7 +19482,7 @@
           "options": [
             "Question only participants who liked extended observatory hours after using it.",
             "Attribute the entire difference to extended observatory hours because it was announced publicly.",
-            "Compare only the outcomes of participants in extended observatory hours before and after implementation, and attribute remaining improvements to the program without separately assessing whether a nearby college also added astronomy classes contributed.",
+            "Compare only the outcomes of participants in extended observatory hours before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Compare similar observatories without extended hours, while measuring baseline conditions and the competing change."
           ],
           "correctIndex": 3,
@@ -19722,7 +19722,7 @@
             "Question only participants who liked historic-house restoration grants after using it.",
             "Attribute the entire difference to historic-house restoration grants because it was announced publicly.",
             "Compare similar historic districts without grants, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in historic-house restoration grants before and after implementation, and attribute remaining improvements to the program without separately assessing whether property values increased throughout the region contributed."
+            "Compare only the outcomes of participants in historic-house restoration grants before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 2,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (property values increased throughout the region). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -19961,7 +19961,7 @@
             "Question only participants who liked patient appointment reminders after using it.",
             "Compare patients with comparable histories who did not receive reminders, while measuring baseline conditions and the competing change.",
             "Attribute the entire difference to patient appointment reminders because it was announced publicly.",
-            "Compare only the outcomes of participants in patient appointment reminders before and after implementation, and attribute remaining improvements to the program without separately assessing whether the clinic simultaneously added evening appointments contributed."
+            "Compare only the outcomes of participants in patient appointment reminders before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 1,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the clinic simultaneously added evening appointments). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -20198,7 +20198,7 @@
           "text": "Reports attribute a change in native species observed to wetland restoration, but rainfall was unusually high during the trial. Which design best tests whether the program contributed independently?",
           "options": [
             "Compare similar unrestored wetlands observed during the same weather, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in wetland restoration before and after implementation, and attribute remaining improvements to the program without separately assessing whether rainfall was unusually high during the trial contributed.",
+            "Compare only the outcomes of participants in wetland restoration before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Attribute the entire difference to wetland restoration because it was announced publicly.",
             "Exclude records inconsistent with the claim so the comparison is clearer."
           ],
@@ -20438,7 +20438,7 @@
           "options": [
             "Question only participants who liked a school reading club after using it.",
             "Attribute the entire difference to a school reading club because it was announced publicly.",
-            "Compare only the outcomes of participants in a school reading club before and after implementation, and attribute remaining improvements to the program without separately assessing whether participating students already read more before joining contributed.",
+            "Compare only the outcomes of participants in a school reading club before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Compare students with comparable earlier reading histories, while measuring baseline conditions and the competing change."
           ],
           "correctIndex": 3,
@@ -20678,7 +20678,7 @@
             "Question only participants who liked after-school mathematics tutoring after using it.",
             "Attribute the entire difference to after-school mathematics tutoring because it was announced publicly.",
             "Compare classes using the same textbook without additional tutoring, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in after-school mathematics tutoring before and after implementation, and attribute remaining improvements to the program without separately assessing whether the school also adopted a new textbook contributed."
+            "Compare only the outcomes of participants in after-school mathematics tutoring before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 2,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the school also adopted a new textbook). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -20917,7 +20917,7 @@
             "Question only participants who liked adaptive traffic signals after using it.",
             "Compare comparable intersections without new signals, while measuring baseline conditions and the competing change.",
             "Attribute the entire difference to adaptive traffic signals because it was announced publicly.",
-            "Compare only the outcomes of participants in adaptive traffic signals before and after implementation, and attribute remaining improvements to the program without separately assessing whether regional traffic declined during construction contributed."
+            "Compare only the outcomes of participants in adaptive traffic signals before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 1,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (regional traffic declined during construction). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -21156,7 +21156,7 @@
             "Compare similar neighborhoods without the incentives, while measuring baseline conditions and the competing change.",
             "Question only participants who liked household recycling incentives after using it.",
             "Attribute the entire difference to household recycling incentives because it was announced publicly.",
-            "Compare only the outcomes of participants in household recycling incentives before and after implementation, and attribute remaining improvements to the program without separately assessing whether a new recycling depot opened that month contributed."
+            "Compare only the outcomes of participants in household recycling incentives before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 0,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (a new recycling depot opened that month). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -21394,7 +21394,7 @@
           "options": [
             "Question only participants who liked museum admission discounts after using it.",
             "Attribute the entire difference to museum admission discounts because it was announced publicly.",
-            "Compare only the outcomes of participants in museum admission discounts before and after implementation, and attribute remaining improvements to the program without separately assessing whether a tourism festival increased visits citywide contributed.",
+            "Compare only the outcomes of participants in museum admission discounts before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Compare nearby museums without the discount, while measuring baseline conditions and the competing change."
           ],
           "correctIndex": 3,
@@ -21634,7 +21634,7 @@
             "Question only participants who liked a newsroom fact-checking policy after using it.",
             "Attribute the entire difference to a newsroom fact-checking policy because it was announced publicly.",
             "Compare similar publications not using the new policy, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in a newsroom fact-checking policy before and after implementation, and attribute remaining improvements to the program without separately assessing whether the newspaper published fewer investigative articles contributed."
+            "Compare only the outcomes of participants in a newsroom fact-checking policy before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 2,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the newspaper published fewer investigative articles). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -21873,7 +21873,7 @@
             "Question only participants who liked a farm irrigation pilot after using it.",
             "Compare matched plots using the same fertilizer without the pilot, while measuring baseline conditions and the competing change.",
             "Attribute the entire difference to a farm irrigation pilot because it was announced publicly.",
-            "Compare only the outcomes of participants in a farm irrigation pilot before and after implementation, and attribute remaining improvements to the program without separately assessing whether fertilizer use also increased contributed."
+            "Compare only the outcomes of participants in a farm irrigation pilot before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 1,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (fertilizer use also increased). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -22112,7 +22112,7 @@
             "Compare similar eligible households not yet receiving vouchers, while measuring baseline conditions and the competing change.",
             "Question only participants who liked housing rent-support vouchers after using it.",
             "Attribute the entire difference to housing rent-support vouchers because it was announced publicly.",
-            "Compare only the outcomes of participants in housing rent-support vouchers before and after implementation, and attribute remaining improvements to the program without separately assessing whether regional rents declined temporarily contributed."
+            "Compare only the outcomes of participants in housing rent-support vouchers before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 0,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (regional rents declined temporarily). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -22350,7 +22350,7 @@
           "options": [
             "Question only participants who liked a classroom robotics program after using it.",
             "Attribute the entire difference to a classroom robotics program because it was announced publicly.",
-            "Compare only the outcomes of participants in a classroom robotics program before and after implementation, and attribute remaining improvements to the program without separately assessing whether the participating classes also received smaller group sizes contributed.",
+            "Compare only the outcomes of participants in a classroom robotics program before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Compare classes of similar size without the robotics program, while measuring baseline conditions and the competing change."
           ],
           "correctIndex": 3,
@@ -22590,7 +22590,7 @@
             "Question only participants who liked a digital archive search portal after using it.",
             "Attribute the entire difference to a digital archive search portal because it was announced publicly.",
             "Compare comparable collections accessed through the prior portal, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in a digital archive search portal before and after implementation, and attribute remaining improvements to the program without separately assessing whether the archive removed its most difficult search requests contributed."
+            "Compare only the outcomes of participants in a digital archive search portal before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 2,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the archive removed its most difficult search requests). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -22829,7 +22829,7 @@
             "Question only participants who liked museum audio-description tours after using it.",
             "Compare similar galleries with signage but without the tours, while measuring baseline conditions and the competing change.",
             "Attribute the entire difference to museum audio-description tours because it was announced publicly.",
-            "Compare only the outcomes of participants in museum audio-description tours before and after implementation, and attribute remaining improvements to the program without separately assessing whether new floor signage was introduced at the same time contributed."
+            "Compare only the outcomes of participants in museum audio-description tours before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 1,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (new floor signage was introduced at the same time). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -23068,7 +23068,7 @@
             "Compare comparable homes with standard meters during the same weather, while measuring baseline conditions and the competing change.",
             "Question only participants who liked household smart water meters after using it.",
             "Attribute the entire difference to household smart water meters because it was announced publicly.",
-            "Compare only the outcomes of participants in household smart water meters before and after implementation, and attribute remaining improvements to the program without separately assessing whether the trial coincided with an unusually wet season contributed."
+            "Compare only the outcomes of participants in household smart water meters before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 0,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the trial coincided with an unusually wet season). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -23304,7 +23304,7 @@
           "skill": "Discriminating study design",
           "text": "Reports attribute a change in bus journey times to a dedicated bus lane, but the city's largest employer introduced remote work. Which design best tests whether the program contributed independently?",
           "options": [
-            "Compare only the outcomes of participants in a dedicated bus lane before and after implementation, and attribute remaining improvements to the program without separately assessing whether the city's largest employer introduced remote work contributed.",
+            "Compare only the outcomes of participants in a dedicated bus lane before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change.",
             "Attribute the entire difference to a dedicated bus lane because it was announced publicly.",
             "Exclude records inconsistent with the claim so the comparison is clearer.",
             "Compare similar bus routes unaffected by the lane change, while measuring baseline conditions and the competing change."
@@ -23546,7 +23546,7 @@
             "Question only participants who liked a summer cooling-center program after using it.",
             "Attribute the entire difference to a summer cooling-center program because it was announced publicly.",
             "Compare similar neighborhoods without new center access, while measuring baseline conditions and the competing change.",
-            "Compare only the outcomes of participants in a summer cooling-center program before and after implementation, and attribute remaining improvements to the program without separately assessing whether the second summer was substantially cooler contributed."
+            "Compare only the outcomes of participants in a summer cooling-center program before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 2,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the second summer was substantially cooler). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -23785,7 +23785,7 @@
             "Question only participants who liked a journal's new manuscript-review checklist after using it.",
             "Compare journals with similar screening rules but no new checklist, while measuring baseline conditions and the competing change.",
             "Attribute the entire difference to a journal's new manuscript-review checklist because it was announced publicly.",
-            "Compare only the outcomes of participants in a journal's new manuscript-review checklist before and after implementation, and attribute remaining improvements to the program without separately assessing whether the journal simultaneously tightened desk screening contributed."
+            "Compare only the outcomes of participants in a journal's new manuscript-review checklist before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 1,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (the journal simultaneously tightened desk screening). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
@@ -24024,7 +24024,7 @@
             "Compare students with similar home-reading habits without the extra instruction, while measuring baseline conditions and the competing change.",
             "Question only participants who liked supplemental bilingual instruction after using it.",
             "Attribute the entire difference to supplemental bilingual instruction because it was announced publicly.",
-            "Compare only the outcomes of participants in supplemental bilingual instruction before and after implementation, and attribute remaining improvements to the program without separately assessing whether participating families volunteered more home-reading time contributed."
+            "Compare only the outcomes of participants in supplemental bilingual instruction before and after implementation, and attribute remaining improvements to the program without separately assessing the competing change."
           ],
           "correctIndex": 0,
           "explanation": "A matched comparison with baseline information can help separate program effects from the rival explanation (participating families volunteered more home-reading time). Self-selected opinions, timing, and discarding contradictory observations cannot identify causation.",
