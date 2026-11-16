@@ -6798,16 +6798,16 @@
         {
           "id": "LA15-P-1",
           "group": "usage",
-          "skill": "Noun-pronoun agreement",
-          "text": "A museum's newsletter reads, 'Each of the conservators submitted ___ condition report.' Which choice is grammatically correct in traditional formal singular agreement?",
+          "skill": "Pronoun agreement and referent",
+          "text": "The museum's three conservators submitted one shared condition report. Which sentence makes it clear that the report belonged jointly to the conservators?",
           "options": [
-            "their",
-            "his or her",
-            "them",
-            "themselves"
+            "Each conservator submitted her own report.",
+            "The conservators submitted their joint condition report.",
+            "Each of the conservators submitted a separate report.",
+            "The conservators had submitted each of her condition reports."
           ],
           "correctIndex": 1,
-          "explanation": "'Each' is grammatically singular; in traditional formal usage 'his or her' agrees with that singular antecedent. Singular 'their' is also accepted in contemporary English, so the style requirement here is essential to the intended answer.",
+          "explanation": "The plural subject with 'their joint' explicitly identifies a single collectively owned report. The alternatives describe individual reports or contain an agreement error.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
