@@ -7283,154 +7283,154 @@
         {
           "id": "LA16-P-1",
           "group": "composition",
-          "skill": "Quantifier scope",
-          "text": "In the water management practice scenario, Which inference is logically equivalent to saying that not every reviewed claim was supported?",
+          "skill": "Scope of environmental data",
+          "text": "A reservoir bulletin says not every monitored district met its water-saving target. What can be concluded without knowing the number of districts?",
           "options": [
-            "At least one reviewed claim lacked support.",
-            "No reviewed claims had support.",
-            "Every reviewed claim lacked support.",
-            "All unsupported claims were reviewed."
+            "At least one monitored district missed its target.",
+            "A majority of monitored districts missed their targets.",
+            "No district met its target.",
+            "Every unmonitored district conserved more water."
           ],
           "correctIndex": 0,
-          "explanation": "Not all A are B entails at least one A is not B. The alternatives incorrectly convert a partial claim into a claim about none, all, or a different population.",
+          "explanation": "Negating a universal statement establishes at least one exception; the proportion of unsuccessful districts is unspecified. The other responses overstate the evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-2",
           "group": "composition",
-          "skill": "Quantified inference",
-          "text": "In the water management practice scenario, The memorandum states that some faculty council members questioned the interpretation. Which conclusion follows?",
+          "skill": "Subjunctive recommendation",
+          "text": "The advisory board recommended that the utility ___ daily consumption figures before announcing a drought emergency. Which form is grammatically appropriate?",
           "options": [
-            "Only faculty council members could question it.",
-            "At least one member questioned it, but the text does not tell us whether most members did.",
-            "Every member questioned it.",
-            "A majority necessarily opposed the interpretation."
+            "publishes",
+            "published",
+            "publish",
+            "has published"
           ],
-          "correctIndex": 1,
-          "explanation": "Some is existential, not a claim about a majority or exclusivity. The alternatives wrongly infer a majority, total agreement, or an exclusive right from an existential statement.",
+          "correctIndex": 2,
+          "explanation": "The mandative subjunctive after recommended that takes the base form publish. The other options describe indicative events rather than stating the requested action.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-3",
           "group": "composition",
-          "skill": "Complex agreement",
-          "text": "In the water management practice scenario, Neither the director nor the technicians responsible for verification ___ willing to certify the result.",
+          "skill": "Ambiguous antecedent",
+          "text": "A report reads, 'When the engineer met the inspector, she revised the leakage estimate.' The ENGINEER revised it. Which rewrite removes the ambiguity?",
           "options": [
-            "is",
-            "has been",
-            "were",
-            "was"
+            "After meeting the inspector, the engineer revised the leakage estimate.",
+            "After meeting the engineer, the inspector revised the leakage estimate.",
+            "The engineer met the inspector and she revised the estimate.",
+            "When the engineer met the inspector, her leakage estimate was revised."
           ],
-          "correctIndex": 2,
-          "explanation": "The plural subject nearest the verb is technicians, so were is required. The other verbs attach agreement to the more distant singular noun rather than the nearer plural subject.",
+          "correctIndex": 0,
+          "explanation": "The engineer is explicitly the subject of revised in the first version. The other alternatives shift the actor or leave its identity uncertain.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-4",
           "group": "composition",
-          "skill": "Sentence boundaries",
-          "text": "In the water management practice scenario, Which version correctly joins two independent clauses using a conjunctive adverb?",
+          "skill": "Comparing matching rates",
+          "text": "A summary states, 'The leakage rate of the eastern network was higher than the western network.' Which revision fixes the comparison?",
           "options": [
-            "The evidence was limited, consequently, the panel postponed judgment.",
-            "The evidence was limited; consequently the panel postponed judgment.",
-            "The evidence was limited consequently; the panel postponed judgment.",
-            "The evidence was limited; consequently, the panel postponed judgment."
+            "The eastern network leaked more than western managers.",
+            "The leakage rate of the eastern network exceeded that of the western network.",
+            "The eastern network's leakage rate exceeded the western network's area.",
+            "The leakage rate of the eastern network was more higher than the western."
           ],
-          "correctIndex": 3,
-          "explanation": "A semicolon joins the clauses and a comma follows the conjunctive adverb. The other choices produce a comma splice or omit the punctuation normally needed after the transition.",
+          "correctIndex": 1,
+          "explanation": "'That of' substitutes for the western network's leakage rate, producing a comparison of the same measure. The distractors compare unlike entities or use incorrect grammar.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-5",
           "group": "composition",
-          "skill": "Modifier focus",
-          "text": "In the water management practice scenario, Which choice specifically means that the faculty council revised the conclusion but left all other sections unchanged?",
+          "skill": "Restrictive versus nonrestrictive",
+          "text": "Three water-treatment plants supply the city. Which sentence identifies the specific plant that failed its inspection?",
           "options": [
-            "The faculty council revised only the conclusion.",
-            "Only the faculty council revised the conclusion.",
-            "The faculty council only revised the conclusion.",
-            "The faculty council revised the only conclusion."
+            "The plant that failed its inspection was shut down.",
+            "The plant, that failed its inspection, was shut down.",
+            "The plant that failed its inspection, was shut down.",
+            "The plant, which failed its inspection was shut down."
           ],
           "correctIndex": 0,
-          "explanation": "Placing only directly before its focus identifies what was revised. The alternate placements of only change who did the action or what kind of action occurred.",
+          "explanation": "The restrictive that-clause identifies one plant among several and takes no commas. The other choices add inappropriate punctuation or omit a closing comma.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-6",
           "group": "usage",
-          "skill": "Modifier attachment",
-          "text": "In the water management practice scenario, Which revision clearly makes the technician the person who inspected the results?",
+          "skill": "Parallel procedures",
+          "text": "Which version names three water-sampling procedures with parallel verb forms governed by a single subject?",
           "options": [
-            "The discrepancy, having been inspected, was reported by the technician.",
-            "Having inspected the results, the technician reported a discrepancy.",
-            "Having inspected the results, a discrepancy was reported.",
-            "The technician reported a discrepancy after she inspected it."
+            "The crew collected samples, tested salinity, and recorded temperatures.",
+            "The crew collected samples, salinity testing, and to record temperatures.",
+            "The crew collected samples, testing salinity, and a record of temperatures.",
+            "The crew collected samples, salinity was tested, and temperatures recorded."
           ],
-          "correctIndex": 1,
-          "explanation": "The agent of the introductory participial phrase is the following subject. The other formulations assign the introductory action to a result or leave the actor uncertain.",
+          "correctIndex": 0,
+          "explanation": "Collected, tested, and recorded are three parallel past-tense verbs. The remaining versions mix nouns, participles, infinitives, or passive constructions.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-7",
           "group": "usage",
-          "skill": "Counterfactual mood",
-          "text": "In the water management practice scenario, Which verb sequence describes an unreal possibility in the present?",
+          "skill": "Concessive qualification",
+          "text": "A six-day test finds that the new filter removes more sediment under normal operating conditions. Which conclusion is appropriately qualified?",
           "options": [
-            "If the technician will be available, the evidence would have been checked.",
-            "If the technician were available, the evidence had been checked last week.",
-            "If the technician were available, the evidence could be checked today.",
-            "If the technician had been available, the evidence will be checked yesterday."
+            "Although the trial was brief, it showed better sediment removal under the tested conditions.",
+            "The filter is proven superior in every possible environment.",
+            "Because the trial was short, all measurements must be invalid.",
+            "The filter will maintain identical performance indefinitely."
           ],
-          "correctIndex": 2,
-          "explanation": "Were with could expresses a hypothetical present condition and matching consequence. The other sequences shift between present, past, and future in ways that do not preserve the hypothetical meaning.",
+          "correctIndex": 0,
+          "explanation": "The statement limits the finding to the tested conditions and acknowledges duration. The other responses overgeneralize or dismiss data without reason.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-P-8",
           "group": "usage",
-          "skill": "Conditional interpretation",
-          "text": "In the water management practice scenario, A license remains valid unless annual verification fails. Which claim preserves that conditional meaning?",
+          "skill": "Punctuation of causal transition",
+          "text": "Which sentence properly uses a semicolon and 'therefore' to connect two complete clauses about a failed pressure test?",
           "options": [
-            "Verification failure guarantees the license always remains valid.",
-            "A license is valid only during a year with no verification.",
-            "Every verification failure automatically proves a past license was never valid.",
-            "If annual verification does not fail, the license remains valid."
+            "The pipe failed its test, therefore the system was shut down.",
+            "The pipe failed its test; therefore, the system was shut down.",
+            "The pipe failed its test therefore; the system was shut down.",
+            "The pipe failed; its test therefore, the system was shut down."
           ],
-          "correctIndex": 3,
-          "explanation": "Unless can mean if not; the exception does not establish every consequence when verification fails. The other options either reverse the exception or assert consequences not specified by the condition.",
+          "correctIndex": 1,
+          "explanation": "A semicolon separates the independent clauses and a comma follows therefore. The other alternatives commit a comma splice or divide grammatical constituents incorrectly.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "challenge": [
         {
           "id": "LA16-C-1",
           "group": "usage",
-          "skill": "Water conservation",
-          "text": "Households voluntarily enrolled in a water-saving program use less water afterward. Which design best separates program effects from prior conservation motivation?",
+          "skill": "Treatment assignment",
+          "text": "Water use declines among households that volunteered for conservation training. Which study would best distinguish training effects from existing motivation?",
           "options": [
-            "Compare pre- and post-use of enrolled households only.",
-            "Ask participants whether they like conserving water.",
-            "Recruit comparable households and use randomized enrollment timing while tracking prior usage.",
-            "Measure only total citywide water bills."
+            "Randomly offer training to otherwise comparable eligible households and compare measured usage over time.",
+            "Interview only trainees who report enjoying the program.",
+            "Assume every volunteer was unmotivated before training.",
+            "Compare total city bills without accounting for population changes."
           ],
-          "correctIndex": 2,
-          "explanation": "Randomized timing and baseline usage comparisons help test whether consumption changes result from the program rather than motivated self-selection.",
+          "correctIndex": 0,
+          "explanation": "Random assignment with baseline consumption provides a counterfactual for self-selection. Preferences and citywide totals cannot isolate the training effect.",
           "difficulty": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
@@ -7438,16 +7438,16 @@
         {
           "id": "LA16-C-2",
           "group": "usage",
-          "skill": "Before-after comparison",
-          "text": "A water utility's average household use drops following new metering, during a wet year when outdoor watering also declines. What remains unresolved?",
+          "skill": "Weather-related confounding",
+          "text": "A city installs smart meters and its average water use decreases during an unusually rainy year. Which inference is not justified by the before-after comparison alone?",
           "options": [
-            "Whether weather contributed independently to reduced use.",
-            "Whether average household use declined.",
-            "Whether some customers have outdoor gardens.",
-            "Whether a comparison with a normal-weather year could help."
+            "The average fell during the observation period.",
+            "Rain may have reduced outdoor watering independently.",
+            "The meters alone caused the entire decline.",
+            "A normal-weather comparison would be informative."
           ],
-          "correctIndex": 0,
-          "explanation": "Wet weather is a competing explanation for lower use; before-after means alone do not isolate metering.",
+          "correctIndex": 2,
+          "explanation": "Metering and rainfall changed together, so the measured decline cannot be assigned solely to meters. The other claims describe the observed result or a plausible alternative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -7455,16 +7455,16 @@
         {
           "id": "LA16-C-3",
           "group": "usage",
-          "skill": "Water restriction",
-          "text": "Residential water use falls after restrictions, but rainfall rises sharply. Which evidence most directly tests compliance-related effects?",
+          "skill": "Comparing normalized leakage",
+          "text": "Network A loses 40,000 liters through 800 connections per day; Network B loses 48,000 liters through 1,600 connections. Which network loses more per connection?",
           "options": [
-            "A comparison of water use under similar rainfall and temperature conditions before and after restrictions.",
-            "A list of published restriction notices.",
-            "The total number of rainy days without consumption data.",
-            "A survey of the municipal office's staff."
+            "A, at 50 liters versus B at 30 liters per connection.",
+            "B, because its total loss is greater.",
+            "Both lose exactly 40 liters per connection.",
+            "The rates are impossible to calculate from the reported totals."
           ],
           "correctIndex": 0,
-          "explanation": "Weather changes outdoor water demand. Matching climatic conditions helps isolate the impact of restrictions.",
+          "explanation": "Dividing each total by the connections gives 50 versus 30 liters. The larger raw loss in B does not imply a larger per-connection loss.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
           "editorialStatus": "individually-authored-editorial-review-pending"
@@ -7472,293 +7472,293 @@
         {
           "id": "LA16-C-4",
           "group": "usage",
-          "skill": "Concession and rebuttal",
-          "text": "In the water management challenge scenario, Which sentence both concedes a drawback and offers a relevant rebuttal?",
+          "skill": "Concession and evidence",
+          "text": "A proposal argues that an expensive leak-detection system should be piloted before expansion. Which sentence most responsibly handles cost concerns?",
           "options": [
-            "Although implementation is costly, measured long-term savings may justify a limited trial.",
-            "The initiative is costly; therefore no one should examine its possible benefits.",
-            "The initiative has no drawbacks, so opponents must be irrational.",
-            "Implementation is expensive, proving that it is beneficial."
+            "Although installation is costly, a limited trial could determine whether verified water savings justify wider adoption.",
+            "The system is new, so its cost is irrelevant.",
+            "All leak detectors necessarily pay for themselves within a month.",
+            "If it is expensive, evidence of performance cannot matter."
           ],
           "correctIndex": 0,
-          "explanation": "A sound concession acknowledges cost and replies using evidence relevant to the objection. Rejecting the policy solely on cost or insisting it has no drawbacks both ignore the actual trade-off.",
+          "explanation": "A pilot tests potential savings against known costs while acknowledging uncertainty. The alternatives make absolute claims or reject evidence without justification.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-5",
           "group": "usage",
-          "skill": "Necessary versus sufficient",
-          "text": "In the water management challenge scenario, Every approved project passed ethical review. A project passed ethical review. What follows?",
+          "skill": "Necessary and sufficient rules",
+          "text": "A utility says that every approved discharge permit must include a water-quality assessment. A proposed permit includes one. What follows?",
           "options": [
-            "No approved project passed ethical review.",
-            "Approval is possible but not established by the ethical review alone.",
-            "The project must have been approved.",
-            "Ethical review was unnecessary."
+            "The permit must be approved.",
+            "The assessment meets a prerequisite but does not establish that the permit is approved.",
+            "Assessments may only be included after approval.",
+            "Any permit not approved is necessarily fraudulent."
           ],
           "correctIndex": 1,
-          "explanation": "Passing a necessary stage does not guarantee the subsequent outcome. The other responses mistake a prerequisite for an automatic guarantee or deny the stated requirement.",
+          "explanation": "An assessment is necessary for approval but is not automatically sufficient. The rule does not forbid assessments in unapproved applications or establish fraud.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-6",
           "group": "usage",
-          "skill": "Logical scope",
-          "text": "In the water management challenge scenario, Only the technicians who supplied raw data were eligible for certification. What must be true?",
+          "skill": "Scope of only",
+          "text": "A monitoring policy reads, 'Only samples collected in sterile containers were analyzed for bacteria.' Which conclusion is logically warranted?",
           "options": [
-            "Technicians without certification supplied no data.",
-            "All eligible technicians received certification.",
-            "Every certified technician supplied raw data.",
-            "Every raw-data supplier was certified."
+            "Every sterile sample was analyzed.",
+            "Each analyzed sample had been collected in a sterile container.",
+            "No nonsterile sample contained bacteria.",
+            "All samples not analyzed were collected improperly."
           ],
-          "correctIndex": 2,
-          "explanation": "Only sets a necessary condition for certification; it does not guarantee that eligible people were certified. Endorsement is required for certification; receiving the prerequisite does not ensure the final decision.",
+          "correctIndex": 1,
+          "explanation": "The restriction makes sterile collection necessary for analysis, not sufficient to guarantee it. It says nothing about microbial contents or all unexamined samples.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-7",
           "group": "usage",
-          "skill": "Pronoun case",
-          "text": "In the water management challenge scenario, Which sentence uses whom as the object of a verb in formal written English?",
+          "skill": "Metric reliability",
+          "text": "A utility measures water conservation solely by the drop in billed volume after installing new meters. Which concern most directly challenges the metric?",
           "options": [
-            "Whom concluded that the evidence was incomplete?",
-            "The inspector whom presented the findings disagreed.",
-            "Whom is responsible for the final decision?",
-            "Whom did the editor consult before publishing the report?"
+            "Changes in meter calibration and billing completeness could alter recorded volume without changing actual use.",
+            "Water conservation has no measurable properties.",
+            "Any lower billed volume proves pipes no longer leak.",
+            "Monthly water bills cannot be expressed numerically."
           ],
-          "correctIndex": 3,
-          "explanation": "Whom functions as the direct object of consult; the other constructions require who. The other examples incorrectly use the object case where a clause requires a subject.",
+          "correctIndex": 0,
+          "explanation": "Measurement changes can affect bills separately from consumption. An outcome measure must be consistent across time to support a conservation claim.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-8",
           "group": "usage",
-          "skill": "Ambiguous reference",
-          "text": "In the water management challenge scenario, The statement 'Mira told Elena that her interpretation was incomplete' is ambiguous. Which revision unambiguously assigns ownership to Elena?",
+          "skill": "Conditional counterexample",
+          "text": "A contractor claims, 'Every repaired valve passed the follow-up test.' Which finding directly refutes the statement?",
           "options": [
-            "Mira told Elena that Elena's interpretation was incomplete.",
-            "Mira told Elena that her interpretation was incomplete.",
-            "Her interpretation was incomplete when Mira spoke to Elena.",
-            "Mira spoke to Elena about her incomplete interpretation."
+            "One repaired valve failed its follow-up test.",
+            "One unrepaired valve failed its inspection.",
+            "Several repaired valves passed their tests.",
+            "An unrepaired valve passed a preliminary check."
           ],
           "correctIndex": 0,
-          "explanation": "Repeating Elena's name identifies whose interpretation was being assessed. Ambiguous her or she can describe either person; an explicit name resolves that issue.",
+          "explanation": "A single repaired valve with a failed follow-up test contradicts the universal statement. Unrepaired valves and successful cases do not.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-9",
           "group": "usage",
-          "skill": "Claim calibration",
-          "text": "In the water management challenge scenario, Which claim most accurately reports a limited observational result?",
+          "skill": "Causal mechanism",
+          "text": "After a city improves pipe insulation, winter pipe breaks fall, but winters also become warmer. Which evidence most directly separates the two explanations?",
           "options": [
-            "Because improvement occurred, further observation is unnecessary.",
-            "Under the conditions studied, the intervention was associated with a measurable improvement.",
-            "The intervention always produces improvement in every setting.",
-            "Every apparent improvement was caused entirely by the intervention."
+            "Compare break rates for similarly exposed insulated and noninsulated networks across winter temperature changes.",
+            "Interview contractors about the color of insulation.",
+            "Assume the earliest change was entirely responsible.",
+            "Count only breaks that were reported in the first week."
           ],
-          "correctIndex": 1,
-          "explanation": "A bounded claim avoids extending limited observations to a universal causal law. The universal and exclusively causal claims extend far beyond the stated observational evidence.",
+          "correctIndex": 0,
+          "explanation": "Comparing matched systems while accounting for temperatures helps isolate insulation's effect from warmer weather. Other options do not control the key alternative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-10",
           "group": "usage",
-          "skill": "Source evaluation",
-          "text": "In the water management challenge scenario, Which evidence would independently corroborate a disputed account?",
+          "skill": "Independent water-quality confirmation",
+          "text": "A chemical supplier reports that its treatment reduces lead in drinking water using laboratory measurements it alone collected. Which follow-up best tests its claim?",
           "options": [
-            "A later summary cites only the disputed account.",
-            "A inspector describes the narrative as compelling.",
-            "A separately preserved contemporary record confirms the same event.",
-            "The original narrator repeats the event in another paragraph."
+            "Independent certified laboratories test blinded, matched samples with calibrated instruments.",
+            "A second supplier advertisement repeats the reported percentage.",
+            "The supplier publishes a longer marketing description.",
+            "A survey asks residents whether the treatment sounds effective."
           ],
-          "correctIndex": 2,
-          "explanation": "Independent records strengthen corroboration because they do not merely repeat the original source. Citations that ultimately repeat the same allegation do not offer independent confirmation.",
+          "correctIndex": 0,
+          "explanation": "Independent blinded measurements and calibration offer direct replicable evidence. Advertising and opinion are not chemical measurements.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-11",
           "group": "usage",
-          "skill": "Policy judgment",
-          "text": "In the water management challenge scenario, A policy has potential benefits and meaningful uncertainty. Which recommendation best integrates both?",
+          "skill": "Balancing competing objectives",
+          "text": "A city proposes restricting lawn watering to protect drinking-water supplies during drought. Which decision method is most defensible?",
           "options": [
-            "Adopt it universally before collecting data.",
-            "Reject it permanently because uncertainty exists.",
-            "Accept only outcomes that support the initial initiative.",
-            "Run a bounded pilot with predefined measures before considering wider adoption."
+            "Examine measured savings, distributional effects, and exceptions for essential uses before adopting a reviewable policy.",
+            "Prohibit all water use without distinguishing essential needs.",
+            "Assume conservation benefits are zero if residents complain.",
+            "Choose a rule solely because it is easiest to announce."
           ],
-          "correctIndex": 3,
-          "explanation": "A bounded pilot can test a promising approach while limiting risk and allowing revision. Universal adoption or permanent rejection would both exceed what the preliminary evidence can establish.",
+          "correctIndex": 0,
+          "explanation": "A reviewable policy should assess effectiveness alongside fairness and essential needs. The alternatives neglect important consequences or evidence.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-C-12",
           "group": "usage",
-          "skill": "Competing hypotheses",
-          "text": "In the water management challenge scenario, A second explanation fits the same findings as the first. Which response most improves the argument?",
+          "skill": "Competing explanations",
+          "text": "After a recycling campaign, water-bottle purchases decline; at the same time, retailers raise bottled-water prices. Which conclusion best matches the evidence?",
           "options": [
-            "Identify a measurement that could distinguish the two explanations.",
-            "Discard the alternative because the initial account was stated first.",
-            "Use stronger adjectives to make the first explanation convincing.",
-            "Treat matching observations as proof that only one explanation exists."
+            "The campaign alone produced the entire decline.",
+            "Higher prices alone produced the entire decline.",
+            "Both the campaign and prices could have contributed; the aggregate change alone cannot distinguish them.",
+            "The decline proves that every resident stopped buying bottled water."
           ],
-          "correctIndex": 0,
-          "explanation": "A discriminating test can differentiate hypotheses that currently explain the same observations. A decisive test asks which observation would differ if one explanation rather than the other were correct.",
+          "correctIndex": 2,
+          "explanation": "Concurrent messaging and price changes are plausible causes. The before-after total does not uniquely identify an effect or establish universal behavior.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ],
       "test": [
         {
           "id": "LA16-T-1",
           "group": "usage",
-          "skill": "Comparison",
-          "text": "In the water management test scenario, Which comparison is logically parallel?",
+          "skill": "Rate with exposure",
+          "text": "A district recorded 25 pipe failures across 5,000 pipe-kilometers and later 30 across 10,000 pipe-kilometers. How did failures per thousand pipe-kilometers change?",
           "options": [
-            "The revised report's conclusion is more cautious than the university.",
-            "The revised report's conclusion is more cautious than the author of the first project.",
-            "The revised report's conclusion is more cautious than that of the earlier report.",
-            "The revised report's conclusion is more cautious than the earlier research team."
+            "They rose from 5 to 6.",
+            "They fell from 5 to 3.",
+            "They remained constant at 5.",
+            "They increased from 3 to 5."
           ],
-          "correctIndex": 2,
-          "explanation": "That refers to the earlier conclusion, so the two compared entities are alike. The other answers compare a conclusion with a person, an organization, or a different category of thing.",
+          "correctIndex": 1,
+          "explanation": "25/5,000 is 5 per thousand pipe-kilometers, compared with 30/10,000 or 3. Raw failures rose but the rate declined.",
           "difficulty": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review",
+          "editorialStatus": "individually-authored-editorial-review-pending",
           "difficultyBand": "grade10-12"
         },
         {
           "id": "LA16-T-2",
           "group": "usage",
-          "skill": "Parallelism",
-          "text": "In the water management test scenario, Which sentence keeps all three complements grammatically parallel?",
+          "skill": "Prior action in past tense",
+          "text": "A new filtration plant was tested before city officials authorized it to operate. Which sentence states the sequence correctly?",
           "options": [
-            "The inspectors agreed to examine assumptions, evaluating evidence, and a revision of conclusions.",
-            "The inspectors agreed to examination of assumptions, evaluate evidence, and revised conclusions.",
-            "The inspectors agreed to examining assumptions, evaluation of evidence, and conclusions revised.",
-            "The inspectors agreed to examine assumptions, evaluate evidence, and revise conclusions."
+            "Officials had authorized it before it was tested, as expected.",
+            "The plant had been tested before officials authorized operation.",
+            "The plant will have been tested before officials authorized operation yesterday.",
+            "The officials authorize the plant after it had being tested."
           ],
-          "correctIndex": 3,
-          "explanation": "Examine, evaluate, and revise are parallel verbs under the shared infinitive. The other alternatives mix verbal, nominal, and participial forms rather than maintaining coordinated verbs.",
+          "correctIndex": 1,
+          "explanation": "Past perfect indicates that the testing was complete before the later authorization. Other versions alter the chronology or mismatch tense.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-3",
           "group": "usage",
-          "skill": "Colon usage",
-          "text": "In the water management test scenario, Which punctuation correctly introduces an explanatory list after a complete clause?",
+          "skill": "Clarity of agent",
+          "text": "Which sentence makes the technician, rather than the valve, the person who inspected the pressure gauge?",
           "options": [
-            "The report evaluated three issues: reliability, validity, and replicability.",
-            "The report evaluated: three issues, reliability, validity, and replicability.",
-            "The report evaluated three issues; reliability, validity, and replicability.",
-            "The report evaluated three issues, reliability: validity, and replicability."
+            "Inspecting the pressure gauge, the technician found the valve defective.",
+            "Inspecting the pressure gauge, the valve appeared defective.",
+            "The valve, after inspecting the pressure gauge, appeared defective.",
+            "After inspecting the pressure gauge, a defect was found."
           ],
           "correctIndex": 0,
-          "explanation": "A colon introduces a list when preceded by an independent clause. The colon belongs after a complete introductory statement, not after an incomplete verb phrase.",
+          "explanation": "The technician follows the introductory participle as its implied subject. Other choices assign inspection to a valve or leave the actor unstated.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-4",
           "group": "usage",
-          "skill": "Counterfactual past",
-          "text": "In the water management test scenario, Which version expresses an unreal past possibility with correct verb forms?",
+          "skill": "Appropriate semicolon",
+          "text": "Which sentence correctly joins two independent clauses with a contrasting conjunctive adverb?",
           "options": [
-            "If the records survived tomorrow, historians had reconstructed it.",
-            "Had the records survived, historians might have reconstructed the chronology.",
-            "Had the records survive, historians reconstructed the chronology.",
-            "If the records will survive, historians might have reconstructed it."
+            "Water levels improved, however, pollutant concentrations remained high.",
+            "Water levels improved; however, pollutant concentrations remained high.",
+            "Water levels improved however pollutant concentrations, remained high.",
+            "Water levels improved; however pollutant concentrations, remained high."
           ],
           "correctIndex": 1,
-          "explanation": "Past-perfect inversion and modal perfect form a grammatical unreal-past conditional. The incorrect forms pair incompatible tenses or fail to express an unreal event in the past.",
+          "explanation": "A semicolon separates the two independent clauses and a comma follows however. The other versions create comma splices or misplaced punctuation.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-5",
           "group": "usage",
-          "skill": "Nested implication",
-          "text": "In the water management test scenario, If acceptance requires review, and review requires documented consent, what follows?",
+          "skill": "Comparative category",
+          "text": "The report states, 'The efficiency of Filter A exceeds Filter B.' Which revision compares the same measure for both filters?",
           "options": [
-            "Every consent form results in review.",
-            "A rejected project could not have had consent.",
-            "Acceptance is impossible without documented consent.",
-            "Consent alone guarantees acceptance."
+            "The efficiency of Filter A exceeds that of Filter B.",
+            "The efficiency of Filter A exceeds Filter B's technicians.",
+            "Filter A's efficiency exceeds the factory where Filter B was installed.",
+            "The efficiency of Filter A is more greater than Filter B."
           ],
-          "correctIndex": 2,
-          "explanation": "Necessary conditions chain: acceptance requires review, which requires consent. The alternative answers confuse necessary requirements with guarantees or falsely infer the converse.",
+          "correctIndex": 0,
+          "explanation": "'That of Filter B' substitutes for the other filter's efficiency. The alternatives compare unlike things or use a double comparative.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-6",
           "group": "usage",
-          "skill": "External validity",
-          "text": "In the water management test scenario, Which finding best supports generalization beyond an initially narrow, self-selected sample?",
+          "skill": "Conditional chain",
+          "text": "An agency rule requires source-water testing before a reservoir can be certified, and certification is required before public supply begins. Which conclusion follows if supply began in compliance?",
           "options": [
-            "Greater enthusiasm among the original participants.",
-            "More repetitions of the original survey on the same respondents.",
-            "An increase in the number of pages of the original report.",
-            "Comparable results in independently selected, diverse samples."
+            "The source water was tested beforehand.",
+            "Any tested reservoir automatically begins supplying water.",
+            "All tested water is free from every contaminant.",
+            "A reservoir can never be tested unless it is certified."
           ],
-          "correctIndex": 3,
-          "explanation": "Independent sampling and replication address external validity and selection bias. The other options leave the original selection mechanism intact rather than assessing external validity.",
+          "correctIndex": 0,
+          "explanation": "Compliance implies certification and its prerequisite source testing. The reverse directions and universal contaminant claim do not follow.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-7",
           "group": "usage",
-          "skill": "Synthesis",
-          "text": "In the water management test scenario, Which conclusion most carefully handles a promising finding and an unresolved alternative explanation?",
+          "skill": "Confidence and claims",
+          "text": "A trial estimates that a filter removes 91% of a contaminant, with an uncertainty range from 86% to 95%. A regulation requires at least 90% removal. What can the result establish?",
           "options": [
-            "The finding supports further testing, but the alternative must be evaluated before a causal claim is established.",
-            "The observation immediately invalidates every alternative.",
-            "No interpretation can be offered until all uncertainty disappears.",
-            "The finding demonstrates that the alternative explanation is impossible."
+            "Compliance is beyond doubt because the point estimate is 91%.",
+            "The reported uncertainty includes values below the threshold, so the estimate alone does not establish compliance.",
+            "The true removal must be exactly 86%.",
+            "Every individual sample necessarily achieved 91% removal."
           ],
-          "correctIndex": 0,
-          "explanation": "This balances provisional support with an untested competing explanation. Dismissing every interpretation or ignoring the alternative are both stronger than the evidence warrants.",
+          "correctIndex": 1,
+          "explanation": "The uncertainty range crosses the 90% threshold, so the point estimate cannot by itself establish compliance. Range endpoints are not exact truths or individual-sample guarantees.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "LA16-T-8",
           "group": "usage",
-          "skill": "Evidence appraisal",
-          "text": "In the water management test scenario, Which evidence most directly establishes whether a source's conclusion follows from its data?",
+          "skill": "Transparent synthesis",
+          "text": "One report shows lower municipal water consumption, while another shows rising residential water bills after a new tariff. Which conclusion accommodates both findings?",
           "options": [
-            "The emotional appeal of the concluding paragraph.",
-            "A transparent account of measurements, assumptions, and possible competing interpretations.",
-            "The author's professional biography alone.",
-            "The number of citations without examining their relevance."
+            "Consumption and cost can move differently because prices and fixed charges may change.",
+            "Lower consumption necessarily lowers every household's bill.",
+            "Rising bills prove that consumption did not decline.",
+            "The reports must be fraudulent because their trends differ."
           ],
-          "correctIndex": 1,
-          "explanation": "Transparent methods and logical connections between evidence and claims allow evaluation of validity. An author's reputation, lengthy bibliography, or confident tone cannot substitute for a traceable evidentiary argument.",
+          "correctIndex": 0,
+          "explanation": "Consumption is a quantity; bills also depend on rates, fees, and household circumstances. Falling usage and rising bills are not logically contradictory.",
           "difficulty": "grade10-12",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "authored-requires-independent-review"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         }
       ]
     },
