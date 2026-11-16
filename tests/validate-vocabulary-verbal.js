@@ -104,6 +104,19 @@ for(const day of [1,2,5,10,25,50]){
  }
 }
 
+// Cumulative study-word targets must cover older material broadly; previous
+// code repeatedly chose Days 1-2 even for Day 50 challenges.
+for(const day of [10,20,35,50]){
+ for(let sample=0;sample<8;sample++){
+  const qs=api.makeVerbalChallenge(day,'cumulative').filter(q=>q.category==='Synonyms');
+  const targets=qs.map(q=>wordByKey.get(q.studyWordKey));
+  assert.equal(targets.filter(w=>w.day===day).length,4,'Four current-day cumulative word targets');
+  assert.equal(targets.filter(w=>w.day<day).length,8,'Eight prior-day cumulative word targets');
+  assert.ok(new Set(targets.filter(w=>w.day<day).map(w=>w.day)).size>=5,
+    'Cumulative review should span at least five earlier days');
+ }
+}
+
 assert.match(index,/deadline:Date\.now\(\)\+16\*60\*1000/,'Verbal timer should be 16 minutes');
 assert.ok(!index.includes('14-minute countdown')&&!quick.includes('14-minute countdown'),'Outdated Verbal timer label');
 assert.match(index,/q\.questions\.length\)markSubjectDone\(q\.day,'verbal','verbal-challenge'\)/,'Fully answered submissions must count as completed regardless of pass score');
