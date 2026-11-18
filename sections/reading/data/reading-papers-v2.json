@@ -2920,7 +2920,7 @@
         {
           "id": "R03-V-09",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The precocious child read at an advanced level.\", the word \"precocious\" most nearly means",
+          "prompt": "In the sentence \"Although only ten, the precocious student could critique university-level arguments.\", the word \"precocious\" most nearly means",
           "choices": [
             "immature",
             "famished",
@@ -23106,7 +23106,7 @@
         {
           "id": "R09-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The discussion revealed unexpected paradigm among the participants.\", the word \"paradigm\" most nearly means",
+          "prompt": "In the sentence \"The researchers proposed a new paradigm for interpreting the climate data.\", the word \"paradigm\" most nearly means",
           "choices": [
             "exception",
             "opponent",
@@ -23120,30 +23120,30 @@
         {
           "id": "R09-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"Her prescient warning was confirmed months later.\", the word \"prescient\" most nearly means",
+          "prompt": "In the sentence \"The meticulous archivist checked each date against the original record.\", the word \"meticulous\" most nearly means",
           "choices": [
-            "barren",
-            "harmful",
-            "foresighted",
-            "unaware"
+            "careless",
+            "thorough",
+            "impatient",
+            "skeptical"
           ],
-          "correctIndex": 2,
-          "explanation": "In the context of the sentence, prescient means foresighted.",
-          "word": "prescient"
+          "correctIndex": 1,
+          "explanation": "Meticulous describes painstaking attention to detail; comparing each date with its source demonstrates thorough care.",
+          "word": "meticulous"
         },
         {
           "id": "R09-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"His laconic response contained just three words.\", the word \"laconic\" most nearly means",
+          "prompt": "In the sentence \"She felt ambivalent about moving away, excited by the opportunity but reluctant to leave friends.\", the word \"ambivalent\" most nearly means",
           "choices": [
-            "famished",
-            "terse",
-            "verbose",
-            "cautious"
+            "conflicted",
+            "indifferent",
+            "confident",
+            "resentful"
           ],
-          "correctIndex": 1,
-          "explanation": "In the context of the sentence, laconic means terse.",
-          "word": "laconic"
+          "correctIndex": 0,
+          "explanation": "Ambivalent means having mixed or competing feelings, here excitement alongside reluctance.",
+          "word": "ambivalent"
         }
       ]
     },
@@ -23322,7 +23322,7 @@
         {
           "id": "R10-PRV-02",
           "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"blasphemy\" in this sentence: \"The class debated whether the situation reflected blasphemy.\"?",
+          "prompt": "Which word is most nearly OPPOSITE in meaning to \"blasphemy\" in this sentence: \"The novelist's remarks were condemned as blasphemy by religious critics.\"?",
           "choices": [
             "stupor",
             "reverence",
@@ -23336,7 +23336,7 @@
         {
           "id": "R10-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The discussion revealed unexpected cadence among the participants.\", the word \"cadence\" most nearly means",
+          "prompt": "In the sentence \"The violinist maintained a steady cadence through the difficult passage.\", the word \"cadence\" most nearly means",
           "choices": [
             "rhythm",
             "irregularity",
@@ -23350,7 +23350,7 @@
         {
           "id": "R10-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The speaker tried to quell the audience during the debate.\", the word \"quell\" most nearly means",
+          "prompt": "In the sentence \"The speaker tried to quell the disturbance before the debate resumed.\", the word \"quell\" most nearly means",
           "choices": [
             "incite",
             "help",
@@ -23364,7 +23364,7 @@
         {
           "id": "R10-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The critic called the new approach replete during the discussion.\", the word \"replete\" most nearly means",
+          "prompt": "In the sentence \"The report was replete with evidence from primary sources.\", the word \"replete\" most nearly means",
           "choices": [
             "articulate",
             "inexperienced",
@@ -23552,7 +23552,7 @@
         {
           "id": "R11-PRV-02",
           "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"gossamer\" in this sentence: \"The story portrayed a surprisingly gossamer character.\"?",
+          "prompt": "Which word is most nearly OPPOSITE in meaning to \"gossamer\" in this sentence: \"The gossamer fabric floated in the slightest breeze.\"?",
           "choices": [
             "semi-clear",
             "extreme",
@@ -23580,7 +23580,7 @@
         {
           "id": "R11-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The writer chose a vacuous tone for the difficult subject.\", the word \"vacuous\" most nearly means",
+          "prompt": "In the sentence \"The polished speech sounded impressive but was vacuous when examined closely.\", the word \"vacuous\" most nearly means",
           "choices": [
             "empty",
             "thoughtful",
@@ -23768,7 +23768,7 @@
         {
           "id": "R12-PRV-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The report highlighted the consequences of largesse.\", the word \"largesse\" most nearly means",
+          "prompt": "In the sentence \"Her largesse supported scholarships for students who could not afford tuition.\", the word \"largesse\" most nearly means",
           "choices": [
             "bounty",
             "stinginess",
@@ -23796,7 +23796,7 @@
         {
           "id": "R12-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The story portrayed a surprisingly pervasive character.\", the word \"pervasive\" most nearly means",
+          "prompt": "In the sentence \"The pervasive scent of smoke reached even the upstairs hallway.\", the word \"pervasive\" most nearly means",
           "choices": [
             "productive",
             "ordinary",
@@ -23824,7 +23824,7 @@
         {
           "id": "R12-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The committee voted to belabor the earlier decision.\", the word \"belabor\" most nearly means",
+          "prompt": "In the sentence \"The committee continued to belabor a minor objection long after it was addressed.\", the word \"belabor\" most nearly means",
           "choices": [
             "overexplain",
             "summarize",
@@ -24026,7 +24026,7 @@
         {
           "id": "R13-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The discussion revealed unexpected impasse among the participants.\", the word \"impasse\" most nearly means",
+          "prompt": "In the sentence \"Negotiators reached an impasse after neither side accepted the proposed terms.\", the word \"impasse\" most nearly means",
           "choices": [
             "resolution",
             "scorn",
@@ -24040,7 +24040,7 @@
         {
           "id": "R13-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The story portrayed a surprisingly byzantine character.\", the word \"byzantine\" most nearly means",
+          "prompt": "In the sentence \"The byzantine approval process required signatures from seven departments.\", the word \"byzantine\" most nearly means",
           "choices": [
             "continuous",
             "secret",
@@ -24256,7 +24256,7 @@
         {
           "id": "R14-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The critic called the new approach feigned during the discussion.\", the word \"feigned\" most nearly means",
+          "prompt": "In the sentence \"The witness offered a feigned smile to conceal her irritation.\", the word \"feigned\" most nearly means",
           "choices": [
             "simulated",
             "genuine",
@@ -24458,7 +24458,7 @@
         {
           "id": "R15-PRV-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The writer sought to annex the central argument.\", the word \"annex\" most nearly means",
+          "prompt": "In the sentence \"The country attempted to annex the neighboring territory by decree.\", the word \"annex\" most nearly means",
           "choices": [
             "detach",
             "anger",
@@ -24472,7 +24472,7 @@
         {
           "id": "R15-PRV-02",
           "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"vexation\" in this sentence: \"The class debated whether the situation reflected vexation.\"?",
+          "prompt": "Which word is most nearly OPPOSITE in meaning to \"vexation\" in this sentence: \"The repeated delays caused considerable vexation among the travelers.\"?",
           "choices": [
             "excess",
             "false belief",
@@ -24514,7 +24514,7 @@
         {
           "id": "R15-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The committee voted to allude the earlier decision.\", the word \"allude\" most nearly means",
+          "prompt": "In the sentence \"The author chose to allude to the scandal rather than describe it directly.\", the word \"allude\" most nearly means",
           "choices": [
             "state",
             "discourage",
@@ -24702,7 +24702,7 @@
         {
           "id": "R16-PRV-02",
           "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"archetype\" in this sentence: \"The class debated whether the situation reflected archetype.\"?",
+          "prompt": "Which word is most nearly OPPOSITE in meaning to \"archetype\" in this sentence: \"The hero served as an archetype for later adventure stories.\"?",
           "choices": [
             "prototype",
             "conflict",
@@ -24730,7 +24730,7 @@
         {
           "id": "R16-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The committee described the decision as zealous after reviewing the evidence.\", the word \"zealous\" most nearly means",
+          "prompt": "In the sentence \"The zealous volunteers worked late to complete the campaign.\", the word \"zealous\" most nearly means",
           "choices": [
             "luxurious",
             "fervent",
@@ -24744,7 +24744,7 @@
         {
           "id": "R16-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The committee voted to embolden the earlier decision.\", the word \"embolden\" most nearly means",
+          "prompt": "In the sentence \"The unexpected victory emboldened the team to attempt a harder challenge.\", the word \"embolden\" most nearly means",
           "choices": [
             "encourage",
             "discourage",
@@ -24918,7 +24918,7 @@
         {
           "id": "R17-PRV-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The report highlighted the consequences of foreboding.\", the word \"foreboding\" most nearly means",
+          "prompt": "In the sentence \"She felt a sense of foreboding as the clouds gathered over the harbor.\", the word \"foreboding\" most nearly means",
           "choices": [
             "calm",
             "premonition",
@@ -24932,7 +24932,7 @@
         {
           "id": "R17-PRV-02",
           "type": "Antonym",
-          "prompt": "Which word is most nearly OPPOSITE in meaning to \"inexorable\" in this sentence: \"The story portrayed a surprisingly inexorable character.\"?",
+          "prompt": "Which word is most nearly OPPOSITE in meaning to \"inexorable\" in this sentence: \"The inexorable advance continued despite every obstacle.\"?",
           "choices": [
             "yielding",
             "relentless",
@@ -24960,7 +24960,7 @@
         {
           "id": "R17-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The writer chose a indolent tone for the difficult subject.\", the word \"indolent\" most nearly means",
+          "prompt": "In the sentence \"The indolent guard ignored his duties and slept through the shift.\", the word \"indolent\" most nearly means",
           "choices": [
             "satisfied",
             "germ-free",
@@ -25148,7 +25148,7 @@
         {
           "id": "R18-PRV-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The critic called the new approach discursive during the discussion.\", the word \"discursive\" most nearly means",
+          "prompt": "In the sentence \"The lecturer's discursive remarks wandered far from the main topic.\", the word \"discursive\" most nearly means",
           "choices": [
             "final",
             "strong-smelling",
@@ -25176,7 +25176,7 @@
         {
           "id": "R18-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The story portrayed a surprisingly intrepid character.\", the word \"intrepid\" most nearly means",
+          "prompt": "In the sentence \"The intrepid climber continued along the exposed ridge.\", the word \"intrepid\" most nearly means",
           "choices": [
             "bold",
             "timid",
@@ -25190,7 +25190,7 @@
         {
           "id": "R18-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The historian explained the significance of deference in the account.\", the word \"deference\" most nearly means",
+          "prompt": "In the sentence \"The apprentice showed deference to the experienced craftsperson.\", the word \"deference\" most nearly means",
           "choices": [
             "insolence",
             "irritation",
@@ -25204,7 +25204,7 @@
         {
           "id": "R18-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The writer chose a nonplussed tone for the difficult subject.\", the word \"nonplussed\" most nearly means",
+          "prompt": "In the sentence \"The unexpected question left the speaker nonplussed.\", the word \"nonplussed\" most nearly means",
           "choices": [
             "widespread",
             "legitimate",
@@ -25420,7 +25420,7 @@
         {
           "id": "R19-PRV-04",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The speaker tried to annul the audience during the debate.\", the word \"annul\" most nearly means",
+          "prompt": "In the sentence \"The court voted to annul the invalid agreement.\", the word \"annul\" most nearly means",
           "choices": [
             "void",
             "validate",
@@ -25608,7 +25608,7 @@
         {
           "id": "R20-PRV-01",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The report highlighted the consequences of compendium.\", the word \"compendium\" most nearly means",
+          "prompt": "In the sentence \"The volume was a compendium of essays from several journals.\", the word \"compendium\" most nearly means",
           "choices": [
             "digest",
             "expansion",
@@ -25636,7 +25636,7 @@
         {
           "id": "R20-PRV-03",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The critic called the new approach chimerical during the discussion.\", the word \"chimerical\" most nearly means",
+          "prompt": "In the sentence \"The speaker's sagacious response revealed a practical understanding of the risks.\", the word \"sagacious\" most nearly means",
           "choices": [
             "casual",
             "brief",
@@ -25664,7 +25664,7 @@
         {
           "id": "R20-PRV-05",
           "type": "Reading Vocabulary",
-          "prompt": "In the sentence \"The story portrayed a surprisingly wizened character.\", the word \"wizened\" most nearly means",
+          "prompt": "In the sentence \"The farmer's wizened face bore the marks of decades working outdoors.\", the word \"wizened\" most nearly means",
           "choices": [
             "wrinkled",
             "smooth",
