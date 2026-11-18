@@ -17139,147 +17139,147 @@
           "questions": [
             {
               "id": "R17-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Clock Tower Restoration\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why can't the hand-colored postcard establish the tower's original finish?",
               "choices": [
-                "The concern (“One proposal called for bright colors based on a recent…”) leads to inquiry, but “The samples did not reveal the tower's appearance before…” limits the inference.",
-                "The proposed response (“The restoration committee explained its choices and kept…”) makes the original concern irrelevant.",
-                "The method (“Conservators examined older photographs and tiny samples…”) rules out every possible competing explanation.",
-                "The recorded outcome (“They found that the earliest surviving colors were more…”) is treated as unrelated to the original investigation."
+                "It predates some later finishes but may not be the tower's very first coating.",
+                "Its appearance may reflect later repainting and choices made during printing.",
+                "They allowed competing historically defensible palettes to be compared.",
+                "Their attachment concerns a remembered appearance rather than only the earliest evidence."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The samples did not reveal the tower's appearance before its first recorded repainting. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The postcard is newer than the tower and not a direct record of construction.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Clock Tower Restoration\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the oldest surviving paint layer actually establish?",
               "choices": [
-                "Conservators examined older photographs and tiny samples of paint beneath later layers.",
-                "They found that the earliest surviving colors were more muted than those on the postcard.",
-                "The restoration committee explained its choices and kept records for future work.",
-                "One proposal called for bright colors based on a recent postcard."
+                "It privileges one documented period over other changes residents remember.",
+                "Future conservators may need evidence of finishes removed from public view.",
+                "It predates some later finishes but may not be the tower's very first coating.",
+                "Reliable evidence from before the earliest surviving repainting."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: One proposal called for bright colors based on a recent postcard. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "Paint evidence provides relative sequence, not a complete history.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Clock Tower Restoration\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is restoring an earlier color scheme a historical choice?",
               "choices": [
-                "Conservators examined older photographs and tiny samples of paint beneath later layers.",
-                "One proposal called for bright colors based on a recent postcard.",
-                "They found that the earliest surviving colors were more muted than those on the postcard.",
-                "The samples did not reveal the tower's appearance before its first recorded repainting."
+                "They allowed competing historically defensible palettes to be compared.",
+                "Their attachment concerns a remembered appearance rather than only the earliest evidence.",
+                "They challenge the assumption that the vivid postcard reflects the earliest palette.",
+                "It privileges one documented period over other changes residents remember."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Conservators examined older photographs and tiny samples of paint beneath later layers. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "Selecting a finish is an interpretation rather than a neutral return to certainty.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Clock Tower Restoration\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were sample panels prepared?",
               "choices": [
-                "The restoration committee explained its choices and kept records for future work.",
-                "They found that the earliest surviving colors were more muted than those on the postcard.",
-                "Conservators examined older photographs and tiny samples of paint beneath later layers.",
-                "The samples did not reveal the tower's appearance before its first recorded repainting."
+                "They allowed competing historically defensible palettes to be compared.",
+                "Future conservators may need evidence of finishes removed from public view.",
+                "Reliable evidence from before the earliest surviving repainting.",
+                "Favor an evidence-supported restoration while publicly acknowledging uncertainty."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: They found that the earliest surviving colors were more muted than those on the postcard. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The committee wanted residents to see the practical consequences of each choice.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Clock Tower Restoration\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What concern motivates recording newer layers before covering them?",
               "choices": [
-                "Conservators examined older photographs and tiny samples of paint beneath later layers.",
-                "The restoration committee explained its choices and kept records for future work.",
-                "The samples did not reveal the tower's appearance before its first recorded repainting.",
-                "They found that the earliest surviving colors were more muted than those on the postcard."
+                "Their attachment concerns a remembered appearance rather than only the earliest evidence.",
+                "Future conservators may need evidence of finishes removed from public view.",
+                "They challenge the assumption that the vivid postcard reflects the earliest palette.",
+                "Its appearance may reflect later repainting and choices made during printing."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The samples did not reveal the tower's appearance before its first recorded repainting. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Documentation preserves information even when restoration changes the surface.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Clock Tower Restoration\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why do some residents still prefer the postcard colors?",
               "choices": [
-                "One proposal called for bright colors based on a recent postcard.",
-                "Conservators examined older photographs and tiny samples of paint beneath later layers.",
-                "They found that the earliest surviving colors were more muted than those on the postcard.",
-                "The restoration committee explained its choices and kept records for future work."
+                "Reliable evidence from before the earliest surviving repainting.",
+                "Favor an evidence-supported restoration while publicly acknowledging uncertainty.",
+                "Their attachment concerns a remembered appearance rather than only the earliest evidence.",
+                "It predates some later finishes but may not be the tower's very first coating."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The restoration committee explained its choices and kept records for future work. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "Community memory and documentary chronology emphasize different values.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Clock Tower Restoration\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would strengthen a claim about the original finish?",
               "choices": [
-                "Initial concern: “One proposal called for bright colors based on a recent…”; method: “Conservators examined older photographs and tiny samples…”.",
-                "Initial concern: “One proposal called for bright colors based on a recent…”; method: “The samples did not reveal the tower's appearance before…”.",
-                "Initial concern: “They found that the earliest surviving colors were more…”; method: “The restoration committee explained its choices and kept…”.",
-                "Initial concern: “Conservators examined older photographs and tiny samples…”; method: “They found that the earliest surviving colors were more…”."
+                "They challenge the assumption that the vivid postcard reflects the earliest palette.",
+                "Its appearance may reflect later repainting and choices made during printing.",
+                "It privileges one documented period over other changes residents remember.",
+                "Reliable evidence from before the earliest surviving repainting."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with One proposal called for bright colors based on a recent postcard. and the subsequent investigative procedure is Conservators examined older photographs and tiny samples of paint beneath later layers..",
+              "correctIndex": 3,
+              "explanation": "The team lacks proof of the tower's appearance before that point.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Clock Tower Restoration\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the significance of the muted colors beneath later paint?",
               "choices": [
-                "The method (“Conservators examined older photographs and tiny samples…”) guarantees the result before measurement.",
-                "The observation (“They found that the earliest surviving colors were more…”) matters, but the limit (“The samples did not reveal the tower's appearance before…”) remains.",
-                "The observation (“They found that the earliest surviving colors were more…”) rules out every alternative cause.",
-                "The limitation (“The samples did not reveal the tower's appearance before…”) disproves the observation itself."
+                "They challenge the assumption that the vivid postcard reflects the earliest palette.",
+                "Favor an evidence-supported restoration while publicly acknowledging uncertainty.",
+                "It predates some later finishes but may not be the tower's very first coating.",
+                "They allowed competing historically defensible palettes to be compared."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as They found that the earliest surviving colors were more muted than those on the postcard. but must be read alongside The samples did not reveal the tower's appearance before its first recorded repainting..",
+              "correctIndex": 0,
+              "explanation": "Physical samples contradict a popular visual reference.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Clock Tower Restoration\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What best describes the committee's final approach?",
               "choices": [
-                "The caveat (“The samples did not reveal the tower's appearance before…”) makes the observations worthless.",
-                "The observation (“They found that the earliest surviving colors were more…”) shows that measurement was unnecessary.",
-                "The response (“The restoration committee explained its choices and kept…”) follows evidence but remains open to reassessment.",
-                "The response (“The restoration committee explained its choices and kept…”) is proof of success in every setting."
+                "Its appearance may reflect later repainting and choices made during printing.",
+                "Favor an evidence-supported restoration while publicly acknowledging uncertainty.",
+                "It privileges one documented period over other changes residents remember.",
+                "Future conservators may need evidence of finishes removed from public view."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The restoration committee explained its choices and kept records for future work.; the stated limit The samples did not reveal the tower's appearance before its first recorded repainting. still matters.",
+              "correctIndex": 1,
+              "explanation": "The proposal explains its rationale without pretending all historical questions are settled.",
               "passageId": "R17-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P2-10",
@@ -17314,147 +17314,147 @@
           "questions": [
             {
               "id": "R17-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Borrowed Bicycle\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does Ellis initially hesitate to report the bicycle noise?",
               "choices": [
-                "The recorded outcome (“The neighbor found a loose part that would have caused…”) is treated as unrelated to the original investigation.",
-                "The concern (“During practice, Ellis noticed a strange sound from the…”) leads to inquiry, but “Ellis had to miss one practice ride while the bicycle was…” limits the inference.",
-                "The proposed response (“He completed the charity ride a week later and returned…”) makes the original concern irrelevant.",
-                "The method (“Rather than ignore it, Ellis returned the bicycle and…”) rules out every possible competing explanation."
+                "He describes when the clicking grows louder as his weight shifts.",
+                "He worries that identifying a problem will sound like criticizing the lender.",
+                "Explaining a concern can prompt cooperative inspection instead of blame.",
+                "It checks whether the repaired bicycle behaves normally under use."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Ellis had to miss one practice ride while the bicycle was repaired. prevents an overly broad conclusion.",
+              "explanation": "His concern reflects an awkward social obligation rather than certainty about the mechanism.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Borrowed Bicycle\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which detail makes his report useful to the neighbor?",
               "choices": [
-                "The neighbor found a loose part that would have caused trouble on the route.",
-                "He completed the charity ride a week later and returned the bicycle safely.",
-                "During practice, Ellis noticed a strange sound from the rear wheel.",
-                "Rather than ignore it, Ellis returned the bicycle and explained what he had heard."
+                "It could endanger Ellis and further damage someone else's property.",
+                "The delay allows the bicycle to be repaired before a longer event.",
+                "He describes when the clicking grows louder as his weight shifts.",
+                "Care requires prompt communication, not an impossible guarantee against every problem."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: During practice, Ellis noticed a strange sound from the rear wheel. The other choices describe what was done or discovered afterward.",
+              "explanation": "A specific symptom helps distinguish possible mechanical causes.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Borrowed Bicycle\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is riding through the noise an irresponsible alternative?",
               "choices": [
-                "During practice, Ellis noticed a strange sound from the rear wheel.",
-                "The neighbor found a loose part that would have caused trouble on the route.",
-                "Ellis had to miss one practice ride while the bicycle was repaired.",
-                "Rather than ignore it, Ellis returned the bicycle and explained what he had heard."
+                "Explaining a concern can prompt cooperative inspection instead of blame.",
+                "It checks whether the repaired bicycle behaves normally under use.",
+                "Assuming the fault was minor solely because the bicycle still moved.",
+                "It could endanger Ellis and further damage someone else's property."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Rather than ignore it, Ellis returned the bicycle and explained what he had heard. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "He lacks evidence that the suspected fault is harmless.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Borrowed Bicycle\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the neighbor's response show?",
               "choices": [
-                "The neighbor found a loose part that would have caused trouble on the route.",
-                "Rather than ignore it, Ellis returned the bicycle and explained what he had heard.",
-                "Ellis had to miss one practice ride while the bicycle was repaired.",
-                "He completed the charity ride a week later and returned the bicycle safely."
+                "Explaining a concern can prompt cooperative inspection instead of blame.",
+                "The delay allows the bicycle to be repaired before a longer event.",
+                "Care requires prompt communication, not an impossible guarantee against every problem.",
+                "Honest reporting protects both the object and the trust involved in lending."
               ],
               "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The neighbor found a loose part that would have caused trouble on the route. The other statements describe different stages of the inquiry.",
+              "explanation": "The neighbor listens and examines the wheel without accusing Ellis.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Borrowed Bicycle\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does missing a practice ride not count as failure?",
               "choices": [
-                "He completed the charity ride a week later and returned the bicycle safely.",
-                "Ellis had to miss one practice ride while the bicycle was repaired.",
-                "The neighbor found a loose part that would have caused trouble on the route.",
-                "Rather than ignore it, Ellis returned the bicycle and explained what he had heard."
+                "It checks whether the repaired bicycle behaves normally under use.",
+                "The delay allows the bicycle to be repaired before a longer event.",
+                "Assuming the fault was minor solely because the bicycle still moved.",
+                "He worries that identifying a problem will sound like criticizing the lender."
               ],
               "correctIndex": 1,
-              "explanation": "The limitation is: Ellis had to miss one practice ride while the bicycle was repaired. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "Protecting safety takes precedence over an inflexible training schedule.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Borrowed Bicycle\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the short test ride before the event accomplish?",
               "choices": [
-                "Rather than ignore it, Ellis returned the bicycle and explained what he had heard.",
-                "The neighbor found a loose part that would have caused trouble on the route.",
-                "He completed the charity ride a week later and returned the bicycle safely.",
-                "During practice, Ellis noticed a strange sound from the rear wheel."
+                "Care requires prompt communication, not an impossible guarantee against every problem.",
+                "Honest reporting protects both the object and the trust involved in lending.",
+                "It checks whether the repaired bicycle behaves normally under use.",
+                "He describes when the clicking grows louder as his weight shifts."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: He completed the charity ride a week later and returned the bicycle safely. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "Ellis and the neighbor verify the repair before returning to the full route.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Borrowed Bicycle\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the story redefine responsible borrowing?",
               "choices": [
-                "Initial concern: “During practice, Ellis noticed a strange sound from the…”; method: “Ellis had to miss one practice ride while the bicycle was…”.",
-                "Initial concern: “The neighbor found a loose part that would have caused…”; method: “He completed the charity ride a week later and returned…”.",
-                "Initial concern: “Rather than ignore it, Ellis returned the bicycle and…”; method: “The neighbor found a loose part that would have caused…”.",
-                "Initial concern: “During practice, Ellis noticed a strange sound from the…”; method: “Rather than ignore it, Ellis returned the bicycle and…”."
+                "Assuming the fault was minor solely because the bicycle still moved.",
+                "He worries that identifying a problem will sound like criticizing the lender.",
+                "It could endanger Ellis and further damage someone else's property.",
+                "Care requires prompt communication, not an impossible guarantee against every problem."
               ],
               "correctIndex": 3,
-              "explanation": "The issue begins with During practice, Ellis noticed a strange sound from the rear wheel. and the subsequent investigative procedure is Rather than ignore it, Ellis returned the bicycle and explained what he had heard..",
+              "explanation": "Ellis learns that noticing and reporting damage is part of trust.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Borrowed Bicycle\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would most clearly undermine his judgment?",
               "choices": [
-                "The observation (“The neighbor found a loose part that would have caused…”) matters, but the limit (“Ellis had to miss one practice ride while the bicycle was…”) remains.",
-                "The observation (“The neighbor found a loose part that would have caused…”) rules out every alternative cause.",
-                "The limitation (“Ellis had to miss one practice ride while the bicycle was…”) disproves the observation itself.",
-                "The method (“Rather than ignore it, Ellis returned the bicycle and…”) guarantees the result before measurement."
+                "Assuming the fault was minor solely because the bicycle still moved.",
+                "Honest reporting protects both the object and the trust involved in lending.",
+                "He describes when the clicking grows louder as his weight shifts.",
+                "Explaining a concern can prompt cooperative inspection instead of blame."
               ],
               "correctIndex": 0,
-              "explanation": "The result is reported as The neighbor found a loose part that would have caused trouble on the route. but must be read alongside Ellis had to miss one practice ride while the bicycle was repaired..",
+              "explanation": "The narrative presents uncertainty about the noise as a reason to investigate.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Borrowed Bicycle\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What connects the bicycle's condition and Ellis's relationship with the neighbor?",
               "choices": [
-                "The observation (“The neighbor found a loose part that would have caused…”) shows that measurement was unnecessary.",
-                "The response (“He completed the charity ride a week later and returned…”) follows evidence but remains open to reassessment.",
-                "The response (“He completed the charity ride a week later and returned…”) is proof of success in every setting.",
-                "The caveat (“Ellis had to miss one practice ride while the bicycle was…”) makes the observations worthless."
+                "He worries that identifying a problem will sound like criticizing the lender.",
+                "Honest reporting protects both the object and the trust involved in lending.",
+                "It could endanger Ellis and further damage someone else's property.",
+                "The delay allows the bicycle to be repaired before a longer event."
               ],
               "correctIndex": 1,
-              "explanation": "The findings informed He completed the charity ride a week later and returned the bicycle safely.; the stated limit Ellis had to miss one practice ride while the bicycle was repaired. still matters.",
+              "explanation": "The episode resolves through cooperative responsibility rather than concealment.",
               "passageId": "R17-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P3-10",
@@ -17489,147 +17489,147 @@
           "questions": [
             {
               "id": "R17-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Reading Buddies\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the volunteers abandon a single reading activity for every pupil?",
               "choices": [
-                "The method (“The volunteers met pupils in small groups and let them…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Several pupils began taking turns reading short passages…”) is treated as unrelated to the original investigation.",
-                "The concern (“Some younger readers were reluctant to read aloud in…”) leads to inquiry, but “The sessions were too brief to establish long-term…” limits the inference.",
-                "The proposed response (“Teachers continued the program and planned to compare…”) makes the original concern irrelevant."
+                "It creates a more inviting entry into reading practice for different interests.",
+                "Children's reluctance and skill gaps arose from different causes.",
+                "Questions asking pupils to explain a sentence or character's decision.",
+                "Teachers can compare approaches and revisit progress over time."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The sessions were too brief to establish long-term changes in reading scores. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "Some feared correction, others struggled with sounds or book selection.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Reading Buddies\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the purpose of letting pupils choose books?",
               "choices": [
-                "Teachers continued the program and planned to compare results at the end of term.",
-                "Some younger readers were reluctant to read aloud in front of an entire class.",
-                "The volunteers met pupils in small groups and let them choose books that interested them.",
-                "Several pupils began taking turns reading short passages after a few meetings."
+                "A pupil can skip difficult words without understanding the text.",
+                "Increased willingness to participate is not the same as measured long-term comprehension.",
+                "It creates a more inviting entry into reading practice for different interests.",
+                "Fear of public correction discouraged reading aloud in front of a class."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Some younger readers were reluctant to read aloud in front of an entire class. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The volunteers provide stories, nonfiction and poems instead of one mandatory selection.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Reading Buddies\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is fast page completion an imperfect success measure?",
               "choices": [
-                "Several pupils began taking turns reading short passages after a few meetings.",
-                "The sessions were too brief to establish long-term changes in reading scores.",
-                "The volunteers met pupils in small groups and let them choose books that interested them.",
-                "Some younger readers were reluctant to read aloud in front of an entire class."
+                "Questions asking pupils to explain a sentence or character's decision.",
+                "Teachers can compare approaches and revisit progress over time.",
+                "It offers a supportive atmosphere while planning to check actual learning outcomes.",
+                "A pupil can skip difficult words without understanding the text."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: The volunteers met pupils in small groups and let them choose books that interested them. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The volunteers learn that speed can conceal weak comprehension.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Reading Buddies\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the volunteers add to their assessments?",
               "choices": [
-                "The volunteers met pupils in small groups and let them choose books that interested them.",
-                "The sessions were too brief to establish long-term changes in reading scores.",
-                "Teachers continued the program and planned to compare results at the end of term.",
-                "Several pupils began taking turns reading short passages after a few meetings."
+                "Questions asking pupils to explain a sentence or character's decision.",
+                "Increased willingness to participate is not the same as measured long-term comprehension.",
+                "Fear of public correction discouraged reading aloud in front of a class.",
+                "Different obstacles require flexible opportunities and evidence of genuine comprehension."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: Several pupils began taking turns reading short passages after a few meetings. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The revised approach looks for understanding rather than mere fluency.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Reading Buddies\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why don't early positive sessions prove lasting gains?",
               "choices": [
-                "The sessions were too brief to establish long-term changes in reading scores.",
-                "Several pupils began taking turns reading short passages after a few meetings.",
-                "The volunteers met pupils in small groups and let them choose books that interested them.",
-                "Teachers continued the program and planned to compare results at the end of term."
+                "Teachers can compare approaches and revisit progress over time.",
+                "Increased willingness to participate is not the same as measured long-term comprehension.",
+                "It offers a supportive atmosphere while planning to check actual learning outcomes.",
+                "Children's reluctance and skill gaps arose from different causes."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The sessions were too brief to establish long-term changes in reading scores. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Teachers caution that confidence and achievement must be assessed separately.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Reading Buddies\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is gained by recording each child's preferred strategies?",
               "choices": [
-                "Several pupils began taking turns reading short passages after a few meetings.",
-                "Teachers continued the program and planned to compare results at the end of term.",
-                "Some younger readers were reluctant to read aloud in front of an entire class.",
-                "The volunteers met pupils in small groups and let them choose books that interested them."
+                "Fear of public correction discouraged reading aloud in front of a class.",
+                "Different obstacles require flexible opportunities and evidence of genuine comprehension.",
+                "Teachers can compare approaches and revisit progress over time.",
+                "It creates a more inviting entry into reading practice for different interests."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: Teachers continued the program and planned to compare results at the end of term. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The notes support individualized follow-up instead of assuming one method works for everyone.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Reading Buddies\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What social pressure affected some young readers?",
               "choices": [
-                "Initial concern: “Several pupils began taking turns reading short passages…”; method: “Teachers continued the program and planned to compare…”.",
-                "Initial concern: “The volunteers met pupils in small groups and let them…”; method: “Several pupils began taking turns reading short passages…”.",
-                "Initial concern: “Some younger readers were reluctant to read aloud in…”; method: “The volunteers met pupils in small groups and let them…”.",
-                "Initial concern: “Some younger readers were reluctant to read aloud in…”; method: “The sessions were too brief to establish long-term…”."
+                "It offers a supportive atmosphere while planning to check actual learning outcomes.",
+                "Children's reluctance and skill gaps arose from different causes.",
+                "A pupil can skip difficult words without understanding the text.",
+                "Fear of public correction discouraged reading aloud in front of a class."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Some younger readers were reluctant to read aloud in front of an entire class. and the subsequent investigative procedure is The volunteers met pupils in small groups and let them choose books that interested them..",
+              "correctIndex": 3,
+              "explanation": "The smaller group changes the social setting of practice.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Reading Buddies\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the program balance encouragement and assessment?",
               "choices": [
-                "The observation (“Several pupils began taking turns reading short passages…”) rules out every alternative cause.",
-                "The limitation (“The sessions were too brief to establish long-term…”) disproves the observation itself.",
-                "The method (“The volunteers met pupils in small groups and let them…”) guarantees the result before measurement.",
-                "The observation (“Several pupils began taking turns reading short passages…”) matters, but the limit (“The sessions were too brief to establish long-term…”) remains."
+                "It offers a supportive atmosphere while planning to check actual learning outcomes.",
+                "Different obstacles require flexible opportunities and evidence of genuine comprehension.",
+                "It creates a more inviting entry into reading practice for different interests.",
+                "Questions asking pupils to explain a sentence or character's decision."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as Several pupils began taking turns reading short passages after a few meetings. but must be read alongside The sessions were too brief to establish long-term changes in reading scores..",
+              "correctIndex": 0,
+              "explanation": "Warm participation is valued but not confused with proven achievement.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Reading Buddies\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which principle best supports the volunteers' later design?",
               "choices": [
-                "The response (“Teachers continued the program and planned to compare…”) follows evidence but remains open to reassessment.",
-                "The response (“Teachers continued the program and planned to compare…”) is proof of success in every setting.",
-                "The caveat (“The sessions were too brief to establish long-term…”) makes the observations worthless.",
-                "The observation (“Several pupils began taking turns reading short passages…”) shows that measurement was unnecessary."
+                "Children's reluctance and skill gaps arose from different causes.",
+                "Different obstacles require flexible opportunities and evidence of genuine comprehension.",
+                "A pupil can skip difficult words without understanding the text.",
+                "Increased willingness to participate is not the same as measured long-term comprehension."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed Teachers continued the program and planned to compare results at the end of term.; the stated limit The sessions were too brief to establish long-term changes in reading scores. still matters.",
+              "correctIndex": 1,
+              "explanation": "The reading sessions are adjusted according to individual needs.",
               "passageId": "R17-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R17-P4-10",
@@ -18177,147 +18177,147 @@
           "questions": [
             {
               "id": "R18-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Museum's Woven Cloth\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the donor's description of the cloth as 'very old' unhelpful for dating?",
               "choices": [
-                "The proposed response (“The museum labeled the cloth with the best-supported…”) makes the original concern irrelevant.",
-                "The method (“Experts studied fibers, dyes, weaving methods, and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The cloth contained a dye that became widely available…”) is treated as unrelated to the original investigation.",
-                "The concern (“Its design resembled work from several neighboring…”) leads to inquiry, but “The dye evidence established a broad range, not an exact…” limits the inference."
+                "Similar patterns circulated among communities through trade and imitation.",
+                "Traditional methods can persist long after new materials become available.",
+                "It gives no specific chronological reference that can be independently checked.",
+                "The clues narrow possibilities but do not identify a single moment or maker."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The dye evidence established a broad range, not an exact year or maker. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The museum needs material evidence rather than an impression.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Museum's Woven Cloth\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What makes the geometric motif an uncertain clue to origin?",
               "choices": [
-                "The cloth contained a dye that became widely available during a particular period.",
-                "The museum labeled the cloth with the best-supported period and remaining uncertainties.",
-                "Its design resembled work from several neighboring communities.",
-                "Experts studied fibers, dyes, weaving methods, and comparable dated pieces."
+                "The cloth is unlikely to predate the period when that dye became common.",
+                "The cloth may have been used and altered after it was first woven.",
+                "A reliable provenance record linking the textile to a specific workshop.",
+                "Similar patterns circulated among communities through trade and imitation."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Its design resembled work from several neighboring communities. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "Visual resemblance need not identify a single village.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Museum's Woven Cloth\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the identified dye allow researchers to infer?",
               "choices": [
-                "Its design resembled work from several neighboring communities.",
-                "The cloth contained a dye that became widely available during a particular period.",
-                "The dye evidence established a broad range, not an exact year or maker.",
-                "Experts studied fibers, dyes, weaving methods, and comparable dated pieces."
+                "The cloth is unlikely to predate the period when that dye became common.",
+                "Traditional methods can persist long after new materials become available.",
+                "The clues narrow possibilities but do not identify a single moment or maker.",
+                "A photograph with a similar pattern was treated as conclusive evidence."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Experts studied fibers, dyes, weaving methods, and comparable dated pieces. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "A material establishes a boundary, not an exact weaving year.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Museum's Woven Cloth\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is a particular weaving technique not decisive for dating?",
               "choices": [
-                "The cloth contained a dye that became widely available during a particular period.",
-                "Experts studied fibers, dyes, weaving methods, and comparable dated pieces.",
-                "The dye evidence established a broad range, not an exact year or maker.",
-                "The museum labeled the cloth with the best-supported period and remaining uncertainties."
+                "The cloth may have been used and altered after it was first woven.",
+                "Traditional methods can persist long after new materials become available.",
+                "A reliable provenance record linking the textile to a specific workshop.",
+                "Historical honesty may require displaying unresolved questions alongside supported findings."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The cloth contained a dye that became widely available during a particular period. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "A fabric woven later might use an older craft process.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Museum's Woven Cloth\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the different repair thread reveal?",
               "choices": [
-                "The museum labeled the cloth with the best-supported period and remaining uncertainties.",
-                "The dye evidence established a broad range, not an exact year or maker.",
-                "The cloth contained a dye that became widely available during a particular period.",
-                "Experts studied fibers, dyes, weaving methods, and comparable dated pieces."
+                "The clues narrow possibilities but do not identify a single moment or maker.",
+                "A photograph with a similar pattern was treated as conclusive evidence.",
+                "The cloth may have been used and altered after it was first woven.",
+                "It gives no specific chronological reference that can be independently checked."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The dye evidence established a broad range, not an exact year or maker. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The repair is evidence of a history beyond its original manufacture.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Museum's Woven Cloth\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is a date range preferable to an exact year?",
               "choices": [
-                "Experts studied fibers, dyes, weaving methods, and comparable dated pieces.",
-                "The cloth contained a dye that became widely available during a particular period.",
-                "The museum labeled the cloth with the best-supported period and remaining uncertainties.",
-                "Its design resembled work from several neighboring communities."
+                "A reliable provenance record linking the textile to a specific workshop.",
+                "Historical honesty may require displaying unresolved questions alongside supported findings.",
+                "Similar patterns circulated among communities through trade and imitation.",
+                "The clues narrow possibilities but do not identify a single moment or maker."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The museum labeled the cloth with the best-supported period and remaining uncertainties. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The curator rejects precision unsupported by the evidence.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Museum's Woven Cloth\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What additional evidence would most aid a maker attribution?",
               "choices": [
-                "Initial concern: “Its design resembled work from several neighboring…”; method: “The dye evidence established a broad range, not an exact…”.",
-                "Initial concern: “The cloth contained a dye that became widely available…”; method: “The museum labeled the cloth with the best-supported…”.",
-                "Initial concern: “Experts studied fibers, dyes, weaving methods, and…”; method: “The cloth contained a dye that became widely available…”.",
-                "Initial concern: “Its design resembled work from several neighboring…”; method: “Experts studied fibers, dyes, weaving methods, and…”."
+                "A reliable provenance record linking the textile to a specific workshop.",
+                "A photograph with a similar pattern was treated as conclusive evidence.",
+                "It gives no specific chronological reference that can be independently checked.",
+                "The cloth is unlikely to predate the period when that dye became common."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Its design resembled work from several neighboring communities. and the subsequent investigative procedure is Experts studied fibers, dyes, weaving methods, and comparable dated pieces..",
+              "correctIndex": 0,
+              "explanation": "Design similarity and dye analysis alone cannot name its creator.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Museum's Woven Cloth\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the initial cataloger assign a village prematurely?",
               "choices": [
-                "The observation (“The cloth contained a dye that became widely available…”) matters, but the limit (“The dye evidence established a broad range, not an exact…”) remains.",
-                "The observation (“The cloth contained a dye that became widely available…”) rules out every alternative cause.",
-                "The limitation (“The dye evidence established a broad range, not an exact…”) disproves the observation itself.",
-                "The method (“Experts studied fibers, dyes, weaving methods, and…”) guarantees the result before measurement."
+                "Historical honesty may require displaying unresolved questions alongside supported findings.",
+                "A photograph with a similar pattern was treated as conclusive evidence.",
+                "Similar patterns circulated among communities through trade and imitation.",
+                "Traditional methods can persist long after new materials become available."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The cloth contained a dye that became widely available during a particular period. but must be read alongside The dye evidence established a broad range, not an exact year or maker..",
+              "correctIndex": 1,
+              "explanation": "The later audit distinguishes a plausible lead from a proven origin.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Museum's Woven Cloth\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which lesson guides the final museum label?",
               "choices": [
-                "The observation (“The cloth contained a dye that became widely available…”) shows that measurement was unnecessary.",
-                "The response (“The museum labeled the cloth with the best-supported…”) follows evidence but remains open to reassessment.",
-                "The response (“The museum labeled the cloth with the best-supported…”) is proof of success in every setting.",
-                "The caveat (“The dye evidence established a broad range, not an exact…”) makes the observations worthless."
+                "It gives no specific chronological reference that can be independently checked.",
+                "The cloth is unlikely to predate the period when that dye became common.",
+                "Historical honesty may require displaying unresolved questions alongside supported findings.",
+                "The cloth may have been used and altered after it was first woven."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The museum labeled the cloth with the best-supported period and remaining uncertainties.; the stated limit The dye evidence established a broad range, not an exact year or maker. still matters.",
+              "correctIndex": 2,
+              "explanation": "The exhibit treats uncertainty as part of careful interpretation.",
               "passageId": "R18-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P2-10",
@@ -18352,147 +18352,147 @@
           "questions": [
             {
               "id": "R18-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Photo That Changed\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What makes the two photographs an unreliable basis for a simple verdict?",
               "choices": [
-                "The concern (“Several members first insisted that the newer square…”) leads to inquiry, but “The interviews did not produce a single opinion shared by…” limits the inference.",
-                "The proposed response (“The club presented both pictures with a range of…”) makes the original concern irrelevant.",
-                "The method (“The club interviewed residents and mapped changes in…”) rules out every possible competing explanation.",
-                "The recorded outcome (“They learned that the newer layout had removed a busy…”) is treated as unrelated to the original investigation."
+                "Crossing the square became safer and easier for some families.",
+                "Lighting and activity levels could affect how welcoming each image appears.",
+                "They reveal different visual conditions but cannot show every aspect of use or comfort.",
+                "It adds functional evidence to the visual impressions created by photographs."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The interviews did not produce a single opinion shared by every resident. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "Camera views omit experiences of traffic, heat and movement.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Photo That Changed\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What improved when the road was removed?",
               "choices": [
-                "The club presented both pictures with a range of observations rather than one simple verdict.",
-                "Several members first insisted that the newer square looked less welcoming.",
-                "The club interviewed residents and mapped changes in traffic and public seating.",
-                "They learned that the newer layout had removed a busy road but also reduced tree cover."
+                "Reduced tree cover made the space less comfortable in hot weather.",
+                "The interviewees are not a representative survey and value different uses.",
+                "Some value event space while others prefer quiet places to sit.",
+                "Crossing the square became safer and easier for some families."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Several members first insisted that the newer square looked less welcoming. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "The parent contrasts the old traffic barrier with newer pedestrian space.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Photo That Changed\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What quality became worse for some users?",
               "choices": [
-                "They learned that the newer layout had removed a busy road but also reduced tree cover.",
-                "The interviews did not produce a single opinion shared by every resident.",
-                "The club interviewed residents and mapped changes in traffic and public seating.",
-                "Several members first insisted that the newer square looked less welcoming."
+                "Reduced tree cover made the space less comfortable in hot weather.",
+                "Lighting and activity levels could affect how welcoming each image appears.",
+                "It adds functional evidence to the visual impressions created by photographs.",
+                "Whose needs have been improved or disadvantaged by particular design choices?"
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: The club interviewed residents and mapped changes in traffic and public seating. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The shopkeeper remembers shade that once encouraged lingering.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Photo That Changed\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the hour or season of photography matter?",
               "choices": [
-                "The club interviewed residents and mapped changes in traffic and public seating.",
-                "The interviews did not produce a single opinion shared by every resident.",
-                "The club presented both pictures with a range of observations rather than one simple verdict.",
-                "They learned that the newer layout had removed a busy road but also reduced tree cover."
+                "The interviewees are not a representative survey and value different uses.",
+                "Lighting and activity levels could affect how welcoming each image appears.",
+                "Some value event space while others prefer quiet places to sit.",
+                "Public changes can improve one dimension of a place while diminishing another."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: They learned that the newer layout had removed a busy road but also reduced tree cover. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The teacher warns against comparing uncontrolled snapshots.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Photo That Changed\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why doesn't averaging resident opinions settle the question?",
               "choices": [
-                "The interviews did not produce a single opinion shared by every resident.",
-                "They learned that the newer layout had removed a busy road but also reduced tree cover.",
-                "The club interviewed residents and mapped changes in traffic and public seating.",
-                "The club presented both pictures with a range of observations rather than one simple verdict."
+                "It adds functional evidence to the visual impressions created by photographs.",
+                "Whose needs have been improved or disadvantaged by particular design choices?",
+                "The interviewees are not a representative survey and value different uses.",
+                "They reveal different visual conditions but cannot show every aspect of use or comfort."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The interviews did not produce a single opinion shared by every resident. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The club refuses to reduce distinct experiences to one supposed score.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Photo That Changed\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the effect of incorporating traffic and seating maps?",
               "choices": [
-                "They learned that the newer layout had removed a busy road but also reduced tree cover.",
-                "The club presented both pictures with a range of observations rather than one simple verdict.",
-                "Several members first insisted that the newer square looked less welcoming.",
-                "The club interviewed residents and mapped changes in traffic and public seating."
+                "Some value event space while others prefer quiet places to sit.",
+                "Public changes can improve one dimension of a place while diminishing another.",
+                "Crossing the square became safer and easier for some families.",
+                "It adds functional evidence to the visual impressions created by photographs."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The club presented both pictures with a range of observations rather than one simple verdict. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The students investigate how the square is used as well as how it looks.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Photo That Changed\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why might younger residents disagree among themselves?",
               "choices": [
-                "Initial concern: “They learned that the newer layout had removed a busy…”; method: “The club presented both pictures with a range of…”.",
-                "Initial concern: “The club interviewed residents and mapped changes in…”; method: “They learned that the newer layout had removed a busy…”.",
-                "Initial concern: “Several members first insisted that the newer square…”; method: “The club interviewed residents and mapped changes in…”.",
-                "Initial concern: “Several members first insisted that the newer square…”; method: “The interviews did not produce a single opinion shared by…”."
+                "Some value event space while others prefer quiet places to sit.",
+                "Whose needs have been improved or disadvantaged by particular design choices?",
+                "They reveal different visual conditions but cannot show every aspect of use or comfort.",
+                "Reduced tree cover made the space less comfortable in hot weather."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Several members first insisted that the newer square looked less welcoming. and the subsequent investigative procedure is The club interviewed residents and mapped changes in traffic and public seating..",
+              "correctIndex": 0,
+              "explanation": "Age alone does not determine an identical preference.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Photo That Changed\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What question replaces 'Is the new square better?'",
               "choices": [
-                "The observation (“They learned that the newer layout had removed a busy…”) rules out every alternative cause.",
-                "The limitation (“The interviews did not produce a single opinion shared by…”) disproves the observation itself.",
-                "The method (“The club interviewed residents and mapped changes in…”) guarantees the result before measurement.",
-                "The observation (“They learned that the newer layout had removed a busy…”) matters, but the limit (“The interviews did not produce a single opinion shared by…”) remains."
+                "Public changes can improve one dimension of a place while diminishing another.",
+                "Whose needs have been improved or disadvantaged by particular design choices?",
+                "Crossing the square became safer and easier for some families.",
+                "Lighting and activity levels could affect how welcoming each image appears."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as They learned that the newer layout had removed a busy road but also reduced tree cover. but must be read alongside The interviews did not produce a single opinion shared by every resident..",
+              "correctIndex": 1,
+              "explanation": "The account compares benefits and costs for different users.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Photo That Changed\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the main implication of the club's display?",
               "choices": [
-                "The response (“The club presented both pictures with a range of…”) follows evidence but remains open to reassessment.",
-                "The response (“The club presented both pictures with a range of…”) is proof of success in every setting.",
-                "The caveat (“The interviews did not produce a single opinion shared by…”) makes the observations worthless.",
-                "The observation (“They learned that the newer layout had removed a busy…”) shows that measurement was unnecessary."
+                "They reveal different visual conditions but cannot show every aspect of use or comfort.",
+                "Reduced tree cover made the space less comfortable in hot weather.",
+                "Public changes can improve one dimension of a place while diminishing another.",
+                "The interviewees are not a representative survey and value different uses."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The club presented both pictures with a range of observations rather than one simple verdict.; the stated limit The interviews did not produce a single opinion shared by every resident. still matters.",
+              "correctIndex": 2,
+              "explanation": "The square becomes safer but less shaded, complicating a binary judgment.",
               "passageId": "R18-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P3-10",
@@ -18527,147 +18527,147 @@
           "questions": [
             {
               "id": "R18-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Quiet Hour\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the center consult visitors before changing the environment?",
               "choices": [
-                "The recorded outcome (“Attendance rose among people who had previously avoided…”) is treated as unrelated to the original investigation.",
-                "The concern (“Some visitors found the usual bright lights and constant…”) leads to inquiry, but “The quieter hour did not meet every visitor's scheduling…” limits the inference.",
-                "The proposed response (“The center kept the session and invited suggestions for…”) makes the original concern irrelevant.",
-                "The method (“Staff lowered background music and gave advance notice of…”) rules out every possible competing explanation."
+                "Essential notices and programs even while reducing unnecessary sound.",
+                "The chosen time was unavailable to a family whose schedule ran later.",
+                "Different people experienced discomfort from different sensory conditions.",
+                "Different needs may be met by offering options rather than replacing one arrangement."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The quieter hour did not meet every visitor's scheduling needs. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "Reports involved light, echoes, music and sudden announcements.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Quiet Hour\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did staff have to preserve during the trial?",
               "choices": [
-                "Some visitors found the usual bright lights and constant announcements uncomfortable.",
-                "Staff lowered background music and gave advance notice of the adjusted session.",
-                "Attendance rose among people who had previously avoided the crowded periods.",
-                "The center kept the session and invited suggestions for further improvements."
+                "Publicity and access to the scheduled hour can influence participation.",
+                "Visitors could choose a predictable sensory environment.",
+                "The program ran for a limited time and did not represent every visitor.",
+                "Essential notices and programs even while reducing unnecessary sound."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Some visitors found the usual bright lights and constant announcements uncomfortable. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "Some activities depended on announcements and could not simply be silenced.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Quiet Hour\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is increased attendance not conclusive proof of preference?",
               "choices": [
-                "The quieter hour did not meet every visitor's scheduling needs.",
-                "Staff lowered background music and gave advance notice of the adjusted session.",
-                "Some visitors found the usual bright lights and constant announcements uncomfortable.",
-                "Attendance rose among people who had previously avoided the crowded periods."
+                "Publicity and access to the scheduled hour can influence participation.",
+                "The chosen time was unavailable to a family whose schedule ran later.",
+                "Different needs may be met by offering options rather than replacing one arrangement.",
+                "Staffing and available space limit how many specialized sessions can coexist."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Staff lowered background music and gave advance notice of the adjusted session. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The trial attracted people who may already have wanted such an option.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Quiet Hour\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "How did a parent challenge the program's reach?",
               "choices": [
-                "The quieter hour did not meet every visitor's scheduling needs.",
-                "The center kept the session and invited suggestions for further improvements.",
-                "Attendance rose among people who had previously avoided the crowded periods.",
-                "Staff lowered background music and gave advance notice of the adjusted session."
+                "Visitors could choose a predictable sensory environment.",
+                "The chosen time was unavailable to a family whose schedule ran later.",
+                "The program ran for a limited time and did not represent every visitor.",
+                "Accessibility is an ongoing process of listening, testing and adjustment."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Attendance rose among people who had previously avoided the crowded periods. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "An accessible environment may remain inaccessible through its timing.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Quiet Hour\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did advance notice matter?",
               "choices": [
-                "Attendance rose among people who had previously avoided the crowded periods.",
-                "Staff lowered background music and gave advance notice of the adjusted session.",
-                "The center kept the session and invited suggestions for further improvements.",
-                "The quieter hour did not meet every visitor's scheduling needs."
+                "Different needs may be met by offering options rather than replacing one arrangement.",
+                "Staffing and available space limit how many specialized sessions can coexist.",
+                "Visitors could choose a predictable sensory environment.",
+                "Different people experienced discomfort from different sensory conditions."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The quieter hour did not meet every visitor's scheduling needs. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The published schedule helped people anticipate unavoidable sounds.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Quiet Hour\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the center learn from visitors who preferred usual sessions?",
               "choices": [
-                "The center kept the session and invited suggestions for further improvements.",
-                "Some visitors found the usual bright lights and constant announcements uncomfortable.",
-                "Staff lowered background music and gave advance notice of the adjusted session.",
-                "Attendance rose among people who had previously avoided the crowded periods."
+                "The program ran for a limited time and did not represent every visitor.",
+                "Accessibility is an ongoing process of listening, testing and adjustment.",
+                "Essential notices and programs even while reducing unnecessary sound.",
+                "Different needs may be met by offering options rather than replacing one arrangement."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The center kept the session and invited suggestions for further improvements. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The trial supplements instead of imposing one universal setting.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Quiet Hour\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were the results considered provisional?",
               "choices": [
-                "Initial concern: “Staff lowered background music and gave advance notice of…”; method: “Attendance rose among people who had previously avoided…”.",
-                "Initial concern: “Some visitors found the usual bright lights and constant…”; method: “Staff lowered background music and gave advance notice of…”.",
-                "Initial concern: “Some visitors found the usual bright lights and constant…”; method: “The quieter hour did not meet every visitor's scheduling…”.",
-                "Initial concern: “Attendance rose among people who had previously avoided…”; method: “The center kept the session and invited suggestions for…”."
+                "The program ran for a limited time and did not represent every visitor.",
+                "Staffing and available space limit how many specialized sessions can coexist.",
+                "Different people experienced discomfort from different sensory conditions.",
+                "Publicity and access to the scheduled hour can influence participation."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Some visitors found the usual bright lights and constant announcements uncomfortable. and the subsequent investigative procedure is Staff lowered background music and gave advance notice of the adjusted session..",
+              "correctIndex": 0,
+              "explanation": "Staff acknowledged self-selection and scheduling limits.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Quiet Hour\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What resource constraint affects expansion?",
               "choices": [
-                "The limitation (“The quieter hour did not meet every visitor's scheduling…”) disproves the observation itself.",
-                "The method (“Staff lowered background music and gave advance notice of…”) guarantees the result before measurement.",
-                "The observation (“Attendance rose among people who had previously avoided…”) matters, but the limit (“The quieter hour did not meet every visitor's scheduling…”) remains.",
-                "The observation (“Attendance rose among people who had previously avoided…”) rules out every alternative cause."
+                "Accessibility is an ongoing process of listening, testing and adjustment.",
+                "Staffing and available space limit how many specialized sessions can coexist.",
+                "Essential notices and programs even while reducing unnecessary sound.",
+                "The chosen time was unavailable to a family whose schedule ran later."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Attendance rose among people who had previously avoided the crowded periods. but must be read alongside The quieter hour did not meet every visitor's scheduling needs..",
+              "correctIndex": 1,
+              "explanation": "The center explores options without denying operating constraints.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Quiet Hour\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the quiet-hour experiment illustrate?",
               "choices": [
-                "The response (“The center kept the session and invited suggestions for…”) is proof of success in every setting.",
-                "The caveat (“The quieter hour did not meet every visitor's scheduling…”) makes the observations worthless.",
-                "The observation (“Attendance rose among people who had previously avoided…”) shows that measurement was unnecessary.",
-                "The response (“The center kept the session and invited suggestions for…”) follows evidence but remains open to reassessment."
+                "Different people experienced discomfort from different sensory conditions.",
+                "Publicity and access to the scheduled hour can influence participation.",
+                "Accessibility is an ongoing process of listening, testing and adjustment.",
+                "Visitors could choose a predictable sensory environment."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The center kept the session and invited suggestions for further improvements.; the stated limit The quieter hour did not meet every visitor's scheduling needs. still matters.",
+              "correctIndex": 2,
+              "explanation": "The project treats diverse preferences as evidence for flexible design.",
               "passageId": "R18-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R18-P4-10",
