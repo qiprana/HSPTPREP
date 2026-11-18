@@ -22252,138 +22252,138 @@
         },
         {
           "id": "RG06-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Debate Team\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why was Elias's memorized speech insufficient at practice?",
           "choices": [
-            "He studied arguments against his position and practiced responding to challenges.",
-            "At the tournament he adjusted his answers and was praised for flexibility.",
-            "His improvement does not demonstrate that preparation or memorization has no value.",
-            "Elias memorized a debate speech but could not answer an unexpected objection."
+            "Some critics disputed the goal while others questioned the proposed method.",
+            "A narrower claim could remain defensible after its evidence was qualified.",
+            "It could not address an unexpected objection to an underlying assumption.",
+            "Listening and responding thoughtfully to challenges."
           ],
-          "correctIndex": 3,
-          "explanation": "The opening situation establishes why participants needed to act: Elias memorized a debate speech but could not answer an unexpected objection.",
+          "correctIndex": 2,
+          "explanation": "The coach questioned reasoning rather than presentation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What distinction emerged from reading opposing articles?",
           "choices": [
-            "He studied arguments against his position and practiced responding to challenges.",
-            "Elias memorized a debate speech but could not answer an unexpected objection.",
-            "At the tournament he adjusted his answers and was praised for flexibility.",
-            "His improvement does not demonstrate that preparation or memorization has no value."
+            "They rehearsed objections about costs, alternatives and unintended effects.",
+            "To determine whether the example bears on the disputed claim.",
+            "Elias can reason effectively while still feeling uncertain.",
+            "Some critics disputed the goal while others questioned the proposed method."
           ],
-          "correctIndex": 0,
-          "explanation": "The method is the action taken to respond to uncertainty: He studied arguments against his position and practiced responding to challenges.",
+          "correctIndex": 3,
+          "explanation": "Elias learned to separate values from predicted outcomes.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "How did teammates change his preparation?",
           "choices": [
-            "Compare the quality of rebuttals across multiple debates with varied opposing arguments.",
-            "At the tournament he adjusted his answers and was praised for flexibility.",
-            "Elias memorized a debate speech but could not answer an unexpected objection.",
-            "Considering objections can improve a debater's response under uncertainty."
+            "They rehearsed objections about costs, alternatives and unintended effects.",
+            "A narrower claim could remain defensible after its evidence was qualified.",
+            "Listening and responding thoughtfully to challenges.",
+            "Repeating a memorized line that does not address the actual objection."
           ],
-          "correctIndex": 1,
-          "explanation": "The passage reports this outcome: At the tournament he adjusted his answers and was praised for flexibility.",
+          "correctIndex": 0,
+          "explanation": "The new practice demanded adaptive reasoning.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Debate Team\"?",
+          "type": "Guided close reading",
+          "prompt": "Why was acknowledging a limitation not surrender?",
           "choices": [
-            "He studied arguments against his position and practiced responding to challenges.",
-            "At the tournament he adjusted his answers and was praised for flexibility.",
-            "His improvement does not demonstrate that preparation or memorization has no value.",
-            "Elias memorized a debate speech but could not answer an unexpected objection."
+            "To determine whether the example bears on the disputed claim.",
+            "A narrower claim could remain defensible after its evidence was qualified.",
+            "Elias can reason effectively while still feeling uncertain.",
+            "Strong arguments require understanding alternatives rather than rehearsed certainty."
           ],
-          "correctIndex": 2,
-          "explanation": "A careful interpretation must preserve the boundary: His improvement does not demonstrate that preparation or memorization has no value.",
+          "correctIndex": 1,
+          "explanation": "Elias adjusted the scope of his conclusion.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What is the central purpose of asking an opponent to clarify an example?",
           "choices": [
-            "The result (At the tournament he adjusted his answers and was praised for flexibility.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (He studied arguments against his position and practiced responding to challenges.) is unrelated to the concern that motivated it.",
-            "Because the problem (Elias memorized a debate speech but could not answer an unexpected objection.) was identified, later evidence cannot change the original hypothesis.",
-            "Debate success depends partly on responding thoughtfully rather than reciting a fixed script."
+            "Listening and responding thoughtfully to challenges.",
+            "Repeating a memorized line that does not address the actual objection.",
+            "To determine whether the example bears on the disputed claim.",
+            "It could not address an unexpected objection to an underlying assumption."
           ],
-          "correctIndex": 3,
-          "explanation": "The supported synthesis is: Debate success depends partly on responding thoughtfully rather than reciting a fixed script.",
+          "correctIndex": 2,
+          "explanation": "Elias evaluates relevance before answering.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Debate Team\"?",
+          "type": "Guided close reading",
+          "prompt": "What did the team value more than perfect recitation?",
           "choices": [
-            "Compare the quality of rebuttals across multiple debates with varied opposing arguments.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings."
+            "Elias can reason effectively while still feeling uncertain.",
+            "Strong arguments require understanding alternatives rather than rehearsed certainty.",
+            "Some critics disputed the goal while others questioned the proposed method.",
+            "Listening and responding thoughtfully to challenges."
           ],
-          "correctIndex": 0,
-          "explanation": "A focused follow-up can test the uncertainty by compare the quality of rebuttals across multiple debates with varied opposing arguments.",
+          "correctIndex": 3,
+          "explanation": "Flexibility became a measure of preparation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Debate Team\"?",
+          "type": "Guided close reading",
+          "prompt": "Why is nervousness not evidence of failed preparation?",
           "choices": [
-            "His improvement does not demonstrate that preparation or memorization has no value.",
-            "Being flexible means that researching an opening statement is always pointless.",
-            "He studied arguments against his position and practiced responding to challenges.",
-            "At the tournament he adjusted his answers and was praised for flexibility."
+            "Elias can reason effectively while still feeling uncertain.",
+            "Repeating a memorized line that does not address the actual objection.",
+            "It could not address an unexpected objection to an underlying assumption.",
+            "They rehearsed objections about costs, alternatives and unintended effects."
           ],
-          "correctIndex": 1,
-          "explanation": "This absolute conclusion is unsupported: Being flexible means that researching an opening statement is always pointless. The passage instead supports bounded claims.",
+          "correctIndex": 0,
+          "explanation": "The tournament demonstrates action despite discomfort.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What would make a debate response weaker?",
           "choices": [
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Considering objections can improve a debater's response under uncertainty.",
-            "The original problem could never have existed."
+            "Strong arguments require understanding alternatives rather than rehearsed certainty.",
+            "Repeating a memorized line that does not address the actual objection.",
+            "Some critics disputed the goal while others questioned the proposed method.",
+            "A narrower claim could remain defensible after its evidence was qualified."
           ],
-          "correctIndex": 2,
-          "explanation": "The inference depends on the stated consideration: Considering objections can improve a debater's response under uncertainty.",
+          "correctIndex": 1,
+          "explanation": "That failure began the story's learning process.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG06-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What lesson applies beyond competitive debating?",
           "choices": [
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "The supportive tournament audience may also have affected Elias's confidence."
+            "It could not address an unexpected objection to an underlying assumption.",
+            "They rehearsed objections about costs, alternatives and unintended effects.",
+            "Strong arguments require understanding alternatives rather than rehearsed certainty.",
+            "To determine whether the example bears on the disputed claim."
           ],
-          "correctIndex": 3,
-          "explanation": "The account does not rule out this competing possibility: The supportive tournament audience may also have affected Elias's confidence.",
+          "correctIndex": 2,
+          "explanation": "Elias learns to evaluate reasoning in real time.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R06-PRV-01",
@@ -22482,138 +22482,138 @@
         },
         {
           "id": "RG07-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Coral Nurseries\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why do nursery fragment counts overstate possible recovery?",
           "choices": [
-            "Damaged reefs needed restoration while heat and runoff continued to threaten corals.",
-            "Researchers combined coral nurseries with monitoring of water quality.",
-            "The report argued that transplanted coral fares best when underlying threats are addressed.",
-            "Planting fragments cannot by itself remove warming or polluted runoff."
+            "Unusually warm water near a damaged reef.",
+            "Several surviving fragments do not prove all species and interactions have recovered.",
+            "They alter water conditions and interrupt consistent observations.",
+            "Some transplanted colonies may later die under continuing threats."
           ],
-          "correctIndex": 0,
-          "explanation": "The opening situation establishes why participants needed to act: Damaged reefs needed restoration while heat and runoff continued to threaten corals.",
+          "correctIndex": 3,
+          "explanation": "Initial production is not equivalent to long-term survival.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Which environmental condition can bleach new coral?",
           "choices": [
-            "Planting fragments cannot by itself remove warming or polluted runoff.",
-            "Researchers combined coral nurseries with monitoring of water quality.",
-            "Damaged reefs needed restoration while heat and runoff continued to threaten corals.",
-            "The report argued that transplanted coral fares best when underlying threats are addressed."
+            "Unusually warm water near a damaged reef.",
+            "Pollution may undermine survival even when fragments are initially healthy.",
+            "New colonies are visible progress without demonstrating durable recovery.",
+            "Repeated evidence of survival alongside improving environmental conditions."
           ],
-          "correctIndex": 1,
-          "explanation": "The method is the action taken to respond to uncertainty: Researchers combined coral nurseries with monitoring of water quality.",
+          "correctIndex": 0,
+          "explanation": "Temperature remains a threat after planting.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why monitor runoff as well as coral growth?",
           "choices": [
-            "The success of planted colonies depends at least partly on conditions after transplanting.",
-            "Compare coral survival at restored sites with different water-quality and heat conditions.",
-            "The report argued that transplanted coral fares best when underlying threats are addressed.",
-            "Damaged reefs needed restoration while heat and runoff continued to threaten corals."
+            "Several surviving fragments do not prove all species and interactions have recovered.",
+            "Pollution may undermine survival even when fragments are initially healthy.",
+            "They alter water conditions and interrupt consistent observations.",
+            "It replaces some coral while water-quality protection addresses ongoing stress."
           ],
-          "correctIndex": 2,
-          "explanation": "The passage reports this outcome: The report argued that transplanted coral fares best when underlying threats are addressed.",
+          "correctIndex": 1,
+          "explanation": "The intervention cannot remove all sources of damage.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Coral Nurseries\"?",
+          "type": "Guided close reading",
+          "prompt": "What distinguishes local survival from ecosystem resilience?",
           "choices": [
-            "Damaged reefs needed restoration while heat and runoff continued to threaten corals.",
-            "Researchers combined coral nurseries with monitoring of water quality.",
-            "The report argued that transplanted coral fares best when underlying threats are addressed.",
-            "Planting fragments cannot by itself remove warming or polluted runoff."
+            "New colonies are visible progress without demonstrating durable recovery.",
+            "Repeated evidence of survival alongside improving environmental conditions.",
+            "Several surviving fragments do not prove all species and interactions have recovered.",
+            "Nursery work can help recovery when continuing damage is also reduced."
           ],
-          "correctIndex": 3,
-          "explanation": "A careful interpretation must preserve the boundary: Planting fragments cannot by itself remove warming or polluted runoff.",
+          "correctIndex": 2,
+          "explanation": "The team tracks a narrower outcome than full restoration.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What makes residents' optimism understandable but incomplete?",
           "choices": [
-            "Restoration work must consider continuing environmental pressures, not merely replace organisms.",
-            "The result (The report argued that transplanted coral fares best when underlying threats are addressed.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Researchers combined coral nurseries with monitoring of water quality.) is unrelated to the concern that motivated it.",
-            "Because the problem (Damaged reefs needed restoration while heat and runoff continued to threaten corals.) was identified, later evidence cannot change the original hypothesis."
+            "They alter water conditions and interrupt consistent observations.",
+            "It replaces some coral while water-quality protection addresses ongoing stress.",
+            "Some transplanted colonies may later die under continuing threats.",
+            "New colonies are visible progress without demonstrating durable recovery."
           ],
-          "correctIndex": 0,
-          "explanation": "The supported synthesis is: Restoration work must consider continuing environmental pressures, not merely replace organisms.",
+          "correctIndex": 3,
+          "explanation": "The report separates encouraging evidence from long-term claims.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Coral Nurseries\"?",
+          "type": "Guided close reading",
+          "prompt": "Why can storms complicate nursery comparisons?",
           "choices": [
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare coral survival at restored sites with different water-quality and heat conditions.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence."
+            "They alter water conditions and interrupt consistent observations.",
+            "Repeated evidence of survival alongside improving environmental conditions.",
+            "Nursery work can help recovery when continuing damage is also reduced.",
+            "Unusually warm water near a damaged reef."
           ],
-          "correctIndex": 1,
-          "explanation": "A focused follow-up can test the uncertainty by compare coral survival at restored sites with different water-quality and heat conditions.",
+          "correctIndex": 0,
+          "explanation": "Measurement opportunities vary with weather.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Coral Nurseries\"?",
+          "type": "Guided close reading",
+          "prompt": "What would support a claim of lasting restoration?",
           "choices": [
-            "The report argued that transplanted coral fares best when underlying threats are addressed.",
-            "Planting fragments cannot by itself remove warming or polluted runoff.",
-            "Transplanting coral guarantees recovery regardless of temperature and pollution.",
-            "Researchers combined coral nurseries with monitoring of water quality."
+            "It replaces some coral while water-quality protection addresses ongoing stress.",
+            "Repeated evidence of survival alongside improving environmental conditions.",
+            "Some transplanted colonies may later die under continuing threats.",
+            "Pollution may undermine survival even when fragments are initially healthy."
           ],
-          "correctIndex": 2,
-          "explanation": "This absolute conclusion is unsupported: Transplanting coral guarantees recovery regardless of temperature and pollution. The passage instead supports bounded claims.",
+          "correctIndex": 1,
+          "explanation": "The team calls for monitoring over time.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "How does transplantation fit the larger strategy?",
           "choices": [
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "The success of planted colonies depends at least partly on conditions after transplanting."
+            "Nursery work can help recovery when continuing damage is also reduced.",
+            "Unusually warm water near a damaged reef.",
+            "It replaces some coral while water-quality protection addresses ongoing stress.",
+            "Several surviving fragments do not prove all species and interactions have recovered."
           ],
-          "correctIndex": 3,
-          "explanation": "The inference depends on the stated consideration: The success of planted colonies depends at least partly on conditions after transplanting.",
+          "correctIndex": 2,
+          "explanation": "The passage describes complementary rather than interchangeable actions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG07-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which conclusion best respects the project's limits?",
           "choices": [
-            "Observed colony losses might reflect heat events rather than nursery techniques alone.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured."
+            "Some transplanted colonies may later die under continuing threats.",
+            "Pollution may undermine survival even when fragments are initially healthy.",
+            "New colonies are visible progress without demonstrating durable recovery.",
+            "Nursery work can help recovery when continuing damage is also reduced."
           ],
-          "correctIndex": 0,
-          "explanation": "The account does not rule out this competing possibility: Observed colony losses might reflect heat events rather than nursery techniques alone.",
+          "correctIndex": 3,
+          "explanation": "The outcome is conditional on threats outside the nursery.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R07-PRV-01",
@@ -22712,138 +22712,138 @@
         },
         {
           "id": "RG08-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Clockmaker\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why did Anika photograph the gears before repair?",
           "choices": [
-            "The repair was not the work of one individual acting without inherited knowledge.",
-            "A long-stopped public clock needed parts that were no longer manufactured.",
-            "Anika studied its mechanism and fabricated replacement pieces using preserved drawings.",
-            "The clock sounded again, and she credited staff and neighbors alongside her craftsmanship."
+            "Changing worn parts might destroy clues about the mechanism.",
+            "They supplied dimensions, though earlier changes and missing details remained.",
+            "They preserved the clock and helped locate maintenance records.",
+            "The project depended on technical skill and many people's preserved information."
           ],
-          "correctIndex": 1,
-          "explanation": "The opening situation establishes why participants needed to act: A long-stopped public clock needed parts that were no longer manufactured.",
+          "correctIndex": 0,
+          "explanation": "Documentation preserves information about original conditions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why were historical drawings helpful but insufficient?",
           "choices": [
-            "The clock sounded again, and she credited staff and neighbors alongside her craftsmanship.",
-            "The repair was not the work of one individual acting without inherited knowledge.",
-            "Anika studied its mechanism and fabricated replacement pieces using preserved drawings.",
-            "A long-stopped public clock needed parts that were no longer manufactured."
+            "Forcing damaged gears could worsen the mechanism.",
+            "They supplied dimensions, though earlier changes and missing details remained.",
+            "Historical photographs and drawings relevant to the clock's construction.",
+            "A shared history made tangible through renewed function."
           ],
-          "correctIndex": 2,
-          "explanation": "The method is the action taken to respond to uncertainty: Anika studied its mechanism and fabricated replacement pieces using preserved drawings.",
+          "correctIndex": 1,
+          "explanation": "The clock required direct inspection and comparison with records.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What risk made haste unwise?",
           "choices": [
-            "A long-stopped public clock needed parts that were no longer manufactured.",
-            "Old drawings may preserve details useful to reconstruct obsolete mechanisms.",
-            "Document which donated drawings and preserved components informed each replacement part.",
-            "The clock sounded again, and she credited staff and neighbors alongside her craftsmanship."
+            "They preserved the clock and helped locate maintenance records.",
+            "The project depended on technical skill and many people's preserved information.",
+            "Forcing damaged gears could worsen the mechanism.",
+            "The restorer must respect an existing mechanism and its documented history."
           ],
-          "correctIndex": 3,
-          "explanation": "The passage reports this outcome: The clock sounded again, and she credited staff and neighbors alongside her craftsmanship.",
+          "correctIndex": 2,
+          "explanation": "Anika prioritized safe testing over the anniversary deadline.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Clockmaker\"?",
+          "type": "Guided close reading",
+          "prompt": "How did station staff contribute to the repair?",
           "choices": [
-            "The repair was not the work of one individual acting without inherited knowledge.",
-            "A long-stopped public clock needed parts that were no longer manufactured.",
-            "Anika studied its mechanism and fabricated replacement pieces using preserved drawings.",
-            "The clock sounded again, and she credited staff and neighbors alongside her craftsmanship."
+            "Historical photographs and drawings relevant to the clock's construction.",
+            "A shared history made tangible through renewed function.",
+            "Preservation by one generation can enable accomplishments in another.",
+            "They preserved the clock and helped locate maintenance records."
           ],
-          "correctIndex": 0,
-          "explanation": "A careful interpretation must preserve the boundary: The repair was not the work of one individual acting without inherited knowledge.",
+          "correctIndex": 3,
+          "explanation": "Their past care made the later restoration possible.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What did neighbors provide besides encouragement?",
           "choices": [
-            "Because the problem (A long-stopped public clock needed parts that were no longer manufactured.) was identified, later evidence cannot change the original hypothesis.",
-            "Historical preservation and technical repair can depend on collective contributions.",
-            "The result (The clock sounded again, and she credited staff and neighbors alongside her craftsmanship.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Anika studied its mechanism and fabricated replacement pieces using preserved drawings.) is unrelated to the concern that motivated it."
+            "Historical photographs and drawings relevant to the clock's construction.",
+            "The project depended on technical skill and many people's preserved information.",
+            "The restorer must respect an existing mechanism and its documented history.",
+            "Changing worn parts might destroy clues about the mechanism."
           ],
-          "correctIndex": 1,
-          "explanation": "The supported synthesis is: Historical preservation and technical repair can depend on collective contributions.",
+          "correctIndex": 0,
+          "explanation": "These materials supplied practical repair evidence.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Clockmaker\"?",
+          "type": "Guided close reading",
+          "prompt": "Why did Anika resist exclusive credit?",
           "choices": [
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Document which donated drawings and preserved components informed each replacement part.",
-            "Repeat the original activity without recording any new outcomes or conditions."
+            "A shared history made tangible through renewed function.",
+            "The project depended on technical skill and many people's preserved information.",
+            "Preservation by one generation can enable accomplishments in another.",
+            "They supplied dimensions, though earlier changes and missing details remained."
           ],
-          "correctIndex": 2,
-          "explanation": "A focused follow-up can test the uncertainty by document which donated drawings and preserved components informed each replacement part.",
+          "correctIndex": 1,
+          "explanation": "The chime resulted from accumulated community effort.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Clockmaker\"?",
+          "type": "Guided close reading",
+          "prompt": "What does the clock represent after restoration?",
           "choices": [
-            "Anika studied its mechanism and fabricated replacement pieces using preserved drawings.",
-            "The clock sounded again, and she credited staff and neighbors alongside her craftsmanship.",
-            "The repair was not the work of one individual acting without inherited knowledge.",
-            "The success proves specialized craft and preservation records are unnecessary."
+            "The restorer must respect an existing mechanism and its documented history.",
+            "Changing worn parts might destroy clues about the mechanism.",
+            "A shared history made tangible through renewed function.",
+            "Forcing damaged gears could worsen the mechanism."
           ],
-          "correctIndex": 3,
-          "explanation": "This absolute conclusion is unsupported: The success proves specialized craft and preservation records are unnecessary. The passage instead supports bounded claims.",
+          "correctIndex": 2,
+          "explanation": "Its meaning exceeds accurate timekeeping.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Which detail distinguishes restoration from creating a new device?",
           "choices": [
-            "Old drawings may preserve details useful to reconstruct obsolete mechanisms.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination."
+            "Preservation by one generation can enable accomplishments in another.",
+            "They supplied dimensions, though earlier changes and missing details remained.",
+            "They preserved the clock and helped locate maintenance records.",
+            "The restorer must respect an existing mechanism and its documented history."
           ],
-          "correctIndex": 0,
-          "explanation": "The inference depends on the stated consideration: Old drawings may preserve details useful to reconstruct obsolete mechanisms.",
+          "correctIndex": 3,
+          "explanation": "Anika repairs within constraints inherited from earlier work.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG08-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What broader principle emerges from the repair?",
           "choices": [
-            "The findings logically exclude all influences not explicitly measured.",
-            "A different repairer might also have succeeded with comparable records and tools.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome."
+            "Preservation by one generation can enable accomplishments in another.",
+            "Changing worn parts might destroy clues about the mechanism.",
+            "Forcing damaged gears could worsen the mechanism.",
+            "Historical photographs and drawings relevant to the clock's construction."
           ],
-          "correctIndex": 1,
-          "explanation": "The account does not rule out this competing possibility: A different repairer might also have succeeded with comparable records and tools.",
+          "correctIndex": 0,
+          "explanation": "The passage credits ongoing stewardship as well as craftsmanship.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R08-PRV-01",
@@ -22942,138 +22942,138 @@
         },
         {
           "id": "RG09-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Urban Heat\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why did students standardize measurement height?",
           "choices": [
-            "The shaded location was consistently cooler in their observations.",
-            "Newly planted trees will not immediately provide the shade of mature trees.",
-            "Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.",
-            "Students measured the courtyard and tree-shaded ground under comparable conditions."
+            "The shaded location was cooler during the observations.",
+            "Different thermometer placement could create misleading temperature differences.",
+            "The courtyard and tree-lined path differed in several ways.",
+            "Temporary canopies and more reflective surfaces."
           ],
-          "correctIndex": 2,
-          "explanation": "The opening situation establishes why participants needed to act: Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.",
+          "correctIndex": 1,
+          "explanation": "They try to isolate conditions rather than measurement technique.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What did the afternoon readings establish?",
           "choices": [
-            "Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.",
-            "The shaded location was consistently cooler in their observations.",
-            "Newly planted trees will not immediately provide the shade of mature trees.",
-            "Students measured the courtyard and tree-shaded ground under comparable conditions."
+            "Blocked sunlight and moisture released through leaves.",
+            "Young trees need years and upkeep before offering substantial shade.",
+            "The shaded location was cooler during the observations.",
+            "Changes in temperature after a particular intervention under comparable conditions."
           ],
-          "correctIndex": 3,
-          "explanation": "The method is the action taken to respond to uncertainty: Students measured the courtyard and tree-shaded ground under comparable conditions.",
+          "correctIndex": 2,
+          "explanation": "The evidence does not yet quantify benefits of new trees.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What processes might contribute to cooling under trees?",
           "choices": [
-            "The shaded location was consistently cooler in their observations.",
-            "Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.",
-            "Shade-producing vegetation can help modify local temperature conditions.",
-            "Monitor shade coverage and temperature over several seasons as new trees mature."
+            "The courtyard and tree-lined path differed in several ways.",
+            "Temporary canopies and more reflective surfaces.",
+            "No experiment yet tests the proposed new planting at that location.",
+            "Blocked sunlight and moisture released through leaves."
           ],
-          "correctIndex": 0,
-          "explanation": "The passage reports this outcome: The shaded location was consistently cooler in their observations.",
+          "correctIndex": 3,
+          "explanation": "The class identifies multiple possible mechanisms.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Urban Heat\"?",
+          "type": "Guided close reading",
+          "prompt": "Why wasn't the comparison a controlled causal experiment?",
           "choices": [
-            "The shaded location was consistently cooler in their observations.",
-            "Newly planted trees will not immediately provide the shade of mature trees.",
-            "Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.",
-            "Students measured the courtyard and tree-shaded ground under comparable conditions."
+            "The courtyard and tree-lined path differed in several ways.",
+            "Young trees need years and upkeep before offering substantial shade.",
+            "Changes in temperature after a particular intervention under comparable conditions.",
+            "Separate established conditions from expectations that require later testing."
           ],
-          "correctIndex": 1,
-          "explanation": "A careful interpretation must preserve the boundary: Newly planted trees will not immediately provide the shade of mature trees.",
+          "correctIndex": 0,
+          "explanation": "The readings could not isolate the effect of each factor.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What makes tree planting a long-term rather than immediate fix?",
           "choices": [
-            "The intervention (Students measured the courtyard and tree-shaded ground under comparable conditions.) is unrelated to the concern that motivated it.",
-            "Because the problem (Asphalt neighborhoods were hotter than shaded areas, motivating a school temperature comparison.) was identified, later evidence cannot change the original hypothesis.",
-            "Observed cooling supports planting, but benefits require time and sustained care.",
-            "The result (The shaded location was consistently cooler in their observations.) proves that no uncertainty remains and the limitation is irrelevant."
+            "Temporary canopies and more reflective surfaces.",
+            "Young trees need years and upkeep before offering substantial shade.",
+            "No experiment yet tests the proposed new planting at that location.",
+            "Different thermometer placement could create misleading temperature differences."
           ],
-          "correctIndex": 2,
-          "explanation": "The supported synthesis is: Observed cooling supports planting, but benefits require time and sustained care.",
+          "correctIndex": 1,
+          "explanation": "The manager identifies a delay between action and benefit.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Urban Heat\"?",
+          "type": "Guided close reading",
+          "prompt": "What short-term alternatives did the students consider?",
           "choices": [
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Monitor shade coverage and temperature over several seasons as new trees mature."
+            "Changes in temperature after a particular intervention under comparable conditions.",
+            "Separate established conditions from expectations that require later testing.",
+            "Temporary canopies and more reflective surfaces.",
+            "The shaded location was cooler during the observations."
           ],
-          "correctIndex": 3,
-          "explanation": "A focused follow-up can test the uncertainty by monitor shade coverage and temperature over several seasons as new trees mature.",
+          "correctIndex": 2,
+          "explanation": "These could address heat while planted trees mature.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Urban Heat\"?",
+          "type": "Guided close reading",
+          "prompt": "What should a follow-up evaluation measure?",
           "choices": [
-            "Planting seedlings guarantees mature-tree cooling by the next afternoon.",
-            "Students measured the courtyard and tree-shaded ground under comparable conditions.",
-            "The shaded location was consistently cooler in their observations.",
-            "Newly planted trees will not immediately provide the shade of mature trees."
+            "No experiment yet tests the proposed new planting at that location.",
+            "Different thermometer placement could create misleading temperature differences.",
+            "Blocked sunlight and moisture released through leaves.",
+            "Changes in temperature after a particular intervention under comparable conditions."
           ],
-          "correctIndex": 0,
-          "explanation": "This absolute conclusion is unsupported: Planting seedlings guarantees mature-tree cooling by the next afternoon. The passage instead supports bounded claims.",
+          "correctIndex": 3,
+          "explanation": "The class distinguishes observed heat from predicted solutions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What prevents the report from promising an exact cooling amount?",
           "choices": [
-            "Any future conditions must be identical without needing examination.",
-            "Shade-producing vegetation can help modify local temperature conditions.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken."
+            "No experiment yet tests the proposed new planting at that location.",
+            "Separate established conditions from expectations that require later testing.",
+            "The shaded location was cooler during the observations.",
+            "The courtyard and tree-lined path differed in several ways."
           ],
-          "correctIndex": 1,
-          "explanation": "The inference depends on the stated consideration: Shade-producing vegetation can help modify local temperature conditions.",
+          "correctIndex": 0,
+          "explanation": "Current observations establish a problem, not an intervention's measured effect.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG09-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which reasoning habit strengthens the recommendation?",
           "choices": [
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Other surface properties or moisture differences may account for some observed cooling.",
-            "The passage contains no observations capable of informing any explanation."
+            "Different thermometer placement could create misleading temperature differences.",
+            "Separate established conditions from expectations that require later testing.",
+            "Blocked sunlight and moisture released through leaves.",
+            "Young trees need years and upkeep before offering substantial shade."
           ],
-          "correctIndex": 2,
-          "explanation": "The account does not rule out this competing possibility: Other surface properties or moisture differences may account for some observed cooling.",
+          "correctIndex": 1,
+          "explanation": "The report acknowledges uncertainty while outlining possible actions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R09-PRV-01",
@@ -23172,138 +23172,138 @@
         },
         {
           "id": "RG10-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Seed Exchange\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why did organizers ask growers for conditions as well as seed names?",
           "choices": [
-            "Participants labeled seed packets with planting conditions and harvest notes.",
-            "During drought, gardeners compared records to identify lower-water varieties.",
-            "The findings depend on recorded conditions and may not hold in every growing season.",
-            "A seed exchange needed to share varieties while preserving useful planting knowledge."
+            "Shade or deep soil may have contributed to the success.",
+            "Records and stories about varieties saved across generations.",
+            "The same variety may perform differently with different soil and water.",
+            "Different sites and seasons can change outcomes."
           ],
-          "correctIndex": 3,
-          "explanation": "The opening situation establishes why participants needed to act: A seed exchange needed to share varieties while preserving useful planting knowledge.",
+          "correctIndex": 2,
+          "explanation": "Names alone do not explain harvest outcomes.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why wasn't one drought-resistant harvest conclusive?",
           "choices": [
-            "Participants labeled seed packets with planting conditions and harvest notes.",
-            "A seed exchange needed to share varieties while preserving useful planting knowledge.",
-            "During drought, gardeners compared records to identify lower-water varieties.",
-            "The findings depend on recorded conditions and may not hold in every growing season."
+            "Grow them under differing conditions and compare documented results.",
+            "Failures may reveal which conditions undermine a variety.",
+            "Documented growing methods and harvest observations.",
+            "Shade or deep soil may have contributed to the success."
           ],
-          "correctIndex": 0,
-          "explanation": "The method is the action taken to respond to uncertainty: Participants labeled seed packets with planting conditions and harvest notes.",
+          "correctIndex": 3,
+          "explanation": "The result has alternative environmental explanations.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "How could gardeners test the promising beans?",
           "choices": [
-            "Test selected varieties under comparable watering schedules over multiple seasons.",
-            "During drought, gardeners compared records to identify lower-water varieties.",
-            "A seed exchange needed to share varieties while preserving useful planting knowledge.",
-            "Reliable labels are necessary for gardeners to compare growing conditions."
+            "Grow them under differing conditions and compare documented results.",
+            "Records and stories about varieties saved across generations.",
+            "Different sites and seasons can change outcomes.",
+            "They invite experimentation alongside inherited seeds."
           ],
-          "correctIndex": 1,
-          "explanation": "The passage reports this outcome: During drought, gardeners compared records to identify lower-water varieties.",
+          "correctIndex": 0,
+          "explanation": "Replication helps separate variety traits from local circumstances.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Seed Exchange\"?",
+          "type": "Guided close reading",
+          "prompt": "What knowledge did older participants contribute?",
           "choices": [
-            "Participants labeled seed packets with planting conditions and harvest notes.",
-            "During drought, gardeners compared records to identify lower-water varieties.",
-            "The findings depend on recorded conditions and may not hold in every growing season.",
-            "A seed exchange needed to share varieties while preserving useful planting knowledge."
+            "Failures may reveal which conditions undermine a variety.",
+            "Records and stories about varieties saved across generations.",
+            "Documented growing methods and harvest observations.",
+            "It becomes a network for sharing both plant material and tested experience."
           ],
-          "correctIndex": 2,
-          "explanation": "A careful interpretation must preserve the boundary: The findings depend on recorded conditions and may not hold in every growing season.",
+          "correctIndex": 1,
+          "explanation": "Tradition preserved practical observations as well as seeds.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Why are unsuccessful harvests worth recording?",
           "choices": [
-            "The result (During drought, gardeners compared records to identify lower-water varieties.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Participants labeled seed packets with planting conditions and harvest notes.) is unrelated to the concern that motivated it.",
-            "Because the problem (A seed exchange needed to share varieties while preserving useful planting knowledge.) was identified, later evidence cannot change the original hypothesis.",
-            "Recorded experience can turn a seed exchange into a collective agricultural knowledge resource."
+            "Different sites and seasons can change outcomes.",
+            "They invite experimentation alongside inherited seeds.",
+            "Failures may reveal which conditions undermine a variety.",
+            "The same variety may perform differently with different soil and water."
           ],
-          "correctIndex": 3,
-          "explanation": "The supported synthesis is: Recorded experience can turn a seed exchange into a collective agricultural knowledge resource.",
+          "correctIndex": 2,
+          "explanation": "Negative observations can guide future cultivation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Seed Exchange\"?",
+          "type": "Guided close reading",
+          "prompt": "What prevents the exchange from declaring one method universally best?",
           "choices": [
-            "Test selected varieties under comparable watering schedules over multiple seasons.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings."
+            "Documented growing methods and harvest observations.",
+            "It becomes a network for sharing both plant material and tested experience.",
+            "Shade or deep soil may have contributed to the success.",
+            "Different sites and seasons can change outcomes."
           ],
-          "correctIndex": 0,
-          "explanation": "A focused follow-up can test the uncertainty by test selected varieties under comparable watering schedules over multiple seasons.",
+          "correctIndex": 3,
+          "explanation": "The organizers welcome comparisons rather than rigid prescriptions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Seed Exchange\"?",
+          "type": "Guided close reading",
+          "prompt": "What became more valuable than a name on a packet?",
           "choices": [
-            "The findings depend on recorded conditions and may not hold in every growing season.",
-            "A single drought proves one seed variety will need the least water everywhere.",
-            "Participants labeled seed packets with planting conditions and harvest notes.",
-            "During drought, gardeners compared records to identify lower-water varieties."
+            "Documented growing methods and harvest observations.",
+            "They invite experimentation alongside inherited seeds.",
+            "The same variety may perform differently with different soil and water.",
+            "Grow them under differing conditions and compare documented results."
           ],
-          "correctIndex": 1,
-          "explanation": "This absolute conclusion is unsupported: A single drought proves one seed variety will need the least water everywhere. The passage instead supports bounded claims.",
+          "correctIndex": 0,
+          "explanation": "The added context makes transferred seeds more useful.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What role do recently developed varieties play?",
           "choices": [
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Reliable labels are necessary for gardeners to compare growing conditions.",
-            "The original problem could never have existed."
+            "It becomes a network for sharing both plant material and tested experience.",
+            "They invite experimentation alongside inherited seeds.",
+            "Shade or deep soil may have contributed to the success.",
+            "Records and stories about varieties saved across generations."
           ],
-          "correctIndex": 2,
-          "explanation": "The inference depends on the stated consideration: Reliable labels are necessary for gardeners to compare growing conditions.",
+          "correctIndex": 1,
+          "explanation": "The exchange values new evidence without discarding tradition.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG10-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which claim summarizes the exchange's transformation?",
           "choices": [
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Differences in soil or shade may partly explain apparent drought tolerance."
+            "The same variety may perform differently with different soil and water.",
+            "Grow them under differing conditions and compare documented results.",
+            "It becomes a network for sharing both plant material and tested experience.",
+            "Failures may reveal which conditions undermine a variety."
           ],
-          "correctIndex": 3,
-          "explanation": "The account does not rule out this competing possibility: Differences in soil or shade may partly explain apparent drought tolerance.",
+          "correctIndex": 2,
+          "explanation": "The narrative moves beyond simple packet trading.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R10-PRV-01",
