@@ -10912,147 +10912,147 @@
           "questions": [
             {
               "id": "R11-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Market Across Centuries\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What makes the photograph of carts insufficient as a measure of commerce?",
               "choices": [
-                "The method (“Historians compared stall permits, transit timetables,…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The market shifted toward smaller deliveries as roads…”) is treated as unrelated to the original investigation.",
-                "The concern (“Old photographs showed many more carts than modern…”) leads to inquiry, but “The surviving documents did not reveal the experiences of…” limits the inference.",
-                "The proposed response (“A walking tour marked former loading areas and explained…”) makes the original concern irrelevant."
+                "It let some merchants store goods longer and rely on less frequent deliveries.",
+                "It captures visible traffic at one moment without showing delivery volumes or timing.",
+                "Every vendor experienced improved conditions after road modernization.",
+                "Deliveries may have been completed before the photograph was taken."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The surviving documents did not reveal the experiences of every vendor. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The historians compare when an image was taken with what the market was doing beyond the frame.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Market Across Centuries\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does refrigeration matter to the market's transformation?",
               "choices": [
-                "A walking tour marked former loading areas and explained how the market adapted.",
-                "Old photographs showed many more carts than modern shoppers expected.",
-                "Historians compared stall permits, transit timetables, and interviews with longtime merchants.",
-                "The market shifted toward smaller deliveries as roads improved and refrigeration spread."
+                "Different sources can record a lived delay and an administrative event without contradicting each other.",
+                "A route's availability is not the same as a merchant's decision to use it.",
+                "It let some merchants store goods longer and rely on less frequent deliveries.",
+                "The surviving images may privilege unusual scenes over routine commercial patterns."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Old photographs showed many more carts than modern shoppers expected. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The passage connects refrigerated storage with changed delivery needs rather than claiming that trade ended.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Market Across Centuries\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the discrepancy between the merchant's memory and the permit ledger illustrate?",
               "choices": [
-                "The market shifted toward smaller deliveries as roads improved and refrigeration spread.",
-                "The surviving documents did not reveal the experiences of every vendor.",
-                "Historians compared stall permits, transit timetables, and interviews with longtime merchants.",
-                "Old photographs showed many more carts than modern shoppers expected."
+                "Every vendor experienced improved conditions after road modernization.",
+                "Deliveries may have been completed before the photograph was taken.",
+                "The public square changed its logistical role without necessarily losing social importance.",
+                "Different sources can record a lived delay and an administrative event without contradicting each other."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Historians compared stall permits, transit timetables, and interviews with longtime merchants. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The ledger establishes that a permit existed while testimony concerns waiting to have it checked.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Market Across Centuries\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which claim exceeds the historians' documentary evidence?",
               "choices": [
-                "Historians compared stall permits, transit timetables, and interviews with longtime merchants.",
-                "The surviving documents did not reveal the experiences of every vendor.",
-                "A walking tour marked former loading areas and explained how the market adapted.",
-                "The market shifted toward smaller deliveries as roads improved and refrigeration spread."
+                "Every vendor experienced improved conditions after road modernization.",
+                "A route's availability is not the same as a merchant's decision to use it.",
+                "The surviving images may privilege unusual scenes over routine commercial patterns.",
+                "Changing transport and storage altered visible patterns, but the scale and effects varied by trade."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The market shifted toward smaller deliveries as roads improved and refrigeration spread. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The account expressly notes that surviving records exclude some vendors' experiences.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Market Across Centuries\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why compare transit timetables with individual permit registers?",
               "choices": [
-                "The surviving documents did not reveal the experiences of every vendor.",
-                "The market shifted toward smaller deliveries as roads improved and refrigeration spread.",
-                "Historians compared stall permits, transit timetables, and interviews with longtime merchants.",
-                "A walking tour marked former loading areas and explained how the market adapted."
+                "Deliveries may have been completed before the photograph was taken.",
+                "A route's availability is not the same as a merchant's decision to use it.",
+                "The public square changed its logistical role without necessarily losing social importance.",
+                "It captures visible traffic at one moment without showing delivery volumes or timing."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The surviving documents did not reveal the experiences of every vendor. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "The investigators distinguish infrastructure entering service from particular adoption dates.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Market Across Centuries\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why might a nearly empty modern street still indicate an active market?",
               "choices": [
-                "The market shifted toward smaller deliveries as roads improved and refrigeration spread.",
-                "A walking tour marked former loading areas and explained how the market adapted.",
-                "Old photographs showed many more carts than modern shoppers expected.",
-                "Historians compared stall permits, transit timetables, and interviews with longtime merchants."
+                "The surviving images may privilege unusual scenes over routine commercial patterns.",
+                "Changing transport and storage altered visible patterns, but the scale and effects varied by trade.",
+                "Deliveries may have been completed before the photograph was taken.",
+                "It let some merchants store goods longer and rely on less frequent deliveries."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: A walking tour marked former loading areas and explained how the market adapted. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "A street photograph does not establish activity across the entire trading day.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Market Across Centuries\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What limitation is introduced by selecting picturesque archival photographs?",
               "choices": [
-                "Initial concern: “The market shifted toward smaller deliveries as roads…”; method: “A walking tour marked former loading areas and explained…”.",
-                "Initial concern: “Historians compared stall permits, transit timetables,…”; method: “The market shifted toward smaller deliveries as roads…”.",
-                "Initial concern: “Old photographs showed many more carts than modern…”; method: “Historians compared stall permits, transit timetables,…”.",
-                "Initial concern: “Old photographs showed many more carts than modern…”; method: “The surviving documents did not reveal the experiences of…”."
+                "The public square changed its logistical role without necessarily losing social importance.",
+                "It captures visible traffic at one moment without showing delivery volumes or timing.",
+                "Different sources can record a lived delay and an administrative event without contradicting each other.",
+                "The surviving images may privilege unusual scenes over routine commercial patterns."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Old photographs showed many more carts than modern shoppers expected. and the subsequent investigative procedure is Historians compared stall permits, transit timetables, and interviews with longtime merchants..",
+              "correctIndex": 3,
+              "explanation": "The passage uses images as clues but refuses to treat them as a comprehensive count.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Market Across Centuries\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the walking tour intended to communicate?",
               "choices": [
-                "The observation (“The market shifted toward smaller deliveries as roads…”) rules out every alternative cause.",
-                "The limitation (“The surviving documents did not reveal the experiences of…”) disproves the observation itself.",
-                "The method (“Historians compared stall permits, transit timetables,…”) guarantees the result before measurement.",
-                "The observation (“The market shifted toward smaller deliveries as roads…”) matters, but the limit (“The surviving documents did not reveal the experiences of…”) remains."
+                "The public square changed its logistical role without necessarily losing social importance.",
+                "Changing transport and storage altered visible patterns, but the scale and effects varied by trade.",
+                "It let some merchants store goods longer and rely on less frequent deliveries.",
+                "Every vendor experienced improved conditions after road modernization."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The market shifted toward smaller deliveries as roads improved and refrigeration spread. but must be read alongside The surviving documents did not reveal the experiences of every vendor..",
+              "correctIndex": 0,
+              "explanation": "The exhibit interprets former loading areas and continued uses of the market.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Market Across Centuries\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which interpretation best reconciles the evidence about carts and smaller deliveries?",
               "choices": [
-                "The response (“A walking tour marked former loading areas and explained…”) follows evidence but remains open to reassessment.",
-                "The response (“A walking tour marked former loading areas and explained…”) is proof of success in every setting.",
-                "The caveat (“The surviving documents did not reveal the experiences of…”) makes the observations worthless.",
-                "The observation (“The market shifted toward smaller deliveries as roads…”) shows that measurement was unnecessary."
+                "It captures visible traffic at one moment without showing delivery volumes or timing.",
+                "Changing transport and storage altered visible patterns, but the scale and effects varied by trade.",
+                "Different sources can record a lived delay and an administrative event without contradicting each other.",
+                "A route's availability is not the same as a merchant's decision to use it."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed A walking tour marked former loading areas and explained how the market adapted.; the stated limit The surviving documents did not reveal the experiences of every vendor. still matters.",
+              "correctIndex": 1,
+              "explanation": "The investigation documents adaptation while resisting a universal improvement narrative.",
               "passageId": "R11-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P2-10",
@@ -11087,147 +11087,147 @@
           "questions": [
             {
               "id": "R11-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Book with Two Endings\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the cheerful ending weaken the earlier refusal scene?",
               "choices": [
-                "The proposed response (“He revised the ending to fit the story while keeping a…”) makes the original concern irrelevant.",
-                "The method (“He gave both versions to classmates and asked which…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Most readers preferred the quieter ending because it…”) is treated as unrelated to the original investigation.",
-                "The concern (“One writer, Daniel, could not choose between a cheerful…”) leads to inquiry, but “Daniel still enjoyed the dramatic twist in his original…” limits the inference."
+                "They compare outcomes with decisions established earlier in the narrative.",
+                "An unexpected apology would erase much of the consequence of the protagonist's independent choice.",
+                "It supplies a memorable hopeful image without resolving every conflict.",
+                "Criticism identifies possible weaknesses, but the writer must judge which suggestions serve the work."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Daniel still enjoyed the dramatic twist in his original draft. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The early refusal matters because the protagonist resists help tied to an unfair condition.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Book with Two Endings\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "How do classmates evaluate the two endings?",
               "choices": [
-                "One writer, Daniel, could not choose between a cheerful ending and a more realistic one.",
-                "He gave both versions to classmates and asked which details in the story supported each outcome.",
-                "Most readers preferred the quieter ending because it followed the character's earlier decisions.",
-                "He revised the ending to fit the story while keeping a small surprise in the final paragraph."
+                "It allows the protagonist to begin again without a guaranteed reward.",
+                "An author's favorite effect can conflict with the logic of the whole narrative.",
+                "They compare outcomes with decisions established earlier in the narrative.",
+                "The protagonist previously rejected assistance that required accepting an unjust condition."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: One writer, Daniel, could not choose between a cheerful ending and a more realistic one. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "They explain a preference through textual preparation rather than simply voting for optimism.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Book with Two Endings\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the quieter ending not necessarily pessimistic?",
               "choices": [
-                "Daniel still enjoyed the dramatic twist in his original draft.",
-                "He gave both versions to classmates and asked which details in the story supported each outcome.",
-                "One writer, Daniel, could not choose between a cheerful ending and a more realistic one.",
-                "Most readers preferred the quieter ending because it followed the character's earlier decisions."
+                "It supplies a memorable hopeful image without resolving every conflict.",
+                "Criticism identifies possible weaknesses, but the writer must judge which suggestions serve the work.",
+                "Its unexpected details remain consistent with earlier characterization and choices.",
+                "It allows the protagonist to begin again without a guaranteed reward."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: He gave both versions to classmates and asked which details in the story supported each outcome. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The story locates hope in agency even though the rival offers no reconciliation.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Book with Two Endings\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What purpose does the unfinished drawing serve in the revision?",
               "choices": [
-                "Daniel still enjoyed the dramatic twist in his original draft.",
-                "He revised the ending to fit the story while keeping a small surprise in the final paragraph.",
-                "Most readers preferred the quieter ending because it followed the character's earlier decisions.",
-                "He gave both versions to classmates and asked which details in the story supported each outcome."
+                "It supplies a memorable hopeful image without resolving every conflict.",
+                "An author's favorite effect can conflict with the logic of the whole narrative.",
+                "The protagonist previously rejected assistance that required accepting an unjust condition.",
+                "Evaluate how each element contributes to the work rather than defending a favorite sentence."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Most readers preferred the quieter ending because it followed the character's earlier decisions. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The revised final image hints at renewal while preserving the story's earlier stakes.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Book with Two Endings\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does Daniel's attachment to a dramatic twist illustrate?",
               "choices": [
-                "Most readers preferred the quieter ending because it followed the character's earlier decisions.",
-                "He gave both versions to classmates and asked which details in the story supported each outcome.",
-                "He revised the ending to fit the story while keeping a small surprise in the final paragraph.",
-                "Daniel still enjoyed the dramatic twist in his original draft."
+                "Criticism identifies possible weaknesses, but the writer must judge which suggestions serve the work.",
+                "An author's favorite effect can conflict with the logic of the whole narrative.",
+                "Its unexpected details remain consistent with earlier characterization and choices.",
+                "An unexpected apology would erase much of the consequence of the protagonist's independent choice."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Daniel still enjoyed the dramatic twist in his original draft. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Daniel likes the surprise but finds that it undermines the protagonist's development.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Book with Two Endings\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the editor's reason for separating reader feedback from authorship?",
               "choices": [
-                "He revised the ending to fit the story while keeping a small surprise in the final paragraph.",
-                "One writer, Daniel, could not choose between a cheerful ending and a more realistic one.",
-                "He gave both versions to classmates and asked which details in the story supported each outcome.",
-                "Most readers preferred the quieter ending because it followed the character's earlier decisions."
+                "The protagonist previously rejected assistance that required accepting an unjust condition.",
+                "Evaluate how each element contributes to the work rather than defending a favorite sentence.",
+                "Criticism identifies possible weaknesses, but the writer must judge which suggestions serve the work.",
+                "They compare outcomes with decisions established earlier in the narrative."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: He revised the ending to fit the story while keeping a small surprise in the final paragraph. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The editor reminds Daniel that classmates cannot make the final artistic decision for him.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Book with Two Endings\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which evidence most strongly supports the classmates' preferred ending?",
               "choices": [
-                "Initial concern: “He gave both versions to classmates and asked which…”; method: “Most readers preferred the quieter ending because it…”.",
-                "Initial concern: “One writer, Daniel, could not choose between a cheerful…”; method: “He gave both versions to classmates and asked which…”.",
-                "Initial concern: “One writer, Daniel, could not choose between a cheerful…”; method: “Daniel still enjoyed the dramatic twist in his original…”.",
-                "Initial concern: “Most readers preferred the quieter ending because it…”; method: “He revised the ending to fit the story while keeping a…”."
+                "Its unexpected details remain consistent with earlier characterization and choices.",
+                "An unexpected apology would erase much of the consequence of the protagonist's independent choice.",
+                "It allows the protagonist to begin again without a guaranteed reward.",
+                "The protagonist previously rejected assistance that required accepting an unjust condition."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with One writer, Daniel, could not choose between a cheerful ending and a more realistic one. and the subsequent investigative procedure is He gave both versions to classmates and asked which details in the story supported each outcome..",
+              "correctIndex": 3,
+              "explanation": "The earlier refusal provides a pattern of independent judgment.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Book with Two Endings\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What distinguishes a surprising but earned ending from an arbitrary twist?",
               "choices": [
-                "The limitation (“Daniel still enjoyed the dramatic twist in his original…”) disproves the observation itself.",
-                "The method (“He gave both versions to classmates and asked which…”) guarantees the result before measurement.",
-                "The observation (“Most readers preferred the quieter ending because it…”) matters, but the limit (“Daniel still enjoyed the dramatic twist in his original…”) remains.",
-                "The observation (“Most readers preferred the quieter ending because it…”) rules out every alternative cause."
+                "Its unexpected details remain consistent with earlier characterization and choices.",
+                "Evaluate how each element contributes to the work rather than defending a favorite sentence.",
+                "They compare outcomes with decisions established earlier in the narrative.",
+                "It supplies a memorable hopeful image without resolving every conflict."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Most readers preferred the quieter ending because it followed the character's earlier decisions. but must be read alongside Daniel still enjoyed the dramatic twist in his original draft..",
+              "correctIndex": 0,
+              "explanation": "Daniel keeps a small surprise only after removing the contradictory apology.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Book with Two Endings\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What broader principle of revision emerges from Daniel's process?",
               "choices": [
-                "The response (“He revised the ending to fit the story while keeping a…”) is proof of success in every setting.",
-                "The caveat (“Daniel still enjoyed the dramatic twist in his original…”) makes the observations worthless.",
-                "The observation (“Most readers preferred the quieter ending because it…”) shows that measurement was unnecessary.",
-                "The response (“He revised the ending to fit the story while keeping a…”) follows evidence but remains open to reassessment."
+                "An unexpected apology would erase much of the consequence of the protagonist's independent choice.",
+                "Evaluate how each element contributes to the work rather than defending a favorite sentence.",
+                "It allows the protagonist to begin again without a guaranteed reward.",
+                "An author's favorite effect can conflict with the logic of the whole narrative."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed He revised the ending to fit the story while keeping a small surprise in the final paragraph.; the stated limit Daniel still enjoyed the dramatic twist in his original draft. still matters.",
+              "correctIndex": 1,
+              "explanation": "He considers the relationship between beginning and ending before revising.",
               "passageId": "R11-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P3-10",
@@ -11262,147 +11262,147 @@
           "questions": [
             {
               "id": "R11-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Playground for More Children\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was the designer's successful stroller test misleading?",
               "choices": [
-                "The concern (“The entrance had a narrow gate and several play areas…”) leads to inquiry, but “Budget limits meant the renovation could not include…” limits the inference.",
-                "The proposed response (“The town arranged the work in phases and published the…”) makes the original concern irrelevant.",
-                "The method (“They watched families use the site and consulted children…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The revised plan included smoother paths and activities…”) is treated as unrelated to the original investigation."
+                "Physical proximity to equipment does not ensure meaningful participation.",
+                "A controlled trial did not capture the difficulty of entering with children and belongings.",
+                "It preserves a variety of play experiences without making exclusion the source of challenge.",
+                "They could prevent children from using the playground at all."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Budget limits meant the renovation could not include every requested feature. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The later parent had to turn sideways despite the designer's earlier easy passage.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Playground for More Children\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the distinction between reaching a sandbox and joining its play?",
               "choices": [
-                "They watched families use the site and consulted children with different mobility needs.",
-                "The revised plan included smoother paths and activities reachable from more positions.",
-                "The town arranged the work in phases and published the remaining priorities.",
-                "The entrance had a narrow gate and several play areas required steps."
+                "An accessible feature is ineffective if other barriers prevent children from reaching it.",
+                "It reveals participation obstacles that technical checks alone had overlooked.",
+                "Physical proximity to equipment does not ensure meaningful participation.",
+                "It exposes trade-offs and gives families a basis for questioning later priorities."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The entrance had a narrow gate and several play areas required steps. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The child could reach its edge but could not play alongside friends inside it.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Playground for More Children\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the planners evaluate routes rather than isolated fixtures?",
               "choices": [
-                "They watched families use the site and consulted children with different mobility needs.",
-                "The entrance had a narrow gate and several play areas required steps.",
-                "The revised plan included smoother paths and activities reachable from more positions.",
-                "Budget limits meant the renovation could not include every requested feature."
+                "It preserves a variety of play experiences without making exclusion the source of challenge.",
+                "They could prevent children from using the playground at all.",
+                "A smooth walkway terminating at an unavoidable staircase.",
+                "An accessible feature is ineffective if other barriers prevent children from reaching it."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: They watched families use the site and consulted children with different mobility needs. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The passage gives the example of a smooth path that ends at steps.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Playground for More Children\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the proposal address residents who fear losing challenging equipment?",
               "choices": [
-                "The town arranged the work in phases and published the remaining priorities.",
-                "The revised plan included smoother paths and activities reachable from more positions.",
-                "They watched families use the site and consulted children with different mobility needs.",
-                "Budget limits meant the renovation could not include every requested feature."
+                "It preserves a variety of play experiences without making exclusion the source of challenge.",
+                "It reveals participation obstacles that technical checks alone had overlooked.",
+                "It exposes trade-offs and gives families a basis for questioning later priorities.",
+                "Meaningful inclusion requires independent participation as well as nominal entrance access."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The revised plan included smoother paths and activities reachable from more positions. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The design aims to support children with different abilities in shared activities.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Playground for More Children\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does consulting children add beyond adult measurement?",
               "choices": [
-                "They watched families use the site and consulted children with different mobility needs.",
-                "The town arranged the work in phases and published the remaining priorities.",
-                "Budget limits meant the renovation could not include every requested feature.",
-                "The revised plan included smoother paths and activities reachable from more positions."
+                "They could prevent children from using the playground at all.",
+                "It reveals participation obstacles that technical checks alone had overlooked.",
+                "A smooth walkway terminating at an unavoidable staircase.",
+                "A controlled trial did not capture the difficulty of entering with children and belongings."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Budget limits meant the renovation could not include every requested feature. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "Children describe the sandbox and drinking fountain difficulties firsthand.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Playground for More Children\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were entry barriers prioritized within the budget?",
               "choices": [
-                "The entrance had a narrow gate and several play areas required steps.",
-                "They watched families use the site and consulted children with different mobility needs.",
-                "The revised plan included smoother paths and activities reachable from more positions.",
-                "The town arranged the work in phases and published the remaining priorities."
+                "It exposes trade-offs and gives families a basis for questioning later priorities.",
+                "Meaningful inclusion requires independent participation as well as nominal entrance access.",
+                "They could prevent children from using the playground at all.",
+                "Physical proximity to equipment does not ensure meaningful participation."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The town arranged the work in phases and published the remaining priorities. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The phased plan distinguishes obstacles to access from limits within the site.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Playground for More Children\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the function of publishing the renovation phases?",
               "choices": [
-                "Initial concern: “The entrance had a narrow gate and several play areas…”; method: “They watched families use the site and consulted children…”.",
-                "Initial concern: “The entrance had a narrow gate and several play areas…”; method: “Budget limits meant the renovation could not include…”.",
-                "Initial concern: “The revised plan included smoother paths and activities…”; method: “The town arranged the work in phases and published the…”.",
-                "Initial concern: “They watched families use the site and consulted children…”; method: “The revised plan included smoother paths and activities…”."
+                "A smooth walkway terminating at an unavoidable staircase.",
+                "A controlled trial did not capture the difficulty of entering with children and belongings.",
+                "An accessible feature is ineffective if other barriers prevent children from reaching it.",
+                "It exposes trade-offs and gives families a basis for questioning later priorities."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The entrance had a narrow gate and several play areas required steps. and the subsequent investigative procedure is They watched families use the site and consulted children with different mobility needs..",
+              "correctIndex": 3,
+              "explanation": "The town documents which requests are deferred and why.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Playground for More Children\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which proposal would reproduce the problem despite an apparently accessible path?",
               "choices": [
-                "The method (“They watched families use the site and consulted children…”) guarantees the result before measurement.",
-                "The observation (“The revised plan included smoother paths and activities…”) matters, but the limit (“Budget limits meant the renovation could not include…”) remains.",
-                "The observation (“The revised plan included smoother paths and activities…”) rules out every alternative cause.",
-                "The limitation (“Budget limits meant the renovation could not include…”) disproves the observation itself."
+                "A smooth walkway terminating at an unavoidable staircase.",
+                "Meaningful inclusion requires independent participation as well as nominal entrance access.",
+                "Physical proximity to equipment does not ensure meaningful participation.",
+                "It preserves a variety of play experiences without making exclusion the source of challenge."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The revised plan included smoother paths and activities reachable from more positions. but must be read alongside Budget limits meant the renovation could not include every requested feature..",
+              "correctIndex": 0,
+              "explanation": "The passage explicitly notes that such a path provides little independence.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Playground for More Children\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What principle best unifies the designers' revisions?",
               "choices": [
-                "The caveat (“Budget limits meant the renovation could not include…”) makes the observations worthless.",
-                "The observation (“The revised plan included smoother paths and activities…”) shows that measurement was unnecessary.",
-                "The response (“The town arranged the work in phases and published the…”) follows evidence but remains open to reassessment.",
-                "The response (“The town arranged the work in phases and published the…”) is proof of success in every setting."
+                "A controlled trial did not capture the difficulty of entering with children and belongings.",
+                "Meaningful inclusion requires independent participation as well as nominal entrance access.",
+                "An accessible feature is ineffective if other barriers prevent children from reaching it.",
+                "It reveals participation obstacles that technical checks alone had overlooked."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The town arranged the work in phases and published the remaining priorities.; the stated limit Budget limits meant the renovation could not include every requested feature. still matters.",
+              "correctIndex": 1,
+              "explanation": "The designers broaden the definition of accessibility beyond a single doorway.",
               "passageId": "R11-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R11-P4-10",
@@ -11950,147 +11950,147 @@
           "questions": [
             {
               "id": "R12-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Stone Inscription\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the bird-shaped symbol not enough to support a translation?",
               "choices": [
-                "The recorded outcome (“Several letter forms resembled those used in a…”) is treated as unrelated to the original investigation.",
-                "The concern (“Some visitors claimed that its symbols could be…”) leads to inquiry, but “The fragment was too short to support a complete…” limits the inference.",
-                "The proposed response (“The museum displayed competing interpretations with…”) makes the original concern irrelevant.",
-                "The method (“Specialists compared the marks with securely dated…”) rules out every possible competing explanation."
+                "Weathering can make one cut appear to be two separate marks.",
+                "Possible regional connections that still do not establish a full translation.",
+                "Visual resemblance alone cannot establish meaning for a sequence of unfamiliar signs.",
+                "Accounting for more of the surviving marks with fewer unresolved exceptions."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The fragment was too short to support a complete translation. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "The researchers require an explanation that works across multiple marks.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Stone Inscription\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the purpose of photographing the grooves under angled light?",
               "choices": [
-                "Some visitors claimed that its symbols could be translated immediately by guessing their shapes.",
-                "Specialists compared the marks with securely dated inscriptions and studied the stone's origin.",
-                "Several letter forms resembled those used in a neighboring region.",
-                "The museum displayed competing interpretations with explanations of the evidence."
+                "The inscription could be older than the building containing it.",
+                "Its surviving order does not match the expected pattern in known inscriptions.",
+                "Visitors often find a definitive statement easier than competing uncertain interpretations.",
+                "Weathering can make one cut appear to be two separate marks."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Some visitors claimed that its symbols could be translated immediately by guessing their shapes. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "The technique tests the physical reading before a linguistic claim is made.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Stone Inscription\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "How could the stone's reuse in a wall affect its dating?",
               "choices": [
-                "The fragment was too short to support a complete translation.",
-                "Specialists compared the marks with securely dated inscriptions and studied the stone's origin.",
-                "Some visitors claimed that its symbols could be translated immediately by guessing their shapes.",
-                "Several letter forms resembled those used in a neighboring region."
+                "The inscription could be older than the building containing it.",
+                "Possible regional connections that still do not establish a full translation.",
+                "Accounting for more of the surviving marks with fewer unresolved exceptions.",
+                "They allow visitors to assess the material evidence behind interpretive claims."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Specialists compared the marks with securely dated inscriptions and studied the stone's origin. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The find location need not be the original setting of the fragment.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Stone Inscription\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does similarity to neighboring letter forms legitimately suggest?",
               "choices": [
-                "The fragment was too short to support a complete translation.",
-                "The museum displayed competing interpretations with explanations of the evidence.",
-                "Several letter forms resembled those used in a neighboring region.",
-                "Specialists compared the marks with securely dated inscriptions and studied the stone's origin."
+                "Its surviving order does not match the expected pattern in known inscriptions.",
+                "Possible regional connections that still do not establish a full translation.",
+                "Visitors often find a definitive statement easier than competing uncertain interpretations.",
+                "A careful partial interpretation is preferable to an unsupported complete claim."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Several letter forms resembled those used in a neighboring region. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The researchers explicitly separate resemblance from identifying language or purpose.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Stone Inscription\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the unfamiliar symbol sequence limit a formula-based reading?",
               "choices": [
-                "Several letter forms resembled those used in a neighboring region.",
-                "Specialists compared the marks with securely dated inscriptions and studied the stone's origin.",
-                "The museum displayed competing interpretations with explanations of the evidence.",
-                "The fragment was too short to support a complete translation."
+                "Accounting for more of the surviving marks with fewer unresolved exceptions.",
+                "They allow visitors to assess the material evidence behind interpretive claims.",
+                "Its surviving order does not match the expected pattern in known inscriptions.",
+                "Visual resemblance alone cannot establish meaning for a sequence of unfamiliar signs."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The fragment was too short to support a complete translation. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The passage notes that individual characters resemble others without fitting a complete formula.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Stone Inscription\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would make one proposed reading stronger than another?",
               "choices": [
-                "The museum displayed competing interpretations with explanations of the evidence.",
-                "Some visitors claimed that its symbols could be translated immediately by guessing their shapes.",
-                "Specialists compared the marks with securely dated inscriptions and studied the stone's origin.",
-                "Several letter forms resembled those used in a neighboring region."
+                "Visitors often find a definitive statement easier than competing uncertain interpretations.",
+                "A careful partial interpretation is preferable to an unsupported complete claim.",
+                "Weathering can make one cut appear to be two separate marks.",
+                "Accounting for more of the surviving marks with fewer unresolved exceptions."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The museum displayed competing interpretations with explanations of the evidence. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The exhibit annotates which characters each interpretation can and cannot explain.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Stone Inscription\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the curator initially favor a single label?",
               "choices": [
-                "Initial concern: “Specialists compared the marks with securely dated…”; method: “Several letter forms resembled those used in a…”.",
-                "Initial concern: “Some visitors claimed that its symbols could be…”; method: “Specialists compared the marks with securely dated…”.",
-                "Initial concern: “Some visitors claimed that its symbols could be…”; method: “The fragment was too short to support a complete…”.",
-                "Initial concern: “Several letter forms resembled those used in a…”; method: “The museum displayed competing interpretations with…”."
+                "Visitors often find a definitive statement easier than competing uncertain interpretations.",
+                "They allow visitors to assess the material evidence behind interpretive claims.",
+                "Visual resemblance alone cannot establish meaning for a sequence of unfamiliar signs.",
+                "The inscription could be older than the building containing it."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Some visitors claimed that its symbols could be translated immediately by guessing their shapes. and the subsequent investigative procedure is Specialists compared the marks with securely dated inscriptions and studied the stone's origin..",
+              "correctIndex": 0,
+              "explanation": "The curator worries that multiple readings might frustrate the public.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Stone Inscription\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What educational role do the photograph and tracing have?",
               "choices": [
-                "The limitation (“The fragment was too short to support a complete…”) disproves the observation itself.",
-                "The method (“Specialists compared the marks with securely dated…”) guarantees the result before measurement.",
-                "The observation (“Several letter forms resembled those used in a…”) matters, but the limit (“The fragment was too short to support a complete…”) remains.",
-                "The observation (“Several letter forms resembled those used in a…”) rules out every alternative cause."
+                "A careful partial interpretation is preferable to an unsupported complete claim.",
+                "They allow visitors to assess the material evidence behind interpretive claims.",
+                "Weathering can make one cut appear to be two separate marks.",
+                "Possible regional connections that still do not establish a full translation."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Several letter forms resembled those used in a neighboring region. but must be read alongside The fragment was too short to support a complete translation..",
+              "correctIndex": 1,
+              "explanation": "The display exposes the reasoning rather than requiring belief in an authority.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Stone Inscription\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which conclusion fits the museum's final presentation?",
               "choices": [
-                "The response (“The museum displayed competing interpretations with…”) is proof of success in every setting.",
-                "The caveat (“The fragment was too short to support a complete…”) makes the observations worthless.",
-                "The observation (“Several letter forms resembled those used in a…”) shows that measurement was unnecessary.",
-                "The response (“The museum displayed competing interpretations with…”) follows evidence but remains open to reassessment."
+                "Visual resemblance alone cannot establish meaning for a sequence of unfamiliar signs.",
+                "The inscription could be older than the building containing it.",
+                "A careful partial interpretation is preferable to an unsupported complete claim.",
+                "Its surviving order does not match the expected pattern in known inscriptions."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The museum displayed competing interpretations with explanations of the evidence.; the stated limit The fragment was too short to support a complete translation. still matters.",
+              "correctIndex": 2,
+              "explanation": "Both candidate readings are shown with their remaining uncertainties.",
               "passageId": "R12-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P2-10",
@@ -12125,147 +12125,147 @@
           "questions": [
             {
               "id": "R12-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Puzzle Left Unfinished\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What undermined the first apparently successful puzzle arrangement?",
               "choices": [
-                "The method (“One student suggested forcing similar colors together,…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The slower method revealed that some pieces had been…”) is treated as unrelated to the original investigation.",
-                "The concern (“As the final week of school approached, several sections…”) leads to inquiry, but “The friends could not finish the entire puzzle before the…” limits the inference.",
-                "The proposed response (“They photographed the progress and left the pieces sorted…”) makes the original concern irrelevant."
+                "It could mask local errors while making the remaining picture impossible to assemble.",
+                "Correcting a false partial solution prevented later errors from accumulating.",
+                "The horizon bent unnaturally and printed brushstrokes pointed in inconsistent directions.",
+                "Members became more willing to admit that their matches were provisional."
               ],
               "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The friends could not finish the entire puzzle before the last day. prevents an overly broad conclusion.",
+              "explanation": "The puzzlers discover evidence that matching colors concealed incorrect connections.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Puzzle Left Unfinished\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did forcing similar pieces together worsen the task?",
               "choices": [
-                "One student suggested forcing similar colors together, but another proposed sorting edges and patterns.",
-                "The slower method revealed that some pieces had been placed in the wrong area.",
-                "They photographed the progress and left the pieces sorted for the next club.",
-                "As the final week of school approached, several sections still had no matching pieces."
+                "It replaced broad color guesses with multiple more discriminating clues.",
+                "A documented coherent partial solution can be more valuable than a misleading finished appearance.",
+                "A large-scale constraint against which individual pieces can be tested.",
+                "It could mask local errors while making the remaining picture impossible to assemble."
               ],
               "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: As the final week of school approached, several sections still had no matching pieces. The other choices describe what was done or discovered afterward.",
+              "explanation": "The passage contrasts a quick seeming fit with a coherent larger solution.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Puzzle Left Unfinished\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did sorting by edge shapes and fine transitions accomplish?",
               "choices": [
-                "One student suggested forcing similar colors together, but another proposed sorting edges and patterns.",
-                "As the final week of school approached, several sections still had no matching pieces.",
-                "The slower method revealed that some pieces had been placed in the wrong area.",
-                "The friends could not finish the entire puzzle before the last day."
+                "It replaced broad color guesses with multiple more discriminating clues.",
+                "Correcting a false partial solution prevented later errors from accumulating.",
+                "Members became more willing to admit that their matches were provisional.",
+                "They transfer a reliable method and organization, not just loose pieces."
               ],
               "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: One student suggested forcing similar colors together, but another proposed sorting edges and patterns. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "The new method uses geometry and tiny visual patterns.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Puzzle Left Unfinished\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was dismantling a completed-looking section productive?",
               "choices": [
-                "They photographed the progress and left the pieces sorted for the next club.",
-                "The slower method revealed that some pieces had been placed in the wrong area.",
-                "One student suggested forcing similar colors together, but another proposed sorting edges and patterns.",
-                "The friends could not finish the entire puzzle before the last day."
+                "A documented coherent partial solution can be more valuable than a misleading finished appearance.",
+                "Correcting a false partial solution prevented later errors from accumulating.",
+                "A large-scale constraint against which individual pieces can be tested.",
+                "Test appealing local matches against the coherence of the whole image."
               ],
               "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The slower method revealed that some pieces had been placed in the wrong area. The other statements describe different stages of the inquiry.",
+              "explanation": "The friends prioritized consistency over preserving apparent progress.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Puzzle Left Unfinished\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the unfinished cluster teach the group about completion?",
               "choices": [
-                "One student suggested forcing similar colors together, but another proposed sorting edges and patterns.",
-                "They photographed the progress and left the pieces sorted for the next club.",
-                "The friends could not finish the entire puzzle before the last day.",
-                "The slower method revealed that some pieces had been placed in the wrong area."
+                "Members became more willing to admit that their matches were provisional.",
+                "They transfer a reliable method and organization, not just loose pieces.",
+                "A documented coherent partial solution can be more valuable than a misleading finished appearance.",
+                "The horizon bent unnaturally and printed brushstrokes pointed in inconsistent directions."
               ],
               "correctIndex": 2,
-              "explanation": "The limitation is: The friends could not finish the entire puzzle before the last day. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The sorted trays and photograph preserve verifiable progress.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Puzzle Left Unfinished\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "How did the group's language about uncertainty change?",
               "choices": [
-                "As the final week of school approached, several sections still had no matching pieces.",
-                "One student suggested forcing similar colors together, but another proposed sorting edges and patterns.",
-                "The slower method revealed that some pieces had been placed in the wrong area.",
-                "They photographed the progress and left the pieces sorted for the next club."
+                "A large-scale constraint against which individual pieces can be tested.",
+                "Test appealing local matches against the coherence of the whole image.",
+                "It could mask local errors while making the remaining picture impossible to assemble.",
+                "Members became more willing to admit that their matches were provisional."
               ],
               "correctIndex": 3,
-              "explanation": "The subsequent response was: They photographed the progress and left the pieces sorted for the next club. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The deliberate sorting process made doubtful fits discussable.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Puzzle Left Unfinished\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the horizon serve as in the passage?",
               "choices": [
-                "Initial concern: “As the final week of school approached, several sections…”; method: “One student suggested forcing similar colors together,…”.",
-                "Initial concern: “As the final week of school approached, several sections…”; method: “The friends could not finish the entire puzzle before the…”.",
-                "Initial concern: “The slower method revealed that some pieces had been…”; method: “They photographed the progress and left the pieces sorted…”.",
-                "Initial concern: “One student suggested forcing similar colors together,…”; method: “The slower method revealed that some pieces had been…”."
+                "A large-scale constraint against which individual pieces can be tested.",
+                "They transfer a reliable method and organization, not just loose pieces.",
+                "The horizon bent unnaturally and printed brushstrokes pointed in inconsistent directions.",
+                "It replaced broad color guesses with multiple more discriminating clues."
               ],
               "correctIndex": 0,
-              "explanation": "The issue begins with As the final week of school approached, several sections still had no matching pieces. and the subsequent investigative procedure is One student suggested forcing similar colors together, but another proposed sorting edges and patterns..",
+              "explanation": "Its unexpected curve reveals that several local matches are wrong.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Puzzle Left Unfinished\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why do they leave labeled trays for the next club?",
               "choices": [
-                "The method (“One student suggested forcing similar colors together,…”) guarantees the result before measurement.",
-                "The observation (“The slower method revealed that some pieces had been…”) matters, but the limit (“The friends could not finish the entire puzzle before the…”) remains.",
-                "The observation (“The slower method revealed that some pieces had been…”) rules out every alternative cause.",
-                "The limitation (“The friends could not finish the entire puzzle before the…”) disproves the observation itself."
+                "Test appealing local matches against the coherence of the whole image.",
+                "They transfer a reliable method and organization, not just loose pieces.",
+                "It could mask local errors while making the remaining picture impossible to assemble.",
+                "Correcting a false partial solution prevented later errors from accumulating."
               ],
               "correctIndex": 1,
-              "explanation": "The result is reported as The slower method revealed that some pieces had been placed in the wrong area. but must be read alongside The friends could not finish the entire puzzle before the last day..",
+              "explanation": "The labels preserve evidence from the group's corrected approach.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Puzzle Left Unfinished\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which strategy best follows the experience of the puzzle?",
               "choices": [
-                "The caveat (“The friends could not finish the entire puzzle before the…”) makes the observations worthless.",
-                "The observation (“The slower method revealed that some pieces had been…”) shows that measurement was unnecessary.",
-                "The response (“They photographed the progress and left the pieces sorted…”) follows evidence but remains open to reassessment.",
-                "The response (“They photographed the progress and left the pieces sorted…”) is proof of success in every setting."
+                "The horizon bent unnaturally and printed brushstrokes pointed in inconsistent directions.",
+                "It replaced broad color guesses with multiple more discriminating clues.",
+                "Test appealing local matches against the coherence of the whole image.",
+                "A documented coherent partial solution can be more valuable than a misleading finished appearance."
               ],
               "correctIndex": 2,
-              "explanation": "The findings informed They photographed the progress and left the pieces sorted for the next club.; the stated limit The friends could not finish the entire puzzle before the last day. still matters.",
+              "explanation": "The group learns not to force pieces based on one superficial feature.",
               "passageId": "R12-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P3-10",
@@ -12300,147 +12300,147 @@
           "questions": [
             {
               "id": "R12-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Walking School Bus\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why wasn't the shortest walking route automatically preferred?",
               "choices": [
-                "The proposed response (“The organizers added a second route only after recruiting…”) makes the original concern irrelevant.",
-                "The method (“Volunteers chose meeting points, set a consistent pace…”) rules out every possible competing explanation.",
-                "The recorded outcome (“More families joined after the first month, and some cars…”) is treated as unrelated to the original investigation.",
-                "The concern (“Busy morning roads discouraged some families from letting…”) leads to inquiry, but “The program could not serve children living far from the…” limits the inference."
+                "Children joining unpredictably could be overlooked by supervisors.",
+                "The program may have contributed locally without proving that total traffic was solved.",
+                "Its crossing had poor visibility compared with a slightly longer guarded path.",
+                "An apparently successful service can remain inaccessible to some intended users."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The program could not serve children living far from the route. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "Organizers tested routes during the actual morning journey rather than comparing distance alone.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Walking School Bus\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the requirement for a designated adult address?",
               "choices": [
-                "More families joined after the first month, and some cars stopped using the crowded school entrance.",
-                "The organizers added a second route only after recruiting enough trained adults.",
-                "Busy morning roads discouraged some families from letting children walk alone.",
-                "Volunteers chose meeting points, set a consistent pace and practiced crossing safely."
+                "A route that seems safe in one snapshot may change under ordinary daily variation.",
+                "Volunteers needed enough trained adults to maintain reliable supervision when someone was absent.",
+                "It maintains a dependable schedule without rushing unsafe crossings.",
+                "Children joining unpredictably could be overlooked by supervisors."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Busy morning roads discouraged some families from letting children walk alone. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "The attendance rule makes responsibility explicit during a moving group.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Walking School Bus\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did organizers examine rainy-day and parked-car conditions?",
               "choices": [
-                "Busy morning roads discouraged some families from letting children walk alone.",
-                "More families joined after the first month, and some cars stopped using the crowded school entrance.",
-                "The program could not serve children living far from the route.",
-                "Volunteers chose meeting points, set a consistent pace and practiced crossing safely."
+                "A route that seems safe in one snapshot may change under ordinary daily variation.",
+                "The program may have contributed locally without proving that total traffic was solved.",
+                "An apparently successful service can remain inaccessible to some intended users.",
+                "Rapid expansion could undermine the reliability that earns families' trust."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Volunteers chose meeting points, set a consistent pace and practiced crossing safely. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The passage stresses real travel conditions, not a static street map.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Walking School Bus\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What can be inferred from fewer cars at the school entrance?",
               "choices": [
-                "More families joined after the first month, and some cars stopped using the crowded school entrance.",
-                "Volunteers chose meeting points, set a consistent pace and practiced crossing safely.",
-                "The program could not serve children living far from the route.",
-                "The organizers added a second route only after recruiting enough trained adults."
+                "Volunteers needed enough trained adults to maintain reliable supervision when someone was absent.",
+                "The program may have contributed locally without proving that total traffic was solved.",
+                "It maintains a dependable schedule without rushing unsafe crossings.",
+                "Evaluate a community intervention under actual operating conditions before scaling it."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: More families joined after the first month, and some cars stopped using the crowded school entrance. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The group notes other busy routes and changes in family schedules.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Walking School Bus\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was the expanded route delayed?",
               "choices": [
-                "The organizers added a second route only after recruiting enough trained adults.",
-                "The program could not serve children living far from the route.",
-                "More families joined after the first month, and some cars stopped using the crowded school entrance.",
-                "Volunteers chose meeting points, set a consistent pace and practiced crossing safely."
+                "An apparently successful service can remain inaccessible to some intended users.",
+                "Rapid expansion could undermine the reliability that earns families' trust.",
+                "Volunteers needed enough trained adults to maintain reliable supervision when someone was absent.",
+                "Its crossing had poor visibility compared with a slightly longer guarded path."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: The program could not serve children living far from the route. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "Organizers prioritize dependable staffing before recruiting more children.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Walking School Bus\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which concern do families far from the route raise?",
               "choices": [
-                "Volunteers chose meeting points, set a consistent pace and practiced crossing safely.",
-                "More families joined after the first month, and some cars stopped using the crowded school entrance.",
-                "The organizers added a second route only after recruiting enough trained adults.",
-                "Busy morning roads discouraged some families from letting children walk alone."
+                "It maintains a dependable schedule without rushing unsafe crossings.",
+                "Evaluate a community intervention under actual operating conditions before scaling it.",
+                "Children joining unpredictably could be overlooked by supervisors.",
+                "An apparently successful service can remain inaccessible to some intended users."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The organizers added a second route only after recruiting enough trained adults. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "Distance from meeting points restricts participation.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Walking School Bus\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the group balance predictability and flexibility?",
               "choices": [
-                "Initial concern: “Busy morning roads discouraged some families from letting…”; method: “The program could not serve children living far from the…”.",
-                "Initial concern: “More families joined after the first month, and some cars…”; method: “The organizers added a second route only after recruiting…”.",
-                "Initial concern: “Volunteers chose meeting points, set a consistent pace…”; method: “More families joined after the first month, and some cars…”.",
-                "Initial concern: “Busy morning roads discouraged some families from letting…”; method: “Volunteers chose meeting points, set a consistent pace…”."
+                "It maintains a dependable schedule without rushing unsafe crossings.",
+                "Rapid expansion could undermine the reliability that earns families' trust.",
+                "Its crossing had poor visibility compared with a slightly longer guarded path.",
+                "A route that seems safe in one snapshot may change under ordinary daily variation."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Busy morning roads discouraged some families from letting children walk alone. and the subsequent investigative procedure is Volunteers chose meeting points, set a consistent pace and practiced crossing safely..",
+              "correctIndex": 0,
+              "explanation": "The route plan responds to delays while preserving safety.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Walking School Bus\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the tension behind the second-route decision?",
               "choices": [
-                "The observation (“More families joined after the first month, and some cars…”) matters, but the limit (“The program could not serve children living far from the…”) remains.",
-                "The observation (“More families joined after the first month, and some cars…”) rules out every alternative cause.",
-                "The limitation (“The program could not serve children living far from the…”) disproves the observation itself.",
-                "The method (“Volunteers chose meeting points, set a consistent pace…”) guarantees the result before measurement."
+                "Evaluate a community intervention under actual operating conditions before scaling it.",
+                "Rapid expansion could undermine the reliability that earns families' trust.",
+                "Children joining unpredictably could be overlooked by supervisors.",
+                "The program may have contributed locally without proving that total traffic was solved."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as More families joined after the first month, and some cars stopped using the crowded school entrance. but must be read alongside The program could not serve children living far from the route..",
+              "correctIndex": 1,
+              "explanation": "The organizers must choose between wider reach and stable staffing.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Walking School Bus\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What broader approach does the program model?",
               "choices": [
-                "The observation (“More families joined after the first month, and some cars…”) shows that measurement was unnecessary.",
-                "The response (“The organizers added a second route only after recruiting…”) follows evidence but remains open to reassessment.",
-                "The response (“The organizers added a second route only after recruiting…”) is proof of success in every setting.",
-                "The caveat (“The program could not serve children living far from the…”) makes the observations worthless."
+                "Its crossing had poor visibility compared with a slightly longer guarded path.",
+                "A route that seems safe in one snapshot may change under ordinary daily variation.",
+                "Evaluate a community intervention under actual operating conditions before scaling it.",
+                "Volunteers needed enough trained adults to maintain reliable supervision when someone was absent."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The organizers added a second route only after recruiting enough trained adults.; the stated limit The program could not serve children living far from the route. still matters.",
+              "correctIndex": 2,
+              "explanation": "The organizers test crossings, observe uptake and secure replacement supervisors.",
               "passageId": "R12-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R12-P4-10",
