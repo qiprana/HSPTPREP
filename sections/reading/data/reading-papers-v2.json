@@ -15064,147 +15064,147 @@
           "questions": [
             {
               "id": "R15-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Library Saved by Volunteers\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was the donor photograph a misleading start to the library's history?",
               "choices": [
-                "The method (“Minutes from early meetings described years of volunteer…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The records showed that the donor contributed a building…”) is treated as unrelated to the original investigation.",
-                "The concern (“A popular story credited one wealthy donor with creating…”) leads to inquiry, but “The archive did not know the names of every person who…” limits the inference.",
-                "The proposed response (“The exhibition acknowledged the donor while emphasizing…”) makes the original concern irrelevant."
+                "Volunteers debated access, repairs and opening hours as the library took shape.",
+                "Money, space, materials, organization and continuing labor.",
+                "A memorable public milestone mistaken for the institution's entire beginning.",
+                "It highlighted a visible building ceremony while concealing earlier volunteer lending."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The archive did not know the names of every person who volunteered. prevents an overly broad conclusion.",
+              "correctIndex": 3,
+              "explanation": "The borrowing register shows the institution functioning before the permanent building.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Library Saved by Volunteers\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What do early meeting minutes reveal that anniversary brochures omit?",
               "choices": [
-                "The exhibition acknowledged the donor while emphasizing the larger community effort.",
-                "A popular story credited one wealthy donor with creating the entire institution.",
-                "Minutes from early meetings described years of volunteer book drives and fundraising.",
-                "The records showed that the donor contributed a building only after the collection had grown."
+                "Volunteers debated access, repairs and opening hours as the library took shape.",
+                "A building helped an already growing collection serve more people.",
+                "The archive lacks sufficient evidence to identify them accurately.",
+                "Books were being circulated years before the new building was supplied."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: A popular story credited one wealthy donor with creating the entire institution. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Their routine decisions establish sustained work before the celebrated donation.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Library Saved by Volunteers\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the donor's contribution still described as significant?",
               "choices": [
-                "The records showed that the donor contributed a building only after the collection had grown.",
-                "The archive did not know the names of every person who volunteered.",
-                "Minutes from early meetings described years of volunteer book drives and fundraising.",
-                "A popular story credited one wealthy donor with creating the entire institution."
+                "Money, space, materials, organization and continuing labor.",
+                "A building helped an already growing collection serve more people.",
+                "A memorable public milestone mistaken for the institution's entire beginning.",
+                "Why collective work is often remembered through a single recognizable benefactor."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Minutes from early meetings described years of volunteer book drives and fundraising. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The passage corrects an exclusive origin story without denying the donor's value.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Library Saved by Volunteers\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which kinds of contribution does the revised narrative distinguish?",
               "choices": [
-                "Minutes from early meetings described years of volunteer book drives and fundraising.",
-                "The archive did not know the names of every person who volunteered.",
-                "The exhibition acknowledged the donor while emphasizing the larger community effort.",
-                "The records showed that the donor contributed a building only after the collection had grown."
+                "The archive lacks sufficient evidence to identify them accurately.",
+                "Books were being circulated years before the new building was supplied.",
+                "Money, space, materials, organization and continuing labor.",
+                "Its public form grew from volunteer effort later strengthened by a major donation."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The records showed that the donor contributed a building only after the collection had grown. The other statements describe different stages of the inquiry.",
+              "correctIndex": 2,
+              "explanation": "The exhibit treats institutional creation as more than a single financial gift.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Library Saved by Volunteers\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why are unnamed volunteers not given invented biographies?",
               "choices": [
-                "The archive did not know the names of every person who volunteered.",
-                "The records showed that the donor contributed a building only after the collection had grown.",
-                "Minutes from early meetings described years of volunteer book drives and fundraising.",
-                "The exhibition acknowledged the donor while emphasizing the larger community effort."
+                "A memorable public milestone mistaken for the institution's entire beginning.",
+                "Why collective work is often remembered through a single recognizable benefactor.",
+                "It highlighted a visible building ceremony while concealing earlier volunteer lending.",
+                "The archive lacks sufficient evidence to identify them accurately."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The archive did not know the names of every person who volunteered. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "Initials in a ledger cannot support confident individual histories.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Library Saved by Volunteers\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the ceremonial key symbolize in the popular account?",
               "choices": [
-                "The records showed that the donor contributed a building only after the collection had grown.",
-                "The exhibition acknowledged the donor while emphasizing the larger community effort.",
-                "A popular story credited one wealthy donor with creating the entire institution.",
-                "Minutes from early meetings described years of volunteer book drives and fundraising."
+                "A memorable public milestone mistaken for the institution's entire beginning.",
+                "Books were being circulated years before the new building was supplied.",
+                "Its public form grew from volunteer effort later strengthened by a major donation.",
+                "Volunteers debated access, repairs and opening hours as the library took shape."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The exhibition acknowledged the donor while emphasizing the larger community effort. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The photograph becomes a simplified anniversary narrative.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Library Saved by Volunteers\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the earlier borrowing register change the chronology?",
               "choices": [
-                "Initial concern: “The records showed that the donor contributed a building…”; method: “The exhibition acknowledged the donor while emphasizing…”.",
-                "Initial concern: “Minutes from early meetings described years of volunteer…”; method: “The records showed that the donor contributed a building…”.",
-                "Initial concern: “A popular story credited one wealthy donor with creating…”; method: “Minutes from early meetings described years of volunteer…”.",
-                "Initial concern: “A popular story credited one wealthy donor with creating…”; method: “The archive did not know the names of every person who…”."
+                "Why collective work is often remembered through a single recognizable benefactor.",
+                "Books were being circulated years before the new building was supplied.",
+                "It highlighted a visible building ceremony while concealing earlier volunteer lending.",
+                "A building helped an already growing collection serve more people."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with A popular story credited one wealthy donor with creating the entire institution. and the subsequent investigative procedure is Minutes from early meetings described years of volunteer book drives and fundraising..",
+              "correctIndex": 1,
+              "explanation": "Its date establishes an earlier stage of public service.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Library Saved by Volunteers\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What question does the exhibition ask of viewers?",
               "choices": [
-                "The observation (“The records showed that the donor contributed a building…”) rules out every alternative cause.",
-                "The limitation (“The archive did not know the names of every person who…”) disproves the observation itself.",
-                "The method (“Minutes from early meetings described years of volunteer…”) guarantees the result before measurement.",
-                "The observation (“The records showed that the donor contributed a building…”) matters, but the limit (“The archive did not know the names of every person who…”) remains."
+                "Its public form grew from volunteer effort later strengthened by a major donation.",
+                "Volunteers debated access, repairs and opening hours as the library took shape.",
+                "Why collective work is often remembered through a single recognizable benefactor.",
+                "Money, space, materials, organization and continuing labor."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The records showed that the donor contributed a building only after the collection had grown. but must be read alongside The archive did not know the names of every person who volunteered..",
+              "correctIndex": 2,
+              "explanation": "The new labels juxtapose a famous image with less visible administrative records.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Library Saved by Volunteers\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which explanation best matches the institution's origins?",
               "choices": [
-                "The response (“The exhibition acknowledged the donor while emphasizing…”) follows evidence but remains open to reassessment.",
-                "The response (“The exhibition acknowledged the donor while emphasizing…”) is proof of success in every setting.",
-                "The caveat (“The archive did not know the names of every person who…”) makes the observations worthless.",
-                "The observation (“The records showed that the donor contributed a building…”) shows that measurement was unnecessary."
+                "It highlighted a visible building ceremony while concealing earlier volunteer lending.",
+                "A building helped an already growing collection serve more people.",
+                "The archive lacks sufficient evidence to identify them accurately.",
+                "Its public form grew from volunteer effort later strengthened by a major donation."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The exhibition acknowledged the donor while emphasizing the larger community effort.; the stated limit The archive did not know the names of every person who volunteered. still matters.",
+              "correctIndex": 3,
+              "explanation": "Records show a developing operation rather than creation at one ceremony.",
               "passageId": "R15-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P2-10",
@@ -15239,147 +15239,147 @@
           "questions": [
             {
               "id": "R15-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Debate After the Debate\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why couldn't the classmates compare their two figures directly?",
               "choices": [
-                "The proposed response (“They agreed to identify the dates of evidence more…”) makes the original concern irrelevant.",
-                "The method (“They exchanged their sources and compared the dates of…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Both discovered that their strongest statistics referred…”) is treated as unrelated to the original investigation.",
-                "The concern (“Afterward, each believed the other had ignored an…”) leads to inquiry, but “Their larger disagreement did not disappear after the…” limits the inference."
+                "It was a changing condition that could affect observed travel times.",
+                "Whether the bus lane justified its costs and served the right priorities.",
+                "Display dates, populations and methods with quoted figures.",
+                "They referred to different years and groups of bus users."
               ],
               "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Their larger disagreement did not disappear after the conversation. prevents an overly broad conclusion.",
+              "explanation": "One study covered morning commuters while another included weekend travel.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Debate After the Debate\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did road construction contribute to the debate?",
               "choices": [
-                "Afterward, each believed the other had ignored an important fact.",
-                "They exchanged their sources and compared the dates of the reports they had quoted.",
-                "Both discovered that their strongest statistics referred to different years.",
-                "They agreed to identify the dates of evidence more clearly in their next debate."
+                "It was a changing condition that could affect observed travel times.",
+                "The population and measurement method also need to match.",
+                "Each statistic could be valid within the conditions it actually measured.",
+                "It narrows a claim without requiring complete agreement."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Afterward, each believed the other had ignored an important fact. The other choices describe what was done or discovered afterward.",
+              "explanation": "The first report preceded disruption that complicated the later comparison.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Debate After the Debate\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is a statistic's date not enough to make it comparable?",
               "choices": [
-                "Their larger disagreement did not disappear after the conversation.",
-                "They exchanged their sources and compared the dates of the reports they had quoted.",
-                "Afterward, each believed the other had ignored an important fact.",
-                "Both discovered that their strongest statistics referred to different years."
+                "Whether the bus lane justified its costs and served the right priorities.",
+                "The population and measurement method also need to match.",
+                "Display dates, populations and methods with quoted figures.",
+                "A combined figure could hide incompatible periods and rider categories."
               ],
               "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: They exchanged their sources and compared the dates of the reports they had quoted. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "The reports sampled different journey categories as well as periods.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Debate After the Debate\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What was the classmates' remaining disagreement after resolving the data mismatch?",
               "choices": [
-                "Their larger disagreement did not disappear after the conversation.",
-                "They agreed to identify the dates of evidence more clearly in their next debate.",
-                "Both discovered that their strongest statistics referred to different years.",
-                "They exchanged their sources and compared the dates of the reports they had quoted."
+                "Each statistic could be valid within the conditions it actually measured.",
+                "It narrows a claim without requiring complete agreement.",
+                "Whether the bus lane justified its costs and served the right priorities.",
+                "Disputants should make evidence comparable before treating differences as contradictions."
               ],
               "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Both discovered that their strongest statistics referred to different years. The other statements describe different stages of the inquiry.",
+              "explanation": "One valued reliability while another emphasized neglected routes.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Debate After the Debate\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why doesn't the passage imply either student fabricated evidence?",
               "choices": [
-                "Both discovered that their strongest statistics referred to different years.",
-                "They exchanged their sources and compared the dates of the reports they had quoted.",
-                "They agreed to identify the dates of evidence more clearly in their next debate.",
-                "Their larger disagreement did not disappear after the conversation."
+                "Display dates, populations and methods with quoted figures.",
+                "A combined figure could hide incompatible periods and rider categories.",
+                "They referred to different years and groups of bus users.",
+                "Each statistic could be valid within the conditions it actually measured."
               ],
               "correctIndex": 3,
-              "explanation": "The limitation is: Their larger disagreement did not disappear after the conversation. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "The problem lies in misleading comparison, not necessarily invention.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Debate After the Debate\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What improvement did they propose for future debates?",
               "choices": [
-                "They agreed to identify the dates of evidence more clearly in their next debate.",
-                "Afterward, each believed the other had ignored an important fact.",
-                "They exchanged their sources and compared the dates of the reports they had quoted.",
-                "Both discovered that their strongest statistics referred to different years."
+                "Display dates, populations and methods with quoted figures.",
+                "It narrows a claim without requiring complete agreement.",
+                "Disputants should make evidence comparable before treating differences as contradictions.",
+                "It was a changing condition that could affect observed travel times."
               ],
               "correctIndex": 0,
-              "explanation": "The subsequent response was: They agreed to identify the dates of evidence more clearly in their next debate. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "They want listeners to evaluate the applicability of each measurement.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Debate After the Debate\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does conceding a limitation of one's evidence achieve?",
               "choices": [
-                "Initial concern: “They exchanged their sources and compared the dates of…”; method: “Both discovered that their strongest statistics referred…”.",
-                "Initial concern: “Afterward, each believed the other had ignored an…”; method: “They exchanged their sources and compared the dates of…”.",
-                "Initial concern: “Afterward, each believed the other had ignored an…”; method: “Their larger disagreement did not disappear after the…”.",
-                "Initial concern: “Both discovered that their strongest statistics referred…”; method: “They agreed to identify the dates of evidence more…”."
+                "A combined figure could hide incompatible periods and rider categories.",
+                "It narrows a claim without requiring complete agreement.",
+                "They referred to different years and groups of bus users.",
+                "The population and measurement method also need to match."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with Afterward, each believed the other had ignored an important fact. and the subsequent investigative procedure is They exchanged their sources and compared the dates of the reports they had quoted..",
+              "explanation": "Both students admit their sources cannot establish everything asserted.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Debate After the Debate\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why would averaging the two reported travel times be questionable?",
               "choices": [
-                "The limitation (“Their larger disagreement did not disappear after the…”) disproves the observation itself.",
-                "The method (“They exchanged their sources and compared the dates of…”) guarantees the result before measurement.",
-                "The observation (“Both discovered that their strongest statistics referred…”) matters, but the limit (“Their larger disagreement did not disappear after the…”) remains.",
-                "The observation (“Both discovered that their strongest statistics referred…”) rules out every alternative cause."
+                "Disputants should make evidence comparable before treating differences as contradictions.",
+                "It was a changing condition that could affect observed travel times.",
+                "A combined figure could hide incompatible periods and rider categories.",
+                "Whether the bus lane justified its costs and served the right priorities."
               ],
               "correctIndex": 2,
-              "explanation": "The result is reported as Both discovered that their strongest statistics referred to different years. but must be read alongside Their larger disagreement did not disappear after the conversation..",
+              "explanation": "The underlying observations lack a common basis for direct synthesis.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Debate After the Debate\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What larger standard of fair argument emerges?",
               "choices": [
-                "The response (“They agreed to identify the dates of evidence more…”) is proof of success in every setting.",
-                "The caveat (“Their larger disagreement did not disappear after the…”) makes the observations worthless.",
-                "The observation (“Both discovered that their strongest statistics referred…”) shows that measurement was unnecessary.",
-                "The response (“They agreed to identify the dates of evidence more…”) follows evidence but remains open to reassessment."
+                "They referred to different years and groups of bus users.",
+                "The population and measurement method also need to match.",
+                "Each statistic could be valid within the conditions it actually measured.",
+                "Disputants should make evidence comparable before treating differences as contradictions."
               ],
               "correctIndex": 3,
-              "explanation": "The findings informed They agreed to identify the dates of evidence more clearly in their next debate.; the stated limit Their larger disagreement did not disappear after the conversation. still matters.",
+              "explanation": "The final exchange replaces unexamined numerical certainty with contextual analysis.",
               "passageId": "R15-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P3-10",
@@ -15414,147 +15414,147 @@
           "questions": [
             {
               "id": "R15-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Festival Feedback Box\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What gap did the new feedback cards aim to address?",
               "choices": [
-                "The concern (“At earlier events, organizers mainly heard from those…”) leads to inquiry, but “People who submitted suggestions might not represent…” limits the inference.",
-                "The proposed response (“The next festival introduced extra benches and posted a…”) makes the original concern irrelevant.",
-                "The method (“They placed short feedback cards at several stalls and…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Responses highlighted a need for more seating and clearer…”) is treated as unrelated to the original investigation."
+                "Internet access, time and motivation affect who responds.",
+                "They compared comment locations with observed crowding and queues.",
+                "Additional benches on busy routes and simpler water-station directions.",
+                "Quiet attendees who would not approach staff had few ways to express concerns."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification People who submitted suggestions might not represent every attendee. prevents an overly broad conclusion.",
+              "correctIndex": 3,
+              "explanation": "Earlier feedback disproportionately came from outspoken visitors.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Festival Feedback Box\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why isn't the digital form sufficient to represent everyone?",
               "choices": [
-                "They placed short feedback cards at several stalls and offered an online form afterward.",
-                "Responses highlighted a need for more seating and clearer signs to water stations.",
-                "The next festival introduced extra benches and posted a summary of the responses.",
-                "At earlier events, organizers mainly heard from those willing to approach staff directly."
+                "Internet access, time and motivation affect who responds.",
+                "Certain visitor groups could be more likely to submit comments.",
+                "Readers needed to judge the limited reach of the feedback process.",
+                "Transparency makes trade-offs visible even when every proposal cannot be implemented."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: At earlier events, organizers mainly heard from those willing to approach staff directly. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Families with children and visitors without reliable online access may be missed.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Festival Feedback Box\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What might make seating requests appear more common than they are?",
               "choices": [
-                "They placed short feedback cards at several stalls and offered an online form afterward.",
-                "At earlier events, organizers mainly heard from those willing to approach staff directly.",
-                "Responses highlighted a need for more seating and clearer signs to water stations.",
-                "People who submitted suggestions might not represent every attendee."
+                "They compared comment locations with observed crowding and queues.",
+                "Certain visitor groups could be more likely to submit comments.",
+                "Additional benches on busy routes and simpler water-station directions.",
+                "One that reaches a broader cross-section beyond volunteers who choose to respond."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: They placed short feedback cards at several stalls and offered an online form afterward. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The organizers consider whether older attendees are overrepresented.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Festival Feedback Box\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "How did organizers seek evidence beyond written suggestions?",
               "choices": [
-                "The next festival introduced extra benches and posted a summary of the responses.",
-                "Responses highlighted a need for more seating and clearer signs to water stations.",
-                "They placed short feedback cards at several stalls and offered an online form afterward.",
-                "People who submitted suggestions might not represent every attendee."
+                "Readers needed to judge the limited reach of the feedback process.",
+                "Transparency makes trade-offs visible even when every proposal cannot be implemented.",
+                "They compared comment locations with observed crowding and queues.",
+                "Organizers act on evidence while acknowledging who may not have been heard."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: Responses highlighted a need for more seating and clearer signs to water stations. The other statements describe different stages of the inquiry.",
+              "correctIndex": 2,
+              "explanation": "Site observations provide context for self-selected responses.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Festival Feedback Box\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the report publish the number of returned forms?",
               "choices": [
-                "They placed short feedback cards at several stalls and offered an online form afterward.",
-                "The next festival introduced extra benches and posted a summary of the responses.",
-                "People who submitted suggestions might not represent every attendee.",
-                "Responses highlighted a need for more seating and clearer signs to water stations."
+                "Additional benches on busy routes and simpler water-station directions.",
+                "One that reaches a broader cross-section beyond volunteers who choose to respond.",
+                "Quiet attendees who would not approach staff had few ways to express concerns.",
+                "Readers needed to judge the limited reach of the feedback process."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: People who submitted suggestions might not represent every attendee. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "The organizers refused to imply that the responses represented every attendee.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Festival Feedback Box\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What practical changes followed the feedback?",
               "choices": [
-                "At earlier events, organizers mainly heard from those willing to approach staff directly.",
-                "They placed short feedback cards at several stalls and offered an online form afterward.",
-                "Responses highlighted a need for more seating and clearer signs to water stations.",
-                "The next festival introduced extra benches and posted a summary of the responses."
+                "Additional benches on busy routes and simpler water-station directions.",
+                "Transparency makes trade-offs visible even when every proposal cannot be implemented.",
+                "Organizers act on evidence while acknowledging who may not have been heard.",
+                "Internet access, time and motivation affect who responds."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The next festival introduced extra benches and posted a summary of the responses. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The next festival addressed two recurrent suggestions.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Festival Feedback Box\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why distinguish unaffordable requests from ignored feedback?",
               "choices": [
-                "Initial concern: “At earlier events, organizers mainly heard from those…”; method: “They placed short feedback cards at several stalls and…”.",
-                "Initial concern: “At earlier events, organizers mainly heard from those…”; method: “People who submitted suggestions might not represent…”.",
-                "Initial concern: “Responses highlighted a need for more seating and clearer…”; method: “The next festival introduced extra benches and posted a…”.",
-                "Initial concern: “They placed short feedback cards at several stalls and…”; method: “Responses highlighted a need for more seating and clearer…”."
+                "One that reaches a broader cross-section beyond volunteers who choose to respond.",
+                "Transparency makes trade-offs visible even when every proposal cannot be implemented.",
+                "Quiet attendees who would not approach staff had few ways to express concerns.",
+                "Certain visitor groups could be more likely to submit comments."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with At earlier events, organizers mainly heard from those willing to approach staff directly. and the subsequent investigative procedure is They placed short feedback cards at several stalls and offered an online form afterward..",
+              "correctIndex": 1,
+              "explanation": "The public report explains actions and constraints.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Festival Feedback Box\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What kind of future survey would better address representativeness?",
               "choices": [
-                "The method (“They placed short feedback cards at several stalls and…”) guarantees the result before measurement.",
-                "The observation (“Responses highlighted a need for more seating and clearer…”) matters, but the limit (“People who submitted suggestions might not represent…”) remains.",
-                "The observation (“Responses highlighted a need for more seating and clearer…”) rules out every alternative cause.",
-                "The limitation (“People who submitted suggestions might not represent…”) disproves the observation itself."
+                "Organizers act on evidence while acknowledging who may not have been heard.",
+                "Internet access, time and motivation affect who responds.",
+                "One that reaches a broader cross-section beyond volunteers who choose to respond.",
+                "They compared comment locations with observed crowding and queues."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as Responses highlighted a need for more seating and clearer signs to water stations. but must be read alongside People who submitted suggestions might not represent every attendee..",
+              "correctIndex": 2,
+              "explanation": "The passage names self-selection as the chief limitation.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Festival Feedback Box\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What makes the feedback exercise responsible?",
               "choices": [
-                "The caveat (“People who submitted suggestions might not represent…”) makes the observations worthless.",
-                "The observation (“Responses highlighted a need for more seating and clearer…”) shows that measurement was unnecessary.",
-                "The response (“The next festival introduced extra benches and posted a…”) follows evidence but remains open to reassessment.",
-                "The response (“The next festival introduced extra benches and posted a…”) is proof of success in every setting."
+                "Quiet attendees who would not approach staff had few ways to express concerns.",
+                "Certain visitor groups could be more likely to submit comments.",
+                "Readers needed to judge the limited reach of the feedback process.",
+                "Organizers act on evidence while acknowledging who may not have been heard."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The next festival introduced extra benches and posted a summary of the responses.; the stated limit People who submitted suggestions might not represent every attendee. still matters.",
+              "correctIndex": 3,
+              "explanation": "The process combines practical changes with candid reporting of uncertainty.",
               "passageId": "R15-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R15-P4-10",
@@ -16102,147 +16102,147 @@
           "questions": [
             {
               "id": "R16-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"Tracing a Canal\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did historians distrust the straight line on the early map?",
               "choices": [
-                "The recorded outcome (“Wet ground and curved property boundaries matched…”) is treated as unrelated to the original investigation.",
-                "The concern (“New roads had hidden much of the waterway, and its…”) leads to inquiry, but “Some stretches had been leveled beyond recognition” limits the inference.",
-                "The proposed response (“The researchers drew a map showing confirmed and…”) makes the original concern irrelevant.",
-                "The method (“The team combined aerial photographs, land deeds, and…”) rules out every possible competing explanation."
+                "It might have simplified a canal that actually bent around the landscape.",
+                "They might mark retained moisture from a canal or another drainage feature.",
+                "Agreement among property records, culverts and visible landscape clues.",
+                "It would make the route easier for hikers to follow without ambiguity."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Some stretches had been leveled beyond recognition. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Property boundaries suggest a less regular course than the drawing.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"Tracing a Canal\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is ambiguous about dark strips in aerial photographs?",
               "choices": [
-                "New roads had hidden much of the waterway, and its original route was disputed.",
-                "The team combined aerial photographs, land deeds, and field visits after rainfall.",
-                "Wet ground and curved property boundaries matched sections of an old engineering plan.",
-                "The researchers drew a map showing confirmed and uncertain portions of the route."
+                "Temporary moisture patterns could reveal otherwise concealed ground features.",
+                "They might mark retained moisture from a canal or another drainage feature.",
+                "They depended on inference across gaps where no direct trace survived.",
+                "It may hide former canal stretches where physical evidence is lost."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: New roads had hidden much of the waterway, and its original route was disputed. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "Wet ground is a clue that requires independent corroboration.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"Tracing a Canal\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did field visits after rainfall help?",
               "choices": [
-                "Some stretches had been leveled beyond recognition.",
-                "The team combined aerial photographs, land deeds, and field visits after rainfall.",
-                "New roads had hidden much of the waterway, and its original route was disputed.",
-                "Wet ground and curved property boundaries matched sections of an old engineering plan."
+                "Agreement among property records, culverts and visible landscape clues.",
+                "It would make the route easier for hikers to follow without ambiguity.",
+                "Temporary moisture patterns could reveal otherwise concealed ground features.",
+                "Revision of uncertain portions while retaining well-corroborated sections."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: The team combined aerial photographs, land deeds, and field visits after rainfall. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The team investigated where water collected along the suspected route.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"Tracing a Canal\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What supports a probable route rather than an arbitrary guess?",
               "choices": [
-                "Some stretches had been leveled beyond recognition.",
-                "The researchers drew a map showing confirmed and uncertain portions of the route.",
-                "Wet ground and curved property boundaries matched sections of an old engineering plan.",
-                "The team combined aerial photographs, land deeds, and field visits after rainfall."
+                "They depended on inference across gaps where no direct trace survived.",
+                "It may hide former canal stretches where physical evidence is lost.",
+                "Represent degrees of confidence instead of disguising uncertainties as facts.",
+                "Agreement among property records, culverts and visible landscape clues."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: Wet ground and curved property boundaries matched sections of an old engineering plan. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "The researchers look for multiple independent forms of evidence.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"Tracing a Canal\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were some map segments drawn with a different line style?",
               "choices": [
-                "Wet ground and curved property boundaries matched sections of an old engineering plan.",
-                "The team combined aerial photographs, land deeds, and field visits after rainfall.",
-                "The researchers drew a map showing confirmed and uncertain portions of the route.",
-                "Some stretches had been leveled beyond recognition."
+                "They depended on inference across gaps where no direct trace survived.",
+                "It would make the route easier for hikers to follow without ambiguity.",
+                "Revision of uncertain portions while retaining well-corroborated sections.",
+                "It might have simplified a canal that actually bent around the landscape."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: Some stretches had been leveled beyond recognition. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "The visual key separates supported stretches from uncertain ones.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"Tracing a Canal\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the heritage group prefer a continuous line?",
               "choices": [
-                "The researchers drew a map showing confirmed and uncertain portions of the route.",
-                "New roads had hidden much of the waterway, and its original route was disputed.",
-                "The team combined aerial photographs, land deeds, and field visits after rainfall.",
-                "Wet ground and curved property boundaries matched sections of an old engineering plan."
+                "It may hide former canal stretches where physical evidence is lost.",
+                "It would make the route easier for hikers to follow without ambiguity.",
+                "Represent degrees of confidence instead of disguising uncertainties as facts.",
+                "They might mark retained moisture from a canal or another drainage feature."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The researchers drew a map showing confirmed and uncertain portions of the route. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The desire for an appealing map conflicts with the uncertainty of reconstruction.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"Tracing a Canal\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How could a modern roadway distort the historic reconstruction?",
               "choices": [
-                "Initial concern: “The team combined aerial photographs, land deeds, and…”; method: “Wet ground and curved property boundaries matched…”.",
-                "Initial concern: “New roads had hidden much of the waterway, and its…”; method: “The team combined aerial photographs, land deeds, and…”.",
-                "Initial concern: “New roads had hidden much of the waterway, and its…”; method: “Some stretches had been leveled beyond recognition”.",
-                "Initial concern: “Wet ground and curved property boundaries matched…”; method: “The researchers drew a map showing confirmed and…”."
+                "Revision of uncertain portions while retaining well-corroborated sections.",
+                "It might have simplified a canal that actually bent around the landscape.",
+                "It may hide former canal stretches where physical evidence is lost.",
+                "Temporary moisture patterns could reveal otherwise concealed ground features."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with New roads had hidden much of the waterway, and its original route was disputed. and the subsequent investigative procedure is The team combined aerial photographs, land deeds, and field visits after rainfall..",
+              "correctIndex": 2,
+              "explanation": "The researchers refuse to fill gaps merely to make a neat line.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"Tracing a Canal\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would a later discovery require of the team?",
               "choices": [
-                "The limitation (“Some stretches had been leveled beyond recognition”) disproves the observation itself.",
-                "The method (“The team combined aerial photographs, land deeds, and…”) guarantees the result before measurement.",
-                "The observation (“Wet ground and curved property boundaries matched…”) matters, but the limit (“Some stretches had been leveled beyond recognition”) remains.",
-                "The observation (“Wet ground and curved property boundaries matched…”) rules out every alternative cause."
+                "Represent degrees of confidence instead of disguising uncertainties as facts.",
+                "They might mark retained moisture from a canal or another drainage feature.",
+                "Agreement among property records, culverts and visible landscape clues.",
+                "Revision of uncertain portions while retaining well-corroborated sections."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as Wet ground and curved property boundaries matched sections of an old engineering plan. but must be read alongside Some stretches had been leveled beyond recognition..",
+              "correctIndex": 3,
+              "explanation": "The map is presented as a provisional reconstruction.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"Tracing a Canal\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the passage's central cartographic principle?",
               "choices": [
-                "The response (“The researchers drew a map showing confirmed and…”) is proof of success in every setting.",
-                "The caveat (“Some stretches had been leveled beyond recognition”) makes the observations worthless.",
-                "The observation (“Wet ground and curved property boundaries matched…”) shows that measurement was unnecessary.",
-                "The response (“The researchers drew a map showing confirmed and…”) follows evidence but remains open to reassessment."
+                "Represent degrees of confidence instead of disguising uncertainties as facts.",
+                "It might have simplified a canal that actually bent around the landscape.",
+                "Temporary moisture patterns could reveal otherwise concealed ground features.",
+                "They depended on inference across gaps where no direct trace survived."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The researchers drew a map showing confirmed and uncertain portions of the route.; the stated limit Some stretches had been leveled beyond recognition. still matters.",
+              "correctIndex": 0,
+              "explanation": "The final map deliberately includes a key for evidential status.",
               "passageId": "R16-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P2-10",
@@ -16277,147 +16277,147 @@
           "questions": [
             {
               "id": "R16-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Garden in Winter\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did Nadia mistakenly assume about a productive garden?",
               "choices": [
-                "The method (“She learned about cover crops and invited classmates to…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The group planted hardy seeds and documented how the soil…”) is treated as unrelated to the original investigation.",
-                "The concern (“The empty beds looked abandoned, and she feared the club…”) leads to inquiry, but “Few plants grew quickly enough to make the beds look…” limits the inference.",
-                "The proposed response (“The club returned in spring to find the soil protected…”) makes the original concern irrelevant."
+                "That useful beds must display visible flowers or vegetables year-round.",
+                "Roots and plant cover can reduce exposure and help maintain soil structure.",
+                "The beds had different sunlight and no measured fertility baseline.",
+                "Soil had remained protected and the beds were ready for new planting."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Few plants grew quickly enough to make the beds look colorful before the holidays. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Her mentor explains benefits that are less immediately attractive.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Garden in Winter\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why might cover crops protect otherwise empty beds?",
               "choices": [
-                "She learned about cover crops and invited classmates to plan a winter project.",
-                "The group planted hardy seeds and documented how the soil changed over several weeks.",
-                "The club returned in spring to find the soil protected and ready for new planting.",
-                "The empty beds looked abandoned, and she feared the club would lose interest."
+                "To create a rough comparison for soil and surface changes.",
+                "Roots and plant cover can reduce exposure and help maintain soil structure.",
+                "Seedlings stayed low and lacked the color of summer crops.",
+                "Comparing exposed soil loss and structure across planted and bare beds."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The empty beds looked abandoned, and she feared the club would lose interest. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "The project aims to prepare soil for a later growing season.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Garden in Winter\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What was the purpose of leaving one bed unplanted?",
               "choices": [
-                "She learned about cover crops and invited classmates to plan a winter project.",
-                "The empty beds looked abandoned, and she feared the club would lose interest.",
-                "The group planted hardy seeds and documented how the soil changed over several weeks.",
-                "Few plants grew quickly enough to make the beds look colorful before the holidays."
+                "The beds had different sunlight and no measured fertility baseline.",
+                "Soil had remained protected and the beds were ready for new planting.",
+                "To create a rough comparison for soil and surface changes.",
+                "She valued slower protective processes as well as visible harvests."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: She learned about cover crops and invited classmates to plan a winter project. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The students observe a different treatment rather than judge appearance alone.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Garden in Winter\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why can't that comparison establish universal superiority?",
               "choices": [
-                "The club returned in spring to find the soil protected and ready for new planting.",
-                "The group planted hardy seeds and documented how the soil changed over several weeks.",
-                "She learned about cover crops and invited classmates to plan a winter project.",
-                "Few plants grew quickly enough to make the beds look colorful before the holidays."
+                "Seedlings stayed low and lacked the color of summer crops.",
+                "Comparing exposed soil loss and structure across planted and bare beds.",
+                "Cover crops appeared useful in these beds, but broader claims require controlled comparisons.",
+                "The beds had different sunlight and no measured fertility baseline."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The group planted hardy seeds and documented how the soil changed over several weeks. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Uncontrolled differences limit the strength of causal conclusions.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Garden in Winter\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did classmates initially think the winter project failed?",
               "choices": [
-                "She learned about cover crops and invited classmates to plan a winter project.",
-                "The club returned in spring to find the soil protected and ready for new planting.",
-                "Few plants grew quickly enough to make the beds look colorful before the holidays.",
-                "The group planted hardy seeds and documented how the soil changed over several weeks."
+                "Seedlings stayed low and lacked the color of summer crops.",
+                "Soil had remained protected and the beds were ready for new planting.",
+                "She valued slower protective processes as well as visible harvests.",
+                "That useful beds must display visible flowers or vegetables year-round."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Few plants grew quickly enough to make the beds look colorful before the holidays. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "They judged the beds mainly by immediate visual appearance.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Garden in Winter\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the spring return reveal?",
               "choices": [
-                "The empty beds looked abandoned, and she feared the club would lose interest.",
-                "She learned about cover crops and invited classmates to plan a winter project.",
-                "The group planted hardy seeds and documented how the soil changed over several weeks.",
-                "The club returned in spring to find the soil protected and ready for new planting."
+                "Comparing exposed soil loss and structure across planted and bare beds.",
+                "Soil had remained protected and the beds were ready for new planting.",
+                "Cover crops appeared useful in these beds, but broader claims require controlled comparisons.",
+                "Roots and plant cover can reduce exposure and help maintain soil structure."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The club returned in spring to find the soil protected and ready for new planting. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The benefits appeared over a longer period than the holiday timeline.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Garden in Winter\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which observation would most directly test the project's stated purpose?",
               "choices": [
-                "Initial concern: “The empty beds looked abandoned, and she feared the club…”; method: “She learned about cover crops and invited classmates to…”.",
-                "Initial concern: “The empty beds looked abandoned, and she feared the club…”; method: “Few plants grew quickly enough to make the beds look…”.",
-                "Initial concern: “The group planted hardy seeds and documented how the soil…”; method: “The club returned in spring to find the soil protected…”.",
-                "Initial concern: “She learned about cover crops and invited classmates to…”; method: “The group planted hardy seeds and documented how the soil…”."
+                "She valued slower protective processes as well as visible harvests.",
+                "That useful beds must display visible flowers or vegetables year-round.",
+                "Comparing exposed soil loss and structure across planted and bare beds.",
+                "To create a rough comparison for soil and surface changes."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The empty beds looked abandoned, and she feared the club would lose interest. and the subsequent investigative procedure is She learned about cover crops and invited classmates to plan a winter project..",
+              "correctIndex": 2,
+              "explanation": "The relevant outcomes concern soil protection rather than decoration.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Garden in Winter\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "How did Nadia revise the club's definition of progress?",
               "choices": [
-                "The method (“She learned about cover crops and invited classmates to…”) guarantees the result before measurement.",
-                "The observation (“The group planted hardy seeds and documented how the soil…”) matters, but the limit (“Few plants grew quickly enough to make the beds look…”) remains.",
-                "The observation (“The group planted hardy seeds and documented how the soil…”) rules out every alternative cause.",
-                "The limitation (“Few plants grew quickly enough to make the beds look…”) disproves the observation itself."
+                "Cover crops appeared useful in these beds, but broader claims require controlled comparisons.",
+                "Roots and plant cover can reduce exposure and help maintain soil structure.",
+                "The beds had different sunlight and no measured fertility baseline.",
+                "She valued slower protective processes as well as visible harvests."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The group planted hardy seeds and documented how the soil changed over several weeks. but must be read alongside Few plants grew quickly enough to make the beds look colorful before the holidays..",
+              "correctIndex": 3,
+              "explanation": "The class learns to distinguish delayed results from unsuccessful work.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Garden in Winter\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What qualified conclusion follows from the winter experiment?",
               "choices": [
-                "The caveat (“Few plants grew quickly enough to make the beds look…”) makes the observations worthless.",
-                "The observation (“The group planted hardy seeds and documented how the soil…”) shows that measurement was unnecessary.",
-                "The response (“The club returned in spring to find the soil protected…”) follows evidence but remains open to reassessment.",
-                "The response (“The club returned in spring to find the soil protected…”) is proof of success in every setting."
+                "Cover crops appeared useful in these beds, but broader claims require controlled comparisons.",
+                "That useful beds must display visible flowers or vegetables year-round.",
+                "To create a rough comparison for soil and surface changes.",
+                "Seedlings stayed low and lacked the color of summer crops."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The club returned in spring to find the soil protected and ready for new planting.; the stated limit Few plants grew quickly enough to make the beds look colorful before the holidays. still matters.",
+              "correctIndex": 0,
+              "explanation": "The study notes both soil benefits and important design limitations.",
               "passageId": "R16-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P3-10",
@@ -16452,147 +16452,147 @@
           "questions": [
             {
               "id": "R16-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Bus Stop in the Shade\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why would identical shelters at every stop be inefficient?",
               "choices": [
-                "The proposed response (“The committee recommended a temporary canopy followed by…”) makes the original concern irrelevant.",
-                "The method (“Members measured shade at different times and counted…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The busiest unshaded stop had the greatest need for…”) is treated as unrelated to the original investigation.",
-                "The concern (“Several stops offered no shade during the hottest…”) leads to inquiry, but “A shelter would not address every delay or make the road…” limits the inference."
+                "Stops differ in existing shade, passenger needs and exposure.",
+                "It may ignore riders who need seating or wait longer despite smaller numbers.",
+                "Its supports must preserve wheelchair access and driver visibility.",
+                "A single visit could misrepresent how exposure shifts through the day."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification A shelter would not address every delay or make the road cooler overall. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The committee sees that local conditions matter more than uniform appearance.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Bus Stop in the Shade\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What limitation arises from ranking only by passenger volume?",
               "choices": [
-                "The busiest unshaded stop had the greatest need for immediate improvement.",
-                "The committee recommended a temporary canopy followed by a permanent design.",
-                "Several stops offered no shade during the hottest afternoon hours.",
-                "Members measured shade at different times and counted passengers using each stop."
+                "It had substantial afternoon exposure when students and workers gathered.",
+                "It may ignore riders who need seating or wait longer despite smaller numbers.",
+                "The shelter changes the waiting environment rather than the service schedule.",
+                "It could address immediate exposure while a durable design was prepared."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Several stops offered no shade during the hottest afternoon hours. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "Older passengers could be underserved by a simple count-based priority.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Bus Stop in the Shade\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was the busiest unshaded stop given early attention?",
               "choices": [
-                "Several stops offered no shade during the hottest afternoon hours.",
-                "The busiest unshaded stop had the greatest need for immediate improvement.",
-                "A shelter would not address every delay or make the road cooler overall.",
-                "Members measured shade at different times and counted passengers using each stop."
+                "Its supports must preserve wheelchair access and driver visibility.",
+                "A single visit could misrepresent how exposure shifts through the day.",
+                "It had substantial afternoon exposure when students and workers gathered.",
+                "Passenger comfort and use data collected after installation."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Members measured shade at different times and counted passengers using each stop. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The observations identified a significant and immediate comfort burden.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Bus Stop in the Shade\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What design constraint applies to the temporary canopy?",
               "choices": [
-                "The busiest unshaded stop had the greatest need for immediate improvement.",
-                "Members measured shade at different times and counted passengers using each stop.",
-                "A shelter would not address every delay or make the road cooler overall.",
-                "The committee recommended a temporary canopy followed by a permanent design."
+                "The shelter changes the waiting environment rather than the service schedule.",
+                "It could address immediate exposure while a durable design was prepared.",
+                "Public design must consider lived experience and the distinct outcomes an intervention can change.",
+                "Its supports must preserve wheelchair access and driver visibility."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The busiest unshaded stop had the greatest need for immediate improvement. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "A shade structure must not create a new accessibility or safety barrier.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Bus Stop in the Shade\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why couldn't the committee claim fewer bus delays?",
               "choices": [
-                "The committee recommended a temporary canopy followed by a permanent design.",
-                "A shelter would not address every delay or make the road cooler overall.",
-                "The busiest unshaded stop had the greatest need for immediate improvement.",
-                "Members measured shade at different times and counted passengers using each stop."
+                "The shelter changes the waiting environment rather than the service schedule.",
+                "A single visit could misrepresent how exposure shifts through the day.",
+                "Passenger comfort and use data collected after installation.",
+                "Stops differ in existing shade, passenger needs and exposure."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: A shelter would not address every delay or make the road cooler overall. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "No evidence links the canopy to bus punctuality.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Bus Stop in the Shade\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the purpose of measuring shade at different hours?",
               "choices": [
-                "Members measured shade at different times and counted passengers using each stop.",
-                "The busiest unshaded stop had the greatest need for immediate improvement.",
-                "The committee recommended a temporary canopy followed by a permanent design.",
-                "Several stops offered no shade during the hottest afternoon hours."
+                "It could address immediate exposure while a durable design was prepared.",
+                "A single visit could misrepresent how exposure shifts through the day.",
+                "Public design must consider lived experience and the distinct outcomes an intervention can change.",
+                "It may ignore riders who need seating or wait longer despite smaller numbers."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The committee recommended a temporary canopy followed by a permanent design. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The committee tracks changing sunlight rather than a fixed snapshot.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Bus Stop in the Shade\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why recommend a temporary canopy before a permanent shelter?",
               "choices": [
-                "Initial concern: “Several stops offered no shade during the hottest…”; method: “A shelter would not address every delay or make the road…”.",
-                "Initial concern: “The busiest unshaded stop had the greatest need for…”; method: “The committee recommended a temporary canopy followed by…”.",
-                "Initial concern: “Members measured shade at different times and counted…”; method: “The busiest unshaded stop had the greatest need for…”.",
-                "Initial concern: “Several stops offered no shade during the hottest…”; method: “Members measured shade at different times and counted…”."
+                "Passenger comfort and use data collected after installation.",
+                "Stops differ in existing shade, passenger needs and exposure.",
+                "It could address immediate exposure while a durable design was prepared.",
+                "It had substantial afternoon exposure when students and workers gathered."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Several stops offered no shade during the hottest afternoon hours. and the subsequent investigative procedure is Members measured shade at different times and counted passengers using each stop..",
+              "correctIndex": 2,
+              "explanation": "The committee recognizes speed and long-term reliability as separate needs.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Bus Stop in the Shade\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What result would justify reviewing the intervention later?",
               "choices": [
-                "The observation (“The busiest unshaded stop had the greatest need for…”) matters, but the limit (“A shelter would not address every delay or make the road…”) remains.",
-                "The observation (“The busiest unshaded stop had the greatest need for…”) rules out every alternative cause.",
-                "The limitation (“A shelter would not address every delay or make the road…”) disproves the observation itself.",
-                "The method (“Members measured shade at different times and counted…”) guarantees the result before measurement."
+                "Public design must consider lived experience and the distinct outcomes an intervention can change.",
+                "It may ignore riders who need seating or wait longer despite smaller numbers.",
+                "Its supports must preserve wheelchair access and driver visibility.",
+                "Passenger comfort and use data collected after installation."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The busiest unshaded stop had the greatest need for immediate improvement. but must be read alongside A shelter would not address every delay or make the road cooler overall..",
+              "correctIndex": 3,
+              "explanation": "The written plan calls for evaluation rather than assuming permanent success.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Bus Stop in the Shade\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What broader lesson does the stop study offer?",
               "choices": [
-                "The observation (“The busiest unshaded stop had the greatest need for…”) shows that measurement was unnecessary.",
-                "The response (“The committee recommended a temporary canopy followed by…”) follows evidence but remains open to reassessment.",
-                "The response (“The committee recommended a temporary canopy followed by…”) is proof of success in every setting.",
-                "The caveat (“A shelter would not address every delay or make the road…”) makes the observations worthless."
+                "Public design must consider lived experience and the distinct outcomes an intervention can change.",
+                "Stops differ in existing shade, passenger needs and exposure.",
+                "It had substantial afternoon exposure when students and workers gathered.",
+                "The shelter changes the waiting environment rather than the service schedule."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The committee recommended a temporary canopy followed by a permanent design.; the stated limit A shelter would not address every delay or make the road cooler overall. still matters.",
+              "correctIndex": 0,
+              "explanation": "The proposal separates shade, accessibility and schedule reliability.",
               "passageId": "R16-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R16-P4-10",
