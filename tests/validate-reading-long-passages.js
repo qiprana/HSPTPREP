@@ -45,6 +45,7 @@ assert.equal(rewrittenTimed,300,'All ten questions for 30 passages must be passa
 for(const p of data.practice){
  guided++;
  assert.ok(count(p.passage)>=350,'Guided day '+p.day+' under 350 words');
+ assert.ok(!p.passage.includes('The larger significance lies in the relationship between evidence and judgment.'),'Guided day '+p.day+' retains boilerplate padding');
  assert.equal(p.questions.length,15,'Guided question count Day '+p.day);
  for(const [i,q] of p.questions.entries()){
   checkQuestion(q,'guided '+p.day);
@@ -73,4 +74,8 @@ for(const q of vocabulary){
  assert.ok(!(new RegExp('\\b'+escapedAnswer+'\\b','i')).test(ctx),q.id+' leaks correct answer in the context');
 }
 assert.equal(antonyms,110);
+const upgraded=data.tests.slice(10).flatMap(t=>t.passages.slice(1).flatMap(p=>p.questions)).concat(data.practice.flatMap(p=>p.questions.slice(1,10)));
+assert.equal(upgraded.length,480);
+const longest=upgraded.filter(q=>q.choices[q.correctIndex].length===Math.max(...q.choices.map(x=>x.length))&&q.choices.filter(x=>x.length===q.choices[q.correctIndex].length).length===1).length;
+assert.ok(longest/upgraded.length<0.40,'Answer-length bias is excessive: '+longest+'/'+upgraded.length);
 console.log('PASS: 80 timed passages (min '+minimum+' words), 20 guided passages >=350 words, 300 passage-specific timed questions, 180 revised guided items, 540 unique vocabulary targets (110 antonyms); valid keys and preserved IDs.');
