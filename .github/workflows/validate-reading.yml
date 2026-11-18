@@ -4,6 +4,7 @@ on:
     paths:
       - 'sections/reading/**'
       - 'tests/validate-reading-papers.js'
+      - 'tests/validate-reading-long-passages.js'
       - 'tests/report-reading-editorial-gaps.js'
       - 'tests/validate-difficulty-coverage.js'
       - '.github/workflows/validate-reading.yml'
@@ -23,6 +24,7 @@ jobs:
       - name: Validate Reading question bank, passage counts and explanations
         run: |
           node tests/validate-reading-papers.js
+          node tests/validate-reading-long-passages.js
           node tests/validate-difficulty-coverage.js
       - name: Publish diagnostic Reading editorial review gaps
         run: node tests/report-reading-editorial-gaps.js
