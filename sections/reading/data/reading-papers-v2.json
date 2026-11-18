@@ -21102,138 +21102,138 @@
         },
         {
           "id": "RG01-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Community Garden\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why do the gardeners choose movable raised beds?",
           "choices": [
-            "Vegetables reached a pantry and neighbors began planning projects together.",
-            "The city had granted only a one-year trial, so lasting access was not established.",
-            "A littered lot was offered for a temporary garden trial rather than permanent community ownership.",
-            "Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance."
+            "Residents who had rarely interacted begin organizing work together.",
+            "Temporary land permission makes costly permanent construction risky.",
+            "It shifts the plan from assumptions about safety to evidence-based planting decisions.",
+            "Documented costs, labor, harvests and participation over time."
           ],
-          "correctIndex": 2,
-          "explanation": "The opening situation establishes why participants needed to act: A littered lot was offered for a temporary garden trial rather than permanent community ownership.",
+          "correctIndex": 1,
+          "explanation": "Their layout must accommodate uncertainty over renewal.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What is the strongest evidence of community impact beyond food production?",
           "choices": [
-            "A littered lot was offered for a temporary garden trial rather than permanent community ownership.",
-            "Vegetables reached a pantry and neighbors began planning projects together.",
-            "The city had granted only a one-year trial, so lasting access was not established.",
-            "Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance."
+            "Shared enthusiasm proves insufficient without dependable recurring duties.",
+            "One season cannot guarantee continued labor, funding or favorable conditions.",
+            "Residents who had rarely interacted begin organizing work together.",
+            "Some residents prefer parking or an unobstructed delivery route."
           ],
-          "correctIndex": 3,
-          "explanation": "The method is the action taken to respond to uncertainty: Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance.",
+          "correctIndex": 2,
+          "explanation": "The narrative reports cooperation extending beyond the initial harvest.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why does the watering schedule matter?",
           "choices": [
-            "Vegetables reached a pantry and neighbors began planning projects together.",
-            "A littered lot was offered for a temporary garden trial rather than permanent community ownership.",
-            "Neighbors' cooperation and the city's temporary permission were sufficient to begin the experiment.",
-            "Track harvest distribution and continued collaboration across subsequent growing seasons."
+            "It shifts the plan from assumptions about safety to evidence-based planting decisions.",
+            "Documented costs, labor, harvests and participation over time.",
+            "The project produced a tangible contribution beyond beautifying the lot.",
+            "Shared enthusiasm proves insufficient without dependable recurring duties."
           ],
-          "correctIndex": 0,
-          "explanation": "The passage reports this outcome: Vegetables reached a pantry and neighbors began planning projects together.",
+          "correctIndex": 3,
+          "explanation": "A dry weekend exposed weaknesses in informal promises.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Community Garden\"?",
+          "type": "Guided close reading",
+          "prompt": "How does a soil test alter the proposal?",
           "choices": [
-            "Vegetables reached a pantry and neighbors began planning projects together.",
-            "The city had granted only a one-year trial, so lasting access was not established.",
-            "A littered lot was offered for a temporary garden trial rather than permanent community ownership.",
-            "Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance."
+            "It shifts the plan from assumptions about safety to evidence-based planting decisions.",
+            "One season cannot guarantee continued labor, funding or favorable conditions.",
+            "Some residents prefer parking or an unobstructed delivery route.",
+            "It offers an opportunity to generate evidence without guaranteeing permanence."
           ],
-          "correctIndex": 1,
-          "explanation": "A careful interpretation must preserve the boundary: The city had granted only a one-year trial, so lasting access was not established.",
+          "correctIndex": 0,
+          "explanation": "The volunteers investigate the site's unknown previous use.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Why could the city reasonably withhold permanent approval despite the harvest?",
           "choices": [
-            "The intervention (Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance.) is unrelated to the concern that motivated it.",
-            "Because the problem (A littered lot was offered for a temporary garden trial rather than permanent community ownership.) was identified, later evidence cannot change the original hypothesis.",
-            "A temporary project can produce practical and social benefits without proving long-term permanence.",
-            "The result (Vegetables reached a pantry and neighbors began planning projects together.) proves that no uncertainty remains and the limitation is irrelevant."
+            "Documented costs, labor, harvests and participation over time.",
+            "One season cannot guarantee continued labor, funding or favorable conditions.",
+            "The project produced a tangible contribution beyond beautifying the lot.",
+            "Temporary land permission makes costly permanent construction risky."
           ],
-          "correctIndex": 2,
-          "explanation": "The supported synthesis is: A temporary project can produce practical and social benefits without proving long-term permanence.",
+          "correctIndex": 1,
+          "explanation": "The trial's results are useful without establishing long-term sustainability.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Community Garden\"?",
+          "type": "Guided close reading",
+          "prompt": "What would most improve the renewal decision?",
           "choices": [
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Track harvest distribution and continued collaboration across subsequent growing seasons."
+            "Some residents prefer parking or an unobstructed delivery route.",
+            "It offers an opportunity to generate evidence without guaranteeing permanence.",
+            "Documented costs, labor, harvests and participation over time.",
+            "Residents who had rarely interacted begin organizing work together."
           ],
-          "correctIndex": 3,
-          "explanation": "A focused follow-up can test the uncertainty by track harvest distribution and continued collaboration across subsequent growing seasons.",
+          "correctIndex": 2,
+          "explanation": "Organizers submit measurable results rather than relying only on promises.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Community Garden\"?",
+          "type": "Guided close reading",
+          "prompt": "What competing interest complicates use of the lot?",
           "choices": [
-            "The first successful season guarantees permanent land rights and equal harvests every year.",
-            "Volunteers tested soil, built beds, and combined student planting with retirees' water-saving guidance.",
-            "Vegetables reached a pantry and neighbors began planning projects together.",
-            "The city had granted only a one-year trial, so lasting access was not established."
+            "The project produced a tangible contribution beyond beautifying the lot.",
+            "Temporary land permission makes costly permanent construction risky.",
+            "Shared enthusiasm proves insufficient without dependable recurring duties.",
+            "Some residents prefer parking or an unobstructed delivery route."
           ],
-          "correctIndex": 0,
-          "explanation": "This absolute conclusion is unsupported: The first successful season guarantees permanent land rights and equal harvests every year. The passage instead supports bounded claims.",
+          "correctIndex": 3,
+          "explanation": "Public land has several possible uses.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What does distributing vegetables to a pantry establish?",
           "choices": [
-            "Any future conditions must be identical without needing examination.",
-            "Neighbors' cooperation and the city's temporary permission were sufficient to begin the experiment.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken."
+            "The project produced a tangible contribution beyond beautifying the lot.",
+            "It offers an opportunity to generate evidence without guaranteeing permanence.",
+            "Residents who had rarely interacted begin organizing work together.",
+            "It shifts the plan from assumptions about safety to evidence-based planting decisions."
           ],
-          "correctIndex": 1,
-          "explanation": "The inference depends on the stated consideration: Neighbors' cooperation and the city's temporary permission were sufficient to begin the experiment.",
+          "correctIndex": 0,
+          "explanation": "Harvest records show direct practical value.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG01-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which interpretation best fits the city's one-year trial?",
           "choices": [
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "The improvement in neighbors' relationships may also reflect their preexisting willingness to collaborate.",
-            "The passage contains no observations capable of informing any explanation."
+            "Temporary land permission makes costly permanent construction risky.",
+            "It offers an opportunity to generate evidence without guaranteeing permanence.",
+            "Shared enthusiasm proves insufficient without dependable recurring duties.",
+            "One season cannot guarantee continued labor, funding or favorable conditions."
           ],
-          "correctIndex": 2,
-          "explanation": "The account does not rule out this competing possibility: The improvement in neighbors' relationships may also reflect their preexisting willingness to collaborate.",
+          "correctIndex": 1,
+          "explanation": "The agreement tests the proposal's public value.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R01-PRV-01",
@@ -21332,138 +21332,138 @@
         },
         {
           "id": "RG02-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Night Migration\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "What is the main weakness in volunteer injury counts?",
           "choices": [
-            "A coastal town dimmed its tallest buildings during peak migration periods.",
-            "Volunteers later recorded fewer injured birds near the affected buildings.",
-            "Weather also influences migration and injury patterns, complicating causal attribution.",
-            "Artificial lighting attracted night-migrating birds toward hazardous glass buildings."
+            "Safety requirements remained even during a wildlife precaution.",
+            "It provides a reference for changes unrelated to the lighting intervention.",
+            "They omit collisions where birds were not found.",
+            "It reduces variation caused by observers checking at different hours."
           ],
-          "correctIndex": 3,
-          "explanation": "The opening situation establishes why participants needed to act: Artificial lighting attracted night-migrating birds toward hazardous glass buildings.",
+          "correctIndex": 2,
+          "explanation": "The survey detects observed injuries rather than all possible events.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why did managers retain some building lights?",
           "choices": [
-            "A coastal town dimmed its tallest buildings during peak migration periods.",
-            "Artificial lighting attracted night-migrating birds toward hazardous glass buildings.",
-            "Volunteers later recorded fewer injured birds near the affected buildings.",
-            "Weather also influences migration and injury patterns, complicating causal attribution."
+            "Changes in wind or migration routes may have altered exposure.",
+            "Dimming is the sole cause of every reduction in collision risk.",
+            "Birds might shift toward other illuminated structures outside the sample.",
+            "Safety requirements remained even during a wildlife precaution."
           ],
-          "correctIndex": 0,
-          "explanation": "The method is the action taken to respond to uncertainty: A coastal town dimmed its tallest buildings during peak migration periods.",
+          "correctIndex": 3,
+          "explanation": "The intervention targeted nonessential illumination.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What alternative could explain fewer recorded injuries?",
           "choices": [
-            "Compare injury rates across matched weather conditions at dimmed and undimmed buildings.",
-            "Volunteers later recorded fewer injured birds near the affected buildings.",
-            "Artificial lighting attracted night-migrating birds toward hazardous glass buildings.",
-            "Changes in building lighting may affect where migrating birds travel."
+            "Changes in wind or migration routes may have altered exposure.",
+            "It provides a reference for changes unrelated to the lighting intervention.",
+            "It reduces variation caused by observers checking at different hours.",
+            "A precaution can be justified while stronger causal evidence is gathered."
           ],
-          "correctIndex": 1,
-          "explanation": "The passage reports this outcome: Volunteers later recorded fewer injured birds near the affected buildings.",
+          "correctIndex": 0,
+          "explanation": "Researchers explicitly consider weather as a competing cause.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Night Migration\"?",
+          "type": "Guided close reading",
+          "prompt": "Why would a comparison with unchanged buildings help?",
           "choices": [
-            "A coastal town dimmed its tallest buildings during peak migration periods.",
-            "Volunteers later recorded fewer injured birds near the affected buildings.",
-            "Weather also influences migration and injury patterns, complicating causal attribution.",
-            "Artificial lighting attracted night-migrating birds toward hazardous glass buildings."
+            "Dimming is the sole cause of every reduction in collision risk.",
+            "It provides a reference for changes unrelated to the lighting intervention.",
+            "Birds might shift toward other illuminated structures outside the sample.",
+            "Repeated observations accounting for migration volume, weather and survey effort."
           ],
-          "correctIndex": 2,
-          "explanation": "A careful interpretation must preserve the boundary: Weather also influences migration and injury patterns, complicating causal attribution.",
+          "correctIndex": 1,
+          "explanation": "The study would distinguish site-wide trends from treatment effects.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Which conclusion is too strong for the available evidence?",
           "choices": [
-            "The result (Volunteers later recorded fewer injured birds near the affected buildings.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (A coastal town dimmed its tallest buildings during peak migration periods.) is unrelated to the concern that motivated it.",
-            "Because the problem (Artificial lighting attracted night-migrating birds toward hazardous glass buildings.) was identified, later evidence cannot change the original hypothesis.",
-            "A local intervention coincided with improved outcomes but its effect cannot be isolated from weather."
+            "It reduces variation caused by observers checking at different hours.",
+            "A precaution can be justified while stronger causal evidence is gathered.",
+            "Dimming is the sole cause of every reduction in collision risk.",
+            "They omit collisions where birds were not found."
           ],
-          "correctIndex": 3,
-          "explanation": "The supported synthesis is: A local intervention coincided with improved outcomes but its effect cannot be isolated from weather.",
+          "correctIndex": 2,
+          "explanation": "The observations have not isolated lighting from all other factors.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Night Migration\"?",
+          "type": "Guided close reading",
+          "prompt": "What does recording survey time contribute?",
           "choices": [
-            "Compare injury rates across matched weather conditions at dimmed and undimmed buildings.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings."
+            "Birds might shift toward other illuminated structures outside the sample.",
+            "Repeated observations accounting for migration volume, weather and survey effort.",
+            "Safety requirements remained even during a wildlife precaution.",
+            "It reduces variation caused by observers checking at different hours."
           ],
-          "correctIndex": 0,
-          "explanation": "A focused follow-up can test the uncertainty by compare injury rates across matched weather conditions at dimmed and undimmed buildings.",
+          "correctIndex": 3,
+          "explanation": "Consistent effort makes counts more comparable.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Night Migration\"?",
+          "type": "Guided close reading",
+          "prompt": "Why could harm continue at nearby buildings?",
           "choices": [
-            "Weather also influences migration and injury patterns, complicating causal attribution.",
-            "The decrease proves lighting was the sole cause of every bird injury.",
-            "A coastal town dimmed its tallest buildings during peak migration periods.",
-            "Volunteers later recorded fewer injured birds near the affected buildings."
+            "Birds might shift toward other illuminated structures outside the sample.",
+            "A precaution can be justified while stronger causal evidence is gathered.",
+            "They omit collisions where birds were not found.",
+            "Changes in wind or migration routes may have altered exposure."
           ],
-          "correctIndex": 1,
-          "explanation": "This absolute conclusion is unsupported: The decrease proves lighting was the sole cause of every bird injury. The passage instead supports bounded claims.",
+          "correctIndex": 0,
+          "explanation": "The original survey covers a limited area.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What does continuing the program imply about the town's reasoning?",
           "choices": [
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Changes in building lighting may affect where migrating birds travel.",
-            "The original problem could never have existed."
+            "Repeated observations accounting for migration volume, weather and survey effort.",
+            "A precaution can be justified while stronger causal evidence is gathered.",
+            "Safety requirements remained even during a wildlife precaution.",
+            "It provides a reference for changes unrelated to the lighting intervention."
           ],
-          "correctIndex": 2,
-          "explanation": "The inference depends on the stated consideration: Changes in building lighting may affect where migrating birds travel.",
+          "correctIndex": 1,
+          "explanation": "Policy decisions need not pretend uncertainty is absent.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG02-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What would make future evidence more convincing?",
           "choices": [
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Shifts in weather or migration volume could explain part of the injury decline."
+            "They omit collisions where birds were not found.",
+            "Changes in wind or migration routes may have altered exposure.",
+            "Repeated observations accounting for migration volume, weather and survey effort.",
+            "Dimming is the sole cause of every reduction in collision risk."
           ],
-          "correctIndex": 3,
-          "explanation": "The account does not rule out this competing possibility: Shifts in weather or migration volume could explain part of the injury decline.",
+          "correctIndex": 2,
+          "explanation": "These variables could otherwise confound the findings.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R02-PRV-01",
@@ -21562,138 +21562,138 @@
         },
         {
           "id": "RG03-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Forgotten Map\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why was the modern atlas not enough to disprove the handwritten note?",
           "choices": [
-            "A handwritten map identified a bridge absent from modern maps.",
-            "Mira compared historical photographs and street names rather than dismissing the annotation.",
-            "She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.",
-            "The original note did not reveal the replacement history without independent corroboration."
+            "A crossing existed near identifiable historic landmarks.",
+            "The identity and motives of the person who wrote the note.",
+            "As useful testimony with a different status from dated records.",
+            "Flood-related changes may have altered roads and crossings."
           ],
-          "correctIndex": 0,
-          "explanation": "The opening situation establishes why participants needed to act: A handwritten map identified a bridge absent from modern maps.",
+          "correctIndex": 3,
+          "explanation": "The later map reflects a different landscape.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What does the dated bridge photograph establish?",
           "choices": [
-            "The original note did not reveal the replacement history without independent corroboration.",
-            "Mira compared historical photographs and street names rather than dismissing the annotation.",
-            "A handwritten map identified a bridge absent from modern maps.",
-            "She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum."
+            "A crossing existed near identifiable historic landmarks.",
+            "It records the bridge's replacement by a tunnel after flooding.",
+            "Visitors could evaluate how the conclusion was reached.",
+            "Evidence turns an apparent mapping error into a history of landscape change."
           ],
-          "correctIndex": 1,
-          "explanation": "The method is the action taken to respond to uncertainty: Mira compared historical photographs and street names rather than dismissing the annotation.",
+          "correctIndex": 0,
+          "explanation": "It provides independent support for the annotation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why is the municipal report especially important?",
           "choices": [
-            "Historical and modern street references can be compared across documents.",
-            "Examine dated municipal records showing when the bridge was removed and the tunnel built.",
-            "She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.",
-            "A handwritten map identified a bridge absent from modern maps."
+            "The identity and motives of the person who wrote the note.",
+            "It records the bridge's replacement by a tunnel after flooding.",
+            "As useful testimony with a different status from dated records.",
+            "They may record accurate conditions at different times."
           ],
-          "correctIndex": 2,
-          "explanation": "The passage reports this outcome: She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.",
+          "correctIndex": 1,
+          "explanation": "The report supplies a documented mechanism for the map discrepancy.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Forgotten Map\"?",
+          "type": "Guided close reading",
+          "prompt": "What remains unknown after Mira's investigation?",
           "choices": [
-            "A handwritten map identified a bridge absent from modern maps.",
-            "Mira compared historical photographs and street names rather than dismissing the annotation.",
-            "She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.",
-            "The original note did not reveal the replacement history without independent corroboration."
+            "Visitors could evaluate how the conclusion was reached.",
+            "Evidence turns an apparent mapping error into a history of landscape change.",
+            "The identity and motives of the person who wrote the note.",
+            "Compare sources with different purposes before deciding which claim is supported."
           ],
-          "correctIndex": 3,
-          "explanation": "A careful interpretation must preserve the boundary: The original note did not reveal the replacement history without independent corroboration.",
+          "correctIndex": 2,
+          "explanation": "The available documents resolve geography but not authorship.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Why did the curator display sources in sequence?",
           "choices": [
-            "Conflicting records can signal historical change rather than simple error.",
-            "The result (She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Mira compared historical photographs and street names rather than dismissing the annotation.) is unrelated to the concern that motivated it.",
-            "Because the problem (A handwritten map identified a bridge absent from modern maps.) was identified, later evidence cannot change the original hypothesis."
+            "As useful testimony with a different status from dated records.",
+            "They may record accurate conditions at different times.",
+            "Flood-related changes may have altered roads and crossings.",
+            "Visitors could evaluate how the conclusion was reached."
           ],
-          "correctIndex": 0,
-          "explanation": "The supported synthesis is: Conflicting records can signal historical change rather than simple error.",
+          "correctIndex": 3,
+          "explanation": "The exhibit reveals the structure of the historical inference.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Forgotten Map\"?",
+          "type": "Guided close reading",
+          "prompt": "How should an unverified resident memory be treated?",
           "choices": [
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Examine dated municipal records showing when the bridge was removed and the tunnel built.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence."
+            "As useful testimony with a different status from dated records.",
+            "Evidence turns an apparent mapping error into a history of landscape change.",
+            "Compare sources with different purposes before deciding which claim is supported.",
+            "A crossing existed near identifiable historic landmarks."
           ],
-          "correctIndex": 1,
-          "explanation": "A focused follow-up can test the uncertainty by examine dated municipal records showing when the bridge was removed and the tunnel built.",
+          "correctIndex": 0,
+          "explanation": "The museum labels recollection separately from corroborated facts.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Forgotten Map\"?",
+          "type": "Guided close reading",
+          "prompt": "What changes the nature of Mira's original question?",
           "choices": [
-            "She identified a bridge replaced by a tunnel after a flood and presented the finding to a museum.",
-            "The original note did not reveal the replacement history without independent corroboration.",
-            "Any feature missing from a modern map must have been destroyed by flooding.",
-            "Mira compared historical photographs and street names rather than dismissing the annotation."
+            "They may record accurate conditions at different times.",
+            "Evidence turns an apparent mapping error into a history of landscape change.",
+            "Flood-related changes may have altered roads and crossings.",
+            "It records the bridge's replacement by a tunnel after flooding."
           ],
-          "correctIndex": 2,
-          "explanation": "This absolute conclusion is unsupported: Any feature missing from a modern map must have been destroyed by flooding. The passage instead supports bounded claims.",
+          "correctIndex": 1,
+          "explanation": "The investigation reveals a replaced crossing.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Why can two maps disagree without either being fraudulent?",
           "choices": [
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Historical and modern street references can be compared across documents."
+            "Compare sources with different purposes before deciding which claim is supported.",
+            "A crossing existed near identifiable historic landmarks.",
+            "They may record accurate conditions at different times.",
+            "The identity and motives of the person who wrote the note."
           ],
-          "correctIndex": 3,
-          "explanation": "The inference depends on the stated consideration: Historical and modern street references can be compared across documents.",
+          "correctIndex": 2,
+          "explanation": "Historic maps and current maps need not depict identical infrastructure.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG03-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which research habit does Mira's process demonstrate?",
           "choices": [
-            "The apparent discrepancy might reflect renamed streets rather than an altered crossing.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured."
+            "Flood-related changes may have altered roads and crossings.",
+            "It records the bridge's replacement by a tunnel after flooding.",
+            "Visitors could evaluate how the conclusion was reached.",
+            "Compare sources with different purposes before deciding which claim is supported."
           ],
-          "correctIndex": 0,
-          "explanation": "The account does not rule out this competing possibility: The apparent discrepancy might reflect renamed streets rather than an altered crossing.",
+          "correctIndex": 3,
+          "explanation": "She checks annotations against photographs and municipal records.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R03-PRV-01",
@@ -21792,138 +21792,138 @@
         },
         {
           "id": "RG04-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Library of Things\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why did staff start with a small object collection?",
           "choices": [
-            "A short, favorable period does not establish future costs or universal demand.",
-            "A library wished to lend costly objects used only occasionally while residents feared damage.",
-            "It introduced safety demonstrations and item inspections as conditions of lending.",
-            "Reservations increased and repairs cost less than expected over six months."
+            "Safety, maintenance and demand were uncertain.",
+            "Objects may need technical inspections and safe-use demonstrations.",
+            "Demonstrations were consuming staff time during busy periods.",
+            "Borrowers might not know how to operate unfamiliar equipment."
           ],
-          "correctIndex": 1,
-          "explanation": "The opening situation establishes why participants needed to act: A library wished to lend costly objects used only occasionally while residents feared damage.",
+          "correctIndex": 0,
+          "explanation": "A limited trial could generate operating evidence.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What distinguishes lending equipment from lending books?",
           "choices": [
-            "Reservations increased and repairs cost less than expected over six months.",
-            "A short, favorable period does not establish future costs or universal demand.",
-            "It introduced safety demonstrations and item inspections as conditions of lending.",
-            "A library wished to lend costly objects used only occasionally while residents feared damage."
+            "Whether staffing and maintenance costs make the service sustainable.",
+            "Objects may need technical inspections and safe-use demonstrations.",
+            "Some objects were popular while others sat unused.",
+            "Occasional access could enable practical learning without ownership."
           ],
-          "correctIndex": 2,
-          "explanation": "The method is the action taken to respond to uncertainty: It introduced safety demonstrations and item inspections as conditions of lending.",
+          "correctIndex": 1,
+          "explanation": "Power tools create responsibilities absent from ordinary print loans.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What does rising demand fail to show by itself?",
           "choices": [
-            "A library wished to lend costly objects used only occasionally while residents feared damage.",
-            "Safety and maintenance safeguards may influence whether lending remains feasible.",
-            "Compare repair costs and demand over longer periods and across different object categories.",
-            "Reservations increased and repairs cost less than expected over six months."
+            "Demonstrations were consuming staff time during busy periods.",
+            "Borrowers might not know how to operate unfamiliar equipment.",
+            "Whether staffing and maintenance costs make the service sustainable.",
+            "Repeated demand along with manageable maintenance and staffing."
           ],
-          "correctIndex": 3,
-          "explanation": "The passage reports this outcome: Reservations increased and repairs cost less than expected over six months.",
+          "correctIndex": 2,
+          "explanation": "Reservations are only one operational measure.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Library of Things\"?",
+          "type": "Guided close reading",
+          "prompt": "Why did the library revise appointment times?",
           "choices": [
-            "A short, favorable period does not establish future costs or universal demand.",
-            "A library wished to lend costly objects used only occasionally while residents feared damage.",
-            "It introduced safety demonstrations and item inspections as conditions of lending.",
-            "Reservations increased and repairs cost less than expected over six months."
+            "Some objects were popular while others sat unused.",
+            "Occasional access could enable practical learning without ownership.",
+            "She tests a promising service while tracking its burdens.",
+            "Demonstrations were consuming staff time during busy periods."
           ],
-          "correctIndex": 0,
-          "explanation": "A careful interpretation must preserve the boundary: A short, favorable period does not establish future costs or universal demand.",
+          "correctIndex": 3,
+          "explanation": "The service needed changes beyond purchasing equipment.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What challenged the proposal to expand every category?",
           "choices": [
-            "Because the problem (A library wished to lend costly objects used only occasionally while residents feared damage.) was identified, later evidence cannot change the original hypothesis.",
-            "Cautious expansion can balance broader access to shared equipment with maintenance risk.",
-            "The result (Reservations increased and repairs cost less than expected over six months.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (It introduced safety demonstrations and item inspections as conditions of lending.) is unrelated to the concern that motivated it."
+            "Some objects were popular while others sat unused.",
+            "Borrowers might not know how to operate unfamiliar equipment.",
+            "Repeated demand along with manageable maintenance and staffing.",
+            "Safety, maintenance and demand were uncertain."
           ],
-          "correctIndex": 1,
-          "explanation": "The supported synthesis is: Cautious expansion can balance broader access to shared equipment with maintenance risk.",
+          "correctIndex": 0,
+          "explanation": "Actual reservations revealed uneven demand.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Library of Things\"?",
+          "type": "Guided close reading",
+          "prompt": "Why were safety demonstrations required?",
           "choices": [
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare repair costs and demand over longer periods and across different object categories.",
-            "Repeat the original activity without recording any new outcomes or conditions."
+            "Occasional access could enable practical learning without ownership.",
+            "Borrowers might not know how to operate unfamiliar equipment.",
+            "She tests a promising service while tracking its burdens.",
+            "Objects may need technical inspections and safe-use demonstrations."
           ],
-          "correctIndex": 2,
-          "explanation": "A focused follow-up can test the uncertainty by compare repair costs and demand over longer periods and across different object categories.",
+          "correctIndex": 1,
+          "explanation": "The library reduced risk before checkout.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Library of Things\"?",
+          "type": "Guided close reading",
+          "prompt": "What wider goal did supporters see in object lending?",
           "choices": [
-            "It introduced safety demonstrations and item inspections as conditions of lending.",
-            "Reservations increased and repairs cost less than expected over six months.",
-            "A short, favorable period does not establish future costs or universal demand.",
-            "Six months of manageable costs proves equipment lending will never require repairs."
+            "Repeated demand along with manageable maintenance and staffing.",
+            "Safety, maintenance and demand were uncertain.",
+            "Occasional access could enable practical learning without ownership.",
+            "Whether staffing and maintenance costs make the service sustainable."
           ],
-          "correctIndex": 3,
-          "explanation": "This absolute conclusion is unsupported: Six months of manageable costs proves equipment lending will never require repairs. The passage instead supports bounded claims.",
+          "correctIndex": 2,
+          "explanation": "The project extends the idea of a shared educational resource.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What would justify buying additional telescopes?",
           "choices": [
-            "Safety and maintenance safeguards may influence whether lending remains feasible.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination."
+            "She tests a promising service while tracking its burdens.",
+            "Objects may need technical inspections and safe-use demonstrations.",
+            "Demonstrations were consuming staff time during busy periods.",
+            "Repeated demand along with manageable maintenance and staffing."
           ],
-          "correctIndex": 0,
-          "explanation": "The inference depends on the stated consideration: Safety and maintenance safeguards may influence whether lending remains feasible.",
+          "correctIndex": 3,
+          "explanation": "Selective expansion follows observed usage and costs.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG04-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "How does the director balance opportunity and accountability?",
           "choices": [
-            "The findings logically exclude all influences not explicitly measured.",
-            "Early items may have been sturdier or more popular than those added later.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome."
+            "She tests a promising service while tracking its burdens.",
+            "Safety, maintenance and demand were uncertain.",
+            "Whether staffing and maintenance costs make the service sustainable.",
+            "Some objects were popular while others sat unused."
           ],
-          "correctIndex": 1,
-          "explanation": "The account does not rule out this competing possibility: Early items may have been sturdier or more popular than those added later.",
+          "correctIndex": 0,
+          "explanation": "The expansion proceeds gradually instead of assuming enthusiasm is enough.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R04-PRV-01",
@@ -22022,138 +22022,138 @@
         },
         {
           "id": "RG05-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"River Restoration\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why might widening the channel fail to solve the whole flood problem?",
           "choices": [
-            "During a subsequent storm, water spread into a designated floodplain rather than several houses.",
-            "One section and one storm cannot prove similar benefits in every flood.",
-            "Stormwater rushed through a concrete channel and flooded streets near the town.",
-            "Officials piloted restored bends and native vegetation in one section instead of simply widening the channel."
+            "It stores overflow where water can spread with less damage.",
+            "Faster flow could still produce damaging downstream surges.",
+            "Water occupied the planned floodplain rather than reaching several houses.",
+            "Areas upstream and downstream of the restored section."
           ],
-          "correctIndex": 2,
-          "explanation": "The opening situation establishes why participants needed to act: Stormwater rushed through a concrete channel and flooded streets near the town.",
+          "correctIndex": 1,
+          "explanation": "Increasing capacity does not automatically reduce flood peaks elsewhere.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What is the purpose of the designated floodplain?",
           "choices": [
-            "Stormwater rushed through a concrete channel and flooded streets near the town.",
-            "During a subsequent storm, water spread into a designated floodplain rather than several houses.",
-            "One section and one storm cannot prove similar benefits in every flood.",
-            "Officials piloted restored bends and native vegetation in one section instead of simply widening the channel."
+            "They associated deliberate water spreading with uncontrolled flooding.",
+            "One storm cannot represent every future rainfall or sediment pattern.",
+            "It stores overflow where water can spread with less damage.",
+            "They may stabilize soil and support habitat along the banks."
           ],
-          "correctIndex": 3,
-          "explanation": "The method is the action taken to respond to uncertainty: Officials piloted restored bends and native vegetation in one section instead of simply widening the channel.",
+          "correctIndex": 2,
+          "explanation": "The plan redirects some stormwater into a safer location.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why were residents initially uneasy about the restoration?",
           "choices": [
-            "During a subsequent storm, water spread into a designated floodplain rather than several houses.",
-            "Stormwater rushed through a concrete channel and flooded streets near the town.",
-            "Water diverted into a floodplain must have space to spread without reaching homes.",
-            "Measure water levels across varied storms in pilot and comparable untreated sections."
+            "Water occupied the planned floodplain rather than reaching several houses.",
+            "Areas upstream and downstream of the restored section.",
+            "Whether water should be moved rapidly or temporarily stored in safer areas.",
+            "They associated deliberate water spreading with uncontrolled flooding."
           ],
-          "correctIndex": 0,
-          "explanation": "The passage reports this outcome: During a subsequent storm, water spread into a designated floodplain rather than several houses.",
+          "correctIndex": 3,
+          "explanation": "The strategy seemed counterintuitive until its risk distribution was explained.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"River Restoration\"?",
+          "type": "Guided close reading",
+          "prompt": "What did the first post-restoration storm demonstrate?",
           "choices": [
-            "During a subsequent storm, water spread into a designated floodplain rather than several houses.",
-            "One section and one storm cannot prove similar benefits in every flood.",
-            "Stormwater rushed through a concrete channel and flooded streets near the town.",
-            "Officials piloted restored bends and native vegetation in one section instead of simply widening the channel."
+            "Water occupied the planned floodplain rather than reaching several houses.",
+            "One storm cannot represent every future rainfall or sediment pattern.",
+            "They may stabilize soil and support habitat along the banks.",
+            "The restoration appears promising locally and warrants continued measurement."
           ],
-          "correctIndex": 1,
-          "explanation": "A careful interpretation must preserve the boundary: One section and one storm cannot prove similar benefits in every flood.",
+          "correctIndex": 0,
+          "explanation": "The observation supports a local benefit under that storm's conditions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Why should officials avoid claiming permanent flood protection?",
           "choices": [
-            "The intervention (Officials piloted restored bends and native vegetation in one section instead of simply widening the channel.) is unrelated to the concern that motivated it.",
-            "Because the problem (Stormwater rushed through a concrete channel and flooded streets near the town.) was identified, later evidence cannot change the original hypothesis.",
-            "A local restoration pilot produced encouraging evidence without establishing broad effectiveness.",
-            "The result (During a subsequent storm, water spread into a designated floodplain rather than several houses.) proves that no uncertainty remains and the limitation is irrelevant."
+            "Areas upstream and downstream of the restored section.",
+            "One storm cannot represent every future rainfall or sediment pattern.",
+            "Whether water should be moved rapidly or temporarily stored in safer areas.",
+            "Faster flow could still produce damaging downstream surges."
           ],
-          "correctIndex": 2,
-          "explanation": "The supported synthesis is: A local restoration pilot produced encouraging evidence without establishing broad effectiveness.",
+          "correctIndex": 1,
+          "explanation": "The test lacks evidence over a range of conditions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"River Restoration\"?",
+          "type": "Guided close reading",
+          "prompt": "What other places must monitoring consider?",
           "choices": [
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Measure water levels across varied storms in pilot and comparable untreated sections."
+            "They may stabilize soil and support habitat along the banks.",
+            "The restoration appears promising locally and warrants continued measurement.",
+            "Areas upstream and downstream of the restored section.",
+            "It stores overflow where water can spread with less damage."
           ],
-          "correctIndex": 3,
-          "explanation": "A focused follow-up can test the uncertainty by measure water levels across varied storms in pilot and comparable untreated sections.",
+          "correctIndex": 2,
+          "explanation": "Changes to connected waterways can shift risk.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"River Restoration\"?",
+          "type": "Guided close reading",
+          "prompt": "What additional benefit might native grasses provide?",
           "choices": [
-            "One storm proves the redesign eliminates all future floods.",
-            "Officials piloted restored bends and native vegetation in one section instead of simply widening the channel.",
-            "During a subsequent storm, water spread into a designated floodplain rather than several houses.",
-            "One section and one storm cannot prove similar benefits in every flood."
+            "Whether water should be moved rapidly or temporarily stored in safer areas.",
+            "Faster flow could still produce damaging downstream surges.",
+            "They associated deliberate water spreading with uncontrolled flooding.",
+            "They may stabilize soil and support habitat along the banks."
           ],
-          "correctIndex": 0,
-          "explanation": "This absolute conclusion is unsupported: One storm proves the redesign eliminates all future floods. The passage instead supports bounded claims.",
+          "correctIndex": 3,
+          "explanation": "The ecological effects require observation over a longer period.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What does the disagreement between proposals actually concern?",
           "choices": [
-            "Any future conditions must be identical without needing examination.",
-            "Water diverted into a floodplain must have space to spread without reaching homes.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken."
+            "Whether water should be moved rapidly or temporarily stored in safer areas.",
+            "The restoration appears promising locally and warrants continued measurement.",
+            "It stores overflow where water can spread with less damage.",
+            "Water occupied the planned floodplain rather than reaching several houses."
           ],
-          "correctIndex": 1,
-          "explanation": "The inference depends on the stated consideration: Water diverted into a floodplain must have space to spread without reaching homes.",
+          "correctIndex": 0,
+          "explanation": "Both approaches involve engineering judgments about flow.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG05-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which conclusion is most consistent with the test?",
           "choices": [
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "The observed difference could depend partly on unusual storm intensity or duration.",
-            "The passage contains no observations capable of informing any explanation."
+            "Faster flow could still produce damaging downstream surges.",
+            "The restoration appears promising locally and warrants continued measurement.",
+            "They associated deliberate water spreading with uncontrolled flooding.",
+            "One storm cannot represent every future rainfall or sediment pattern."
           ],
-          "correctIndex": 2,
-          "explanation": "The account does not rule out this competing possibility: The observed difference could depend partly on unusual storm intensity or duration.",
+          "correctIndex": 1,
+          "explanation": "The team treats favorable results as evidence, not universal proof.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R05-PRV-01",
