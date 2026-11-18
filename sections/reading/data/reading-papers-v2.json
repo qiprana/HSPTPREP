@@ -19214,147 +19214,147 @@
           "questions": [
             {
               "id": "R19-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Trail of Milestones\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the apparent numbering errors not immediately discredit the stones?",
               "choices": [
-                "The method (“Local historians checked survey maps and measured…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The numbers aligned with a former market town rather than…”) is treated as unrelated to the original investigation.",
-                "The concern (“The stones appeared to mark distances, but the starting…”) leads to inquiry, but “Several stones were missing, so the sequence could not be…” limits the inference.",
-                "The proposed response (“The trail association installed signs describing the…”) makes the original concern irrelevant."
+                "Old surveys and intervals between surviving markers aligned with that location.",
+                "Gaps lacked direct evidence and could make a speculative line appear certain.",
+                "Probable historic segments from the modern path visitors can follow.",
+                "Missing or moved markers and a different historic road alignment could explain the sequence."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Several stones were missing, so the sequence could not be reconstructed perfectly. prevents an overly broad conclusion.",
+              "correctIndex": 3,
+              "explanation": "The hikers consider whether modern geography has changed the spacing.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Trail of Milestones\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What evidence pointed to a former market town as the route's starting point?",
               "choices": [
-                "The trail association installed signs describing the likely route.",
-                "The stones appeared to mark distances, but the starting point was unclear.",
-                "Local historians checked survey maps and measured intervals between the remaining markers.",
-                "The numbers aligned with a former market town rather than the modern city center."
+                "Old surveys and intervals between surviving markers aligned with that location.",
+                "It helped shift commerce away from a road that had once been important.",
+                "Their weathered surfaces and positions may contain evidence about the old road.",
+                "It may have been reused as building material or moved after the road changed."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: The stones appeared to mark distances, but the starting point was unclear. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "The numbering fits the earlier trading center better than the modern city center.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Trail of Milestones\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why might the railway matter to the town's historical significance?",
               "choices": [
-                "The numbers aligned with a former market town rather than the modern city center.",
-                "Several stones were missing, so the sequence could not be reconstructed perfectly.",
-                "Local historians checked survey maps and measured intervals between the remaining markers.",
-                "The stones appeared to mark distances, but the starting point was unclear."
+                "Gaps lacked direct evidence and could make a speculative line appear certain.",
+                "It helped shift commerce away from a road that had once been important.",
+                "Probable historic segments from the modern path visitors can follow.",
+                "Each marker's distance depends on where measurement began."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Local historians checked survey maps and measured intervals between the remaining markers. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The passage links the older route with changes in transportation networks.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Trail of Milestones\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were historians reluctant to draw an uninterrupted route?",
               "choices": [
-                "Local historians checked survey maps and measured intervals between the remaining markers.",
-                "Several stones were missing, so the sequence could not be reconstructed perfectly.",
-                "The trail association installed signs describing the likely route.",
-                "The numbers aligned with a former market town rather than the modern city center."
+                "Their weathered surfaces and positions may contain evidence about the old road.",
+                "It may have been reused as building material or moved after the road changed.",
+                "Gaps lacked direct evidence and could make a speculative line appear certain.",
+                "The stones preserve part of a former travel system, but its complete course remains uncertain."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The numbers aligned with a former market town rather than the modern city center. The other statements describe different stages of the inquiry.",
+              "correctIndex": 2,
+              "explanation": "Missing stones prevent a perfectly verified reconstruction.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Trail of Milestones\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How could cleaning or moving the markers harm the investigation?",
               "choices": [
-                "Several stones were missing, so the sequence could not be reconstructed perfectly.",
-                "The numbers aligned with a former market town rather than the modern city center.",
-                "Local historians checked survey maps and measured intervals between the remaining markers.",
-                "The trail association installed signs describing the likely route."
+                "Probable historic segments from the modern path visitors can follow.",
+                "Each marker's distance depends on where measurement began.",
+                "Missing or moved markers and a different historic road alignment could explain the sequence.",
+                "Their weathered surfaces and positions may contain evidence about the old road."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: Several stones were missing, so the sequence could not be reconstructed perfectly. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "The researchers ask hikers to leave the surviving objects undisturbed.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Trail of Milestones\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the trail association's sign distinguish?",
               "choices": [
-                "The numbers aligned with a former market town rather than the modern city center.",
-                "The trail association installed signs describing the likely route.",
-                "The stones appeared to mark distances, but the starting point was unclear.",
-                "Local historians checked survey maps and measured intervals between the remaining markers."
+                "Probable historic segments from the modern path visitors can follow.",
+                "It may have been reused as building material or moved after the road changed.",
+                "The stones preserve part of a former travel system, but its complete course remains uncertain.",
+                "Old surveys and intervals between surviving markers aligned with that location."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The trail association installed signs describing the likely route. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The interpretation displays both the reconstruction and its uncertain stretches.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Trail of Milestones\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which explanation could account for a stone far from its predicted place?",
               "choices": [
-                "Initial concern: “The numbers aligned with a former market town rather than…”; method: “The trail association installed signs describing the…”.",
-                "Initial concern: “Local historians checked survey maps and measured…”; method: “The numbers aligned with a former market town rather than…”.",
-                "Initial concern: “The stones appeared to mark distances, but the starting…”; method: “Local historians checked survey maps and measured…”.",
-                "Initial concern: “The stones appeared to mark distances, but the starting…”; method: “Several stones were missing, so the sequence could not be…”."
+                "Each marker's distance depends on where measurement began.",
+                "It may have been reused as building material or moved after the road changed.",
+                "Missing or moved markers and a different historic road alignment could explain the sequence.",
+                "It helped shift commerce away from a road that had once been important."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with The stones appeared to mark distances, but the starting point was unclear. and the subsequent investigative procedure is Local historians checked survey maps and measured intervals between the remaining markers..",
+              "correctIndex": 1,
+              "explanation": "The passage identifies secondary use and alteration as possibilities.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Trail of Milestones\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the original starting point central to interpreting the numbers?",
               "choices": [
-                "The observation (“The numbers aligned with a former market town rather than…”) rules out every alternative cause.",
-                "The limitation (“Several stones were missing, so the sequence could not be…”) disproves the observation itself.",
-                "The method (“Local historians checked survey maps and measured…”) guarantees the result before measurement.",
-                "The observation (“The numbers aligned with a former market town rather than…”) matters, but the limit (“Several stones were missing, so the sequence could not be…”) remains."
+                "The stones preserve part of a former travel system, but its complete course remains uncertain.",
+                "Old surveys and intervals between surviving markers aligned with that location.",
+                "Each marker's distance depends on where measurement began.",
+                "Gaps lacked direct evidence and could make a speculative line appear certain."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The numbers aligned with a former market town rather than the modern city center. but must be read alongside Several stones were missing, so the sequence could not be reconstructed perfectly..",
+              "correctIndex": 2,
+              "explanation": "A different origin reorganizes the apparent numbering.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Trail of Milestones\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What conclusion is best supported by the evidence?",
               "choices": [
-                "The response (“The trail association installed signs describing the…”) follows evidence but remains open to reassessment.",
-                "The response (“The trail association installed signs describing the…”) is proof of success in every setting.",
-                "The caveat (“Several stones were missing, so the sequence could not be…”) makes the observations worthless.",
-                "The observation (“The numbers aligned with a former market town rather than…”) shows that measurement was unnecessary."
+                "Missing or moved markers and a different historic road alignment could explain the sequence.",
+                "It helped shift commerce away from a road that had once been important.",
+                "Their weathered surfaces and positions may contain evidence about the old road.",
+                "The stones preserve part of a former travel system, but its complete course remains uncertain."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The trail association installed signs describing the likely route.; the stated limit Several stones were missing, so the sequence could not be reconstructed perfectly. still matters.",
+              "correctIndex": 3,
+              "explanation": "The team combines surveys and markers without inventing absent segments.",
               "passageId": "R19-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P2-10",
@@ -19389,147 +19389,147 @@
           "questions": [
             {
               "id": "R19-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Message for the Team\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was Meera's original instruction ambiguous?",
               "choices": [
-                "The proposed response (“The team handled them calmly because responsibilities…”) makes the original concern irrelevant.",
-                "The method (“She rewrote the message with a checklist, clear…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The revised plan prevented volunteers from bringing the…”) is treated as unrelated to the original investigation.",
-                "The concern (“Her first instructions were so brief that people…”) leads to inquiry, but “A few unexpected tasks still arose on the morning of the…” limits the inference."
+                "Workers could act diligently yet duplicate effort without shared assignments.",
+                "Named task owners, locations and a time for questions.",
+                "Clear responsibilities allowed the team to adapt without constant direction.",
+                "It omitted quantities, specific locations and responsibility for supplies."
               ],
               "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification A few unexpected tasks still arose on the morning of the event. prevents an overly broad conclusion.",
+              "explanation": "Volunteers interpreted 'bring what we need' in different ways.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Message for the Team\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did duplicate boxes of cups reveal?",
               "choices": [
-                "Her first instructions were so brief that people understood the tasks differently.",
-                "She rewrote the message with a checklist, clear locations, and a time for questions.",
-                "The revised plan prevented volunteers from bringing the same supplies twice.",
-                "The team handled them calmly because responsibilities were easier to identify."
+                "Workers could act diligently yet duplicate effort without shared assignments.",
+                "Their interpretations exposed assumptions the writer had not recognized.",
+                "Volunteers could make sensible adjustments when unexpected tasks arose.",
+                "Additional words help only when they resolve genuine ambiguities for the reader."
               ],
               "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Her first instructions were so brief that people understood the tasks differently. The other choices describe what was done or discovered afterward.",
+              "explanation": "The error came from unclear coordination rather than universal carelessness.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Message for the Team\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did Meera ask volunteers to paraphrase her first message?",
               "choices": [
-                "A few unexpected tasks still arose on the morning of the event.",
-                "She rewrote the message with a checklist, clear locations, and a time for questions.",
-                "Her first instructions were so brief that people understood the tasks differently.",
-                "The revised plan prevented volunteers from bringing the same supplies twice."
+                "Named task owners, locations and a time for questions.",
+                "Their interpretations exposed assumptions the writer had not recognized.",
+                "Clear responsibilities allowed the team to adapt without constant direction.",
+                "Confirming that each volunteer could identify their assigned supplies and destination."
               ],
               "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: She rewrote the message with a checklist, clear locations, and a time for questions. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "The responses identified missing information before a new checklist was drafted.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Message for the Team\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the revised checklist add?",
               "choices": [
-                "A few unexpected tasks still arose on the morning of the event.",
-                "The team handled them calmly because responsibilities were easier to identify.",
-                "The revised plan prevented volunteers from bringing the same supplies twice.",
-                "She rewrote the message with a checklist, clear locations, and a time for questions."
+                "Volunteers could make sensible adjustments when unexpected tasks arose.",
+                "Additional words help only when they resolve genuine ambiguities for the reader.",
+                "Named task owners, locations and a time for questions.",
+                "Clarity depends on shared interpretation, not only the writer's confidence."
               ],
               "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: The revised plan prevented volunteers from bringing the same supplies twice. The other statements describe different stages of the inquiry.",
+              "explanation": "The new message made responsibilities and follow-up explicit.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Message for the Team\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why include the event's purpose as well as instructions?",
               "choices": [
-                "The revised plan prevented volunteers from bringing the same supplies twice.",
-                "She rewrote the message with a checklist, clear locations, and a time for questions.",
-                "The team handled them calmly because responsibilities were easier to identify.",
-                "A few unexpected tasks still arose on the morning of the event."
+                "Clear responsibilities allowed the team to adapt without constant direction.",
+                "Confirming that each volunteer could identify their assigned supplies and destination.",
+                "It omitted quantities, specific locations and responsibility for supplies.",
+                "Volunteers could make sensible adjustments when unexpected tasks arose."
               ],
               "correctIndex": 3,
-              "explanation": "The limitation is: A few unexpected tasks still arose on the morning of the event. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "Shared goals support decisions beyond a fixed list.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Message for the Team\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What happened when the unexpected delivery arrived?",
               "choices": [
-                "The team handled them calmly because responsibilities were easier to identify.",
-                "Her first instructions were so brief that people understood the tasks differently.",
-                "She rewrote the message with a checklist, clear locations, and a time for questions.",
-                "The revised plan prevented volunteers from bringing the same supplies twice."
+                "Clear responsibilities allowed the team to adapt without constant direction.",
+                "Additional words help only when they resolve genuine ambiguities for the reader.",
+                "Clarity depends on shared interpretation, not only the writer's confidence.",
+                "Workers could act diligently yet duplicate effort without shared assignments."
               ],
               "correctIndex": 0,
-              "explanation": "The subsequent response was: The team handled them calmly because responsibilities were easier to identify. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "The group moved supplies despite a change in circumstances.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Message for the Team\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why doesn't the story suggest that a longer message is always better?",
               "choices": [
-                "Initial concern: “She rewrote the message with a checklist, clear…”; method: “The revised plan prevented volunteers from bringing the…”.",
-                "Initial concern: “Her first instructions were so brief that people…”; method: “She rewrote the message with a checklist, clear…”.",
-                "Initial concern: “Her first instructions were so brief that people…”; method: “A few unexpected tasks still arose on the morning of the…”.",
-                "Initial concern: “The revised plan prevented volunteers from bringing the…”; method: “The team handled them calmly because responsibilities…”."
+                "Confirming that each volunteer could identify their assigned supplies and destination.",
+                "Additional words help only when they resolve genuine ambiguities for the reader.",
+                "It omitted quantities, specific locations and responsibility for supplies.",
+                "Their interpretations exposed assumptions the writer had not recognized."
               ],
               "correctIndex": 1,
-              "explanation": "The issue begins with Her first instructions were so brief that people understood the tasks differently. and the subsequent investigative procedure is She rewrote the message with a checklist, clear locations, and a time for questions..",
+              "explanation": "Meera first checks understanding before revising.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Message for the Team\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What kind of verification would have prevented the initial confusion?",
               "choices": [
-                "The limitation (“A few unexpected tasks still arose on the morning of the…”) disproves the observation itself.",
-                "The method (“She rewrote the message with a checklist, clear…”) guarantees the result before measurement.",
-                "The observation (“The revised plan prevented volunteers from bringing the…”) matters, but the limit (“A few unexpected tasks still arose on the morning of the…”) remains.",
-                "The observation (“The revised plan prevented volunteers from bringing the…”) rules out every alternative cause."
+                "Clarity depends on shared interpretation, not only the writer's confidence.",
+                "Workers could act diligently yet duplicate effort without shared assignments.",
+                "Confirming that each volunteer could identify their assigned supplies and destination.",
+                "Named task owners, locations and a time for questions."
               ],
               "correctIndex": 2,
-              "explanation": "The result is reported as The revised plan prevented volunteers from bringing the same supplies twice. but must be read alongside A few unexpected tasks still arose on the morning of the event..",
+              "explanation": "The later paraphrase exercise reveals the value of feedback.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Message for the Team\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the passage's main principle of communication?",
               "choices": [
-                "The response (“The team handled them calmly because responsibilities…”) is proof of success in every setting.",
-                "The caveat (“A few unexpected tasks still arose on the morning of the…”) makes the observations worthless.",
-                "The observation (“The revised plan prevented volunteers from bringing the…”) shows that measurement was unnecessary.",
-                "The response (“The team handled them calmly because responsibilities…”) follows evidence but remains open to reassessment."
+                "It omitted quantities, specific locations and responsibility for supplies.",
+                "Their interpretations exposed assumptions the writer had not recognized.",
+                "Volunteers could make sensible adjustments when unexpected tasks arose.",
+                "Clarity depends on shared interpretation, not only the writer's confidence."
               ],
               "correctIndex": 3,
-              "explanation": "The findings informed The team handled them calmly because responsibilities were easier to identify.; the stated limit A few unexpected tasks still arose on the morning of the event. still matters.",
+              "explanation": "The team succeeds by making assumptions and responsibilities visible.",
               "passageId": "R19-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P3-10",
@@ -19564,147 +19564,147 @@
           "questions": [
             {
               "id": "R19-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Shared Herb Garden\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was a small herb selection more practical than an ambitious garden?",
               "choices": [
-                "The concern (“The kitchen wanted fresh ingredients but had little money…”) leads to inquiry, but “Not all herbs thrived through the coldest months” limits the inference.",
-                "The proposed response (“The project added seasonal planting notes rather than…”) makes the original concern irrelevant.",
-                "The method (“Volunteers chose hardy herbs, installed labeled…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The kitchen used several harvests, and new volunteers…”) is treated as unrelated to the original investigation."
+                "Plants could be neglected during holidays or shifts in volunteer availability.",
+                "Evidence about which propagation methods and seasonal conditions needed adjustment.",
+                "They supported changes in crops and care as temperatures shifted.",
+                "Limited space and care capacity made reliability more important than variety."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Not all herbs thrived through the coldest months. prevents an overly broad conclusion.",
+              "correctIndex": 3,
+              "explanation": "Volunteers chose hardy plants before expanding the project.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Shared Herb Garden\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What concern made the care schedule necessary?",
               "choices": [
-                "Volunteers chose hardy herbs, installed labeled containers and created a care schedule.",
-                "The kitchen used several harvests, and new volunteers learned how to propagate cuttings.",
-                "The project added seasonal planting notes rather than abandoning the garden.",
-                "The kitchen wanted fresh ingredients but had little money or space for growing plants."
+                "Plants could be neglected during holidays or shifts in volunteer availability.",
+                "The garden can supply some fresh herbs, not every ingredient for every meal.",
+                "Container soil could dry more quickly under similar conditions.",
+                "Harvest volume and timing are too variable for a dependable full supply."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: The kitchen wanted fresh ingredients but had little money or space for growing plants. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 0,
+              "explanation": "Kitchen staff worried about maintenance beyond the initial planting.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Shared Herb Garden\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the first small harvest establish?",
               "choices": [
-                "Volunteers chose hardy herbs, installed labeled containers and created a care schedule.",
-                "The kitchen wanted fresh ingredients but had little money or space for growing plants.",
-                "The kitchen used several harvests, and new volunteers learned how to propagate cuttings.",
-                "Not all herbs thrived through the coldest months."
+                "Evidence about which propagation methods and seasonal conditions needed adjustment.",
+                "The garden can supply some fresh herbs, not every ingredient for every meal.",
+                "They supported changes in crops and care as temperatures shifted.",
+                "Neighbors acquire skills and share responsibility through practical work."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Volunteers chose hardy herbs, installed labeled containers and created a care schedule. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 1,
+              "explanation": "The kitchen treats the yield as supplemental rather than guaranteed.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Shared Herb Garden\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did unsuccessful cuttings contribute?",
               "choices": [
-                "The project added seasonal planting notes rather than abandoning the garden.",
-                "The kitchen used several harvests, and new volunteers learned how to propagate cuttings.",
-                "Volunteers chose hardy herbs, installed labeled containers and created a care schedule.",
-                "Not all herbs thrived through the coldest months."
+                "Container soil could dry more quickly under similar conditions.",
+                "Harvest volume and timing are too variable for a dependable full supply.",
+                "Evidence about which propagation methods and seasonal conditions needed adjustment.",
+                "A modest project can be worthwhile when it supplies some food and supports collective learning."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: The kitchen used several harvests, and new volunteers learned how to propagate cuttings. The other statements describe different stages of the inquiry.",
+              "correctIndex": 2,
+              "explanation": "The group recorded setbacks instead of treating them as wasted effort.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Shared Herb Garden\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the group compare containers with ground beds?",
               "choices": [
-                "Volunteers chose hardy herbs, installed labeled containers and created a care schedule.",
-                "The project added seasonal planting notes rather than abandoning the garden.",
-                "Not all herbs thrived through the coldest months.",
-                "The kitchen used several harvests, and new volunteers learned how to propagate cuttings."
+                "They supported changes in crops and care as temperatures shifted.",
+                "Neighbors acquire skills and share responsibility through practical work.",
+                "Limited space and care capacity made reliability more important than variety.",
+                "Container soil could dry more quickly under similar conditions."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Not all herbs thrived through the coldest months. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 3,
+              "explanation": "Different growing arrangements create different maintenance needs.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Shared Herb Garden\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What role did seasonal planting notes play?",
               "choices": [
-                "The kitchen wanted fresh ingredients but had little money or space for growing plants.",
-                "Volunteers chose hardy herbs, installed labeled containers and created a care schedule.",
-                "The kitchen used several harvests, and new volunteers learned how to propagate cuttings.",
-                "The project added seasonal planting notes rather than abandoning the garden."
+                "They supported changes in crops and care as temperatures shifted.",
+                "Harvest volume and timing are too variable for a dependable full supply.",
+                "A modest project can be worthwhile when it supplies some food and supports collective learning.",
+                "Plants could be neglected during holidays or shifts in volunteer availability."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The project added seasonal planting notes rather than abandoning the garden. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 0,
+              "explanation": "The group revised its plan when cold weather affected the herbs.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Shared Herb Garden\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the kitchen reluctant to rely on the garden for every meal?",
               "choices": [
-                "Initial concern: “The kitchen wanted fresh ingredients but had little money…”; method: “Volunteers chose hardy herbs, installed labeled…”.",
-                "Initial concern: “The kitchen wanted fresh ingredients but had little money…”; method: “Not all herbs thrived through the coldest months”.",
-                "Initial concern: “The kitchen used several harvests, and new volunteers…”; method: “The project added seasonal planting notes rather than…”.",
-                "Initial concern: “Volunteers chose hardy herbs, installed labeled…”; method: “The kitchen used several harvests, and new volunteers…”."
+                "Neighbors acquire skills and share responsibility through practical work.",
+                "Harvest volume and timing are too variable for a dependable full supply.",
+                "Limited space and care capacity made reliability more important than variety.",
+                "The garden can supply some fresh herbs, not every ingredient for every meal."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with The kitchen wanted fresh ingredients but had little money or space for growing plants. and the subsequent investigative procedure is Volunteers chose hardy herbs, installed labeled containers and created a care schedule..",
+              "correctIndex": 1,
+              "explanation": "The passage describes small yields and seasonal limitations.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Shared Herb Garden\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What value emerges beyond the herbs themselves?",
               "choices": [
-                "The method (“Volunteers chose hardy herbs, installed labeled…”) guarantees the result before measurement.",
-                "The observation (“The kitchen used several harvests, and new volunteers…”) matters, but the limit (“Not all herbs thrived through the coldest months”) remains.",
-                "The observation (“The kitchen used several harvests, and new volunteers…”) rules out every alternative cause.",
-                "The limitation (“Not all herbs thrived through the coldest months”) disproves the observation itself."
+                "A modest project can be worthwhile when it supplies some food and supports collective learning.",
+                "Plants could be neglected during holidays or shifts in volunteer availability.",
+                "Neighbors acquire skills and share responsibility through practical work.",
+                "Evidence about which propagation methods and seasonal conditions needed adjustment."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as The kitchen used several harvests, and new volunteers learned how to propagate cuttings. but must be read alongside Not all herbs thrived through the coldest months..",
+              "correctIndex": 2,
+              "explanation": "The garden becomes a setting for teaching propagation and coordinating care.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Shared Herb Garden\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the passage's overall account of success?",
               "choices": [
-                "The caveat (“Not all herbs thrived through the coldest months”) makes the observations worthless.",
-                "The observation (“The kitchen used several harvests, and new volunteers…”) shows that measurement was unnecessary.",
-                "The response (“The project added seasonal planting notes rather than…”) follows evidence but remains open to reassessment.",
-                "The response (“The project added seasonal planting notes rather than…”) is proof of success in every setting."
+                "Limited space and care capacity made reliability more important than variety.",
+                "The garden can supply some fresh herbs, not every ingredient for every meal.",
+                "Container soil could dry more quickly under similar conditions.",
+                "A modest project can be worthwhile when it supplies some food and supports collective learning."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The project added seasonal planting notes rather than abandoning the garden.; the stated limit Not all herbs thrived through the coldest months. still matters.",
+              "correctIndex": 3,
+              "explanation": "The team values gradual gains while acknowledging material limits.",
               "passageId": "R19-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R19-P4-10",
@@ -20252,147 +20252,147 @@
           "questions": [
             {
               "id": "R20-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The First School Radio\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why can't the remembered spring afternoon be treated as a verified first broadcast?",
               "choices": [
-                "The recorded outcome (“A printed schedule confirmed that a regular broadcast…”) is treated as unrelated to the original investigation.",
-                "The concern (“Former participants remembered different dates for the…”) leads to inquiry, but “The records could not establish the exact date of an…” limits the inference.",
-                "The proposed response (“The center produced a short audio exhibit explaining the…”) makes the original concern irrelevant.",
-                "The method (“Volunteers compared interviews with school calendars and…”) rules out every possible competing explanation."
+                "It lacks documentation and coincides with an examination period.",
+                "Regular broadcasts existed by that time.",
+                "Different definitions of a beginning are supported by different kinds of evidence.",
+                "They provide experiential accounts and firmer recorded dates respectively."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The records could not establish the exact date of an earlier trial transmission. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The interview is a recollection rather than a securely dated record.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The First School Radio\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the autumn printed schedule firmly establish?",
               "choices": [
-                "Former participants remembered different dates for the station's first broadcast.",
-                "Volunteers compared interviews with school calendars and surviving program schedules.",
-                "A printed schedule confirmed that a regular broadcast existed by a particular autumn.",
-                "The center produced a short audio exhibit explaining the difference."
+                "Whether a trial transmission occurred before the first documented regular program.",
+                "Regular broadcasts existed by that time.",
+                "They convey experiences and excitement absent from formal schedules.",
+                "A confident memory may need qualification when checked against independent records."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Former participants remembered different dates for the station's first broadcast. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "The dated program documents a recurring service.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The First School Radio\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What question does the schedule leave unanswered?",
               "choices": [
-                "The records could not establish the exact date of an earlier trial transmission.",
-                "Volunteers compared interviews with school calendars and surviving program schedules.",
-                "Former participants remembered different dates for the station's first broadcast.",
-                "A printed schedule confirmed that a regular broadcast existed by a particular autumn."
+                "Different definitions of a beginning are supported by different kinds of evidence.",
+                "They provide experiential accounts and firmer recorded dates respectively.",
+                "Whether a trial transmission occurred before the first documented regular program.",
+                "Distinguish the earliest confirmed program from earlier reported trials."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: Volunteers compared interviews with school calendars and surviving program schedules. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "The evidence does not rule out an earlier experimental broadcast.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The First School Radio\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the center resist announcing one unquestionable anniversary date?",
               "choices": [
-                "The records could not establish the exact date of an earlier trial transmission.",
-                "The center produced a short audio exhibit explaining the difference.",
-                "A printed schedule confirmed that a regular broadcast existed by a particular autumn.",
-                "Volunteers compared interviews with school calendars and surviving program schedules."
+                "They convey experiences and excitement absent from formal schedules.",
+                "A confident memory may need qualification when checked against independent records.",
+                "Preserve memories while checking chronological claims against dated records.",
+                "Different definitions of a beginning are supported by different kinds of evidence."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: A printed schedule confirmed that a regular broadcast existed by a particular autumn. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "A trial transmission and regular programming may have separate dates.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The First School Radio\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the value of preserving the former students' interviews?",
               "choices": [
-                "A printed schedule confirmed that a regular broadcast existed by a particular autumn.",
-                "Volunteers compared interviews with school calendars and surviving program schedules.",
-                "The center produced a short audio exhibit explaining the difference.",
-                "The records could not establish the exact date of an earlier trial transmission."
+                "They convey experiences and excitement absent from formal schedules.",
+                "They provide experiential accounts and firmer recorded dates respectively.",
+                "Distinguish the earliest confirmed program from earlier reported trials.",
+                "It lacks documentation and coincides with an examination period."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The records could not establish the exact date of an earlier trial transmission. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Memory contributes personal history even without exact chronological proof.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The First School Radio\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "How do interviews and printed documents differ as sources?",
               "choices": [
-                "The center produced a short audio exhibit explaining the difference.",
-                "Former participants remembered different dates for the station's first broadcast.",
-                "Volunteers compared interviews with school calendars and surviving program schedules.",
-                "A printed schedule confirmed that a regular broadcast existed by a particular autumn."
+                "A confident memory may need qualification when checked against independent records.",
+                "They provide experiential accounts and firmer recorded dates respectively.",
+                "Preserve memories while checking chronological claims against dated records.",
+                "Regular broadcasts existed by that time."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: The center produced a short audio exhibit explaining the difference. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The exhibit uses each for the questions it can answer.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The First School Radio\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the examination-calendar discrepancy illustrate?",
               "choices": [
-                "Initial concern: “Volunteers compared interviews with school calendars and…”; method: “A printed schedule confirmed that a regular broadcast…”.",
-                "Initial concern: “Former participants remembered different dates for the…”; method: “Volunteers compared interviews with school calendars and…”.",
-                "Initial concern: “Former participants remembered different dates for the…”; method: “The records could not establish the exact date of an…”.",
-                "Initial concern: “A printed schedule confirmed that a regular broadcast…”; method: “The center produced a short audio exhibit explaining the…”."
+                "Distinguish the earliest confirmed program from earlier reported trials.",
+                "It lacks documentation and coincides with an examination period.",
+                "A confident memory may need qualification when checked against independent records.",
+                "Whether a trial transmission occurred before the first documented regular program."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Former participants remembered different dates for the station's first broadcast. and the subsequent investigative procedure is Volunteers compared interviews with school calendars and surviving program schedules..",
+              "correctIndex": 2,
+              "explanation": "The investigators test recalled dates rather than accept or dismiss them immediately.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The First School Radio\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the finished audio exhibit encourage visitors to do?",
               "choices": [
-                "The limitation (“The records could not establish the exact date of an…”) disproves the observation itself.",
-                "The method (“Volunteers compared interviews with school calendars and…”) guarantees the result before measurement.",
-                "The observation (“A printed schedule confirmed that a regular broadcast…”) matters, but the limit (“The records could not establish the exact date of an…”) remains.",
-                "The observation (“A printed schedule confirmed that a regular broadcast…”) rules out every alternative cause."
+                "Preserve memories while checking chronological claims against dated records.",
+                "Regular broadcasts existed by that time.",
+                "Different definitions of a beginning are supported by different kinds of evidence.",
+                "Distinguish the earliest confirmed program from earlier reported trials."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as A printed schedule confirmed that a regular broadcast existed by a particular autumn. but must be read alongside The records could not establish the exact date of an earlier trial transmission..",
+              "correctIndex": 3,
+              "explanation": "The display explains the difference rather than concealing uncertainty.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The First School Radio\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which method best characterizes the historical investigation?",
               "choices": [
-                "The response (“The center produced a short audio exhibit explaining the…”) is proof of success in every setting.",
-                "The caveat (“The records could not establish the exact date of an…”) makes the observations worthless.",
-                "The observation (“A printed schedule confirmed that a regular broadcast…”) shows that measurement was unnecessary.",
-                "The response (“The center produced a short audio exhibit explaining the…”) follows evidence but remains open to reassessment."
+                "Preserve memories while checking chronological claims against dated records.",
+                "It lacks documentation and coincides with an examination period.",
+                "Whether a trial transmission occurred before the first documented regular program.",
+                "They convey experiences and excitement absent from formal schedules."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed The center produced a short audio exhibit explaining the difference.; the stated limit The records could not establish the exact date of an earlier trial transmission. still matters.",
+              "correctIndex": 0,
+              "explanation": "The team combines testimony with schedules without demanding they serve identical roles.",
               "passageId": "R20-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P2-10",
@@ -20427,147 +20427,147 @@
           "questions": [
             {
               "id": "R20-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Final Lap\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does Lucas reduce his pace after the downpour?",
               "choices": [
-                "The method (“Lucas slowed his pace and encouraged a younger runner who…”) rules out every possible competing explanation.",
-                "The recorded outcome (“He finished later than he had planned, but both runners…”) is treated as unrelated to the original investigation.",
-                "The concern (“A sudden downpour made the trail slippery halfway through…”) leads to inquiry, but “Lucas felt a brief disappointment when he checked the…” limits the inference.",
-                "The proposed response (“Later he judged the run by the effort and support he had…”) makes the original concern irrelevant."
+                "The slippery trail makes his original target unsafe under changed conditions.",
+                "Further time relative to the personal record he had hoped to achieve.",
+                "Exercise endurance and sound judgment under unexpected conditions.",
+                "It remains a useful planning goal but cannot govern every changed circumstance."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Lucas felt a brief disappointment when he checked the clock. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "The environment alters what a reasonable running strategy requires.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Final Lap\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does helping the younger runner cost him?",
               "choices": [
-                "Lucas slowed his pace and encouraged a younger runner who had lost confidence.",
-                "He finished later than he had planned, but both runners completed the route safely.",
-                "Later he judged the run by the effort and support he had shown rather than the number alone.",
-                "A sudden downpour made the trail slippery halfway through the event."
+                "A meaningful decision can still involve sacrificing a valued goal.",
+                "Further time relative to the personal record he had hoped to achieve.",
+                "Helping another participant becomes part of his measure of a worthwhile event.",
+                "That the entire training effort had no value because the clock was disappointing."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: A sudden downpour made the trail slippery halfway through the event. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "He keeps pace with a discouraged participant instead of accelerating.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Final Lap\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why doesn't the story erase Lucas's disappointment?",
               "choices": [
-                "Lucas slowed his pace and encouraged a younger runner who had lost confidence.",
-                "A sudden downpour made the trail slippery halfway through the event.",
-                "He finished later than he had planned, but both runners completed the route safely.",
-                "Lucas felt a brief disappointment when he checked the clock."
+                "Exercise endurance and sound judgment under unexpected conditions.",
+                "It remains a useful planning goal but cannot govern every changed circumstance.",
+                "A meaningful decision can still involve sacrificing a valued goal.",
+                "Attention to slippery footing rather than an attempt to regain lost seconds."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: Lucas slowed his pace and encouraged a younger runner who had lost confidence. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "He briefly regrets the missed time while recognizing another kind of achievement.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Final Lap\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What had training prepared Lucas to do besides run quickly?",
               "choices": [
-                "Later he judged the run by the effort and support he had shown rather than the number alone.",
-                "He finished later than he had planned, but both runners completed the route safely.",
-                "Lucas slowed his pace and encouraged a younger runner who had lost confidence.",
-                "Lucas felt a brief disappointment when he checked the clock."
+                "Helping another participant becomes part of his measure of a worthwhile event.",
+                "That the entire training effort had no value because the clock was disappointing.",
+                "A goal can guide effort without being the sole standard of success.",
+                "Exercise endurance and sound judgment under unexpected conditions."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: He finished later than he had planned, but both runners completed the route safely. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "He uses pacing and attention to footing when the trail becomes hazardous.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Final Lap\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does the younger runner affect Lucas's decision?",
               "choices": [
-                "Lucas slowed his pace and encouraged a younger runner who had lost confidence.",
-                "Later he judged the run by the effort and support he had shown rather than the number alone.",
-                "Lucas felt a brief disappointment when he checked the clock.",
-                "He finished later than he had planned, but both runners completed the route safely."
+                "Helping another participant becomes part of his measure of a worthwhile event.",
+                "It remains a useful planning goal but cannot govern every changed circumstance.",
+                "Attention to slippery footing rather than an attempt to regain lost seconds.",
+                "The slippery trail makes his original target unsafe under changed conditions."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: Lucas felt a brief disappointment when he checked the clock. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "He offers support and completes the route alongside the runner.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Final Lap\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is a personal record not dismissed as meaningless?",
               "choices": [
-                "A sudden downpour made the trail slippery halfway through the event.",
-                "Lucas slowed his pace and encouraged a younger runner who had lost confidence.",
-                "He finished later than he had planned, but both runners completed the route safely.",
-                "Later he judged the run by the effort and support he had shown rather than the number alone."
+                "That the entire training effort had no value because the clock was disappointing.",
+                "It remains a useful planning goal but cannot govern every changed circumstance.",
+                "A goal can guide effort without being the sole standard of success.",
+                "Further time relative to the personal record he had hoped to achieve."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: Later he judged the run by the effort and support he had shown rather than the number alone. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "Lucas still values preparation and numerical targets conditionally.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Final Lap\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would be the weaker inference from his slower finish?",
               "choices": [
-                "Initial concern: “A sudden downpour made the trail slippery halfway through…”; method: “Lucas slowed his pace and encouraged a younger runner who…”.",
-                "Initial concern: “A sudden downpour made the trail slippery halfway through…”; method: “Lucas felt a brief disappointment when he checked the…”.",
-                "Initial concern: “He finished later than he had planned, but both runners…”; method: “Later he judged the run by the effort and support he had…”.",
-                "Initial concern: “Lucas slowed his pace and encouraged a younger runner who…”; method: “He finished later than he had planned, but both runners…”."
+                "Attention to slippery footing rather than an attempt to regain lost seconds.",
+                "The slippery trail makes his original target unsafe under changed conditions.",
+                "That the entire training effort had no value because the clock was disappointing.",
+                "A meaningful decision can still involve sacrificing a valued goal."
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with A sudden downpour made the trail slippery halfway through the event. and the subsequent investigative procedure is Lucas slowed his pace and encouraged a younger runner who had lost confidence..",
+              "correctIndex": 2,
+              "explanation": "The passage identifies endurance and judgment as lasting results.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Final Lap\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the approaching trail bend require?",
               "choices": [
-                "The method (“Lucas slowed his pace and encouraged a younger runner who…”) guarantees the result before measurement.",
-                "The observation (“He finished later than he had planned, but both runners…”) matters, but the limit (“Lucas felt a brief disappointment when he checked the…”) remains.",
-                "The observation (“He finished later than he had planned, but both runners…”) rules out every alternative cause.",
-                "The limitation (“Lucas felt a brief disappointment when he checked the…”) disproves the observation itself."
+                "A goal can guide effort without being the sole standard of success.",
+                "Further time relative to the personal record he had hoped to achieve.",
+                "Exercise endurance and sound judgment under unexpected conditions.",
+                "Attention to slippery footing rather than an attempt to regain lost seconds."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as He finished later than he had planned, but both runners completed the route safely. but must be read alongside Lucas felt a brief disappointment when he checked the clock..",
+              "correctIndex": 3,
+              "explanation": "The downpour changes the risk near the narrow section.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Final Lap\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the central distinction in Lucas's reflection?",
               "choices": [
-                "The caveat (“Lucas felt a brief disappointment when he checked the…”) makes the observations worthless.",
-                "The observation (“He finished later than he had planned, but both runners…”) shows that measurement was unnecessary.",
-                "The response (“Later he judged the run by the effort and support he had…”) follows evidence but remains open to reassessment.",
-                "The response (“Later he judged the run by the effort and support he had…”) is proof of success in every setting."
+                "A goal can guide effort without being the sole standard of success.",
+                "The slippery trail makes his original target unsafe under changed conditions.",
+                "A meaningful decision can still involve sacrificing a valued goal.",
+                "Helping another participant becomes part of his measure of a worthwhile event."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed Later he judged the run by the effort and support he had shown rather than the number alone.; the stated limit Lucas felt a brief disappointment when he checked the clock. still matters.",
+              "correctIndex": 0,
+              "explanation": "He integrates safety, support and personal performance in judging the run.",
               "passageId": "R20-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P3-10",
@@ -20602,147 +20602,147 @@
           "questions": [
             {
               "id": "R20-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Local Oral History Night\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the two accounts of the same street initially sound contradictory?",
               "choices": [
-                "The proposed response (“The hall recorded the talks and labeled uncertain details…”) makes the original concern irrelevant.",
-                "The method (“Organizers displayed photographs and invited speakers to…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The stories added personal detail to dates already known…”) is treated as unrelated to the original investigation.",
-                "The concern (“Younger visitors knew the buildings but little about the…”) leads to inquiry, but “Different memories sometimes conflicted, and not every…” limits the inference."
+                "The speakers had experienced it at different times of day.",
+                "They provided shared reference points for memories without making those memories identical.",
+                "Whether a bakery operated at the stated location during a particular period.",
+                "Preserving oral testimony should respect contributors' control over their accounts."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Different memories sometimes conflicted, and not every account could be verified. prevents an overly broad conclusion.",
+              "correctIndex": 0,
+              "explanation": "Delivery traffic and evening quiet could both characterize the street.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Local Oral History Night\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What role did the displayed photographs play?",
               "choices": [
-                "The stories added personal detail to dates already known from the town archive.",
-                "The hall recorded the talks and labeled uncertain details before adding them to its collection.",
-                "Younger visitors knew the buildings but little about the people who once worked there.",
-                "Organizers displayed photographs and invited speakers to explain what each image recalled."
+                "The accounts differ in how directly the narrator knows the events.",
+                "They provided shared reference points for memories without making those memories identical.",
+                "A resident's personal memory of the bakery's smell.",
+                "It retains their personal value without presenting them as verified facts."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Younger visitors knew the buildings but little about the people who once worked there. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 1,
+              "explanation": "People responded to the same image with different experiences.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Local Oral History Night\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why ask speakers to distinguish witnessed events from family stories?",
               "choices": [
-                "Younger visitors knew the buildings but little about the people who once worked there.",
-                "The stories added personal detail to dates already known from the town archive.",
-                "Different memories sometimes conflicted, and not every account could be verified.",
-                "Organizers displayed photographs and invited speakers to explain what each image recalled."
+                "Whether a bakery operated at the stated location during a particular period.",
+                "Preserving oral testimony should respect contributors' control over their accounts.",
+                "The accounts differ in how directly the narrator knows the events.",
+                "Different residents' experiences reveal multiple overlapping histories."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Organizers displayed photographs and invited speakers to explain what each image recalled. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 2,
+              "explanation": "Organizers document firsthand testimony separately from inherited recollection.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Local Oral History Night\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which detail could a business directory help verify?",
               "choices": [
-                "The stories added personal detail to dates already known from the town archive.",
-                "Organizers displayed photographs and invited speakers to explain what each image recalled.",
-                "Different memories sometimes conflicted, and not every account could be verified.",
-                "The hall recorded the talks and labeled uncertain details before adding them to its collection."
+                "A resident's personal memory of the bakery's smell.",
+                "It retains their personal value without presenting them as verified facts.",
+                "Oral memory enriches archives when its context and limits are carefully recorded.",
+                "Whether a bakery operated at the stated location during a particular period."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The stories added personal detail to dates already known from the town archive. The other statements describe different stages of the inquiry.",
+              "correctIndex": 3,
+              "explanation": "Public records can test factual claims about establishments.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Local Oral History Night\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What can a directory not independently confirm?",
               "choices": [
-                "The hall recorded the talks and labeled uncertain details before adding them to its collection.",
-                "Different memories sometimes conflicted, and not every account could be verified.",
-                "The stories added personal detail to dates already known from the town archive.",
-                "Organizers displayed photographs and invited speakers to explain what each image recalled."
+                "A resident's personal memory of the bakery's smell.",
+                "Preserving oral testimony should respect contributors' control over their accounts.",
+                "Different residents' experiences reveal multiple overlapping histories.",
+                "The speakers had experienced it at different times of day."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: Different memories sometimes conflicted, and not every account could be verified. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 0,
+              "explanation": "Sensory recollection belongs to a different evidentiary category.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Local Oral History Night\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did organizers seek permission before recording talks?",
               "choices": [
-                "Organizers displayed photographs and invited speakers to explain what each image recalled.",
-                "The stories added personal detail to dates already known from the town archive.",
-                "The hall recorded the talks and labeled uncertain details before adding them to its collection.",
-                "Younger visitors knew the buildings but little about the people who once worked there."
+                "It retains their personal value without presenting them as verified facts.",
+                "Preserving oral testimony should respect contributors' control over their accounts.",
+                "Oral memory enriches archives when its context and limits are carefully recorded.",
+                "They provided shared reference points for memories without making those memories identical."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The hall recorded the talks and labeled uncertain details before adding them to its collection. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 1,
+              "explanation": "The hall documents consent alongside dates and interview settings.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Local Oral History Night\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does labeling uncertain memories accomplish?",
               "choices": [
-                "Initial concern: “Younger visitors knew the buildings but little about the…”; method: “Different memories sometimes conflicted, and not every…”.",
-                "Initial concern: “The stories added personal detail to dates already known…”; method: “The hall recorded the talks and labeled uncertain details…”.",
-                "Initial concern: “Organizers displayed photographs and invited speakers to…”; method: “The stories added personal detail to dates already known…”.",
-                "Initial concern: “Younger visitors knew the buildings but little about the…”; method: “Organizers displayed photographs and invited speakers to…”."
+                "Different residents' experiences reveal multiple overlapping histories.",
+                "The speakers had experienced it at different times of day.",
+                "It retains their personal value without presenting them as verified facts.",
+                "The accounts differ in how directly the narrator knows the events."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with Younger visitors knew the buildings but little about the people who once worked there. and the subsequent investigative procedure is Organizers displayed photographs and invited speakers to explain what each image recalled..",
+              "correctIndex": 2,
+              "explanation": "The collection differentiates testimony from corroborated detail.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Local Oral History Night\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the hall avoid a single definitive neighborhood narrative?",
               "choices": [
-                "The observation (“The stories added personal detail to dates already known…”) matters, but the limit (“Different memories sometimes conflicted, and not every…”) remains.",
-                "The observation (“The stories added personal detail to dates already known…”) rules out every alternative cause.",
-                "The limitation (“Different memories sometimes conflicted, and not every…”) disproves the observation itself.",
-                "The method (“Organizers displayed photographs and invited speakers to…”) guarantees the result before measurement."
+                "Oral memory enriches archives when its context and limits are carefully recorded.",
+                "They provided shared reference points for memories without making those memories identical.",
+                "Whether a bakery operated at the stated location during a particular period.",
+                "Different residents' experiences reveal multiple overlapping histories."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The stories added personal detail to dates already known from the town archive. but must be read alongside Different memories sometimes conflicted, and not every account could be verified..",
+              "correctIndex": 3,
+              "explanation": "The project preserves diverse accounts for future evaluation.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Local Oral History Night\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the event's wider historical lesson?",
               "choices": [
-                "The observation (“The stories added personal detail to dates already known…”) shows that measurement was unnecessary.",
-                "The response (“The hall recorded the talks and labeled uncertain details…”) follows evidence but remains open to reassessment.",
-                "The response (“The hall recorded the talks and labeled uncertain details…”) is proof of success in every setting.",
-                "The caveat (“Different memories sometimes conflicted, and not every…”) makes the observations worthless."
+                "Oral memory enriches archives when its context and limits are carefully recorded.",
+                "The speakers had experienced it at different times of day.",
+                "The accounts differ in how directly the narrator knows the events.",
+                "A resident's personal memory of the bakery's smell."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The hall recorded the talks and labeled uncertain details before adding them to its collection.; the stated limit Different memories sometimes conflicted, and not every account could be verified. still matters.",
+              "correctIndex": 0,
+              "explanation": "The organizers combine personal detail with transparent source documentation.",
               "passageId": "R20-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R20-P4-10",
