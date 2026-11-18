@@ -24552,138 +24552,138 @@
         },
         {
           "id": "RG16-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The School Newspaper\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "What did the reporters assume before collecting data?",
           "choices": [
-            "The original assumption was incomplete and the survey covered only several days.",
-            "Reporters assumed cafeteria waste came mainly from students discarding their lunches.",
-            "They weighed discarded food for several days and interviewed kitchen staff.",
-            "They discovered unused serving portions were also a major source and recommended serving changes."
+            "Students were responsible for most discarded lunch food.",
+            "Unused portions left in serving containers.",
+            "It would assign responsibility to students without checking other sources.",
+            "Menus and attendance vary across the school year."
           ],
-          "correctIndex": 1,
-          "explanation": "The opening situation establishes why participants needed to act: Reporters assumed cafeteria waste came mainly from students discarding their lunches.",
+          "correctIndex": 0,
+          "explanation": "The original hypothesis blamed plate waste.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What different waste category did measurements reveal?",
           "choices": [
-            "They discovered unused serving portions were also a major source and recommended serving changes.",
-            "The original assumption was incomplete and the survey covered only several days.",
-            "They weighed discarded food for several days and interviewed kitchen staff.",
-            "Reporters assumed cafeteria waste came mainly from students discarding their lunches."
+            "They could explain how serving quantities were planned and prepared.",
+            "Unused portions left in serving containers.",
+            "It separates leftovers on plates from unused prepared food.",
+            "Adjust portions and improve planning of meal quantities."
           ],
-          "correctIndex": 2,
-          "explanation": "The method is the action taken to respond to uncertainty: They weighed discarded food for several days and interviewed kitchen staff.",
+          "correctIndex": 1,
+          "explanation": "The data show food discarded before reaching students.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why interview kitchen workers?",
           "choices": [
-            "Reporters assumed cafeteria waste came mainly from students discarding their lunches.",
-            "Separating serving leftovers from plate waste matters to intervention design.",
-            "Measure waste by source over a longer period after changing portion sizes.",
-            "They discovered unused serving portions were also a major source and recommended serving changes."
+            "It would assign responsibility to students without checking other sources.",
+            "Menus and attendance vary across the school year.",
+            "They could explain how serving quantities were planned and prepared.",
+            "It becomes a hypothesis that measurement can challenge."
           ],
-          "correctIndex": 3,
-          "explanation": "The passage reports this outcome: They discovered unused serving portions were also a major source and recommended serving changes.",
+          "correctIndex": 2,
+          "explanation": "Staff accounts helped interpret waste measurements.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The School Newspaper\"?",
+          "type": "Guided close reading",
+          "prompt": "What would have been misleading about the original article?",
           "choices": [
-            "The original assumption was incomplete and the survey covered only several days.",
-            "Reporters assumed cafeteria waste came mainly from students discarding their lunches.",
-            "They weighed discarded food for several days and interviewed kitchen staff.",
-            "They discovered unused serving portions were also a major source and recommended serving changes."
+            "It separates leftovers on plates from unused prepared food.",
+            "Adjust portions and improve planning of meal quantities.",
+            "Evidence should shape the story even when it contradicts expectations.",
+            "It would assign responsibility to students without checking other sources."
           ],
-          "correctIndex": 0,
-          "explanation": "A careful interpretation must preserve the boundary: The original assumption was incomplete and the survey covered only several days.",
+          "correctIndex": 3,
+          "explanation": "The report distinguishes an early impression from tested findings.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "Why weigh food at different stages?",
           "choices": [
-            "Because the problem (Reporters assumed cafeteria waste came mainly from students discarding their lunches.) was identified, later evidence cannot change the original hypothesis.",
-            "Direct measurement can revise a plausible explanation and support more targeted recommendations.",
-            "The result (They discovered unused serving portions were also a major source and recommended serving changes.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (They weighed discarded food for several days and interviewed kitchen staff.) is unrelated to the concern that motivated it."
+            "It separates leftovers on plates from unused prepared food.",
+            "Menus and attendance vary across the school year.",
+            "It becomes a hypothesis that measurement can challenge.",
+            "Students were responsible for most discarded lunch food."
           ],
-          "correctIndex": 1,
-          "explanation": "The supported synthesis is: Direct measurement can revise a plausible explanation and support more targeted recommendations.",
+          "correctIndex": 0,
+          "explanation": "The method reveals where waste originates.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The School Newspaper\"?",
+          "type": "Guided close reading",
+          "prompt": "Why avoid treating a few days as universally representative?",
           "choices": [
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Measure waste by source over a longer period after changing portion sizes.",
-            "Repeat the original activity without recording any new outcomes or conditions."
+            "Adjust portions and improve planning of meal quantities.",
+            "Menus and attendance vary across the school year.",
+            "Evidence should shape the story even when it contradicts expectations.",
+            "Unused portions left in serving containers."
           ],
-          "correctIndex": 2,
-          "explanation": "A focused follow-up can test the uncertainty by measure waste by source over a longer period after changing portion sizes.",
+          "correctIndex": 1,
+          "explanation": "The observation period is limited.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The School Newspaper\"?",
+          "type": "Guided close reading",
+          "prompt": "What changes did the article recommend?",
           "choices": [
-            "They weighed discarded food for several days and interviewed kitchen staff.",
-            "They discovered unused serving portions were also a major source and recommended serving changes.",
-            "The original assumption was incomplete and the survey covered only several days.",
-            "Several days of measurements prove every school has the same waste problem."
+            "It becomes a hypothesis that measurement can challenge.",
+            "Students were responsible for most discarded lunch food.",
+            "Adjust portions and improve planning of meal quantities.",
+            "They could explain how serving quantities were planned and prepared."
           ],
-          "correctIndex": 3,
-          "explanation": "This absolute conclusion is unsupported: Several days of measurements prove every school has the same waste problem. The passage instead supports bounded claims.",
+          "correctIndex": 2,
+          "explanation": "The proposals reflect the newly identified waste sources.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What is the role of the original assumption in the investigation?",
           "choices": [
-            "Separating serving leftovers from plate waste matters to intervention design.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination."
+            "Evidence should shape the story even when it contradicts expectations.",
+            "Unused portions left in serving containers.",
+            "It would assign responsibility to students without checking other sources.",
+            "It becomes a hypothesis that measurement can challenge."
           ],
-          "correctIndex": 0,
-          "explanation": "The inference depends on the stated consideration: Separating serving leftovers from plate waste matters to intervention design.",
+          "correctIndex": 3,
+          "explanation": "The reporters test rather than simply repeat their belief.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG16-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which principle best captures the reporting process?",
           "choices": [
-            "The findings logically exclude all influences not explicitly measured.",
-            "A special menu or unusual attendance may have influenced those days' waste totals.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome."
+            "Evidence should shape the story even when it contradicts expectations.",
+            "Students were responsible for most discarded lunch food.",
+            "They could explain how serving quantities were planned and prepared.",
+            "It separates leftovers on plates from unused prepared food."
           ],
-          "correctIndex": 1,
-          "explanation": "The account does not rule out this competing possibility: A special menu or unusual attendance may have influenced those days' waste totals.",
+          "correctIndex": 0,
+          "explanation": "The final article revises the starting explanation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R16-PRV-01",
@@ -24782,138 +24782,138 @@
         },
         {
           "id": "RG17-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Desert Adaptations\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "What trade-off is involved in opening leaf pores?",
           "choices": [
-            "Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
-            "One adaptation carries a trade-off and does not describe every desert plant.",
-            "Desert plants must retain water while acquiring carbon dioxide for growth.",
-            "Some species open leaf pores at night, while others use deep roots or water-storing stems."
+            "Cooler conditions can reduce water lost during gas exchange.",
+            "Carbon dioxide enters but water may escape.",
+            "Building them requires energy and other plant resources.",
+            "The supply must eventually be replenished."
           ],
-          "correctIndex": 2,
-          "explanation": "The opening situation establishes why participants needed to act: Desert plants must retain water while acquiring carbon dioxide for growth.",
+          "correctIndex": 1,
+          "explanation": "Gas exchange creates a potential moisture cost.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why do some plants open pores at night?",
           "choices": [
-            "Desert plants must retain water while acquiring carbon dioxide for growth.",
-            "Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
-            "One adaptation carries a trade-off and does not describe every desert plant.",
-            "Some species open leaf pores at night, while others use deep roots or water-storing stems."
+            "They can reach moisture unavailable near the surface.",
+            "Capacity to store water for dry periods.",
+            "Cooler conditions can reduce water lost during gas exchange.",
+            "They employ distinct combinations of physiological strategies."
           ],
-          "correctIndex": 3,
-          "explanation": "The method is the action taken to respond to uncertainty: Some species open leaf pores at night, while others use deep roots or water-storing stems.",
+          "correctIndex": 2,
+          "explanation": "The timing is an adaptation to heat and dryness.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What is one advantage of deep roots?",
           "choices": [
-            "Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
-            "Desert plants must retain water while acquiring carbon dioxide for growth.",
-            "Water-saving adaptations may limit another resource acquisition process.",
-            "Compare water loss and carbon uptake under matched conditions across plant strategies."
+            "Building them requires energy and other plant resources.",
+            "The supply must eventually be replenished.",
+            "One adaptation is necessarily best for every desert species.",
+            "They can reach moisture unavailable near the surface."
           ],
-          "correctIndex": 0,
-          "explanation": "The passage reports this outcome: Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
+          "correctIndex": 3,
+          "explanation": "The strategy accesses water beneath shallow soil.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Desert Adaptations\"?",
+          "type": "Guided close reading",
+          "prompt": "What is a cost of developing extensive roots?",
           "choices": [
-            "Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
-            "One adaptation carries a trade-off and does not describe every desert plant.",
-            "Desert plants must retain water while acquiring carbon dioxide for growth.",
-            "Some species open leaf pores at night, while others use deep roots or water-storing stems."
+            "Building them requires energy and other plant resources.",
+            "Capacity to store water for dry periods.",
+            "They employ distinct combinations of physiological strategies.",
+            "Adaptations involve competing benefits shaped by local conditions."
           ],
-          "correctIndex": 1,
-          "explanation": "A careful interpretation must preserve the boundary: One adaptation carries a trade-off and does not describe every desert plant.",
+          "correctIndex": 0,
+          "explanation": "The passage treats adaptation as a trade-off.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What do thick stems provide?",
           "choices": [
-            "The intervention (Some species open leaf pores at night, while others use deep roots or water-storing stems.) is unrelated to the concern that motivated it.",
-            "Because the problem (Desert plants must retain water while acquiring carbon dioxide for growth.) was identified, later evidence cannot change the original hypothesis.",
-            "Organisms can respond to the same environmental pressure through different compromises.",
-            "The result (Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.) proves that no uncertainty remains and the limitation is irrelevant."
+            "The supply must eventually be replenished.",
+            "Capacity to store water for dry periods.",
+            "One adaptation is necessarily best for every desert species.",
+            "Carbon dioxide enters but water may escape."
           ],
-          "correctIndex": 2,
-          "explanation": "The supported synthesis is: Organisms can respond to the same environmental pressure through different compromises.",
+          "correctIndex": 1,
+          "explanation": "Stored moisture supplements uncertain rainfall.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Desert Adaptations\"?",
+          "type": "Guided close reading",
+          "prompt": "Why isn't stored water a complete solution?",
           "choices": [
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare water loss and carbon uptake under matched conditions across plant strategies."
+            "They employ distinct combinations of physiological strategies.",
+            "Adaptations involve competing benefits shaped by local conditions.",
+            "The supply must eventually be replenished.",
+            "Cooler conditions can reduce water lost during gas exchange."
           ],
-          "correctIndex": 3,
-          "explanation": "A focused follow-up can test the uncertainty by compare water loss and carbon uptake under matched conditions across plant strategies.",
+          "correctIndex": 2,
+          "explanation": "A reservoir cannot remain useful without replacement moisture.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Desert Adaptations\"?",
+          "type": "Guided close reading",
+          "prompt": "Why can different plants thrive under the same conditions?",
           "choices": [
-            "Night-opening pores eliminate all costs to carbon uptake.",
-            "Some species open leaf pores at night, while others use deep roots or water-storing stems.",
-            "Nighttime pores reduce water loss but limit the speed of carbon dioxide intake.",
-            "One adaptation carries a trade-off and does not describe every desert plant."
+            "One adaptation is necessarily best for every desert species.",
+            "Carbon dioxide enters but water may escape.",
+            "They can reach moisture unavailable near the surface.",
+            "They employ distinct combinations of physiological strategies."
           ],
-          "correctIndex": 0,
-          "explanation": "This absolute conclusion is unsupported: Night-opening pores eliminate all costs to carbon uptake. The passage instead supports bounded claims.",
+          "correctIndex": 3,
+          "explanation": "There is no single universal desert adaptation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Which claim would be unwarranted?",
           "choices": [
-            "Any future conditions must be identical without needing examination.",
-            "Water-saving adaptations may limit another resource acquisition process.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken."
+            "One adaptation is necessarily best for every desert species.",
+            "Adaptations involve competing benefits shaped by local conditions.",
+            "Cooler conditions can reduce water lost during gas exchange.",
+            "Building them requires energy and other plant resources."
           ],
-          "correctIndex": 1,
-          "explanation": "The inference depends on the stated consideration: Water-saving adaptations may limit another resource acquisition process.",
+          "correctIndex": 0,
+          "explanation": "The passage emphasizes different constraints and costs.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG17-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What broader biological principle emerges?",
           "choices": [
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Differences in plant habitat might explain why the adaptations vary among species.",
-            "The passage contains no observations capable of informing any explanation."
+            "Carbon dioxide enters but water may escape.",
+            "Adaptations involve competing benefits shaped by local conditions.",
+            "They can reach moisture unavailable near the surface.",
+            "Capacity to store water for dry periods."
           ],
-          "correctIndex": 2,
-          "explanation": "The account does not rule out this competing possibility: Differences in plant habitat might explain why the adaptations vary among species.",
+          "correctIndex": 1,
+          "explanation": "The text compares multiple responses to the same environmental pressure.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R17-PRV-01",
@@ -25012,138 +25012,138 @@
         },
         {
           "id": "RG18-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"A Bridge of Stories\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why were residents worried about the repair?",
           "choices": [
-            "A history class documented the murals while the crew protected panels and installed copies.",
-            "The bridge reopened with safety improvements and cultural displays.",
-            "Copies retain access to images but do not preserve every original surface.",
-            "A bridge repair threatened to erase murals valued by local residents."
+            "Photographs of the murals and interviews with artists.",
+            "They were reproductions rather than surviving originals.",
+            "The work could erase murals tied to local memory.",
+            "An original work can have significance beyond its visual appearance."
           ],
-          "correctIndex": 3,
-          "explanation": "The opening situation establishes why participants needed to act: A bridge repair threatened to erase murals valued by local residents.",
+          "correctIndex": 2,
+          "explanation": "Safety improvements threatened cultural features.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What evidence did students gather before construction?",
           "choices": [
-            "A history class documented the murals while the crew protected panels and installed copies.",
-            "A bridge repair threatened to erase murals valued by local residents.",
-            "The bridge reopened with safety improvements and cultural displays.",
-            "Copies retain access to images but do not preserve every original surface."
+            "The originals could not all survive the necessary work.",
+            "Safer railings for people using the crossing.",
+            "Context explaining the mural imagery and repair decisions.",
+            "Photographs of the murals and interviews with artists."
           ],
-          "correctIndex": 0,
-          "explanation": "The method is the action taken to respond to uncertainty: A history class documented the murals while the crew protected panels and installed copies.",
+          "correctIndex": 3,
+          "explanation": "They documented objects and their intended meanings.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why were some panels copied?",
           "choices": [
-            "Assess whether visitors can identify and interpret original and reproduced murals after renovation.",
-            "The bridge reopened with safety improvements and cultural displays.",
-            "A bridge repair threatened to erase murals valued by local residents.",
-            "Documentation can help preserve meaning when some physical artwork must be changed."
+            "The originals could not all survive the necessary work.",
+            "They were reproductions rather than surviving originals.",
+            "An original work can have significance beyond its visual appearance.",
+            "Removing the paintings without recording or discussing them."
           ],
-          "correctIndex": 1,
-          "explanation": "The passage reports this outcome: The bridge reopened with safety improvements and cultural displays.",
+          "correctIndex": 0,
+          "explanation": "Copies preserved images where protection in place was impossible.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"A Bridge of Stories\"?",
+          "type": "Guided close reading",
+          "prompt": "What did organizers disclose about the replicas?",
           "choices": [
-            "A history class documented the murals while the crew protected panels and installed copies.",
-            "The bridge reopened with safety improvements and cultural displays.",
-            "Copies retain access to images but do not preserve every original surface.",
-            "A bridge repair threatened to erase murals valued by local residents."
+            "Safer railings for people using the crossing.",
+            "They were reproductions rather than surviving originals.",
+            "Context explaining the mural imagery and repair decisions.",
+            "Safety work can incorporate preservation even when some losses remain."
           ],
-          "correctIndex": 2,
-          "explanation": "A careful interpretation must preserve the boundary: Copies retain access to images but do not preserve every original surface.",
+          "correctIndex": 1,
+          "explanation": "The display avoids presenting copies as physically equivalent.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What practical improvement did the reopened bridge provide?",
           "choices": [
-            "The result (The bridge reopened with safety improvements and cultural displays.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (A history class documented the murals while the crew protected panels and installed copies.) is unrelated to the concern that motivated it.",
-            "Because the problem (A bridge repair threatened to erase murals valued by local residents.) was identified, later evidence cannot change the original hypothesis.",
-            "Infrastructure upgrades can incorporate preservation rather than forcing total cultural loss."
+            "An original work can have significance beyond its visual appearance.",
+            "Removing the paintings without recording or discussing them.",
+            "Safer railings for people using the crossing.",
+            "The work could erase murals tied to local memory."
           ],
-          "correctIndex": 3,
-          "explanation": "The supported synthesis is: Infrastructure upgrades can incorporate preservation rather than forcing total cultural loss.",
+          "correctIndex": 2,
+          "explanation": "The infrastructure goal remained central to the project.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"A Bridge of Stories\"?",
+          "type": "Guided close reading",
+          "prompt": "Why might residents still be dissatisfied with copying?",
           "choices": [
-            "Assess whether visitors can identify and interpret original and reproduced murals after renovation.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings."
+            "Context explaining the mural imagery and repair decisions.",
+            "Safety work can incorporate preservation even when some losses remain.",
+            "Photographs of the murals and interviews with artists.",
+            "An original work can have significance beyond its visual appearance."
           ],
-          "correctIndex": 0,
-          "explanation": "A focused follow-up can test the uncertainty by assess whether visitors can identify and interpret original and reproduced murals after renovation.",
+          "correctIndex": 3,
+          "explanation": "The text acknowledges limits of substitution.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"A Bridge of Stories\"?",
+          "type": "Guided close reading",
+          "prompt": "What did the new exhibit contribute?",
           "choices": [
-            "Copies retain access to images but do not preserve every original surface.",
-            "A repaired structure always preserves every original artifact unchanged.",
-            "A history class documented the murals while the crew protected panels and installed copies.",
-            "The bridge reopened with safety improvements and cultural displays."
+            "Context explaining the mural imagery and repair decisions.",
+            "Removing the paintings without recording or discussing them.",
+            "The work could erase murals tied to local memory.",
+            "The originals could not all survive the necessary work."
           ],
-          "correctIndex": 1,
-          "explanation": "This absolute conclusion is unsupported: A repaired structure always preserves every original artifact unchanged. The passage instead supports bounded claims.",
+          "correctIndex": 0,
+          "explanation": "Documentation helped preserve cultural understanding.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What would have been an avoidable cultural loss?",
           "choices": [
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Documentation can help preserve meaning when some physical artwork must be changed.",
-            "The original problem could never have existed."
+            "Safety work can incorporate preservation even when some losses remain.",
+            "Removing the paintings without recording or discussing them.",
+            "Photographs of the murals and interviews with artists.",
+            "They were reproductions rather than surviving originals."
           ],
-          "correctIndex": 2,
-          "explanation": "The inference depends on the stated consideration: Documentation can help preserve meaning when some physical artwork must be changed.",
+          "correctIndex": 1,
+          "explanation": "The class's work created a record before construction.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG18-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which conclusion reflects the compromise?",
           "choices": [
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Without student documentation, the crew might have made different preservation choices."
+            "The work could erase murals tied to local memory.",
+            "The originals could not all survive the necessary work.",
+            "Safety work can incorporate preservation even when some losses remain.",
+            "Safer railings for people using the crossing."
           ],
-          "correctIndex": 3,
-          "explanation": "The account does not rule out this competing possibility: Without student documentation, the crew might have made different preservation choices.",
+          "correctIndex": 2,
+          "explanation": "The final design weighs practical and cultural needs.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R18-PRV-01",
@@ -25242,138 +25242,138 @@
         },
         {
           "id": "RG19-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Ocean Currents\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why can't one drifting instrument describe an entire current?",
           "choices": [
-            "Complex ocean currents vary with winds, density, season, and storms.",
-            "Researchers tracked drifting instruments and compared the observations with computer models.",
-            "Repeated measurements improved the basis for predictions.",
-            "One observation cannot characterize a changing system over time."
+            "Winds acting on the upper ocean.",
+            "Repeated observations help test whether predicted patterns are reliable.",
+            "Some model assumptions or parameters need revision.",
+            "It samples a limited path during a particular period."
           ],
-          "correctIndex": 0,
-          "explanation": "The opening situation establishes why participants needed to act: Complex ocean currents vary with winds, density, season, and storms.",
+          "correctIndex": 3,
+          "explanation": "The ocean's movement varies across place and time.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What drives some surface currents?",
           "choices": [
-            "One observation cannot characterize a changing system over time.",
-            "Researchers tracked drifting instruments and compared the observations with computer models.",
-            "Complex ocean currents vary with winds, density, season, and storms.",
-            "Repeated measurements improved the basis for predictions."
+            "Winds acting on the upper ocean.",
+            "Temperature and salinity differences among water masses.",
+            "They can change where water moves during the measurement.",
+            "Currents move heat and influence coastal weather."
           ],
-          "correctIndex": 1,
-          "explanation": "The method is the action taken to respond to uncertainty: Researchers tracked drifting instruments and compared the observations with computer models.",
+          "correctIndex": 0,
+          "explanation": "The passage distinguishes wind-driven circulation from density effects.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What properties can influence density-driven movement?",
           "choices": [
-            "The value of a model depends partly on observations used to evaluate it.",
-            "Compare model predictions with instruments sampled during multiple seasons and storms.",
-            "Repeated measurements improved the basis for predictions.",
-            "Complex ocean currents vary with winds, density, season, and storms."
+            "Repeated observations help test whether predicted patterns are reliable.",
+            "Temperature and salinity differences among water masses.",
+            "Some model assumptions or parameters need revision.",
+            "The same water path occurs in every season."
           ],
-          "correctIndex": 2,
-          "explanation": "The passage reports this outcome: Repeated measurements improved the basis for predictions.",
+          "correctIndex": 1,
+          "explanation": "These factors affect how water circulates.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Ocean Currents\"?",
+          "type": "Guided close reading",
+          "prompt": "Why compare instruments with computer models?",
           "choices": [
-            "Complex ocean currents vary with winds, density, season, and storms.",
-            "Researchers tracked drifting instruments and compared the observations with computer models.",
-            "Repeated measurements improved the basis for predictions.",
-            "One observation cannot characterize a changing system over time."
+            "They can change where water moves during the measurement.",
+            "Currents move heat and influence coastal weather.",
+            "Repeated observations help test whether predicted patterns are reliable.",
+            "Reliable estimates require repeated measurement and revisable models."
           ],
-          "correctIndex": 3,
-          "explanation": "A careful interpretation must preserve the boundary: One observation cannot characterize a changing system over time.",
+          "correctIndex": 2,
+          "explanation": "Models can be corrected when data contradict them.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "How can storms affect the inference from one track?",
           "choices": [
-            "Reliable modeling of dynamic processes requires recurring observations and attention to variability.",
-            "The result (Repeated measurements improved the basis for predictions.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Researchers tracked drifting instruments and compared the observations with computer models.) is unrelated to the concern that motivated it.",
-            "Because the problem (Complex ocean currents vary with winds, density, season, and storms.) was identified, later evidence cannot change the original hypothesis."
+            "Some model assumptions or parameters need revision.",
+            "The same water path occurs in every season.",
+            "It samples a limited path during a particular period.",
+            "They can change where water moves during the measurement."
           ],
-          "correctIndex": 0,
-          "explanation": "The supported synthesis is: Reliable modeling of dynamic processes requires recurring observations and attention to variability.",
+          "correctIndex": 3,
+          "explanation": "The sampled path may not represent normal conditions.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Ocean Currents\"?",
+          "type": "Guided close reading",
+          "prompt": "What would repeated model disagreement suggest?",
           "choices": [
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare model predictions with instruments sampled during multiple seasons and storms.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence."
+            "Some model assumptions or parameters need revision.",
+            "Currents move heat and influence coastal weather.",
+            "Reliable estimates require repeated measurement and revisable models.",
+            "Winds acting on the upper ocean."
           ],
-          "correctIndex": 1,
-          "explanation": "A focused follow-up can test the uncertainty by compare model predictions with instruments sampled during multiple seasons and storms.",
+          "correctIndex": 0,
+          "explanation": "A useful model must remain responsive to observations.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Ocean Currents\"?",
+          "type": "Guided close reading",
+          "prompt": "Why is current prediction important beyond oceanography?",
           "choices": [
-            "Repeated measurements improved the basis for predictions.",
-            "One observation cannot characterize a changing system over time.",
-            "A single drift measurement proves the ocean's currents remain constant.",
-            "Researchers tracked drifting instruments and compared the observations with computer models."
+            "The same water path occurs in every season.",
+            "Currents move heat and influence coastal weather.",
+            "It samples a limited path during a particular period.",
+            "Temperature and salinity differences among water masses."
           ],
-          "correctIndex": 2,
-          "explanation": "This absolute conclusion is unsupported: A single drift measurement proves the ocean's currents remain constant. The passage instead supports bounded claims.",
+          "correctIndex": 1,
+          "explanation": "The system affects conditions beyond a single location.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What would be unjustified from one striking observation?",
           "choices": [
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "The value of a model depends partly on observations used to evaluate it."
+            "Reliable estimates require repeated measurement and revisable models.",
+            "Winds acting on the upper ocean.",
+            "The same water path occurs in every season.",
+            "Repeated observations help test whether predicted patterns are reliable."
           ],
-          "correctIndex": 3,
-          "explanation": "The inference depends on the stated consideration: The value of a model depends partly on observations used to evaluate it.",
+          "correctIndex": 2,
+          "explanation": "The passage stresses variability.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG19-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What is the central scientific lesson?",
           "choices": [
-            "Unexpected changes could reflect temporary storms rather than a permanent circulation shift.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured."
+            "It samples a limited path during a particular period.",
+            "Temperature and salinity differences among water masses.",
+            "They can change where water moves during the measurement.",
+            "Reliable estimates require repeated measurement and revisable models."
           ],
-          "correctIndex": 0,
-          "explanation": "The account does not rule out this competing possibility: Unexpected changes could reflect temporary storms rather than a permanent circulation shift.",
+          "correctIndex": 3,
+          "explanation": "The investigation combines observation with cautious prediction.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R19-PRV-01",
@@ -25472,138 +25472,138 @@
         },
         {
           "id": "RG20-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Final Climb\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why did some hikers resist turning back?",
           "choices": [
-            "Proximity to the destination does not remove the risks of a difficult return.",
-            "A hiking group neared its destination as unexpected rain made the trail slippery.",
-            "Its leader checked weather, time, and remaining daylight before deciding whether to continue.",
-            "The hikers turned back and later agreed the safer decision outweighed reaching the goal."
+            "The overlook seemed too close to abandon after a long climb.",
+            "Unexpected rain made the trail slippery before descent.",
+            "They still had to descend the wet route.",
+            "She checked conditions and timing rather than relying on determination alone."
           ],
-          "correctIndex": 1,
-          "explanation": "The opening situation establishes why participants needed to act: A hiking group neared its destination as unexpected rain made the trail slippery.",
+          "correctIndex": 0,
+          "explanation": "They focused on effort already invested.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What changed the conditions of the original plan?",
           "choices": [
-            "The hikers turned back and later agreed the safer decision outweighed reaching the goal.",
-            "Proximity to the destination does not remove the risks of a difficult return.",
-            "Its leader checked weather, time, and remaining daylight before deciding whether to continue.",
-            "A hiking group neared its destination as unexpected rain made the trail slippery."
+            "The group still needed time to return safely.",
+            "Unexpected rain made the trail slippery before descent.",
+            "Safe return outweighed the missed viewpoint.",
+            "A changed situation can require revising a responsible goal."
           ],
-          "correctIndex": 2,
-          "explanation": "The method is the action taken to respond to uncertainty: Its leader checked weather, time, and remaining daylight before deciding whether to continue.",
+          "correctIndex": 1,
+          "explanation": "The route's risk increased.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why did the leader consider remaining daylight?",
           "choices": [
-            "A hiking group neared its destination as unexpected rain made the trail slippery.",
-            "Weather and daylight influence how much risk remains on a route.",
-            "Compare route conditions and safe return times under rain and reduced daylight.",
-            "The hikers turned back and later agreed the safer decision outweighed reaching the goal."
+            "They still had to descend the wet route.",
+            "She checked conditions and timing rather than relying on determination alone.",
+            "The group still needed time to return safely.",
+            "The effort already spent made continued climbing seem obligatory."
           ],
-          "correctIndex": 3,
-          "explanation": "The passage reports this outcome: The hikers turned back and later agreed the safer decision outweighed reaching the goal.",
+          "correctIndex": 2,
+          "explanation": "Reaching the overlook would not end the journey.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Final Climb\"?",
+          "type": "Guided close reading",
+          "prompt": "What was missing from the argument that they were almost finished?",
           "choices": [
-            "Proximity to the destination does not remove the risks of a difficult return.",
-            "A hiking group neared its destination as unexpected rain made the trail slippery.",
-            "Its leader checked weather, time, and remaining daylight before deciding whether to continue.",
-            "The hikers turned back and later agreed the safer decision outweighed reaching the goal."
+            "Safe return outweighed the missed viewpoint.",
+            "A changed situation can require revising a responsible goal.",
+            "Plans should be revised when the assumptions supporting them no longer hold.",
+            "They still had to descend the wet route."
           ],
-          "correctIndex": 0,
-          "explanation": "A careful interpretation must preserve the boundary: Proximity to the destination does not remove the risks of a difficult return.",
+          "correctIndex": 3,
+          "explanation": "The summit was only one part of the planned outing.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "How did the group eventually judge the decision?",
           "choices": [
-            "Because the problem (A hiking group neared its destination as unexpected rain made the trail slippery.) was identified, later evidence cannot change the original hypothesis.",
-            "Sound judgment can prioritize changing safety conditions over completion of an original plan.",
-            "The result (The hikers turned back and later agreed the safer decision outweighed reaching the goal.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Its leader checked weather, time, and remaining daylight before deciding whether to continue.) is unrelated to the concern that motivated it."
+            "Safe return outweighed the missed viewpoint.",
+            "She checked conditions and timing rather than relying on determination alone.",
+            "The effort already spent made continued climbing seem obligatory.",
+            "The overlook seemed too close to abandon after a long climb."
           ],
-          "correctIndex": 1,
-          "explanation": "The supported synthesis is: Sound judgment can prioritize changing safety conditions over completion of an original plan.",
+          "correctIndex": 0,
+          "explanation": "Later reflection changed their understanding of success.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Final Climb\"?",
+          "type": "Guided close reading",
+          "prompt": "What made the leader's choice evidence-based?",
           "choices": [
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare route conditions and safe return times under rain and reduced daylight.",
-            "Repeat the original activity without recording any new outcomes or conditions."
+            "A changed situation can require revising a responsible goal.",
+            "She checked conditions and timing rather than relying on determination alone.",
+            "Plans should be revised when the assumptions supporting them no longer hold.",
+            "Unexpected rain made the trail slippery before descent."
           ],
-          "correctIndex": 2,
-          "explanation": "A focused follow-up can test the uncertainty by compare route conditions and safe return times under rain and reduced daylight.",
+          "correctIndex": 1,
+          "explanation": "Weather and daylight mattered to the risk assessment.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Final Climb\"?",
+          "type": "Guided close reading",
+          "prompt": "Why isn't turning back necessarily a failure of commitment?",
           "choices": [
-            "Its leader checked weather, time, and remaining daylight before deciding whether to continue.",
-            "The hikers turned back and later agreed the safer decision outweighed reaching the goal.",
-            "Proximity to the destination does not remove the risks of a difficult return.",
-            "Being near a goal guarantees completing it is safer than returning."
+            "The effort already spent made continued climbing seem obligatory.",
+            "The overlook seemed too close to abandon after a long climb.",
+            "A changed situation can require revising a responsible goal.",
+            "The group still needed time to return safely."
           ],
-          "correctIndex": 3,
-          "explanation": "This absolute conclusion is unsupported: Being near a goal guarantees completing it is safer than returning. The passage instead supports bounded claims.",
+          "correctIndex": 2,
+          "explanation": "Commitment need not mean ignoring new evidence.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Which bias might have distorted the hikers' argument?",
           "choices": [
-            "Weather and daylight influence how much risk remains on a route.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination."
+            "Plans should be revised when the assumptions supporting them no longer hold.",
+            "Unexpected rain made the trail slippery before descent.",
+            "They still had to descend the wet route.",
+            "The effort already spent made continued climbing seem obligatory."
           ],
-          "correctIndex": 0,
-          "explanation": "The inference depends on the stated consideration: Weather and daylight influence how much risk remains on a route.",
+          "correctIndex": 3,
+          "explanation": "Past investment did not reduce the danger ahead.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG20-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What broader rule does the story suggest?",
           "choices": [
-            "The findings logically exclude all influences not explicitly measured.",
-            "The danger might have increased even if the group had continued more slowly.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome."
+            "Plans should be revised when the assumptions supporting them no longer hold.",
+            "The overlook seemed too close to abandon after a long climb.",
+            "The group still needed time to return safely.",
+            "Safe return outweighed the missed viewpoint."
           ],
-          "correctIndex": 1,
-          "explanation": "The account does not rule out this competing possibility: The danger might have increased even if the group had continued more slowly.",
+          "correctIndex": 0,
+          "explanation": "The group responds to changed conditions instead of insisting on the original timetable.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R20-PRV-01",
