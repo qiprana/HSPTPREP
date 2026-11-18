@@ -12988,147 +12988,147 @@
           "questions": [
             {
               "id": "R13-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Town's First Newspaper\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the factory report's prominent placement tell historians?",
               "choices": [
-                "The concern (“Many articles celebrated prominent business owners while…”) leads to inquiry, but “The newspaper's editorial choices limited what could be…” limits the inference.",
-                "The proposed response (“The students created an exhibit that placed conflicting…”) makes the original concern irrelevant.",
-                "The method (“The class compared advertisements, letters to the editor,…”) rules out every possible competing explanation.",
-                "The recorded outcome (“They found several labor disputes that had received…”) is treated as unrelated to the original investigation."
+                "It points to labor concerns minimized by the newspaper's coverage of business success.",
+                "Editorial prominence can shape public memory independently of whether the report's facts are false.",
+                "Owners could purchase advertising while workers had less access to the editor.",
+                "It exposes the limits of a single publication without discarding its useful evidence."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The newspaper's editorial choices limited what could be learned from it alone. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The article's size influences what later readers may regard as important.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Town's First Newspaper\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the brief workers' notice significant?",
               "choices": [
-                "The class compared advertisements, letters to the editor, and public records.",
-                "They found several labor disputes that had received little coverage in leading articles.",
-                "The students created an exhibit that placed conflicting sources side by side.",
-                "Many articles celebrated prominent business owners while mentioning workers only briefly."
+                "It demonstrates that someone raised an objection, not that a requested change occurred.",
+                "The editor deliberately censored every account of worker hardship.",
+                "It points to labor concerns minimized by the newspaper's coverage of business success.",
+                "Whose experiences were likely to be recorded and preserved for later readers?"
               ],
-              "correctIndex": 3,
-              "explanation": "The opening situation establishes the need to act: Many articles celebrated prominent business owners while mentioning workers only briefly. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The notice supplies a competing perspective on the factory's growth.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Town's First Newspaper\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What distinction does the class make about a complaint letter?",
               "choices": [
-                "The class compared advertisements, letters to the editor, and public records.",
-                "Many articles celebrated prominent business owners while mentioning workers only briefly.",
-                "They found several labor disputes that had received little coverage in leading articles.",
-                "The newspaper's editorial choices limited what could be learned from it alone."
+                "Owners could purchase advertising while workers had less access to the editor.",
+                "It exposes the limits of a single publication without discarding its useful evidence.",
+                "They can corroborate disputes that receive little attention in leading articles.",
+                "It demonstrates that someone raised an objection, not that a requested change occurred."
               ],
-              "correctIndex": 0,
-              "explanation": "The procedure is specifically described as: The class compared advertisements, letters to the editor, and public records. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "The students compare letters with council minutes and records of outcomes.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Town's First Newspaper\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why might prominent owners appear more often than workers?",
               "choices": [
-                "The students created an exhibit that placed conflicting sources side by side.",
-                "They found several labor disputes that had received little coverage in leading articles.",
-                "The class compared advertisements, letters to the editor, and public records.",
-                "The newspaper's editorial choices limited what could be learned from it alone."
+                "Owners could purchase advertising while workers had less access to the editor.",
+                "The editor deliberately censored every account of worker hardship.",
+                "Whose experiences were likely to be recorded and preserved for later readers?",
+                "A source's selection and emphasis can be informative even when its individual claims are accurate."
               ],
-              "correctIndex": 1,
-              "explanation": "This was the reported empirical or directly observed finding: They found several labor disputes that had received little coverage in leading articles. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The passage notes unequal resources and channels for participation.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Town's First Newspaper\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What would be an unjustified conclusion from the newspaper's omissions?",
               "choices": [
-                "The class compared advertisements, letters to the editor, and public records.",
-                "The students created an exhibit that placed conflicting sources side by side.",
-                "The newspaper's editorial choices limited what could be learned from it alone.",
-                "They found several labor disputes that had received little coverage in leading articles."
+                "It exposes the limits of a single publication without discarding its useful evidence.",
+                "The editor deliberately censored every account of worker hardship.",
+                "They can corroborate disputes that receive little attention in leading articles.",
+                "Editorial prominence can shape public memory independently of whether the report's facts are false."
               ],
-              "correctIndex": 2,
-              "explanation": "The limitation is: The newspaper's editorial choices limited what could be learned from it alone. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "The class avoids assuming that all advertising indicates intentional suppression.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Town's First Newspaper\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does placing conflicting documents side by side accomplish?",
               "choices": [
-                "Many articles celebrated prominent business owners while mentioning workers only briefly.",
-                "The class compared advertisements, letters to the editor, and public records.",
-                "They found several labor disputes that had received little coverage in leading articles.",
-                "The students created an exhibit that placed conflicting sources side by side."
+                "Whose experiences were likely to be recorded and preserved for later readers?",
+                "A source's selection and emphasis can be informative even when its individual claims are accurate.",
+                "It exposes the limits of a single publication without discarding its useful evidence.",
+                "It points to labor concerns minimized by the newspaper's coverage of business success."
               ],
-              "correctIndex": 3,
-              "explanation": "The subsequent response was: The students created an exhibit that placed conflicting sources side by side. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "The exhibit displays celebratory reports beside records of disputes.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Town's First Newspaper\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What question does the class ask about survival of sources?",
               "choices": [
-                "Initial concern: “Many articles celebrated prominent business owners while…”; method: “The class compared advertisements, letters to the editor,…”.",
-                "Initial concern: “Many articles celebrated prominent business owners while…”; method: “The newspaper's editorial choices limited what could be…”.",
-                "Initial concern: “They found several labor disputes that had received…”; method: “The students created an exhibit that placed conflicting…”.",
-                "Initial concern: “The class compared advertisements, letters to the editor,…”; method: “They found several labor disputes that had received…”."
+                "They can corroborate disputes that receive little attention in leading articles.",
+                "Editorial prominence can shape public memory independently of whether the report's facts are false.",
+                "It demonstrates that someone raised an objection, not that a requested change occurred.",
+                "Whose experiences were likely to be recorded and preserved for later readers?"
               ],
-              "correctIndex": 0,
-              "explanation": "The issue begins with Many articles celebrated prominent business owners while mentioning workers only briefly. and the subsequent investigative procedure is The class compared advertisements, letters to the editor, and public records..",
+              "correctIndex": 3,
+              "explanation": "The investigation concerns both the events and how the record of them was created.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Town's First Newspaper\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why are wage records and council minutes necessary additions?",
               "choices": [
-                "The method (“The class compared advertisements, letters to the editor,…”) guarantees the result before measurement.",
-                "The observation (“They found several labor disputes that had received…”) matters, but the limit (“The newspaper's editorial choices limited what could be…”) remains.",
-                "The observation (“They found several labor disputes that had received…”) rules out every alternative cause.",
-                "The limitation (“The newspaper's editorial choices limited what could be…”) disproves the observation itself."
+                "They can corroborate disputes that receive little attention in leading articles.",
+                "A source's selection and emphasis can be informative even when its individual claims are accurate.",
+                "It points to labor concerns minimized by the newspaper's coverage of business success.",
+                "Owners could purchase advertising while workers had less access to the editor."
               ],
-              "correctIndex": 1,
-              "explanation": "The result is reported as They found several labor disputes that had received little coverage in leading articles. but must be read alongside The newspaper's editorial choices limited what could be learned from it alone..",
+              "correctIndex": 0,
+              "explanation": "Documents with different purposes reveal aspects absent from editorial coverage.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Town's First Newspaper\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the passage's central warning for historical readers?",
               "choices": [
-                "The caveat (“The newspaper's editorial choices limited what could be…”) makes the observations worthless.",
-                "The observation (“They found several labor disputes that had received…”) shows that measurement was unnecessary.",
-                "The response (“The students created an exhibit that placed conflicting…”) follows evidence but remains open to reassessment.",
-                "The response (“The students created an exhibit that placed conflicting…”) is proof of success in every setting."
+                "Editorial prominence can shape public memory independently of whether the report's facts are false.",
+                "A source's selection and emphasis can be informative even when its individual claims are accurate.",
+                "It demonstrates that someone raised an objection, not that a requested change occurred.",
+                "The editor deliberately censored every account of worker hardship."
               ],
-              "correctIndex": 2,
-              "explanation": "The findings informed The students created an exhibit that placed conflicting sources side by side.; the stated limit The newspaper's editorial choices limited what could be learned from it alone. still matters.",
+              "correctIndex": 1,
+              "explanation": "The newspaper both reports events and presents a perspective shaped by its choices.",
               "passageId": "R13-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P2-10",
@@ -13163,147 +13163,147 @@
           "questions": [
             {
               "id": "R13-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Unexpected Solo\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does Iris's experience in the ensemble not fully prepare her for the solo?",
               "choices": [
-                "The recorded outcome (“At the concert she sang steadily, though her hands shook…”) is treated as unrelated to the original investigation.",
-                "The concern (“Iris knew the melody but had never sung it alone in public”) leads to inquiry, but “Iris did not suddenly become fearless or decide she…” limits the inference.",
-                "The proposed response (“She volunteered to help the next hesitant performer…”) makes the original concern irrelevant.",
-                "The method (“She practiced quietly with the accompanist and asked the…”) rules out every possible competing explanation."
+                "A private practice recording shows she can sing the phrase alone.",
+                "She must establish the first note without surrounding singers to follow.",
+                "She focuses on breathing and rehearsed phrasing rather than forcing extra volume.",
+                "She transfers a practical form of support rather than claiming fear has vanished."
               ],
               "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Iris did not suddenly become fearless or decide she preferred singing alone. prevents an overly broad conclusion.",
+              "explanation": "Group singing supplies support absent from an individual entrance.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Unexpected Solo\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What evidence prevents Iris from dismissing the possibility of success?",
               "choices": [
-                "At the concert she sang steadily, though her hands shook before the first phrase.",
-                "She volunteered to help the next hesitant performer prepare.",
-                "Iris knew the melody but had never sung it alone in public.",
-                "She practiced quietly with the accompanist and asked the conductor to lower the starting note."
+                "The question reveals unfamiliarity with the practical experience of performing alone.",
+                "It adapts the task to her comfortable range without abandoning the music.",
+                "A private practice recording shows she can sing the phrase alone.",
+                "Successful action under pressure need not transform a person's preferences."
               ],
               "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: Iris knew the melody but had never sung it alone in public. The other choices describe what was done or discovered afterward.",
+              "explanation": "She recalls an instance of independent performance despite anxiety.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Unexpected Solo\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does she ask where to look during applause?",
               "choices": [
-                "Iris knew the melody but had never sung it alone in public.",
-                "At the concert she sang steadily, though her hands shook before the first phrase.",
-                "Iris did not suddenly become fearless or decide she preferred singing alone.",
-                "She practiced quietly with the accompanist and asked the conductor to lower the starting note."
+                "She focuses on breathing and rehearsed phrasing rather than forcing extra volume.",
+                "She transfers a practical form of support rather than claiming fear has vanished.",
+                "Preparing for uncertain events and acting carefully despite anxiety.",
+                "The question reveals unfamiliarity with the practical experience of performing alone."
               ],
               "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: She practiced quietly with the accompanist and asked the conductor to lower the starting note. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "explanation": "Even small stage details contribute to her uncertainty.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Unexpected Solo\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "How does Iris respond to the tremor in her first sustained note?",
               "choices": [
-                "At the concert she sang steadily, though her hands shook before the first phrase.",
-                "She practiced quietly with the accompanist and asked the conductor to lower the starting note.",
-                "Iris did not suddenly become fearless or decide she preferred singing alone.",
-                "She volunteered to help the next hesitant performer prepare."
+                "She focuses on breathing and rehearsed phrasing rather than forcing extra volume.",
+                "It adapts the task to her comfortable range without abandoning the music.",
+                "Successful action under pressure need not transform a person's preferences.",
+                "The public praise of bravery contrasts with Iris's more modest understanding of preparation."
               ],
               "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: At the concert she sang steadily, though her hands shook before the first phrase. The other statements describe different stages of the inquiry.",
+              "explanation": "Her preparation gives her a manageable response to an imperfect entrance.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Unexpected Solo\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the importance of lowering the starting pitch?",
               "choices": [
-                "She volunteered to help the next hesitant performer prepare.",
-                "Iris did not suddenly become fearless or decide she preferred singing alone.",
-                "At the concert she sang steadily, though her hands shook before the first phrase.",
-                "She practiced quietly with the accompanist and asked the conductor to lower the starting note."
+                "She transfers a practical form of support rather than claiming fear has vanished.",
+                "It adapts the task to her comfortable range without abandoning the music.",
+                "Preparing for uncertain events and acting carefully despite anxiety.",
+                "She must establish the first note without surrounding singers to follow."
               ],
               "correctIndex": 1,
-              "explanation": "The limitation is: Iris did not suddenly become fearless or decide she preferred singing alone. Observations and methods alone cannot resolve that stated uncertainty.",
+              "explanation": "She and the accompanist adjust the conditions for a steadier entry.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Unexpected Solo\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is her later help to a hesitant performer meaningful?",
               "choices": [
-                "She practiced quietly with the accompanist and asked the conductor to lower the starting note.",
-                "At the concert she sang steadily, though her hands shook before the first phrase.",
-                "She volunteered to help the next hesitant performer prepare.",
-                "Iris knew the melody but had never sung it alone in public."
+                "Successful action under pressure need not transform a person's preferences.",
+                "The public praise of bravery contrasts with Iris's more modest understanding of preparation.",
+                "She transfers a practical form of support rather than claiming fear has vanished.",
+                "A private practice recording shows she can sing the phrase alone."
               ],
               "correctIndex": 2,
-              "explanation": "The subsequent response was: She volunteered to help the next hesitant performer prepare. The other details give the initial issue, investigative approach, or finding.",
+              "explanation": "Her experience equips her to assist another student with preparation.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Unexpected Solo\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does Iris's continued preference for ensemble singing imply?",
               "choices": [
-                "Initial concern: “Iris knew the melody but had never sung it alone in public”; method: “Iris did not suddenly become fearless or decide she…”.",
-                "Initial concern: “At the concert she sang steadily, though her hands shook…”; method: “She volunteered to help the next hesitant performer…”.",
-                "Initial concern: “She practiced quietly with the accompanist and asked the…”; method: “At the concert she sang steadily, though her hands shook…”.",
-                "Initial concern: “Iris knew the melody but had never sung it alone in public”; method: “She practiced quietly with the accompanist and asked the…”."
+                "Preparing for uncertain events and acting carefully despite anxiety.",
+                "She must establish the first note without surrounding singers to follow.",
+                "The question reveals unfamiliarity with the practical experience of performing alone.",
+                "Successful action under pressure need not transform a person's preferences."
               ],
               "correctIndex": 3,
-              "explanation": "The issue begins with Iris knew the melody but had never sung it alone in public. and the subsequent investigative procedure is She practiced quietly with the accompanist and asked the conductor to lower the starting note..",
+              "explanation": "She still enjoys group performance after completing the solo.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Unexpected Solo\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which definition of confidence best matches her reflection?",
               "choices": [
-                "The observation (“At the concert she sang steadily, though her hands shook…”) matters, but the limit (“Iris did not suddenly become fearless or decide she…”) remains.",
-                "The observation (“At the concert she sang steadily, though her hands shook…”) rules out every alternative cause.",
-                "The limitation (“Iris did not suddenly become fearless or decide she…”) disproves the observation itself.",
-                "The method (“She practiced quietly with the accompanist and asked the…”) guarantees the result before measurement."
+                "Preparing for uncertain events and acting carefully despite anxiety.",
+                "The public praise of bravery contrasts with Iris's more modest understanding of preparation.",
+                "A private practice recording shows she can sing the phrase alone.",
+                "She focuses on breathing and rehearsed phrasing rather than forcing extra volume."
               ],
               "correctIndex": 0,
-              "explanation": "The result is reported as At the concert she sang steadily, though her hands shook before the first phrase. but must be read alongside Iris did not suddenly become fearless or decide she preferred singing alone..",
+              "explanation": "She reframes confidence as readiness rather than guaranteed comfort.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Unexpected Solo\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What contrast drives the story's resolution?",
               "choices": [
-                "The observation (“At the concert she sang steadily, though her hands shook…”) shows that measurement was unnecessary.",
-                "The response (“She volunteered to help the next hesitant performer…”) follows evidence but remains open to reassessment.",
-                "The response (“She volunteered to help the next hesitant performer…”) is proof of success in every setting.",
-                "The caveat (“Iris did not suddenly become fearless or decide she…”) makes the observations worthless."
+                "She must establish the first note without surrounding singers to follow.",
+                "The public praise of bravery contrasts with Iris's more modest understanding of preparation.",
+                "The question reveals unfamiliarity with the practical experience of performing alone.",
+                "It adapts the task to her comfortable range without abandoning the music."
               ],
               "correctIndex": 1,
-              "explanation": "The findings informed She volunteered to help the next hesitant performer prepare.; the stated limit Iris did not suddenly become fearless or decide she preferred singing alone. still matters.",
+              "explanation": "Others describe courage as fearlessness, while Iris emphasizes the steps she took.",
               "passageId": "R13-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P3-10",
@@ -13338,147 +13338,147 @@
           "questions": [
             {
               "id": "R13-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Museum's Audio Guide\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did the first audio descriptions disappoint curators?",
               "choices": [
-                "The method (“Curators recorded two-minute descriptions and tested them…”) rules out every possible competing explanation.",
-                "The recorded outcome (“Visitors reported remembering more details when the…”) is treated as unrelated to the original investigation.",
-                "The concern (“Many visitors had little time to read the long labels…”) leads to inquiry, but “The recordings were not suitable for every visitor or…” limits the inference.",
-                "The proposed response (“The museum provided transcripts and kept printed labels…”) makes the original concern irrelevant."
+                "A concrete anecdote may linger even when an artist's name is forgotten.",
+                "Listeners retained isolated facts without necessarily attending to the objects themselves.",
+                "A visible detail directs attention to the object's history of use and repair.",
+                "Audio alone could be unsuitable in noisy galleries or for visitors who prefer reading."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The recordings were not suitable for every visitor or every noisy gallery. prevents an overly broad conclusion.",
+              "correctIndex": 1,
+              "explanation": "The early recordings were polished but dense with technical detail.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Museum's Audio Guide\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the remembered repaired handle illustrate?",
               "choices": [
-                "The museum provided transcripts and kept printed labels alongside the new audio.",
-                "Many visitors had little time to read the long labels beside each display.",
-                "Curators recorded two-minute descriptions and tested them with different age groups.",
-                "Visitors reported remembering more details when the recordings used concrete examples."
+                "Prompt closer observation and meaningful questions rather than recite a catalog.",
+                "They may already enjoy museums and may not represent all visitors.",
+                "A concrete anecdote may linger even when an artist's name is forgotten.",
+                "More visitors pointed at the displayed object instead of merely repeating recorded words."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Many visitors had little time to read the long labels beside each display. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 2,
+              "explanation": "The trial reveals that different details attract different listeners.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Museum's Audio Guide\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What was the revised goal of the audio guide?",
               "choices": [
-                "Visitors reported remembering more details when the recordings used concrete examples.",
-                "The recordings were not suitable for every visitor or every noisy gallery.",
-                "Curators recorded two-minute descriptions and tested them with different age groups.",
-                "Many visitors had little time to read the long labels beside each display."
+                "A visible detail directs attention to the object's history of use and repair.",
+                "Audio alone could be unsuitable in noisy galleries or for visitors who prefer reading.",
+                "It must choose which observations to encourage rather than explain every scholarly detail.",
+                "Prompt closer observation and meaningful questions rather than recite a catalog."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Curators recorded two-minute descriptions and tested them with different age groups. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 3,
+              "explanation": "Curators reconsider what a short description can reasonably accomplish.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Museum's Audio Guide\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why begin the ceramic bowl's description with a crack?",
               "choices": [
-                "Curators recorded two-minute descriptions and tested them with different age groups.",
-                "The recordings were not suitable for every visitor or every noisy gallery.",
-                "The museum provided transcripts and kept printed labels alongside the new audio.",
-                "Visitors reported remembering more details when the recordings used concrete examples."
+                "A visible detail directs attention to the object's history of use and repair.",
+                "They may already enjoy museums and may not represent all visitors.",
+                "More visitors pointed at the displayed object instead of merely repeating recorded words.",
+                "Different formats can support different routes into the same work."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: Visitors reported remembering more details when the recordings used concrete examples. The other statements describe different stages of the inquiry.",
+              "correctIndex": 0,
+              "explanation": "The narrator asks visitors to compare the damaged and undamaged surfaces.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Museum's Audio Guide\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why are voluntary trial participants an important limitation?",
               "choices": [
-                "The recordings were not suitable for every visitor or every noisy gallery.",
-                "Visitors reported remembering more details when the recordings used concrete examples.",
-                "Curators recorded two-minute descriptions and tested them with different age groups.",
-                "The museum provided transcripts and kept printed labels alongside the new audio."
+                "Audio alone could be unsuitable in noisy galleries or for visitors who prefer reading.",
+                "They may already enjoy museums and may not represent all visitors.",
+                "It must choose which observations to encourage rather than explain every scholarly detail.",
+                "Listeners retained isolated facts without necessarily attending to the objects themselves."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: The recordings were not suitable for every visitor or every noisy gallery. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 1,
+              "explanation": "The curators avoid generalizing the favorable responses too widely.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Museum's Audio Guide\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why were printed labels and transcripts retained?",
               "choices": [
-                "Visitors reported remembering more details when the recordings used concrete examples.",
-                "The museum provided transcripts and kept printed labels alongside the new audio.",
-                "Many visitors had little time to read the long labels beside each display.",
-                "Curators recorded two-minute descriptions and tested them with different age groups."
+                "More visitors pointed at the displayed object instead of merely repeating recorded words.",
+                "Different formats can support different routes into the same work.",
+                "Audio alone could be unsuitable in noisy galleries or for visitors who prefer reading.",
+                "A concrete anecdote may linger even when an artist's name is forgotten."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: The museum provided transcripts and kept printed labels alongside the new audio. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 2,
+              "explanation": "Alternative formats are part of accessibility, not an incidental backup.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Museum's Audio Guide\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What did the second trial show about visitor engagement?",
               "choices": [
-                "Initial concern: “Visitors reported remembering more details when the…”; method: “The museum provided transcripts and kept printed labels…”.",
-                "Initial concern: “Curators recorded two-minute descriptions and tested them…”; method: “Visitors reported remembering more details when the…”.",
-                "Initial concern: “Many visitors had little time to read the long labels…”; method: “Curators recorded two-minute descriptions and tested them…”.",
-                "Initial concern: “Many visitors had little time to read the long labels…”; method: “The recordings were not suitable for every visitor or…”."
+                "It must choose which observations to encourage rather than explain every scholarly detail.",
+                "Listeners retained isolated facts without necessarily attending to the objects themselves.",
+                "Prompt closer observation and meaningful questions rather than recite a catalog.",
+                "More visitors pointed at the displayed object instead of merely repeating recorded words."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Many visitors had little time to read the long labels beside each display. and the subsequent investigative procedure is Curators recorded two-minute descriptions and tested them with different age groups..",
+              "correctIndex": 3,
+              "explanation": "The team noticed a shift from recalling narration toward observing the artifact.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Museum's Audio Guide\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "What design trade-off constrains a two-minute recording?",
               "choices": [
-                "The observation (“Visitors reported remembering more details when the…”) rules out every alternative cause.",
-                "The limitation (“The recordings were not suitable for every visitor or…”) disproves the observation itself.",
-                "The method (“Curators recorded two-minute descriptions and tested them…”) guarantees the result before measurement.",
-                "The observation (“Visitors reported remembering more details when the…”) matters, but the limit (“The recordings were not suitable for every visitor or…”) remains."
+                "It must choose which observations to encourage rather than explain every scholarly detail.",
+                "Different formats can support different routes into the same work.",
+                "A concrete anecdote may linger even when an artist's name is forgotten.",
+                "A visible detail directs attention to the object's history of use and repair."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as Visitors reported remembering more details when the recordings used concrete examples. but must be read alongside The recordings were not suitable for every visitor or every noisy gallery..",
+              "correctIndex": 0,
+              "explanation": "A short guide cannot reproduce the complete catalog.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Museum's Audio Guide\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which principle organizes the museum's final decision?",
               "choices": [
-                "The response (“The museum provided transcripts and kept printed labels…”) follows evidence but remains open to reassessment.",
-                "The response (“The museum provided transcripts and kept printed labels…”) is proof of success in every setting.",
-                "The caveat (“The recordings were not suitable for every visitor or…”) makes the observations worthless.",
-                "The observation (“Visitors reported remembering more details when the…”) shows that measurement was unnecessary."
+                "Listeners retained isolated facts without necessarily attending to the objects themselves.",
+                "Different formats can support different routes into the same work.",
+                "Prompt closer observation and meaningful questions rather than recite a catalog.",
+                "They may already enjoy museums and may not represent all visitors."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed The museum provided transcripts and kept printed labels alongside the new audio.; the stated limit The recordings were not suitable for every visitor or every noisy gallery. still matters.",
+              "correctIndex": 1,
+              "explanation": "The curators reject the assumption that one information channel suits everyone.",
               "passageId": "R13-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R13-P4-10",
@@ -14026,147 +14026,147 @@
           "questions": [
             {
               "id": "R14-P2-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Harbor Signal Flags\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does the date of the flag codebook matter?",
               "choices": [
-                "The proposed response (“The museum invited visitors to decode a few messages…”) makes the original concern irrelevant.",
-                "The method (“Researchers consulted navigation manuals and records from…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The manuals explained that combinations of flags could…”) is treated as unrelated to the original investigation.",
-                "The concern (“An illustrated chart showed colorful signal flags, but…”) leads to inquiry, but “Not every captain used precisely the same signal system…” limits the inference."
+                "A matching design need not establish that the same rules were being used.",
+                "The signal system classifies messages by function, changing their interpretation.",
+                "The same combination could acquire different meanings as conventions changed.",
+                "The supporting clues suggested a range but none fixed a single year."
               ],
-              "correctIndex": 3,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification Not every captain used precisely the same signal system in every period. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "An early and later manual interpret similar flags differently.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Harbor Signal Flags\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the limitation of recognizing a flag pattern visually?",
               "choices": [
-                "The manuals explained that combinations of flags could communicate different messages.",
-                "The museum invited visitors to decode a few messages using a dated reference chart.",
-                "An illustrated chart showed colorful signal flags, but its meanings were not labeled.",
-                "Researchers consulted navigation manuals and records from the old signal station."
+                "It compared paper, illustrated clothing and signal-station records.",
+                "A consistent solution can still be wrong if it applies a code from the wrong era.",
+                "A plausible but historically misplaced interpretation of the message.",
+                "A matching design need not establish that the same rules were being used."
               ],
-              "correctIndex": 2,
-              "explanation": "The opening situation establishes the need to act: An illustrated chart showed colorful signal flags, but its meanings were not labeled. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "Historical interpretation requires the relevant system as well as appearance.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Harbor Signal Flags\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "How did the team narrow the chart's likely period?",
               "choices": [
-                "An illustrated chart showed colorful signal flags, but its meanings were not labeled.",
-                "The manuals explained that combinations of flags could communicate different messages.",
-                "Not every captain used precisely the same signal system in every period.",
-                "Researchers consulted navigation manuals and records from the old signal station."
+                "It compared paper, illustrated clothing and signal-station records.",
+                "The signal system classifies messages by function, changing their interpretation.",
+                "The supporting clues suggested a range but none fixed a single year.",
+                "They make the role of hidden historical assumptions visible."
               ],
-              "correctIndex": 3,
-              "explanation": "The procedure is specifically described as: Researchers consulted navigation manuals and records from the old signal station. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "Independent contextual clues support a range narrower than flags alone.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Harbor Signal Flags\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is an urgent warning not interchangeable with a supply request?",
               "choices": [
-                "The manuals explained that combinations of flags could communicate different messages.",
-                "Researchers consulted navigation manuals and records from the old signal station.",
-                "Not every captain used precisely the same signal system in every period.",
-                "The museum invited visitors to decode a few messages using a dated reference chart."
+                "A consistent solution can still be wrong if it applies a code from the wrong era.",
+                "The signal system classifies messages by function, changing their interpretation.",
+                "A plausible but historically misplaced interpretation of the message.",
+                "Symbols cannot be interpreted reliably apart from the rules governing them."
               ],
-              "correctIndex": 0,
-              "explanation": "This was the reported empirical or directly observed finding: The manuals explained that combinations of flags could communicate different messages. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The manuals distinguish message categories rather than only listing symbols.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Harbor Signal Flags\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What does the visitor decoding exercise demonstrate?",
               "choices": [
-                "The museum invited visitors to decode a few messages using a dated reference chart.",
-                "Not every captain used precisely the same signal system in every period.",
-                "The manuals explained that combinations of flags could communicate different messages.",
-                "Researchers consulted navigation manuals and records from the old signal station."
+                "The supporting clues suggested a range but none fixed a single year.",
+                "They make the role of hidden historical assumptions visible.",
+                "A consistent solution can still be wrong if it applies a code from the wrong era.",
+                "The same combination could acquire different meanings as conventions changed."
               ],
-              "correctIndex": 1,
-              "explanation": "The limitation is: Not every captain used precisely the same signal system in every period. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "Two dated reference charts produce different readings.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Harbor Signal Flags\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why didn't researchers assign an exact date to the chart?",
               "choices": [
-                "Researchers consulted navigation manuals and records from the old signal station.",
-                "The manuals explained that combinations of flags could communicate different messages.",
-                "The museum invited visitors to decode a few messages using a dated reference chart.",
-                "An illustrated chart showed colorful signal flags, but its meanings were not labeled."
+                "A plausible but historically misplaced interpretation of the message.",
+                "Symbols cannot be interpreted reliably apart from the rules governing them.",
+                "A matching design need not establish that the same rules were being used.",
+                "The supporting clues suggested a range but none fixed a single year."
               ],
-              "correctIndex": 2,
-              "explanation": "The subsequent response was: The museum invited visitors to decode a few messages using a dated reference chart. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The station log and visual details constrain rather than conclusively date it.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Harbor Signal Flags\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the consequence of reading the chart with later conventions?",
               "choices": [
-                "Initial concern: “An illustrated chart showed colorful signal flags, but…”; method: “Not every captain used precisely the same signal system…”.",
-                "Initial concern: “The manuals explained that combinations of flags could…”; method: “The museum invited visitors to decode a few messages…”.",
-                "Initial concern: “Researchers consulted navigation manuals and records from…”; method: “The manuals explained that combinations of flags could…”.",
-                "Initial concern: “An illustrated chart showed colorful signal flags, but…”; method: “Researchers consulted navigation manuals and records from…”."
+                "A plausible but historically misplaced interpretation of the message.",
+                "They make the role of hidden historical assumptions visible.",
+                "The same combination could acquire different meanings as conventions changed.",
+                "It compared paper, illustrated clothing and signal-station records."
               ],
-              "correctIndex": 3,
-              "explanation": "The issue begins with An illustrated chart showed colorful signal flags, but its meanings were not labeled. and the subsequent investigative procedure is Researchers consulted navigation manuals and records from the old signal station..",
+              "correctIndex": 0,
+              "explanation": "The flags' meanings depend on the reference system current at the time.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Harbor Signal Flags\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why do the curators treat mistaken visitor readings as useful?",
               "choices": [
-                "The observation (“The manuals explained that combinations of flags could…”) matters, but the limit (“Not every captain used precisely the same signal system…”) remains.",
-                "The observation (“The manuals explained that combinations of flags could…”) rules out every alternative cause.",
-                "The limitation (“Not every captain used precisely the same signal system…”) disproves the observation itself.",
-                "The method (“Researchers consulted navigation manuals and records from…”) guarantees the result before measurement."
+                "Symbols cannot be interpreted reliably apart from the rules governing them.",
+                "They make the role of hidden historical assumptions visible.",
+                "A matching design need not establish that the same rules were being used.",
+                "The signal system classifies messages by function, changing their interpretation."
               ],
-              "correctIndex": 0,
-              "explanation": "The result is reported as The manuals explained that combinations of flags could communicate different messages. but must be read alongside Not every captain used precisely the same signal system in every period..",
+              "correctIndex": 1,
+              "explanation": "A failed decoding becomes evidence of why context matters.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Harbor Signal Flags\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What general claim follows from the museum's investigation?",
               "choices": [
-                "The observation (“The manuals explained that combinations of flags could…”) shows that measurement was unnecessary.",
-                "The response (“The museum invited visitors to decode a few messages…”) follows evidence but remains open to reassessment.",
-                "The response (“The museum invited visitors to decode a few messages…”) is proof of success in every setting.",
-                "The caveat (“Not every captain used precisely the same signal system…”) makes the observations worthless."
+                "The same combination could acquire different meanings as conventions changed.",
+                "It compared paper, illustrated clothing and signal-station records.",
+                "Symbols cannot be interpreted reliably apart from the rules governing them.",
+                "A consistent solution can still be wrong if it applies a code from the wrong era."
               ],
-              "correctIndex": 1,
-              "explanation": "The findings informed The museum invited visitors to decode a few messages using a dated reference chart.; the stated limit Not every captain used precisely the same signal system in every period. still matters.",
+              "correctIndex": 2,
+              "explanation": "The exhibition links communication to period-specific conventions.",
               "passageId": "R14-P2",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P2-10",
@@ -14201,147 +14201,147 @@
           "questions": [
             {
               "id": "R14-P3-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"The Watch in the Drawer\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does Kiran hesitate to replace the watch?",
               "choices": [
-                "The concern (“Repairing it professionally would cost more than he had…”) leads to inquiry, but “They could not guarantee the watch would run for many…” limits the inference.",
-                "The proposed response (“Kiran gave the watch with a note explaining the repair…”) makes the original concern irrelevant.",
-                "The method (“Kiran learned how the case opened, consulted a repair…”) rules out every possible competing explanation.",
-                "The recorded outcome (“The neighbor identified a loose contact rather than the…”) is treated as unrelated to the original investigation."
+                "To distinguish a simple loose contact from more serious possible failures.",
+                "The watch works under short checks, not that all aging parts are reliable for years.",
+                "Its intergenerational history gives it value beyond its working mechanism.",
+                "A seeming imperfection becomes evidence of shared experience."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification They could not guarantee the watch would run for many more years. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "He considers an inexpensive alternative but recognizes its limited personal meaning.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-02",
-              "type": "Problem identification",
-              "prompt": "In \"The Watch in the Drawer\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What was the purpose of the neighbor's initial inspection?",
               "choices": [
-                "Kiran gave the watch with a note explaining the repair and its family history.",
-                "Repairing it professionally would cost more than he had saved.",
-                "Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise.",
-                "The neighbor identified a loose contact rather than the major failure Kiran feared."
+                "Different watch designs can require procedures that may damage an unfamiliar movement.",
+                "He treats uncertainty transparently while sharing the object's family significance.",
+                "A modest defect, not the feared major failure, caused the problem.",
+                "To distinguish a simple loose contact from more serious possible failures."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening situation establishes the need to act: Repairing it professionally would cost more than he had saved. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "The repair began by ruling out damage rather than assuming the worst.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"The Watch in the Drawer\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did Kiran consult a mechanism-specific repair guide?",
               "choices": [
-                "The neighbor identified a loose contact rather than the major failure Kiran feared.",
-                "They could not guarantee the watch would run for many more years.",
-                "Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise.",
-                "Repairing it professionally would cost more than he had saved."
+                "Different watch designs can require procedures that may damage an unfamiliar movement.",
+                "The watch works under short checks, not that all aging parts are reliable for years.",
+                "A seeming imperfection becomes evidence of shared experience.",
+                "The history embodied by a used object independent of its purchase price."
               ],
-              "correctIndex": 2,
-              "explanation": "The procedure is specifically described as: Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "He sought relevant instructions instead of guessing how to open the case.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"The Watch in the Drawer\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "What can the afternoon running test establish?",
               "choices": [
-                "Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise.",
-                "They could not guarantee the watch would run for many more years.",
-                "Kiran gave the watch with a note explaining the repair and its family history.",
-                "The neighbor identified a loose contact rather than the major failure Kiran feared."
+                "He treats uncertainty transparently while sharing the object's family significance.",
+                "The watch works under short checks, not that all aging parts are reliable for years.",
+                "A modest defect, not the feared major failure, caused the problem.",
+                "Responsible care matters more than pretending an old object can be made perfect."
               ],
-              "correctIndex": 3,
-              "explanation": "This was the reported empirical or directly observed finding: The neighbor identified a loose contact rather than the major failure Kiran feared. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "The neighbor explicitly warns against a long-term guarantee.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"The Watch in the Drawer\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why does Kiran explain the repair in his note?",
               "choices": [
-                "They could not guarantee the watch would run for many more years.",
-                "The neighbor identified a loose contact rather than the major failure Kiran feared.",
-                "Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise.",
-                "Kiran gave the watch with a note explaining the repair and its family history."
+                "A seeming imperfection becomes evidence of shared experience.",
+                "The history embodied by a used object independent of its purchase price.",
+                "He treats uncertainty transparently while sharing the object's family significance.",
+                "Its intergenerational history gives it value beyond its working mechanism."
               ],
-              "correctIndex": 0,
-              "explanation": "The limitation is: They could not guarantee the watch would run for many more years. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The gift includes the limits of the repair and its history.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"The Watch in the Drawer\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the role of the scratch his grandfather recognizes?",
               "choices": [
-                "The neighbor identified a loose contact rather than the major failure Kiran feared.",
-                "Kiran gave the watch with a note explaining the repair and its family history.",
-                "Repairing it professionally would cost more than he had saved.",
-                "Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise."
+                "A modest defect, not the feared major failure, caused the problem.",
+                "Responsible care matters more than pretending an old object can be made perfect.",
+                "To distinguish a simple loose contact from more serious possible failures.",
+                "A seeming imperfection becomes evidence of shared experience."
               ],
-              "correctIndex": 1,
-              "explanation": "The subsequent response was: Kiran gave the watch with a note explaining the repair and its family history. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "The mark recalls an old family trip.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"The Watch in the Drawer\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is the repair less dramatic than Kiran expected?",
               "choices": [
-                "Initial concern: “The neighbor identified a loose contact rather than the…”; method: “Kiran gave the watch with a note explaining the repair…”.",
-                "Initial concern: “Kiran learned how the case opened, consulted a repair…”; method: “The neighbor identified a loose contact rather than the…”.",
-                "Initial concern: “Repairing it professionally would cost more than he had…”; method: “Kiran learned how the case opened, consulted a repair…”.",
-                "Initial concern: “Repairing it professionally would cost more than he had…”; method: “They could not guarantee the watch would run for many…”."
+                "A modest defect, not the feared major failure, caused the problem.",
+                "The history embodied by a used object independent of its purchase price.",
+                "Its intergenerational history gives it value beyond its working mechanism.",
+                "Different watch designs can require procedures that may damage an unfamiliar movement."
               ],
-              "correctIndex": 2,
-              "explanation": "The issue begins with Repairing it professionally would cost more than he had saved. and the subsequent investigative procedure is Kiran learned how the case opened, consulted a repair guide, and asked an experienced neighbor to supervise..",
+              "correctIndex": 0,
+              "explanation": "The loose contact required careful diagnosis rather than costly reconstruction.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"The Watch in the Drawer\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Which value does Kiran initially underestimate?",
               "choices": [
-                "The observation (“The neighbor identified a loose contact rather than the…”) rules out every alternative cause.",
-                "The limitation (“They could not guarantee the watch would run for many…”) disproves the observation itself.",
-                "The method (“Kiran learned how the case opened, consulted a repair…”) guarantees the result before measurement.",
-                "The observation (“The neighbor identified a loose contact rather than the…”) matters, but the limit (“They could not guarantee the watch would run for many…”) remains."
+                "Responsible care matters more than pretending an old object can be made perfect.",
+                "The history embodied by a used object independent of its purchase price.",
+                "To distinguish a simple loose contact from more serious possible failures.",
+                "The watch works under short checks, not that all aging parts are reliable for years."
               ],
-              "correctIndex": 3,
-              "explanation": "The result is reported as The neighbor identified a loose contact rather than the major failure Kiran feared. but must be read alongside They could not guarantee the watch would run for many more years..",
+              "correctIndex": 1,
+              "explanation": "His grandfather responds strongly to a familiar mark and the note.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"The Watch in the Drawer\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the central distinction in the account of the gift?",
               "choices": [
-                "The response (“Kiran gave the watch with a note explaining the repair…”) follows evidence but remains open to reassessment.",
-                "The response (“Kiran gave the watch with a note explaining the repair…”) is proof of success in every setting.",
-                "The caveat (“They could not guarantee the watch would run for many…”) makes the observations worthless.",
-                "The observation (“The neighbor identified a loose contact rather than the…”) shows that measurement was unnecessary."
+                "Its intergenerational history gives it value beyond its working mechanism.",
+                "Different watch designs can require procedures that may damage an unfamiliar movement.",
+                "Responsible care matters more than pretending an old object can be made perfect.",
+                "He treats uncertainty transparently while sharing the object's family significance."
               ],
-              "correctIndex": 0,
-              "explanation": "The findings informed Kiran gave the watch with a note explaining the repair and its family history.; the stated limit They could not guarantee the watch would run for many more years. still matters.",
+              "correctIndex": 2,
+              "explanation": "Kiran repairs the watch while acknowledging limits and preserving memory.",
               "passageId": "R14-P3",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P3-10",
@@ -14376,147 +14376,147 @@
           "questions": [
             {
               "id": "R14-P4-01",
-              "type": "Evidence synthesis",
-              "prompt": "Which synthesis most faithfully integrates the initial problem, the investigation, and the limits of the conclusion in \"A Shared Bicycle Stand\"?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why do cyclists and shopkeepers interpret the current parking problem differently?",
               "choices": [
-                "The recorded outcome (“A trial stand filled regularly without blocking…”) is treated as unrelated to the original investigation.",
-                "The concern (“Cyclists left bikes against trees because the nearest…”) leads to inquiry, but “The study did not reveal demand during every season” limits the inference.",
-                "The proposed response (“Officials installed a permanent rack and planned to…”) makes the original concern irrelevant.",
-                "The method (“The town counted parked bicycles at different times and…”) rules out every possible competing explanation."
+                "A lunchtime queue would compete with bicycle parking for pedestrian space.",
+                "Short purchases near the rack are observations without a controlled comparison.",
+                "Cyclists lack safe racks while businesses fear obstructed access and queues.",
+                "The trial had not established how demand would change across seasons."
               ],
-              "correctIndex": 1,
-              "explanation": "The opening concern prompted a method for gathering evidence; the qualification The study did not reveal demand during every season. prevents an overly broad conclusion.",
+              "correctIndex": 2,
+              "explanation": "Both groups experience different consequences of where bicycles are left.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-02",
-              "type": "Problem identification",
-              "prompt": "In \"A Shared Bicycle Stand\", which detail establishes the precise problem to be investigated, rather than a procedure, finding, or response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why was the site outside the bakery rejected?",
               "choices": [
-                "Cyclists left bikes against trees because the nearest rack was several blocks away.",
-                "The town counted parked bicycles at different times and spoke with nearby businesses.",
-                "A trial stand filled regularly without blocking pedestrian access.",
-                "Officials installed a permanent rack and planned to review usage after winter."
+                "Demand varies with weather, weekday and local events.",
+                "Whether pedestrians could pass without entering the street.",
+                "Unpredictable obstruction caused by bicycles left against trees and railings.",
+                "A lunchtime queue would compete with bicycle parking for pedestrian space."
               ],
-              "correctIndex": 0,
-              "explanation": "The opening situation establishes the need to act: Cyclists left bikes against trees because the nearest rack was several blocks away. The other choices describe what was done or discovered afterward.",
+              "correctIndex": 3,
+              "explanation": "The team's measurements reveal a conflict at busy hours.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-03",
-              "type": "Method and evidence",
-              "prompt": "Which detail from \"A Shared Bicycle Stand\" most directly describes the method of investigation, as distinct from the evidence it produced?",
+              "type": "Passage-specific analysis",
+              "prompt": "What makes the Saturday occupancy count inadequate by itself?",
               "choices": [
-                "The study did not reveal demand during every season.",
-                "The town counted parked bicycles at different times and spoke with nearby businesses.",
-                "Cyclists left bikes against trees because the nearest rack was several blocks away.",
-                "A trial stand filled regularly without blocking pedestrian access."
+                "Demand varies with weather, weekday and local events.",
+                "Short purchases near the rack are observations without a controlled comparison.",
+                "The trial had not established how demand would change across seasons.",
+                "Officials intend to reconsider placement and demand using later evidence."
               ],
-              "correctIndex": 1,
-              "explanation": "The procedure is specifically described as: The town counted parked bicycles at different times and spoke with nearby businesses. The other details concern circumstances, observations, or uncertainty, not the investigative method itself.",
+              "correctIndex": 0,
+              "explanation": "The rack is full during the market but half empty on a rainy weekday.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-04",
-              "type": "Evidence identification",
-              "prompt": "Which statement reports an actual observation in \"A Shared Bicycle Stand\", rather than a procedure, caution, or policy response?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why can't shopkeepers' favorable impressions prove increased sales?",
               "choices": [
-                "The study did not reveal demand during every season.",
-                "Officials installed a permanent rack and planned to review usage after winter.",
-                "A trial stand filled regularly without blocking pedestrian access.",
-                "The town counted parked bicycles at different times and spoke with nearby businesses."
+                "Whether pedestrians could pass without entering the street.",
+                "Short purchases near the rack are observations without a controlled comparison.",
+                "Unpredictable obstruction caused by bicycles left against trees and railings.",
+                "Shared streets require balancing different users and changing patterns."
               ],
-              "correctIndex": 2,
-              "explanation": "This was the reported empirical or directly observed finding: A trial stand filled regularly without blocking pedestrian access. The other statements describe different stages of the inquiry.",
+              "correctIndex": 1,
+              "explanation": "Anecdotes alone do not establish changes in business revenue.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-05",
-              "type": "Limits of inference",
-              "prompt": "Which passage detail most directly prevents the conclusion of \"A Shared Bicycle Stand\" from being generalized beyond the available evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What was observed besides the number of parked bicycles?",
               "choices": [
-                "A trial stand filled regularly without blocking pedestrian access.",
-                "The town counted parked bicycles at different times and spoke with nearby businesses.",
-                "Officials installed a permanent rack and planned to review usage after winter.",
-                "The study did not reveal demand during every season."
+                "The trial had not established how demand would change across seasons.",
+                "Officials intend to reconsider placement and demand using later evidence.",
+                "Whether pedestrians could pass without entering the street.",
+                "Cyclists lack safe racks while businesses fear obstructed access and queues."
               ],
-              "correctIndex": 3,
-              "explanation": "The limitation is: The study did not reveal demand during every season. Observations and methods alone cannot resolve that stated uncertainty.",
+              "correctIndex": 2,
+              "explanation": "The team monitored accessibility as well as demand.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-06",
-              "type": "Evidence-based decisions",
-              "prompt": "Which development in \"A Shared Bicycle Stand\" is a response informed by the findings rather than a measurement or initial problem?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why did officials schedule a review after winter?",
               "choices": [
-                "Officials installed a permanent rack and planned to review usage after winter.",
-                "Cyclists left bikes against trees because the nearest rack was several blocks away.",
-                "The town counted parked bicycles at different times and spoke with nearby businesses.",
-                "A trial stand filled regularly without blocking pedestrian access."
+                "Unpredictable obstruction caused by bicycles left against trees and railings.",
+                "Shared streets require balancing different users and changing patterns.",
+                "A lunchtime queue would compete with bicycle parking for pedestrian space.",
+                "The trial had not established how demand would change across seasons."
               ],
-              "correctIndex": 0,
-              "explanation": "The subsequent response was: Officials installed a permanent rack and planned to review usage after winter. The other details give the initial issue, investigative approach, or finding.",
+              "correctIndex": 3,
+              "explanation": "They acknowledge an important temporal gap in the evidence.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "automated-evidence-role-review-needed"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-07",
-              "type": "Cross-paragraph reasoning",
-              "prompt": "For \"A Shared Bicycle Stand\", which pair best traces the move from the original uncertainty to the act of gathering evidence?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the proposed stand meant to solve?",
               "choices": [
-                "Initial concern: “The town counted parked bicycles at different times and…”; method: “A trial stand filled regularly without blocking…”.",
-                "Initial concern: “Cyclists left bikes against trees because the nearest…”; method: “The town counted parked bicycles at different times and…”.",
-                "Initial concern: “Cyclists left bikes against trees because the nearest…”; method: “The study did not reveal demand during every season”.",
-                "Initial concern: “A trial stand filled regularly without blocking…”; method: “Officials installed a permanent rack and planned to…”."
+                "Unpredictable obstruction caused by bicycles left against trees and railings.",
+                "Officials intend to reconsider placement and demand using later evidence.",
+                "Cyclists lack safe racks while businesses fear obstructed access and queues.",
+                "Demand varies with weather, weekday and local events."
               ],
-              "correctIndex": 1,
-              "explanation": "The issue begins with Cyclists left bikes against trees because the nearest rack was several blocks away. and the subsequent investigative procedure is The town counted parked bicycles at different times and spoke with nearby businesses..",
+              "correctIndex": 0,
+              "explanation": "Providing a rack aims to organize an already existing activity.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-08",
-              "type": "Critical inference",
-              "prompt": "Which interpretation of \"A Shared Bicycle Stand\" is best supported when the observed result is considered alongside its explicit limitation?",
+              "type": "Passage-specific analysis",
+              "prompt": "Why is permanent installation not portrayed as irrevocable?",
               "choices": [
-                "The limitation (“The study did not reveal demand during every season”) disproves the observation itself.",
-                "The method (“The town counted parked bicycles at different times and…”) guarantees the result before measurement.",
-                "The observation (“A trial stand filled regularly without blocking…”) matters, but the limit (“The study did not reveal demand during every season”) remains.",
-                "The observation (“A trial stand filled regularly without blocking…”) rules out every alternative cause."
+                "Shared streets require balancing different users and changing patterns.",
+                "Officials intend to reconsider placement and demand using later evidence.",
+                "A lunchtime queue would compete with bicycle parking for pedestrian space.",
+                "Short purchases near the rack are observations without a controlled comparison."
               ],
-              "correctIndex": 2,
-              "explanation": "The result is reported as A trial stand filled regularly without blocking pedestrian access. but must be read alongside The study did not reveal demand during every season..",
+              "correctIndex": 1,
+              "explanation": "The review creates a feedback mechanism after the initial decision.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-09",
-              "type": "Evidence to conclusion",
-              "prompt": "How does the final action in \"A Shared Bicycle Stand\" relate to the strength and limits of the earlier observations?",
+              "type": "Passage-specific analysis",
+              "prompt": "What is the broader planning principle of the passage?",
               "choices": [
-                "The response (“Officials installed a permanent rack and planned to…”) is proof of success in every setting.",
-                "The caveat (“The study did not reveal demand during every season”) makes the observations worthless.",
-                "The observation (“A trial stand filled regularly without blocking…”) shows that measurement was unnecessary.",
-                "The response (“Officials installed a permanent rack and planned to…”) follows evidence but remains open to reassessment."
+                "Cyclists lack safe racks while businesses fear obstructed access and queues.",
+                "Demand varies with weather, weekday and local events.",
+                "Shared streets require balancing different users and changing patterns.",
+                "Whether pedestrians could pass without entering the street."
               ],
-              "correctIndex": 3,
-              "explanation": "The findings informed Officials installed a permanent rack and planned to review usage after winter.; the stated limit The study did not reveal demand during every season. still matters.",
+              "correctIndex": 2,
+              "explanation": "The proposal considers cyclists, businesses, pedestrians and seasonal use.",
               "passageId": "R14-P4",
               "difficultyBand": "grade10-12",
-              "editorialStatus": "concise-evidence-template-editorial-review-pending"
+              "editorialStatus": "individually-authored-editorial-review-pending"
             },
             {
               "id": "R14-P4-10",
