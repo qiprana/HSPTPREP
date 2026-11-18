@@ -74,3 +74,9 @@ Initial `PROJECT_CHECKLIST.md` commit `ba153db2` wrongly marked nearly every sec
 - Commits `58cc6d11`, `aab5c8ef`: added `tests/validate-reading-long-passages.js` and wired it into Reading CI to guard 80 minimum passage lengths, intact IDs and the 30 rewritten closing items.
 - GitHub Actions 'Validate HSPT Reading Question Banks' passed for `c59f43a1` and `afe44777`. Later workflow execution on `aab5c8ef` must be checked independently. Browser completion workflow was in progress when checked; no fresh successful browser run is claimed for these changes.
 - Current partial sign-off: **timed passage length complete**, **timed question editorial upgrade incomplete**, **guided practice length incomplete**, **vocabulary QA incomplete**. Avoid reopening signed-off Vocabulary/Language work without new evidence.
+
+## CI verification after Nov 17 Reading changes
+- Latest Reading validator on `aab5c8ef` completed **success**, including the newly wired long-passage regression test.
+- Browser Completion Smoke Test on `c59f43a1` completed **success** (automated browser engines; not a physical device).
+- GitHub Pages build and deployment for checklist commit `5a006fcd` completed **success**.
+- Two attempted guided-practice rewrite batches failed a pre-commit 350-word assertion; **no guided-practice data was written**. The 20 guided passages remain an explicit open task. Do not count attempted edits as delivered.
