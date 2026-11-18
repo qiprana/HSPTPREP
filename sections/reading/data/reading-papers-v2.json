@@ -23402,138 +23402,138 @@
         },
         {
           "id": "RG11-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"A Difficult Rehearsal\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "What did the isolated percussion rehearsal reveal?",
           "choices": [
-            "Violin entrances were consistently early in a difficult orchestra passage.",
-            "The conductor isolated the percussion rhythm so violinists could listen and count rests.",
-            "The ensemble later performed the passage more evenly.",
-            "The intervention targets a specific timing error, not every possible performance problem."
+            "Targeting the underlying error would be more productive than constant interruption.",
+            "Correcting one rhythmic relationship stabilized the combined passage.",
+            "It treated timing as a shared technical challenge rather than a personal failure.",
+            "The violins' timing problem stemmed from misunderstanding the rests."
           ],
-          "correctIndex": 0,
-          "explanation": "The opening situation establishes why participants needed to act: Violin entrances were consistently early in a difficult orchestra passage.",
+          "correctIndex": 3,
+          "explanation": "The rhythm became clearer without competing melodic lines.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why didn't the conductor stop everyone repeatedly?",
           "choices": [
-            "The intervention targets a specific timing error, not every possible performance problem.",
-            "The conductor isolated the percussion rhythm so violinists could listen and count rests.",
-            "Violin entrances were consistently early in a difficult orchestra passage.",
-            "The ensemble later performed the passage more evenly."
+            "Targeting the underlying error would be more productive than constant interruption.",
+            "Counting the silent beats before their entrance.",
+            "A small recurring mistake can produce larger effects in a complex system.",
+            "The corrected rhythm had to work within the complete musical texture."
           ],
-          "correctIndex": 1,
-          "explanation": "The method is the action taken to respond to uncertainty: The conductor isolated the percussion rhythm so violinists could listen and count rests.",
+          "correctIndex": 0,
+          "explanation": "She focused practice on the cause of the early entrance.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What did the violinists practice while listening?",
           "choices": [
-            "Listening to isolated rhythm can help players identify rests and entrances.",
-            "Record whether the improved timing persists across several full rehearsals.",
-            "The ensemble later performed the passage more evenly.",
-            "Violin entrances were consistently early in a difficult orchestra passage."
+            "Correcting one rhythmic relationship stabilized the combined passage.",
+            "Counting the silent beats before their entrance.",
+            "It treated timing as a shared technical challenge rather than a personal failure.",
+            "Demanding greater concentration without explaining the rhythmic source of error."
           ],
-          "correctIndex": 2,
-          "explanation": "The passage reports this outcome: The ensemble later performed the passage more evenly.",
+          "correctIndex": 1,
+          "explanation": "The challenge concerned rests rather than pitch or volume.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"A Difficult Rehearsal\"?",
+          "type": "Guided close reading",
+          "prompt": "Why did the whole orchestra improve afterward?",
           "choices": [
-            "Violin entrances were consistently early in a difficult orchestra passage.",
-            "The conductor isolated the percussion rhythm so violinists could listen and count rests.",
-            "The ensemble later performed the passage more evenly.",
-            "The intervention targets a specific timing error, not every possible performance problem."
+            "A small recurring mistake can produce larger effects in a complex system.",
+            "The corrected rhythm had to work within the complete musical texture.",
+            "Correcting one rhythmic relationship stabilized the combined passage.",
+            "Diagnose a specific cause before repeatedly correcting its symptoms."
           ],
-          "correctIndex": 3,
-          "explanation": "A careful interpretation must preserve the boundary: The intervention targets a specific timing error, not every possible performance problem.",
+          "correctIndex": 2,
+          "explanation": "The players' coordination affected more than the original measure.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What does the scene suggest about diagnosing errors?",
           "choices": [
-            "Focused diagnosis of one musical element can improve the coordination of a larger group.",
-            "The result (The ensemble later performed the passage more evenly.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (The conductor isolated the percussion rhythm so violinists could listen and count rests.) is unrelated to the concern that motivated it.",
-            "Because the problem (Violin entrances were consistently early in a difficult orchestra passage.) was identified, later evidence cannot change the original hypothesis."
+            "It treated timing as a shared technical challenge rather than a personal failure.",
+            "Demanding greater concentration without explaining the rhythmic source of error.",
+            "The violins' timing problem stemmed from misunderstanding the rests.",
+            "A small recurring mistake can produce larger effects in a complex system."
           ],
-          "correctIndex": 0,
-          "explanation": "The supported synthesis is: Focused diagnosis of one musical element can improve the coordination of a larger group.",
+          "correctIndex": 3,
+          "explanation": "The conductor addresses a specific underlying issue.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"A Difficult Rehearsal\"?",
+          "type": "Guided close reading",
+          "prompt": "How did the method avoid embarrassing the players?",
           "choices": [
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Record whether the improved timing persists across several full rehearsals.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence."
+            "It treated timing as a shared technical challenge rather than a personal failure.",
+            "The corrected rhythm had to work within the complete musical texture.",
+            "Diagnose a specific cause before repeatedly correcting its symptoms.",
+            "Targeting the underlying error would be more productive than constant interruption."
           ],
-          "correctIndex": 1,
-          "explanation": "A focused follow-up can test the uncertainty by record whether the improved timing persists across several full rehearsals.",
+          "correctIndex": 0,
+          "explanation": "The isolated exercise emphasized cooperation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"A Difficult Rehearsal\"?",
+          "type": "Guided close reading",
+          "prompt": "Why was a later full rehearsal still necessary?",
           "choices": [
-            "The ensemble later performed the passage more evenly.",
-            "The intervention targets a specific timing error, not every possible performance problem.",
-            "One corrected passage proves no future musical errors can occur.",
-            "The conductor isolated the percussion rhythm so violinists could listen and count rests."
+            "Demanding greater concentration without explaining the rhythmic source of error.",
+            "The corrected rhythm had to work within the complete musical texture.",
+            "The violins' timing problem stemmed from misunderstanding the rests.",
+            "Counting the silent beats before their entrance."
           ],
-          "correctIndex": 2,
-          "explanation": "This absolute conclusion is unsupported: One corrected passage proves no future musical errors can occur. The passage instead supports bounded claims.",
+          "correctIndex": 1,
+          "explanation": "Separate practice prepares rather than replaces ensemble performance.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What would be a less effective response?",
           "choices": [
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Listening to isolated rhythm can help players identify rests and entrances."
+            "Diagnose a specific cause before repeatedly correcting its symptoms.",
+            "Targeting the underlying error would be more productive than constant interruption.",
+            "Demanding greater concentration without explaining the rhythmic source of error.",
+            "Correcting one rhythmic relationship stabilized the combined passage."
           ],
-          "correctIndex": 3,
-          "explanation": "The inference depends on the stated consideration: Listening to isolated rhythm can help players identify rests and entrances.",
+          "correctIndex": 2,
+          "explanation": "The initial entrances would remain uncorrected.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG11-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which principle best explains the conductor's choice?",
           "choices": [
-            "Familiarity from repetition may also have contributed to better timing.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured."
+            "The violins' timing problem stemmed from misunderstanding the rests.",
+            "Counting the silent beats before their entrance.",
+            "A small recurring mistake can produce larger effects in a complex system.",
+            "Diagnose a specific cause before repeatedly correcting its symptoms."
           ],
-          "correctIndex": 0,
-          "explanation": "The account does not rule out this competing possibility: Familiarity from repetition may also have contributed to better timing.",
+          "correctIndex": 3,
+          "explanation": "The targeted rehearsal resolves the recurrent mistake.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R11-PRV-01",
@@ -23632,138 +23632,138 @@
         },
         {
           "id": "RG12-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Telescope Project\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why were cloudy meetings not entirely wasted?",
           "choices": [
-            "The exercises could prepare students but could not substitute for actual sky observations.",
-            "Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images.",
-            "Members calibrated equipment indoors and rehearsed processing sample images.",
-            "When the weather cleared, they captured useful observations efficiently."
+            "Members could prepare equipment and processing skills without observing the galaxy.",
+            "Rare observing time might be consumed by preventable equipment problems.",
+            "It seemed different from the stated goal of photographing a galaxy.",
+            "Learning necessary techniques is progress even before the target image exists."
           ],
-          "correctIndex": 1,
-          "explanation": "The opening situation establishes why participants needed to act: Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images.",
+          "correctIndex": 0,
+          "explanation": "Calibration and sample-data work advanced the project.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What was the risk of postponing all work until a clear night?",
           "choices": [
-            "When the weather cleared, they captured useful observations efficiently.",
-            "The exercises could prepare students but could not substitute for actual sky observations.",
-            "Members calibrated equipment indoors and rehearsed processing sample images.",
-            "Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images."
+            "They learned how to process observations before collecting their own.",
+            "Rare observing time might be consumed by preventable equipment problems.",
+            "The club divided duties and collected useful images efficiently.",
+            "Misaligned equipment could compromise data collected during limited clear skies."
           ],
-          "correctIndex": 2,
-          "explanation": "The method is the action taken to respond to uncertainty: Members calibrated equipment indoors and rehearsed processing sample images.",
+          "correctIndex": 1,
+          "explanation": "Practice indoors improved later efficiency.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "How did members use sample images?",
           "choices": [
-            "Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images.",
-            "Practicing technical procedures beforehand can reduce difficulties when conditions improve.",
-            "Compare data quality and setup errors from rehearsed sessions and sessions without rehearsal.",
-            "When the weather cleared, they captured useful observations efficiently."
+            "It seemed different from the stated goal of photographing a galaxy.",
+            "Learning necessary techniques is progress even before the target image exists.",
+            "They learned how to process observations before collecting their own.",
+            "No useful progress was possible until the clouds disappeared."
           ],
-          "correctIndex": 3,
-          "explanation": "The passage reports this outcome: When the weather cleared, they captured useful observations efficiently.",
+          "correctIndex": 2,
+          "explanation": "The exercise addressed skills needed for the final task.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Telescope Project\"?",
+          "type": "Guided close reading",
+          "prompt": "Why did some students object to the indoor work?",
           "choices": [
-            "The exercises could prepare students but could not substitute for actual sky observations.",
-            "Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images.",
-            "Members calibrated equipment indoors and rehearsed processing sample images.",
-            "When the weather cleared, they captured useful observations efficiently."
+            "The club divided duties and collected useful images efficiently.",
+            "Misaligned equipment could compromise data collected during limited clear skies.",
+            "Constraints can redirect productive work without eliminating the underlying goal.",
+            "It seemed different from the stated goal of photographing a galaxy."
           ],
-          "correctIndex": 0,
-          "explanation": "A careful interpretation must preserve the boundary: The exercises could prepare students but could not substitute for actual sky observations.",
+          "correctIndex": 3,
+          "explanation": "They equated progress with the final observation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What changed when clear weather arrived?",
           "choices": [
-            "Because the problem (Cloudy weather repeatedly prevented an astronomy club from taking planned telescope images.) was identified, later evidence cannot change the original hypothesis.",
-            "Useful preparation may continue even when the main experiment is temporarily impossible.",
-            "The result (When the weather cleared, they captured useful observations efficiently.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Members calibrated equipment indoors and rehearsed processing sample images.) is unrelated to the concern that motivated it."
+            "The club divided duties and collected useful images efficiently.",
+            "Learning necessary techniques is progress even before the target image exists.",
+            "No useful progress was possible until the clouds disappeared.",
+            "Members could prepare equipment and processing skills without observing the galaxy."
           ],
-          "correctIndex": 1,
-          "explanation": "The supported synthesis is: Useful preparation may continue even when the main experiment is temporarily impossible.",
+          "correctIndex": 0,
+          "explanation": "Earlier preparation reduced setup difficulties.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Telescope Project\"?",
+          "type": "Guided close reading",
+          "prompt": "What is the teacher's distinction between preparation and completion?",
           "choices": [
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare data quality and setup errors from rehearsed sessions and sessions without rehearsal.",
-            "Repeat the original activity without recording any new outcomes or conditions."
+            "Misaligned equipment could compromise data collected during limited clear skies.",
+            "Learning necessary techniques is progress even before the target image exists.",
+            "Constraints can redirect productive work without eliminating the underlying goal.",
+            "Rare observing time might be consumed by preventable equipment problems."
           ],
-          "correctIndex": 2,
-          "explanation": "A focused follow-up can test the uncertainty by compare data quality and setup errors from rehearsed sessions and sessions without rehearsal.",
+          "correctIndex": 1,
+          "explanation": "The activities contribute to a delayed objective.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Telescope Project\"?",
+          "type": "Guided close reading",
+          "prompt": "Why might calibration be important to accurate observations?",
           "choices": [
-            "Members calibrated equipment indoors and rehearsed processing sample images.",
-            "When the weather cleared, they captured useful observations efficiently.",
-            "The exercises could prepare students but could not substitute for actual sky observations.",
-            "Indoor calibration proves that real telescope observations are unnecessary."
+            "No useful progress was possible until the clouds disappeared.",
+            "Members could prepare equipment and processing skills without observing the galaxy.",
+            "Misaligned equipment could compromise data collected during limited clear skies.",
+            "They learned how to process observations before collecting their own."
           ],
-          "correctIndex": 3,
-          "explanation": "This absolute conclusion is unsupported: Indoor calibration proves that real telescope observations are unnecessary. The passage instead supports bounded claims.",
+          "correctIndex": 2,
+          "explanation": "Equipment readiness affects the quality of images.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What interpretation of the bad weather is least justified?",
           "choices": [
-            "Practicing technical procedures beforehand can reduce difficulties when conditions improve.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination."
+            "Constraints can redirect productive work without eliminating the underlying goal.",
+            "Rare observing time might be consumed by preventable equipment problems.",
+            "It seemed different from the stated goal of photographing a galaxy.",
+            "No useful progress was possible until the clouds disappeared."
           ],
-          "correctIndex": 0,
-          "explanation": "The inference depends on the stated consideration: Practicing technical procedures beforehand can reduce difficulties when conditions improve.",
+          "correctIndex": 3,
+          "explanation": "The students demonstrate otherwise.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG12-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which general lesson follows from the club's experience?",
           "choices": [
-            "The findings logically exclude all influences not explicitly measured.",
-            "Clearer weather alone may explain part of the successful later observing session.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome."
+            "Constraints can redirect productive work without eliminating the underlying goal.",
+            "Members could prepare equipment and processing skills without observing the galaxy.",
+            "They learned how to process observations before collecting their own.",
+            "The club divided duties and collected useful images efficiently."
           ],
-          "correctIndex": 1,
-          "explanation": "The account does not rule out this competing possibility: Clearer weather alone may explain part of the successful later observing session.",
+          "correctIndex": 0,
+          "explanation": "They prepare during delays and observe when conditions permit.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R12-PRV-01",
@@ -23862,138 +23862,138 @@
         },
         {
           "id": "RG13-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Pollinator Corridors\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why were different flowering seasons important?",
           "choices": [
-            "Surveys later recorded more visits to planted strips.",
-            "Counts of visits do not prove that every pollinator species has recovered.",
-            "Developed areas interrupted feeding habitat for bees and butterflies.",
-            "The city planted connected flowering strips with species blooming in different seasons."
+            "More visits were observed in the planted strips during surveys.",
+            "Pollinators needed food throughout more of the year.",
+            "Conditions affect insect activity and what observers can record.",
+            "It preserves seasonal resources needed for repeated use."
           ],
-          "correctIndex": 2,
-          "explanation": "The opening situation establishes why participants needed to act: Developed areas interrupted feeding habitat for bees and butterflies.",
+          "correctIndex": 1,
+          "explanation": "A spring-only corridor would be less useful later.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What did increased insect visits actually establish?",
           "choices": [
-            "Developed areas interrupted feeding habitat for bees and butterflies.",
-            "Surveys later recorded more visits to planted strips.",
-            "Counts of visits do not prove that every pollinator species has recovered.",
-            "The city planted connected flowering strips with species blooming in different seasons."
+            "Visits at selected sites are not population trends for every species.",
+            "Food and habitat opportunities between developed-area parks.",
+            "More visits were observed in the planted strips during surveys.",
+            "They need to know whether the encouraging pattern persists over time."
           ],
-          "correctIndex": 3,
-          "explanation": "The method is the action taken to respond to uncertainty: The city planted connected flowering strips with species blooming in different seasons.",
+          "correctIndex": 2,
+          "explanation": "The data do not count every pollinator species.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "Why avoid declaring complete species recovery?",
           "choices": [
-            "Surveys later recorded more visits to planted strips.",
-            "Developed areas interrupted feeding habitat for bees and butterflies.",
-            "Seasonally staggered bloom times can help maintain food resources.",
-            "Measure species-specific abundance and nesting success in planted and comparable untreated corridors."
+            "Conditions affect insect activity and what observers can record.",
+            "It preserves seasonal resources needed for repeated use.",
+            "Species-level population trends across connected and comparison habitats.",
+            "Visits at selected sites are not population trends for every species."
           ],
-          "correctIndex": 0,
-          "explanation": "The passage reports this outcome: Surveys later recorded more visits to planted strips.",
+          "correctIndex": 3,
+          "explanation": "The researchers note the limited outcome measure.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Pollinator Corridors\"?",
+          "type": "Guided close reading",
+          "prompt": "How could weather confound visit counts?",
           "choices": [
-            "Surveys later recorded more visits to planted strips.",
-            "Counts of visits do not prove that every pollinator species has recovered.",
-            "Developed areas interrupted feeding habitat for bees and butterflies.",
-            "The city planted connected flowering strips with species blooming in different seasons."
+            "Conditions affect insect activity and what observers can record.",
+            "Food and habitat opportunities between developed-area parks.",
+            "They need to know whether the encouraging pattern persists over time.",
+            "A plausible habitat intervention yielded encouraging local evidence with remaining ecological uncertainties."
           ],
-          "correctIndex": 1,
-          "explanation": "A careful interpretation must preserve the boundary: Counts of visits do not prove that every pollinator species has recovered.",
+          "correctIndex": 0,
+          "explanation": "Surveys need comparable circumstances for stronger inference.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What is the corridor intended to connect?",
           "choices": [
-            "The intervention (The city planted connected flowering strips with species blooming in different seasons.) is unrelated to the concern that motivated it.",
-            "Because the problem (Developed areas interrupted feeding habitat for bees and butterflies.) was identified, later evidence cannot change the original hypothesis.",
-            "Habitat connections can show promising local effects without establishing full ecosystem restoration.",
-            "The result (Surveys later recorded more visits to planted strips.) proves that no uncertainty remains and the limitation is irrelevant."
+            "It preserves seasonal resources needed for repeated use.",
+            "Food and habitat opportunities between developed-area parks.",
+            "Species-level population trends across connected and comparison habitats.",
+            "Pollinators needed food throughout more of the year."
           ],
-          "correctIndex": 2,
-          "explanation": "The supported synthesis is: Habitat connections can show promising local effects without establishing full ecosystem restoration.",
+          "correctIndex": 1,
+          "explanation": "The planted strips help bridge otherwise separated spaces.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Pollinator Corridors\"?",
+          "type": "Guided close reading",
+          "prompt": "What does maintaining the flowering strips contribute?",
           "choices": [
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Measure species-specific abundance and nesting success in planted and comparable untreated corridors."
+            "They need to know whether the encouraging pattern persists over time.",
+            "A plausible habitat intervention yielded encouraging local evidence with remaining ecological uncertainties.",
+            "It preserves seasonal resources needed for repeated use.",
+            "More visits were observed in the planted strips during surveys."
           ],
-          "correctIndex": 3,
-          "explanation": "A focused follow-up can test the uncertainty by measure species-specific abundance and nesting success in planted and comparable untreated corridors.",
+          "correctIndex": 2,
+          "explanation": "Habitat improvement requires ongoing care after initial planting.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Pollinator Corridors\"?",
+          "type": "Guided close reading",
+          "prompt": "Why do researchers propose continued monitoring?",
           "choices": [
-            "More recorded visits prove every pollinator population has recovered.",
-            "The city planted connected flowering strips with species blooming in different seasons.",
-            "Surveys later recorded more visits to planted strips.",
-            "Counts of visits do not prove that every pollinator species has recovered."
+            "Species-level population trends across connected and comparison habitats.",
+            "Pollinators needed food throughout more of the year.",
+            "Visits at selected sites are not population trends for every species.",
+            "They need to know whether the encouraging pattern persists over time."
           ],
-          "correctIndex": 0,
-          "explanation": "This absolute conclusion is unsupported: More recorded visits prove every pollinator population has recovered. The passage instead supports bounded claims.",
+          "correctIndex": 3,
+          "explanation": "Two years of observations are promising but not universal proof.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "What additional evidence would support broader recovery?",
           "choices": [
-            "Any future conditions must be identical without needing examination.",
-            "Seasonally staggered bloom times can help maintain food resources.",
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken."
+            "Species-level population trends across connected and comparison habitats.",
+            "A plausible habitat intervention yielded encouraging local evidence with remaining ecological uncertainties.",
+            "More visits were observed in the planted strips during surveys.",
+            "Conditions affect insect activity and what observers can record."
           ],
-          "correctIndex": 1,
-          "explanation": "The inference depends on the stated consideration: Seasonally staggered bloom times can help maintain food resources.",
+          "correctIndex": 0,
+          "explanation": "Visit counts alone cannot verify every population.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG13-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "Which synthesis best fits the project?",
           "choices": [
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "Unusually favorable survey weather could have increased the observed visits.",
-            "The passage contains no observations capable of informing any explanation."
+            "Pollinators needed food throughout more of the year.",
+            "A plausible habitat intervention yielded encouraging local evidence with remaining ecological uncertainties.",
+            "Visits at selected sites are not population trends for every species.",
+            "Food and habitat opportunities between developed-area parks."
           ],
-          "correctIndex": 2,
-          "explanation": "The account does not rule out this competing possibility: Unusually favorable survey weather could have increased the observed visits.",
+          "correctIndex": 1,
+          "explanation": "The conclusion balances action and measurement.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R13-PRV-01",
@@ -24092,138 +24092,138 @@
         },
         {
           "id": "RG14-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"The Missing Ingredient\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "Why couldn't Nora simply exchange equal quantities of flour?",
           "choices": [
-            "She consulted a guide, adjusted liquid gradually, and baked a small test loaf.",
-            "An imperfect first loaf supplied information for a successful second batch.",
-            "Different flours absorb water differently; an arbitrary one-to-one swap is uncertain.",
-            "Nora lacked the flour specified by a recipe and needed a reliable substitute."
+            "It limited waste while revealing how the substitute affected the dough.",
+            "Incremental adjustments made effects easier to observe.",
+            "Different flour types absorb liquid and affect dough structure differently.",
+            "A failure can identify constraints and improve the next decision."
           ],
-          "correctIndex": 3,
-          "explanation": "The opening situation establishes why participants needed to act: Nora lacked the flour specified by a recipe and needed a reliable substitute.",
+          "correctIndex": 2,
+          "explanation": "The guide warns against assuming ingredients behave identically.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "What advantage did the small test loaf provide?",
           "choices": [
-            "She consulted a guide, adjusted liquid gradually, and baked a small test loaf.",
-            "Nora lacked the flour specified by a recipe and needed a reliable substitute.",
-            "An imperfect first loaf supplied information for a successful second batch.",
-            "Different flours absorb water differently; an arbitrary one-to-one swap is uncertain."
+            "The initial mixture needed a different balance of ingredients.",
+            "It incorporated observations from the first trial.",
+            "It introduced a relevant principle before experimentation.",
+            "It limited waste while revealing how the substitute affected the dough."
           ],
-          "correctIndex": 0,
-          "explanation": "The method is the action taken to respond to uncertainty: She consulted a guide, adjusted liquid gradually, and baked a small test loaf.",
+          "correctIndex": 3,
+          "explanation": "Nora learned from a low-risk trial.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What did the dense first loaf reveal?",
           "choices": [
-            "Compare hydration and texture across measured substitutions before scaling up the recipe.",
-            "An imperfect first loaf supplied information for a successful second batch.",
-            "Nora lacked the flour specified by a recipe and needed a reliable substitute.",
-            "The substitute's water absorption can affect how much liquid is needed."
+            "The initial mixture needed a different balance of ingredients.",
+            "Incremental adjustments made effects easier to observe.",
+            "A failure can identify constraints and improve the next decision.",
+            "Changing flour, liquid and baking time at once without notes."
           ],
-          "correctIndex": 1,
-          "explanation": "The passage reports this outcome: An imperfect first loaf supplied information for a successful second batch.",
+          "correctIndex": 0,
+          "explanation": "The result offered diagnostic evidence for revision.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"The Missing Ingredient\"?",
+          "type": "Guided close reading",
+          "prompt": "Why did Nora change liquid gradually?",
           "choices": [
-            "She consulted a guide, adjusted liquid gradually, and baked a small test loaf.",
-            "An imperfect first loaf supplied information for a successful second batch.",
-            "Different flours absorb water differently; an arbitrary one-to-one swap is uncertain.",
-            "Nora lacked the flour specified by a recipe and needed a reliable substitute."
+            "It incorporated observations from the first trial.",
+            "Incremental adjustments made effects easier to observe.",
+            "It introduced a relevant principle before experimentation.",
+            "Practical problems become manageable through small, observed adjustments."
           ],
-          "correctIndex": 2,
-          "explanation": "A careful interpretation must preserve the boundary: Different flours absorb water differently; an arbitrary one-to-one swap is uncertain.",
+          "correctIndex": 1,
+          "explanation": "Multiple large changes would obscure the cause of improvement.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What distinguished the second attempt from a guess?",
           "choices": [
-            "The result (An imperfect first loaf supplied information for a successful second batch.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (She consulted a guide, adjusted liquid gradually, and baked a small test loaf.) is unrelated to the concern that motivated it.",
-            "Because the problem (Nora lacked the flour specified by a recipe and needed a reliable substitute.) was identified, later evidence cannot change the original hypothesis.",
-            "A small controlled trial can reduce risk when unfamiliar ingredients behave differently."
+            "A failure can identify constraints and improve the next decision.",
+            "Changing flour, liquid and baking time at once without notes.",
+            "It incorporated observations from the first trial.",
+            "Different flour types absorb liquid and affect dough structure differently."
           ],
-          "correctIndex": 3,
-          "explanation": "The supported synthesis is: A small controlled trial can reduce risk when unfamiliar ingredients behave differently.",
+          "correctIndex": 2,
+          "explanation": "Nora revised the mixture based on feedback.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"The Missing Ingredient\"?",
+          "type": "Guided close reading",
+          "prompt": "Why is an imperfect initial result still useful?",
           "choices": [
-            "Compare hydration and texture across measured substitutions before scaling up the recipe.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence.",
-            "Treat the reported outcome as universal regardless of differences among settings."
+            "It introduced a relevant principle before experimentation.",
+            "Practical problems become manageable through small, observed adjustments.",
+            "It limited waste while revealing how the substitute affected the dough.",
+            "A failure can identify constraints and improve the next decision."
           ],
-          "correctIndex": 0,
-          "explanation": "A focused follow-up can test the uncertainty by compare hydration and texture across measured substitutions before scaling up the recipe.",
+          "correctIndex": 3,
+          "explanation": "The story values evidence over immediate perfection.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"The Missing Ingredient\"?",
+          "type": "Guided close reading",
+          "prompt": "What role did consulting a baking guide play?",
           "choices": [
-            "Different flours absorb water differently; an arbitrary one-to-one swap is uncertain.",
-            "One successful loaf proves all flour substitutions behave identically.",
-            "She consulted a guide, adjusted liquid gradually, and baked a small test loaf.",
-            "An imperfect first loaf supplied information for a successful second batch."
+            "It introduced a relevant principle before experimentation.",
+            "Changing flour, liquid and baking time at once without notes.",
+            "Different flour types absorb liquid and affect dough structure differently.",
+            "The initial mixture needed a different balance of ingredients."
           ],
-          "correctIndex": 1,
-          "explanation": "This absolute conclusion is unsupported: One successful loaf proves all flour substitutions behave identically. The passage instead supports bounded claims.",
+          "correctIndex": 0,
+          "explanation": "She sought information about differences among flours.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Which action would have made interpretation harder?",
           "choices": [
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "The substitute's water absorption can affect how much liquid is needed.",
-            "The original problem could never have existed."
+            "Practical problems become manageable through small, observed adjustments.",
+            "Changing flour, liquid and baking time at once without notes.",
+            "It limited waste while revealing how the substitute affected the dough.",
+            "Incremental adjustments made effects easier to observe."
           ],
-          "correctIndex": 2,
-          "explanation": "The inference depends on the stated consideration: The substitute's water absorption can affect how much liquid is needed.",
+          "correctIndex": 1,
+          "explanation": "Simultaneous revisions prevent clear comparison.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG14-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What does Nora's experience illustrate?",
           "choices": [
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured.",
-            "The improvement may reflect changes in kneading or baking time as well as hydration."
+            "Different flour types absorb liquid and affect dough structure differently.",
+            "The initial mixture needed a different balance of ingredients.",
+            "Practical problems become manageable through small, observed adjustments.",
+            "It incorporated observations from the first trial."
           ],
-          "correctIndex": 3,
-          "explanation": "The account does not rule out this competing possibility: The improvement may reflect changes in kneading or baking time as well as hydration.",
+          "correctIndex": 2,
+          "explanation": "The process is a sequence of reasoned trials.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R14-PRV-01",
@@ -24322,138 +24322,138 @@
         },
         {
           "id": "RG15-02",
-          "type": "Problem framing",
-          "prompt": "Which detail in \"Ancient Trade Routes\" identifies the original problem rather than the subsequent response?",
+          "type": "Guided close reading",
+          "prompt": "What can an inland shell establish directly?",
           "choices": [
-            "Shells were found far inland where the relevant marine species were absent.",
-            "Researchers compared artifacts, dates, and geographic obstacles before proposing routes.",
-            "The finds supported long-distance movement of goods but not one precise path.",
-            "A traded object does not uniquely reveal every stage of its journey."
+            "Goods may pass through several exchanges before arriving.",
+            "Physical geography constrains plausible movement routes.",
+            "Additional sites may support or challenge earlier links.",
+            "A marine object reached a place distant from its natural habitat."
           ],
-          "correctIndex": 0,
-          "explanation": "The opening situation establishes why participants needed to act: Shells were found far inland where the relevant marine species were absent.",
+          "correctIndex": 3,
+          "explanation": "Its presence shows movement without specifying the entire route.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-03",
-          "type": "Method analysis",
-          "prompt": "Which passage detail identifies an intervention or method rather than a finding or limitation?",
+          "type": "Guided close reading",
+          "prompt": "Why doesn't the shell identify its carrier?",
           "choices": [
-            "A traded object does not uniquely reveal every stage of its journey.",
-            "Researchers compared artifacts, dates, and geographic obstacles before proposing routes.",
-            "Shells were found far inland where the relevant marine species were absent.",
-            "The finds supported long-distance movement of goods but not one precise path."
+            "Goods may pass through several exchanges before arriving.",
+            "A shell may be reused long after it was first collected.",
+            "Dated intermediate finds consistent with the suggested path.",
+            "A named merchant carried the shell along one exact route."
           ],
-          "correctIndex": 1,
-          "explanation": "The method is the action taken to respond to uncertainty: Researchers compared artifacts, dates, and geographic obstacles before proposing routes.",
+          "correctIndex": 0,
+          "explanation": "Direct travel is only one possible explanation.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-04",
-          "type": "Evidence distinction",
-          "prompt": "Which statement is an observed outcome rather than an assumption or a proposed follow-up?",
+          "type": "Guided close reading",
+          "prompt": "What historical possibility complicates the object's date?",
           "choices": [
-            "Marine objects can reach inland settlements through exchange rather than local harvesting.",
-            "Compare dated shell finds at intermediate settlements along rival proposed routes.",
-            "The finds supported long-distance movement of goods but not one precise path.",
-            "Shells were found far inland where the relevant marine species were absent."
+            "Physical geography constrains plausible movement routes.",
+            "A shell may be reused long after it was first collected.",
+            "Additional sites may support or challenge earlier links.",
+            "They help establish context for when the shell reached a settlement."
           ],
-          "correctIndex": 2,
-          "explanation": "The passage reports this outcome: The finds supported long-distance movement of goods but not one precise path.",
+          "correctIndex": 1,
+          "explanation": "Its deposition need not match the beginning of its journey.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-05",
-          "type": "Limits of evidence",
-          "prompt": "Which qualification most limits what can responsibly be concluded from \"Ancient Trade Routes\"?",
+          "type": "Guided close reading",
+          "prompt": "Why examine mountain passes and river crossings?",
           "choices": [
-            "Shells were found far inland where the relevant marine species were absent.",
-            "Researchers compared artifacts, dates, and geographic obstacles before proposing routes.",
-            "The finds supported long-distance movement of goods but not one precise path.",
-            "A traded object does not uniquely reveal every stage of its journey."
+            "Dated intermediate finds consistent with the suggested path.",
+            "A named merchant carried the shell along one exact route.",
+            "Physical geography constrains plausible movement routes.",
+            "Surviving artifacts support bounded inferences rather than a complete travel narrative."
           ],
-          "correctIndex": 3,
-          "explanation": "A careful interpretation must preserve the boundary: A traded object does not uniquely reveal every stage of its journey.",
+          "correctIndex": 2,
+          "explanation": "The researchers test proposals against the landscape.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-06",
-          "type": "Synthesis",
-          "prompt": "Which interpretation integrates the evidence and the passage’s qualifications most accurately?",
+          "type": "Guided close reading",
+          "prompt": "What would strengthen a proposed trade network?",
           "choices": [
-            "Material evidence can support trade-network hypotheses without establishing an exact itinerary.",
-            "The result (The finds supported long-distance movement of goods but not one precise path.) proves that no uncertainty remains and the limitation is irrelevant.",
-            "The intervention (Researchers compared artifacts, dates, and geographic obstacles before proposing routes.) is unrelated to the concern that motivated it.",
-            "Because the problem (Shells were found far inland where the relevant marine species were absent.) was identified, later evidence cannot change the original hypothesis."
+            "Additional sites may support or challenge earlier links.",
+            "They help establish context for when the shell reached a settlement.",
+            "A marine object reached a place distant from its natural habitat.",
+            "Dated intermediate finds consistent with the suggested path."
           ],
-          "correctIndex": 0,
-          "explanation": "The supported synthesis is: Material evidence can support trade-network hypotheses without establishing an exact itinerary.",
+          "correctIndex": 3,
+          "explanation": "Evidence between endpoints could distinguish competing routes.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-07",
-          "type": "Research design",
-          "prompt": "Which additional investigation would best evaluate the unresolved issue in \"Ancient Trade Routes\"?",
+          "type": "Guided close reading",
+          "prompt": "Why can a new excavation change the reconstruction?",
           "choices": [
-            "Treat the reported outcome as universal regardless of differences among settings.",
-            "Compare dated shell finds at intermediate settlements along rival proposed routes.",
-            "Repeat the original activity without recording any new outcomes or conditions.",
-            "Increase confidence in the initial interpretation while collecting no further evidence."
+            "Additional sites may support or challenge earlier links.",
+            "A named merchant carried the shell along one exact route.",
+            "Surviving artifacts support bounded inferences rather than a complete travel narrative.",
+            "Goods may pass through several exchanges before arriving."
           ],
-          "correctIndex": 1,
-          "explanation": "A focused follow-up can test the uncertainty by compare dated shell finds at intermediate settlements along rival proposed routes.",
+          "correctIndex": 0,
+          "explanation": "The hypothesis remains open to new evidence.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-08",
-          "type": "Unsupported inference",
-          "prompt": "Which claim most clearly exceeds the evidence supplied by \"Ancient Trade Routes\"?",
+          "type": "Guided close reading",
+          "prompt": "Which claim goes beyond the original discovery?",
           "choices": [
-            "The finds supported long-distance movement of goods but not one precise path.",
-            "A traded object does not uniquely reveal every stage of its journey.",
-            "One inland shell establishes the precise road and identity of every trader.",
-            "Researchers compared artifacts, dates, and geographic obstacles before proposing routes."
+            "They help establish context for when the shell reached a settlement.",
+            "A named merchant carried the shell along one exact route.",
+            "A marine object reached a place distant from its natural habitat.",
+            "A shell may be reused long after it was first collected."
           ],
-          "correctIndex": 2,
-          "explanation": "This absolute conclusion is unsupported: One inland shell establishes the precise road and identity of every trader. The passage instead supports bounded claims.",
+          "correctIndex": 1,
+          "explanation": "The surviving material cannot identify that person or journey.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-09",
-          "type": "Underlying assumption",
-          "prompt": "Which assumption is most relevant when considering whether the favorable outcome could persist?",
+          "type": "Guided close reading",
+          "prompt": "Why are dates of neighboring objects relevant?",
           "choices": [
-            "The original problem could never have existed.",
-            "The observations are unrelated to the action taken.",
-            "Any future conditions must be identical without needing examination.",
-            "Marine objects can reach inland settlements through exchange rather than local harvesting."
+            "Surviving artifacts support bounded inferences rather than a complete travel narrative.",
+            "Goods may pass through several exchanges before arriving.",
+            "They help establish context for when the shell reached a settlement.",
+            "Physical geography constrains plausible movement routes."
           ],
-          "correctIndex": 3,
-          "explanation": "The inference depends on the stated consideration: Marine objects can reach inland settlements through exchange rather than local harvesting.",
+          "correctIndex": 2,
+          "explanation": "Chronology narrows plausible explanations.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "RG15-10",
-          "type": "Alternative explanations",
-          "prompt": "Which alternative explanation could be investigated without contradicting the reported outcome?",
+          "type": "Guided close reading",
+          "prompt": "What is the text's central methodological claim?",
           "choices": [
-            "The object may have passed through several intermediaries rather than a direct trade route.",
-            "The passage contains no observations capable of informing any explanation.",
-            "The problem and method describe events that occurred after the stated outcome.",
-            "The findings logically exclude all influences not explicitly measured."
+            "A marine object reached a place distant from its natural habitat.",
+            "A shell may be reused long after it was first collected.",
+            "Dated intermediate finds consistent with the suggested path.",
+            "Surviving artifacts support bounded inferences rather than a complete travel narrative."
           ],
-          "correctIndex": 0,
-          "explanation": "The account does not rule out this competing possibility: The object may have passed through several intermediaries rather than a direct trade route.",
+          "correctIndex": 3,
+          "explanation": "Archaeologists distinguish object movement from route certainty.",
           "difficultyBand": "grade10-12",
-          "editorialStatus": "passage-grounded-templates-editorial-review-pending"
+          "editorialStatus": "individually-authored-editorial-review-pending"
         },
         {
           "id": "R15-PRV-01",
